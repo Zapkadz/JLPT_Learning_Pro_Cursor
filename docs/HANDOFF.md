@@ -16,8 +16,8 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Latest Relevant Commit
 
-`5d43ea8` — `docs: record GitHub remote and resolve N2-GIT-000`  
-Initial import: `0c7012e` — `chore: initial import of Kotoba with project memory`
+`ddae70d` — `docs: sync HANDOFF with pushed commits and clear git blocker`  
+Prior: `5d43ea8` (git remote notes), `0c7012e` (initial import)
 
 ## Current Objective
 
