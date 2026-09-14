@@ -2,21 +2,22 @@
 
 ## Last Updated
 
-2026-09-14 (local session establishing project memory)
+2026-09-14 (git initialized + pushed to GitHub)
 
 ## Project
 
 Kotoba — Japanese Learning (`kotoba-learning`)  
-Workspace path note: `JLPT_Learning Pro - Copy`
+Workspace path note: `JLPT_Learning Pro - Copy`  
+Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-**UNKNOWN — no `.git` directory in this workspace.**  
-`git status` / `git log` fail with `fatal: not a git repository`.
+`main` (tracks `origin/main`)
 
 ## Latest Relevant Commit
 
-**NONE — git unavailable.** Do not invent hashes.
+`0c7012e` — `chore: initial import of Kotoba with project memory`  
+(Follow-up memory sync commit may exist after this HANDOFF update.)
 
 ## Current Objective
 
@@ -80,14 +81,13 @@ See `docs/DECISIONS.md` (ADR-001 …). Summary:
 
 ## Known Blockers
 
-- No git repository in this copy.  
 - Awaiting user approval before Grammar N2 implementation.  
-- Unresolved product decisions: practice furigana scope; commit policy when user rules conflict with auto-commit workflow.
+- Unresolved product decisions: practice furigana scope; commit-only-when-asked vs workflow auto-commit — follow latest user instruction.
 
 ## Exact Next Action
 
-1. User: confirm whether to **initialize git** for this copy and whether to **approve Grammar N2 implementation**.  
-2. If N2 implementation approved: execute **N2-AUDIT-001** (persist audit lock in PROGRESS if anything still missing) then **N2-MAP-001** per `docs/PLAN.md`.  
+1. User: confirm whether to **approve Grammar N2 implementation**.  
+2. If approved: execute **N2-AUDIT-001** then **N2-MAP-001** per `docs/PLAN.md`.  
 3. Do **not** author Lessons 2–26 or change app business logic until that approval.  
 4. New AI sessions: run `docs/AI-BOOTSTRAP.md` and stop at `CONTEXT RESTORED — READY TO CONTINUE`.
 

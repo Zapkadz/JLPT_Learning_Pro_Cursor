@@ -206,7 +206,7 @@ From `package.json`:
 - Do **not** claim `expert` / teacher verified without independent review.
 - Reuse Kotoba architecture, DESIGN.md tokens, UX-CONTRACT owners; do not clone third-party branding.
 - Conversation history is **not** persistent memory — update `docs/HANDOFF.md` and related docs.
-- This workspace copy currently has **no `.git` directory** — version control must be restored before commit/push workflows.
+- Remote repository: `https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git` (default branch `main`).
 
 ## Important Documentation
 
@@ -237,4 +237,4 @@ From `package.json`:
 8. `docs/grammar-n2/*` (historical / module detail; defer to root PLAN/PROGRESS when they conflict on *active* status)  
 9. Implementation judgment  
 
-Git is authoritative for history **when a git repository exists**. As of 2026-09-14 this copy is **not** a git repo.
+Git is authoritative for history. This workspace tracks `origin/main` on GitHub.

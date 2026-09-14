@@ -9,7 +9,7 @@ Rule: **never** write targets as completed counts.
 - Grammar N2 Lesson 1 pilot: **shipped** (5 groups / 150 exercises, `agent_reviewed`).  
 - Grammar N2 Master Requirement: **present**; implementation plan analyzed; **coding not started** pending user approval.  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **NOT AVAILABLE** in this workspace copy (no `.git`).
+- Git: **AVAILABLE** — `main` → `origin/main` (`https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git`).
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -81,6 +81,9 @@ No application business logic changes.
 
 ## Blockers
 
-1. **No git** — blocks Master Requirement / workflow commit+push loop until user restores git.  
-2. **User approval** — Grammar N2 implementation tasks must not start until approved.  
-3. **Open product decisions** (from plan): furigana on JA→VI practice; confirm keep L1 pattern IDs; PLAN file location (resolved: root `docs/PLAN.md` is active queue); commit-only-when-asked vs auto-commit workflow — follow **latest user instruction**.
+1. **User approval** — Grammar N2 implementation tasks must not start until approved.  
+2. **Open product decisions** (from plan): furigana on JA→VI practice; confirm keep L1 pattern IDs; commit-only-when-asked vs auto-commit workflow — follow **latest user instruction**.
+
+### N2-GIT-000 (2026-09-14) — DONE
+
+Initialized git, initial commit `0c7012e`, pushed to `origin/main`.

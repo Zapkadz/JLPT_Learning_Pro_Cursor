@@ -10,7 +10,7 @@ Grammar N2 per Master Requirement — **awaiting user approval to implement**. P
 
 ## Current Milestone
 
-**Phase 0/1 Grammar N2** (N2-AUDIT-001 → N2-MAP-*) when user approves coding. Git restore (N2-GIT-000) is a separate blocker.
+**Phase 0/1 Grammar N2** (N2-AUDIT-001 → N2-MAP-*) when user approves coding. Git remote is configured (`N2-GIT-000` DONE).
 
 ## Status legend
 
@@ -38,7 +38,7 @@ Implementation of N2-* coding tasks requires **explicit user approval**. Until t
 
 | ID | Description | Status | Dependencies | Acceptance summary |
 |----|-------------|--------|--------------|-------------------|
-| N2-GIT-000 | Restore git repository / remote for this workspace copy | BLOCKED | User / environment | `git status` works; branch + remote known |
+| N2-GIT-000 | Restore git repository / remote for this workspace copy | DONE | User approved push | `main` tracks `origin/main` on github.com/Zapkadz/JLPT_Learning_Pro_Cursor |
 | N2-AUDIT-001 | Lock audit findings (141≠151 root cause, L1 counts, scale notes) into PROGRESS/HANDOFF | TODO | MEM-001 done; user OK to proceed docs/impl | Findings documented; no hard-coded 151→141 “fix” |
 | N2-MAP-001 | Canonical inventory skeleton: 26 lessons × 141 group IDs (keep L1 IDs) | TODO | N2-AUDIT-001 | SOURCE-MAPPING (or equivalent) lists 141; L1 IDs unchanged |
 | N2-MAP-002 | Map Tiếng Nhật Đơn Giản sources → groups (match status) | TODO | N2-MAP-001 | 141 rows have match status; L1 has source notes/URLs |
