@@ -1,0 +1,190 @@
+{
+  "id": "n2",
+  "title": "Shinkanzen · Ngữ pháp N2",
+  "targetGroups": 141,
+  "targetExercises": 4230,
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "number": 1,
+      "title": "Thời điểm · Ngay sau khi",
+      "groupCount": 5,
+      "published": true
+    },
+    {
+      "id": "lesson-02",
+      "number": 2,
+      "title": "Đang diễn ra · Tiến hành",
+      "groupCount": 6,
+      "published": false
+    },
+    {
+      "id": "lesson-03",
+      "number": 3,
+      "title": "Sau khi",
+      "groupCount": 5,
+      "published": false
+    },
+    {
+      "id": "lesson-04",
+      "number": 4,
+      "title": "Bắt đầu · Kết thúc · Khoảng thời gian",
+      "groupCount": 6,
+      "published": false
+    },
+    {
+      "id": "lesson-05",
+      "number": 5,
+      "title": "Giới hạn",
+      "groupCount": 4,
+      "published": false
+    },
+    {
+      "id": "lesson-06",
+      "number": 6,
+      "title": "Không chỉ · Thêm vào đó",
+      "groupCount": 5,
+      "published": false
+    },
+    {
+      "id": "lesson-07",
+      "number": 7,
+      "title": "Về · Đối với",
+      "groupCount": 5,
+      "published": false
+    },
+    {
+      "id": "lesson-08",
+      "number": 8,
+      "title": "Căn cứ · Tiêu chuẩn",
+      "groupCount": 5,
+      "published": false
+    },
+    {
+      "id": "lesson-09",
+      "number": 9,
+      "title": "Liên quan · Tương ứng",
+      "groupCount": 5,
+      "published": false
+    },
+    {
+      "id": "lesson-10",
+      "number": 10,
+      "title": "Liệt kê · Ví dụ",
+      "groupCount": 4,
+      "published": false
+    },
+    {
+      "id": "lesson-11",
+      "number": 11,
+      "title": "Bất kể · Bỏ qua",
+      "groupCount": 5,
+      "published": false
+    },
+    {
+      "id": "lesson-12",
+      "number": 12,
+      "title": "Phủ định mạnh · Phủ định một phần",
+      "groupCount": 5,
+      "published": false
+    },
+    {
+      "id": "lesson-13",
+      "number": 13,
+      "title": "Nêu chủ đề",
+      "groupCount": 5,
+      "published": false
+    },
+    {
+      "id": "lesson-14",
+      "number": 14,
+      "title": "Nhượng bộ · Đối lập",
+      "groupCount": 6,
+      "published": false
+    },
+    {
+      "id": "lesson-15",
+      "number": 15,
+      "title": "Giả định · Dù cho",
+      "groupCount": 6,
+      "published": false
+    },
+    {
+      "id": "lesson-16",
+      "number": 16,
+      "title": "Lý do (1)",
+      "groupCount": 5,
+      "published": false
+    },
+    {
+      "id": "lesson-17",
+      "number": 17,
+      "title": "Lý do (2)",
+      "groupCount": 5,
+      "published": false
+    },
+    {
+      "id": "lesson-18",
+      "number": 18,
+      "title": "Không thể · Khó khăn · Khả năng",
+      "groupCount": 6,
+      "published": false
+    },
+    {
+      "id": "lesson-19",
+      "number": 19,
+      "title": "Góc nhìn đánh giá",
+      "groupCount": 6,
+      "published": false
+    },
+    {
+      "id": "lesson-20",
+      "number": 20,
+      "title": "Kết quả",
+      "groupCount": 6,
+      "published": false
+    },
+    {
+      "id": "lesson-21",
+      "number": 21,
+      "title": "Nhấn mạnh · Nói nhẹ",
+      "groupCount": 6,
+      "published": false
+    },
+    {
+      "id": "lesson-22",
+      "number": 22,
+      "title": "Suy đoán",
+      "groupCount": 6,
+      "published": false
+    },
+    {
+      "id": "lesson-23",
+      "number": 23,
+      "title": "Cảm tưởng · Nhận định",
+      "groupCount": 7,
+      "published": false
+    },
+    {
+      "id": "lesson-24",
+      "number": 24,
+      "title": "Đề xuất · Ý chí",
+      "groupCount": 6,
+      "published": false
+    },
+    {
+      "id": "lesson-25",
+      "number": 25,
+      "title": "Cảm xúc mạnh",
+      "groupCount": 5,
+      "published": false
+    },
+    {
+      "id": "lesson-26",
+      "number": 26,
+      "title": "Mong muốn · Cảm thán",
+      "groupCount": 6,
+      "published": false
+    }
+  ]
+}

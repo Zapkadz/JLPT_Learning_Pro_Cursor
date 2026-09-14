@@ -1,0 +1,42 @@
+---
+description: Repository is persistent project memory across chats/accounts; keep HANDOFF/PLAN/PROGRESS factual.
+alwaysApply: true
+---
+
+# PROJECT MEMORY
+
+Conversation history is not persistent project memory. The repository is.
+
+## Before substantial development
+
+When relevant, read:
+
+1. `docs/HANDOFF.md`
+2. `docs/PLAN.md`
+3. `docs/PROGRESS.md`
+4. `docs/PROJECT-CONTEXT.md`
+5. `docs/DECISIONS.md`
+6. Requirement files for the active module (e.g. `docs/requirements/GRAMMAR-N2-MASTER-REQUIREMENT.md`)
+
+New account / empty chat: follow `docs/AI-BOOTSTRAP.md` before coding.
+
+Repository state and Git (when present) are authoritative over chat memory.
+
+## After a verified logical task
+
+1. Update `docs/PLAN.md` task status.
+2. Append facts to `docs/PROGRESS.md` (actuals only).
+3. Refresh `docs/HANDOFF.md` (branch, task, next action, verification, blockers).
+4. Add `docs/DECISIONS.md` only for durable decisions.
+5. Never report targets as completed counts.
+6. Do not fabricate tests, commits, or metrics.
+
+## HANDOFF.md must stay accurate
+
+Include: branch (or git-missing), phase, current task, last completed work, latest commit if any, verification state, blockers, exact next action.
+
+## Safety
+
+- Do not overwrite user changes.
+- Do not discard git history or user data to “simplify” docs.
+- Prefer fixing docs to match code when code is clearly source of truth.

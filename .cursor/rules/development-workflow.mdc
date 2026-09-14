@@ -1,0 +1,372 @@
+---
+description: Enforces a persistent plan-code-test-progress-git workflow for this project.
+alwaysApply: true
+---
+
+# DEVELOPMENT WORKFLOW
+
+You are responsible not only for writing code, but also for maintaining project execution state.
+
+The project must always have a clear record of:
+1. What we are trying to build.
+2. What has already been completed.
+3. What is currently being worked on.
+4. What needs to happen next.
+5. Whether the current implementation has been verified.
+
+Never rely only on conversation memory for project progress.
+
+Use these files as persistent project memory:
+
+- `docs/PLAN.md` — current implementation plan and task queue.
+- `docs/PROGRESS.md` — completed work, verification results, commits, and blockers.
+
+If either file does not exist, create it before substantial development work.
+
+---
+
+# 1. START OF EVERY DEVELOPMENT SESSION
+
+Before modifying code:
+
+1. Read:
+   - `DESIGN.md` if it exists.
+   - `README.md`.
+   - `docs/PLAN.md`.
+   - `docs/PROGRESS.md`.
+   - relevant source files.
+   - relevant tests.
+   - `package.json` when dependencies or scripts matter.
+
+2. Run:
+
+   `git status`
+
+3. Understand existing uncommitted changes before making new changes.
+
+4. Never overwrite or discard user changes.
+
+5. Determine the next unfinished task from `docs/PLAN.md`.
+
+If the requested work is not represented in the plan, update the plan first.
+
+---
+
+# 2. PLANNING
+
+Before implementing a feature or non-trivial fix, create or update the plan.
+
+Tasks must be small, concrete, and verifiable.
+
+Use this format:
+
+## Current Goal
+
+Short description of the current milestone.
+
+## Tasks
+
+- [ ] T001 — task description
+- [ ] T002 — task description
+- [ ] T003 — task description
+
+Each task should ideally be implementable and verifiable independently.
+
+Avoid vague tasks such as:
+
+- Improve frontend
+- Fix backend
+- Complete authentication
+
+Prefer:
+
+- Add validation to the login form
+- Add POST `/api/login` error handling
+- Add Playwright login success test
+- Verify mobile login layout
+
+Do not start several unrelated tasks simultaneously.
+
+---
+
+# 3. EXECUTION LOOP
+
+For each unfinished task, follow this exact loop:
+
+PLAN
+→ IMPLEMENT
+→ VERIFY
+→ UPDATE PROGRESS
+→ REVIEW DIFF
+→ COMMIT
+→ PUSH
+→ SELECT NEXT TASK
+
+Then repeat.
+
+Do not skip a stage.
+
+---
+
+# 4. IMPLEMENT
+
+Work on ONE logical task at a time.
+
+Before changing code:
+
+- inspect the relevant implementation;
+- identify existing patterns;
+- reuse existing utilities and components when appropriate;
+- avoid unnecessary abstractions;
+- avoid unrelated refactoring.
+
+Follow `karpathy-guidelines` at all times.
+
+Do not modify unrelated functionality merely because you noticed it.
+
+If another issue is discovered, add it to the plan instead of silently expanding the current task.
+
+---
+
+# 5. VERIFY
+
+A task is NOT complete just because the code was written.
+
+Perform the most relevant verification available.
+
+Examples:
+
+- TypeScript type check
+- lint
+- unit tests
+- integration tests
+- build
+- Playwright browser verification
+
+Prefer existing project scripts from `package.json`.
+
+For UI changes, when Playwright MCP is available:
+
+1. Start the application if necessary.
+2. Open the relevant page.
+3. Exercise the changed workflow.
+4. Check visible behavior.
+5. Check browser console errors when relevant.
+6. Check desktop and mobile layout when the change affects responsive UI.
+
+Never mark a task completed when verification failed.
+
+If verification cannot be performed, explicitly record why.
+
+---
+
+# 6. UPDATE PROJECT STATE
+
+After successful verification:
+
+Update `docs/PLAN.md`.
+
+Change:
+
+- [ ] T001
+
+to:
+
+- [x] T001
+
+Then update `docs/PROGRESS.md`.
+
+Record:
+
+- Task ID
+- What changed
+- Important files changed
+- Verification performed
+- Result
+- Important decisions
+- Remaining issues
+
+Keep entries concise.
+
+Example:
+
+## T014 — Vocabulary quiz answer validation
+
+Status: Complete
+
+Changes:
+- Added answer normalization.
+- Added kana-equivalence handling.
+- Updated quiz feedback state.
+
+Verification:
+- `npm test`: passed
+- `npm run build`: passed
+- Playwright quiz flow: passed
+
+---
+
+# 7. REVIEW BEFORE COMMIT
+
+Before every commit run:
+
+`git status`
+
+and inspect:
+
+`git diff`
+
+Check that:
+
+- only intended files changed;
+- no secrets are included;
+- no `.env` files or credentials are being committed;
+- generated or temporary files are not accidentally included;
+- unrelated changes are not mixed into the commit.
+
+Never use:
+
+- `git reset --hard`
+- `git clean -fd`
+- force push
+
+unless the user explicitly requests it.
+
+Never discard pre-existing user changes.
+
+---
+
+# 8. COMMIT
+
+After a task passes verification and progress files have been updated:
+
+Create one logical commit for that task.
+
+Prefer Conventional Commit style:
+
+- `feat: ...`
+- `fix: ...`
+- `refactor: ...`
+- `test: ...`
+- `docs: ...`
+- `chore: ...`
+
+Example:
+
+`feat: add vocabulary quiz answer validation`
+
+Do not create meaningless commits such as:
+
+`update`
+`changes`
+`fix stuff`
+
+Include the PLAN/PROGRESS update in the same commit when appropriate.
+
+---
+
+# 9. PUSH
+
+After a successful commit:
+
+1. Determine the current branch.
+2. Confirm a remote exists.
+3. Push the current branch to its configured remote.
+
+Normal behavior:
+
+`git push`
+
+For a new branch with no upstream:
+
+`git push -u origin <current-branch>`
+
+Never push with `--force` or `--force-with-lease` automatically.
+
+Never push secrets.
+
+If authentication, permissions, merge conflicts, branch protection, or remote errors prevent the push:
+
+- do not bypass them;
+- record the blocker in `docs/PROGRESS.md`;
+- tell the user clearly.
+
+---
+
+# 10. CONTINUE AUTOMATICALLY
+
+After successfully pushing a completed task:
+
+1. Re-read the unchecked tasks in `docs/PLAN.md`.
+2. Select the next logical task.
+3. Briefly state what will be done.
+4. Continue the execution loop.
+
+Do not stop merely because one subtask finished.
+
+Continue until:
+
+- all tasks in the current milestone are complete;
+- a user decision is required;
+- requirements are ambiguous in a way that materially affects implementation;
+- credentials or permissions are required;
+- a destructive operation would be required;
+- verification repeatedly fails and additional direction is needed.
+
+---
+
+# 11. WHEN THE PLAN IS COMPLETE
+
+When every task in the current milestone is complete:
+
+1. Run the broadest reasonable verification suite.
+2. Review `git status`.
+3. Ensure PLAN and PROGRESS reflect reality.
+4. Commit/push any final documentation update if needed.
+5. Summarize:
+   - what was completed;
+   - verification status;
+   - current branch;
+   - latest commit;
+   - known remaining issues.
+
+Then propose the NEXT milestone.
+
+Do not automatically invent and implement major new product features that were never requested.
+
+Wait for user approval before starting a new major milestone.
+
+---
+
+# 12. BLOCKERS
+
+If blocked:
+
+Do not repeatedly attempt random fixes.
+
+Record in `docs/PROGRESS.md`:
+
+- task;
+- blocker;
+- what was attempted;
+- relevant error;
+- recommended next action.
+
+Ask the user only when their decision or information is genuinely required.
+
+---
+
+# 13. SOURCE OF TRUTH
+
+Priority order:
+
+1. Explicit current user instruction
+2. Project requirements / DESIGN.md
+3. docs/PLAN.md
+4. Existing project architecture
+5. docs/PROGRESS.md
+6. Reasonable implementation judgment
+
+Conversation memory is NOT the source of truth for project status.
+
+Always prefer repository state and project documentation.
