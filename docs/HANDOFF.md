@@ -16,31 +16,31 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Latest Relevant Commit
 
-`0c7012e` — `chore: initial import of Kotoba with project memory`  
-(Follow-up memory sync commit may exist after this HANDOFF update.)
+`5d43ea8` — `docs: record GitHub remote and resolve N2-GIT-000`  
+Initial import: `0c7012e` — `chore: initial import of Kotoba with project memory`
 
 ## Current Objective
 
-1. Finish durable **project memory** so a new AI/account can continue from the repo alone.  
-2. After memory is in place and user approves: execute Grammar N2 plan against `docs/requirements/GRAMMAR-N2-MASTER-REQUIREMENT.md`.
+Await user approval, then execute Grammar N2 plan against `docs/requirements/GRAMMAR-N2-MASTER-REQUIREMENT.md`.
 
 ## Current Phase
 
-**M-MEM complete.** Next: Grammar N2 Phase 0/1 **after user approval**.  
+**M-MEM complete.** **N2-GIT-000 complete.** Next: Grammar N2 Phase 0/1 **after user approval**.  
 Grammar N2 coding phase: **not started**.
 
 ## Current Task
 
 `No active implementation task confirmed.`
 
-Next queued (not started): **N2-AUDIT-001** after user approves N2 implementation work; **N2-GIT-000** blocked until git exists.
+Next queued (not started): **N2-AUDIT-001** after user approves N2 implementation work.
 
 ## Last Completed Work
 
 - Repository context audit; Grammar N2 Master Requirement analysis + plan (no feature code).  
 - Metrics verified: L1 = 5×30 / 10+10+10; manifest 26 / 141 sum.  
 - `npm test`: **11/11 pass** (2026-09-14).  
-- **MEM-001 DONE:** root project memory docs + `project-memory.mdc` rule.
+- **MEM-001 DONE:** root project memory docs + `project-memory.mdc` rule.  
+- **N2-GIT-000 DONE:** git init, push to `origin/main` on GitHub.
 
 ## Current State
 
