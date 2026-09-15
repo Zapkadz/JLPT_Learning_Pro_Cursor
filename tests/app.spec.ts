@@ -1,4 +1,5 @@
 import { test, expect } from "@playwright/test";
+
 test("learner can import, review, complete a quiz and retain progress", async ({
   page,
 }) => {
@@ -35,21 +36,33 @@ test("learner can import, review, complete a quiz and retain progress", async ({
   await expect(
     page.getByRole("heading", { name: "Bạn đã hoàn thành lượt ôn này!" }),
   ).toBeVisible();
+
   await page.getByRole("link", { name: "Luyện thi JLPT", exact: true }).click();
+  await page.getByLabel("Số câu tối đa").selectOption("5");
   await page.getByRole("button", { name: "Bắt đầu luyện tập" }).click();
-  while (
-    await page
-      .getByRole("button", { name: "Câu tiếp", exact: true })
-      .isVisible()
-  ) {
+  await expect(page.getByText(/Câu 1 \/ \d+/)).toBeVisible();
+
+  for (;;) {
     await page.locator(".answer").first().click();
+    await expect(page.locator(".answer.selected")).toBeVisible();
+    const submitInControls = page
+      .locator(".quiz-controls")
+      .getByRole("button", { name: "Nộp bài", exact: true });
+    if (await submitInControls.isVisible()) {
+      await submitInControls.click();
+      break;
+    }
     await page.getByRole("button", { name: "Câu tiếp", exact: true }).click();
   }
-  await page.locator(".answer").first().click();
-  await page
-    .getByRole("button", { name: "Nộp bài", exact: true })
-    .first()
-    .click();
+
+  const confirmSubmit = page.getByRole("dialog").getByRole("button", {
+    name: "Nộp bài",
+    exact: true,
+  });
+  if (await confirmSubmit.isVisible().catch(() => false)) {
+    await confirmSubmit.click();
+  }
+
   await expect(page.locator(".result-summary")).toContainText("câu đúng");
   await page.getByRole("link", { name: "Tiến độ", exact: true }).click();
   await expect(page.locator(".stats-row")).toContainText("1 ngày");

@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-16 (N2-TEST-001 PR #6)
+2026-09-16 (app.spec e2e fix on `feat/fix-app-spec-e2e`)
 
 ## Project
 
@@ -11,32 +11,30 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/n2-test-001` (from `main` @ `fd3387e` — Merge PR #5 PROG-001)
+`feat/fix-app-spec-e2e` (from `main` @ `bcc1f4c` — Merge PR #6 TEST-001)
 
 ## Latest Relevant Commit
 
-`main` / `origin/main`: `fd3387e` — Merge PR #5 (N2-L01-PROG-001).  
-This branch: `1d04a9b` — test: add grammar Playwright journey and golden validators.  
-PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/6
+`main` / `origin/main`: `bcc1f4c` — Merge PR #6 (N2-TEST-001).  
+This branch: app.spec e2e fix (uncommitted until user asks).
 
 ## Current Objective
 
-**N2-TEST-001** complete (verified). Awaiting merge of PR #6. Next: user chooses **N2-L02-BATCH** (needs approval), **N2-L01-FURI-001** (needs decision), or fix legacy `app.spec`.
+Legacy full Playwright suite greened after PR #6 merge. Await commit/PR for this fix. Next product choice: **N2-L02-BATCH** (needs approval) or **N2-L01-FURI-001** (needs decision).
 
 ## Current Phase
 
-**Phase 1** — Golden validators + grammar Playwright **DONE** (in PR). Content still Lesson 1 only.
+**Phase 1** — Lesson 1 quality gate + e2e regression **DONE** (fix uncommitted). Content still Lesson 1 only.
 
 ## Current Task
 
-**N2-TEST-001** — **DONE**. PR #6 open.
+**app.spec e2e fix** — **DONE** (verified). Await commit/push/PR.
 
 ## Last Completed Work
 
-- PR #5 (PROG-001) merged to `main`.  
-- `tests/grammar.spec.ts` + Playwright `webServer` (temp DB).  
-- Golden template unit validators renamed.  
-- Commit `1d04a9b` pushed; PR #6 opened.
+- PR #6 (TEST-001) merged to `main`.  
+- Fixed `tests/app.spec.ts`: wait for selected answer; submit via quiz-controls; handle empty-answer confirm modal; use 5-question quiz.  
+- Full `npm run test:e2e` **2/2 pass**.
 
 ## Current State
 
@@ -48,9 +46,8 @@ PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/6
 
 | Check | State |
 |-------|--------|
-| `npm test` | **PASS** 14/14 |
-| `playwright tests/grammar.spec.ts` | **PASS** 1/1 |
-| full `test:e2e` | **FAIL** — legacy `app.spec` |
+| `npm run test:e2e` | **PASS** 2/2 |
+| Lesson revision | **5** |
 
 ## Known Blockers
 
@@ -59,16 +56,16 @@ PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/6
 
 ## Exact Next Action
 
-1. Merge PR #6 (`feat/n2-test-001`).  
-2. Then user decides: **N2-L02-BATCH** vs **N2-L01-FURI-001** vs fix `app.spec`.  
+1. Commit (+ push/PR) `feat/fix-app-spec-e2e` when user asks.  
+2. After merge: user chooses **N2-L02-BATCH** (approval) vs **N2-L01-FURI-001** (decision).  
 3. Do **not** import Lessons 2–26 JSON until approved.
 
 ## Files To Read Before Continuing
 
-1. `tests/grammar.spec.ts`  
-2. `playwright.config.ts`  
-3. `docs/PLAN.md`  
-4. Master Requirement §§63 / §71 if starting L02 or FURI
+1. `tests/app.spec.ts`  
+2. `docs/PLAN.md`  
+3. Master Requirement §71 if starting L02  
+4. Furigana sections if starting FURI
 
 ## Safety Notes
 
