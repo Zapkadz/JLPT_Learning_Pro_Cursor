@@ -600,8 +600,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kagirazu-khong-chi-ma-ca-khong-chi-rieng-ma-ca/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 6課-1 (N2-MAP-002 L6–10)."
     },
     {
@@ -620,8 +620,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-nomi-narazu-khong-chi/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 6課-2 (N2-MAP-002 L6–10)."
     },
     {
@@ -640,8 +640,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-bakarika-khong-chi-ma-con/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 6課-3 (N2-MAP-002 L6–10)."
     },
     {
@@ -660,8 +660,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-hamoto-yori-thi-la-duong-nhien-tat-nhien-roi-thi-da-danh/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 6課-4 (N2-MAP-002 L6–10)."
     },
     {
@@ -681,8 +681,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-ueni-hon-nua-ben-canh-do-them-vao-do-da-lai-con-khong-chima-con/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 6課-5 additive 上に (not 上で from lesson 3) (N2-MAP-002 L6–10)."
     },
     {
@@ -702,8 +702,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-nikanshite-lien-quan-den/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 7課-1; TNĐG under N3 series (N2-MAP-002 L6–10)."
     },
     {
@@ -723,8 +723,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-o-megutte-xoay-quanh-xung-quanh/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 7課-2 (N2-MAP-002 L6–10)."
     },
     {
@@ -744,8 +744,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kakete-wa-ni-kakete-mo-ve-mat-noi-ve-trong-linh-vuc-thi/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 7課-3 (expertise). Not から～にかけて time-range article (N2-MAP-002 L6–10)."
     },
     {
@@ -765,8 +765,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-nitaishite-nitaisuru-doi-voi/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 7課-4; TNĐG under N3 series (N2-MAP-002 L6–10)."
     },
     {
@@ -786,8 +786,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kotaete-theo-dap-ung-dap-lai/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 7課-5 (N2-MAP-002 L6–10)."
     },
     {
@@ -807,8 +807,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-womotoni-dua-tren-can-cu-tren/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 8課-1 (N2-MAP-002 L6–10)."
     },
     {
@@ -829,8 +829,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-nimotozuite-nimotozuki-dua-tren-dua-vao/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 8課-2 (N2-MAP-002 L6–10)."
     },
     {
@@ -850,8 +850,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-sotte-theo-men-theo-doc-theo-dua-theo/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 8課-3 (N2-MAP-002 L6–10)."
     },
     {
@@ -871,8 +871,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-no-moto-de-no-moto-ni-duoi-su-nho-dua-vao/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 8課-4 (N2-MAP-002 L6–10)."
     },
     {
@@ -893,8 +893,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-muke-danh-cho-huong-den/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 8課-5. に向けて article not used (different pattern) (N2-MAP-002 L6–10)."
     },
     {
@@ -916,8 +916,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-nishitagatte-nishitagai-theo-cang-cang-di-cung-voi-thi/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen merges pair; two TNĐG articles (N2-MAP-002 L6–10)."
     },
     {
@@ -940,8 +940,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-totomoni-cung-voi-dong-thoi/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen merges pair; two TNĐG articles (N2-MAP-002 L6–10)."
     },
     {
@@ -963,8 +963,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-shidai-de-wa-tuy-thuoc-vao-thi-cung-co-khi-cung-co-the/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 9課-3 ‘depends on’. As-soon-as 次第 is lesson 3 (N2-MAP-002 L6–10)."
     },
     {
@@ -984,8 +984,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-ojite-dua-vao-tuy-theo-phu-thuoc-vao-tuong-ung-voi/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 9課-4 (N2-MAP-002 L6–10)."
     },
     {
@@ -1005,8 +1005,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-tsuke-ni-tsukete-cu-moi-lan-la-lai-he-la/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 9課-5 (N2-MAP-002 L6–10)."
     },
     {
@@ -1025,8 +1025,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-yara-yara-vua-vua-nao-la-nao-la/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 10課-1. Not のやら／ものやら article (N2-MAP-002 L6–10)."
     },
     {
@@ -1045,8 +1045,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-n1-to-iu-ka-to-iu-ka-co-the-noi-la-cung-co-the-noi-la-vua-co-ve-nhu-vua-co-ve-nhu/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 10課-2. Related N3 というより／というか not primary here (N2-MAP-002 L6–10)."
     },
     {
@@ -1068,8 +1068,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-shiro-ni-shiro-ni-seyo-ni-seyo-du-la-hay-du-co/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 10課-3 listing/concession pair forms; two TNĐG articles (N2-MAP-002 L6–10)."
     },
     {
@@ -1088,8 +1088,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-to-itta-vi-du-nhu-nhung-thu-nhu/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 10課-4 (examples like…). Not といったら topic article (N2-MAP-002 L6–10)."
     },
     {

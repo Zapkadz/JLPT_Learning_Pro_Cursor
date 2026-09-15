@@ -1,16 +1,16 @@
 # PLAN — Kotoba active task queue
 
-Last updated: 2026-09-15  
+Last updated: 2026-09-16  
 This file is the **active** task source of truth for agents.  
 Module design history remains in `docs/grammar-n2/PLAN.md` (do not treat that file as the live queue).
 
 ## Current Goal
 
-Grammar N2 per Master Requirement. **N2-L02-BATCH DONE** (await commit). Next: **N2-L06-BATCH** (needs approval) or **N2-L01-FURI-001** (needs furigana decision).
+Grammar N2 per Master Requirement. **N2-L06-BATCH DONE** (Lessons 6–10). Next after merge: **N2-L11-BATCH** (Lessons 11–15) — approved to start post-merge. **N2-L01-FURI-001** still needs furigana decision.
 
 ## Current Milestone
 
-**Phase 1+ Grammar N2** — Lessons 1–5 published; awaiting L6+ / furigana decision.
+**Phase 1+ Grammar N2** — Lessons 1–10 on `feat/n2-l06-batch`; after merge → N2-L11-BATCH.
 
 ## Status legend
 
@@ -52,7 +52,7 @@ Implementation of N2-* coding tasks requires **explicit user approval**. Until t
 | N2-TEST-001 | Golden template validators + representative Playwright grammar journey | DONE | N2-L01-* | `npm test` 14/14; grammar e2e 1/1; merged PR #6 |
 | N2-E2E-001 | Fix legacy `app.spec` under Playwright webServer | DONE | N2-TEST-001 | Full `test:e2e` 2/2 |
 | N2-L02-BATCH | Lessons 2–5 content + exercises + validate | DONE | N2-TEST-001 | 21 groups / 630 ex; §71 validators; published |
-| N2-L06-BATCH | Lessons 6–10 | TODO | N2-L02-BATCH | Same |
+| N2-L06-BATCH | Lessons 6–10 | DONE | N2-L02-BATCH | 24 groups / 720 ex; §71 validators; published (commit/PR pending) |
 | N2-L11-BATCH | Lessons 11–15 | TODO | N2-L06-BATCH | Same |
 | N2-L16-BATCH | Lessons 16–20 | TODO | N2-L11-BATCH | Same |
 | N2-L21-BATCH | Lessons 21–26 | TODO | N2-L16-BATCH | Same |

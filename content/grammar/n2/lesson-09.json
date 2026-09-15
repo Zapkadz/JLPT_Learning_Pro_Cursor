@@ -1,0 +1,3825 @@
+{
+  "id": "lesson-09",
+  "titleJa": "対応・比例",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 9. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L06-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l09-g01",
+      "title": "〜につれて・〜にしたがって",
+      "meaning": "Càng… càng… / theo đà… thì…",
+      "variants": [
+        "につれて",
+        "にしたがって",
+        "にしたがい"
+      ],
+      "structures": [
+        "Vる／N ＋ につれて",
+        "Vる／N ＋ にしたがって／にしたがい"
+      ],
+      "explanation": "A thay đổi thì B cũng thay đổi theo tỷ lệ/đồng thời; にしたがって còn mang nghĩa 'theo (chỉ thị)'.",
+      "usage": "Mô tả xu hướng thay đổi theo thời gian hoặc mức độ.",
+      "cautions": [
+        "Hai vế thường cùng chiều thay đổi.",
+        "にしたがって có thêm nghĩa tuân theo lệnh/quy tắc."
+      ],
+      "contrast": "につれて／にしたがって ≈ càng… càng. Gần に伴って; khác に応じて (tùy theo).",
+      "examples": [
+        {
+          "ja": "山を上るにつれて景色が変わった。",
+          "reading": "やまをのぼるにつれてけしきがかわった。",
+          "vi": "Càng lên núi cảnh càng đổi.",
+          "ruby": [
+            {
+              "text": "山",
+              "reading": "やま"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "上",
+              "reading": "のぼ"
+            },
+            {
+              "text": "る"
+            },
+            {
+              "text": "につれて"
+            },
+            {
+              "text": "景色",
+              "reading": "けしき"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わった。"
+            }
+          ]
+        },
+        {
+          "ja": "経済成長にしたがって生活が豊かになった。",
+          "reading": "けいざいせいちょうにしたがってせいかつがゆたかになった。",
+          "vi": "Theo đà tăng trưởng kinh tế, đời sống giàu hơn.",
+          "ruby": [
+            {
+              "text": "経済",
+              "reading": "けいざい"
+            },
+            {
+              "text": "成長",
+              "reading": "せいちょう"
+            },
+            {
+              "text": "にしたがって"
+            },
+            {
+              "text": "生活",
+              "reading": "せいかつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "豊",
+              "reading": "ゆた"
+            },
+            {
+              "text": "かになった。"
+            }
+          ]
+        },
+        {
+          "ja": "指示にしたがって作業してください。",
+          "reading": "しじにしたがってさぎょうしてください。",
+          "vi": "Hãy làm việc theo chỉ thị.",
+          "ruby": [
+            {
+              "text": "指示",
+              "reading": "しじ"
+            },
+            {
+              "text": "にしたがって"
+            },
+            {
+              "text": "作業",
+              "reading": "さぎょう"
+            },
+            {
+              "text": "してください。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 55,
+        "printedPage": 42,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-ni-tsurete-cang-cang/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-nishitagatte-nishitagai-theo-cang-cang-di-cung-voi-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l09-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Càng lớn tuổi sức khỏe càng yếu.",
+          "answers": [
+            "年を取るにつれて体力が衰える。"
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Càng về tối đường càng vắng.",
+          "answers": [
+            "夜になるにつれて道が静かになる。"
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Theo đà học, từ vựng tăng.",
+          "answers": [
+            "勉強するにしたがって語彙が増える。"
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Càng lên cao không khí càng lạnh.",
+          "answers": [
+            "高くなるにつれて気温が下がる。"
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Theo chỉ dẫn của hướng dẫn viên đi.",
+          "answers": [
+            "案内にしたがって進んでください。"
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Càng luyện tập kỹ năng càng lên.",
+          "answers": [
+            "練習するにつれて上達する。"
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Theo đà đô thị hóa dân số tăng.",
+          "answers": [
+            "都市化にしたがって人口が増えた。"
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Càng đọc sách hiểu biết càng rộng.",
+          "answers": [
+            "本を読むにつれて知識が広がる。"
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Theo quy tắc an toàn thao tác.",
+          "answers": [
+            "ルールにしたがって操作する。"
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Càng gần kỳ thi càng lo.",
+          "answers": [
+            "試験が近づくにつれて不安になる。"
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "季節が進むにつれて花が咲く。",
+          "answers": [
+            "Theo mùa tiến triển hoa nở."
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "経験を積むにしたがって判断が速くなる。",
+          "answers": [
+            "Càng tích lũy kinh nghiệm phán đoán càng nhanh."
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "時間がたつにつれて痛みが引いた。",
+          "answers": [
+            "Càng để thời gian đau càng giảm."
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "マニュアルにしたがって組み立てる。",
+          "answers": [
+            "Lắp ráp theo sổ tay."
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "収入が増えるにつれて支出も増える。",
+          "answers": [
+            "Thu nhập tăng thì chi tiêu cũng tăng."
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "技術が進歩するにしたがって生活が便利になる。",
+          "answers": [
+            "Công nghệ tiến bộ thì đời sống tiện hơn."
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "暗くなるにつれて街灯がつく。",
+          "answers": [
+            "Trời tối dần thì đèn đường bật."
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "指示にしたがって避難した。",
+          "answers": [
+            "Sơ tán theo chỉ thị."
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "慣れるにつれて緊張が解けた。",
+          "answers": [
+            "Càng quen thì hết căng thẳng."
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "需要が高まるにしたがって価格が上がった。",
+          "answers": [
+            "Nhu cầu tăng thì giá tăng."
+          ],
+          "hint": "V／N ＋ につれて／にしたがって",
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-order-01",
+          "mode": "order",
+          "prompt": "Càng lên núi cảnh càng đổi. （luyện）",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "上る"
+            },
+            {
+              "id": "1",
+              "text": "につれて"
+            },
+            {
+              "id": "2",
+              "text": "景色が"
+            },
+            {
+              "id": "3",
+              "text": "変わる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につれて／にしたがって",
+          "answers": [
+            "上るにつれて景色が変わる。"
+          ],
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-order-02",
+          "mode": "order",
+          "prompt": "Theo tăng trưởng đời sống giàu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "成長に"
+            },
+            {
+              "id": "1",
+              "text": "したがって"
+            },
+            {
+              "id": "2",
+              "text": "生活が"
+            },
+            {
+              "id": "3",
+              "text": "豊かだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につれて／にしたがって",
+          "answers": [
+            "成長にしたがって生活が豊かだ。"
+          ],
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-order-03",
+          "mode": "order",
+          "prompt": "Làm theo chỉ thị.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "指示に"
+            },
+            {
+              "id": "1",
+              "text": "したがって"
+            },
+            {
+              "id": "2",
+              "text": "作業を"
+            },
+            {
+              "id": "3",
+              "text": "する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につれて／にしたがって",
+          "answers": [
+            "指示にしたがって作業をする。"
+          ],
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-order-04",
+          "mode": "order",
+          "prompt": "Càng lớn sức khỏe yếu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "年を取る"
+            },
+            {
+              "id": "1",
+              "text": "につれて"
+            },
+            {
+              "id": "2",
+              "text": "体力が"
+            },
+            {
+              "id": "3",
+              "text": "落ちる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につれて／にしたがって",
+          "answers": [
+            "年を取るにつれて体力が落ちる。"
+          ],
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-order-05",
+          "mode": "order",
+          "prompt": "Càng tối đường càng vắng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "夜に"
+            },
+            {
+              "id": "1",
+              "text": "なるにつれ"
+            },
+            {
+              "id": "2",
+              "text": "道が"
+            },
+            {
+              "id": "3",
+              "text": "静かだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につれて／にしたがって",
+          "answers": [
+            "夜になるにつれ道が静かだ。"
+          ],
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-order-06",
+          "mode": "order",
+          "prompt": "Càng luyện càng tiến bộ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "練習する"
+            },
+            {
+              "id": "1",
+              "text": "につれて"
+            },
+            {
+              "id": "2",
+              "text": "上達が"
+            },
+            {
+              "id": "3",
+              "text": "早い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につれて／にしたがって",
+          "answers": [
+            "練習するにつれて上達が早い。"
+          ],
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-order-07",
+          "mode": "order",
+          "prompt": "Theo quy tắc thao tác.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "規則に"
+            },
+            {
+              "id": "1",
+              "text": "したがって"
+            },
+            {
+              "id": "2",
+              "text": "操作を"
+            },
+            {
+              "id": "3",
+              "text": "行う。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につれて／にしたがって",
+          "answers": [
+            "規則にしたがって操作を行う。"
+          ],
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-order-08",
+          "mode": "order",
+          "prompt": "Càng gần thi càng lo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "近づく"
+            },
+            {
+              "id": "1",
+              "text": "につれて"
+            },
+            {
+              "id": "2",
+              "text": "不安が"
+            },
+            {
+              "id": "3",
+              "text": "増す。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につれて／にしたがって",
+          "answers": [
+            "近づくにつれて不安が増す。"
+          ],
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-order-09",
+          "mode": "order",
+          "prompt": "Thu tăng chi cũng tăng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "増える"
+            },
+            {
+              "id": "1",
+              "text": "につれて"
+            },
+            {
+              "id": "2",
+              "text": "支出も"
+            },
+            {
+              "id": "3",
+              "text": "増える。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につれて／にしたがって",
+          "answers": [
+            "増えるにつれて支出も増える。"
+          ],
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g01-order-10",
+          "mode": "order",
+          "prompt": "Sơ tán theo chỉ thị.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "指示に"
+            },
+            {
+              "id": "1",
+              "text": "したがって"
+            },
+            {
+              "id": "2",
+              "text": "避難を"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につれて／にしたがって",
+          "answers": [
+            "指示にしたがって避難をした。"
+          ],
+          "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l09-g02",
+      "title": "〜に伴って・〜とともに",
+      "meaning": "Cùng với… / đồng thời với…",
+      "variants": [
+        "に伴って",
+        "に伴い",
+        "に伴う",
+        "とともに"
+      ],
+      "structures": [
+        "N／Vる ＋ に伴って／に伴い／に伴う",
+        "N／Vる ＋ とともに"
+      ],
+      "explanation": "A xảy ra thì B đi kèm; とともに còn nghĩa 'cùng với người/việc'.",
+      "usage": "Tin tức, phân tích thay đổi xã hội; hợp tác cùng ai đó.",
+      "cautions": [
+        "に伴う修飾 N (開発に伴う問題).",
+        "とともに rộng nghĩa hơn (cùng làm với ai)."
+      ],
+      "contrast": "に伴って／とともに ≈ cùng với. Gần につれて; とともに thêm 'cùng người'.",
+      "examples": [
+        {
+          "ja": "人口増加に伴って交通が混雑した。",
+          "reading": "じんこうぞうかにともなってこうつうがこんざつした。",
+          "vi": "Cùng với tăng dân số, giao thông tắc.",
+          "ruby": [
+            {
+              "text": "人口",
+              "reading": "じんこう"
+            },
+            {
+              "text": "増加",
+              "reading": "ぞうか"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "伴",
+              "reading": "ともな"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "交通",
+              "reading": "こうつう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "混雑",
+              "reading": "こんざつ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        },
+        {
+          "ja": "家族とともに田舎へ引っ越した。",
+          "reading": "かぞくとともにいなかへひっこした。",
+          "vi": "Chuyển về quê cùng gia đình.",
+          "ruby": [
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "とともに"
+            },
+            {
+              "text": "田舎",
+              "reading": "いなか"
+            },
+            {
+              "text": "へ"
+            },
+            {
+              "text": "引",
+              "reading": "ひ"
+            },
+            {
+              "text": "っ越した。"
+            }
+          ]
+        },
+        {
+          "ja": "時代とともに価値観が変わる。",
+          "reading": "じだいとともにかちかんがかわる。",
+          "vi": "Cùng với thời đại, giá trị quan thay đổi.",
+          "ruby": [
+            {
+              "text": "時代",
+              "reading": "じだい"
+            },
+            {
+              "text": "とともに"
+            },
+            {
+              "text": "価値観",
+              "reading": "かちかん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わる。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 55,
+        "printedPage": 42,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-ni-tomonatte-ni-tomonai-ni-tomonau-cung-voi-dong-thoi-voi/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-totomoni-cung-voi-dong-thoi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l09-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Cùng với phát triển kinh tế ô nhiễm tăng.",
+          "answers": [
+            "経済発展に伴って公害が増えた。"
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Cùng với tuổi già bệnh tăng.",
+          "answers": [
+            "老化に伴って病気が増える。"
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Tôi học cùng bạn.",
+          "answers": [
+            "友人とともに勉強する。"
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Cùng với mở cửa cửa hàng đông hơn.",
+          "answers": [
+            "開店に伴って客が増えた。"
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Cùng với cải cách quy tắc thay đổi.",
+          "answers": [
+            "改革とともにルールが変わった。"
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Cùng với đô thị hóa nông thôn trống.",
+          "answers": [
+            "都市化に伴って過疎が進んだ。"
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Làm việc cùng đồng nghiệp.",
+          "answers": [
+            "同僚とともに働く。"
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Cùng với tăng nhiệt độ tiêu thụ điện tăng.",
+          "answers": [
+            "気温上昇に伴って電力消費が増える。"
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Cùng với toàn cầu hóa cạnh tranh gay gắt.",
+          "answers": [
+            "グローバル化とともに競争が激しくなった。"
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Cùng với kết hôn chuyển nhà.",
+          "answers": [
+            "結婚とともに住まいを変えた。"
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "開発に伴う環境問題が指摘された。",
+          "answers": [
+            "Vấn đề môi trường đi kèm phát triển bị chỉ ra."
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "地震に伴って津波の心配がある。",
+          "answers": [
+            "Cùng với động đất có lo sóng thần."
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "先生とともに研究を発表した。",
+          "answers": [
+            "Công bố nghiên cứu cùng thầy."
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "円安に伴って輸入コストが上がった。",
+          "answers": [
+            "Cùng với yên yếu chi phí nhập tăng."
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "成長とともに責任も増える。",
+          "answers": [
+            "Cùng với trưởng thành trách nhiệm cũng tăng."
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "閉店に伴い従業員を配置転換した。",
+          "answers": [
+            "Cùng với đóng cửa đã điều chuyển nhân viên."
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "彼とともにプロジェクトを進める。",
+          "answers": [
+            "Tiến hành dự án cùng anh ấy."
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "制度変更に伴って手続きが増えた。",
+          "answers": [
+            "Cùng với đổi chế độ thủ tục tăng."
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "夜が更けるとともに寒くなった。",
+          "answers": [
+            "Cùng với đêm khuya trời lạnh hơn."
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "留学とともに視野が広がった。",
+          "answers": [
+            "Cùng với du học tầm nhìn mở rộng."
+          ],
+          "hint": "N／V ＋ に伴って／とともに",
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-order-01",
+          "mode": "order",
+          "prompt": "Cùng tăng dân số giao thông tắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "増加に"
+            },
+            {
+              "id": "1",
+              "text": "伴って"
+            },
+            {
+              "id": "2",
+              "text": "交通が"
+            },
+            {
+              "id": "3",
+              "text": "混む。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N／V ＋ に伴って／とともに",
+          "answers": [
+            "増加に伴って交通が混む。"
+          ],
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-order-02",
+          "mode": "order",
+          "prompt": "Chuyển nhà cùng gia đình.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "家族と"
+            },
+            {
+              "id": "1",
+              "text": "ともに"
+            },
+            {
+              "id": "2",
+              "text": "田舎へ"
+            },
+            {
+              "id": "3",
+              "text": "移った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N／V ＋ に伴って／とともに",
+          "answers": [
+            "家族とともに田舎へ移った。"
+          ],
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-order-03",
+          "mode": "order",
+          "prompt": "Giá trị đổi cùng thời đại.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "時代と"
+            },
+            {
+              "id": "1",
+              "text": "ともに"
+            },
+            {
+              "id": "2",
+              "text": "価値観が"
+            },
+            {
+              "id": "3",
+              "text": "変わる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N／V ＋ に伴って／とともに",
+          "answers": [
+            "時代とともに価値観が変わるのだ。"
+          ],
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-order-04",
+          "mode": "order",
+          "prompt": "Ô nhiễm tăng cùng phát triển.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "発展に"
+            },
+            {
+              "id": "1",
+              "text": "伴って"
+            },
+            {
+              "id": "2",
+              "text": "公害が"
+            },
+            {
+              "id": "3",
+              "text": "増えた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N／V ＋ に伴って／とともに",
+          "answers": [
+            "発展に伴って公害が増えた。"
+          ],
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-order-05",
+          "mode": "order",
+          "prompt": "Học cùng bạn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "友人と"
+            },
+            {
+              "id": "1",
+              "text": "ともに"
+            },
+            {
+              "id": "2",
+              "text": "勉強を"
+            },
+            {
+              "id": "3",
+              "text": "する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N／V ＋ に伴って／とともに",
+          "answers": [
+            "友人とともに勉強をする。"
+          ],
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-order-06",
+          "mode": "order",
+          "prompt": "Khách tăng cùng mở cửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "開店に"
+            },
+            {
+              "id": "1",
+              "text": "伴って"
+            },
+            {
+              "id": "2",
+              "text": "客が"
+            },
+            {
+              "id": "3",
+              "text": "増えた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N／V ＋ に伴って／とともに",
+          "answers": [
+            "開店に伴って客が増えた。"
+          ],
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-order-07",
+          "mode": "order",
+          "prompt": "Quy tắc đổi cùng cải cách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "改革と"
+            },
+            {
+              "id": "1",
+              "text": "ともに"
+            },
+            {
+              "id": "2",
+              "text": "規則が"
+            },
+            {
+              "id": "3",
+              "text": "変わった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N／V ＋ に伴って／とともに",
+          "answers": [
+            "改革とともに規則が変わった。"
+          ],
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-order-08",
+          "mode": "order",
+          "prompt": "Làm cùng đồng nghiệp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "同僚と"
+            },
+            {
+              "id": "1",
+              "text": "ともに"
+            },
+            {
+              "id": "2",
+              "text": "仕事を"
+            },
+            {
+              "id": "3",
+              "text": "進める。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N／V ＋ に伴って／とともに",
+          "answers": [
+            "同僚とともに仕事を進める。"
+          ],
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-order-09",
+          "mode": "order",
+          "prompt": "Chi phí tăng cùng yên yếu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "円安に"
+            },
+            {
+              "id": "1",
+              "text": "伴って"
+            },
+            {
+              "id": "2",
+              "text": "コストが"
+            },
+            {
+              "id": "3",
+              "text": "上がった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N／V ＋ に伴って／とともに",
+          "answers": [
+            "円安に伴ってコストが上がった。"
+          ],
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g02-order-10",
+          "mode": "order",
+          "prompt": "Tầm nhìn mở cùng du học.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "留学と"
+            },
+            {
+              "id": "1",
+              "text": "ともに"
+            },
+            {
+              "id": "2",
+              "text": "視野が"
+            },
+            {
+              "id": "3",
+              "text": "広がった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N／V ＋ に伴って／とともに",
+          "answers": [
+            "留学とともに視野が広がった。"
+          ],
+          "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l09-g03",
+      "title": "〜次第だ",
+      "meaning": "Tùy thuộc vào… / do… quyết định",
+      "variants": [
+        "次第だ",
+        "次第で",
+        "次第です"
+      ],
+      "structures": [
+        "N ＋ 次第だ",
+        "N ＋ 次第で",
+        "N ＋ 次第です"
+      ],
+      "explanation": "Kết quả phụ thuộc vào N; 次第で nêu 'tùy theo N thì…'. Đây là nghĩa 'depends on', khác 次第 'ngay khi' ở bài 3.",
+      "usage": "Nhấn yếu tố quyết định kết quả.",
+      "cautions": [
+        "Không nhầm với Vます＋次第 (ngay khi) của Lesson 3.",
+        "次第だ thường kết thúc câu: ～は君次第だ."
+      ],
+      "contrast": "次第だ ≈ tùy thuộc. Khác に応じて (đáp ứng tương ứng) và Lesson 3 次第.",
+      "examples": [
+        {
+          "ja": "成功するかどうかは努力次第だ。",
+          "reading": "せいこうするかどうかはどりょくしだいだ。",
+          "vi": "Thành công hay không là tùy ở nỗ lực.",
+          "ruby": [
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "するかどうかは"
+            },
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "天気次第で予定を変える。",
+          "reading": "てんきしだいでよていをかえる。",
+          "vi": "Tùy thời tiết mà đổi lịch.",
+          "ruby": [
+            {
+              "text": "天気",
+              "reading": "てんき"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "予定",
+              "reading": "よてい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "える。"
+            }
+          ]
+        },
+        {
+          "ja": "採用は面接の結果次第です。",
+          "reading": "さいようはめんせつのけっかしだいです。",
+          "vi": "Tuyển dụng tùy kết quả phỏng vấn.",
+          "ruby": [
+            {
+              "text": "採用",
+              "reading": "さいよう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "面接",
+              "reading": "めんせつ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "です。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 55,
+        "printedPage": 42,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-shidai-da-shidai-desu-do-do-do/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-shidai-de-wa-tuy-thuoc-vao-thi-cung-co-khi-cung-co-the/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l09-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Đậu hay không tùy ở cách học của bạn.",
+          "answers": [
+            "合格できるかは君の勉強次第だ。"
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tùy ngân sách mà chọn khách sạn.",
+          "answers": [
+            "予算次第でホテルを選ぶ。"
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Giá cả tùy cung cầu.",
+          "answers": [
+            "価格は需給次第だ。"
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Tùy tình hình mà hủy sự kiện.",
+          "answers": [
+            "状況次第でイベントを中止する。"
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Thăng tiến tùy thành tích.",
+          "answers": [
+            "昇進は実績次第だ。"
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Tùy sức khỏe mà tham gia marathon.",
+          "answers": [
+            "体調次第でマラソンに出る。"
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Chất lượng tùy nguyên liệu.",
+          "answers": [
+            "品質は材料次第だ。"
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tùy số lượng mà giảm giá.",
+          "answers": [
+            "数量次第で割引する。"
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Kế hoạch tùy phê duyệt của giám đốc.",
+          "answers": [
+            "計画は社長の承認次第だ。"
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Tùy giao thông mà đến muộn.",
+          "answers": [
+            "交通次第で遅れることもある。"
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "勝敗は運次第だと言われる。",
+          "answers": [
+            "Người ta nói thắng thua tùy vận may."
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "返事次第で次の予定を決める。",
+          "answers": [
+            "Tùy câu trả lời mà quyết lịch tiếp."
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "味は火加減次第で変わる。",
+          "answers": [
+            "Vị thay đổi tùy độ lửa."
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "契約は条件次第で結べる。",
+          "answers": [
+            "Hợp đồng có thể ký tùy điều kiện."
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "売上は宣伝次第で伸びる。",
+          "answers": [
+            "Doanh số tăng tùy quảng cáo."
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "安全性は管理次第だ。",
+          "answers": [
+            "An toàn tùy ở quản lý."
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "行き先は気分次第で決める。",
+          "answers": [
+            "Đích đến quyết tùy tâm trạng."
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "評価は提出物の完成度次第です。",
+          "answers": [
+            "Đánh giá tùy độ hoàn thiện bài nộp."
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "参加は本人の意思次第だ。",
+          "answers": [
+            "Tham gia tùy ý bản thân."
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "納期は工場の都合次第で延びる。",
+          "answers": [
+            "Hạn giao có thể trễ tùy nhà máy."
+          ],
+          "hint": "N ＋ 次第だ／次第で",
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-order-01",
+          "mode": "order",
+          "prompt": "Thành công tùy nỗ lực.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力"
+            },
+            {
+              "id": "1",
+              "text": "次第だ"
+            },
+            {
+              "id": "2",
+              "text": "と言って"
+            },
+            {
+              "id": "3",
+              "text": "もいい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ 次第だ／次第で",
+          "answers": [
+            "努力次第だと言ってもいい。"
+          ],
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi'). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-order-02",
+          "mode": "order",
+          "prompt": "Đổi lịch tùy thời tiết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "天気"
+            },
+            {
+              "id": "1",
+              "text": "次第で"
+            },
+            {
+              "id": "2",
+              "text": "予定を"
+            },
+            {
+              "id": "3",
+              "text": "変える。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ 次第だ／次第で",
+          "answers": [
+            "天気次第で予定を変えるのだ。"
+          ],
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi'). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-order-03",
+          "mode": "order",
+          "prompt": "Tuyển dụng tùy phỏng vấn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "結果"
+            },
+            {
+              "id": "1",
+              "text": "次第で"
+            },
+            {
+              "id": "2",
+              "text": "採用が"
+            },
+            {
+              "id": "3",
+              "text": "決まる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ 次第だ／次第で",
+          "answers": [
+            "結果次第で採用が決まる。"
+          ],
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi'). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-order-04",
+          "mode": "order",
+          "prompt": "Chọn khách sạn tùy ngân sách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "予算"
+            },
+            {
+              "id": "1",
+              "text": "次第で"
+            },
+            {
+              "id": "2",
+              "text": "宿を"
+            },
+            {
+              "id": "3",
+              "text": "選ぶ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ 次第だ／次第で",
+          "answers": [
+            "予算次第で宿を選ぶ。"
+          ],
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi'). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-order-05",
+          "mode": "order",
+          "prompt": "Hủy sự kiện tùy tình hình.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "状況"
+            },
+            {
+              "id": "1",
+              "text": "次第で"
+            },
+            {
+              "id": "2",
+              "text": "中止も"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ 次第だ／次第で",
+          "answers": [
+            "状況次第で中止もある。"
+          ],
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi'). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-order-06",
+          "mode": "order",
+          "prompt": "Anh ấy nói thăng tiến là tùy thành tích.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "実績"
+            },
+            {
+              "id": "1",
+              "text": "次第だ"
+            },
+            {
+              "id": "2",
+              "text": "と彼は"
+            },
+            {
+              "id": "3",
+              "text": "言う。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ 次第だ／次第で",
+          "answers": [
+            "実績次第だと彼は言う。"
+          ],
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi'). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-order-07",
+          "mode": "order",
+          "prompt": "Giảm giá tùy số lượng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "数量"
+            },
+            {
+              "id": "1",
+              "text": "次第で"
+            },
+            {
+              "id": "2",
+              "text": "割引が"
+            },
+            {
+              "id": "3",
+              "text": "付く。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ 次第だ／次第で",
+          "answers": [
+            "数量次第で割引が付く。"
+          ],
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi'). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-order-08",
+          "mode": "order",
+          "prompt": "Vị đổi tùy độ lửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "火加減"
+            },
+            {
+              "id": "1",
+              "text": "次第で"
+            },
+            {
+              "id": "2",
+              "text": "味が"
+            },
+            {
+              "id": "3",
+              "text": "変わる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ 次第だ／次第で",
+          "answers": [
+            "火加減次第で味が変わる。"
+          ],
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi'). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-order-09",
+          "mode": "order",
+          "prompt": "Doanh số tùy quảng cáo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "宣伝"
+            },
+            {
+              "id": "1",
+              "text": "次第で"
+            },
+            {
+              "id": "2",
+              "text": "売上は"
+            },
+            {
+              "id": "3",
+              "text": "伸びる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ 次第だ／次第で",
+          "answers": [
+            "宣伝次第で売上は伸びる。"
+          ],
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi'). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g03-order-10",
+          "mode": "order",
+          "prompt": "Tham gia tùy ý muốn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "意思"
+            },
+            {
+              "id": "1",
+              "text": "次第だ"
+            },
+            {
+              "id": "2",
+              "text": "と説明を"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ 次第だ／次第で",
+          "answers": [
+            "意思次第だと説明をした。"
+          ],
+          "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi'). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l09-g04",
+      "title": "〜に応じて",
+      "meaning": "Tùy theo / tương ứng với…",
+      "variants": [
+        "に応じて",
+        "に応じ"
+      ],
+      "structures": [
+        "N ＋ に応じて",
+        "N ＋ に応じ"
+      ],
+      "explanation": "Thay đổi cách xử lý cho phù hợp với mức độ, nhu cầu, tình huống của A.",
+      "usage": "Phí tùy theo, hỗ trợ tương ứng với…",
+      "cautions": [
+        "Nhấn 'đáp ứng tương ứng', không chỉ 'càng… càng'.",
+        "に応じ thường dạng viết."
+      ],
+      "contrast": "に応じて ≈ tùy theo / tương ứng. Khác 次第だ (phụ thuộc) và につれて (tỷ lệ thay đổi).",
+      "examples": [
+        {
+          "ja": "能力に応じて仕事を割り当てる。",
+          "reading": "のうりょくにおうじてしごとをわりあてる。",
+          "vi": "Phân công việc tùy theo năng lực.",
+          "ruby": [
+            {
+              "text": "能力",
+              "reading": "のうりょく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "割",
+              "reading": "わ"
+            },
+            {
+              "text": "り当てる。"
+            }
+          ]
+        },
+        {
+          "ja": "予算に応じた計画を立てる。",
+          "reading": "よさんにおうじたけいかくをたてる。",
+          "vi": "Lập kế hoạch tương ứng với ngân sách.",
+          "ruby": [
+            {
+              "text": "予算",
+              "reading": "よさん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じた"
+            },
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "立",
+              "reading": "た"
+            },
+            {
+              "text": "てる。"
+            }
+          ]
+        },
+        {
+          "ja": "必要に応じて資料を追加する。",
+          "reading": "ひつようにおうじてしりょうをついかする。",
+          "vi": "Bổ sung tài liệu tùy theo nhu cầu.",
+          "ruby": [
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "追加",
+              "reading": "ついか"
+            },
+            {
+              "text": "する。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 55,
+        "printedPage": 42,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-ojite-dua-vao-tuy-theo-phu-thuoc-vao-tuong-ung-voi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l09-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Tính phí tùy theo thời gian sử dụng.",
+          "answers": [
+            "利用時間に応じて料金を計算する。"
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Hỗ trợ tùy theo thu nhập.",
+          "answers": [
+            "収入に応じて支援する。"
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Chọn quà tùy theo tuổi.",
+          "answers": [
+            "年齢に応じて贈り物を選ぶ。"
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Điều chỉnh độ khó tùy theo trình độ.",
+          "answers": [
+            "レベルに応じて難易度を調整する。"
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Thưởng tùy theo đóng góp.",
+          "answers": [
+            "貢献度に応じて報酬を出す。"
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Thay đổi lịch tùy theo yêu cầu khách.",
+          "answers": [
+            "客の要望に応じて日程を変える。"
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Cấp thuốc tùy theo triệu chứng.",
+          "answers": [
+            "症状に応じて薬を出す。"
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tăng nhân sự tùy theo khối lượng việc.",
+          "answers": [
+            "業務量に応じて人員を増やす。"
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Giảm giá tùy theo số lượng mua.",
+          "answers": [
+            "購入数に応じて割引する。"
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Thiết kế tùy theo mục đích sử dụng.",
+          "answers": [
+            "用途に応じて設計を変える。"
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "状況に応じて柔軟に対応する。",
+          "answers": [
+            "Ứng xử linh hoạt tùy theo tình hình."
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "実力に応じたクラス分けをする。",
+          "answers": [
+            "Xếp lớp tương ứng với thực lực."
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "需要に応じて生産量を調整する。",
+          "answers": [
+            "Điều chỉnh sản lượng tùy theo nhu cầu."
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "季節に応じたメニューを出す。",
+          "answers": [
+            "Đưa thực đơn theo mùa."
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "規模に応じて設備を整える。",
+          "answers": [
+            "Chuẩn bị thiết bị tùy theo quy mô."
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "経験に応じて指導方法を変える。",
+          "answers": [
+            "Đổi cách hướng dẫn tùy theo kinh nghiệm."
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "リスクに応じた保険に入る。",
+          "answers": [
+            "Mua bảo hiểm tương ứng với rủi ro."
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "成績に応じて奨学金を支給する。",
+          "answers": [
+            "Cấp học bổng tùy theo thành tích."
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "天候に応じて服装を選ぶ。",
+          "answers": [
+            "Chọn trang phục tùy theo thời tiết."
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "目的に応じて道具を使い分ける。",
+          "answers": [
+            "Dùng dụng cụ khác nhau tùy mục đích."
+          ],
+          "hint": "N ＋ に応じて／に応じ",
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-order-01",
+          "mode": "order",
+          "prompt": "Phân việc tùy năng lực.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "能力に"
+            },
+            {
+              "id": "1",
+              "text": "応じて"
+            },
+            {
+              "id": "2",
+              "text": "仕事を"
+            },
+            {
+              "id": "3",
+              "text": "分ける。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に応じて／に応じ",
+          "answers": [
+            "能力に応じて仕事を分ける。"
+          ],
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-order-02",
+          "mode": "order",
+          "prompt": "Kế hoạch tương ứng ngân sách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "予算に"
+            },
+            {
+              "id": "1",
+              "text": "応じた"
+            },
+            {
+              "id": "2",
+              "text": "計画を"
+            },
+            {
+              "id": "3",
+              "text": "立てる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に応じて／に応じ",
+          "answers": [
+            "予算に応じた計画を立てるのだ。"
+          ],
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-order-03",
+          "mode": "order",
+          "prompt": "Bổ sung tùy nhu cầu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "必要に"
+            },
+            {
+              "id": "1",
+              "text": "応じて"
+            },
+            {
+              "id": "2",
+              "text": "資料を"
+            },
+            {
+              "id": "3",
+              "text": "追加する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に応じて／に応じ",
+          "answers": [
+            "必要に応じて資料を追加するのだ。"
+          ],
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-order-04",
+          "mode": "order",
+          "prompt": "Tính phí tùy thời gian.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "時間に"
+            },
+            {
+              "id": "1",
+              "text": "応じて"
+            },
+            {
+              "id": "2",
+              "text": "料金を"
+            },
+            {
+              "id": "3",
+              "text": "決める。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に応じて／に応じ",
+          "answers": [
+            "時間に応じて料金を決める。"
+          ],
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-order-05",
+          "mode": "order",
+          "prompt": "Hỗ trợ tùy thu nhập.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "収入に"
+            },
+            {
+              "id": "1",
+              "text": "応じて"
+            },
+            {
+              "id": "2",
+              "text": "支援を"
+            },
+            {
+              "id": "3",
+              "text": "行う。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に応じて／に応じ",
+          "answers": [
+            "収入に応じて支援を行う。"
+          ],
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-order-06",
+          "mode": "order",
+          "prompt": "Điều chỉnh độ khó tùy trình độ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "レベルに"
+            },
+            {
+              "id": "1",
+              "text": "応じて"
+            },
+            {
+              "id": "2",
+              "text": "難易度を"
+            },
+            {
+              "id": "3",
+              "text": "変える。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に応じて／に応じ",
+          "answers": [
+            "レベルに応じて難易度を変える。"
+          ],
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-order-07",
+          "mode": "order",
+          "prompt": "Thưởng tùy đóng góp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "貢献に"
+            },
+            {
+              "id": "1",
+              "text": "応じて"
+            },
+            {
+              "id": "2",
+              "text": "報酬を"
+            },
+            {
+              "id": "3",
+              "text": "出す。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に応じて／に応じ",
+          "answers": [
+            "貢献に応じて報酬を出す。"
+          ],
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-order-08",
+          "mode": "order",
+          "prompt": "Thuốc tùy triệu chứng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "症状に"
+            },
+            {
+              "id": "1",
+              "text": "応じて"
+            },
+            {
+              "id": "2",
+              "text": "薬を"
+            },
+            {
+              "id": "3",
+              "text": "処方する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に応じて／に応じ",
+          "answers": [
+            "症状に応じて薬を処方する。"
+          ],
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-order-09",
+          "mode": "order",
+          "prompt": "Ứng xử tùy tình hình.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "状況に"
+            },
+            {
+              "id": "1",
+              "text": "応じて"
+            },
+            {
+              "id": "2",
+              "text": "対応を"
+            },
+            {
+              "id": "3",
+              "text": "変える。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に応じて／に応じ",
+          "answers": [
+            "状況に応じて対応を変える。"
+          ],
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g04-order-10",
+          "mode": "order",
+          "prompt": "Xếp lớp theo thực lực.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "実力に"
+            },
+            {
+              "id": "1",
+              "text": "応じた"
+            },
+            {
+              "id": "2",
+              "text": "クラスに"
+            },
+            {
+              "id": "3",
+              "text": "分ける。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に応じて／に応じ",
+          "answers": [
+            "実力に応じたクラスに分ける。"
+          ],
+          "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l09-g05",
+      "title": "〜につけて",
+      "meaning": "Mỗi khi… / hễ… là…",
+      "variants": [
+        "につけて",
+        "につけ"
+      ],
+      "structures": [
+        "Vる／N ＋ につけて",
+        "Vる／N ＋ につけ"
+      ],
+      "explanation": "Mỗi lần gặp A thì cảm xúc/hành động B xuất hiện; thường gắn kỷ niệm, xúc cảm.",
+      "usage": "Nhớ người, xúc động mỗi khi nhìn/nghe…",
+      "cautions": [
+        "Thường đi với cảm xúc (思い出す、残念に思う).",
+        "～につけ～につけ liệt kê 'dù A hay B'."
+      ],
+      "contrast": "につけて ≈ mỗi khi. Khác たびに (trung lập hơn) và につれて (tỷ lệ thay đổi).",
+      "examples": [
+        {
+          "ja": "この写真を見るにつけ故郷を思い出す。",
+          "reading": "このしゃしんをみるにつけこきょうをおもいだす。",
+          "vi": "Mỗi khi nhìn ảnh này lại nhớ quê.",
+          "ruby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "写真",
+              "reading": "しゃしん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "る"
+            },
+            {
+              "text": "につけ"
+            },
+            {
+              "text": "故郷",
+              "reading": "こきょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "い出す。"
+            }
+          ]
+        },
+        {
+          "ja": "彼の話を聞くにつけ感心する。",
+          "reading": "かれのはなしをきくにつけかんしんする。",
+          "vi": "Mỗi khi nghe chuyện anh ấy lại khâm phục.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "く"
+            },
+            {
+              "text": "につけ"
+            },
+            {
+              "text": "感心",
+              "reading": "かんしん"
+            },
+            {
+              "text": "する。"
+            }
+          ]
+        },
+        {
+          "ja": "雨の日につけ体調が悪くなる。",
+          "reading": "あめのひにつけたいちょうがわるくなる。",
+          "vi": "Hễ ngày mưa là sức khỏe kém đi.",
+          "ruby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "につけ"
+            },
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "くなる。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 55,
+        "printedPage": 42,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-tsuke-ni-tsukete-cu-moi-lan-la-lai-he-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l09-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Mỗi khi nghe bài hát này lại nhớ bạn.",
+          "answers": [
+            "この歌を聞くにつけ友人を思い出す。"
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Mỗi khi đọc thư của mẹ lại thấy ấm áp.",
+          "answers": [
+            "母の手紙を読むにつけ心が温まる。"
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Hễ thất bại là anh ấy lại cố gắng.",
+          "answers": [
+            "失敗するにつけ彼はまた努力する。"
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Mỗi khi nhìn biển lại thấy bình yên.",
+          "answers": [
+            "海を見るにつけ気持ちが落ち着く。"
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Hễ nghe tin đó là lo.",
+          "answers": [
+            "その知らせを聞くにつけ心配になる。"
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Mỗi khi về quê lại nhớ tuổi thơ.",
+          "answers": [
+            "故郷に帰るにつけ子供の頃を思い出す。"
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Hễ gặp khó là cô ấy bình tĩnh ứng phó.",
+          "answers": [
+            "困難につけ彼女は冷静に対応する。"
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Mỗi khi ngửi mùi này lại nhớ nhà.",
+          "answers": [
+            "この匂いにつけ家を思い出す。"
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Hễ xem tin thời tiết là kiểm tra lịch ngoài trời.",
+          "answers": [
+            "天気予報を見るにつけ外出予定を確認する。"
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Mỗi khi cầm món quà lại cảm ơn.",
+          "answers": [
+            "贈り物を手にするにつけ感謝の気持ちが湧く。"
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼の笑顔を見るにつけ元気が出る。",
+          "answers": [
+            "Mỗi khi thấy anh ấy cười lại thấy khỏe."
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "古い日記を読むにつけ当時を思い出す。",
+          "answers": [
+            "Mỗi khi đọc nhật ký cũ lại nhớ thời ấy."
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "ニュースを見るにつけ世の中の厳しさを感じる。",
+          "answers": [
+            "Mỗi khi xem tin tức lại thấy đời khắc nghiệt."
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "この道を通るにつけ事故のことを思い出す。",
+          "answers": [
+            "Mỗi khi đi đường này lại nhớ vụ tai nạn."
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "成功するにつけ周囲の支えに気づく。",
+          "answers": [
+            "Mỗi khi thành công lại nhận ra sự nâng đỡ quanh mình."
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "冬になるにつけ関節が痛む。",
+          "answers": [
+            "Hễ vào đông là khớp đau."
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "彼の手紙を読むにつけ安心する。",
+          "answers": [
+            "Mỗi khi đọc thư anh ấy lại yên tâm."
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "失敗につけ学びがあると感じる。",
+          "answers": [
+            "Hễ thất bại là cảm thấy có điều để học."
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "この曲を口ずさむにつけ学生時代が蘇る。",
+          "answers": [
+            "Mỗi khi ngân nga bài này lại sống lại thời sinh viên."
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "雨につけ気分が沈みがちだ。",
+          "answers": [
+            "Hễ mưa là tâm trạng dễ trầm."
+          ],
+          "hint": "V／N ＋ につけて／につけ",
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-order-01",
+          "mode": "order",
+          "prompt": "Mỗi khi nhìn ảnh nhớ quê.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "写真を"
+            },
+            {
+              "id": "1",
+              "text": "見るにつけ"
+            },
+            {
+              "id": "2",
+              "text": "故郷を"
+            },
+            {
+              "id": "3",
+              "text": "思い出す。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につけて／につけ",
+          "answers": [
+            "写真を見るにつけ故郷を思い出す。"
+          ],
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-order-02",
+          "mode": "order",
+          "prompt": "Mỗi khi nghe chuyện khâm phục.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "話を"
+            },
+            {
+              "id": "1",
+              "text": "聞くにつけ"
+            },
+            {
+              "id": "2",
+              "text": "感心が"
+            },
+            {
+              "id": "3",
+              "text": "湧く。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につけて／につけ",
+          "answers": [
+            "話を聞くにつけ感心が湧く。"
+          ],
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-order-03",
+          "mode": "order",
+          "prompt": "Hễ ngày mưa sức khỏe kém.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨の日に"
+            },
+            {
+              "id": "1",
+              "text": "つけ"
+            },
+            {
+              "id": "2",
+              "text": "体調が"
+            },
+            {
+              "id": "3",
+              "text": "悪い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につけて／につけ",
+          "answers": [
+            "雨の日につけ体調が悪い。"
+          ],
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-order-04",
+          "mode": "order",
+          "prompt": "Mỗi khi nghe bài nhớ bạn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "歌を"
+            },
+            {
+              "id": "1",
+              "text": "聞くにつけ"
+            },
+            {
+              "id": "2",
+              "text": "友人を"
+            },
+            {
+              "id": "3",
+              "text": "思い出す。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につけて／につけ",
+          "answers": [
+            "歌を聞くにつけ友人を思い出す。"
+          ],
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-order-05",
+          "mode": "order",
+          "prompt": "Mỗi khi nhìn biển bình yên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "海を"
+            },
+            {
+              "id": "1",
+              "text": "見るにつけ"
+            },
+            {
+              "id": "2",
+              "text": "心が"
+            },
+            {
+              "id": "3",
+              "text": "落ち着く。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につけて／につけ",
+          "answers": [
+            "海を見るにつけ心が落ち着く。"
+          ],
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-order-06",
+          "mode": "order",
+          "prompt": "Hễ nghe tin lại lo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "知らせを"
+            },
+            {
+              "id": "1",
+              "text": "聞くにつけ"
+            },
+            {
+              "id": "2",
+              "text": "心配に"
+            },
+            {
+              "id": "3",
+              "text": "なる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につけて／につけ",
+          "answers": [
+            "知らせを聞くにつけ心配になる。"
+          ],
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-order-07",
+          "mode": "order",
+          "prompt": "Mỗi khi về quê nhớ tuổi thơ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "帰るに"
+            },
+            {
+              "id": "1",
+              "text": "つけ"
+            },
+            {
+              "id": "2",
+              "text": "昔を"
+            },
+            {
+              "id": "3",
+              "text": "思い出す。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につけて／につけ",
+          "answers": [
+            "帰るにつけ昔を思い出す。"
+          ],
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-order-08",
+          "mode": "order",
+          "prompt": "Mỗi khi ngửi mùi nhớ nhà.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "匂いに"
+            },
+            {
+              "id": "1",
+              "text": "つけ"
+            },
+            {
+              "id": "2",
+              "text": "家を"
+            },
+            {
+              "id": "3",
+              "text": "思い出す。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につけて／につけ",
+          "answers": [
+            "匂いにつけ家を思い出す。"
+          ],
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-order-09",
+          "mode": "order",
+          "prompt": "Mỗi khi thấy cười thấy khỏe.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "笑顔を"
+            },
+            {
+              "id": "1",
+              "text": "見るにつけ"
+            },
+            {
+              "id": "2",
+              "text": "元気が"
+            },
+            {
+              "id": "3",
+              "text": "出る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につけて／につけ",
+          "answers": [
+            "笑顔を見るにつけ元気が出る。"
+          ],
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l09-g05-order-10",
+          "mode": "order",
+          "prompt": "Hễ vào đông khớp đau.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "冬に"
+            },
+            {
+              "id": "1",
+              "text": "なるにつけ"
+            },
+            {
+              "id": "2",
+              "text": "関節が"
+            },
+            {
+              "id": "3",
+              "text": "痛む。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V／N ＋ につけて／につけ",
+          "answers": [
+            "冬になるにつけ関節が痛む。"
+          ],
+          "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+        }
+      ]
+    }
+  ]
+}
