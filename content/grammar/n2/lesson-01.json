@@ -1,14 +1,17 @@
 {
   "id": "lesson-01",
   "titleJa": "〜とき・〜直後に",
-  "revision": 3,
-  "provenance": "Giải thích đối chiếu PDF trang 21–22 (trang in 8–9). Ví dụ và 150 câu luyện do trợ lý biên soạn mới; agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "revision": 4,
+  "provenance": "Giải thích đối chiếu PDF trang 21–22 (trang in 8–9). Ví dụ học (3/mẫu) và 150 câu luyện do trợ lý biên soạn; agent_reviewed, chưa có giáo viên kiểm duyệt độc lập. N2-L01-GOLD-001: bổ sung ví dụ minh họa + variants/source.urls từ inventory.",
   "patterns": [
     {
       "id": "sai",
       "title": "〜際（に・は）",
       "meaning": "Khi, vào lúc; cách nói trang trọng",
-      "structures": ["Nの ＋ 際（に・は）", "Vる / Vた ＋ 際（に・は）"],
+      "structures": [
+        "Nの ＋ 際（に・は）",
+        "Vる / Vた ＋ 際（に・は）"
+      ],
       "explanation": "Nêu thời điểm thực hiện một việc hoặc xảy ra một sự kiện. Cách nói trang trọng hơn とき.",
       "usage": "Thông báo, hướng dẫn, thủ tục, sự kiện; có thể dùng khi nhắc một sự việc đã xảy ra.",
       "cautions": [
@@ -65,20 +68,111 @@
               "text": "してください。"
             }
           ]
+        },
+        {
+          "ja": "会議に出席する際は、資料を事前に確認してください。",
+          "reading": "かいぎにしゅっせきするさいは、しりょうをじぜんにかくにんしてください。",
+          "vi": "Khi tham dự cuộc họp, vui lòng kiểm tra tài liệu trước.",
+          "ruby": [
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "出席",
+              "reading": "しゅっせき"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "は、"
+            },
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "事前",
+              "reading": "じぜん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "してください。"
+            }
+          ]
+        },
+        {
+          "ja": "出国の際は、パスポートをご提示ください。",
+          "reading": "しゅっこくのさいは、ぱすぽーとをごていじください。",
+          "vi": "Khi xuất cảnh, vui lòng xuất trình hộ chiếu.",
+          "ruby": [
+            {
+              "text": "出国",
+              "reading": "しゅっこく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "は、"
+            },
+            {
+              "text": "パスポート"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "ご"
+            },
+            {
+              "text": "提示",
+              "reading": "ていじ"
+            },
+            {
+              "text": "ください。"
+            }
+          ]
         }
       ],
       "source": {
         "pdfPage": 21,
-        "printedPage": 8
+        "printedPage": 8,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-sai-ni-khi-luc-trong-truong-hop-nhan-dip/"
+        ]
       },
       "reviewStatus": "agent_reviewed",
-      "revision": 3,
+      "revision": 4,
       "exercises": [
         {
           "id": "sai-vi-ja-01",
           "mode": "vi-ja",
           "prompt": "Khi vào tòa nhà, vui lòng xuất trình giấy tờ tùy thân.",
-          "answers": ["入館する際は、身分証明書を提示してください。"],
+          "answers": [
+            "入館する際は、身分証明書を提示してください。"
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -86,7 +180,9 @@
           "id": "sai-vi-ja-02",
           "mode": "vi-ja",
           "prompt": "Khi đổi lịch đặt trước, vui lòng liên hệ chậm nhất vào ngày hôm trước.",
-          "answers": ["予約を変更する際は、前日までにご連絡ください。"],
+          "answers": [
+            "予約を変更する際は、前日までにご連絡ください。"
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -94,7 +190,9 @@
           "id": "sai-vi-ja-03",
           "mode": "vi-ja",
           "prompt": "Khi rời phòng, vui lòng tắt đèn.",
-          "answers": ["退室の際は、照明を消してください。"],
+          "answers": [
+            "退室の際は、照明を消してください。"
+          ],
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -102,7 +200,9 @@
           "id": "sai-vi-ja-04",
           "mode": "vi-ja",
           "prompt": "Khi nộp đơn, vui lòng kiểm tra địa chỉ.",
-          "answers": ["申請する際に、住所を確認してください。"],
+          "answers": [
+            "申請する際に、住所を確認してください。"
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -110,7 +210,9 @@
           "id": "sai-vi-ja-05",
           "mode": "vi-ja",
           "prompt": "Khi đi công tác nước ngoài, tôi đã tham quan nhà máy tại địa phương.",
-          "answers": ["海外へ出張した際に、現地の工場を見学しました。"],
+          "answers": [
+            "海外へ出張した際に、現地の工場を見学しました。"
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -118,7 +220,9 @@
           "id": "sai-vi-ja-06",
           "mode": "vi-ja",
           "prompt": "Khi trả hàng, cần có hóa đơn.",
-          "answers": ["商品を返品する際は、レシートが必要です。"],
+          "answers": [
+            "商品を返品する際は、レシートが必要です。"
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -126,7 +230,9 @@
           "id": "sai-vi-ja-07",
           "mode": "vi-ja",
           "prompt": "Khi kiểm tra máy, vui lòng ngắt nguồn điện.",
-          "answers": ["機械を点検する際は、電源を切ってください。"],
+          "answers": [
+            "機械を点検する際は、電源を切ってください。"
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -134,7 +240,9 @@
           "id": "sai-vi-ja-08",
           "mode": "vi-ja",
           "prompt": "Khi lên xe, xin quý khách chú ý dưới chân.",
-          "answers": ["ご乗車の際は、足元にご注意ください。"],
+          "answers": [
+            "ご乗車の際は、足元にご注意ください。"
+          ],
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -142,7 +250,9 @@
           "id": "sai-vi-ja-09",
           "mode": "vi-ja",
           "prompt": "Khi nộp tài liệu, tôi đã giữ lại một bản sao.",
-          "answers": ["書類を提出する際に、控えを取っておきました。"],
+          "answers": [
+            "書類を提出する際に、控えを取っておきました。"
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -150,7 +260,9 @@
           "id": "sai-vi-ja-10",
           "mode": "vi-ja",
           "prompt": "Khi đến cửa hàng, vui lòng cho xem email này.",
-          "answers": ["ご来店の際は、このメールをお見せください。"],
+          "answers": [
+            "ご来店の際は、このメールをお見せください。"
+          ],
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -158,7 +270,9 @@
           "id": "sai-ja-vi-01",
           "mode": "ja-vi",
           "prompt": "面接の際は、受付でお待ちください。",
-          "answers": ["Khi đến phỏng vấn, vui lòng chờ tại quầy tiếp tân."],
+          "answers": [
+            "Khi đến phỏng vấn, vui lòng chờ tại quầy tiếp tân."
+          ],
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -166,7 +280,9 @@
           "id": "sai-ja-vi-02",
           "mode": "ja-vi",
           "prompt": "会員証を更新する際に、写真を一枚提出します。",
-          "answers": ["Khi gia hạn thẻ hội viên, nộp một tấm ảnh."],
+          "answers": [
+            "Khi gia hạn thẻ hội viên, nộp một tấm ảnh."
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -174,7 +290,9 @@
           "id": "sai-ja-vi-03",
           "mode": "ja-vi",
           "prompt": "京都を訪れた際に、恩師に会いました。",
-          "answers": ["Khi đến Kyoto, tôi đã gặp thầy cũ."],
+          "answers": [
+            "Khi đến Kyoto, tôi đã gặp thầy cũ."
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -182,7 +300,9 @@
           "id": "sai-ja-vi-04",
           "mode": "ja-vi",
           "prompt": "事故の際は、この番号に電話してください。",
-          "answers": ["Khi xảy ra tai nạn, hãy gọi số này."],
+          "answers": [
+            "Khi xảy ra tai nạn, hãy gọi số này."
+          ],
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -190,7 +310,9 @@
           "id": "sai-ja-vi-05",
           "mode": "ja-vi",
           "prompt": "契約の際に、料金について説明を受けました。",
-          "answers": ["Khi ký hợp đồng, tôi đã được giải thích về chi phí."],
+          "answers": [
+            "Khi ký hợp đồng, tôi đã được giải thích về chi phí."
+          ],
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -198,7 +320,9 @@
           "id": "sai-ja-vi-06",
           "mode": "ja-vi",
           "prompt": "パソコンを処分する際は、データを消去してください。",
-          "answers": ["Khi bỏ máy tính, vui lòng xóa dữ liệu."],
+          "answers": [
+            "Khi bỏ máy tính, vui lòng xóa dữ liệu."
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -206,7 +330,9 @@
           "id": "sai-ja-vi-07",
           "mode": "ja-vi",
           "prompt": "宿泊の際には、パスポートをご用意ください。",
-          "answers": ["Khi lưu trú, xin hãy chuẩn bị hộ chiếu."],
+          "answers": [
+            "Khi lưu trú, xin hãy chuẩn bị hộ chiếu."
+          ],
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -214,7 +340,9 @@
           "id": "sai-ja-vi-08",
           "mode": "ja-vi",
           "prompt": "荷物を受け取る際に、伝票の番号を確認します。",
-          "answers": ["Khi nhận hành lý, kiểm tra số trên phiếu."],
+          "answers": [
+            "Khi nhận hành lý, kiểm tra số trên phiếu."
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -222,7 +350,9 @@
           "id": "sai-ja-vi-09",
           "mode": "ja-vi",
           "prompt": "引っ越した際に、住所の変更を届け出ました。",
-          "answers": ["Khi chuyển nhà, tôi đã thông báo thay đổi địa chỉ."],
+          "answers": [
+            "Khi chuyển nhà, tôi đã thông báo thay đổi địa chỉ."
+          ],
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch."
         },
@@ -258,10 +388,19 @@
               "text": "静かにしてください。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ 際",
-          "answers": ["図書館を利用する際は、静かにしてください。"],
+          "answers": [
+            "図書館を利用する際は、静かにしてください。"
+          ],
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -286,10 +425,19 @@
               "text": "お渡しします。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Nの ＋ 際",
-          "answers": ["ご購入の際に、保証書をお渡しします。"],
+          "answers": [
+            "ご購入の際に、保証書をお渡しします。"
+          ],
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -314,10 +462,19 @@
               "text": "宛先をご確認ください。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ 際",
-          "answers": ["資料を送る際は、宛先をご確認ください。"],
+          "answers": [
+            "資料を送る際は、宛先をご確認ください。"
+          ],
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -342,10 +499,19 @@
               "text": "拝見します。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Nの ＋ 際",
-          "answers": ["入場の際に、チケットを拝見します。"],
+          "answers": [
+            "入場の際に、チケットを拝見します。"
+          ],
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -370,10 +536,19 @@
               "text": "美術館へ行きました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ 際",
-          "answers": ["海外を訪れた際に、美術館へ行きました。"],
+          "answers": [
+            "海外を訪れた際に、美術館へ行きました。"
+          ],
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -398,10 +573,19 @@
               "text": "ご利用ください。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Nの ＋ 際",
-          "answers": ["お支払いの際は、この券をご利用ください。"],
+          "answers": [
+            "お支払いの際は、この券をご利用ください。"
+          ],
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -426,10 +610,19 @@
               "text": "担当者に連絡してください。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ 際",
-          "answers": ["設備を修理する際は、担当者に連絡してください。"],
+          "answers": [
+            "設備を修理する際は、担当者に連絡してください。"
+          ],
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -454,10 +647,19 @@
               "text": "返却してください。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Nの ＋ 際",
-          "answers": ["退会の際に、会員証を返却してください。"],
+          "answers": [
+            "退会の際に、会員証を返却してください。"
+          ],
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -482,10 +684,19 @@
               "text": "通訳をお願いしました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ 際",
-          "answers": ["面談を行う際に、通訳をお願いしました。"],
+          "answers": [
+            "面談を行う際に、通訳をお願いしました。"
+          ],
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -510,12 +721,25 @@
               "text": "お確かめください。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Nの ＋ 際",
-          "answers": ["ご出発の際は、お荷物をお確かめください。"],
+          "answers": [
+            "ご出発の際は、お荷物をお確かめください。"
+          ],
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         }
+      ],
+      "variants": [
+        "際に",
+        "際は"
       ]
     },
     {
@@ -561,20 +785,106 @@
               "text": "しました。"
             }
           ]
+        },
+        {
+          "ja": "開店に際して、一日限定の割引を実施します。",
+          "reading": "かいてんにさいして、いちにちげんていのわりびきをじっしします。",
+          "vi": "Nhân dịp khai trương, chúng tôi áp dụng giảm giá chỉ trong một ngày.",
+          "ruby": [
+            {
+              "text": "開店",
+              "reading": "かいてん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "して、"
+            },
+            {
+              "text": "一日",
+              "reading": "いちにち"
+            },
+            {
+              "text": "限定",
+              "reading": "げんてい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "割引",
+              "reading": "わりびき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "実施",
+              "reading": "じっし"
+            },
+            {
+              "text": "します。"
+            }
+          ]
+        },
+        {
+          "ja": "研究を発表するにあたって、データの見直しをしました。",
+          "reading": "けんきゅうをはっぴょうするにあたって、でーたのみなおしをしました。",
+          "vi": "Nhân dịp trình bày nghiên cứu, tôi đã rà soát lại dữ liệu.",
+          "ruby": [
+            {
+              "text": "研究",
+              "reading": "けんきゅう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "text": "するにあたって、"
+            },
+            {
+              "text": "データ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "見直",
+              "reading": "みなお"
+            },
+            {
+              "text": "しをしました。"
+            }
+          ]
         }
       ],
       "source": {
         "pdfPage": 21,
-        "printedPage": 8
+        "printedPage": 8,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-saishite-khi-nhan-dip/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-atatte-khi-luc-nhan-dip-nhan-co-hoi/"
+        ]
       },
       "reviewStatus": "agent_reviewed",
-      "revision": 3,
+      "revision": 4,
       "exercises": [
         {
           "id": "saishite-vi-ja-01",
           "mode": "vi-ja",
           "prompt": "Trước khi khai trương, chúng tôi đã tổ chức đào tạo nhân viên.",
-          "answers": ["開店にあたって、従業員の研修を行いました。"],
+          "answers": [
+            "開店にあたって、従業員の研修を行いました。"
+          ],
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày."
         },
@@ -582,7 +892,9 @@
           "id": "saishite-vi-ja-02",
           "mode": "vi-ja",
           "prompt": "Khi bắt đầu công việc mới, tôi đã đặt ra mục tiêu.",
-          "answers": ["新しい仕事を始めるにあたって、目標を決めました。"],
+          "answers": [
+            "新しい仕事を始めるにあたって、目標を決めました。"
+          ],
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày."
         },
@@ -590,7 +902,9 @@
           "id": "saishite-vi-ja-03",
           "mode": "vi-ja",
           "prompt": "Nhân dịp buổi lễ, người đại diện đã phát biểu chào mừng.",
-          "answers": ["式典に際して、代表者が挨拶をしました。"],
+          "answers": [
+            "式典に際して、代表者が挨拶をしました。"
+          ],
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực."
         },
@@ -598,7 +912,9 @@
           "id": "saishite-vi-ja-04",
           "mode": "vi-ja",
           "prompt": "Trước khi nhập học, tôi đã chuẩn bị đủ sách cần thiết.",
-          "answers": ["入学にあたって、必要な本をそろえました。"],
+          "answers": [
+            "入学にあたって、必要な本をそろえました。"
+          ],
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày."
         },
@@ -606,7 +922,9 @@
           "id": "saishite-vi-ja-05",
           "mode": "vi-ja",
           "prompt": "Trước khi phẫu thuật, tôi đã được bác sĩ giải thích.",
-          "answers": ["手術を受けるに際して、医師から説明を受けました。"],
+          "answers": [
+            "手術を受けるに際して、医師から説明を受けました。"
+          ],
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực."
         },
@@ -614,7 +932,9 @@
           "id": "saishite-vi-ja-06",
           "mode": "vi-ja",
           "prompt": "Khi bắt đầu kinh doanh, chúng tôi đã khảo sát thị trường.",
-          "answers": ["事業を始めるにあたって、市場を調査しました。"],
+          "answers": [
+            "事業を始めるにあたって、市場を調査しました。"
+          ],
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày."
         },
@@ -622,7 +942,9 @@
           "id": "saishite-vi-ja-07",
           "mode": "vi-ja",
           "prompt": "Nhân dịp tốt nghiệp, tôi đã viết thư cảm ơn các thầy cô.",
-          "answers": ["卒業に際して、先生方に感謝の手紙を書きました。"],
+          "answers": [
+            "卒業に際して、先生方に感謝の手紙を書きました。"
+          ],
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực."
         },
@@ -630,7 +952,9 @@
           "id": "saishite-vi-ja-08",
           "mode": "vi-ja",
           "prompt": "Trước khi khởi động dự án, chúng tôi đã phân chia vai trò.",
-          "answers": ["プロジェクトを開始するにあたって、役割を分担しました。"],
+          "answers": [
+            "プロジェクトを開始するにあたって、役割を分担しました。"
+          ],
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày."
         },
@@ -638,7 +962,9 @@
           "id": "saishite-vi-ja-09",
           "mode": "vi-ja",
           "prompt": "Nhân dịp kết hôn, chúng tôi đã nhận được lời chúc phúc từ nhiều người.",
-          "answers": ["結婚に際して、多くの方から祝福をいただきました。"],
+          "answers": [
+            "結婚に際して、多くの方から祝福をいただきました。"
+          ],
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực."
         },
@@ -646,7 +972,9 @@
           "id": "saishite-vi-ja-10",
           "mode": "vi-ja",
           "prompt": "Trước khi tung sản phẩm mới ra thị trường, chúng tôi đã kiểm tra tính an toàn.",
-          "answers": ["新製品を発売するにあたって、安全性を確認しました。"],
+          "answers": [
+            "新製品を発売するにあたって、安全性を確認しました。"
+          ],
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày."
         },
@@ -714,7 +1042,9 @@
           "id": "saishite-ja-vi-07",
           "mode": "ja-vi",
           "prompt": "展覧会を開くにあたって、作品を選びました。",
-          "answers": ["Trước khi mở triển lãm, chúng tôi đã chọn tác phẩm."],
+          "answers": [
+            "Trước khi mở triển lãm, chúng tôi đã chọn tác phẩm."
+          ],
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày."
         },
@@ -770,10 +1100,19 @@
               "text": "スタッフを募集しました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "N ＋ に際して / にあたって",
-          "answers": ["新店舗の開業にあたって、スタッフを募集しました。"],
+          "answers": [
+            "新店舗の開業にあたって、スタッフを募集しました。"
+          ],
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -798,10 +1137,19 @@
               "text": "来賓を招待しました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "N ＋ に際して / にあたって",
-          "answers": ["式の開催に際して、来賓を招待しました。"],
+          "answers": [
+            "式の開催に際して、来賓を招待しました。"
+          ],
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -826,10 +1174,19 @@
               "text": "専門を選びました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "N ＋ に際して / にあたって",
-          "answers": ["大学に進学するにあたって、専門を選びました。"],
+          "answers": [
+            "大学に進学するにあたって、専門を選びました。"
+          ],
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -854,10 +1211,19 @@
               "text": "挨拶しました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "N ＋ に際して / にあたって",
-          "answers": ["転勤に際して、上司に挨拶しました。"],
+          "answers": [
+            "転勤に際して、上司に挨拶しました。"
+          ],
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -882,10 +1248,19 @@
               "text": "資金を集めました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "N ＋ に際して / にあたって",
-          "answers": ["会社を設立するにあたって、資金を集めました。"],
+          "answers": [
+            "会社を設立するにあたって、資金を集めました。"
+          ],
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -910,10 +1285,19 @@
               "text": "抱負を語りました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "N ＋ に際して / にあたって",
-          "answers": ["就任に際して、新社長が抱負を語りました。"],
+          "answers": [
+            "就任に際して、新社長が抱負を語りました。"
+          ],
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -938,10 +1322,19 @@
               "text": "手順を確認しました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "N ＋ に際して / にあたって",
-          "answers": ["実験を始めるにあたって、手順を確認しました。"],
+          "answers": [
+            "実験を始めるにあたって、手順を確認しました。"
+          ],
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -966,10 +1359,19 @@
               "text": "感謝を伝えました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "N ＋ に際して / にあたって",
-          "answers": ["出版に際して、協力者に感謝を伝えました。"],
+          "answers": [
+            "出版に際して、協力者に感謝を伝えました。"
+          ],
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -994,10 +1396,19 @@
               "text": "探しました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "N ＋ に際して / にあたって",
-          "answers": ["留学にあたって、住む場所を探しました。"],
+          "answers": [
+            "留学にあたって、住む場所を探しました。"
+          ],
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1022,19 +1433,34 @@
               "text": "規則を読みました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "N ＋ に際して / にあたって",
-          "answers": ["大会に参加するにあたって、規則を読みました。"],
+          "answers": [
+            "大会に参加するにあたって、規則を読みました。"
+          ],
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         }
+      ],
+      "variants": [
+        "に際して",
+        "にあたって"
       ]
     },
     {
       "id": "totan",
       "title": "〜たとたん（に）",
       "meaning": "Vừa mới… thì đột nhiên…",
-      "structures": ["Vた ＋ とたん（に）"],
+      "structures": [
+        "Vた ＋ とたん（に）"
+      ],
       "explanation": "Ngay sau khi hành động hoặc thay đổi hoàn tất, một sự việc bất ngờ xảy ra.",
       "usage": "Kể lại sự kiện có kết quả ngoài dự tính; thường là hai khoảnh khắc nối sát nhau.",
       "cautions": [
@@ -1091,20 +1517,94 @@
               "text": "みました。"
             }
           ]
+        },
+        {
+          "ja": "電話を切ったとたんに、また着信があった。",
+          "reading": "でんわをきったとたんに、またちゃくしんがあった。",
+          "vi": "Vừa cúp máy xong thì lại có cuộc gọi đến.",
+          "ruby": [
+            {
+              "text": "電話",
+              "reading": "でんわ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "切",
+              "reading": "き"
+            },
+            {
+              "text": "ったとたんに、また"
+            },
+            {
+              "text": "着信",
+              "reading": "ちゃくしん"
+            },
+            {
+              "text": "があった。"
+            }
+          ]
+        },
+        {
+          "ja": "カーテンを開けたとたん、まぶしい光が差し込んだ。",
+          "reading": "かーてんをあけたとたん、まぶしいひかりがさしこんだ。",
+          "vi": "Vừa mở rèm cửa thì ánh sáng chói chang chiếu vào.",
+          "ruby": [
+            {
+              "text": "カーテン"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "開",
+              "reading": "あ"
+            },
+            {
+              "text": "けたとたん、まぶしい"
+            },
+            {
+              "text": "光",
+              "reading": "ひかり"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "差",
+              "reading": "さ"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "込",
+              "reading": "こ"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         }
       ],
       "source": {
         "pdfPage": 22,
-        "printedPage": 9
+        "printedPage": 9,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-tatotanni-vua-moi-thi/"
+        ]
       },
       "reviewStatus": "agent_reviewed",
-      "revision": 3,
+      "revision": 4,
       "exercises": [
         {
           "id": "totan-vi-ja-01",
           "mode": "vi-ja",
           "prompt": "Vừa đứng dậy thì tôi đột nhiên thấy chóng mặt.",
-          "answers": ["立ち上がったとたんに、めまいがしました。"],
+          "answers": [
+            "立ち上がったとたんに、めまいがしました。"
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1112,7 +1612,9 @@
           "id": "totan-vi-ja-02",
           "mode": "vi-ja",
           "prompt": "Vừa bật đèn thì côn trùng bất ngờ bay tới.",
-          "answers": ["電気をつけたとたんに、虫が飛んできました。"],
+          "answers": [
+            "電気をつけたとたんに、虫が飛んできました。"
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1120,7 +1622,9 @@
           "id": "totan-vi-ja-03",
           "mode": "vi-ja",
           "prompt": "Vừa mở cửa thì con chó bất ngờ lao ra.",
-          "answers": ["ドアを開けたとたんに、犬が飛び出しました。"],
+          "answers": [
+            "ドアを開けたとたんに、犬が飛び出しました。"
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1128,7 +1632,9 @@
           "id": "totan-vi-ja-04",
           "mode": "vi-ja",
           "prompt": "Vừa chạm vào nước lạnh thì tay tôi đột nhiên đau nhói.",
-          "answers": ["冷たい水に触れたとたんに、手が痛くなりました。"],
+          "answers": [
+            "冷たい水に触れたとたんに、手が痛くなりました。"
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1136,7 +1642,9 @@
           "id": "totan-vi-ja-05",
           "mode": "vi-ja",
           "prompt": "Vừa ra ngoài thì trời bất ngờ đổ mưa.",
-          "answers": ["外に出たとたんに、雨が降り出しました。"],
+          "answers": [
+            "外に出たとたんに、雨が降り出しました。"
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1144,7 +1652,9 @@
           "id": "totan-vi-ja-06",
           "mode": "vi-ja",
           "prompt": "Vừa gọi tên thì em bé đột nhiên bật khóc.",
-          "answers": ["名前を呼んだとたんに、赤ちゃんが泣き出しました。"],
+          "answers": [
+            "名前を呼んだとたんに、赤ちゃんが泣き出しました。"
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1152,7 +1662,9 @@
           "id": "totan-vi-ja-07",
           "mode": "vi-ja",
           "prompt": "Vừa nhấc hộp lên thì đáy hộp bất ngờ bung ra.",
-          "answers": ["箱を持ち上げたとたんに、底が抜けました。"],
+          "answers": [
+            "箱を持ち上げたとたんに、底が抜けました。"
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1160,7 +1672,9 @@
           "id": "totan-vi-ja-08",
           "mode": "vi-ja",
           "prompt": "Vừa nhìn bức ảnh thì ký ức xưa bất chợt ùa về.",
-          "answers": ["写真を見たとたんに、昔の記憶がよみがえりました。"],
+          "answers": [
+            "写真を見たとたんに、昔の記憶がよみがえりました。"
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1168,7 +1682,9 @@
           "id": "totan-vi-ja-09",
           "mode": "vi-ja",
           "prompt": "Vừa xoay chìa khóa thì còi báo động bất ngờ vang lên.",
-          "answers": ["鍵を回したとたんに、警報が鳴りました。"],
+          "answers": [
+            "鍵を回したとたんに、警報が鳴りました。"
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1176,7 +1692,9 @@
           "id": "totan-vi-ja-10",
           "mode": "vi-ja",
           "prompt": "Vừa ngồi xuống ghế thì chân ghế bất ngờ gãy.",
-          "answers": ["椅子に座ったとたんに、脚が折れました。"],
+          "answers": [
+            "椅子に座ったとたんに、脚が折れました。"
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1184,7 +1702,9 @@
           "id": "totan-ja-vi-01",
           "mode": "ja-vi",
           "prompt": "スープを口にしたとたんに、せきが出ました。",
-          "answers": ["Vừa nếm súp thì tôi đột nhiên ho."],
+          "answers": [
+            "Vừa nếm súp thì tôi đột nhiên ho."
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1192,7 +1712,9 @@
           "id": "totan-ja-vi-02",
           "mode": "ja-vi",
           "prompt": "試合が始まったとたんに、照明が消えました。",
-          "answers": ["Trận đấu vừa bắt đầu thì đèn bất ngờ tắt."],
+          "answers": [
+            "Trận đấu vừa bắt đầu thì đèn bất ngờ tắt."
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1200,7 +1722,9 @@
           "id": "totan-ja-vi-03",
           "mode": "ja-vi",
           "prompt": "電車を降りたとたんに、忘れ物に気づきました。",
-          "answers": ["Vừa xuống tàu thì tôi chợt nhận ra mình để quên đồ."],
+          "answers": [
+            "Vừa xuống tàu thì tôi chợt nhận ra mình để quên đồ."
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1208,7 +1732,9 @@
           "id": "totan-ja-vi-04",
           "mode": "ja-vi",
           "prompt": "ふたを開けたとたんに、強いにおいが広がりました。",
-          "answers": ["Vừa mở nắp thì một mùi nồng bất ngờ lan ra."],
+          "answers": [
+            "Vừa mở nắp thì một mùi nồng bất ngờ lan ra."
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1226,7 +1752,9 @@
           "id": "totan-ja-vi-06",
           "mode": "ja-vi",
           "prompt": "坂を下り始めたとたんに、自転車のブレーキが壊れました。",
-          "answers": ["Vừa bắt đầu xuống dốc thì phanh xe đạp bất ngờ hỏng."],
+          "answers": [
+            "Vừa bắt đầu xuống dốc thì phanh xe đạp bất ngờ hỏng."
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1234,7 +1762,9 @@
           "id": "totan-ja-vi-07",
           "mode": "ja-vi",
           "prompt": "携帯を取り出したとたんに、手から滑り落ちました。",
-          "answers": ["Vừa lấy điện thoại ra thì nó bất ngờ tuột khỏi tay."],
+          "answers": [
+            "Vừa lấy điện thoại ra thì nó bất ngờ tuột khỏi tay."
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1242,7 +1772,9 @@
           "id": "totan-ja-vi-08",
           "mode": "ja-vi",
           "prompt": "窓を閉めたとたんに、ガラスが割れました。",
-          "answers": ["Vừa đóng cửa sổ thì kính bất ngờ vỡ."],
+          "answers": [
+            "Vừa đóng cửa sổ thì kính bất ngờ vỡ."
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1250,7 +1782,9 @@
           "id": "totan-ja-vi-09",
           "mode": "ja-vi",
           "prompt": "知らせを聞いたとたんに、涙が出ました。",
-          "answers": ["Vừa nghe tin thì nước mắt bất chợt trào ra."],
+          "answers": [
+            "Vừa nghe tin thì nước mắt bất chợt trào ra."
+          ],
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra."
         },
@@ -1286,10 +1820,19 @@
               "text": "画面が真っ暗になりました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋ とたん（に）",
-          "answers": ["ボタンを押したとたんに、画面が真っ暗になりました。"],
+          "answers": [
+            "ボタンを押したとたんに、画面が真っ暗になりました。"
+          ],
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1314,10 +1857,19 @@
               "text": "猫が足元に寄ってきました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋ とたん（に）",
-          "answers": ["玄関に入ったとたんに、猫が足元に寄ってきました。"],
+          "answers": [
+            "玄関に入ったとたんに、猫が足元に寄ってきました。"
+          ],
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1342,10 +1894,19 @@
               "text": "粉が飛び散りました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋ とたん（に）",
-          "answers": ["袋を破ったとたんに、粉が飛び散りました。"],
+          "answers": [
+            "袋を破ったとたんに、粉が飛び散りました。"
+          ],
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1370,10 +1931,19 @@
               "text": "大雨になりました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋ とたん（に）",
-          "answers": ["橋を渡り終えたとたんに、大雨になりました。"],
+          "answers": [
+            "橋を渡り終えたとたんに、大雨になりました。"
+          ],
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1398,10 +1968,19 @@
               "text": "彼の顔色が変わりました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋ とたん（に）",
-          "answers": ["その話を聞いたとたんに、彼の顔色が変わりました。"],
+          "answers": [
+            "その話を聞いたとたんに、彼の顔色が変わりました。"
+          ],
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1426,10 +2005,19 @@
               "text": "まぶしい光が差し込みました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋ とたん（に）",
-          "answers": ["カーテンを開けたとたんに、まぶしい光が差し込みました。"],
+          "answers": [
+            "カーテンを開けたとたんに、まぶしい光が差し込みました。"
+          ],
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1454,10 +2042,19 @@
               "text": "大きな音で割れました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋ とたん（に）",
-          "answers": ["風船に触ったとたんに、大きな音で割れました。"],
+          "answers": [
+            "風船に触ったとたんに、大きな音で割れました。"
+          ],
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1482,10 +2079,19 @@
               "text": "足がつりました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋ とたん（に）",
-          "answers": ["階段を上りきったとたんに、足がつりました。"],
+          "answers": [
+            "階段を上りきったとたんに、足がつりました。"
+          ],
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1510,10 +2116,19 @@
               "text": "変な音がしました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋ とたん（に）",
-          "answers": ["エンジンをかけたとたんに、変な音がしました。"],
+          "answers": [
+            "エンジンをかけたとたんに、変な音がしました。"
+          ],
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1538,19 +2153,35 @@
               "text": "瓶が落ちてきました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋ とたん（に）",
-          "answers": ["冷蔵庫を開けたとたんに、瓶が落ちてきました。"],
+          "answers": [
+            "冷蔵庫を開けたとたんに、瓶が落ちてきました。"
+          ],
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         }
+      ],
+      "variants": [
+        "たとたんに",
+        "たとたん"
       ]
     },
     {
       "id": "omouto",
       "title": "〜（か）と思うと・〜（か）と思ったら",
       "meaning": "Vừa mới… thì đã…",
-      "structures": ["Vた ＋（か）と思うと", "Vた ＋（か）と思ったら"],
+      "structures": [
+        "Vた ＋（か）と思うと",
+        "Vた ＋（か）と思ったら"
+      ],
       "explanation": "Người nói quan sát hai sự việc nối tiếp rất nhanh hoặc một thay đổi rõ rệt, có phần bất ngờ.",
       "usage": "Miêu tả thay đổi thời tiết, hành vi của người khác hoặc một cảnh vừa quan sát.",
       "cautions": [
@@ -1600,20 +2231,122 @@
               "text": "しました。"
             }
           ]
+        },
+        {
+          "ja": "空が晴れたかと思うと、急に雷が鳴り始めた。",
+          "reading": "そらがはれたかとおもうと、きゅうにかみなりがなりはじめた。",
+          "vi": "Vừa nghĩ trời đã quang thì đột nhiên sấm bắt đầu vang.",
+          "ruby": [
+            {
+              "text": "空",
+              "reading": "そら"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "晴",
+              "reading": "は"
+            },
+            {
+              "text": "れたかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "うと、"
+            },
+            {
+              "text": "急",
+              "reading": "きゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "雷",
+              "reading": "かみなり"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "鳴",
+              "reading": "な"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めた。"
+            }
+          ]
+        },
+        {
+          "ja": "弟は宿題を始めたかと思ったら、もうゲームをしていた。",
+          "reading": "おとうとはしゅくだいをはじめたかとおもったら、もうげーむをしていた。",
+          "vi": "Em trai vừa mới bắt đầu bài tập thì đã ngồi chơi game rồi.",
+          "ruby": [
+            {
+              "text": "弟",
+              "reading": "おとうと"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "宿題",
+              "reading": "しゅくだい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めたかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "ったら、もう"
+            },
+            {
+              "text": "ゲーム"
+            },
+            {
+              "text": "をしていた。"
+            }
+          ]
         }
       ],
       "source": {
         "pdfPage": 22,
-        "printedPage": 9
+        "printedPage": 9,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ka-to-omou-to-ka-to-omottara-vua-moi-thi-da/"
+        ]
       },
       "reviewStatus": "agent_reviewed",
-      "revision": 3,
+      "revision": 4,
       "exercises": [
         {
           "id": "omouto-vi-ja-01",
           "mode": "vi-ja",
           "prompt": "Mưa vừa tạnh thì nắng đã ló ra ngay.",
-          "answers": ["雨がやんだかと思うと、日が差してきました。"],
+          "answers": [
+            "雨がやんだかと思うと、日が差してきました。"
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1621,7 +2354,9 @@
           "id": "omouto-vi-ja-02",
           "mode": "vi-ja",
           "prompt": "Đứa trẻ vừa về thì đã lại đi ra ngoài.",
-          "answers": ["子供は帰ってきたかと思うと、また出かけました。"],
+          "answers": [
+            "子供は帰ってきたかと思うと、また出かけました。"
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1629,7 +2364,9 @@
           "id": "omouto-vi-ja-03",
           "mode": "vi-ja",
           "prompt": "Em bé vừa cười thì đã đột nhiên bật khóc.",
-          "answers": ["赤ちゃんは笑ったかと思ったら、急に泣き出しました。"],
+          "answers": [
+            "赤ちゃんは笑ったかと思ったら、急に泣き出しました。"
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1637,7 +2374,9 @@
           "id": "omouto-vi-ja-04",
           "mode": "vi-ja",
           "prompt": "Con chó vừa ngồi xuống thì đã đứng dậy ngay.",
-          "answers": ["犬は座ったかと思うと、すぐに立ち上がりました。"],
+          "answers": [
+            "犬は座ったかと思うと、すぐに立ち上がりました。"
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1645,7 +2384,9 @@
           "id": "omouto-vi-ja-05",
           "mode": "vi-ja",
           "prompt": "Bầu trời vừa tối sầm thì mưa lớn đã bắt đầu trút xuống.",
-          "answers": ["空が暗くなったかと思うと、激しい雨が降り始めました。"],
+          "answers": [
+            "空が暗くなったかと思うと、激しい雨が降り始めました。"
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1653,7 +2394,9 @@
           "id": "omouto-vi-ja-06",
           "mode": "vi-ja",
           "prompt": "Anh ấy vừa cúp điện thoại thì đã vội ra khỏi phòng.",
-          "answers": ["彼は電話を切ったかと思うと、急いで部屋を出ました。"],
+          "answers": [
+            "彼は電話を切ったかと思うと、急いで部屋を出ました。"
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1661,7 +2404,9 @@
           "id": "omouto-vi-ja-07",
           "mode": "vi-ja",
           "prompt": "Con chim vừa đậu lên cành thì đã bay đi ngay.",
-          "answers": ["鳥は枝に止まったかと思うと、すぐに飛び去りました。"],
+          "answers": [
+            "鳥は枝に止まったかと思うと、すぐに飛び去りました。"
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1669,7 +2414,9 @@
           "id": "omouto-vi-ja-08",
           "mode": "vi-ja",
           "prompt": "Em gái vừa bắt đầu học thì đã ngủ mất rồi.",
-          "answers": ["妹は勉強を始めたかと思ったら、もう眠っていました。"],
+          "answers": [
+            "妹は勉強を始めたかと思ったら、もう眠っていました。"
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1677,7 +2424,9 @@
           "id": "omouto-vi-ja-09",
           "mode": "vi-ja",
           "prompt": "Gió vừa dịu đi thì đã lại bắt đầu thổi mạnh.",
-          "answers": ["風が弱まったかと思うと、また強く吹き始めました。"],
+          "answers": [
+            "風が弱まったかと思うと、また強く吹き始めました。"
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1685,7 +2434,9 @@
           "id": "omouto-vi-ja-10",
           "mode": "vi-ja",
           "prompt": "Cô ấy vừa dừng lại thì đã bất ngờ chạy đi.",
-          "answers": ["彼女は立ち止まったかと思うと、突然走り出しました。"],
+          "answers": [
+            "彼女は立ち止まったかと思うと、突然走り出しました。"
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1693,7 +2444,9 @@
           "id": "omouto-ja-vi-01",
           "mode": "ja-vi",
           "prompt": "猫は庭に出たかと思うと、すぐに戻ってきました。",
-          "answers": ["Con mèo vừa ra vườn thì đã quay lại ngay."],
+          "answers": [
+            "Con mèo vừa ra vườn thì đã quay lại ngay."
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1701,7 +2454,9 @@
           "id": "omouto-ja-vi-02",
           "mode": "ja-vi",
           "prompt": "気温が上がったかと思ったら、翌日は雪になりました。",
-          "answers": ["Nhiệt độ vừa tăng thì hôm sau trời đã có tuyết."],
+          "answers": [
+            "Nhiệt độ vừa tăng thì hôm sau trời đã có tuyết."
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1719,7 +2474,9 @@
           "id": "omouto-ja-vi-04",
           "mode": "ja-vi",
           "prompt": "バスは止まったかと思うと、すぐに動き出しました。",
-          "answers": ["Xe buýt vừa dừng thì đã chạy tiếp ngay."],
+          "answers": [
+            "Xe buýt vừa dừng thì đã chạy tiếp ngay."
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1727,7 +2484,9 @@
           "id": "omouto-ja-vi-05",
           "mode": "ja-vi",
           "prompt": "波が引いたかと思うと、次の波が押し寄せました。",
-          "answers": ["Sóng vừa rút thì đợt sóng tiếp theo đã ập tới."],
+          "answers": [
+            "Sóng vừa rút thì đợt sóng tiếp theo đã ập tới."
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1735,7 +2494,9 @@
           "id": "omouto-ja-vi-06",
           "mode": "ja-vi",
           "prompt": "弟は本を開いたかと思ったら、すぐに閉じてしまいました。",
-          "answers": ["Em trai vừa mở sách thì đã đóng lại ngay."],
+          "answers": [
+            "Em trai vừa mở sách thì đã đóng lại ngay."
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1743,7 +2504,9 @@
           "id": "omouto-ja-vi-07",
           "mode": "ja-vi",
           "prompt": "雲が切れたかと思うと、また空を覆いました。",
-          "answers": ["Mây vừa tan ra thì đã lại phủ kín bầu trời."],
+          "answers": [
+            "Mây vừa tan ra thì đã lại phủ kín bầu trời."
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1751,7 +2514,9 @@
           "id": "omouto-ja-vi-08",
           "mode": "ja-vi",
           "prompt": "選手は倒れたかと思うと、すぐに起き上がりました。",
-          "answers": ["Vận động viên vừa ngã thì đã đứng dậy ngay."],
+          "answers": [
+            "Vận động viên vừa ngã thì đã đứng dậy ngay."
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1759,7 +2524,9 @@
           "id": "omouto-ja-vi-09",
           "mode": "ja-vi",
           "prompt": "客は席に着いたかと思うと、すぐに席を離れました。",
-          "answers": ["Vị khách vừa ngồi vào chỗ thì đã rời chỗ ngay."],
+          "answers": [
+            "Vị khách vừa ngồi vào chỗ thì đã rời chỗ ngay."
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1767,7 +2534,9 @@
           "id": "omouto-ja-vi-10",
           "mode": "ja-vi",
           "prompt": "花火が光ったかと思うと、大きな音が響きました。",
-          "answers": ["Pháo hoa vừa lóe sáng thì tiếng nổ lớn đã vang lên."],
+          "answers": [
+            "Pháo hoa vừa lóe sáng thì tiếng nổ lớn đã vang lên."
+          ],
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm."
         },
@@ -1793,10 +2562,19 @@
               "text": "すぐに転びました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋（か）と思うと",
-          "answers": ["少年は走り出したかと思うと、すぐに転びました。"],
+          "answers": [
+            "少年は走り出したかと思うと、すぐに転びました。"
+          ],
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1821,10 +2599,19 @@
               "text": "また曇りました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋（か）と思うと",
-          "answers": ["空が晴れたかと思ったら、また曇りました。"],
+          "answers": [
+            "空が晴れたかと思ったら、また曇りました。"
+          ],
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1849,10 +2636,19 @@
               "text": "すぐに戻りました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋（か）と思うと",
-          "answers": ["彼女は席を立ったかと思うと、すぐに戻りました。"],
+          "answers": [
+            "彼女は席を立ったかと思うと、すぐに戻りました。"
+          ],
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1877,10 +2673,19 @@
               "text": "急に静かになりました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋（か）と思うと",
-          "answers": ["犬はほえたかと思うと、急に静かになりました。"],
+          "answers": [
+            "犬はほえたかと思うと、急に静かになりました。"
+          ],
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1905,10 +2710,19 @@
               "text": "もう遊び始めました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋（か）と思うと",
-          "answers": ["子供は目を覚ましたかと思うと、もう遊び始めました。"],
+          "answers": [
+            "子供は目を覚ましたかと思うと、もう遊び始めました。"
+          ],
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1933,10 +2747,19 @@
               "text": "雷が鳴り始めました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋（か）と思うと",
-          "answers": ["風がやんだかと思ったら、雷が鳴り始めました。"],
+          "answers": [
+            "風がやんだかと思ったら、雷が鳴り始めました。"
+          ],
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1961,10 +2784,19 @@
               "text": "もう皿を空にしました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋（か）と思うと",
-          "answers": ["彼は食べ始めたかと思うと、もう皿を空にしました。"],
+          "answers": [
+            "彼は食べ始めたかと思うと、もう皿を空にしました。"
+          ],
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -1989,10 +2821,19 @@
               "text": "すぐに下りてきました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋（か）と思うと",
-          "answers": ["猫は木に登ったかと思うと、すぐに下りてきました。"],
+          "answers": [
+            "猫は木に登ったかと思うと、すぐに下りてきました。"
+          ],
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -2017,10 +2858,19 @@
               "text": "また涙を流しました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋（か）と思うと",
-          "answers": ["少女は泣きやんだかと思ったら、また涙を流しました。"],
+          "answers": [
+            "少女は泣きやんだかと思ったら、また涙を流しました。"
+          ],
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -2045,19 +2895,36 @@
               "text": "急に穏やかになりました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vた ＋（か）と思うと",
-          "answers": ["波が高くなったかと思うと、急に穏やかになりました。"],
+          "answers": [
+            "波が高くなったかと思うと、急に穏やかになりました。"
+          ],
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         }
+      ],
+      "variants": [
+        "かと思うと",
+        "かと思ったら",
+        "と思うと",
+        "と思ったら"
       ]
     },
     {
       "id": "kanai",
       "title": "〜か〜ないかのうちに",
       "meaning": "Vừa mới… chưa kịp… thì đã…",
-      "structures": ["Vる / Vた ＋ か ＋ Vない ＋ かのうちに"],
+      "structures": [
+        "Vる / Vた ＋ か ＋ Vない ＋ かのうちに"
+      ],
       "explanation": "Hai việc gần như đồng thời: việc trước vừa hoàn tất hoặc chưa rõ đã hoàn tất thì việc sau đã xảy ra.",
       "usage": "Miêu tả tốc độ rất nhanh; lặp lại cùng một động từ ở dạng khẳng định và phủ định.",
       "cautions": [
@@ -2110,14 +2977,93 @@
               "text": "がりました。"
             }
           ]
+        },
+        {
+          "ja": "合図が出るか出ないかのうちに、選手たちはスタートした。",
+          "reading": "あいずがでるかでないかのうちに、せんしゅたちはすたーとした。",
+          "vi": "Tín hiệu vừa mới có (hay chưa kịp có) thì các vận động viên đã xuất phát.",
+          "ruby": [
+            {
+              "text": "合図",
+              "reading": "あいず"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "るか"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ないかのうちに、"
+            },
+            {
+              "text": "選手",
+              "reading": "せんしゅ"
+            },
+            {
+              "text": "たちは"
+            },
+            {
+              "text": "スタート"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        },
+        {
+          "ja": "店が開くか開かないかのうちに、行列ができていた。",
+          "reading": "みせがあくかあかないかのうちに、ぎょうれつができていた。",
+          "vi": "Cửa hàng vừa mới mở (hay chưa kịp mở) thì đã có hàng người xếp hàng.",
+          "ruby": [
+            {
+              "text": "店",
+              "reading": "みせ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "開",
+              "reading": "あ"
+            },
+            {
+              "text": "くか"
+            },
+            {
+              "text": "開",
+              "reading": "あ"
+            },
+            {
+              "text": "かないかのうちに、"
+            },
+            {
+              "text": "行列",
+              "reading": "ぎょうれつ"
+            },
+            {
+              "text": "ができていた。"
+            }
+          ]
         }
       ],
       "source": {
         "pdfPage": 22,
-        "printedPage": 9
+        "printedPage": 9,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ka-nai-ka-no-uchi-ni-chi-moi-vua-ngay-khi/"
+        ]
       },
       "reviewStatus": "agent_reviewed",
-      "revision": 3,
+      "revision": 4,
       "exercises": [
         {
           "id": "kanai-vi-ja-01",
@@ -2133,7 +3079,9 @@
           "id": "kanai-vi-ja-02",
           "mode": "vi-ja",
           "prompt": "Anh ấy vừa mới nằm xuống, chưa kịp ổn định thì đã ngủ mất.",
-          "answers": ["彼は横になるかならないかのうちに、眠ってしまいました。"],
+          "answers": [
+            "彼は横になるかならないかのうちに、眠ってしまいました。"
+          ],
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu."
         },
@@ -2151,7 +3099,9 @@
           "id": "kanai-vi-ja-04",
           "mode": "vi-ja",
           "prompt": "Lời giải thích vừa sắp kết thúc thì đã có câu hỏi.",
-          "answers": ["説明が終わるか終わらないかのうちに、質問が出ました。"],
+          "answers": [
+            "説明が終わるか終わらないかのうちに、質問が出ました。"
+          ],
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu."
         },
@@ -2199,7 +3149,9 @@
           "id": "kanai-vi-ja-09",
           "mode": "vi-ja",
           "prompt": "Tên vừa mới được gọi thì cô ấy đã trả lời ngay.",
-          "answers": ["名前を呼ぶか呼ばないかのうちに、彼女が返事をしました。"],
+          "answers": [
+            "名前を呼ぶか呼ばないかのうちに、彼女が返事をしました。"
+          ],
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu."
         },
@@ -2217,7 +3169,9 @@
           "id": "kanai-ja-vi-01",
           "mode": "ja-vi",
           "prompt": "電車が着くか着かないかのうちに、ホームが人でいっぱいになりました。",
-          "answers": ["Tàu vừa mới đến thì sân ga đã đầy người."],
+          "answers": [
+            "Tàu vừa mới đến thì sân ga đã đầy người."
+          ],
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu."
         },
@@ -2225,7 +3179,9 @@
           "id": "kanai-ja-vi-02",
           "mode": "ja-vi",
           "prompt": "話し終わるか終わらないかのうちに、拍手が起こりました。",
-          "answers": ["Lời nói vừa sắp kết thúc thì tiếng vỗ tay đã vang lên."],
+          "answers": [
+            "Lời nói vừa sắp kết thúc thì tiếng vỗ tay đã vang lên."
+          ],
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu."
         },
@@ -2233,7 +3189,9 @@
           "id": "kanai-ja-vi-03",
           "mode": "ja-vi",
           "prompt": "彼は椅子に座るか座らないかのうちに、話し始めました。",
-          "answers": ["Anh ấy vừa mới ngồi xuống ghế thì đã bắt đầu nói."],
+          "answers": [
+            "Anh ấy vừa mới ngồi xuống ghế thì đã bắt đầu nói."
+          ],
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu."
         },
@@ -2241,7 +3199,9 @@
           "id": "kanai-ja-vi-04",
           "mode": "ja-vi",
           "prompt": "信号が変わるか変わらないかのうちに、車が動き出しました。",
-          "answers": ["Đèn tín hiệu vừa mới đổi thì xe đã chuyển động."],
+          "answers": [
+            "Đèn tín hiệu vừa mới đổi thì xe đã chuyển động."
+          ],
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu."
         },
@@ -2249,7 +3209,9 @@
           "id": "kanai-ja-vi-05",
           "mode": "ja-vi",
           "prompt": "荷物が届くか届かないかのうちに、確認の電話が来ました。",
-          "answers": ["Hành lý vừa mới tới thì cuộc gọi xác nhận đã đến."],
+          "answers": [
+            "Hành lý vừa mới tới thì cuộc gọi xác nhận đã đến."
+          ],
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu."
         },
@@ -2267,7 +3229,9 @@
           "id": "kanai-ja-vi-07",
           "mode": "ja-vi",
           "prompt": "チャイムが鳴るか鳴らないかのうちに、犬がほえ始めました。",
-          "answers": ["Chuông cửa vừa mới reo thì con chó đã bắt đầu sủa."],
+          "answers": [
+            "Chuông cửa vừa mới reo thì con chó đã bắt đầu sủa."
+          ],
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu."
         },
@@ -2285,7 +3249,9 @@
           "id": "kanai-ja-vi-09",
           "mode": "ja-vi",
           "prompt": "彼女は店に入るか入らないかのうちに、友人に声をかけられました。",
-          "answers": ["Cô ấy vừa mới bước vào cửa hàng thì đã được bạn gọi."],
+          "answers": [
+            "Cô ấy vừa mới bước vào cửa hàng thì đã được bạn gọi."
+          ],
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu."
         },
@@ -2321,10 +3287,19 @@
               "text": "質問が出ました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
-          "answers": ["会議が始まるか始まらないかのうちに、質問が出ました。"],
+          "answers": [
+            "会議が始まるか始まらないかのうちに、質問が出ました。"
+          ],
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -2349,7 +3324,14 @@
               "text": "寝息を立て始めました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "answers": [
@@ -2379,10 +3361,19 @@
               "text": "歓声が響きました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
-          "answers": ["幕が上がるか上がらないかのうちに、歓声が響きました。"],
+          "answers": [
+            "幕が上がるか上がらないかのうちに、歓声が響きました。"
+          ],
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -2407,7 +3398,14 @@
               "text": "拍手が起こりました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "answers": [
@@ -2437,7 +3435,14 @@
               "text": "次の案内が流れました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "answers": [
@@ -2467,10 +3472,19 @@
               "text": "皆が笑い出しました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
-          "answers": ["彼が顔を出すか出さないかのうちに、皆が笑い出しました。"],
+          "answers": [
+            "彼が顔を出すか出さないかのうちに、皆が笑い出しました。"
+          ],
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -2495,10 +3509,19 @@
               "text": "食べ始めました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
-          "answers": ["犬は餌をもらうかもらわないかのうちに、食べ始めました。"],
+          "answers": [
+            "犬は餌をもらうかもらわないかのうちに、食べ始めました。"
+          ],
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -2523,7 +3546,14 @@
               "text": "人々が出口へ向かいました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "answers": [
@@ -2553,10 +3583,19 @@
               "text": "街灯がつきました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
-          "answers": ["日が暮れるか暮れないかのうちに、街灯がつきました。"],
+          "answers": [
+            "日が暮れるか暮れないかのうちに、街灯がつきました。"
+          ],
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         },
         {
@@ -2581,12 +3620,24 @@
               "text": "客が集まりました。"
             }
           ],
-          "acceptedOrders": [["0", "1", "2", "3"]],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
           "starIndex": 2,
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
-          "answers": ["店が開くか開かないかのうちに、客が集まりました。"],
+          "answers": [
+            "店が開くか開かないかのうちに、客が集まりました。"
+          ],
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu. Ghép cả bốn mảnh; mảnh đứng ở ô ★ là mảnh thứ ba trong câu hoàn chỉnh."
         }
+      ],
+      "variants": [
+        "かないかのうちに"
       ]
     }
   ]

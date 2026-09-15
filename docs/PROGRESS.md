@@ -14,8 +14,9 @@ Rule: **never** write targets as completed counts.
 - **N2-ARCH-001 DONE** (2026-09-15) — multi-lesson loader (published JSON only); merged PR #1.  
 - **N2-ARCH-002 DONE** (2026-09-15) — additive Zod metadata (`variants`, `source.urls`, exercise `origin`/`sourceNote`).  
 - **N2-L01-UX-001 DONE** (2026-09-15) — Grammar UI/API no longer hard-code Lesson 1 paths.  
+- **N2-L01-GOLD-001 DONE** (2026-09-15) — Lesson 1 examples enriched (3/group), variants/urls filled, revision 4.  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **AVAILABLE** — work on `feat/n2-arch-002-metadata` (ARCH-002 + UX-001, uncommitted).
+- Git: **AVAILABLE** — `main` @ PR #2 merge; GOLD-001 on `feat/n2-l01-gold-001`.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -25,10 +26,11 @@ Rule: **never** write targets as completed counts.
 | Lessons published / learnable | 26 | **1** (`lesson-01` published) |
 | Canonical groups | 141 | Manifest `sum(groupCount)=141`; **implemented content: 5** |
 | Exercises | 4230 | **150** in `lesson-01.json` (5×30; per-group 10+10+10; unique IDs/prompts) |
+| Learning examples (L1) | richer set | **3 per group** (15 total) after GOLD-001 |
 | TNĐG URLs | 141 mapped | **DONE** — 7 partial-match rows (see below) |
 | Independent teacher review | desired | **Not done** (`agent_reviewed` only) |
 
-Lesson 1 pattern IDs: `sai`, `saishite`, `totan`, `omouto`, `kanai`. Content revision: **3**.
+Lesson 1 pattern IDs: `sai`, `saishite`, `totan`, `omouto`, `kanai`. Content revision: **4**.
 
 partial-match: `l04-g05`, `l04-g06`, `l13-g02`, `l13-g05`, `l18-g03`, `l23-g06`, `l26-g02`.
 
@@ -64,6 +66,14 @@ Re-verified against repository (no app code changes):
 - Progress/SRS keyed by stable `pattern_id` strings; stats entity `grammar:{patternId}`.  
 - Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
 - Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
+
+### N2-L01-GOLD-001 (2026-09-15) — DONE
+
+- Enriched Lesson 1 learning examples to **3 per group** with structured ruby.  
+- Filled `variants` + `source.urls` from inventory; bumped lesson/pattern revision **3 → 4**.  
+- UI: show variants on pattern detail.  
+- Tests: ≥3 examples, no exact overlap with practice prompts/answers, ruby text joins to `ja`.  
+- Branch: `feat/n2-l01-gold-001` (uncommitted until user asks).
 
 ### N2-L01-UX-001 (2026-09-15) — DONE
 
@@ -120,6 +130,7 @@ Re-verified against repository (no app code changes):
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-15 | N2-L01-GOLD-001 examples/variants + rev 4 | **14/14 pass** | `npm test` (re-verified) |
 | 2026-09-15 | N2-L01-UX-001 + pattern lesson metadata | **14/14 pass** | `npm test` |
 | 2026-09-15 | N2-ARCH-002 additive Zod metadata + DTO strip | **14/14 pass** | `npm test` |
 | 2026-09-15 | N2-ARCH-001 multi-lesson loader after PR merge | **13/13 pass** | `npm test` on `main` |
@@ -135,11 +146,12 @@ Re-verified against repository (no app code changes):
 
 ## Known Incomplete Work
 
-- Lesson 1 golden-template polish (**N2-L01-GOLD-001**).  
+- Lesson 1 exercise bank QA + origin (**N2-L01-GOLD-002**).  
+- Progress semantics polish (**N2-L01-PROG-001**).  
+- Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
 - Lessons 2–26 content import.  
 - Playwright grammar E2E.  
-- Populate `origin` / `variants` on Lesson 1 content (schema ready; data later).  
-- Commit/PR for `feat/n2-arch-002-metadata` (ARCH-002 + UX-001).
+- Commit/PR for `feat/n2-l01-gold-001` (in flight).
 
 ## Known Issues
 
@@ -149,4 +161,4 @@ Re-verified against repository (no app code changes):
 
 ## Blockers
 
-1. Merge PR for `feat/n2-arch-002-metadata`; then **N2-L01-GOLD-001** (or furigana decision).
+1. Merge PR for `feat/n2-l01-gold-001`; then **N2-L01-GOLD-002**.
