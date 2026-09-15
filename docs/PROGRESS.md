@@ -75,7 +75,7 @@ Re-verified against repository (no app code changes):
 - Renamed Lesson 1 coverage test to golden template validators (examples / 10+10+10 / origin / hints).  
 - Added `tests/grammar.spec.ts`: register → grammar course → lesson 1 → pattern → furigana + read → one exercise each mode → reload preserves 3/30 → SRS.  
 - `playwright.config.ts`: `webServer` runs `npm run dev` with temp `DB_PATH` when CI.  
-- Branch: `feat/n2-test-001` (uncommitted until user asks).  
+- Branch: `feat/n2-test-001` @ `1d04a9b`; PR https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/6.  
 - Verification: `npm test` **14/14**; `npx playwright test tests/grammar.spec.ts` **1 passed** (~6.6s).  
 - Known: full `npm run test:e2e` still fails on legacy `tests/app.spec.ts` (quiz `.result-summary`); out of TEST-001 grammar scope.
 
@@ -184,7 +184,7 @@ Re-verified against repository (no app code changes):
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
 - Lessons 2–26 content import (**N2-L02-BATCH**+ — needs approval).  
 - Legacy `tests/app.spec.ts` fails under Playwright webServer/temp DB.  
-- Commit/PR for `feat/n2-test-001` (awaiting user ask).
+- Commit/PR for `feat/n2-test-001` — **PR #6 open** (awaiting merge).
 
 ## Known Issues
 
