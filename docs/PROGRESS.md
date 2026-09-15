@@ -111,13 +111,13 @@ Re-verified against repository (no app code changes):
 - Multi-lesson loader (**N2-ARCH-001**) — next when user approves.  
 - Lesson 1 golden-template polish (examples depth, metadata, optional practice furigana).  
 - Lessons 2–26 content import.  
-- Playwright grammar E2E.  
+- Playwright grammar E2E.
+
 ## Known Issues
 
 - Dual trackers: `docs/grammar-n2/*` (history) vs root PLAN/PROGRESS (active).  
 - UX-CONTRACT cites `server/index.ts` for CRUD; implementation is `server/app.ts`.  
-- `premium-audit.json` stale `projectRoot` path.  
-- HANDOFF “Latest Relevant Commit” may lag HEAD by a docs-only commit (self-pointer).
+- `premium-audit.json` stale `projectRoot` path.
 
 ## Blockers
 

@@ -15,7 +15,8 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Latest Relevant Commit
 
-Includes N2-AUDIT-001 through **N2-MAP-002** (inventory + SOURCE-MAPPING + docs/tests). Prior tip before this work: `de07813`.
+`c886a00` — `feat: complete N2-MAP-002 grammar inventory (141/141)`  
+Branch ahead of `origin/main` by 1 (not pushed).
 
 ## Current Objective
 
