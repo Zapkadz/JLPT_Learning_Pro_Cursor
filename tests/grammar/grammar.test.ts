@@ -363,6 +363,27 @@ test("grammar ownership, resume, conflict, reveal, completion, XP and FSRS idemp
   assert.equal(course.status, 200);
   assert.equal(course.data.publishedGroups, 5);
   assert.equal(course.data.publishedExercises, 150);
+  assert.equal(course.data.targetGroups, 141);
+  assert.equal(course.data.progressDenominator, 141);
+  assert.equal(course.data.progressDenominator, course.data.targetGroups);
+  assert.notEqual(course.data.progressDenominator, course.data.publishedGroups);
+  assert.equal(course.data.read, 0);
+  assert.equal(course.data.practiced, 0);
+  const markRead = await call("/grammar/patterns/sai/progress", "PUT");
+  assert.equal(markRead.status, 200);
+  assert.equal((await call("/grammar/courses/n2")).data.read, 1);
+  assert.equal((await call("/stats")).data.xp, 0);
+  // Orphan progress rows for unpublished pattern IDs must not inflate course read.
+  db.prepare("INSERT INTO grammar_progress VALUES(?,?,?)").run(
+    (
+      db
+        .prepare("SELECT id FROM users WHERE email=?")
+        .get("grammar-a@example.test") as { id: string }
+    ).id,
+    "ghost-pattern",
+    new Date().toISOString(),
+  );
+  assert.equal((await call("/grammar/courses/n2")).data.read, 1);
   const unpublished = await call("/grammar/lessons/lesson-02");
   assert.equal(unpublished.status, 404);
   assert.match(unpublished.data.error, /biên soạn/);
@@ -463,6 +484,23 @@ test("grammar ownership, resume, conflict, reveal, completion, XP and FSRS idemp
   const stats = await call("/stats");
   assert.equal(stats.data.todayUnique, 1);
   assert.equal(stats.data.xp, 10);
+  // Re-check after answer change must not grant another XP for the same pattern/day.
+  let previousXp = (await call("/grammar/sessions/" + s.id)).data.responses[
+    first.id
+  ];
+  const recheck = await call(path + first.id, "PUT", {
+    version: previousXp.version,
+    answer: "Câu khác mẫu lần hai",
+    action: "check",
+  });
+  assert.equal(recheck.status, 200);
+  assert.equal((await call("/stats")).data.xp, 10);
+  const exportAfter = await call("/export");
+  assert.ok(Array.isArray(exportAfter.data.grammar.events));
+  assert.ok(exportAfter.data.grammar.events.length >= 1);
+  assert.ok(
+    !JSON.stringify(exportAfter.data.grammar.events).includes("acceptedOrders"),
+  );
   const l1 = await call("/grammar/patterns/sai/srs", "POST"),
     l2 = await call("/grammar/patterns/sai/srs", "POST");
   assert.equal(l1.data.cardId, l2.data.cardId);

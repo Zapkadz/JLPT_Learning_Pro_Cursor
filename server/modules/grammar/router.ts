@@ -86,6 +86,15 @@ export function grammarModule(db: Database.Database) {
   router.get("/courses/n2", (_, res) => {
     const uid: string = res.locals.user.id;
     const patterns = allPatterns();
+    const liveIds = new Set(patterns.map((p) => p.id));
+    const readRows = db
+      .prepare("SELECT pattern_id FROM grammar_progress WHERE user_id=?")
+      .all(uid) as { pattern_id: string }[];
+    const practicedRows = db
+      .prepare(
+        "SELECT DISTINCT pattern_id FROM grammar_sessions WHERE user_id=? AND completed_at IS NOT NULL",
+      )
+      .all(uid) as { pattern_id: string }[];
     res.json({
       ...manifest,
       publishedGroups: patterns.length,
@@ -93,18 +102,10 @@ export function grammarModule(db: Database.Database) {
         (n, p) => n + p.exercises.length,
         0,
       ),
-      read: (
-        db
-          .prepare("SELECT count(*) n FROM grammar_progress WHERE user_id=?")
-          .get(uid) as { n: number }
-      ).n,
-      practiced: (
-        db
-          .prepare(
-            "SELECT count(DISTINCT pattern_id) n FROM grammar_sessions WHERE user_id=? AND completed_at IS NOT NULL",
-          )
-          .get(uid) as { n: number }
-      ).n,
+      // Course progress denominator is always targetGroups (141), not publishedGroups.
+      progressDenominator: manifest.targetGroups,
+      read: readRows.filter((r) => liveIds.has(r.pattern_id)).length,
+      practiced: practicedRows.filter((r) => liveIds.has(r.pattern_id)).length,
     });
   });
   router.get("/lessons/:id", (req, res) => {

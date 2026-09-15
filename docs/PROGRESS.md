@@ -15,9 +15,10 @@ Rule: **never** write targets as completed counts.
 - **N2-ARCH-002 DONE** (2026-09-15) — additive Zod metadata (`variants`, `source.urls`, exercise `origin`/`sourceNote`).  
 - **N2-L01-UX-001 DONE** (2026-09-15) — Grammar UI/API no longer hard-code Lesson 1 paths.  
 - **N2-L01-GOLD-001 DONE** (2026-09-15) — Lesson 1 examples enriched (3/group), variants/urls filled, revision 4; merged PR #3.  
-- **N2-L01-GOLD-002 DONE** (2026-09-15) — all 150 L1 exercises `origin: authored`; hint≠answer validators; revision 5.  
+- **N2-L01-GOLD-002 DONE** (2026-09-15) — all 150 L1 exercises `origin: authored`; hint≠answer validators; revision 5; merged PR #4.  
+- **N2-L01-PROG-001 DONE** (2026-09-15) — progress denominator + XP policy locked (ADR-008).  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **AVAILABLE** — `main` @ PR #3 merge; GOLD-002 on `feat/n2-l01-gold-002`.
+- Git: **AVAILABLE** — `main` @ PR #4 merge; PROG-001 on `feat/n2-l01-prog-001`.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -67,6 +68,17 @@ Re-verified against repository (no app code changes):
 - Progress/SRS keyed by stable `pattern_id` strings; stats entity `grammar:{patternId}`.  
 - Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
 - Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
+
+### N2-L01-PROG-001 (2026-09-15) — DONE
+
+- Course API exposes `progressDenominator` (= `targetGroups` 141, not `publishedGroups`).  
+- `read` / `practiced` count only live published pattern IDs (orphan rows ignored; not deleted).  
+- UI metrics use `progressDenominator` and label “mục tiêu khóa”.  
+- `/api/export` includes `grammar.events` (XP/heatmap source).  
+- ADR-008 documents denominator + `grammar:{patternId}` XP entity + no-reset on revision.  
+- Tests: denominator contract; mark-read ≠ XP; orphan filter; re-check ≠ double XP; export events.  
+- Branch: `feat/n2-l01-prog-001` @ `a3c171d`; PR https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/5.  
+- Verification: `npm test` **14/14 pass**.
 
 ### N2-L01-GOLD-002 (2026-09-15) — DONE
 
@@ -140,6 +152,7 @@ Re-verified against repository (no app code changes):
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-15 | N2-L01-PROG-001 progress denominator + XP export | **14/14 pass** | `npm test` |
 | 2026-09-15 | N2-L01-GOLD-002 origin + hint validators + rev 5 | **14/14 pass** | `npm test` |
 | 2026-09-15 | N2-L01-GOLD-001 examples/variants + rev 4 | **14/14 pass** | `npm test` (re-verified) |
 | 2026-09-15 | N2-L01-UX-001 + pattern lesson metadata | **14/14 pass** | `npm test` |
@@ -157,11 +170,10 @@ Re-verified against repository (no app code changes):
 
 ## Known Incomplete Work
 
-- Progress semantics polish (**N2-L01-PROG-001**).  
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
 - Lessons 2–26 content import.  
 - Playwright grammar E2E (**N2-TEST-001**).  
-- Commit/PR for `feat/n2-l01-gold-002` — **PR #4 open** (awaiting merge).
+- Commit/PR for `feat/n2-l01-prog-001` — **PR #5 open** (awaiting merge).
 
 ## Known Issues
 
