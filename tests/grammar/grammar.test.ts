@@ -1,5 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -17,6 +18,146 @@ import type {
   Session,
   ResponseState,
 } from "../../shared/grammar/types";
+
+const inventory = JSON.parse(
+  readFileSync(
+    new URL("../../content/grammar/n2/inventory.json", import.meta.url),
+    "utf8",
+  ),
+) as {
+  targetGroups: number;
+  groups: {
+    lessonId: string;
+    lessonNumber: number;
+    groupId: string;
+    ordinal: number;
+    canonicalPattern: string | null;
+    matchStatus: string;
+    contentStatus: string;
+    sourceUrls: string[];
+  }[];
+};
+
+test("N2 canonical inventory has 141 unique group IDs and matches manifest", () => {
+  assert.equal(inventory.targetGroups, 141);
+  assert.equal(inventory.groups.length, 141);
+  assert.equal(new Set(inventory.groups.map((g) => g.groupId)).size, 141);
+  assert.equal(
+    inventory.groups.reduce((n, g) => {
+      const lesson = manifest.lessons.find((l) => l.id === g.lessonId);
+      assert.ok(lesson, g.lessonId);
+      assert.equal(g.lessonNumber, lesson.number);
+      return n + 1;
+    }, 0),
+    141,
+  );
+  for (const l of manifest.lessons) {
+    const rows = inventory.groups.filter((g) => g.lessonId === l.id);
+    assert.equal(rows.length, l.groupCount, l.id);
+    assert.equal(
+      new Set(rows.map((g) => g.ordinal)).size,
+      l.groupCount,
+      l.id + " ordinals",
+    );
+  }
+  const l1Ids = ["sai", "saishite", "totan", "omouto", "kanai"];
+  assert.deepEqual(
+    inventory.groups
+      .filter((g) => g.lessonId === "lesson-01")
+      .map((g) => g.groupId)
+      .sort(),
+    [...l1Ids].sort(),
+  );
+  assert.deepEqual(
+    lesson.patterns.map((p) => p.id).sort(),
+    [...l1Ids].sort(),
+  );
+  const l1 = inventory.groups.filter((g) => g.lessonId === "lesson-01");
+  for (const g of l1) {
+    assert.ok(g.sourceUrls.length >= 1, g.groupId + " sourceUrls");
+    assert.equal(g.matchStatus, "full-match", g.groupId);
+  }
+  assert.equal(
+    l1.find((g) => g.groupId === "saishite")!.sourceUrls.length,
+    2,
+  );
+  const mappedL2to5 = inventory.groups.filter(
+    (g) => g.lessonNumber >= 2 && g.lessonNumber <= 5,
+  );
+  assert.equal(mappedL2to5.length, 21);
+  for (const g of mappedL2to5) {
+    assert.ok(g.canonicalPattern, g.groupId);
+    assert.ok(g.sourceUrls.length >= 1, g.groupId + " sourceUrls");
+    assert.ok(
+      g.matchStatus === "full-match" || g.matchStatus === "partial-match",
+      g.groupId,
+    );
+    assert.equal(g.contentStatus, "not-imported", g.groupId);
+  }
+  const mappedL6to10 = inventory.groups.filter(
+    (g) => g.lessonNumber >= 6 && g.lessonNumber <= 10,
+  );
+  assert.equal(mappedL6to10.length, 24);
+  for (const g of mappedL6to10) {
+    assert.ok(g.canonicalPattern, g.groupId);
+    assert.ok(g.sourceUrls.length >= 1, g.groupId + " sourceUrls");
+    assert.equal(g.matchStatus, "full-match", g.groupId);
+    assert.equal(g.contentStatus, "not-imported", g.groupId);
+  }
+  const mappedL11to15 = inventory.groups.filter(
+    (g) => g.lessonNumber >= 11 && g.lessonNumber <= 15,
+  );
+  assert.equal(mappedL11to15.length, 27);
+  for (const g of mappedL11to15) {
+    assert.ok(g.canonicalPattern, g.groupId);
+    assert.ok(g.sourceUrls.length >= 1, g.groupId + " sourceUrls");
+    assert.ok(
+      g.matchStatus === "full-match" || g.matchStatus === "partial-match",
+      g.groupId,
+    );
+    assert.equal(g.contentStatus, "not-imported", g.groupId);
+  }
+  const mappedL16to20 = inventory.groups.filter(
+    (g) => g.lessonNumber >= 16 && g.lessonNumber <= 20,
+  );
+  assert.equal(mappedL16to20.length, 28);
+  for (const g of mappedL16to20) {
+    assert.ok(g.canonicalPattern, g.groupId);
+    assert.ok(g.sourceUrls.length >= 1, g.groupId + " sourceUrls");
+    assert.ok(
+      g.matchStatus === "full-match" || g.matchStatus === "partial-match",
+      g.groupId,
+    );
+    assert.equal(g.contentStatus, "not-imported", g.groupId);
+  }
+  const mappedL21to26 = inventory.groups.filter(
+    (g) => g.lessonNumber >= 21 && g.lessonNumber <= 26,
+  );
+  assert.equal(mappedL21to26.length, 36);
+  for (const g of mappedL21to26) {
+    assert.ok(g.canonicalPattern, g.groupId);
+    assert.ok(g.sourceUrls.length >= 1, g.groupId + " sourceUrls");
+    assert.ok(
+      g.matchStatus === "full-match" || g.matchStatus === "partial-match",
+      g.groupId,
+    );
+    assert.equal(g.contentStatus, "not-imported", g.groupId);
+  }
+  assert.equal(
+    inventory.groups.filter(
+      (g) =>
+        g.canonicalPattern &&
+        g.sourceUrls.length >= 1 &&
+        (g.matchStatus === "full-match" || g.matchStatus === "partial-match"),
+    ).length,
+    141,
+  );
+  assert.equal(
+    inventory.groups.filter((g) => g.matchStatus === "needs-review").length,
+    0,
+  );
+});
+
 test("N2 content coverage, no duplicate prompts, valid answer/token permutations and private DTO", () => {
   assert.equal(manifest.lessons.length, 26);
   assert.equal(

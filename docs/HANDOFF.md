@@ -2,12 +2,11 @@
 
 ## Last Updated
 
-2026-09-14 (git initialized + pushed to GitHub)
+2026-09-15 (N2-MAP-002 DONE 141/141)
 
 ## Project
 
 Kotoba — Japanese Learning (`kotoba-learning`)  
-Workspace path note: `JLPT_Learning Pro - Copy`  
 Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
@@ -16,100 +15,56 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Latest Relevant Commit
 
-`ddae70d` — `docs: sync HANDOFF with pushed commits and clear git blocker`  
-Prior: `5d43ea8` (git remote notes), `0c7012e` (initial import)
+Includes N2-AUDIT-001 through **N2-MAP-002** (inventory + SOURCE-MAPPING + docs/tests). Prior tip before this work: `de07813`.
 
 ## Current Objective
 
-Await user approval, then execute Grammar N2 plan against `docs/requirements/GRAMMAR-N2-MASTER-REQUIREMENT.md`.
+N2-MAP-002 complete. Next coding task when approved: **N2-ARCH-001** (multi-lesson loader). Do not import L2–26 JSON until then.
 
 ## Current Phase
 
-**M-MEM complete.** **N2-GIT-000 complete.** Next: Grammar N2 Phase 0/1 **after user approval**.  
-Grammar N2 coding phase: **not started**.
+**Phase 1** — N2-MAP-002 **DONE** (141/141 mapped).  
+N2-ARCH-001 **not started** (needs user priority / approval for coding tasks per PLAN phase gate).
 
 ## Current Task
 
-`No active implementation task confirmed.`
-
-Next queued (not started): **N2-AUDIT-001** after user approves N2 implementation work.
+**N2-MAP-002** — **DONE**. Await user direction for **N2-ARCH-001**.
 
 ## Last Completed Work
 
-- Repository context audit; Grammar N2 Master Requirement analysis + plan (no feature code).  
-- Metrics verified: L1 = 5×30 / 10+10+10; manifest 26 / 141 sum.  
-- `npm test`: **11/11 pass** (2026-09-14).  
-- **MEM-001 DONE:** root project memory docs + `project-memory.mdc` rule.  
-- **N2-GIT-000 DONE:** git init, push to `origin/main` on GitHub.
+- **N2-MAP-002 L21–26:** 36 groups — L22–26 from 3A TOC; L21 from Quizlet/mylittlewordland (3A site jumps 20→22); TNĐG URLs.  
+- Prior batches: L16–20 (28), L11–15 (27), L6–10 (24), L2–5 (21), L1 (5).
 
 ## Current State
 
-- Core learning app operational in codebase.  
-- Grammar N2 Lesson 1 published; lessons 2–26 unpublished placeholders in manifest.  
-- Master Requirement is formal SoT for N2 scope.  
-- Proposed next engineering tasks listed in `docs/PLAN.md` (N2-AUDIT-001 onward) but **not authorized to code yet**.
-
-## Important Findings
-
-- **151 samples:** Not shown by current Kotoba UI code; comes from NhatKanji reference counts in older `docs/grammar-n2/PLAN.md`. Kotoba uses **141**.  
-- **Scale:** Content loader hardcodes `lesson-01.json`; must generalize before publishing more lessons.  
-- **IDs:** Lesson 1 pattern IDs are short strings (`sai`, …); remapping would break progress/SRS — preserve unless approved migration.  
-- **Learning examples:** Only **1** example per L1 pattern (Master suggests richer set for golden template).  
-- **Furigana:** Present on learning-example ruby; JA→VI practice prompts are plain Japanese (no structured furigana).  
-- **SOURCE-MAPPING.md:** Missing.
-
-## Important Decisions
-
-See `docs/DECISIONS.md` (ADR-001 …). Summary:
-
-- Reuse architecture; do not rebuild Grammar module.  
-- Canonical structure = Shinkanzen 26/141; content primary source per Master = Tiếng Nhật Đơn Giản; UX reference = NhatKanji (function only).  
-- Translation grading stays non-binary wrong.  
-- Targets ≠ completed counts.  
-- Repository (not chat) is long-term memory.
+- **141/141** groups with titles + TNĐG URLs.  
+- Content still only Lesson 1 imported (5 groups / 150 exercises).  
+- partial-match: `l04-g05`, `l04-g06`, `l13-g02`, `l13-g05`, `l18-g03`, `l23-g06`, `l26-g02`.
 
 ## Verification State
 
 | Check | State |
 |-------|--------|
-| `npm test` | **PASS** (11/11) — 2026-09-14 |
-| `npm run build` | **NOT RUN** this session |
-| `npm run test:e2e` | **NOT RUN** this session |
-| `npm run format:check` | **NOT RUN** this session |
-| Data validation (L1 counts) | **PASS** via content JSON inspection |
-| Docker | **NOT RUN** (historically unused in prior notes) |
+| `npm test` | **PASS** 12/12 after MAP-002 L21–26 |
 
 ## Known Blockers
 
-- Awaiting user approval before Grammar N2 implementation.  
-- Unresolved product decisions: practice furigana scope; commit-only-when-asked vs workflow auto-commit — follow latest user instruction.
+- PLAN phase gate: N2-* coding (ARCH) needs explicit user approval.  
+- Furigana on JA→VI practice — product decision still open.
 
 ## Exact Next Action
 
-1. User: confirm whether to **approve Grammar N2 implementation**.  
-2. If approved: execute **N2-AUDIT-001** then **N2-MAP-001** per `docs/PLAN.md`.  
-3. Do **not** author Lessons 2–26 or change app business logic until that approval.  
-4. New AI sessions: run `docs/AI-BOOTSTRAP.md` and stop at `CONTEXT RESTORED — READY TO CONTINUE`.
+Ask user / wait for approval to start **N2-ARCH-001** (multi-lesson content loader). Do **not** import lesson JSON before that.
 
 ## Files To Read Before Continuing
 
-1. `docs/AI-BOOTSTRAP.md` (procedure)  
-2. `docs/HANDOFF.md` (this file)  
-3. `docs/PLAN.md`  
-4. `docs/PROGRESS.md`  
-5. `docs/PROJECT-CONTEXT.md`  
-6. `docs/DECISIONS.md`  
-7. `docs/requirements/GRAMMAR-N2-MASTER-REQUIREMENT.md` (before any N2 coding)  
-8. `docs/grammar-n2/IMPLEMENTATION-RULES.md`  
-9. For N2 work: `content/grammar/n2/*`, `server/modules/grammar/*`, `src/features/grammar/Grammar.tsx`, `tests/grammar/grammar.test.ts`  
-10. `.cursor/rules/project-memory.mdc` + `development-workflow.mdc` + Karpathy guidelines  
+1. `content/grammar/n2/inventory.json`  
+2. `docs/grammar-n2/SOURCE-MAPPING.md`  
+3. `server/modules/grammar/content.ts` (for ARCH-001)  
+4. `docs/requirements/GRAMMAR-N2-MASTER-REQUIREMENT.md`
 
 ## Safety Notes
 
-- Do not reset user SQLite data or remap grammar IDs.  
-- Do not expose answers to the client.  
-- Do not report 141/4230 as done.  
-- Do not start N2 feature coding without user approval.  
-- Do not discard unrelated user changes.  
-- Do not invent git commits/branches.  
-- Prefer updating these docs after every verified logical task.
+- Do not remap L1 pattern IDs.  
+- Do not hard-code 151→141.  
+- Commit only when user asks.

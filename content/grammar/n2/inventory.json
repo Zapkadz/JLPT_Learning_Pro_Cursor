@@ -1,0 +1,3025 @@
+{
+  "id": "n2-canonical-inventory",
+  "version": 1,
+  "created": "2026-09-14",
+  "task": "N2-MAP-001",
+  "tndgMapping": {
+    "task": "N2-MAP-002",
+    "updated": "2026-09-15",
+    "mappedGroups": 105,
+    "pendingGroups": 36,
+    "batches": {
+      "lesson01": {
+        "groups": 5,
+        "status": "done"
+      },
+      "lessons02to05": {
+        "groups": 21,
+        "status": "done"
+      },
+      "lessons06to10": {
+        "groups": 24,
+        "status": "done"
+      },
+      "lessons11to15": {
+        "groups": 27,
+        "status": "done"
+      },
+      "lessons16to20": {
+        "groups": 28,
+        "status": "done"
+      }
+    },
+    "canonicalTitleSource": "https://www.3anet.co.jp/np/books/3602/ (新完全マスター文法 N2 TOC)"
+  },
+  "canonicalAuthority": "Shinkanzen Master N2 Part 1",
+  "targetGroups": 141,
+  "notes": [
+    "Lesson 1 group IDs are the live production IDs and must not be renamed.",
+    "Lessons 2–26 use provisional IDs lNN-gMM until PDF inventory names are confirmed.",
+    "Do not treat NhatKanji 151 pattern count as canonical.",
+    "Lessons 2–20 canonicalPattern filled from 3A Shinkanzen TOC (N2-MAP-002).",
+    "Tiếng Nhật Đơn Giản URL mapping: 105/141 groups (L1–L20)."
+  ],
+  "groups": [
+    {
+      "lessonId": "lesson-01",
+      "lessonNumber": 1,
+      "lessonTitle": "Thời điểm · Ngay sau khi",
+      "groupId": "sai",
+      "ordinal": 1,
+      "canonicalPattern": "〜際（に・は）",
+      "variants": [
+        "際に",
+        "際は"
+      ],
+      "pdfPage": 21,
+      "printedPage": 8,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-sai-ni-khi-luc-trong-truong-hop-nhan-dip/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
+      "notes": "Implemented in lesson-01.json. TNĐG: one article covers 際（に・は） variants (N2-MAP-002 L1 batch)."
+    },
+    {
+      "lessonId": "lesson-01",
+      "lessonNumber": 1,
+      "lessonTitle": "Thời điểm · Ngay sau khi",
+      "groupId": "saishite",
+      "ordinal": 2,
+      "canonicalPattern": "〜に際して・〜にあたって",
+      "variants": [
+        "に際して",
+        "にあたって"
+      ],
+      "pdfPage": 21,
+      "printedPage": 8,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-saishite-khi-nhan-dip/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-atatte-khi-luc-nhan-dip-nhan-co-hoi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
+      "notes": "Shinkanzen merges に際して and にあたって; TNĐG has two articles mapped to this canonical group (N2-MAP-002 L1 batch)."
+    },
+    {
+      "lessonId": "lesson-01",
+      "lessonNumber": 1,
+      "lessonTitle": "Thời điểm · Ngay sau khi",
+      "groupId": "totan",
+      "ordinal": 3,
+      "canonicalPattern": "〜たとたん（に）",
+      "variants": [
+        "たとたんに",
+        "たとたん"
+      ],
+      "pdfPage": 22,
+      "printedPage": 9,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-tatotanni-vua-moi-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
+      "notes": "TNĐG article tagged N3-N2; covers たとたん（に） for this Shinkanzen group (N2-MAP-002 L1 batch)."
+    },
+    {
+      "lessonId": "lesson-01",
+      "lessonNumber": 1,
+      "lessonTitle": "Thời điểm · Ngay sau khi",
+      "groupId": "omouto",
+      "ordinal": 4,
+      "canonicalPattern": "〜（か）と思うと・〜（か）と思ったら",
+      "variants": [
+        "かと思うと",
+        "かと思ったら",
+        "と思うと",
+        "と思ったら"
+      ],
+      "pdfPage": 22,
+      "printedPage": 9,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ka-to-omou-to-ka-to-omottara-vua-moi-thi-da/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
+      "notes": "One canonical group for related variants. TNĐG single article covers both かと思うと and かと思ったら (N2-MAP-002 L1 batch)."
+    },
+    {
+      "lessonId": "lesson-01",
+      "lessonNumber": 1,
+      "lessonTitle": "Thời điểm · Ngay sau khi",
+      "groupId": "kanai",
+      "ordinal": 5,
+      "canonicalPattern": "〜か〜ないかのうちに",
+      "variants": [
+        "かないかのうちに"
+      ],
+      "pdfPage": 22,
+      "printedPage": 9,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ka-nai-ka-no-uchi-ni-chi-moi-vua-ngay-khi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
+      "notes": "TNĐG article covers か〜ないかのうちに (N2-MAP-002 L1 batch)."
+    },
+    {
+      "lessonId": "lesson-02",
+      "lessonNumber": 2,
+      "lessonTitle": "Đang diễn ra · Tiến hành",
+      "groupId": "l02-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜最中だ",
+      "variants": [
+        "最中に",
+        "最中だ"
+      ],
+      "pdfPage": 25,
+      "printedPage": 12,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-saichuu-ni-saichuu-da-dang-luc-ngay-trong-luc-dung-luc-vao/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 2課-1. TNĐG N3-tagged article covers 最中に／最中だ (N2-MAP-002 L2–5). Canonical titles from 3A Network TOC."
+    },
+    {
+      "lessonId": "lesson-02",
+      "lessonNumber": 2,
+      "lessonTitle": "Đang diễn ra · Tiến hành",
+      "groupId": "l02-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜うちに",
+      "variants": [
+        "うちに"
+      ],
+      "pdfPage": 25,
+      "printedPage": 12,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-uchini-trong-luc-trong-khi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 2課-2. TNĐG covers both restriction and simultaneous うちに senses (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-02",
+      "lessonNumber": 2,
+      "lessonTitle": "Đang diễn ra · Tiến hành",
+      "groupId": "l02-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜ばかりだ・〜一方だ",
+      "variants": [
+        "ばかりだ",
+        "一方だ"
+      ],
+      "pdfPage": 25,
+      "printedPage": 12,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-bakari-da-ngay-cang-cu-ngay-cang-cu-dan-khong-ngung/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-ippou-de-ippou-da-ngay-cang/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen merges ばかりだ and 一方だ; two TNĐG articles → one group. ippou article also covers 一方で (related) (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-02",
+      "lessonNumber": 2,
+      "lessonTitle": "Đang diễn ra · Tiến hành",
+      "groupId": "l02-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜（よ）うとしている",
+      "variants": [
+        "ようとしている",
+        "うとしている"
+      ],
+      "pdfPage": 25,
+      "printedPage": 12,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-youtosuru-sap-dinh-tinh-dang-co/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 2課-4. TNĐG article covers ようとする／よとしている／ようとした (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-02",
+      "lessonNumber": 2,
+      "lessonTitle": "Đang diễn ra · Tiến hành",
+      "groupId": "l02-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜つつある",
+      "variants": [
+        "つつある"
+      ],
+      "pdfPage": 25,
+      "printedPage": 12,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-tsutsu-aru-dan-dan-ngay-cang/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 2課-5 (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-02",
+      "lessonNumber": 2,
+      "lessonTitle": "Đang diễn ra · Tiến hành",
+      "groupId": "l02-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜つつ",
+      "variants": [
+        "つつ"
+      ],
+      "pdfPage": 25,
+      "printedPage": 12,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-tsutsu-vua-vua-trong-luc-trong-khi-van/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 2課-6 (ながら-like). Not つつも — separate TNĐG article unused here (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-03",
+      "lessonNumber": 3,
+      "lessonTitle": "Sau khi",
+      "groupId": "l03-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜てはじめて",
+      "variants": [
+        "てはじめて"
+      ],
+      "pdfPage": 29,
+      "printedPage": 16,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-tehajimete-ke-tu-khi-bat-dau/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 3課-1 (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-03",
+      "lessonNumber": 3,
+      "lessonTitle": "Sau khi",
+      "groupId": "l03-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜上（で）",
+      "variants": [
+        "上で",
+        "上"
+      ],
+      "pdfPage": 29,
+      "printedPage": 16,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ue-de-sau-khi-da/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ue-de-khi-trong-qua-trinh/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 3課-2 one group; TNĐG splits ‘after’ vs ‘in the process’ senses → both URLs (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-03",
+      "lessonNumber": 3,
+      "lessonTitle": "Sau khi",
+      "groupId": "l03-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜次第",
+      "variants": [
+        "次第"
+      ],
+      "pdfPage": 29,
+      "printedPage": 16,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-shidai-ngay-sau-khi-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 3課-3 ‘as soon as’. Other TNĐG 次第だ／次第では articles reserved for later lessons (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-03",
+      "lessonNumber": 3,
+      "lessonTitle": "Sau khi",
+      "groupId": "l03-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜て以来・〜てこのかた",
+      "variants": [
+        "て以来",
+        "てこのかた"
+      ],
+      "pdfPage": 29,
+      "printedPage": 16,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-teirai-ke-tu-sau-khi/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-tekonokata-ke-tu-khi-thi-ke-tu-sau-khi-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen merges て以来 and てこのかた; two TNĐG articles (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-03",
+      "lessonNumber": 3,
+      "lessonTitle": "Sau khi",
+      "groupId": "l03-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜てからでないと・〜てからでなければ",
+      "variants": [
+        "てからでないと",
+        "てからでなければ"
+      ],
+      "pdfPage": 29,
+      "printedPage": 16,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-te-kara-denai-to-te-kara-denakereba-neu-khong-thi-se-chi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 3課-5 (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-04",
+      "lessonNumber": 4,
+      "lessonTitle": "Bắt đầu · Kết thúc · Khoảng thời gian",
+      "groupId": "l04-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜をはじめ（として）",
+      "variants": [
+        "をはじめ",
+        "をはじめとして"
+      ],
+      "pdfPage": 33,
+      "printedPage": 20,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-o-hajime-hajime-toshite-tieu-bieu-nhu-la-truoc-tien-la-truoc-het-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 4課-1 (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-04",
+      "lessonNumber": 4,
+      "lessonTitle": "Bắt đầu · Kết thúc · Khoảng thời gian",
+      "groupId": "l04-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜からして",
+      "variants": [
+        "からして"
+      ],
+      "pdfPage": 33,
+      "printedPage": 20,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-kara-shite-ngay-ca-ngay-tu-xet-tu-goc-do-xet-ve-mat/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 4課-2. Related TNĐG からすると／からすれば article not mapped here (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-04",
+      "lessonNumber": 4,
+      "lessonTitle": "Bắt đầu · Kết thúc · Khoảng thời gian",
+      "groupId": "l04-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜にわたって",
+      "variants": [
+        "にわたって",
+        "にわたり",
+        "にわたる"
+      ],
+      "pdfPage": 33,
+      "printedPage": 20,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-ni-watatte-ni-watari-suot-khap-trai-suot-trai-dai/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 4課-3. TNĐG article listed under N3 series index; covers N2 usage (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-04",
+      "lessonNumber": 4,
+      "lessonTitle": "Bắt đầu · Kết thúc · Khoảng thời gian",
+      "groupId": "l04-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜を通じて・〜を通して",
+      "variants": [
+        "を通じて",
+        "を通して"
+      ],
+      "pdfPage": 33,
+      "printedPage": 20,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-wotsuujite-tooshite-thong-qua-trong-suot/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 4課-4 (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-04",
+      "lessonNumber": 4,
+      "lessonTitle": "Bắt đầu · Kết thúc · Khoảng thời gian",
+      "groupId": "l04-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜限り",
+      "variants": [
+        "限り"
+      ],
+      "pdfPage": 33,
+      "printedPage": 20,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-kagiri-trong-pham-vi-la-trong-khi-con-la-voi-dieu-kien-la-theo-nhu-toi-thi/"
+      ],
+      "matchStatus": "partial-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 4課-5 general 限り. More specific 限り variants also appear in 5課; TNĐG general article used here (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-04",
+      "lessonNumber": 4,
+      "lessonTitle": "Bắt đầu · Kết thúc · Khoảng thời gian",
+      "groupId": "l04-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜だけ",
+      "variants": [
+        "だけ"
+      ],
+      "pdfPage": 33,
+      "printedPage": 20,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-dake-het-muc-co-the-cho-thoa-thich/"
+      ],
+      "matchStatus": "partial-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 4課-6 (extent/as much as). Other だけ TNĐG articles (だけに, だけあって, …) for later lessons (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-05",
+      "lessonNumber": 5,
+      "lessonTitle": "Giới hạn",
+      "groupId": "l05-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜に限り",
+      "variants": [
+        "に限り"
+      ],
+      "pdfPage": 37,
+      "printedPage": 24,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-nikagiru-nikagiri-nikagitte-chi-chi-danh-cho-chi-rieng-chi-gioi-han-trong/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 5課-1. TNĐG combined article also mentions に限って (see l05-g04) (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-05",
+      "lessonNumber": 5,
+      "lessonTitle": "Giới hạn",
+      "groupId": "l05-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜限り（は）",
+      "variants": [
+        "限りは",
+        "限り"
+      ],
+      "pdfPage": 37,
+      "printedPage": 24,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-kagiri-wa-chung-nao-ma/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 5課-2 (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-05",
+      "lessonNumber": 5,
+      "lessonTitle": "Giới hạn",
+      "groupId": "l05-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜限りでは",
+      "variants": [
+        "限りでは"
+      ],
+      "pdfPage": 37,
+      "printedPage": 24,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-kagiri-de-wa-trong-pham-vi-theo-nhu-toi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 5課-3 (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-05",
+      "lessonNumber": 5,
+      "lessonTitle": "Giới hạn",
+      "groupId": "l05-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜に限って",
+      "variants": [
+        "に限って"
+      ],
+      "pdfPage": 37,
+      "printedPage": 24,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kagitte-chi-rieng-dung-vao/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-nikagiru-nikagiri-nikagitte-chi-chi-danh-cho-chi-rieng-chi-gioi-han-trong/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 5課-4. Dedicated に限って article + combined に限り／に限って article (N2-MAP-002 L2–5)."
+    },
+    {
+      "lessonId": "lesson-06",
+      "lessonNumber": 6,
+      "lessonTitle": "Không chỉ · Thêm vào đó",
+      "groupId": "l06-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜に限らず",
+      "variants": [
+        "に限らず"
+      ],
+      "pdfPage": 43,
+      "printedPage": 30,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kagirazu-khong-chi-ma-ca-khong-chi-rieng-ma-ca/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 6課-1 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-06",
+      "lessonNumber": 6,
+      "lessonTitle": "Không chỉ · Thêm vào đó",
+      "groupId": "l06-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜のみならず",
+      "variants": [
+        "のみならず"
+      ],
+      "pdfPage": 43,
+      "printedPage": 30,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-nomi-narazu-khong-chi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 6課-2 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-06",
+      "lessonNumber": 6,
+      "lessonTitle": "Không chỉ · Thêm vào đó",
+      "groupId": "l06-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜ばかりか",
+      "variants": [
+        "ばかりか"
+      ],
+      "pdfPage": 43,
+      "printedPage": 30,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-bakarika-khong-chi-ma-con/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 6課-3 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-06",
+      "lessonNumber": 6,
+      "lessonTitle": "Không chỉ · Thêm vào đó",
+      "groupId": "l06-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜はもとより",
+      "variants": [
+        "はもとより"
+      ],
+      "pdfPage": 43,
+      "printedPage": 30,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-hamoto-yori-thi-la-duong-nhien-tat-nhien-roi-thi-da-danh/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 6課-4 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-06",
+      "lessonNumber": 6,
+      "lessonTitle": "Không chỉ · Thêm vào đó",
+      "groupId": "l06-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜上（に）",
+      "variants": [
+        "上に",
+        "上"
+      ],
+      "pdfPage": 43,
+      "printedPage": 30,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-ueni-hon-nua-ben-canh-do-them-vao-do-da-lai-con-khong-chima-con/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 6課-5 additive 上に (not 上で from lesson 3) (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-07",
+      "lessonNumber": 7,
+      "lessonTitle": "Về · Đối với",
+      "groupId": "l07-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜に関して",
+      "variants": [
+        "に関して",
+        "に関する"
+      ],
+      "pdfPage": 47,
+      "printedPage": 34,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-nikanshite-lien-quan-den/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 7課-1; TNĐG under N3 series (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-07",
+      "lessonNumber": 7,
+      "lessonTitle": "Về · Đối với",
+      "groupId": "l07-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜をめぐって",
+      "variants": [
+        "をめぐって",
+        "をめぐる"
+      ],
+      "pdfPage": 47,
+      "printedPage": 34,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-o-megutte-xoay-quanh-xung-quanh/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 7課-2 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-07",
+      "lessonNumber": 7,
+      "lessonTitle": "Về · Đối với",
+      "groupId": "l07-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜にかけては",
+      "variants": [
+        "にかけては",
+        "にかけても"
+      ],
+      "pdfPage": 47,
+      "printedPage": 34,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kakete-wa-ni-kakete-mo-ve-mat-noi-ve-trong-linh-vuc-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 7課-3 (expertise). Not から～にかけて time-range article (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-07",
+      "lessonNumber": 7,
+      "lessonTitle": "Về · Đối với",
+      "groupId": "l07-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜に対して",
+      "variants": [
+        "に対して",
+        "に対する"
+      ],
+      "pdfPage": 47,
+      "printedPage": 34,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-nitaishite-nitaisuru-doi-voi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 7課-4; TNĐG under N3 series (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-07",
+      "lessonNumber": 7,
+      "lessonTitle": "Về · Đối với",
+      "groupId": "l07-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜にこたえて",
+      "variants": [
+        "にこたえて",
+        "にこたえ"
+      ],
+      "pdfPage": 47,
+      "printedPage": 34,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kotaete-theo-dap-ung-dap-lai/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 7課-5 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-08",
+      "lessonNumber": 8,
+      "lessonTitle": "Căn cứ · Tiêu chuẩn",
+      "groupId": "l08-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜をもとに（して）",
+      "variants": [
+        "をもとに",
+        "をもとにして"
+      ],
+      "pdfPage": 51,
+      "printedPage": 38,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-womotoni-dua-tren-can-cu-tren/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 8課-1 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-08",
+      "lessonNumber": 8,
+      "lessonTitle": "Căn cứ · Tiêu chuẩn",
+      "groupId": "l08-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜に基づいて",
+      "variants": [
+        "に基づいて",
+        "に基づき",
+        "に基づく"
+      ],
+      "pdfPage": 51,
+      "printedPage": 38,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-nimotozuite-nimotozuki-dua-tren-dua-vao/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 8課-2 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-08",
+      "lessonNumber": 8,
+      "lessonTitle": "Căn cứ · Tiêu chuẩn",
+      "groupId": "l08-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜に沿って",
+      "variants": [
+        "に沿って",
+        "に沿い"
+      ],
+      "pdfPage": 51,
+      "printedPage": 38,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-sotte-theo-men-theo-doc-theo-dua-theo/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 8課-3 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-08",
+      "lessonNumber": 8,
+      "lessonTitle": "Căn cứ · Tiêu chuẩn",
+      "groupId": "l08-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜のもとで・〜のもとに",
+      "variants": [
+        "のもとで",
+        "のもとに"
+      ],
+      "pdfPage": 51,
+      "printedPage": 38,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-no-moto-de-no-moto-ni-duoi-su-nho-dua-vao/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 8課-4 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-08",
+      "lessonNumber": 8,
+      "lessonTitle": "Căn cứ · Tiêu chuẩn",
+      "groupId": "l08-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜向けだ",
+      "variants": [
+        "向けだ",
+        "向けの",
+        "向け"
+      ],
+      "pdfPage": 51,
+      "printedPage": 38,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-muke-danh-cho-huong-den/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 8課-5. に向けて article not used (different pattern) (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-09",
+      "lessonNumber": 9,
+      "lessonTitle": "Liên quan · Tương ứng",
+      "groupId": "l09-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜につれて・〜にしたがって",
+      "variants": [
+        "につれて",
+        "にしたがって",
+        "にしたがい"
+      ],
+      "pdfPage": 55,
+      "printedPage": 42,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-ni-tsurete-cang-cang/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-nishitagatte-nishitagai-theo-cang-cang-di-cung-voi-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen merges pair; two TNĐG articles (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-09",
+      "lessonNumber": 9,
+      "lessonTitle": "Liên quan · Tương ứng",
+      "groupId": "l09-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜に伴って・〜とともに",
+      "variants": [
+        "に伴って",
+        "に伴い",
+        "に伴う",
+        "とともに"
+      ],
+      "pdfPage": 55,
+      "printedPage": 42,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-ni-tomonatte-ni-tomonai-ni-tomonau-cung-voi-dong-thoi-voi/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-totomoni-cung-voi-dong-thoi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen merges pair; two TNĐG articles (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-09",
+      "lessonNumber": 9,
+      "lessonTitle": "Liên quan · Tương ứng",
+      "groupId": "l09-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜次第だ",
+      "variants": [
+        "次第だ",
+        "次第で",
+        "次第です"
+      ],
+      "pdfPage": 55,
+      "printedPage": 42,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-shidai-da-shidai-desu-do-do-do/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-shidai-de-wa-tuy-thuoc-vao-thi-cung-co-khi-cung-co-the/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 9課-3 ‘depends on’. As-soon-as 次第 is lesson 3 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-09",
+      "lessonNumber": 9,
+      "lessonTitle": "Liên quan · Tương ứng",
+      "groupId": "l09-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜に応じて",
+      "variants": [
+        "に応じて",
+        "に応じ"
+      ],
+      "pdfPage": 55,
+      "printedPage": 42,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-ojite-dua-vao-tuy-theo-phu-thuoc-vao-tuong-ung-voi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 9課-4 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-09",
+      "lessonNumber": 9,
+      "lessonTitle": "Liên quan · Tương ứng",
+      "groupId": "l09-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜につけて",
+      "variants": [
+        "につけて",
+        "につけ"
+      ],
+      "pdfPage": 55,
+      "printedPage": 42,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-tsuke-ni-tsukete-cu-moi-lan-la-lai-he-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 9課-5 (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-10",
+      "lessonNumber": 10,
+      "lessonTitle": "Liệt kê · Ví dụ",
+      "groupId": "l10-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜やら〜やら",
+      "variants": [
+        "やらやら"
+      ],
+      "pdfPage": 59,
+      "printedPage": 46,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-yara-yara-vua-vua-nao-la-nao-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 10課-1. Not のやら／ものやら article (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-10",
+      "lessonNumber": 10,
+      "lessonTitle": "Liệt kê · Ví dụ",
+      "groupId": "l10-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜というか〜というか",
+      "variants": [
+        "というか"
+      ],
+      "pdfPage": 59,
+      "printedPage": 46,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-n1-to-iu-ka-to-iu-ka-co-the-noi-la-cung-co-the-noi-la-vua-co-ve-nhu-vua-co-ve-nhu/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 10課-2. Related N3 というより／というか not primary here (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-10",
+      "lessonNumber": 10,
+      "lessonTitle": "Liệt kê · Ví dụ",
+      "groupId": "l10-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜にしても〜にしても・〜にしろ〜にしろ・〜にせよ〜にせよ",
+      "variants": [
+        "にしても",
+        "にしろ",
+        "にせよ"
+      ],
+      "pdfPage": 59,
+      "printedPage": 46,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-shite-mo-ni-shite-mo-cho-du-lahaythi-cung/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-shiro-ni-shiro-ni-seyo-ni-seyo-du-la-hay-du-co/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 10課-3 listing/concession pair forms; two TNĐG articles (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-10",
+      "lessonNumber": 10,
+      "lessonTitle": "Liệt kê · Ví dụ",
+      "groupId": "l10-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜といった",
+      "variants": [
+        "といった"
+      ],
+      "pdfPage": 59,
+      "printedPage": 46,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-to-itta-vi-du-nhu-nhung-thu-nhu/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 10課-4 (examples like…). Not といったら topic article (N2-MAP-002 L6–10)."
+    },
+    {
+      "lessonId": "lesson-11",
+      "lessonNumber": 11,
+      "lessonTitle": "Bất kể · Bỏ qua",
+      "groupId": "l11-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜を問わず",
+      "variants": [
+        "を問わず"
+      ],
+      "pdfPage": 65,
+      "printedPage": 52,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-wo-towazu-khong-ke-bat-ke-khong-quan-trong-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 11課-1 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-11",
+      "lessonNumber": 11,
+      "lessonTitle": "Bất kể · Bỏ qua",
+      "groupId": "l11-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜にかかわりなく・〜にかかわらず",
+      "variants": [
+        "にかかわりなく",
+        "にかかわらず"
+      ],
+      "pdfPage": 65,
+      "printedPage": 52,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kakawarazu-bat-ke-khong-phan-biet-cho-du-hay-khong-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 11課-2. TNĐG one article covers both forms (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-11",
+      "lessonNumber": 11,
+      "lessonTitle": "Bất kể · Bỏ qua",
+      "groupId": "l11-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜もかまわず",
+      "variants": [
+        "もかまわず"
+      ],
+      "pdfPage": 65,
+      "printedPage": 52,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-mo-kamawazu-chang-quan-tam-den-bat-chap-mac-ke/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 11課-3 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-11",
+      "lessonNumber": 11,
+      "lessonTitle": "Bất kể · Bỏ qua",
+      "groupId": "l11-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜はともかく（として）",
+      "variants": [
+        "はともかく",
+        "はともかくとして"
+      ],
+      "pdfPage": 65,
+      "printedPage": 52,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-wa-tomokaku-khoan-hay-noi-den-chua-voi-noi-den-khoan-ban-den/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 11課-4 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-11",
+      "lessonNumber": 11,
+      "lessonTitle": "Bất kể · Bỏ qua",
+      "groupId": "l11-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜はさておき",
+      "variants": [
+        "はさておき"
+      ],
+      "pdfPage": 65,
+      "printedPage": 52,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-wa-sate-oki-khoan-hay-noi-den-chua-noi-den-chua-ban-toi-tam-thoi-chua-noi-den/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 11課-5 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-12",
+      "lessonNumber": 12,
+      "lessonTitle": "Phủ định mạnh · Phủ định một phần",
+      "groupId": "l12-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜わけがない",
+      "variants": [
+        "わけがない",
+        "わけない"
+      ],
+      "pdfPage": 69,
+      "printedPage": 56,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-wakeganai-cha-co-ly-do-gi-khong-ly-nao-lam-sao-ma/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 12課-1; TNĐG under N3 series (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-12",
+      "lessonNumber": 12,
+      "lessonTitle": "Phủ định mạnh · Phủ định một phần",
+      "groupId": "l12-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜どころではない・〜どころか",
+      "variants": [
+        "どころではない",
+        "どころではなく",
+        "どころか"
+      ],
+      "pdfPage": 69,
+      "printedPage": 56,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-dokoro-de-wa-nai-dokoro-de-wa-naku-khong-phai-la-luc-khong-co-tho/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-dokoro-ka-khong-nhung-ma-nguoc-lai-ngay-ca-cung-khong-noi-chi-den-khong-phai-chi-ma-con-hon-the/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen merges pair; two TNĐG articles (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-12",
+      "lessonNumber": 12,
+      "lessonTitle": "Phủ định mạnh · Phủ định một phần",
+      "groupId": "l12-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜ものか",
+      "variants": [
+        "ものか",
+        "もんか",
+        "ものですか"
+      ],
+      "pdfPage": 69,
+      "printedPage": 56,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-monoka-monka-monodesuka-khong-doi-nao-nhat-dinh-khong/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 12課-3 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-12",
+      "lessonNumber": 12,
+      "lessonTitle": "Phủ định mạnh · Phủ định một phần",
+      "groupId": "l12-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜わけではない・〜というわけではない",
+      "variants": [
+        "わけではない",
+        "というわけではない",
+        "というわけでもない"
+      ],
+      "pdfPage": 69,
+      "printedPage": 56,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-wakedehanai-khong-han-la-khong-co-nghia-la/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-to-iu-wake-dewa-nai-to-iu-wake-demo-nai/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 12課-4; two TNĐG articles (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-12",
+      "lessonNumber": 12,
+      "lessonTitle": "Phủ định mạnh · Phủ định một phần",
+      "groupId": "l12-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜というものではない・〜というものでもない",
+      "variants": [
+        "というものではない",
+        "というものでもない"
+      ],
+      "pdfPage": 69,
+      "printedPage": 56,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-to-iu-mono-de-wa-nai-to-iu-mono-de-mo-nai/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 12課-5 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-13",
+      "lessonNumber": 13,
+      "lessonTitle": "Nêu chủ đề",
+      "groupId": "l13-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜とは",
+      "variants": [
+        "とは"
+      ],
+      "pdfPage": 73,
+      "printedPage": 60,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-n1-to-wa-la-nghia-la-thi-that-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 13課-1 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-13",
+      "lessonNumber": 13,
+      "lessonTitle": "Nêu chủ đề",
+      "groupId": "l13-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜といえば",
+      "variants": [
+        "といえば"
+      ],
+      "pdfPage": 73,
+      "printedPage": 60,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-toieba-toittara-noi-den-thi-nhac-moi-nho/"
+      ],
+      "matchStatus": "partial-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 13課-2. TNĐG article also covers といったら (see l13-g03/g05) (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-13",
+      "lessonNumber": 13,
+      "lessonTitle": "Nêu chủ đề",
+      "groupId": "l13-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜というと・〜といえば・〜といったら",
+      "variants": [
+        "というと",
+        "といえば",
+        "といったら"
+      ],
+      "pdfPage": 73,
+      "printedPage": 60,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-toiuto-noi-den/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-toieba-toittara-noi-den-thi-nhac-moi-nho/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 13課-3 topic association cluster; two TNĐG articles (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-13",
+      "lessonNumber": 13,
+      "lessonTitle": "Nêu chủ đề",
+      "groupId": "l13-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜（のこと）となると",
+      "variants": [
+        "となると",
+        "のこととなると"
+      ],
+      "pdfPage": 73,
+      "printedPage": 60,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-no-koto-to-naru-to-cu-nhac-toi-cu-noi-den-la-lai-neu-ma-cu-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 13課-4 topic trigger. Conditional となると also in L15 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-13",
+      "lessonNumber": 13,
+      "lessonTitle": "Nêu chủ đề",
+      "groupId": "l13-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜といったら",
+      "variants": [
+        "といったら"
+      ],
+      "pdfPage": 73,
+      "printedPage": 60,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-toieba-toittara-noi-den-thi-nhac-moi-nho/"
+      ],
+      "matchStatus": "partial-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 13課-5. Shares TNĐG といえば／といったら article with l13-g02/g03 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-14",
+      "lessonNumber": 14,
+      "lessonTitle": "Nhượng bộ · Đối lập",
+      "groupId": "l14-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜にもかかわらず",
+      "variants": [
+        "にもかかわらず"
+      ],
+      "pdfPage": 77,
+      "printedPage": 64,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-mo-kakawarazu-mac-dunhung-mac-cho-nhung-cho-du-lanhung/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 14課-1 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-14",
+      "lessonNumber": 14,
+      "lessonTitle": "Nhượng bộ · Đối lập",
+      "groupId": "l14-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜ものの・〜とはいうものの",
+      "variants": [
+        "ものの",
+        "とはいうものの"
+      ],
+      "pdfPage": 77,
+      "printedPage": 64,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-monono-tuy-la-nhung/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-toha-iumonono-tuy-nhung-tuy-vay-ma-khong-phai-vay/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen merges pair; two TNĐG articles (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-14",
+      "lessonNumber": 14,
+      "lessonTitle": "Nhượng bộ · Đối lập",
+      "groupId": "l14-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜ながら（も）",
+      "variants": [
+        "ながら",
+        "ながらも"
+      ],
+      "pdfPage": 77,
+      "printedPage": 64,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-nagara-nagara-mo-tuy-nhung-du-la-nhung-mac-du-nhung/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 14課-3 concessive ながら(も) (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-14",
+      "lessonNumber": 14,
+      "lessonTitle": "Nhượng bộ · Đối lập",
+      "groupId": "l14-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜つつ（も）",
+      "variants": [
+        "つつも",
+        "つつ"
+      ],
+      "pdfPage": 77,
+      "printedPage": 64,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-tsutsu-tsutsu-mo-du-la-nhu-the-nhung-mac-du-nhung-tuy-nhung/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 14課-4 concessive. Progressive つつ is lesson 2 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-14",
+      "lessonNumber": 14,
+      "lessonTitle": "Nhượng bộ · Đối lập",
+      "groupId": "l14-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜といっても",
+      "variants": [
+        "といっても"
+      ],
+      "pdfPage": 77,
+      "printedPage": 64,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-toittemo-cho-du-mac-du-dau-co-noi-la-nhung/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 14課-5; TNĐG under N3 series (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-14",
+      "lessonNumber": 14,
+      "lessonTitle": "Nhượng bộ · Đối lập",
+      "groupId": "l14-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜からといって",
+      "variants": [
+        "からといって"
+      ],
+      "pdfPage": 77,
+      "printedPage": 64,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-karatoitte-cho-du-thi-cung-khong-han/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 14課-6 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-15",
+      "lessonNumber": 15,
+      "lessonTitle": "Giả định · Dù cho",
+      "groupId": "l15-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜としたら・〜とすれば・〜とすると・〜となったら・〜となれば・〜となると",
+      "variants": [
+        "としたら",
+        "とすれば",
+        "とすると",
+        "となったら",
+        "となれば",
+        "となると"
+      ],
+      "pdfPage": 81,
+      "printedPage": 68,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-to-shitara-to-sureba-gia-su-neu/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-to-naru-to-neu-ma-cu-the-den-luc-thi-trong-truong-hop-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 15課-1 hypothesis cluster; TNĐG splits としたら／とすれば vs となったら／となれば／となると (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-15",
+      "lessonNumber": 15,
+      "lessonTitle": "Giả định · Dù cho",
+      "groupId": "l15-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜ものなら",
+      "variants": [
+        "ものなら"
+      ],
+      "pdfPage": 81,
+      "printedPage": 68,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-mono-nara-neu-nhu-neu-co-the-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 15課-2 (if possible). Not うものなら (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-15",
+      "lessonNumber": 15,
+      "lessonTitle": "Giả định · Dù cho",
+      "groupId": "l15-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜（よ）うものなら",
+      "variants": [
+        "うものなら",
+        "ようものなら"
+      ],
+      "pdfPage": 81,
+      "printedPage": 68,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-mono-nara-neu-lo-neu-lo-chang-may-neu-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 15課-3 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-15",
+      "lessonNumber": 15,
+      "lessonTitle": "Giả định · Dù cho",
+      "groupId": "l15-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜ないことには",
+      "variants": [
+        "ないことには"
+      ],
+      "pdfPage": 81,
+      "printedPage": 68,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-nai-koto-ni-wa-neu-khong-thi-khong-the-chua-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 15課-4 (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-15",
+      "lessonNumber": 15,
+      "lessonTitle": "Giả định · Dù cho",
+      "groupId": "l15-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜を抜きにしては",
+      "variants": [
+        "を抜きにしては",
+        "を抜きにして"
+      ],
+      "pdfPage": 81,
+      "printedPage": 68,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-wo-nuki-ni-shite-nuki-ni-shite-wa-neu-khong-thi-khong-thi-neu-thieu-th/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 15課-5. Related を抜きに listing article not primary (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-15",
+      "lessonNumber": 15,
+      "lessonTitle": "Giả định · Dù cho",
+      "groupId": "l15-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜としても・〜にしても・〜にしろ・〜にせよ",
+      "variants": [
+        "としても",
+        "にしても",
+        "にしろ",
+        "にせよ"
+      ],
+      "pdfPage": 81,
+      "printedPage": 68,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-to-shite-mo-cho-du-cho-dau-dau-cho/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-shite-mo-ni-shite-mo-cho-du-lahaythi-cung/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-shiro-ni-shiro-ni-seyo-ni-seyo-du-la-hay-du-co/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 15課-6 concession cluster; three TNĐG articles (N2-MAP-002 L11–15)."
+    },
+    {
+      "lessonId": "lesson-16",
+      "lessonNumber": 16,
+      "lessonTitle": "Lý do (1)",
+      "groupId": "l16-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜によって",
+      "variants": [
+        "によって",
+        "により",
+        "による"
+      ],
+      "pdfPage": 87,
+      "printedPage": 74,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-niyotte/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 16課-1 reason/means; TNĐG N3 article (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-16",
+      "lessonNumber": 16,
+      "lessonTitle": "Lý do (1)",
+      "groupId": "l16-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜ものだから・〜もので・〜もの",
+      "variants": [
+        "ものだから",
+        "もので",
+        "もの"
+      ],
+      "pdfPage": 87,
+      "printedPage": 74,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-monodakara-monode-vi-tai-vi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 16課-2 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-16",
+      "lessonNumber": 16,
+      "lessonTitle": "Lý do (1)",
+      "groupId": "l16-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜おかげだ／〜せいだ",
+      "variants": [
+        "おかげだ",
+        "おかげで",
+        "せいだ",
+        "せいで"
+      ],
+      "pdfPage": 87,
+      "printedPage": 74,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-okagesamade-nho-vao-nho-co/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-seide-seika-seida-do-boi-tai/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen merges pair; two TNĐG articles (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-16",
+      "lessonNumber": 16,
+      "lessonTitle": "Lý do (1)",
+      "groupId": "l16-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜あまり・あまりの〜に",
+      "variants": [
+        "あまり",
+        "あまりに",
+        "あまりの"
+      ],
+      "pdfPage": 87,
+      "printedPage": 74,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-amari-vi-qua-vi-rat/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-amari-no-ni-qua-den-noi-nen/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 16課-4; two TNĐG articles (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-16",
+      "lessonNumber": 16,
+      "lessonTitle": "Lý do (1)",
+      "groupId": "l16-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜につき",
+      "variants": [
+        "につき"
+      ],
+      "pdfPage": 87,
+      "printedPage": 74,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-tsuki-vi-nen-do/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 16課-5 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-17",
+      "lessonNumber": 17,
+      "lessonTitle": "Lý do (2)",
+      "groupId": "l17-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜ことだし",
+      "variants": [
+        "ことだし",
+        "ことですし"
+      ],
+      "pdfPage": 91,
+      "printedPage": 78,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-koto-dashi-vi-boi-vi-nen/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 17課-1 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-17",
+      "lessonNumber": 17,
+      "lessonTitle": "Lý do (2)",
+      "groupId": "l17-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜のことだから",
+      "variants": [
+        "のことだから"
+      ],
+      "pdfPage": 91,
+      "printedPage": 78,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-no-koto-dakara-nhu-anh-ta-co-ta-thi-gi-chu-thi-vi-lanen/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 17課-2 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-17",
+      "lessonNumber": 17,
+      "lessonTitle": "Lý do (2)",
+      "groupId": "l17-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜だけに",
+      "variants": [
+        "だけに"
+      ],
+      "pdfPage": 91,
+      "printedPage": 78,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-dake-ni-vi-nen-chinh-vi-nen-chinh-vi-nen-lai-cang-hon/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 17課-3 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-17",
+      "lessonNumber": 17,
+      "lessonTitle": "Lý do (2)",
+      "groupId": "l17-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜ばかりに",
+      "variants": [
+        "ばかりに"
+      ],
+      "pdfPage": 91,
+      "printedPage": 78,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-bakari-ni-chi-tai-chi-vi-chinh-vi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 17課-4 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-17",
+      "lessonNumber": 17,
+      "lessonTitle": "Lý do (2)",
+      "groupId": "l17-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜からには・〜以上（は）・上は",
+      "variants": [
+        "からには",
+        "以上は",
+        "以上",
+        "上は"
+      ],
+      "pdfPage": 91,
+      "printedPage": 78,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-kara-ni-wa-mot-khi-da-thi-se-boi-vi-nen/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ijou-mot-khi-da-vi-la-da-thi-nhat-dinh/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 17課-5 cluster; TNĐG からには + 以上 articles (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-18",
+      "lessonNumber": 18,
+      "lessonTitle": "Không thể · Khó khăn · Khả năng",
+      "groupId": "l18-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜がたい",
+      "variants": [
+        "がたい"
+      ],
+      "pdfPage": 95,
+      "printedPage": 82,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-gatai-kho-ma-lam-gi-do/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 18課-1 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-18",
+      "lessonNumber": 18,
+      "lessonTitle": "Không thể · Khó khăn · Khả năng",
+      "groupId": "l18-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜わけにはいかない・〜わけにもいかない",
+      "variants": [
+        "わけにはいかない",
+        "わけにもいかない"
+      ],
+      "pdfPage": 95,
+      "printedPage": 82,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-wakeniwaikanai-khong-the/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 18課-2; TNĐG N3 article (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-18",
+      "lessonNumber": 18,
+      "lessonTitle": "Không thể · Khó khăn · Khả năng",
+      "groupId": "l18-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜かねる",
+      "variants": [
+        "かねる",
+        "かねない"
+      ],
+      "pdfPage": 95,
+      "printedPage": 82,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-khong-the-kho-ma-kho-co-the/"
+      ],
+      "matchStatus": "partial-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 18課-3 かねる (cannot). TNĐG slug odd; title is かねる — confirm content when importing. かねない is later lesson (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-18",
+      "lessonNumber": 18,
+      "lessonTitle": "Không thể · Khó khăn · Khả năng",
+      "groupId": "l18-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜ようがない",
+      "variants": [
+        "ようがない",
+        "ようもない"
+      ],
+      "pdfPage": 95,
+      "printedPage": 82,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-youganai-youmonai-khong-co-cach-nao-ma/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 18課-4 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-18",
+      "lessonNumber": 18,
+      "lessonTitle": "Không thể · Khó khăn · Khả năng",
+      "groupId": "l18-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜どころではない",
+      "variants": [
+        "どころではない",
+        "どころではなく"
+      ],
+      "pdfPage": 95,
+      "printedPage": 82,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-dokoro-de-wa-nai-dokoro-de-wa-naku-khong-phai-la-luc-khong-co-tho/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 18課-5 (also related to 12課 pair). Same TNĐG article as l12-g02 primary (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-18",
+      "lessonNumber": 18,
+      "lessonTitle": "Không thể · Khó khăn · Khả năng",
+      "groupId": "l18-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜得る／〜得ない",
+      "variants": [
+        "得る",
+        "得ない",
+        "うる",
+        "えない"
+      ],
+      "pdfPage": 95,
+      "printedPage": 82,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-uru-co-the-co-kha-nang-xay-ra/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 18課-6 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-19",
+      "lessonNumber": 19,
+      "lessonTitle": "Góc nhìn đánh giá",
+      "groupId": "l19-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜わりに（は）",
+      "variants": [
+        "わりに",
+        "わりには"
+      ],
+      "pdfPage": 99,
+      "printedPage": 86,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-warini-du-tuy-nhung-tuong-doi-so-voi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 19課-1; TNĐG N3 article (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-19",
+      "lessonNumber": 19,
+      "lessonTitle": "Góc nhìn đánh giá",
+      "groupId": "l19-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜にしては",
+      "variants": [
+        "にしては"
+      ],
+      "pdfPage": 99,
+      "printedPage": 86,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-nishiteha-tuy-nhung-tuy-vay-ma/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 19課-2 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-19",
+      "lessonNumber": 19,
+      "lessonTitle": "Góc nhìn đánh giá",
+      "groupId": "l19-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜だけ（のことは）ある",
+      "variants": [
+        "だけあって",
+        "だけある",
+        "だけのことはある"
+      ],
+      "pdfPage": 99,
+      "printedPage": 86,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-dake-atte-dake-aru-dake-no-koto-wa-aru-dun/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 19課-3 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-19",
+      "lessonNumber": 19,
+      "lessonTitle": "Góc nhìn đánh giá",
+      "groupId": "l19-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜として",
+      "variants": [
+        "として",
+        "としての"
+      ],
+      "pdfPage": 99,
+      "printedPage": 86,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-toshite-toshitemo-toshiteno/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 19課-4 ‘as / in the capacity of’. Not として～ない (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-19",
+      "lessonNumber": 19,
+      "lessonTitle": "Góc nhìn đánh giá",
+      "groupId": "l19-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜にとって",
+      "variants": [
+        "にとって",
+        "にとっては"
+      ],
+      "pdfPage": 99,
+      "printedPage": 86,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-nitotte-doi-voi-theo-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 19課-5 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-19",
+      "lessonNumber": 19,
+      "lessonTitle": "Góc nhìn đánh giá",
+      "groupId": "l19-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜にしたら・〜にすれば・〜にしてみれば・〜にしても",
+      "variants": [
+        "にしたら",
+        "にすれば",
+        "にしてみれば",
+        "にしても"
+      ],
+      "pdfPage": 99,
+      "printedPage": 86,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-shitara-ni-sureba-ni-shite-mo-doi-voi-trong-truong-hop-dung-tren-l/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 19課-6 standpoint cluster. Listing にしても also in L10/L15 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-20",
+      "lessonNumber": 20,
+      "lessonTitle": "Kết quả",
+      "groupId": "l20-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜たところ",
+      "variants": [
+        "たところ"
+      ],
+      "pdfPage": 103,
+      "printedPage": 90,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-tatokoro-khi-lam-gi-xong-thi-ket-qua-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 20課-1 result; TNĐG N3 article (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-20",
+      "lessonNumber": 20,
+      "lessonTitle": "Kết quả",
+      "groupId": "l20-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜きり",
+      "variants": [
+        "きり",
+        "っきり"
+      ],
+      "pdfPage": 103,
+      "printedPage": 90,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-kiri-mai-sau-do-tu-do-ve-sau-cu-the-ma/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 20課-2 (since then / only). N3 きり ‘only’ article not primary here (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-20",
+      "lessonNumber": 20,
+      "lessonTitle": "Kết quả",
+      "groupId": "l20-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜あげく",
+      "variants": [
+        "あげく",
+        "あげくに"
+      ],
+      "pdfPage": 103,
+      "printedPage": 90,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ageku-sau-mot-thoi-gian-dai-thi-sau-khi-da-thi-cuoi-cung-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 20課-3 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-20",
+      "lessonNumber": 20,
+      "lessonTitle": "Kết quả",
+      "groupId": "l20-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜末（に）",
+      "variants": [
+        "末に",
+        "末の"
+      ],
+      "pdfPage": 103,
+      "printedPage": 90,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-sue-ni-sau-khi-sau-rat-nhieu-sau-mot-hoi-thi-ket-qua-la-quyet-dinh-cuoi-cung-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 20課-4 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-20",
+      "lessonNumber": 20,
+      "lessonTitle": "Kết quả",
+      "groupId": "l20-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜ところだった",
+      "variants": [
+        "ところだった"
+      ],
+      "pdfPage": 103,
+      "printedPage": 90,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-tokorodatta-suyt-nua-thi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 20課-5; TNĐG N3 article (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-20",
+      "lessonNumber": 20,
+      "lessonTitle": "Kết quả",
+      "groupId": "l20-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜ずじまいだ",
+      "variants": [
+        "ずじまい",
+        "ずじまいだ"
+      ],
+      "pdfPage": 103,
+      "printedPage": 90,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-zu-jimai-rot-cuoc-la-da-khong-kip-chua-kip/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 20課-6 (N2-MAP-002 L16–20)."
+    },
+    {
+      "lessonId": "lesson-21",
+      "lessonNumber": 21,
+      "lessonTitle": "Nhấn mạnh · Nói nhẹ",
+      "groupId": "l21-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜くらい・ぐらい",
+      "variants": [
+        "くらい",
+        "ぐらい"
+      ],
+      "pdfPage": 109,
+      "printedPage": 96,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-kurai-gurai-den-muc-it-ra-toi-thieu-co-chi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 21課 titles from Quizlet/mylittlewordland (3A public TOC jumps 20→22). Shinkanzen (N2-MAP-002 L21–26). 21課-1."
+    },
+    {
+      "lessonId": "lesson-21",
+      "lessonNumber": 21,
+      "lessonTitle": "Nhấn mạnh · Nói nhẹ",
+      "groupId": "l21-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜など・なんか・なんて",
+      "variants": [
+        "など",
+        "なんか",
+        "なんて"
+      ],
+      "pdfPage": 109,
+      "printedPage": 96,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-nado-nai-nay-no-nay-kia-chang-chut-nao/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-nanka-nai-nanka-inai-khong-khong-co-dau/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-nande-cai-thu-nhu-cai-goi-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 21課 titles from Quizlet/mylittlewordland (3A public TOC jumps 20→22). Shinkanzen (N2-MAP-002 L21–26). 21課-2; three TNĐG articles cover など／なんか／なんて devaluation."
+    },
+    {
+      "lessonId": "lesson-21",
+      "lessonNumber": 21,
+      "lessonTitle": "Nhấn mạnh · Nói nhẹ",
+      "groupId": "l21-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜まで・までして・てまで",
+      "variants": [
+        "まで",
+        "までして",
+        "てまで"
+      ],
+      "pdfPage": 109,
+      "printedPage": 96,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-made-shite-te-made-den-muc-toi-muc/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-made-cho-den-khi-den-tan-den-muc-tham-chi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 21課 titles from Quizlet/mylittlewordland (3A public TOC jumps 20→22). Shinkanzen (N2-MAP-002 L21–26). 21課-3."
+    },
+    {
+      "lessonId": "lesson-21",
+      "lessonNumber": 21,
+      "lessonTitle": "Nhấn mạnh · Nói nhẹ",
+      "groupId": "l21-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜として〜ない",
+      "variants": [
+        "として〜ない",
+        "一人として〜ない"
+      ],
+      "pdfPage": 109,
+      "printedPage": 96,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-to-shite-nai-khong-mot-ai-khong-mot-ngay-khong-mot-lan/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 21課 titles from Quizlet/mylittlewordland (3A public TOC jumps 20→22). Shinkanzen (N2-MAP-002 L21–26). 21課-4."
+    },
+    {
+      "lessonId": "lesson-21",
+      "lessonNumber": 21,
+      "lessonTitle": "Nhấn mạnh · Nói nhẹ",
+      "groupId": "l21-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜さえ",
+      "variants": [
+        "さえ",
+        "でさえ"
+      ],
+      "pdfPage": 109,
+      "printedPage": 96,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-sae-ngay-ca-tham-chi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 21課 titles from Quizlet/mylittlewordland (3A public TOC jumps 20→22). Shinkanzen (N2-MAP-002 L21–26). 21課-5; TNĐG N3 article (さえ／でさえ emphasis)."
+    },
+    {
+      "lessonId": "lesson-21",
+      "lessonNumber": 21,
+      "lessonTitle": "Nhấn mạnh · Nói nhẹ",
+      "groupId": "l21-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜てでも",
+      "variants": [
+        "てでも"
+      ],
+      "pdfPage": 109,
+      "printedPage": 96,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-te-demo-cho-du-tham-chi-phai-lam/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen 21課 titles from Quizlet/mylittlewordland (3A public TOC jumps 20→22). Shinkanzen (N2-MAP-002 L21–26). 21課-6."
+    },
+    {
+      "lessonId": "lesson-22",
+      "lessonNumber": 22,
+      "lessonTitle": "Suy đoán",
+      "groupId": "l22-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜とみえる",
+      "variants": [
+        "とみえる",
+        "と見えて",
+        "と見える"
+      ],
+      "pdfPage": 113,
+      "printedPage": 100,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-tomiete-tomieru-duong-nhu-trong-co-ve-co-ve-nhu-co-ve-nhu-thi-phai/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 22課-1."
+    },
+    {
+      "lessonId": "lesson-22",
+      "lessonNumber": 22,
+      "lessonTitle": "Suy đoán",
+      "groupId": "l22-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜かねない",
+      "variants": [
+        "かねない"
+      ],
+      "pdfPage": 113,
+      "printedPage": 100,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-kanenai-co-kha-nang-co-the-se/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 22課-2."
+    },
+    {
+      "lessonId": "lesson-22",
+      "lessonNumber": 22,
+      "lessonTitle": "Suy đoán",
+      "groupId": "l22-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜おそれがある",
+      "variants": [
+        "おそれがある",
+        "恐れがある"
+      ],
+      "pdfPage": 113,
+      "printedPage": 100,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-osorega-aru-e-la-e-rang-so-rang/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 22課-3."
+    },
+    {
+      "lessonId": "lesson-22",
+      "lessonNumber": 22,
+      "lessonTitle": "Suy đoán",
+      "groupId": "l22-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜まい／〜ではあるまいか",
+      "variants": [
+        "まい",
+        "ではあるまいか"
+      ],
+      "pdfPage": 113,
+      "printedPage": 100,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-mai-se-khong-quyet-khong-khong-bao-gio-tuyet-doi-khong/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-dewa-arumai-ka-chang-phai-la-hay-sao-lieu-chang/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 22課-4."
+    },
+    {
+      "lessonId": "lesson-22",
+      "lessonNumber": 22,
+      "lessonTitle": "Suy đoán",
+      "groupId": "l22-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜に違いない・〜に相違ない",
+      "variants": [
+        "に違いない",
+        "に相違ない"
+      ],
+      "pdfPage": 113,
+      "printedPage": 100,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-ni-chigai-nai-chac-chan-chan-han-han-la-nhat-dinh-la/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-souinai-chac-chan-khong-sai-dung-la-chinh-la-nhat-dinh-la-khong-nghi-ngo-gi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 22課-5."
+    },
+    {
+      "lessonId": "lesson-22",
+      "lessonNumber": 22,
+      "lessonTitle": "Suy đoán",
+      "groupId": "l22-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜にきまっている",
+      "variants": [
+        "にきまっている",
+        "に決まっている"
+      ],
+      "pdfPage": 113,
+      "printedPage": 100,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-nikimatteiru-chac-chan-nhat-dinh/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 22課-6."
+    },
+    {
+      "lessonId": "lesson-23",
+      "lessonNumber": 23,
+      "lessonTitle": "Cảm tưởng · Nhận định",
+      "groupId": "l23-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜ものだ",
+      "variants": [
+        "ものだ",
+        "もんだ"
+      ],
+      "pdfPage": 117,
+      "printedPage": 104,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-mono-da-mono-de-wa-nai-duong-nhien-ban-chat-la-nen-khong-nen-hoi-con-khi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 23課-1; TNĐG article also covers advice senses used in 24課."
+    },
+    {
+      "lessonId": "lesson-23",
+      "lessonNumber": 23,
+      "lessonTitle": "Cảm tưởng · Nhận định",
+      "groupId": "l23-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜というものだ",
+      "variants": [
+        "というものだ"
+      ],
+      "pdfPage": 117,
+      "printedPage": 104,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-to-iu-mono-da-that-la-dung-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 23課-2."
+    },
+    {
+      "lessonId": "lesson-23",
+      "lessonNumber": 23,
+      "lessonTitle": "Cảm tưởng · Nhận định",
+      "groupId": "l23-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜にすぎない",
+      "variants": [
+        "にすぎない",
+        "に過ぎない"
+      ],
+      "pdfPage": 117,
+      "printedPage": 104,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-ni-suginai-chi-la-chi-don-gian-la-chi-la-khong-hon-khong-kem/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 23課-3."
+    },
+    {
+      "lessonId": "lesson-23",
+      "lessonNumber": 23,
+      "lessonTitle": "Cảm tưởng · Nhận định",
+      "groupId": "l23-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜にほかならない",
+      "variants": [
+        "にほかならない"
+      ],
+      "pdfPage": 117,
+      "printedPage": 104,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-hoka-naranai-chinh-la-khong-phai-gi-khac/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 23課-4."
+    },
+    {
+      "lessonId": "lesson-23",
+      "lessonNumber": 23,
+      "lessonTitle": "Cảm tưởng · Nhận định",
+      "groupId": "l23-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜に越したことはない",
+      "variants": [
+        "に越したことはない"
+      ],
+      "pdfPage": 117,
+      "printedPage": 104,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-koshita-koto-wa-nai-thi-tot-hon-la-tot-nhat-khong-gi-tot-hon-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 23課-5."
+    },
+    {
+      "lessonId": "lesson-23",
+      "lessonNumber": 23,
+      "lessonTitle": "Cảm tưởng · Nhận định",
+      "groupId": "l23-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜しかない・〜よりほかない",
+      "variants": [
+        "しかない",
+        "よりほかない",
+        "ほかない"
+      ],
+      "pdfPage": 117,
+      "printedPage": 104,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-yorihokawanai-yorihokanai-yorihokashi/"
+      ],
+      "matchStatus": "partial-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 23課-6; TNĐG covers ほかない／よりほかない family; しかない not a distinct article."
+    },
+    {
+      "lessonId": "lesson-23",
+      "lessonNumber": 23,
+      "lessonTitle": "Cảm tưởng · Nhận định",
+      "groupId": "l23-g07",
+      "ordinal": 7,
+      "canonicalPattern": "〜べきだ／〜べきではない",
+      "variants": [
+        "べきだ",
+        "べきではない",
+        "べき"
+      ],
+      "pdfPage": 117,
+      "printedPage": 104,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-bekida-bekidewanai-nen-can-phai/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 23課-7; TNĐG N3 article."
+    },
+    {
+      "lessonId": "lesson-24",
+      "lessonNumber": 24,
+      "lessonTitle": "Đề xuất · Ý chí",
+      "groupId": "l24-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜（よ）うではないか",
+      "variants": [
+        "ようではないか",
+        "ようじゃないか"
+      ],
+      "pdfPage": 121,
+      "printedPage": 108,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-you-de-wa-nai-ka-hay-cung-sao-khong/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 24課-1."
+    },
+    {
+      "lessonId": "lesson-24",
+      "lessonNumber": 24,
+      "lessonTitle": "Đề xuất · Ý chí",
+      "groupId": "l24-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜ことだ",
+      "variants": [
+        "ことだ",
+        "ないことだ"
+      ],
+      "pdfPage": 121,
+      "printedPage": 108,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-kotoda-nen-khong-nen-lam-gi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 24課-2 advice sense (distinct from 26課 emotion ことだ)."
+    },
+    {
+      "lessonId": "lesson-24",
+      "lessonNumber": 24,
+      "lessonTitle": "Đề xuất · Ý chí",
+      "groupId": "l24-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜ものだ／〜ものではない",
+      "variants": [
+        "ものだ",
+        "ものではない"
+      ],
+      "pdfPage": 121,
+      "printedPage": 108,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-mono-da-mono-de-wa-nai-duong-nhien-ban-chat-la-nen-khong-nen-hoi-con-khi/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 24課-3; shares TNĐG article with 23課-1."
+    },
+    {
+      "lessonId": "lesson-24",
+      "lessonNumber": 24,
+      "lessonTitle": "Đề xuất · Ý chí",
+      "groupId": "l24-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜ことはない",
+      "variants": [
+        "ことはない"
+      ],
+      "pdfPage": 121,
+      "printedPage": 108,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-kotowanai-khong-can-khong-viec-gi-phai/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 24課-4; TNĐG N3 article."
+    },
+    {
+      "lessonId": "lesson-24",
+      "lessonNumber": 24,
+      "lessonTitle": "Đề xuất · Ý chí",
+      "groupId": "l24-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜まい／〜（よ）うか〜まいか",
+      "variants": [
+        "まい",
+        "（よ）うか〜まいか"
+      ],
+      "pdfPage": 121,
+      "printedPage": 108,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-mai-se-khong-quyet-khong-khong-bao-gio-tuyet-doi-khong/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-you-ka-mai-ka-co-nen-hay-khong-co-lam-hay-la-khong-lam-gi-do/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 24課-5."
+    },
+    {
+      "lessonId": "lesson-24",
+      "lessonNumber": 24,
+      "lessonTitle": "Đề xuất · Ý chí",
+      "groupId": "l24-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜ものか",
+      "variants": [
+        "ものか",
+        "もんか",
+        "ものですか"
+      ],
+      "pdfPage": 121,
+      "printedPage": 108,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-monoka-monka-monodesuka-khong-doi-nao-nhat-dinh-khong/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 24課-6."
+    },
+    {
+      "lessonId": "lesson-25",
+      "lessonNumber": 25,
+      "lessonTitle": "Cảm xúc mạnh",
+      "groupId": "l25-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜てしかたがない・〜てしょうがない・〜てたまらない",
+      "variants": [
+        "てしかたがない",
+        "てしょうがない",
+        "てたまらない"
+      ],
+      "pdfPage": 125,
+      "printedPage": 112,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-teshouganai-khong-the-chiu-noi-khong-biet-phai-lam-sao-khong-sao-ngan-duoc-vo-cung/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-tetamaranai-khong-chiu-noi-khong-chiu-duoc-rat-vo-cung/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 25課-1."
+    },
+    {
+      "lessonId": "lesson-25",
+      "lessonNumber": 25,
+      "lessonTitle": "Cảm xúc mạnh",
+      "groupId": "l25-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜てならない",
+      "variants": [
+        "てならない"
+      ],
+      "pdfPage": 125,
+      "printedPage": 112,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-tenaranai-khong-chiu-noi-het-suc-vo-cung-oi-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 25課-2."
+    },
+    {
+      "lessonId": "lesson-25",
+      "lessonNumber": 25,
+      "lessonTitle": "Cảm xúc mạnh",
+      "groupId": "l25-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜ないではいられない・〜ずにはいられない",
+      "variants": [
+        "ないではいられない",
+        "ずにはいられない"
+      ],
+      "pdfPage": 125,
+      "printedPage": 112,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-nai-de-wa-irarenai-khong-the-khong-khong-the-nhin-duoc-khong-the-chiu-duoc/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 25課-3."
+    },
+    {
+      "lessonId": "lesson-25",
+      "lessonNumber": 25,
+      "lessonTitle": "Cảm xúc mạnh",
+      "groupId": "l25-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜ないわけに（は）いかない",
+      "variants": [
+        "ないわけにはいかない",
+        "ないわけにいかない"
+      ],
+      "pdfPage": 125,
+      "printedPage": 112,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-nai-wake-ni-wa-ikanai-khong-the-khong-danh-phai-buoc-phai/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 25課-4; TNĐG N3 article."
+    },
+    {
+      "lessonId": "lesson-25",
+      "lessonNumber": 25,
+      "lessonTitle": "Cảm xúc mạnh",
+      "groupId": "l25-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜ざるを得ない",
+      "variants": [
+        "ざるを得ない"
+      ],
+      "pdfPage": 125,
+      "printedPage": 112,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-zaru-o-enai-danh-phai-buoc-phai-khong-the-khong/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 25課-5."
+    },
+    {
+      "lessonId": "lesson-26",
+      "lessonNumber": 26,
+      "lessonTitle": "Mong muốn · Cảm thán",
+      "groupId": "l26-g01",
+      "ordinal": 1,
+      "canonicalPattern": "〜たいものだ・〜てほしいものだ",
+      "variants": [
+        "たいものだ",
+        "てほしいものだ"
+      ],
+      "pdfPage": 129,
+      "printedPage": 116,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-tai-mono-da-that-su-muon-rat-muon-cuc-ky-muon-uoc-gi/",
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-te-hoshii-mono-da-mong-muon-hy-vong/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 26課-1."
+    },
+    {
+      "lessonId": "lesson-26",
+      "lessonNumber": 26,
+      "lessonTitle": "Mong muốn · Cảm thán",
+      "groupId": "l26-g02",
+      "ordinal": 2,
+      "canonicalPattern": "〜ものだ",
+      "variants": [
+        "ものだ",
+        "もんだ"
+      ],
+      "pdfPage": 129,
+      "printedPage": 116,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-tamonoda-toi-nho-thuong-hay/"
+      ],
+      "matchStatus": "partial-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 26課-2 nostalgia/emotion sense; TNĐG N3 たものだ article (not the advice ものだ)."
+    },
+    {
+      "lessonId": "lesson-26",
+      "lessonNumber": 26,
+      "lessonTitle": "Mong muốn · Cảm thán",
+      "groupId": "l26-g03",
+      "ordinal": 3,
+      "canonicalPattern": "〜ないもの（だろう）か",
+      "variants": [
+        "ないものか",
+        "ないものだろうか"
+      ],
+      "pdfPage": 129,
+      "printedPage": 116,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-nai-mono-darou-ka-khong-the-sao-lieu-co-the-hay-khong-khong-co-cach-nao/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 26課-3."
+    },
+    {
+      "lessonId": "lesson-26",
+      "lessonNumber": 26,
+      "lessonTitle": "Mong muốn · Cảm thán",
+      "groupId": "l26-g04",
+      "ordinal": 4,
+      "canonicalPattern": "〜ものがある",
+      "variants": [
+        "ものがある"
+      ],
+      "pdfPage": 129,
+      "printedPage": 116,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n2-mono-ga-aru-co-cam-giac-gi-do-co-nhung-cai-co-gi-do/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 26課-4."
+    },
+    {
+      "lessonId": "lesson-26",
+      "lessonNumber": 26,
+      "lessonTitle": "Mong muốn · Cảm thán",
+      "groupId": "l26-g05",
+      "ordinal": 5,
+      "canonicalPattern": "〜ことだ",
+      "variants": [
+        "ことだ"
+      ],
+      "pdfPage": 129,
+      "printedPage": 116,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-kotoda-cam-giac-that-la-that-la/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 26課-5 emotion sense (distinct from 24課 advice ことだ)."
+    },
+    {
+      "lessonId": "lesson-26",
+      "lessonNumber": 26,
+      "lessonTitle": "Mong muốn · Cảm thán",
+      "groupId": "l26-g06",
+      "ordinal": 6,
+      "canonicalPattern": "〜ことだろう・〜ことか",
+      "variants": [
+        "ことだろう",
+        "ことか"
+      ],
+      "pdfPage": 129,
+      "printedPage": 116,
+      "sourceUrls": [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-kotoka-that-la-cuc-ky-khong-biet-toi-co-nao/"
+      ],
+      "matchStatus": "full-match",
+      "contentStatus": "not-imported",
+      "reviewStatus": "pending",
+      "notes": "Shinkanzen (N2-MAP-002 L21–26). 26課-6."
+    }
+  ]
+}

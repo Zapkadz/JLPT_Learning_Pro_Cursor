@@ -1,36 +1,40 @@
 # PROGRESS — factual completion log
 
-Last updated: 2026-09-14  
+Last updated: 2026-09-15  
 Rule: **never** write targets as completed counts.
 
 ## Current Status
 
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).  
 - Grammar N2 Lesson 1 pilot: **shipped** (5 groups / 150 exercises, `agent_reviewed`).  
-- Grammar N2 Master Requirement: **present**; implementation plan analyzed; **coding not started** pending user approval.  
+- Grammar N2 Master Requirement: **present**.  
+- **N2-AUDIT-001 DONE** (2026-09-14).  
+- **N2-MAP-001 DONE** (2026-09-14) — `content/grammar/n2/inventory.json` + `docs/grammar-n2/SOURCE-MAPPING.md`.  
+- **N2-MAP-002 DONE** (2026-09-15) — **141/141** groups mapped to TNĐG URLs / match status.  
 - Persistent project memory files: **established** (MEM-001 DONE).  
 - Git: **AVAILABLE** — `main` → `origin/main` (`https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git`).
 
 ## TARGET vs ACTUAL (Grammar N2)
 
-| Metric | TARGET | ACTUAL (verified 2026-09-14 from content JSON) |
+| Metric | TARGET | ACTUAL (re-verified 2026-09-15 after N2-MAP-002) |
 |--------|--------|-----------------------------------------------|
 | Lessons in manifest | 26 | 26 rows in `manifest.json` |
 | Lessons published / learnable | 26 | **1** (`lesson-01` published) |
 | Canonical groups | 141 | Manifest `sum(groupCount)=141`; **implemented content: 5** |
-| Exercises | 4230 | **150** validated in `lesson-01.json` (5×30; 50+50+50 modes) |
-| SOURCE-MAPPING.md | 141 mapped | **MISSING** |
+| Exercises | 4230 | **150** in `lesson-01.json` (5×30; per-group 10+10+10; unique IDs/prompts) |
+| TNĐG URLs | 141 mapped | **DONE** — 7 partial-match rows (see below) |
 | Independent teacher review | desired | **Not done** (`agent_reviewed` only) |
 
 Lesson 1 pattern IDs: `sai`, `saishite`, `totan`, `omouto`, `kanai`. Content revision: **3**.
+
+partial-match: `l04-g05`, `l04-g06`, `l13-g02`, `l13-g05`, `l18-g03`, `l23-g06`, `l26-g02`.
 
 ## Completed Work (evidence-based)
 
 ### Core product 1.0 (pre-existing)
 
 Result: Local full-stack app as described in `README.md`, `DESIGN.md`, `docs/PRODUCT.md`.  
-Important areas: `src/`, `server/app.ts`, `shared/domain.ts`, `tests/api.test.ts`, `tests/app.spec.ts`.  
-Verification: see Verification History (re-run 2026-09-14 unit/API/grammar).
+Important areas: `src/`, `server/app.ts`, `shared/domain.ts`, `tests/api.test.ts`, `tests/app.spec.ts`.
 
 ### Grammar N2 Lesson 1 pilot (documented 2026-09-13 in `docs/grammar-n2/PROGRESS.md`)
 
@@ -38,52 +42,83 @@ Verification: see Verification History (re-run 2026-09-14 unit/API/grammar).
 |-----------|--------|
 | G04–G10 | Lesson 1 content, API, UI, practice modes, progress/SRS/export, acceptance for pilot scope |
 
-Important files: `content/grammar/n2/*`, `server/modules/grammar/*`, `shared/grammar/types.ts`, `src/features/grammar/*`, `tests/grammar/grammar.test.ts`.
-
-### Audit / planning (2026-09-14, conversation + repo read; no app code changes)
-
-- Read Master Requirement; compared to implementation.  
-- Confirmed L1 **5×30** and **10/10/10** per group; **0** learning↔practice exact overlap in current JSON.  
-- **151 vs 141:** Kotoba UI/API use **141** (`targetGroups`). **151** is the NhatKanji reference site count recorded in `docs/grammar-n2/PLAN.md` — not a Kotoba displayed total in current source.  
-- Proposed implementation task IDs (N2-*) captured in `docs/PLAN.md`; **awaiting user approval to implement**.
-
 ### MEM-001 (2026-09-14) — DONE
 
-Created/updated: `docs/PROJECT-CONTEXT.md`, `docs/PLAN.md`, `docs/PROGRESS.md`, `docs/HANDOFF.md`, `docs/DECISIONS.md`, `docs/AI-BOOTSTRAP.md`, `.cursor/rules/project-memory.mdc`; pointers in `docs/grammar-n2/PLAN.md` + `PROGRESS.md`.  
-No application business logic changes.
+Root project memory docs + `.cursor/rules/project-memory.mdc`.
+
+### N2-GIT-000 (2026-09-14) — DONE
+
+Git init + push to `origin/main`.
+
+### N2-AUDIT-001 (2026-09-14) — DONE
+
+Re-verified against repository (no app code changes):
+
+- **151 vs 141:** Kotoba UI/API use `targetGroups: 141`. No `151` in `src/` or content. **151** is NhatKanji reference count in `docs/grammar-n2/PLAN.md` only.  
+- L1: 5 groups × 30 = 150; each group 10 vi-ja + 10 ja-vi + 10 order; 150 unique exercise IDs and prompts; 0 reverse VI↔JA pairs; 0 learning↔practice overlaps (exact/substring); 0 one-token near-dups; order structures valid.  
+- Learning examples: 1 per group with structured ruby; practice JA→VI: plain text, no ruby fields.  
+- Source metadata: pattern `source.pdfPage/printedPage` + lesson `provenance`; no Tiếng Nhật Đơn Giản URLs; no exercise `origin`.  
+- Progress/SRS keyed by stable `pattern_id` strings; stats entity `grammar:{patternId}`.  
+- Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
+- Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
+
+### N2-MAP-002 L21–26 batch (2026-09-15) — DONE (141/141)
+
+- Filled final 36 `canonicalPattern`s (L22–26 from 3A TOC; L21 from Quizlet/mylittlewordland).  
+- Mapped TNĐG URLs; `l23-g06` / `l26-g02` marked `partial-match`.  
+- Inventory test updated to assert 141 mapped / 0 `needs-review`.
+
+### N2-MAP-002 L16–20 batch (2026-09-15) — DONE (105/141 cumulative at time)
+
+- Filled `canonicalPattern` for lessons 16–20 from 3A TOC.  
+- Mapped TNĐG URLs; `l18-g03` (かねる) marked `partial-match`.
+
+### N2-MAP-002 L11–15 batch (2026-09-15) — DONE (77/141 cumulative at time)
+
+- Filled `canonicalPattern` for lessons 11–15 from 3A TOC.  
+- Mapped TNĐG URLs; `l13-g02` / `l13-g05` marked `partial-match`.
+
+### N2-MAP-002 L6–10 batch (2026-09-14) — DONE (50/141 cumulative at time)
+
+- Filled `canonicalPattern` for lessons 6–10 from 3A TOC.  
+- Mapped TNĐG URLs (all full-match in this batch).
+
+### N2-MAP-002 L2–5 batch (2026-09-14) — DONE (26/141 cumulative at time)
+
+- Filled `canonicalPattern` for lessons 2–5 from 3A Shinkanzen TOC.  
+- Mapped TNĐG URLs; `l04-g05` / `l04-g06` marked `partial-match`.
+
+### N2-MAP-002 L1 batch (2026-09-14)
+
+- Mapped Lesson 1 groups to Tiếng Nhật Đơn Giản URLs in `inventory.json`.
 
 ## Verification History
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
-| 2026-09-14 | `npm test` | **11/11 pass** | Local run this session |
-| 2026-09-14 | Content metric script on `manifest.json` + `lesson-01.json` | 26 / 141 sum / 5 patterns / 150 ex | Node one-liner |
-| 2026-09-14 | `npm run build` | **NOT RUN** this session | — |
-| 2026-09-14 | `npm run test:e2e` | **NOT RUN** this session | — |
-| 2026-09-14 | `npm run format:check` | **NOT RUN** this session | — |
-| 2026-09-13 | Documented in grammar-n2 PROGRESS: test/build/format/browser/backup | Claimed pass (historical) | `docs/grammar-n2/PROGRESS.md`, screenshots under `docs/grammar-n2/` |
+| 2026-09-15 | N2-MAP-002 L21–26 + inventory test | **12/12 pass** | `npm test` |
+| 2026-09-15 | N2-MAP-002 L16–20 + inventory test | **12/12 pass** | `npm test` |
+| 2026-09-15 | N2-MAP-002 L11–15 + inventory test | **12/12 pass** | `npm test` |
+| 2026-09-14 | N2-MAP-002 L6–10 + inventory test | **12/12 pass** | `npm test` |
+| 2026-09-14 | N2-MAP-002 L2–5 + inventory test | **12/12 pass** | `npm test` |
+| 2026-09-14 | N2-MAP-002 L1 + inventory test | **12/12 pass** | `npm test` |
+| 2026-09-14 | N2-MAP-001 inventory test | **12/12 pass** (with full suite) | `npm test` after MAP-001 |
+| 2026-09-14 | `npm test` | **11/11 pass** (earlier same calendar day) | Prior session |
+| 2026-09-14 | `npm run build` / `test:e2e` / `format:check` | **NOT RUN** during N2-AUDIT-001 | — |
 
 ## Known Incomplete Work
 
-- Full Grammar N2 content (lessons 2–26).  
-- SOURCE-MAPPING for 141 groups.  
-- Multi-lesson loader (hardcoded Lesson 1).  
-- Lesson 1 golden-template polish vs Master Requirement (examples depth, metadata, optional practice furigana).  
-- Root `docs/PLAN.md` / memory system (in progress).  
-- Git initialization for this copy.
-
+- Multi-lesson loader (**N2-ARCH-001**) — next when user approves.  
+- Lesson 1 golden-template polish (examples depth, metadata, optional practice furigana).  
+- Lessons 2–26 content import.  
+- Playwright grammar E2E.  
 ## Known Issues
 
-- Workspace is **not a git repository** — commit/push/handoff-by-commit hash unavailable.  
-- Dual trackers: `docs/grammar-n2/PROGRESS.md` (module history) vs root `docs/PROGRESS.md` (canonical going forward) — prefer root for *current* status.  
-- UX-CONTRACT still cites `server/index.ts` for CRUD ownership; implementation is `server/app.ts`.  
-- `premium-audit.json` references another projectRoot path (`C:\JLPT_Learning Pro`) — stale metadata, not app runtime.
+- Dual trackers: `docs/grammar-n2/*` (history) vs root PLAN/PROGRESS (active).  
+- UX-CONTRACT cites `server/index.ts` for CRUD; implementation is `server/app.ts`.  
+- `premium-audit.json` stale `projectRoot` path.  
+- HANDOFF “Latest Relevant Commit” may lag HEAD by a docs-only commit (self-pointer).
 
 ## Blockers
 
-1. **User approval** — Grammar N2 implementation tasks must not start until approved.  
-2. **Open product decisions** (from plan): furigana on JA→VI practice; confirm keep L1 pattern IDs; commit-only-when-asked vs auto-commit workflow — follow **latest user instruction**.
-
-### N2-GIT-000 (2026-09-14) — DONE
-
-Initialized git, initial commit `0c7012e`, pushed to `origin/main`.
+1. User approval / priority to start **N2-ARCH-001** (PLAN phase gate for coding tasks).
