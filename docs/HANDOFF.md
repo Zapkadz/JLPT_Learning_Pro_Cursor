@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-15 (N2-L01-GOLD-001 on `feat/n2-l01-gold-001`)
+2026-09-15 (N2-L01-GOLD-002 PR #4)
 
 ## Project
 
@@ -11,31 +11,33 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/n2-l01-gold-001` (from `main` @ `953f2d5`)
+`feat/n2-l01-gold-002` (from `main` @ `a1a7bcb` — Merge PR #3 GOLD-001)
 
 ## Latest Relevant Commit
 
-`main` / `origin/main`: `953f2d5` — Merge PR #2 (ARCH-002 + UX-001).  
-This branch: GOLD-001 (see HEAD after push).
+`main` / `origin/main`: `a1a7bcb` — Merge PR #3 (N2-L01-GOLD-001).  
+This branch: `4ab81a2` — feat: tag Lesson 1 exercises with origin and QA validators.  
+PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/4
 
 ## Current Objective
 
-N2-L01-GOLD-001 complete (verified). Next: commit/PR this branch, then **N2-L01-GOLD-002** (exercise bank QA + origin).
+**N2-L01-GOLD-002** complete (verified). Awaiting merge of PR #4, then **N2-L01-PROG-001** (or **N2-L01-FURI-001** after product decision).
 
 ## Current Phase
 
-**Phase 1** — Lesson 1 golden examples **DONE** (uncommitted). Content still Lesson 1 only.
+**Phase 1** — Lesson 1 exercise bank QA **DONE** (in PR). Content still Lesson 1 only.
 
 ## Current Task
 
-**N2-L01-GOLD-001** — **DONE**. Await commit; next **N2-L01-GOLD-002**.
+**N2-L01-GOLD-002** — **DONE**. PR #4 open.
 
 ## Last Completed Work
 
-- PR #2 merged to `main`.  
-- Lesson 1: 3 learning examples/group, `variants` + `source.urls` from inventory, pattern/lesson **revision 4**.  
-- UI shows variants on pattern detail.  
-- Tests assert ≥3 examples, no practice overlap, ruby joins to `ja`.
+- PR #3 (GOLD-001) merged to `main`.  
+- All 150 Lesson 1 exercises tagged `origin: "authored"` + `sourceNote`.  
+- Lesson/pattern **revision 5**.  
+- Validators: origin required; hints must not equal/contain full answers; public DTO still strips private fields.  
+- Commit `4ab81a2` pushed; PR #4 opened.
 
 ## Current State
 
@@ -47,8 +49,8 @@ N2-L01-GOLD-001 complete (verified). Next: commit/PR this branch, then **N2-L01-
 
 | Check | State |
 |-------|--------|
-| `npm test` | **PASS** 14/14 after GOLD-001 (re-verified this session) |
-| Lesson revision | **4** |
+| `npm test` | **PASS** 14/14 after GOLD-002 |
+| Lesson revision | **5** |
 
 ## Known Blockers
 
@@ -56,16 +58,16 @@ N2-L01-GOLD-001 complete (verified). Next: commit/PR this branch, then **N2-L01-
 
 ## Exact Next Action
 
-1. Merge PR for `feat/n2-l01-gold-001` into `main`.  
-2. Then **N2-L01-GOLD-002** — exercise bank QA (substantive 10/10/10 + `origin` metadata).  
+1. Merge PR #4 (`feat/n2-l01-gold-002`).  
+2. Then **N2-L01-PROG-001** (progress semantics) — or **N2-L01-FURI-001** after decision.  
 3. Do **not** import Lessons 2–26 JSON until content batches.
 
 ## Files To Read Before Continuing
 
 1. `content/grammar/n2/lesson-01.json`  
 2. `tests/grammar/grammar.test.ts`  
-3. Master Requirement §§29–34 (exercise origin / validation)  
-4. `docs/requirements/GRAMMAR-N2-MASTER-REQUIREMENT.md`
+3. `docs/PLAN.md`  
+4. Master Requirement progress / furigana sections if starting FURI/PROG
 
 ## Safety Notes
 

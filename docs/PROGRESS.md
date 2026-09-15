@@ -14,9 +14,10 @@ Rule: **never** write targets as completed counts.
 - **N2-ARCH-001 DONE** (2026-09-15) — multi-lesson loader (published JSON only); merged PR #1.  
 - **N2-ARCH-002 DONE** (2026-09-15) — additive Zod metadata (`variants`, `source.urls`, exercise `origin`/`sourceNote`).  
 - **N2-L01-UX-001 DONE** (2026-09-15) — Grammar UI/API no longer hard-code Lesson 1 paths.  
-- **N2-L01-GOLD-001 DONE** (2026-09-15) — Lesson 1 examples enriched (3/group), variants/urls filled, revision 4.  
+- **N2-L01-GOLD-001 DONE** (2026-09-15) — Lesson 1 examples enriched (3/group), variants/urls filled, revision 4; merged PR #3.  
+- **N2-L01-GOLD-002 DONE** (2026-09-15) — all 150 L1 exercises `origin: authored`; hint≠answer validators; revision 5.  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **AVAILABLE** — `main` @ PR #2 merge; GOLD-001 on `feat/n2-l01-gold-001`.
+- Git: **AVAILABLE** — `main` @ PR #3 merge; GOLD-002 on `feat/n2-l01-gold-002`.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -30,7 +31,7 @@ Rule: **never** write targets as completed counts.
 | TNĐG URLs | 141 mapped | **DONE** — 7 partial-match rows (see below) |
 | Independent teacher review | desired | **Not done** (`agent_reviewed` only) |
 
-Lesson 1 pattern IDs: `sai`, `saishite`, `totan`, `omouto`, `kanai`. Content revision: **4**.
+Lesson 1 pattern IDs: `sai`, `saishite`, `totan`, `omouto`, `kanai`. Content revision: **5**.
 
 partial-match: `l04-g05`, `l04-g06`, `l13-g02`, `l13-g05`, `l18-g03`, `l23-g06`, `l26-g02`.
 
@@ -67,13 +68,22 @@ Re-verified against repository (no app code changes):
 - Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
 - Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
 
+### N2-L01-GOLD-002 (2026-09-15) — DONE
+
+- Tagged all 150 Lesson 1 exercises with `origin: "authored"` + `sourceNote: "Lesson 1 pilot authored"`.  
+- Bumped lesson/pattern revision **4 → 5**; updated provenance note.  
+- Strengthened coverage validators: origin required; hints must not equal or contain full answers; public DTO strips origin/sourceNote.  
+- QA audit: 0 hint↔answer leaks; short form hints (`Nの ＋ 際`) kept as structural cues.  
+- Branch: `feat/n2-l01-gold-002` @ `4ab81a2`; PR https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/4.  
+- Verification: `npm test` **14/14 pass**.
+
 ### N2-L01-GOLD-001 (2026-09-15) — DONE
 
 - Enriched Lesson 1 learning examples to **3 per group** with structured ruby.  
 - Filled `variants` + `source.urls` from inventory; bumped lesson/pattern revision **3 → 4**.  
 - UI: show variants on pattern detail.  
 - Tests: ≥3 examples, no exact overlap with practice prompts/answers, ruby text joins to `ja`.  
-- Branch: `feat/n2-l01-gold-001` (uncommitted until user asks).
+- Merged via PR #3 into `main` (`a1a7bcb`).
 
 ### N2-L01-UX-001 (2026-09-15) — DONE
 
@@ -130,6 +140,7 @@ Re-verified against repository (no app code changes):
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-15 | N2-L01-GOLD-002 origin + hint validators + rev 5 | **14/14 pass** | `npm test` |
 | 2026-09-15 | N2-L01-GOLD-001 examples/variants + rev 4 | **14/14 pass** | `npm test` (re-verified) |
 | 2026-09-15 | N2-L01-UX-001 + pattern lesson metadata | **14/14 pass** | `npm test` |
 | 2026-09-15 | N2-ARCH-002 additive Zod metadata + DTO strip | **14/14 pass** | `npm test` |
@@ -146,12 +157,11 @@ Re-verified against repository (no app code changes):
 
 ## Known Incomplete Work
 
-- Lesson 1 exercise bank QA + origin (**N2-L01-GOLD-002**).  
 - Progress semantics polish (**N2-L01-PROG-001**).  
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
 - Lessons 2–26 content import.  
-- Playwright grammar E2E.  
-- Commit/PR for `feat/n2-l01-gold-001` (in flight).
+- Playwright grammar E2E (**N2-TEST-001**).  
+- Commit/PR for `feat/n2-l01-gold-002` — **PR #4 open** (awaiting merge).
 
 ## Known Issues
 
@@ -161,4 +171,4 @@ Re-verified against repository (no app code changes):
 
 ## Blockers
 
-1. Merge PR for `feat/n2-l01-gold-001`; then **N2-L01-GOLD-002**.
+1. Furigana JA→VI policy decision blocks **N2-L01-FURI-001**.

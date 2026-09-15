@@ -227,6 +227,10 @@ test("N2 additive metadata is optional and public DTO still strips private field
   assert.deepEqual(Object.keys(dto).sort(), ["id", "mode", "prompt"]);
 });
 
+function normalizeQaText(s: string): string {
+  return s.normalize("NFKC").replace(/\s+/g, "").toLowerCase();
+}
+
 test("N2 content coverage, no duplicate prompts, valid answer/token permutations and private DTO", () => {
   assert.equal(manifest.lessons.length, 26);
   assert.equal(
@@ -245,7 +249,7 @@ test("N2 content coverage, no duplicate prompts, valid answer/token permutations
     assert.ok(p.examples.length >= 3, p.id + " examples");
     assert.ok(p.variants.length >= 1, p.id + " variants");
     assert.ok(p.source.urls.length >= 1, p.id + " source.urls");
-    assert.equal(p.revision, 4, p.id + " revision");
+    assert.equal(p.revision, 5, p.id + " revision");
     const practice = new Set([
       ...p.exercises.map((q) => q.prompt),
       ...p.exercises.flatMap((q) => q.answers),
@@ -256,13 +260,36 @@ test("N2 content coverage, no duplicate prompts, valid answer/token permutations
       assert.equal(ex.ruby.map((t) => t.text).join(""), ex.ja);
     }
   }
-  assert.equal(lesson.revision, 4);
+  assert.equal(lesson.revision, 5);
   assert.equal(new Set(all.map((q) => q.prompt)).size, 150);
   for (const q of all) {
+    assert.equal(q.origin, "authored", q.id + " origin");
+    assert.ok(q.sourceNote && q.sourceNote.length >= 1, q.id + " sourceNote");
+    assert.ok(q.hint.trim().length >= 1, q.id + " hint");
     assert.ok(q.explanation.length > 15);
+    const hintNorm = normalizeQaText(q.hint);
+    for (const answer of q.answers) {
+      const answerNorm = normalizeQaText(answer);
+      assert.notEqual(hintNorm, answerNorm, q.id + " hint equals answer");
+      assert.ok(
+        !answerNorm.includes(hintNorm) || hintNorm.length < 8,
+        q.id + " hint embeds full answer",
+      );
+      assert.ok(
+        !hintNorm.includes(answerNorm) || answerNorm.length < 4,
+        q.id + " hint contains full answer",
+      );
+    }
     const dto = publicExercise(q);
-    for (const key of ["answers", "acceptedOrders", "explanation", "hint"])
-      assert.ok(!(key in dto));
+    for (const key of [
+      "answers",
+      "acceptedOrders",
+      "explanation",
+      "hint",
+      "origin",
+      "sourceNote",
+    ])
+      assert.ok(!(key in dto), key);
     if (q.mode === "order") {
       assert.equal(new Set(q.tokens.map((t) => t.id)).size, 4);
       for (const order of q.acceptedOrders) {
