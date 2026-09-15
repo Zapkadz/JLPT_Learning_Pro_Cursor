@@ -220,3 +220,37 @@ Do not treat conversation memory as SoT. Do not fabricate verification or counts
 ### Related Files
 
 `docs/AI-BOOTSTRAP.md`, `.cursor/rules/project-memory.mdc`
+
+---
+
+## ADR-008 — Grammar course progress denominator and XP entity
+
+Date: 2026-09-15  
+Status: Accepted
+
+### Context
+
+Only Lesson 1 (5 groups) is published while the canonical course is 141 groups. XP must not double on re-check/reveal/SRS same day.
+
+### Decision
+
+- Course `read` / `practiced` denominators use **`progressDenominator = targetGroups` (141)**, never `publishedGroups`.
+- Counts only include pattern IDs present in currently loaded (published) content; orphan DB rows do not inflate metrics; data rows are not deleted.
+- XP/heatmap entity key is `grammar:{patternId}` (shared with grammar SRS card reviews). One unique per pattern per day.
+- Grammar check inserts `grammar_events` only when the response was not previously `exposed` (reveal or prior check). Export includes `grammar.events`.
+
+### Reason
+
+Master Requirement §§39–40, 42; ADR-003 consequences; Lesson 1 pilot G09.
+
+### Consequences
+
+UI may show e.g. `1 / 141` while only 5 groups are learnable; published exercise totals stay separate.
+
+### Do Not
+
+Do not switch the denominator to published-only without a product decision. Do not reset `grammar_progress` / completed sessions on content revision bumps.
+
+### Related Files
+
+`server/modules/grammar/router.ts`, `server/app.ts` (`/api/stats`, `/api/export`), `src/features/grammar/Grammar.tsx`

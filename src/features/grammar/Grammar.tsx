@@ -70,16 +70,16 @@ export function GrammarCourse() {
         <div>
           <strong>
             {data.read}
-            <small> / {data.targetGroups}</small>
+            <small> / {data.progressDenominator}</small>
           </strong>
-          <span>Mẫu đã đọc</span>
+          <span>Mẫu đã đọc · mục tiêu khóa</span>
         </div>
         <div>
           <strong>
             {data.practiced}
-            <small> / {data.targetGroups}</small>
+            <small> / {data.progressDenominator}</small>
           </strong>
-          <span>Mẫu đã luyện đủ</span>
+          <span>Mẫu đã luyện đủ · mục tiêu khóa</span>
         </div>
         <div>
           <strong>{data.publishedExercises}</strong>

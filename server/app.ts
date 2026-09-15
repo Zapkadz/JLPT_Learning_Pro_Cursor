@@ -786,6 +786,11 @@ export function createApp(
             "SELECT id,pattern_id,revision,responses,completed_at FROM grammar_sessions WHERE user_id=?",
           )
           .all(uid),
+        events: db
+          .prepare(
+            "SELECT id,pattern_id,question_id,session_id,day FROM grammar_events WHERE user_id=?",
+          )
+          .all(uid),
         history: db
           .prepare(
             "SELECT h.* FROM grammar_response_history h JOIN grammar_sessions s ON s.id=h.session_id WHERE s.user_id=?",

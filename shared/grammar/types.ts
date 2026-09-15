@@ -99,6 +99,8 @@ export type Course = {
   targetExercises: number;
   publishedGroups: number;
   publishedExercises: number;
+  /** Always equals targetGroups (141). Not publishedGroups. */
+  progressDenominator: number;
   read: number;
   practiced: number;
   lessons: {
