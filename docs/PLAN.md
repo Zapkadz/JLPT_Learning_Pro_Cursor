@@ -6,11 +6,11 @@ Module design history remains in `docs/grammar-n2/PLAN.md` (do not treat that fi
 
 ## Current Goal
 
-Grammar N2 per Master Requirement. **N2-MAP-002 DONE** (141/141). Next: **N2-ARCH-001** when user approves coding.
+Grammar N2 per Master Requirement. **N2-ARCH-001 DONE**. Next: **N2-ARCH-002** (or UX hardcoding cleanup).
 
 ## Current Milestone
 
-**Phase 1 Grammar N2** — multi-lesson loader (`N2-ARCH-001`) after user approval.
+**Phase 1 Grammar N2** — additive metadata (`N2-ARCH-002`) after ARCH-001 merge.
 
 ## Status legend
 
@@ -42,7 +42,7 @@ Implementation of N2-* coding tasks requires **explicit user approval**. Until t
 | N2-AUDIT-001 | Lock audit findings (141≠151 root cause, L1 counts, scale notes) into PROGRESS/HANDOFF | DONE | MEM-001 done; user OK to proceed docs/impl | Findings documented; no hard-coded 151→141 “fix” |
 | N2-MAP-001 | Canonical inventory skeleton: 26 lessons × 141 group IDs (keep L1 IDs) | DONE | N2-AUDIT-001 | SOURCE-MAPPING + inventory.json list 141; L1 IDs unchanged |
 | N2-MAP-002 | Map Tiếng Nhật Đơn Giản sources → groups (match status) | DONE | N2-MAP-001 | **141/141** mapped; partials documented; content still L1-only |
-| N2-ARCH-001 | Multi-lesson content loader (no parallel stack) | TODO | N2-MAP-002 | Unpublished lessons correct; L1 regression tests pass |
+| N2-ARCH-001 | Multi-lesson content loader (no parallel stack) | DONE | N2-MAP-002 | Unpublished → 404; published from JSON; L1 regression 13/13 |
 | N2-ARCH-002 | Additive metadata (variants/source/origin) via Zod | TODO | N2-ARCH-001 | Public DTO still strips answers; old sessions OK |
 | N2-L01-GOLD-001 | Lesson 1 theory/examples golden template | TODO | N2-MAP-002, N2-ARCH-002 | Richer examples; revision bump if semantic; no unjustified practice overlap |
 | N2-L01-FURI-001 | Close furigana gaps (scope needs product decision for JA→VI practice) | TODO | Decision + N2-L01-GOLD-001 | Policy applied; raw JA stays clean |

@@ -5,7 +5,7 @@ import { randomUUID, randomInt } from "node:crypto";
 import { z } from "zod";
 import { createEmptyCard } from "ts-fsrs";
 import { dayKey } from "../../../shared/domain";
-import { lesson, manifest, grade, publicExercise } from "./content";
+import { manifest, grade, publicExercise, getLesson, getPattern, allPatterns } from "./content";
 import type {
   Exercise,
   ResponseState,
@@ -38,7 +38,7 @@ function fail(status: number, message: string): never {
 export function grammarModule(db: Database.Database) {
   db.transaction(() => {
     db.exec(readFileSync(new URL("./migration.sql", import.meta.url), "utf8"));
-    for (const p of lesson.patterns) {
+    for (const p of allPatterns()) {
       const old = db
         .prepare(
           "SELECT content FROM grammar_content_revisions WHERE pattern_id=? AND revision=?",
@@ -60,8 +60,9 @@ export function grammarModule(db: Database.Database) {
   })();
   const router = Router();
   const pattern = (id: string) =>
-    lesson.patterns.find((p) => p.id === id) ||
-    fail(404, "Không tìm thấy mẫu ngữ pháp.");
+    getPattern(id)?.pattern || fail(404, "Không tìm thấy mẫu ngữ pháp.");
+  const patternLesson = (id: string) =>
+    getPattern(id)?.lesson || fail(404, "Không tìm thấy mẫu ngữ pháp.");
   const own = (id: string, uid: string) =>
     db
       .prepare("SELECT * FROM grammar_sessions WHERE id=? AND user_id=?")
@@ -84,10 +85,11 @@ export function grammarModule(db: Database.Database) {
       .get(uid, id);
   router.get("/courses/n2", (_, res) => {
     const uid: string = res.locals.user.id;
+    const patterns = allPatterns();
     res.json({
       ...manifest,
-      publishedGroups: lesson.patterns.length,
-      publishedExercises: lesson.patterns.reduce(
+      publishedGroups: patterns.length,
+      publishedExercises: patterns.reduce(
         (n, p) => n + p.exercises.length,
         0,
       ),
@@ -106,14 +108,17 @@ export function grammarModule(db: Database.Database) {
     });
   });
   router.get("/lessons/:id", (req, res) => {
-    if (req.params.id !== lesson.id)
+    const entry = manifest.lessons.find((l) => l.id === req.params.id);
+    if (!entry) fail(404, "Không tìm thấy bài học.");
+    const content = getLesson(entry.id);
+    if (!entry.published || !content)
       fail(404, "Bài học này đang được biên soạn.");
     const uid: string = res.locals.user.id;
     res.json({
-      id: lesson.id,
-      titleJa: lesson.titleJa,
-      provenance: lesson.provenance,
-      patterns: lesson.patterns.map((p) => {
+      id: content.id,
+      titleJa: content.titleJa,
+      provenance: content.provenance,
+      patterns: content.patterns.map((p) => {
         const s = db
           .prepare(
             "SELECT responses FROM grammar_sessions WHERE user_id=? AND pattern_id=? AND revision=?",
@@ -139,7 +144,7 @@ export function grammarModule(db: Database.Database) {
     res.json({
       ...p,
       read: read(res.locals.user.id, p.id),
-      provenance: lesson.provenance,
+      provenance: patternLesson(req.params.id).provenance,
       counts: Object.fromEntries(
         ["vi-ja", "ja-vi", "order"].map((m) => [
           m,
