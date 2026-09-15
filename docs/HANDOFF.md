@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-16 (app.spec e2e fix on `feat/fix-app-spec-e2e`)
+2026-09-16 (N2-E2E-001 PR #7)
 
 ## Project
 
@@ -16,25 +16,27 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 ## Latest Relevant Commit
 
 `main` / `origin/main`: `bcc1f4c` — Merge PR #6 (N2-TEST-001).  
-This branch: app.spec e2e fix (uncommitted until user asks).
+This branch: `5ce2bde` — test: fix legacy app.spec quiz submit under Playwright.  
+PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/7
 
 ## Current Objective
 
-Legacy full Playwright suite greened after PR #6 merge. Await commit/PR for this fix. Next product choice: **N2-L02-BATCH** (needs approval) or **N2-L01-FURI-001** (needs decision).
+**N2-E2E-001** complete (verified). Awaiting merge of PR #7. Next: user chooses **N2-L02-BATCH** (needs approval) or **N2-L01-FURI-001** (needs decision).
 
 ## Current Phase
 
-**Phase 1** — Lesson 1 quality gate + e2e regression **DONE** (fix uncommitted). Content still Lesson 1 only.
+**Phase 1** — Lesson 1 quality gate + e2e regression **DONE** (in PR). Content still Lesson 1 only.
 
 ## Current Task
 
-**app.spec e2e fix** — **DONE** (verified). Await commit/push/PR.
+**N2-E2E-001** — **DONE**. PR #7 open.
 
 ## Last Completed Work
 
 - PR #6 (TEST-001) merged to `main`.  
-- Fixed `tests/app.spec.ts`: wait for selected answer; submit via quiz-controls; handle empty-answer confirm modal; use 5-question quiz.  
-- Full `npm run test:e2e` **2/2 pass**.
+- Fixed `tests/app.spec.ts` quiz submit / confirm modal flow.  
+- Full `npm run test:e2e` **2/2 pass**.  
+- Commit `5ce2bde` pushed; PR #7 opened.
 
 ## Current State
 
@@ -56,8 +58,8 @@ Legacy full Playwright suite greened after PR #6 merge. Await commit/PR for this
 
 ## Exact Next Action
 
-1. Commit (+ push/PR) `feat/fix-app-spec-e2e` when user asks.  
-2. After merge: user chooses **N2-L02-BATCH** (approval) vs **N2-L01-FURI-001** (decision).  
+1. Merge PR #7 (`feat/fix-app-spec-e2e`).  
+2. Then user chooses **N2-L02-BATCH** (approval) vs **N2-L01-FURI-001** (decision).  
 3. Do **not** import Lessons 2–26 JSON until approved.
 
 ## Files To Read Before Continuing

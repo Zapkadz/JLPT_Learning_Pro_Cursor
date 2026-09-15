@@ -75,7 +75,7 @@ Re-verified against repository (no app code changes):
 
 - Root cause: unfinished quiz answers opened “Nộp bài còn câu trống?” modal; spec never reached `.result-summary`.  
 - Fixed `tests/app.spec.ts`: wait for `.answer.selected`, submit via `.quiz-controls`, handle confirm modal, use 5-question quiz.  
-- Branch: `feat/fix-app-spec-e2e` (uncommitted until user asks).  
+- Branch: `feat/fix-app-spec-e2e` @ `5ce2bde`; PR https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/7.  
 - Verification: `npm run test:e2e` **2/2 pass**.
 
 ### N2-TEST-001 (2026-09-15) — DONE
@@ -192,7 +192,7 @@ Re-verified against repository (no app code changes):
 
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
 - Lessons 2–26 content import (**N2-L02-BATCH**+ — needs approval).  
-- Commit/PR for `feat/fix-app-spec-e2e` (awaiting user ask).
+- Commit/PR for `feat/fix-app-spec-e2e` — **PR #7 open** (awaiting merge).
 
 ## Known Issues
 
