@@ -186,16 +186,16 @@ test("N2 additive metadata is optional and public DTO still strips private field
   for (const p of lesson.patterns) {
     assert.ok(Array.isArray(p.variants));
     assert.ok(Array.isArray(p.source.urls));
-    assert.equal(p.variants.length, 0);
-    assert.equal(p.source.urls.length, 0);
   }
   const sample = lesson.patterns[0]!;
   const enriched = patternSchema.parse({
     ...JSON.parse(JSON.stringify(sample)),
-    variants: ["際に", "際は"],
+    variants: ["際に", "際は", "ご際"],
     source: {
       ...sample.source,
-      urls: ["https://www.tiengnhatdongian.com/ngu-phap-n3-n2-sai-ni-khi-luc-trong-truong-hop-nhan-dip/"],
+      urls: [
+        "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-sai-ni-khi-luc-trong-truong-hop-nhan-dip/",
+      ],
     },
     exercises: sample.exercises.map((q, i) =>
       i === 0
@@ -207,7 +207,7 @@ test("N2 additive metadata is optional and public DTO still strips private field
         : q,
     ),
   });
-  assert.deepEqual(enriched.variants, ["際に", "際は"]);
+  assert.ok(enriched.variants.includes("ご際"));
   assert.equal(enriched.source.urls.length, 1);
   assert.equal(enriched.exercises[0]!.origin, "authored");
   assert.equal(
@@ -242,7 +242,21 @@ test("N2 content coverage, no duplicate prompts, valid answer/token permutations
     for (const mode of ["vi-ja", "ja-vi", "order"])
       assert.equal(p.exercises.filter((q) => q.mode === mode).length, 10);
     assert.equal(p.reviewStatus, "agent_reviewed");
+    assert.ok(p.examples.length >= 3, p.id + " examples");
+    assert.ok(p.variants.length >= 1, p.id + " variants");
+    assert.ok(p.source.urls.length >= 1, p.id + " source.urls");
+    assert.equal(p.revision, 4, p.id + " revision");
+    const practice = new Set([
+      ...p.exercises.map((q) => q.prompt),
+      ...p.exercises.flatMap((q) => q.answers),
+    ]);
+    for (const ex of p.examples) {
+      assert.ok(!practice.has(ex.ja), p.id + " example overlaps practice JA");
+      assert.ok(!practice.has(ex.vi), p.id + " example overlaps practice VI");
+      assert.equal(ex.ruby.map((t) => t.text).join(""), ex.ja);
+    }
   }
+  assert.equal(lesson.revision, 4);
   assert.equal(new Set(all.map((q) => q.prompt)).size, 150);
   for (const q of all) {
     assert.ok(q.explanation.length > 15);

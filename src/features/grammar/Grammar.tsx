@@ -266,6 +266,11 @@ export function GrammarPattern() {
           Làm bài tập <ArrowRight size={17} />
         </Link>
       </PageHead>
+      {data.variants.length > 0 ? (
+        <p className="grammar-variants muted">
+          Biến thể: {data.variants.join(" · ")}
+        </p>
+      ) : null}
       <div className="grammar-actions">
         <button
           className="btn secondary"
