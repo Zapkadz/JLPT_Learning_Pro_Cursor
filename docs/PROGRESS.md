@@ -74,7 +74,7 @@ Re-verified against repository (no app code changes):
 - Bumped lesson/pattern revision **4 → 5**; updated provenance note.  
 - Strengthened coverage validators: origin required; hints must not equal or contain full answers; public DTO strips origin/sourceNote.  
 - QA audit: 0 hint↔answer leaks; short form hints (`Nの ＋ 際`) kept as structural cues.  
-- Branch: `feat/n2-l01-gold-002` (uncommitted until user asks).  
+- Branch: `feat/n2-l01-gold-002` @ `4ab81a2`; PR https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/4.  
 - Verification: `npm test` **14/14 pass**.
 
 ### N2-L01-GOLD-001 (2026-09-15) — DONE
@@ -161,7 +161,7 @@ Re-verified against repository (no app code changes):
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
 - Lessons 2–26 content import.  
 - Playwright grammar E2E (**N2-TEST-001**).  
-- Commit/PR for `feat/n2-l01-gold-002` (awaiting user ask).
+- Commit/PR for `feat/n2-l01-gold-002` — **PR #4 open** (awaiting merge).
 
 ## Known Issues
 

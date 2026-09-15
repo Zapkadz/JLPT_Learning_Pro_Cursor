@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-15 (N2-L01-GOLD-002 on `feat/n2-l01-gold-002`)
+2026-09-15 (N2-L01-GOLD-002 PR #4)
 
 ## Project
 
@@ -16,26 +16,28 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 ## Latest Relevant Commit
 
 `main` / `origin/main`: `a1a7bcb` — Merge PR #3 (N2-L01-GOLD-001).  
-This branch: GOLD-002 content + validators (uncommitted until user asks).
+This branch: `4ab81a2` — feat: tag Lesson 1 exercises with origin and QA validators.  
+PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/4
 
 ## Current Objective
 
-**N2-L01-GOLD-002** complete (verified). Await commit/PR, then next unfinished PLAN item (**N2-L01-PROG-001** or **N2-L01-FURI-001** after product decision).
+**N2-L01-GOLD-002** complete (verified). Awaiting merge of PR #4, then **N2-L01-PROG-001** (or **N2-L01-FURI-001** after product decision).
 
 ## Current Phase
 
-**Phase 1** — Lesson 1 exercise bank QA **DONE** (uncommitted). Content still Lesson 1 only.
+**Phase 1** — Lesson 1 exercise bank QA **DONE** (in PR). Content still Lesson 1 only.
 
 ## Current Task
 
-**N2-L01-GOLD-002** — **DONE**. Await commit/push/PR.
+**N2-L01-GOLD-002** — **DONE**. PR #4 open.
 
 ## Last Completed Work
 
 - PR #3 (GOLD-001) merged to `main`.  
 - All 150 Lesson 1 exercises tagged `origin: "authored"` + `sourceNote`.  
 - Lesson/pattern **revision 5**.  
-- Validators: origin required; hints must not equal/contain full answers; public DTO still strips private fields.
+- Validators: origin required; hints must not equal/contain full answers; public DTO still strips private fields.  
+- Commit `4ab81a2` pushed; PR #4 opened.
 
 ## Current State
 
@@ -56,7 +58,7 @@ This branch: GOLD-002 content + validators (uncommitted until user asks).
 
 ## Exact Next Action
 
-1. Commit (+ push/PR) `feat/n2-l01-gold-002` when user asks.  
+1. Merge PR #4 (`feat/n2-l01-gold-002`).  
 2. Then **N2-L01-PROG-001** (progress semantics) — or **N2-L01-FURI-001** after decision.  
 3. Do **not** import Lessons 2–26 JSON until content batches.
 
