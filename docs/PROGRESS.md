@@ -17,9 +17,10 @@ Rule: **never** write targets as completed counts.
 - **N2-L01-GOLD-001 DONE** (2026-09-15) — Lesson 1 examples enriched (3/group), variants/urls filled, revision 4; merged PR #3.  
 - **N2-L01-GOLD-002 DONE** (2026-09-15) — all 150 L1 exercises `origin: authored`; hint≠answer validators; revision 5; merged PR #4.  
 - **N2-L01-PROG-001 DONE** (2026-09-15) — progress denominator + XP policy locked (ADR-008); merged PR #5.  
-- **N2-TEST-001 DONE** (2026-09-15) — golden validators renamed; grammar Playwright journey + webServer.  
+- **N2-TEST-001 DONE** (2026-09-15/16) — golden validators + grammar Playwright; merged PR #6.  
+- **N2-E2E-001 DONE** (2026-09-16) — legacy `app.spec` fixed; full e2e 2/2.  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **AVAILABLE** — `main` @ PR #5 merge; TEST-001 on `feat/n2-test-001`.
+- Git: **AVAILABLE** — `main` @ PR #6 merge; e2e fix on `feat/fix-app-spec-e2e`.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -69,6 +70,13 @@ Re-verified against repository (no app code changes):
 - Progress/SRS keyed by stable `pattern_id` strings; stats entity `grammar:{patternId}`.  
 - Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
 - Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
+
+### N2-E2E-001 (2026-09-16) — DONE
+
+- Root cause: unfinished quiz answers opened “Nộp bài còn câu trống?” modal; spec never reached `.result-summary`.  
+- Fixed `tests/app.spec.ts`: wait for `.answer.selected`, submit via `.quiz-controls`, handle confirm modal, use 5-question quiz.  
+- Branch: `feat/fix-app-spec-e2e` @ `5ce2bde`; PR https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/7.  
+- Verification: `npm run test:e2e` **2/2 pass**.
 
 ### N2-TEST-001 (2026-09-15) — DONE
 
@@ -162,6 +170,7 @@ Re-verified against repository (no app code changes):
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-16 | N2-E2E-001 fix legacy app.spec | **2/2 pass** | `npm run test:e2e` |
 | 2026-09-15 | N2-TEST-001 golden validators + grammar Playwright | **14/14** unit; grammar e2e **1/1** | `npm test`; `playwright test tests/grammar.spec.ts` |
 | 2026-09-15 | N2-L01-PROG-001 progress denominator + XP export | **14/14 pass** | `npm test` |
 | 2026-09-15 | N2-L01-GOLD-002 origin + hint validators + rev 5 | **14/14 pass** | `npm test` |
@@ -183,15 +192,13 @@ Re-verified against repository (no app code changes):
 
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
 - Lessons 2–26 content import (**N2-L02-BATCH**+ — needs approval).  
-- Legacy `tests/app.spec.ts` fails under Playwright webServer/temp DB.  
-- Commit/PR for `feat/n2-test-001` — **PR #6 open** (awaiting merge).
+- Commit/PR for `feat/fix-app-spec-e2e` — **PR #7 open** (awaiting merge).
 
 ## Known Issues
 
 - Dual trackers: `docs/grammar-n2/*` (history) vs root PLAN/PROGRESS (active).  
 - UX-CONTRACT cites `server/index.ts` for CRUD; implementation is `server/app.ts`.  
-- `premium-audit.json` stale `projectRoot` path.  
-- Full `npm run test:e2e` ≠ green while `app.spec.ts` fails.
+- `premium-audit.json` stale `projectRoot` path.
 
 ## Blockers
 
