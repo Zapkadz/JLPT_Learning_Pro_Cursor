@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-15 (N2-L01-PROG-001 on `feat/n2-l01-prog-001`)
+2026-09-15 (N2-L01-PROG-001 PR #5)
 
 ## Project
 
@@ -16,28 +16,29 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 ## Latest Relevant Commit
 
 `main` / `origin/main`: `4ecf349` — Merge PR #4 (N2-L01-GOLD-002).  
-This branch: PROG-001 (uncommitted until user asks).
+This branch: `a3c171d` — feat: lock grammar progress denominator and XP export.  
+PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/5
 
 ## Current Objective
 
-**N2-L01-PROG-001** complete (verified). Await commit/PR. Next: **N2-L01-FURI-001** (needs product decision) or **N2-TEST-001**.
+**N2-L01-PROG-001** complete (verified). Awaiting merge of PR #5, then **N2-TEST-001** (or **N2-L01-FURI-001** after product decision).
 
 ## Current Phase
 
-**Phase 1** — Progress semantics **DONE** (uncommitted). Content still Lesson 1 only.
+**Phase 1** — Progress semantics **DONE** (in PR). Content still Lesson 1 only.
 
 ## Current Task
 
-**N2-L01-PROG-001** — **DONE**. Await commit/push/PR.
+**N2-L01-PROG-001** — **DONE**. PR #5 open.
 
 ## Last Completed Work
 
 - PR #4 (GOLD-002) merged to `main`.  
-- Course API: `progressDenominator = targetGroups` (141); `read`/`practiced` filtered to live pattern IDs (no orphan inflation; no row deletes).  
-- UI metrics label denominator as course target; use `progressDenominator`.  
+- Course API: `progressDenominator = targetGroups` (141); `read`/`practiced` filtered to live pattern IDs.  
+- UI metrics label denominator as course target.  
 - Export includes `grammar.events`.  
-- ADR-008 documents XP entity + denominator policy.  
-- Tests: denominator contract, read≠XP, orphan filter, re-check≠double XP, export events.
+- ADR-008 + tests for XP/denominator policy.  
+- Commit `a3c171d` pushed; PR #5 opened.
 
 ## Current State
 
@@ -58,7 +59,7 @@ This branch: PROG-001 (uncommitted until user asks).
 
 ## Exact Next Action
 
-1. Commit (+ push/PR) `feat/n2-l01-prog-001` when user asks.  
+1. Merge PR #5 (`feat/n2-l01-prog-001`).  
 2. Then **N2-TEST-001** (or **N2-L01-FURI-001** after furigana decision).  
 3. Do **not** import Lessons 2–26 JSON until content batches.
 

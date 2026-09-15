@@ -77,7 +77,7 @@ Re-verified against repository (no app code changes):
 - `/api/export` includes `grammar.events` (XP/heatmap source).  
 - ADR-008 documents denominator + `grammar:{patternId}` XP entity + no-reset on revision.  
 - Tests: denominator contract; mark-read ≠ XP; orphan filter; re-check ≠ double XP; export events.  
-- Branch: `feat/n2-l01-prog-001` (uncommitted until user asks).  
+- Branch: `feat/n2-l01-prog-001` @ `a3c171d`; PR https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/5.  
 - Verification: `npm test` **14/14 pass**.
 
 ### N2-L01-GOLD-002 (2026-09-15) — DONE
@@ -173,7 +173,7 @@ Re-verified against repository (no app code changes):
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
 - Lessons 2–26 content import.  
 - Playwright grammar E2E (**N2-TEST-001**).  
-- Commit/PR for `feat/n2-l01-prog-001` (awaiting user ask).
+- Commit/PR for `feat/n2-l01-prog-001` — **PR #5 open** (awaiting merge).
 
 ## Known Issues
 
