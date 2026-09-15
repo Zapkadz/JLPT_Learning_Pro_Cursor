@@ -16,9 +16,10 @@ Rule: **never** write targets as completed counts.
 - **N2-L01-UX-001 DONE** (2026-09-15) — Grammar UI/API no longer hard-code Lesson 1 paths.  
 - **N2-L01-GOLD-001 DONE** (2026-09-15) — Lesson 1 examples enriched (3/group), variants/urls filled, revision 4; merged PR #3.  
 - **N2-L01-GOLD-002 DONE** (2026-09-15) — all 150 L1 exercises `origin: authored`; hint≠answer validators; revision 5; merged PR #4.  
-- **N2-L01-PROG-001 DONE** (2026-09-15) — progress denominator + XP policy locked (ADR-008).  
+- **N2-L01-PROG-001 DONE** (2026-09-15) — progress denominator + XP policy locked (ADR-008); merged PR #5.  
+- **N2-TEST-001 DONE** (2026-09-15) — golden validators renamed; grammar Playwright journey + webServer.  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **AVAILABLE** — `main` @ PR #4 merge; PROG-001 on `feat/n2-l01-prog-001`.
+- Git: **AVAILABLE** — `main` @ PR #5 merge; TEST-001 on `feat/n2-test-001`.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -68,6 +69,15 @@ Re-verified against repository (no app code changes):
 - Progress/SRS keyed by stable `pattern_id` strings; stats entity `grammar:{patternId}`.  
 - Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
 - Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
+
+### N2-TEST-001 (2026-09-15) — DONE
+
+- Renamed Lesson 1 coverage test to golden template validators (examples / 10+10+10 / origin / hints).  
+- Added `tests/grammar.spec.ts`: register → grammar course → lesson 1 → pattern → furigana + read → one exercise each mode → reload preserves 3/30 → SRS.  
+- `playwright.config.ts`: `webServer` runs `npm run dev` with temp `DB_PATH` when CI.  
+- Branch: `feat/n2-test-001` (uncommitted until user asks).  
+- Verification: `npm test` **14/14**; `npx playwright test tests/grammar.spec.ts` **1 passed** (~6.6s).  
+- Known: full `npm run test:e2e` still fails on legacy `tests/app.spec.ts` (quiz `.result-summary`); out of TEST-001 grammar scope.
 
 ### N2-L01-PROG-001 (2026-09-15) — DONE
 
@@ -152,6 +162,7 @@ Re-verified against repository (no app code changes):
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-15 | N2-TEST-001 golden validators + grammar Playwright | **14/14** unit; grammar e2e **1/1** | `npm test`; `playwright test tests/grammar.spec.ts` |
 | 2026-09-15 | N2-L01-PROG-001 progress denominator + XP export | **14/14 pass** | `npm test` |
 | 2026-09-15 | N2-L01-GOLD-002 origin + hint validators + rev 5 | **14/14 pass** | `npm test` |
 | 2026-09-15 | N2-L01-GOLD-001 examples/variants + rev 4 | **14/14 pass** | `npm test` (re-verified) |
@@ -171,16 +182,18 @@ Re-verified against repository (no app code changes):
 ## Known Incomplete Work
 
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
-- Lessons 2–26 content import.  
-- Playwright grammar E2E (**N2-TEST-001**).  
-- Commit/PR for `feat/n2-l01-prog-001` — **PR #5 open** (awaiting merge).
+- Lessons 2–26 content import (**N2-L02-BATCH**+ — needs approval).  
+- Legacy `tests/app.spec.ts` fails under Playwright webServer/temp DB.  
+- Commit/PR for `feat/n2-test-001` (awaiting user ask).
 
 ## Known Issues
 
 - Dual trackers: `docs/grammar-n2/*` (history) vs root PLAN/PROGRESS (active).  
 - UX-CONTRACT cites `server/index.ts` for CRUD; implementation is `server/app.ts`.  
-- `premium-audit.json` stale `projectRoot` path.
+- `premium-audit.json` stale `projectRoot` path.  
+- Full `npm run test:e2e` ≠ green while `app.spec.ts` fails.
 
 ## Blockers
 
-1. Furigana JA→VI policy decision blocks **N2-L01-FURI-001**.
+1. Furigana JA→VI policy decision blocks **N2-L01-FURI-001**.  
+2. Explicit approval required before **N2-L02-BATCH** lesson JSON import.

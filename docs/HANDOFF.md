@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-15 (N2-L01-PROG-001 PR #5)
+2026-09-15 (N2-TEST-001 on `feat/n2-test-001`)
 
 ## Project
 
@@ -11,68 +11,69 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/n2-l01-prog-001` (from `main` @ `4ecf349` — Merge PR #4 GOLD-002)
+`feat/n2-test-001` (from `main` @ `fd3387e` — Merge PR #5 PROG-001)
 
 ## Latest Relevant Commit
 
-`main` / `origin/main`: `4ecf349` — Merge PR #4 (N2-L01-GOLD-002).  
-This branch: `a3c171d` — feat: lock grammar progress denominator and XP export.  
-PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/5
+`main` / `origin/main`: `fd3387e` — Merge PR #5 (N2-L01-PROG-001).  
+This branch: TEST-001 (uncommitted until user asks).
 
 ## Current Objective
 
-**N2-L01-PROG-001** complete (verified). Awaiting merge of PR #5, then **N2-TEST-001** (or **N2-L01-FURI-001** after product decision).
+**N2-TEST-001** complete (verified for grammar scope). Await commit/PR. Next milestone gate: **N2-L02-BATCH** needs user approval before lesson JSON import. **N2-L01-FURI-001** still needs product decision.
 
 ## Current Phase
 
-**Phase 1** — Progress semantics **DONE** (in PR). Content still Lesson 1 only.
+**Phase 1** — Golden validators + representative grammar Playwright **DONE** (uncommitted). Content still Lesson 1 only.
 
 ## Current Task
 
-**N2-L01-PROG-001** — **DONE**. PR #5 open.
+**N2-TEST-001** — **DONE**. Await commit/push/PR.
 
 ## Last Completed Work
 
-- PR #4 (GOLD-002) merged to `main`.  
-- Course API: `progressDenominator = targetGroups` (141); `read`/`practiced` filtered to live pattern IDs.  
-- UI metrics label denominator as course target.  
-- Export includes `grammar.events`.  
-- ADR-008 + tests for XP/denominator policy.  
-- Commit `a3c171d` pushed; PR #5 opened.
+- PR #5 (PROG-001) merged to `main`.  
+- Renamed/locked Lesson 1 golden template unit validators.  
+- Added `tests/grammar.spec.ts` representative journey (lesson → pattern → furigana/read → VI/JA/order check → reload → SRS).  
+- Playwright `webServer` starts `npm run dev` with temp `DB_PATH` when `CI=1`.  
+- Verification: `npm test` 14/14; `npx playwright test tests/grammar.spec.ts` **1 passed**.  
+- Note: legacy `tests/app.spec.ts` fails under new webServer/temp DB (pre-existing quiz journey; not required for TEST-001 acceptance).
 
 ## Current State
 
 - 141/141 inventory mapped.  
-- Published content: Lesson 1 only (5×30 exercises + 3 examples/group, rev 5).  
-- Furigana on JA→VI practice — product decision still open.
+- Published content: Lesson 1 only.  
+- Furigana JA→VI practice policy still open.
 
 ## Verification State
 
 | Check | State |
 |-------|--------|
-| `npm test` | **PASS** 14/14 after PROG-001 |
-| Lesson revision | **5** |
+| `npm test` | **PASS** 14/14 |
+| `playwright tests/grammar.spec.ts` | **PASS** 1/1 |
+| `playwright` full (`app.spec` + grammar) | **FAIL** — `app.spec` result-summary step |
 
 ## Known Blockers
 
-- Furigana JA→VI practice policy (**N2-L01-FURI-001**) needs product decision.
+- Furigana JA→VI (**N2-L01-FURI-001**) needs product decision.  
+- **N2-L02-BATCH** requires explicit user approval (PLAN phase gate + no lesson JSON import yet).
 
 ## Exact Next Action
 
-1. Merge PR #5 (`feat/n2-l01-prog-001`).  
-2. Then **N2-TEST-001** (or **N2-L01-FURI-001** after furigana decision).  
-3. Do **not** import Lessons 2–26 JSON until content batches.
+1. Commit (+ push/PR) `feat/n2-test-001` when user asks.  
+2. After merge: user decides **N2-L02-BATCH** vs **N2-L01-FURI-001** vs fix legacy `app.spec`.  
+3. Do **not** import Lessons 2–26 JSON until approved.
 
 ## Files To Read Before Continuing
 
-1. `server/modules/grammar/router.ts`  
-2. `server/app.ts` (`/api/stats`, `/api/export`)  
-3. `docs/DECISIONS.md` ADR-008  
-4. Master Requirement §§38–42 if revisiting progress
+1. `tests/grammar.spec.ts`  
+2. `tests/grammar/grammar.test.ts`  
+3. `playwright.config.ts`  
+4. `docs/PLAN.md`
 
 ## Safety Notes
 
 - Do not remap L1 pattern IDs.  
 - Do not hard-code 151→141.  
-- Do not switch progress denominator to published-only without product decision.  
+- Do not import L2–26 content without approval.  
 - Commit only when user asks.

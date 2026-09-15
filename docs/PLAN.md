@@ -6,11 +6,11 @@ Module design history remains in `docs/grammar-n2/PLAN.md` (do not treat that fi
 
 ## Current Goal
 
-Grammar N2 per Master Requirement. **N2-L01-PROG-001 DONE** (await commit). Next: **N2-TEST-001** (or **N2-L01-FURI-001** after furigana decision).
+Grammar N2 per Master Requirement. **N2-TEST-001 DONE** (await commit). Next: **N2-L02-BATCH** (needs explicit approval) or **N2-L01-FURI-001** (needs furigana decision).
 
 ## Current Milestone
 
-**Phase 1 Grammar N2** — golden validators / Playwright after progress semantics.
+**Phase 1 Grammar N2** — Lesson 1 quality gate complete; awaiting content-batch approval.
 
 ## Status legend
 
@@ -49,7 +49,7 @@ Implementation of N2-* coding tasks requires **explicit user approval**. Until t
 | N2-L01-GOLD-002 | Lesson 1 exercise bank QA (10/10/10 substantive + origin) | DONE | N2-L01-GOLD-001 | Validators pass; hints not full answers; rev 5 |
 | N2-L01-UX-001 | Remove Lesson-1 hardcoding; statuses from API/manifest | DONE | N2-ARCH-001 | CTA/back-link from published lesson + pattern lesson metadata; no `lesson-01` in Grammar UI |
 | N2-L01-PROG-001 | Align progress semantics without resetting user data | DONE | N2-L01-UX-001 | No double XP; denominator = 141; ADR-008 |
-| N2-TEST-001 | Golden template validators + representative Playwright grammar journey | TODO | N2-L01-* | `npm test` (+ e2e when run) with evidence |
+| N2-TEST-001 | Golden template validators + representative Playwright grammar journey | DONE | N2-L01-* | `npm test` 14/14; grammar e2e 1/1 |
 | N2-L02-BATCH | Lessons 2–5 content + exercises + validate | TODO | N2-TEST-001 | Each published group meets DoD (Master §71) |
 | N2-L06-BATCH | Lessons 6–10 | TODO | N2-L02-BATCH | Same |
 | N2-L11-BATCH | Lessons 11–15 | TODO | N2-L06-BATCH | Same |

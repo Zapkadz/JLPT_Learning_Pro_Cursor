@@ -231,7 +231,7 @@ function normalizeQaText(s: string): string {
   return s.normalize("NFKC").replace(/\s+/g, "").toLowerCase();
 }
 
-test("N2 content coverage, no duplicate prompts, valid answer/token permutations and private DTO", () => {
+test("N2 Lesson 1 golden template validators (examples, 10/10/10, origin, hints)", () => {
   assert.equal(manifest.lessons.length, 26);
   assert.equal(
     manifest.lessons.reduce((n, l) => n + l.groupCount, 0),
