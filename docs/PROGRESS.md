@@ -11,9 +11,11 @@ Rule: **never** write targets as completed counts.
 - **N2-AUDIT-001 DONE** (2026-09-14).  
 - **N2-MAP-001 DONE** (2026-09-14) — `content/grammar/n2/inventory.json` + `docs/grammar-n2/SOURCE-MAPPING.md`.  
 - **N2-MAP-002 DONE** (2026-09-15) — **141/141** groups mapped to TNĐG URLs / match status.  
-- **N2-ARCH-001 DONE** (2026-09-15) — multi-lesson loader (published JSON only).  
+- **N2-ARCH-001 DONE** (2026-09-15) — multi-lesson loader (published JSON only); merged PR #1.  
+- **N2-ARCH-002 DONE** (2026-09-15) — additive Zod metadata (`variants`, `source.urls`, exercise `origin`/`sourceNote`).  
+- **N2-L01-UX-001 DONE** (2026-09-15) — Grammar UI/API no longer hard-code Lesson 1 paths.  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **AVAILABLE** — `main` → `origin/main`; active work on `feat/n2-arch-001-loader`.
+- Git: **AVAILABLE** — work on `feat/n2-arch-002-metadata` (ARCH-002 + UX-001, uncommitted).
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -63,6 +65,20 @@ Re-verified against repository (no app code changes):
 - Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
 - Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
 
+### N2-L01-UX-001 (2026-09-15) — DONE
+
+- Course hero CTA uses first `published` lesson from API.  
+- Pattern detail returns `lessonId` / `lessonNumber` / `lessonTitle`; back-link uses those.  
+- SRS deck blurb uses lesson number from manifest.  
+- No `lesson-01` string left in `Grammar.tsx`.
+
+### N2-ARCH-002 (2026-09-15) — DONE
+
+- Extended `patternSchema` with `variants` (default `[]`) and `source.urls` (default `[]`).  
+- Extended exercises with optional `origin` (`source` | `source-adapted` | `authored`) and `sourceNote`.  
+- Lesson 1 JSON unchanged; still parses. `publicExercise` strips answers/origin/sourceNote.  
+- Lesson list API returns `variants`. Branch: `feat/n2-arch-002-metadata`.
+
 ### N2-ARCH-001 (2026-09-15) — DONE
 
 - Replaced hard-coded `lesson-01.json` load with manifest-driven loader.  
@@ -104,7 +120,9 @@ Re-verified against repository (no app code changes):
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
-| 2026-09-15 | N2-ARCH-001 multi-lesson loader + API unpublished 404 | **13/13 pass** | `npm test` |
+| 2026-09-15 | N2-L01-UX-001 + pattern lesson metadata | **14/14 pass** | `npm test` |
+| 2026-09-15 | N2-ARCH-002 additive Zod metadata + DTO strip | **14/14 pass** | `npm test` |
+| 2026-09-15 | N2-ARCH-001 multi-lesson loader after PR merge | **13/13 pass** | `npm test` on `main` |
 | 2026-09-15 | N2-MAP-002 L21–26 + inventory test | **12/12 pass** | `npm test` |
 | 2026-09-15 | N2-MAP-002 L16–20 + inventory test | **12/12 pass** | `npm test` |
 | 2026-09-15 | N2-MAP-002 L11–15 + inventory test | **12/12 pass** | `npm test` |
@@ -117,11 +135,11 @@ Re-verified against repository (no app code changes):
 
 ## Known Incomplete Work
 
-- Additive metadata Zod (**N2-ARCH-002**).  
-- UI Lesson-1 hardcoding (**N2-L01-UX-001**).  
-- Lesson 1 golden-template polish (examples depth, metadata, optional practice furigana).  
+- Lesson 1 golden-template polish (**N2-L01-GOLD-001**).  
 - Lessons 2–26 content import.  
-- Playwright grammar E2E.
+- Playwright grammar E2E.  
+- Populate `origin` / `variants` on Lesson 1 content (schema ready; data later).  
+- Commit/PR for `feat/n2-arch-002-metadata` (ARCH-002 + UX-001).
 
 ## Known Issues
 
@@ -131,4 +149,4 @@ Re-verified against repository (no app code changes):
 
 ## Blockers
 
-1. Merge `feat/n2-arch-001-loader`, then continue **N2-ARCH-002** (or prioritize UX).
+1. Merge PR for `feat/n2-arch-002-metadata`; then **N2-L01-GOLD-001** (or furigana decision).

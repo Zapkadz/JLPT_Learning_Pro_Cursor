@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-15 (N2-ARCH-001 on `feat/n2-arch-001-loader`)
+2026-09-15 (N2-ARCH-002 + N2-L01-UX-001 on `feat/n2-arch-002-metadata`)
 
 ## Project
 
@@ -11,42 +11,42 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/n2-arch-001-loader` (from `main` @ `6cdea59`)
+`feat/n2-arch-002-metadata` (from `main` @ `15a77e0`) — contains **N2-ARCH-002** + **N2-L01-UX-001**
 
 ## Latest Relevant Commit
 
-See HEAD of this branch after merge; base `main` was `6cdea59`.
+`main` / `origin/main`: `15a77e0` — Merge PR #1 (N2-ARCH-001).  
+This branch: ARCH-002 + UX-001 (see HEAD after push).
 
 ## Current Objective
 
-N2-ARCH-001 complete. Next when approved: **N2-ARCH-002** (additive metadata via Zod) or commit/push this branch.
+Commit/PR current branch. Next coding: **N2-L01-GOLD-001** (richer Lesson 1 examples).
 
 ## Current Phase
 
-**Phase 1** — N2-ARCH-001 **DONE** (multi-lesson loader).  
-Content still Lesson 1 only; no L2–26 JSON imported.
+**Phase 1** — ARCH-002 + UX-001 **DONE** (uncommitted). Content still Lesson 1 only.
 
 ## Current Task
 
-**N2-ARCH-001** — **DONE**. Next: merge PR, then **N2-ARCH-002** or **N2-L01-UX-001**.
+**N2-L01-UX-001** — **DONE**. Await commit; next **N2-L01-GOLD-001**.
 
 ## Last Completed Work
 
-- Multi-lesson loader in `server/modules/grammar/content.ts`: loads only `manifest.published` lessons; unpublished need no JSON file.  
-- Router uses `getLesson` / `getPattern` / `allPatterns`.  
-- Tests: unpublished `lesson-02` → 404; L1 regression kept.
+- Additive Zod metadata (variants / source.urls / exercise origin).  
+- Removed Grammar UI hard-coded `lesson-01` CTA and back-link; pattern API returns lesson metadata.
 
 ## Current State
 
-- 141/141 inventory mapped (MAP-002).  
-- Published content: Lesson 1 only (5 groups / 150 exercises).  
-- UI still hard-links Bài 01 in places (**N2-L01-UX-001** later).
+- 141/141 inventory mapped.  
+- Published content: Lesson 1 only.  
+- Unpublished lessons still show “Đang biên soạn” from manifest `published` flag.
 
 ## Verification State
 
 | Check | State |
 |-------|--------|
-| `npm test` | **PASS** 13/13 after N2-ARCH-001 |
+| `npm test` | **PASS** 14/14 after UX-001 |
+| `lesson-01` in Grammar.tsx | **none** |
 
 ## Known Blockers
 
@@ -54,15 +54,15 @@ Content still Lesson 1 only; no L2–26 JSON imported.
 
 ## Exact Next Action
 
-1. Merge PR for `feat/n2-arch-001-loader` into `main`.  
-2. Then **N2-ARCH-002** (additive metadata) or **N2-L01-UX-001** if UI hardcoding should go sooner.  
+1. Merge PR for `feat/n2-arch-002-metadata` into `main`.  
+2. Then **N2-L01-GOLD-001** — richer Lesson 1 theory/examples (revision bump if semantic).  
 3. Do **not** import Lessons 2–26 JSON until content batches.
 
 ## Files To Read Before Continuing
 
-1. `server/modules/grammar/content.ts`  
-2. `server/modules/grammar/router.ts`  
-3. `tests/grammar/grammar.test.ts`  
+1. `content/grammar/n2/lesson-01.json`  
+2. `shared/grammar/types.ts`  
+3. Master Requirement §11 (grammar detail / examples)  
 4. `docs/requirements/GRAMMAR-N2-MASTER-REQUIREMENT.md`
 
 ## Safety Notes
