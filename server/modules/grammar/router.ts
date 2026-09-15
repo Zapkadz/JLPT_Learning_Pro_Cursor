@@ -119,6 +119,8 @@ export function grammarModule(db: Database.Database) {
       id: content.id,
       titleJa: content.titleJa,
       provenance: content.provenance,
+      number: entry.number,
+      title: entry.title,
       patterns: content.patterns.map((p) => {
         const s = db
           .prepare(

@@ -18,23 +18,25 @@ Rule: **never** write targets as completed counts.
 - **N2-L01-GOLD-002 DONE** (2026-09-15) — all 150 L1 exercises `origin: authored`; hint≠answer validators; revision 5; merged PR #4.  
 - **N2-L01-PROG-001 DONE** (2026-09-15) — progress denominator + XP policy locked (ADR-008); merged PR #5.  
 - **N2-TEST-001 DONE** (2026-09-15/16) — golden validators + grammar Playwright; merged PR #6.  
-- **N2-E2E-001 DONE** (2026-09-16) — legacy `app.spec` fixed; full e2e 2/2.  
+- **N2-E2E-001 DONE** (2026-09-16) — legacy `app.spec` fixed; full e2e 2/2; merged PR #7.  
+- **N2-L02-BATCH DONE** (2026-09-16) — Lessons 2–5 published (21×30 = 630 exercises).  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **AVAILABLE** — `main` @ PR #6 merge; e2e fix on `feat/fix-app-spec-e2e`.
+- Git: **AVAILABLE** — `main` @ PR #7; L02-BATCH on `feat/n2-l02-batch`.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
-| Metric | TARGET | ACTUAL (re-verified 2026-09-15 after N2-MAP-002) |
+| Metric | TARGET | ACTUAL (re-verified 2026-09-16 after N2-L02-BATCH) |
 |--------|--------|-----------------------------------------------|
 | Lessons in manifest | 26 | 26 rows in `manifest.json` |
-| Lessons published / learnable | 26 | **1** (`lesson-01` published) |
-| Canonical groups | 141 | Manifest `sum(groupCount)=141`; **implemented content: 5** |
-| Exercises | 4230 | **150** in `lesson-01.json` (5×30; per-group 10+10+10; unique IDs/prompts) |
-| Learning examples (L1) | richer set | **3 per group** (15 total) after GOLD-001 |
+| Lessons published / learnable | 26 | **5** (`lesson-01`…`lesson-05`) |
+| Canonical groups | 141 | Manifest `sum(groupCount)=141`; **implemented content: 26** |
+| Exercises | 4230 | **780** (L1 150 + L2–5 630) |
+| Learning examples (published) | richer set | **3 per group** |
 | TNĐG URLs | 141 mapped | **DONE** — 7 partial-match rows (see below) |
 | Independent teacher review | desired | **Not done** (`agent_reviewed` only) |
 
-Lesson 1 pattern IDs: `sai`, `saishite`, `totan`, `omouto`, `kanai`. Content revision: **5**.
+Lesson 1 pattern IDs: `sai`, `saishite`, `totan`, `omouto`, `kanai` (rev **5**).  
+Lessons 2–5 IDs: `l02-g01`…`l05-g04` (rev **1**).
 
 partial-match: `l04-g05`, `l04-g06`, `l13-g02`, `l13-g05`, `l18-g03`, `l23-g06`, `l26-g02`.
 
@@ -70,6 +72,17 @@ Re-verified against repository (no app code changes):
 - Progress/SRS keyed by stable `pattern_id` strings; stats entity `grammar:{patternId}`.  
 - Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
 - Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
+
+### N2-L02-BATCH (2026-09-16) — DONE
+
+- Authored + published Lessons 2–5: 21 groups × 30 exercises = **630** (plus 3 examples/group).  
+- Files: `lesson-02.json`…`lesson-05.json`; manifest `published: true`; inventory `imported` / `agent_reviewed`.  
+- Generators: `scripts/gen-n2-l02-batch.mjs`, `scripts/n2-batch/*`, `scripts/fix-overlaps.mjs` (dedupe example↔practice).  
+- UI/API: lesson payload includes `number`/`title`; Grammar lesson/exercise eyebrows no longer hard-code Bài 01.  
+- Tests: multi-lesson loader (5 published / 26 patterns); L2–5 golden DoD; course counts 26/780; revisions snapshot 26.  
+- Branch: `feat/n2-l02-batch` (uncommitted until user asks).  
+- Verification: `npm test` **15/15 pass**.  
+- Note: still `agent_reviewed` only — not teacher-verified; target 4230 not complete.
 
 ### N2-E2E-001 (2026-09-16) — DONE
 
@@ -170,6 +183,7 @@ Re-verified against repository (no app code changes):
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-16 | N2-L02-BATCH Lessons 2–5 publish | **15/15 pass** | `npm test` |
 | 2026-09-16 | N2-E2E-001 fix legacy app.spec | **2/2 pass** | `npm run test:e2e` |
 | 2026-09-15 | N2-TEST-001 golden validators + grammar Playwright | **14/14** unit; grammar e2e **1/1** | `npm test`; `playwright test tests/grammar.spec.ts` |
 | 2026-09-15 | N2-L01-PROG-001 progress denominator + XP export | **14/14 pass** | `npm test` |
@@ -191,16 +205,17 @@ Re-verified against repository (no app code changes):
 ## Known Incomplete Work
 
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
-- Lessons 2–26 content import (**N2-L02-BATCH**+ — needs approval).  
-- Commit/PR for `feat/fix-app-spec-e2e` — **PR #7 open** (awaiting merge).
+- Lessons 6–26 content import (**N2-L06-BATCH**+ — needs approval).  
+- Commit/PR for `feat/n2-l02-batch` (awaiting user ask).
 
 ## Known Issues
 
 - Dual trackers: `docs/grammar-n2/*` (history) vs root PLAN/PROGRESS (active).  
 - UX-CONTRACT cites `server/index.ts` for CRUD; implementation is `server/app.ts`.  
-- `premium-audit.json` stale `projectRoot` path.
+- `premium-audit.json` stale `projectRoot` path.  
+- L2–5 learning examples may use simplified single-span ruby after overlap fixes in some regenerated paths — structured ruby preferred on re-author.
 
 ## Blockers
 
 1. Furigana JA→VI policy decision blocks **N2-L01-FURI-001**.  
-2. Explicit approval required before **N2-L02-BATCH** lesson JSON import.
+2. Explicit approval required before **N2-L06-BATCH** lesson JSON import.

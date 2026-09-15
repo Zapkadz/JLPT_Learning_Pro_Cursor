@@ -1,0 +1,4521 @@
+{
+  "id": "lesson-04",
+  "titleJa": "開始・終了・期間",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 4. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L02-BATCH); agent_reviewed. l04-g05/l04-g06 partial-match TNĐG.",
+  "patterns": [
+    {
+      "id": "l04-g01",
+      "title": "〜をはじめ（として）",
+      "meaning": "Lấy… làm đại diện / tiêu biểu; bắt đầu từ…",
+      "variants": [
+        "をはじめ",
+        "をはじめとして"
+      ],
+      "structures": [
+        "N ＋ をはじめ（として）"
+      ],
+      "explanation": "Nêu một ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại. Thường dùng liệt kê mở đầu.",
+      "usage": "Giới thiệu thành viên, sản phẩm, địa điểm tiêu biểu.",
+      "cautions": [
+        "Sau をはじめ thường là nhóm đối tượng rộng hơn.",
+        "Không dùng khi chỉ muốn nói 'bắt đầu làm việc gì' theo nghĩa khởi động hành động."
+      ],
+      "contrast": "をはじめとして ≈ lấy A làm tiêu biểu. Khác からして (xét từ / ngay cả) và を通じて (thông qua).",
+      "examples": [
+        {
+          "ja": "東京をはじめ、大都市では家賃が高い。",
+          "reading": "とうきょうをはじめ、だいとしではやちんがたかい。",
+          "vi": "Lấy Tokyo làm tiêu biểu, ở các thành phố lớn tiền thuê nhà cao.",
+          "ruby": [
+            {
+              "text": "東京",
+              "reading": "とうきょう"
+            },
+            {
+              "text": "をはじめ、"
+            },
+            {
+              "text": "大都市",
+              "reading": "だいとし"
+            },
+            {
+              "text": "では"
+            },
+            {
+              "text": "家賃",
+              "reading": "やちん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "い。"
+            }
+          ]
+        },
+        {
+          "ja": "校長先生をはじめとして、教職員が出席した。",
+          "reading": "こうちょうせんせいをはじめとして、きょうしょくいんがしゅっせきした。",
+          "vi": "Lấy hiệu trưởng làm đầu, toàn bộ giáo viên đã tham dự.",
+          "ruby": [
+            {
+              "text": "校長",
+              "reading": "こうちょう"
+            },
+            {
+              "text": "先生",
+              "reading": "せんせい"
+            },
+            {
+              "text": "をはじめとして、"
+            },
+            {
+              "text": "教職員",
+              "reading": "きょうしょくいん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出席",
+              "reading": "しゅっせき"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        },
+        {
+          "ja": "米をはじめとする農産物の価格が上がった。",
+          "reading": "こめをはじめとするのうさんぶつのかかくがあがった。",
+          "vi": "Giá nông sản lấy gạo làm tiêu biểu đã tăng.",
+          "ruby": [
+            {
+              "text": "米",
+              "reading": "こめ"
+            },
+            {
+              "text": "をはじめとする"
+            },
+            {
+              "text": "農産物",
+              "reading": "のうさんぶつ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "価格",
+              "reading": "かかく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がった。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 33,
+        "printedPage": 20,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-o-hajime-hajime-toshite-tieu-bieu-nhu-la-truoc-tien-la-truoc-het-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l04-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Lấy mẹ làm đầu, cả nhà đã đến.",
+          "answers": [
+            "母をはじめ、家族全員が来た。"
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Lấy tiếng Anh làm tiêu biểu, ông ấy nói được nhiều ngôn ngữ.",
+          "answers": [
+            "英語をはじめ、彼はいくつかの言語を話せる。"
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Lấy Osaka làm đầu, nhiều thành phố bị ảnh hưởng.",
+          "answers": [
+            "大阪をはじめ、多くの都市が影響を受けた。"
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Lấy giám đốc làm đầu, nhân viên đã chào đón khách.",
+          "answers": [
+            "社長をはじめとして、社員が客を迎えた。"
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Lấy táo làm tiêu biểu, trái cây năm nay ngon.",
+          "answers": [
+            "りんごをはじめとする果物が今年はおいしい。"
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Lấy toán làm đầu, các môn thi đều khó.",
+          "answers": [
+            "数学をはじめ、試験科目はどれも難しい。"
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Lấy đội trưởng làm đầu, cả đội đã tập luyện.",
+          "answers": [
+            "キャプテンをはじめ、チーム全員が練習した。"
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Lấy xe buýt làm tiêu biểu, giao thông công cộng bị trì hoãn.",
+          "answers": [
+            "バスをはじめ、公共交通が遅れた。"
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Lấy bác sĩ làm đầu, nhân viên y tế làm việc suốt đêm.",
+          "answers": [
+            "医師をはじめとして、医療スタッフが夜通し働いた。"
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Lấy phong tục địa phương làm tiêu biểu, nhiều văn hóa đang được bảo tồn.",
+          "answers": [
+            "地元の祭りをはじめとする文化が守られている。"
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "日本をはじめ、アジア各国が参加した。",
+          "answers": [
+            "Lấy Nhật Bản làm tiêu biểu, các nước châu Á đã tham gia."
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "彼をはじめとして皆が反対した。",
+          "answers": [
+            "Lấy anh ấy làm đầu, mọi người đều phản đối."
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "パンをはじめとする小麦製品が値上がりした。",
+          "answers": [
+            "Sản phẩm lúa mì lấy bánh mì làm tiêu biểu đã tăng giá."
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "市長をはじめ、関係者が集まった。",
+          "answers": [
+            "Lấy thị trưởng làm đầu, các bên liên quan đã tụ họp."
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "音楽をはじめ、芸術全般に興味がある。",
+          "answers": [
+            "Lấy âm nhạc làm tiêu biểu, tôi thích nghệ thuật nói chung."
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "子どもをはじめ家族の健康が一番だ。",
+          "answers": [
+            "Lấy trẻ em làm đầu, sức khỏe gia đình là số một."
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "この店をはじめ、近所の店は早い時間に閉まる。",
+          "answers": [
+            "Lấy quán này làm tiêu biểu, cửa hàng gần đây đóng sớm."
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "部長をはじめとして部署全員が残業した。",
+          "answers": [
+            "Lấy trưởng phòng làm đầu, cả phòng tăng ca."
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "魚をはじめ海産物が豊富だ。",
+          "answers": [
+            "Lấy cá làm tiêu biểu, hải sản phong phú."
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "留学生をはじめ、外国人が増えている。",
+          "answers": [
+            "Lấy du học sinh làm tiêu biểu, người nước ngoài đang tăng."
+          ],
+          "hint": "N ＋ をはじめ（として）",
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-order-01",
+          "mode": "order",
+          "prompt": "Lấy Tokyo làm tiêu biểu, nhà đất đắt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "東京を"
+            },
+            {
+              "id": "1",
+              "text": "はじめ、"
+            },
+            {
+              "id": "2",
+              "text": "大都市は"
+            },
+            {
+              "id": "3",
+              "text": "家賃が高い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をはじめ（として）",
+          "answers": [
+            "東京をはじめ、大都市は家賃が高い。"
+          ],
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại. ★ là はじめ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-order-02",
+          "mode": "order",
+          "prompt": "Lấy hiệu trưởng làm đầu, giáo viên có mặt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "校長を"
+            },
+            {
+              "id": "1",
+              "text": "はじめとして"
+            },
+            {
+              "id": "2",
+              "text": "教職員が"
+            },
+            {
+              "id": "3",
+              "text": "出席した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をはじめ（として）",
+          "answers": [
+            "校長をはじめとして教職員が出席した。"
+          ],
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại. ★ là はじめとして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-order-03",
+          "mode": "order",
+          "prompt": "Lấy gạo làm tiêu biểu, nông sản tăng giá.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "米を"
+            },
+            {
+              "id": "1",
+              "text": "はじめとする"
+            },
+            {
+              "id": "2",
+              "text": "農産物が"
+            },
+            {
+              "id": "3",
+              "text": "値上がりした。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をはじめ（として）",
+          "answers": [
+            "米をはじめとする農産物が値上がりした。"
+          ],
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại. ★ là はじめとする.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-order-04",
+          "mode": "order",
+          "prompt": "Lấy mẹ làm đầu, cả nhà đến.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "母を"
+            },
+            {
+              "id": "1",
+              "text": "はじめ、"
+            },
+            {
+              "id": "2",
+              "text": "家族が"
+            },
+            {
+              "id": "3",
+              "text": "集まった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をはじめ（として）",
+          "answers": [
+            "母をはじめ、家族が集まった。"
+          ],
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại. ★ là はじめ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-order-05",
+          "mode": "order",
+          "prompt": "Lấy tiếng Anh làm tiêu biểu, ông ấy giỏi ngoại ngữ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "英語を"
+            },
+            {
+              "id": "1",
+              "text": "はじめ、"
+            },
+            {
+              "id": "2",
+              "text": "多言語を"
+            },
+            {
+              "id": "3",
+              "text": "話せる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をはじめ（として）",
+          "answers": [
+            "英語をはじめ、多言語を話せる。"
+          ],
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại. ★ là はじめ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-order-06",
+          "mode": "order",
+          "prompt": "Lấy giám đốc làm đầu, nhân viên chào khách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "社長を"
+            },
+            {
+              "id": "1",
+              "text": "はじめとして"
+            },
+            {
+              "id": "2",
+              "text": "社員が"
+            },
+            {
+              "id": "3",
+              "text": "出迎えた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をはじめ（として）",
+          "answers": [
+            "社長をはじめとして社員が出迎えた。"
+          ],
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại. ★ là はじめとして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-order-07",
+          "mode": "order",
+          "prompt": "Lấy toán làm đầu, các môn khó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "数学を"
+            },
+            {
+              "id": "1",
+              "text": "はじめ、"
+            },
+            {
+              "id": "2",
+              "text": "全科目が"
+            },
+            {
+              "id": "3",
+              "text": "難しい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をはじめ（として）",
+          "answers": [
+            "数学をはじめ、全科目が難しい。"
+          ],
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại. ★ là はじめ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-order-08",
+          "mode": "order",
+          "prompt": "Lấy bác sĩ làm đầu, nhân viên trực đêm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "医師を"
+            },
+            {
+              "id": "1",
+              "text": "はじめとして"
+            },
+            {
+              "id": "2",
+              "text": "職員が"
+            },
+            {
+              "id": "3",
+              "text": "夜勤した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をはじめ（として）",
+          "answers": [
+            "医師をはじめとして職員が夜勤した。"
+          ],
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại. ★ là はじめとして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-order-09",
+          "mode": "order",
+          "prompt": "Lấy xe buýt làm tiêu biểu, giao thông chậm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "バスを"
+            },
+            {
+              "id": "1",
+              "text": "はじめ、"
+            },
+            {
+              "id": "2",
+              "text": "交通が"
+            },
+            {
+              "id": "3",
+              "text": "乱れた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をはじめ（として）",
+          "answers": [
+            "バスをはじめ、交通が乱れた。"
+          ],
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại. ★ là はじめ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g01-order-10",
+          "mode": "order",
+          "prompt": "Lấy lễ hội địa phương làm tiêu biểu, văn hóa được giữ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "祭りを"
+            },
+            {
+              "id": "1",
+              "text": "はじめとする"
+            },
+            {
+              "id": "2",
+              "text": "文化が"
+            },
+            {
+              "id": "3",
+              "text": "残っている。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をはじめ（として）",
+          "answers": [
+            "祭りをはじめとする文化が残っている。"
+          ],
+          "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại. ★ là はじめとする.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l04-g02",
+      "title": "〜からして",
+      "meaning": "Ngay cả xét từ…; chỉ nhìn… cũng đủ thấy",
+      "variants": [
+        "からして"
+      ],
+      "structures": [
+        "N ＋ からして"
+      ],
+      "explanation": "Lấy một chi tiết/điểm xuất phát để suy ra đánh giá tổng thể (thường tiêu cực hoặc nhấn mạnh).",
+      "usage": "Phê phán, nhận xét ấn tượng đầu: 'chỉ nhìn cách nói cũng…'.",
+      "cautions": [
+        "Khác からすると／からすれば (từ góc nhìn của…) — bài này là からして.",
+        "Thường nêu chi tiết tiêu biểu rồi kết luận."
+      ],
+      "contrast": "からして ≈ ngay cả xét từ A. Khác をはじめ (tiêu biểu liệt kê) và を通じて (phương tiện).",
+      "examples": [
+        {
+          "ja": "第一印象からして感じが悪い。",
+          "reading": "だいいちいんしょうからしてかんじがわるい。",
+          "vi": "Ngay cả xét từ ấn tượng đầu tiên cũng khó chịu.",
+          "ruby": [
+            {
+              "text": "第一",
+              "reading": "だいいち"
+            },
+            {
+              "text": "印象",
+              "reading": "いんしょう"
+            },
+            {
+              "text": "からして"
+            },
+            {
+              "text": "感",
+              "reading": "かん"
+            },
+            {
+              "text": "じが"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "い。"
+            }
+          ]
+        },
+        {
+          "ja": "話し方からして自信がありそうだ。",
+          "reading": "はなしかたからしてじしんがありそうだ。",
+          "vi": "Chỉ nhìn cách nói cũng thấy có vẻ tự tin.",
+          "ruby": [
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "方",
+              "reading": "かた"
+            },
+            {
+              "text": "からして"
+            },
+            {
+              "text": "自信",
+              "reading": "じしん"
+            },
+            {
+              "text": "がありそうだ。"
+            }
+          ]
+        },
+        {
+          "ja": "この値段からして本物ではないだろう。",
+          "reading": "このねだんからしてほんものではないだろう。",
+          "vi": "Xét từ mức giá này thì chắc không phải hàng thật.",
+          "ruby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "値段",
+              "reading": "ねだん"
+            },
+            {
+              "text": "からして"
+            },
+            {
+              "text": "本物",
+              "reading": "ほんもの"
+            },
+            {
+              "text": "ではないだろう。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 33,
+        "printedPage": 20,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-kara-shite-ngay-ca-ngay-tu-xet-tu-goc-do-xet-ve-mat/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l04-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Chỉ nhìn thái độ cũng thấy không nghiêm túc.",
+          "answers": [
+            "態度からして本気ではない。"
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Xét từ cách ăn mặc, ông ấy khá giả.",
+          "answers": [
+            "服装からして裕福そうだ。"
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Ngay cả tên cửa hàng cũng kỳ lạ.",
+          "answers": [
+            "店の名前からして変わっている。"
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Chỉ nhìn kết quả cũng biết đã cố gắng.",
+          "answers": [
+            "結果からして努力したことがわかる。"
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Xét từ giọng nói, cô ấy đang giận.",
+          "answers": [
+            "声の調子からして怒っているようだ。"
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Ngay cả cách chào cũng thiếu lịch sự.",
+          "answers": [
+            "挨拶の仕方からして失礼だ。"
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Xét từ nguyên liệu, món này cao cấp.",
+          "answers": [
+            "材料からして高級な料理だ。"
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Chỉ nhìn lịch trình cũng thấy bận.",
+          "answers": [
+            "スケジュールからして忙しそうだ。"
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Xét từ phản ứng, anh ấy không biết chuyện.",
+          "answers": [
+            "反応からして彼は事情を知らない。"
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Ngay cả thiết kế bao bì cũng kém.",
+          "answers": [
+            "包装のデザインからして質が低い。"
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "見た目からして怪しい。",
+          "answers": [
+            "Chỉ nhìn bề ngoài cũng đáng ngờ."
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "言葉遣いからして教育を受けている。",
+          "answers": [
+            "Xét từ cách dùng từ thì có học thức."
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "この味からして手作りではなさそうだ。",
+          "answers": [
+            "Xét từ vị này thì có vẻ không làm thủ công."
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "歩き方からして急いでいるようだ。",
+          "answers": [
+            "Chỉ nhìn cách đi cũng thấy đang vội."
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "部屋の様子からして昨夜は忙しかったらしい。",
+          "answers": [
+            "Xét từ tình trạng phòng, đêm qua có vẻ bận."
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "彼の表情からして成功したようだ。",
+          "answers": [
+            "Chỉ nhìn biểu cảm cũng thấy có vẻ thành công."
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "値段からして学生には高すぎる。",
+          "answers": [
+            "Xét từ giá thì quá cao với sinh viên."
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "書き方からして急いで書いた文章だ。",
+          "answers": [
+            "Xét từ cách viết thì bài viết vội."
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "この説明からして初心者向けだ。",
+          "answers": [
+            "Xét từ phần giải thích thì dành cho người mới."
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "対応からしてクレームに慣れていない。",
+          "answers": [
+            "Xét từ cách ứng xử thì chưa quen khiếu nại."
+          ],
+          "hint": "N ＋ からして",
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-order-01",
+          "mode": "order",
+          "prompt": "Chỉ ấn tượng đầu cũng xấu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "第一印象"
+            },
+            {
+              "id": "1",
+              "text": "からして"
+            },
+            {
+              "id": "2",
+              "text": "感じが"
+            },
+            {
+              "id": "3",
+              "text": "悪い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ からして",
+          "answers": [
+            "第一印象からして感じが悪いのだ。"
+          ],
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận. ★ là からして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-order-02",
+          "mode": "order",
+          "prompt": "Xét cách nói thì tự tin.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "話し方"
+            },
+            {
+              "id": "1",
+              "text": "からして"
+            },
+            {
+              "id": "2",
+              "text": "自信が"
+            },
+            {
+              "id": "3",
+              "text": "ありそうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ からして",
+          "answers": [
+            "話し方からして自信がありそうだのだ。"
+          ],
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận. ★ là からして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-order-03",
+          "mode": "order",
+          "prompt": "Xét giá thì không phải hàng thật.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この値段"
+            },
+            {
+              "id": "1",
+              "text": "からして"
+            },
+            {
+              "id": "2",
+              "text": "本物では"
+            },
+            {
+              "id": "3",
+              "text": "ないだろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ からして",
+          "answers": [
+            "この値段からして本物ではないだろうのだ。"
+          ],
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận. ★ là からして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-order-04",
+          "mode": "order",
+          "prompt": "Chỉ thái độ cũng không nghiêm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "態度"
+            },
+            {
+              "id": "1",
+              "text": "からして"
+            },
+            {
+              "id": "2",
+              "text": "本気では"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ からして",
+          "answers": [
+            "態度からして本気ではない。"
+          ],
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận. ★ là からして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-order-05",
+          "mode": "order",
+          "prompt": "Xét trang phục thì khá giả.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "服装"
+            },
+            {
+              "id": "1",
+              "text": "からして"
+            },
+            {
+              "id": "2",
+              "text": "裕福そう"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ からして",
+          "answers": [
+            "服装からして裕福そうだ。"
+          ],
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận. ★ là からして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-order-06",
+          "mode": "order",
+          "prompt": "Chỉ giọng nói cũng thấy giận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "声"
+            },
+            {
+              "id": "1",
+              "text": "からして"
+            },
+            {
+              "id": "2",
+              "text": "怒って"
+            },
+            {
+              "id": "3",
+              "text": "いるようだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ からして",
+          "answers": [
+            "声からして怒っているようだ。"
+          ],
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận. ★ là からして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-order-07",
+          "mode": "order",
+          "prompt": "Xét nguyên liệu thì cao cấp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "材料"
+            },
+            {
+              "id": "1",
+              "text": "からして"
+            },
+            {
+              "id": "2",
+              "text": "高級な"
+            },
+            {
+              "id": "3",
+              "text": "料理だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ からして",
+          "answers": [
+            "材料からして高級な料理だ。"
+          ],
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận. ★ là からして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-order-08",
+          "mode": "order",
+          "prompt": "Chỉ lịch trình cũng thấy bận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "予定"
+            },
+            {
+              "id": "1",
+              "text": "からして"
+            },
+            {
+              "id": "2",
+              "text": "忙しそう"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ からして",
+          "answers": [
+            "予定からして忙しそうだ。"
+          ],
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận. ★ là からして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-order-09",
+          "mode": "order",
+          "prompt": "Xét phản ứng thì không biết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "反応"
+            },
+            {
+              "id": "1",
+              "text": "からして"
+            },
+            {
+              "id": "2",
+              "text": "事情を"
+            },
+            {
+              "id": "3",
+              "text": "知らない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ からして",
+          "answers": [
+            "反応からして事情を知らない。"
+          ],
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận. ★ là からして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g02-order-10",
+          "mode": "order",
+          "prompt": "Chỉ bề ngoài cũng đáng ngờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "見た目"
+            },
+            {
+              "id": "1",
+              "text": "からして"
+            },
+            {
+              "id": "2",
+              "text": "怪しく"
+            },
+            {
+              "id": "3",
+              "text": "見える。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ からして",
+          "answers": [
+            "見た目からして怪しく見える。"
+          ],
+          "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận. ★ là からして.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l04-g03",
+      "title": "〜にわたって",
+      "meaning": "Suốt / trải dài… (thời gian hoặc không gian)",
+      "variants": [
+        "にわたって",
+        "にわたり",
+        "にわたる"
+      ],
+      "structures": [
+        "N ＋ にわたって／にわたり／にわたる"
+      ],
+      "explanation": "Nêu phạm vi rộng về thời gian hoặc không gian mà sự việc bao phủ.",
+      "usage": "Tin tức, báo cáo: cuộc họp kéo dài nhiều ngày; thiệt hại trên diện rộng.",
+      "cautions": [
+        "Thường đi với khoảng thời gian / khu vực có quy mô.",
+        "にわたる hay dùng như tính từ (数日にわたる会議)."
+      ],
+      "contrast": "にわたって ≈ trải suốt phạm vi. Khác を通じて (thông qua/suốt kỳ) và 限り (phạm vi điều kiện).",
+      "examples": [
+        {
+          "ja": "会議は三日間にわたって行われた。",
+          "reading": "かいぎはみっかかんにわたっておこなわれた。",
+          "vi": "Cuộc họp đã diễn ra suốt ba ngày.",
+          "ruby": [
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "三",
+              "reading": "みっ"
+            },
+            {
+              "text": "日",
+              "reading": "か"
+            },
+            {
+              "text": "間",
+              "reading": "かん"
+            },
+            {
+              "text": "にわたって"
+            },
+            {
+              "text": "行",
+              "reading": "おこな"
+            },
+            {
+              "text": "われた。"
+            }
+          ]
+        },
+        {
+          "ja": "全国にわたる調査が実施された。",
+          "reading": "ぜんこくにわたるちょうさじっしされた。",
+          "vi": "Một cuộc điều tra trải khắp cả nước đã được thực hiện.",
+          "ruby": [
+            {
+              "text": "全国",
+              "reading": "ぜんこく"
+            },
+            {
+              "text": "にわたる"
+            },
+            {
+              "text": "調査",
+              "reading": "ちょうさ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "実施",
+              "reading": "じっし"
+            },
+            {
+              "text": "された。"
+            }
+          ]
+        },
+        {
+          "ja": "長期間にわたり支援を続けた。",
+          "reading": "ちょうきかんにわたりしえんをつづけた。",
+          "vi": "Đã tiếp tục hỗ trợ trong một thời gian dài.",
+          "ruby": [
+            {
+              "text": "長期",
+              "reading": "ちょうき"
+            },
+            {
+              "text": "間",
+              "reading": "かん"
+            },
+            {
+              "text": "にわたり"
+            },
+            {
+              "text": "支援",
+              "reading": "しえん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "けた。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 33,
+        "printedPage": 20,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-ni-watatte-ni-watari-suot-khap-trai-suot-trai-dai/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l04-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Triển lãm diễn ra suốt một tuần.",
+          "answers": [
+            "展示会は一週間にわたって開かれた。"
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Mưa lớn ảnh hưởng trên diện rộng nhiều tỉnh.",
+          "answers": [
+            "大雨は数県にわたって影響を与えた。"
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Họ tranh luận suốt hai giờ.",
+          "answers": [
+            "彼らは二時間にわたって議論した。"
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đây là dự án kéo dài nhiều năm.",
+          "answers": [
+            "これは数年にわたるプロジェクトだ。"
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Hỗ trợ được duy trì trong thời gian dài.",
+          "answers": [
+            "支援は長期間にわたり続いた。"
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Dịch bệnh lan rộng nhiều khu vực.",
+          "answers": [
+            "感染症は広い地域にわたって広がった。"
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Buổi hòa nhạc kéo dài suốt đêm.",
+          "answers": [
+            "コンサートは夜通しにわたって行われた。"
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nghiên cứu bao phủ nhiều lĩnh vực.",
+          "answers": [
+            "研究は多方面にわたっている。"
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Họ đàm phán suốt cả ngày.",
+          "answers": [
+            "交渉は一日にわたって続いた。"
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Thiệt hại trải dài nhiều thành phố.",
+          "answers": [
+            "被害は多くの都市にわたった。"
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "試験は三日にわたって実施される。",
+          "answers": [
+            "Kỳ thi sẽ được tổ chức suốt ba ngày."
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "数週間にわたる工事が終わった。",
+          "answers": [
+            "Công trình kéo dài vài tuần đã kết thúc."
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "全国にわたって同じ現象が見られた。",
+          "answers": [
+            "Hiện tượng giống nhau được thấy trên toàn quốc."
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "長年にわたり研究を続けてきた。",
+          "answers": [
+            "Đã tiếp tục nghiên cứu suốt nhiều năm."
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "広い範囲にわたる停電が起きた。",
+          "answers": [
+            "Đã xảy ra mất điện trên phạm vi rộng."
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "会議は午前から午後にわたって行われた。",
+          "answers": [
+            "Cuộc họp diễn ra suốt từ sáng đến chiều."
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "数カ国にわたる協力が必要だ。",
+          "answers": [
+            "Cần hợp tác trải nhiều quốc gia."
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "長時間にわたる運転は危険だ。",
+          "answers": [
+            "Lái xe suốt thời gian dài thì nguy hiểm."
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "彼の知識は多分野にわたる。",
+          "answers": [
+            "Kiến thức anh ấy trải nhiều lĩnh vực."
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "一週間にわたって雨が降り続いた。",
+          "answers": [
+            "Mưa đã kéo dài suốt một tuần."
+          ],
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-order-01",
+          "mode": "order",
+          "prompt": "Họp suốt ba ngày.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議は"
+            },
+            {
+              "id": "1",
+              "text": "三日間に"
+            },
+            {
+              "id": "2",
+              "text": "わたって"
+            },
+            {
+              "id": "3",
+              "text": "行われた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "answers": [
+            "会議は三日間にわたって行われたのだ。"
+          ],
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian. ★ là わたって.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-order-02",
+          "mode": "order",
+          "prompt": "Điều tra toàn quốc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "全国に"
+            },
+            {
+              "id": "1",
+              "text": "わたる"
+            },
+            {
+              "id": "2",
+              "text": "調査が"
+            },
+            {
+              "id": "3",
+              "text": "実施された。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "answers": [
+            "全国にわたる調査が実施されたのだ。"
+          ],
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian. ★ là わたる.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-order-03",
+          "mode": "order",
+          "prompt": "Hỗ trợ lâu dài.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "長期間に"
+            },
+            {
+              "id": "1",
+              "text": "わたり"
+            },
+            {
+              "id": "2",
+              "text": "支援を"
+            },
+            {
+              "id": "3",
+              "text": "続けた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "answers": [
+            "長期間にわたり支援を続けたのだ。"
+          ],
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian. ★ là わたり.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-order-04",
+          "mode": "order",
+          "prompt": "Triển lãm một tuần.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "展示は"
+            },
+            {
+              "id": "1",
+              "text": "一週間に"
+            },
+            {
+              "id": "2",
+              "text": "わたって"
+            },
+            {
+              "id": "3",
+              "text": "開かれた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "answers": [
+            "展示は一週間にわたって開かれた。"
+          ],
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian. ★ là わたって.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-order-05",
+          "mode": "order",
+          "prompt": "Tranh luận hai giờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "二時間に"
+            },
+            {
+              "id": "1",
+              "text": "わたって"
+            },
+            {
+              "id": "2",
+              "text": "議論が"
+            },
+            {
+              "id": "3",
+              "text": "続いた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "answers": [
+            "二時間にわたって議論が続いた。"
+          ],
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian. ★ là わたって.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-order-06",
+          "mode": "order",
+          "prompt": "Dự án nhiều năm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "数年に"
+            },
+            {
+              "id": "1",
+              "text": "わたる"
+            },
+            {
+              "id": "2",
+              "text": "計画を"
+            },
+            {
+              "id": "3",
+              "text": "立てた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "answers": [
+            "数年にわたる計画を立てた。"
+          ],
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian. ★ là わたる.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-order-07",
+          "mode": "order",
+          "prompt": "Mưa ảnh hưởng nhiều tỉnh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "数県に"
+            },
+            {
+              "id": "1",
+              "text": "わたって"
+            },
+            {
+              "id": "2",
+              "text": "大雨が"
+            },
+            {
+              "id": "3",
+              "text": "降った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "answers": [
+            "数県にわたって大雨が降った。"
+          ],
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian. ★ là わたって.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-order-08",
+          "mode": "order",
+          "prompt": "Đàm phán cả ngày.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一日に"
+            },
+            {
+              "id": "1",
+              "text": "わたって"
+            },
+            {
+              "id": "2",
+              "text": "交渉が"
+            },
+            {
+              "id": "3",
+              "text": "行われた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "answers": [
+            "一日にわたって交渉が行われた。"
+          ],
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian. ★ là わたって.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-order-09",
+          "mode": "order",
+          "prompt": "Kiến thức nhiều lĩnh vực.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "知識は"
+            },
+            {
+              "id": "1",
+              "text": "多分野に"
+            },
+            {
+              "id": "2",
+              "text": "わたって"
+            },
+            {
+              "id": "3",
+              "text": "いる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "answers": [
+            "知識は多分野にわたっている。"
+          ],
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian. ★ là わたって.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g03-order-10",
+          "mode": "order",
+          "prompt": "Mất điện phạm vi rộng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "広い範囲に"
+            },
+            {
+              "id": "1",
+              "text": "わたる"
+            },
+            {
+              "id": "2",
+              "text": "停電が"
+            },
+            {
+              "id": "3",
+              "text": "起きた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にわたって／にわたり／にわたる",
+          "answers": [
+            "広い範囲にわたる停電が起きた。"
+          ],
+          "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian. ★ là わたる.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l04-g04",
+      "title": "〜を通じて・〜を通して",
+      "meaning": "Thông qua…; trong suốt…",
+      "variants": [
+        "を通じて",
+        "を通して"
+      ],
+      "structures": [
+        "N ＋ を通じて",
+        "N ＋ を通して"
+      ],
+      "explanation": "Hai nghĩa chính: (1) thông qua phương tiện/người trung gian; (2) trong suốt khoảng thời gian.",
+      "usage": "Quan hệ, truyền thông, trải nghiệm suốt một giai đoạn.",
+      "cautions": [
+        "を通じて và を通して gần nghĩa; を通じて hơi trang trọng/viết hơn trong một số ngữ cảnh.",
+        "Không nhầm với 通る (đi qua) thông thường."
+      ],
+      "contrast": "を通じて ≈ thông qua / suốt kỳ. Khác にわたって (phạm vi bao phủ) và をはじめ (tiêu biểu).",
+      "examples": [
+        {
+          "ja": "友人を通じて彼を紹介された。",
+          "reading": "ゆうじんをつうじてかれをしょうかいされた。",
+          "vi": "Tôi được giới thiệu anh ấy thông qua bạn.",
+          "ruby": [
+            {
+              "text": "友人",
+              "reading": "ゆうじん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "つう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "紹介",
+              "reading": "しょうかい"
+            },
+            {
+              "text": "された。"
+            }
+          ]
+        },
+        {
+          "ja": "一年を通して気温が高い。",
+          "reading": "いちねんをとおしてきおんがたかい。",
+          "vi": "Nhiệt độ cao suốt cả năm.",
+          "ruby": [
+            {
+              "text": "一年",
+              "reading": "いちねん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "とお"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "気温",
+              "reading": "きおん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "い。"
+            }
+          ]
+        },
+        {
+          "ja": "インターネットを通じて情報を集めた。",
+          "reading": "いんたーねっとをつうじてじょうほうをあつめた。",
+          "vi": "Tôi thu thập thông tin thông qua internet.",
+          "ruby": [
+            {
+              "text": "インターネットを"
+            },
+            {
+              "text": "通",
+              "reading": "つう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "情報",
+              "reading": "じょうほう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "集",
+              "reading": "あつ"
+            },
+            {
+              "text": "めた。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 33,
+        "printedPage": 20,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-wotsuujite-tooshite-thong-qua-trong-suot/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l04-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Tôi biết tin thông qua báo chí.",
+          "answers": [
+            "新聞を通じてそのニュースを知った。"
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Suốt bốn mùa, nơi này đẹp.",
+          "answers": [
+            "四季を通してここは美しい。"
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Thông qua thầy giáo, tôi gặp được cố vấn.",
+          "answers": [
+            "先生を通じて顧問を紹介された。"
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Suốt kỳ nghỉ tôi ở nhà.",
+          "answers": [
+            "休暇を通して家にいた。"
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Thông qua mạng xã hội, họ kết bạn.",
+          "answers": [
+            "SNSを通じて彼らは友人になった。"
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Suốt cuộc đời ông ấy giúp người khác.",
+          "answers": [
+            "生涯を通じて彼は人を助けた。"
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Thông qua phiên dịch, chúng tôi nói chuyện.",
+          "answers": [
+            "通訳を通じて会話した。"
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Suốt mùa đông nhiệt độ thấp.",
+          "answers": [
+            "冬を通して気温が低い。"
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Thông qua công ty, tôi xin visa.",
+          "answers": [
+            "会社を通じてビザを申請した。"
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Suốt khóa học tôi giữ nhật ký.",
+          "answers": [
+            "講座を通して日記をつけた。"
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼を通じて話を聞いた。",
+          "answers": [
+            "Tôi nghe chuyện thông qua anh ấy."
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "一年を通じて観光客が訪れる。",
+          "answers": [
+            "Du khách đến thăm suốt cả năm."
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "ラジオを通して正しい情報を得た。",
+          "answers": [
+            "Tôi có thông tin đúng qua đài radio."
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "経験を通じて多くを学んだ。",
+          "answers": [
+            "Tôi học được nhiều thông qua trải nghiệm."
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "季節を通して花が咲く。",
+          "answers": [
+            "Hoa nở suốt các mùa."
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "代理人を通じて交渉した。",
+          "answers": [
+            "Đàm phán thông qua người đại diện."
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "学生時代を通して彼は優秀だった。",
+          "answers": [
+            "Suốt thời sinh viên anh ấy xuất sắc."
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "映像を通じて現場の様子がわかった。",
+          "answers": [
+            "Qua hình ảnh hiểu được hiện trường."
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "週末を通して雨が降った。",
+          "answers": [
+            "Mưa rơi suốt cuối tuần."
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "ボランティアを通じて地域とつながった。",
+          "answers": [
+            "Kết nối địa phương qua tình nguyện."
+          ],
+          "hint": "N ＋ を通じて／を通して",
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-order-01",
+          "mode": "order",
+          "prompt": "Được giới thiệu qua bạn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "友人を"
+            },
+            {
+              "id": "1",
+              "text": "通じて"
+            },
+            {
+              "id": "2",
+              "text": "彼を"
+            },
+            {
+              "id": "3",
+              "text": "紹介された。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ を通じて／を通して",
+          "answers": [
+            "友人を通じて彼を紹介されたのだ。"
+          ],
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian. ★ là 通じて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-order-02",
+          "mode": "order",
+          "prompt": "Nhiệt độ cao suốt năm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一年を"
+            },
+            {
+              "id": "1",
+              "text": "通して"
+            },
+            {
+              "id": "2",
+              "text": "気温が"
+            },
+            {
+              "id": "3",
+              "text": "高い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ を通じて／を通して",
+          "answers": [
+            "一年を通して気温が高いのだ。"
+          ],
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian. ★ là 通して.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-order-03",
+          "mode": "order",
+          "prompt": "Thu thập tin qua mạng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ネットを"
+            },
+            {
+              "id": "1",
+              "text": "通じて"
+            },
+            {
+              "id": "2",
+              "text": "情報を"
+            },
+            {
+              "id": "3",
+              "text": "集めた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ を通じて／を通して",
+          "answers": [
+            "ネットを通じて情報を集めた。"
+          ],
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian. ★ là 通じて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-order-04",
+          "mode": "order",
+          "prompt": "Biết tin qua báo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "新聞を"
+            },
+            {
+              "id": "1",
+              "text": "通じて"
+            },
+            {
+              "id": "2",
+              "text": "ニュースを"
+            },
+            {
+              "id": "3",
+              "text": "知った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ を通じて／を通して",
+          "answers": [
+            "新聞を通じてニュースを知った。"
+          ],
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian. ★ là 通じて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-order-05",
+          "mode": "order",
+          "prompt": "Đẹp suốt bốn mùa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "四季を"
+            },
+            {
+              "id": "1",
+              "text": "通して"
+            },
+            {
+              "id": "2",
+              "text": "景色が"
+            },
+            {
+              "id": "3",
+              "text": "美しい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ を通じて／を通して",
+          "answers": [
+            "四季を通して景色が美しい。"
+          ],
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian. ★ là 通して.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-order-06",
+          "mode": "order",
+          "prompt": "Nói chuyện qua phiên dịch.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "通訳を"
+            },
+            {
+              "id": "1",
+              "text": "通じて"
+            },
+            {
+              "id": "2",
+              "text": "話を"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ を通じて／を通して",
+          "answers": [
+            "通訳を通じて話をした。"
+          ],
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian. ★ là 通じて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-order-07",
+          "mode": "order",
+          "prompt": "Ở nhà suốt kỳ nghỉ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "休暇を"
+            },
+            {
+              "id": "1",
+              "text": "通して"
+            },
+            {
+              "id": "2",
+              "text": "自宅に"
+            },
+            {
+              "id": "3",
+              "text": "いた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ を通じて／を通して",
+          "answers": [
+            "休暇を通して自宅にいた。"
+          ],
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian. ★ là 通して.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-order-08",
+          "mode": "order",
+          "prompt": "Xin visa qua công ty.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会社を"
+            },
+            {
+              "id": "1",
+              "text": "通じて"
+            },
+            {
+              "id": "2",
+              "text": "ビザを"
+            },
+            {
+              "id": "3",
+              "text": "申請した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ を通じて／を通して",
+          "answers": [
+            "会社を通じてビザを申請した。"
+          ],
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian. ★ là 通じて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-order-09",
+          "mode": "order",
+          "prompt": "Học qua trải nghiệm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "経験を"
+            },
+            {
+              "id": "1",
+              "text": "通じて"
+            },
+            {
+              "id": "2",
+              "text": "多くを"
+            },
+            {
+              "id": "3",
+              "text": "学んだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ を通じて／を通して",
+          "answers": [
+            "経験を通じて多くを学んだ。"
+          ],
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian. ★ là 通じて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g04-order-10",
+          "mode": "order",
+          "prompt": "Mưa suốt cuối tuần.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "週末を"
+            },
+            {
+              "id": "1",
+              "text": "通して"
+            },
+            {
+              "id": "2",
+              "text": "雨が"
+            },
+            {
+              "id": "3",
+              "text": "降った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ を通じて／を通して",
+          "answers": [
+            "週末を通して雨が降った。"
+          ],
+          "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian. ★ là 通して.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l04-g05",
+      "title": "〜限り",
+      "meaning": "Trong phạm vi…; miễn là…; hết mức… (nghĩa tổng quát)",
+      "variants": [
+        "限り"
+      ],
+      "structures": [
+        "Vる／Vない／Nの ＋ 限り"
+      ],
+      "explanation": "Nhóm 限り tổng quát ở bài 4: nêu phạm vi điều kiện hoặc giới hạn. Các biến thể cụ thể hơn (に限り, 限りでは…) ở bài 5.",
+      "usage": "Điều kiện 'miễn còn…'; phạm vi khả năng; giới hạn thời gian/đối tượng.",
+      "cautions": [
+        "Đây là nhóm tổng quát (partial-match với TNĐG); bài 5 tách các dạng hẹp hơn.",
+        "Không nhầm mọi 限り đều cùng một nghĩa."
+      ],
+      "contrast": "限り (tổng quát) bao nhiều sắc thái. Bài 5: に限り / 限りは / 限りでは / に限って cụ thể hơn.",
+      "examples": [
+        {
+          "ja": "私の知る限り、彼は正直者だ。",
+          "reading": "わたしのしるかぎり、かれはしょうじきものだ。",
+          "vi": "Trong phạm vi tôi biết, anh ấy là người ngay thẳng.",
+          "ruby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "る"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り、"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "正直者",
+              "reading": "しょうじきもの"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "時間が許す限り手伝います。",
+          "reading": "じかんがゆるすかぎりてつだいます。",
+          "vi": "Miễn thời gian cho phép, tôi sẽ giúp.",
+          "ruby": [
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "許",
+              "reading": "ゆる"
+            },
+            {
+              "text": "す"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "手伝",
+              "reading": "てつだ"
+            },
+            {
+              "text": "います。"
+            }
+          ]
+        },
+        {
+          "ja": "力の限り走った。",
+          "reading": "ちからのかぎりはしった。",
+          "vi": "Tôi đã chạy hết sức.",
+          "ruby": [
+            {
+              "text": "力",
+              "reading": "ちから"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "走",
+              "reading": "はし"
+            },
+            {
+              "text": "った。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 33,
+        "printedPage": 20,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-kagiri-trong-pham-vi-la-trong-khi-con-la-voi-dieu-kien-la-theo-nhu-toi-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l04-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Trong phạm vi tôi nhớ, họp lúc 3 giờ.",
+          "answers": [
+            "私の覚えている限り、会議は3時だ。"
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Miễn còn sức, tôi sẽ tiếp tục.",
+          "answers": [
+            "体力がある限り続けます。"
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Tôi đã cố gắng hết mức có thể.",
+          "answers": [
+            "できる限り努力した。"
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Miễn luật cho phép, hãy thử.",
+          "answers": [
+            "法律が許す限り試してみてください。"
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Trong phạm vi ngân sách, chúng tôi mua.",
+          "answers": [
+            "予算の限りで購入します。"
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Miễn còn sống ở đây, tôi sẽ đóng góp.",
+          "answers": [
+            "ここに住んでいる限り貢献します。"
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Tôi hét hết sức.",
+          "answers": [
+            "声の限り叫んだ。"
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Miễn chưa có thông báo, hãy chờ.",
+          "answers": [
+            "連絡がない限り待ってください。"
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Trong phạm vi quy định, được miễn phí.",
+          "answers": [
+            "規定の限り無料です。"
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Miễn còn làm việc ở công ty, hãy giữ bí mật.",
+          "answers": [
+            "在職している限り秘密を守ってください。"
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "見る限り問題はなさそうだ。",
+          "answers": [
+            "Trong phạm vi nhìn thấy thì có vẻ không vấn đề."
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "命ある限り挑戦したい。",
+          "answers": [
+            "Miễn còn sống, tôi muốn thử thách."
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "可能な限り早く提出します。",
+          "answers": [
+            "Tôi sẽ nộp sớm hết mức có thể."
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "この情報が正しい限り方針は変えない。",
+          "answers": [
+            "Miễn thông tin này đúng, không đổi phương châm."
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "私の知る限り彼は欠席していない。",
+          "answers": [
+            "Trong phạm vi tôi biết, anh ấy không vắng."
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "ルールが変わる限り対応が必要だ。",
+          "answers": [
+            "Miễn quy tắc thay đổi thì cần ứng phó."
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "力の限り応援する。",
+          "answers": [
+            "Tôi sẽ cổ vũ hết sức."
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "必要がない限り連絡しないでください。",
+          "answers": [
+            "Miễn không cần thiết thì đừng liên lạc."
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "天候が許す限り試合を行う。",
+          "answers": [
+            "Miễn thời tiết cho phép sẽ tổ chức trận đấu."
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "覚えている限り書き出してみる。",
+          "answers": [
+            "Tôi sẽ viết ra trong phạm vi còn nhớ."
+          ],
+          "hint": "Vる／Nの ＋ 限り",
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-order-01",
+          "mode": "order",
+          "prompt": "Trong phạm vi tôi biết anh ấy ngay thẳng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "私の知る"
+            },
+            {
+              "id": "1",
+              "text": "限り、"
+            },
+            {
+              "id": "2",
+              "text": "彼は"
+            },
+            {
+              "id": "3",
+              "text": "正直者だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限り",
+          "answers": [
+            "私の知る限り、彼は正直者だのだ。"
+          ],
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-order-02",
+          "mode": "order",
+          "prompt": "Miễn thời gian cho phép sẽ giúp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "時間が"
+            },
+            {
+              "id": "1",
+              "text": "許す"
+            },
+            {
+              "id": "2",
+              "text": "限り"
+            },
+            {
+              "id": "3",
+              "text": "手伝います。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Nの ＋ 限り",
+          "answers": [
+            "時間が許す限り手伝いますのだ。"
+          ],
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-order-03",
+          "mode": "order",
+          "prompt": "Chạy hết sức.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "力の"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "最後まで"
+            },
+            {
+              "id": "3",
+              "text": "走った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限り",
+          "answers": [
+            "力の限り最後まで走った。"
+          ],
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-order-04",
+          "mode": "order",
+          "prompt": "Cố hết mức có thể.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "できる"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "早く"
+            },
+            {
+              "id": "3",
+              "text": "仕上げる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限り",
+          "answers": [
+            "できる限り早く仕上げる。"
+          ],
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-order-05",
+          "mode": "order",
+          "prompt": "Miễn còn sức sẽ tiếp tục.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "体力が"
+            },
+            {
+              "id": "1",
+              "text": "ある"
+            },
+            {
+              "id": "2",
+              "text": "限り"
+            },
+            {
+              "id": "3",
+              "text": "続けます。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Nの ＋ 限り",
+          "answers": [
+            "体力がある限り続けます。"
+          ],
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-order-06",
+          "mode": "order",
+          "prompt": "Trong phạm vi nhìn thấy ổn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "見る"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "問題は"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限り",
+          "answers": [
+            "見る限り問題はない。"
+          ],
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-order-07",
+          "mode": "order",
+          "prompt": "Miễn chưa có tin thì chờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "連絡が"
+            },
+            {
+              "id": "1",
+              "text": "ない"
+            },
+            {
+              "id": "2",
+              "text": "限り"
+            },
+            {
+              "id": "3",
+              "text": "待ってください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Nの ＋ 限り",
+          "answers": [
+            "連絡がない限り待ってください。"
+          ],
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-order-08",
+          "mode": "order",
+          "prompt": "Hét hết giọng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "声の"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "名前を"
+            },
+            {
+              "id": "3",
+              "text": "呼んだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限り",
+          "answers": [
+            "声の限り名前を呼んだ。"
+          ],
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-order-09",
+          "mode": "order",
+          "prompt": "Miễn luật cho phép hãy thử.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "法律が"
+            },
+            {
+              "id": "1",
+              "text": "許す"
+            },
+            {
+              "id": "2",
+              "text": "限り"
+            },
+            {
+              "id": "3",
+              "text": "挑戦しよう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Nの ＋ 限り",
+          "answers": [
+            "法律が許す限り挑戦しよう。"
+          ],
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g05-order-10",
+          "mode": "order",
+          "prompt": "Nộp sớm hết mức.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "可能な"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "早めに"
+            },
+            {
+              "id": "3",
+              "text": "提出する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限り",
+          "answers": [
+            "可能な限り早めに提出する。"
+          ],
+          "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l04-g06",
+      "title": "〜だけ",
+      "meaning": "Hết mức…; càng… càng… (mức độ / thỏa thích)",
+      "variants": [
+        "だけ"
+      ],
+      "structures": [
+        "Vる ＋ だけ",
+        "Aい ＋ だけ",
+        "N ＋ だけ"
+      ],
+      "explanation": "Ở bài này だけ theo nghĩa mức độ: làm hết mức có thể, lấy đủ mức cần (không phải 'chỉ mỗi' đơn thuần N3).",
+      "usage": "Khuyến khích làm thỏa thích; nêu tương quan mức độ.",
+      "cautions": [
+        "Partial-match: các dạng だけに／だけあって thuộc bài khác.",
+        "Phân biệt với だけ = chỉ mỗi (giới hạn đối tượng)."
+      ],
+      "contrast": "だけ (mức độ) ≈ hết mức / tương ứng mức. Khác 限り (điều kiện phạm vi) và に限って (đúng vào lúc).",
+      "examples": [
+        {
+          "ja": "好きなだけ取ってください。",
+          "reading": "すきなだけとってください。",
+          "vi": "Hãy lấy thỏa thích bao nhiêu cũng được.",
+          "ruby": [
+            {
+              "text": "好",
+              "reading": "す"
+            },
+            {
+              "text": "きなだけ"
+            },
+            {
+              "text": "取",
+              "reading": "と"
+            },
+            {
+              "text": "ってください。"
+            }
+          ]
+        },
+        {
+          "ja": "やれるだけやってみよう。",
+          "reading": "やれるだけやってみよう。",
+          "vi": "Hãy làm hết mức có thể.",
+          "ruby": [
+            {
+              "text": "やれるだけやってみよう。"
+            }
+          ]
+        },
+        {
+          "ja": "時間があるだけ練習した。",
+          "reading": "じかんがあるだけれんしゅうした。",
+          "vi": "Tôi đã luyện tập hết thời gian có được.",
+          "ruby": [
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "があるだけ"
+            },
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 33,
+        "printedPage": 20,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-dake-het-muc-co-the-cho-thoa-thich/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l04-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Hãy ăn thỏa thích.",
+          "answers": [
+            "食べたいだけ食べてください。"
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tôi đã mang hết số sách có thể mang.",
+          "answers": [
+            "持てるだけ本を持った。"
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Hãy nghỉ ngơi hết mức cần thiết.",
+          "answers": [
+            "必要なだけ休憩してください。"
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Tôi sẽ giúp hết sức có thể.",
+          "answers": [
+            "できるだけ手伝います。"
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Hãy viết dài bao nhiêu cũng được.",
+          "answers": [
+            "書きたいだけ書いていいです。"
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Tôi đã luyện hết thời gian còn lại.",
+          "answers": [
+            "残った時間だけ練習した。"
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Hãy lấy nước bao nhiêu cần.",
+          "answers": [
+            "必要なだけ水を取ってください。"
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tôi đã hỏi hết những gì muốn hỏi.",
+          "answers": [
+            "聞きたいだけ質問した。"
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Hãy cố hết mức trước hạn.",
+          "answers": [
+            "期限までやれるだけ頑張ろう。"
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Tôi ngủ đủ mức cần để hồi phục.",
+          "answers": [
+            "回復に必要なだけ眠った。"
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "欲しいだけ選んでください。",
+          "answers": [
+            "Hãy chọn thỏa thích những gì muốn."
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "言えるだけ言ってみた。",
+          "answers": [
+            "Tôi đã nói hết mức có thể nói."
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "節約できるだけ節約しよう。",
+          "answers": [
+            "Hãy tiết kiệm hết mức có thể."
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "彼は走れるだけ走った。",
+          "answers": [
+            "Anh ấy đã chạy hết mức có thể chạy."
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "考えられるだけ案を出した。",
+          "answers": [
+            "Tôi đã đưa ra hết các phương án nghĩ được."
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "好きなだけ練習してかまわない。",
+          "answers": [
+            "Luyện thỏa thích cũng không sao."
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "持てるだけ荷物を運んだ。",
+          "answers": [
+            "Tôi đã chuyển hết hành lý mang được."
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "わかるだけ説明します。",
+          "answers": [
+            "Tôi sẽ giải thích hết mức hiểu được."
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "時間があるだけ読書した。",
+          "answers": [
+            "Tôi đã đọc sách hết thời gian có."
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "必要なだけ準備を整えた。",
+          "answers": [
+            "Tôi đã chuẩn bị đủ mức cần thiết."
+          ],
+          "hint": "Vる／Aい ＋ だけ",
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-order-01",
+          "mode": "order",
+          "prompt": "Lấy thỏa thích.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "好きな"
+            },
+            {
+              "id": "1",
+              "text": "だけ"
+            },
+            {
+              "id": "2",
+              "text": "取って"
+            },
+            {
+              "id": "3",
+              "text": "ください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ だけ",
+          "answers": [
+            "好きなだけ取ってくださいのだ。"
+          ],
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần. ★ là だけ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-order-02",
+          "mode": "order",
+          "prompt": "Làm hết mức có thể.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "やれる"
+            },
+            {
+              "id": "1",
+              "text": "だけ"
+            },
+            {
+              "id": "2",
+              "text": "やって"
+            },
+            {
+              "id": "3",
+              "text": "みよう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ だけ",
+          "answers": [
+            "やれるだけやってみようのだ。"
+          ],
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần. ★ là だけ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-order-03",
+          "mode": "order",
+          "prompt": "Luyện hết thời gian có.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "時間がある"
+            },
+            {
+              "id": "1",
+              "text": "だけ"
+            },
+            {
+              "id": "2",
+              "text": "練習"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ だけ",
+          "answers": [
+            "時間があるだけ練習したのだ。"
+          ],
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần. ★ là だけ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-order-04",
+          "mode": "order",
+          "prompt": "Ăn thỏa thích.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "食べたい"
+            },
+            {
+              "id": "1",
+              "text": "だけ"
+            },
+            {
+              "id": "2",
+              "text": "食べて"
+            },
+            {
+              "id": "3",
+              "text": "いい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ だけ",
+          "answers": [
+            "食べたいだけ食べていい。"
+          ],
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần. ★ là だけ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-order-05",
+          "mode": "order",
+          "prompt": "Mang hết mức mang được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "持てる"
+            },
+            {
+              "id": "1",
+              "text": "だけ"
+            },
+            {
+              "id": "2",
+              "text": "本を"
+            },
+            {
+              "id": "3",
+              "text": "持った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ だけ",
+          "answers": [
+            "持てるだけ本を持った。"
+          ],
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần. ★ là だけ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-order-06",
+          "mode": "order",
+          "prompt": "Giúp hết mức có thể.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "できる"
+            },
+            {
+              "id": "1",
+              "text": "だけ"
+            },
+            {
+              "id": "2",
+              "text": "サポート"
+            },
+            {
+              "id": "3",
+              "text": "します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ だけ",
+          "answers": [
+            "できるだけサポートします。"
+          ],
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần. ★ là だけ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-order-07",
+          "mode": "order",
+          "prompt": "Hỏi hết những gì muốn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "聞きたい"
+            },
+            {
+              "id": "1",
+              "text": "だけ"
+            },
+            {
+              "id": "2",
+              "text": "質問して"
+            },
+            {
+              "id": "3",
+              "text": "ください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ だけ",
+          "answers": [
+            "聞きたいだけ質問してください。"
+          ],
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần. ★ là だけ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-order-08",
+          "mode": "order",
+          "prompt": "Nghỉ đủ mức cần.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "必要な"
+            },
+            {
+              "id": "1",
+              "text": "だけ"
+            },
+            {
+              "id": "2",
+              "text": "休んで"
+            },
+            {
+              "id": "3",
+              "text": "ください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ だけ",
+          "answers": [
+            "必要なだけ休んでください。"
+          ],
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần. ★ là だけ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-order-09",
+          "mode": "order",
+          "prompt": "Nói hết mức nói được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "言える"
+            },
+            {
+              "id": "1",
+              "text": "だけ"
+            },
+            {
+              "id": "2",
+              "text": "意見を"
+            },
+            {
+              "id": "3",
+              "text": "述べた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ だけ",
+          "answers": [
+            "言えるだけ意見を述べた。"
+          ],
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần. ★ là だけ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l04-g06-order-10",
+          "mode": "order",
+          "prompt": "Chọn thỏa thích.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "欲しい"
+            },
+            {
+              "id": "1",
+              "text": "だけ"
+            },
+            {
+              "id": "2",
+              "text": "選んで"
+            },
+            {
+              "id": "3",
+              "text": "かまわない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ だけ",
+          "answers": [
+            "欲しいだけ選んでかまわない。"
+          ],
+          "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần. ★ là だけ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+        }
+      ]
+    }
+  ]
+}

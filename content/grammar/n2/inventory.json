@@ -166,8 +166,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-saichuu-ni-saichuu-da-dang-luc-ngay-trong-luc-dung-luc-vao/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 2課-1. TNĐG N3-tagged article covers 最中に／最中だ (N2-MAP-002 L2–5). Canonical titles from 3A Network TOC."
     },
     {
@@ -186,8 +186,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-uchini-trong-luc-trong-khi/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 2課-2. TNĐG covers both restriction and simultaneous うちに senses (N2-MAP-002 L2–5)."
     },
     {
@@ -208,8 +208,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-ippou-de-ippou-da-ngay-cang/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen merges ばかりだ and 一方だ; two TNĐG articles → one group. ippou article also covers 一方で (related) (N2-MAP-002 L2–5)."
     },
     {
@@ -229,8 +229,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-youtosuru-sap-dinh-tinh-dang-co/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 2課-4. TNĐG article covers ようとする／よとしている／ようとした (N2-MAP-002 L2–5)."
     },
     {
@@ -249,8 +249,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-tsutsu-aru-dan-dan-ngay-cang/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 2課-5 (N2-MAP-002 L2–5)."
     },
     {
@@ -269,8 +269,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-tsutsu-vua-vua-trong-luc-trong-khi-van/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 2課-6 (ながら-like). Not つつも — separate TNĐG article unused here (N2-MAP-002 L2–5)."
     },
     {
@@ -289,8 +289,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-tehajimete-ke-tu-khi-bat-dau/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 3課-1 (N2-MAP-002 L2–5)."
     },
     {
@@ -311,8 +311,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-ue-de-khi-trong-qua-trinh/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 3課-2 one group; TNĐG splits ‘after’ vs ‘in the process’ senses → both URLs (N2-MAP-002 L2–5)."
     },
     {
@@ -331,8 +331,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-shidai-ngay-sau-khi-thi/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 3課-3 ‘as soon as’. Other TNĐG 次第だ／次第では articles reserved for later lessons (N2-MAP-002 L2–5)."
     },
     {
@@ -353,8 +353,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-tekonokata-ke-tu-khi-thi-ke-tu-sau-khi-thi/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen merges て以来 and てこのかた; two TNĐG articles (N2-MAP-002 L2–5)."
     },
     {
@@ -374,8 +374,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-te-kara-denai-to-te-kara-denakereba-neu-khong-thi-se-chi/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 3課-5 (N2-MAP-002 L2–5)."
     },
     {
@@ -395,8 +395,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-o-hajime-hajime-toshite-tieu-bieu-nhu-la-truoc-tien-la-truoc-het-la/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 4課-1 (N2-MAP-002 L2–5)."
     },
     {
@@ -415,8 +415,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-kara-shite-ngay-ca-ngay-tu-xet-tu-goc-do-xet-ve-mat/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 4課-2. Related TNĐG からすると／からすれば article not mapped here (N2-MAP-002 L2–5)."
     },
     {
@@ -437,8 +437,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-ni-watatte-ni-watari-suot-khap-trai-suot-trai-dai/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 4課-3. TNĐG article listed under N3 series index; covers N2 usage (N2-MAP-002 L2–5)."
     },
     {
@@ -458,8 +458,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-wotsuujite-tooshite-thong-qua-trong-suot/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 4課-4 (N2-MAP-002 L2–5)."
     },
     {
@@ -478,8 +478,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-kagiri-trong-pham-vi-la-trong-khi-con-la-voi-dieu-kien-la-theo-nhu-toi-thi/"
       ],
       "matchStatus": "partial-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 4課-5 general 限り. More specific 限り variants also appear in 5課; TNĐG general article used here (N2-MAP-002 L2–5)."
     },
     {
@@ -498,8 +498,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-dake-het-muc-co-the-cho-thoa-thich/"
       ],
       "matchStatus": "partial-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 4課-6 (extent/as much as). Other だけ TNĐG articles (だけに, だけあって, …) for later lessons (N2-MAP-002 L2–5)."
     },
     {
@@ -518,8 +518,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-nikagiru-nikagiri-nikagitte-chi-chi-danh-cho-chi-rieng-chi-gioi-han-trong/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 5課-1. TNĐG combined article also mentions に限って (see l05-g04) (N2-MAP-002 L2–5)."
     },
     {
@@ -539,8 +539,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-kagiri-wa-chung-nao-ma/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 5課-2 (N2-MAP-002 L2–5)."
     },
     {
@@ -559,8 +559,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-kagiri-de-wa-trong-pham-vi-theo-nhu-toi/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 5課-3 (N2-MAP-002 L2–5)."
     },
     {
@@ -580,8 +580,8 @@
         "https://www.tiengnhatdongian.com/ngu-phap-n2-nikagiru-nikagiri-nikagitte-chi-chi-danh-cho-chi-rieng-chi-gioi-han-trong/"
       ],
       "matchStatus": "full-match",
-      "contentStatus": "not-imported",
-      "reviewStatus": "pending",
+      "contentStatus": "imported",
+      "reviewStatus": "agent_reviewed",
       "notes": "Shinkanzen 5課-4. Dedicated に限って article + combined に限り／に限って article (N2-MAP-002 L2–5)."
     },
     {

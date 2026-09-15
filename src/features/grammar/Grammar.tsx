@@ -128,6 +128,8 @@ export function GrammarCourse() {
 type LessonData = {
   id: string;
   titleJa: string;
+  title: string;
+  number: number;
   provenance: string;
   patterns: PatternSummary[];
 };
@@ -149,10 +151,12 @@ export function GrammarLesson() {
       <Link className="back-link" to="/grammar/n2">
         ← Khóa ngữ pháp N2
       </Link>
-      <div className="grammar-eyebrow">BÀI 01 · THỜI ĐIỂM</div>
+      <div className="grammar-eyebrow">
+        BÀI {String(data.number).padStart(2, "0")} · {data.title.toLocaleUpperCase("vi-VN")}
+      </div>
       <PageHead
-        title="Vừa mới… thì đã…"
-        description="Năm cách diễn tả thời điểm, năm sắc thái khác nhau."
+        title={data.title}
+        description={`${data.patterns.length} nhóm ngữ pháp trong bài này — học lý thuyết rồi luyện 30 câu mỗi mẫu.`}
       />
       <div className="grammar-lesson-banner">
         <BookOpen />
@@ -735,7 +739,9 @@ export function GrammarExercises() {
       <Link className="back-link" to={"/grammar/n2/patterns/" + patternId}>
         ← Quay lại mẫu ngữ pháp
       </Link>
-      <div className="grammar-eyebrow">BÀI 01 · THỰC HÀNH</div>
+      <div className="grammar-eyebrow">
+        BÀI {String(detail.data.lessonNumber).padStart(2, "0")} · THỰC HÀNH
+      </div>
       <PageHead title={detail.data.title} description={detail.data.meaning} />
       <div className="grammar-exercise-progress">
         <span>

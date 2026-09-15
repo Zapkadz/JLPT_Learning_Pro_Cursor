@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-16 (N2-E2E-001 PR #7)
+2026-09-16 (N2-L02-BATCH on `feat/n2-l02-batch`)
 
 ## Project
 
@@ -11,67 +11,70 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/fix-app-spec-e2e` (from `main` @ `bcc1f4c` — Merge PR #6 TEST-001)
+`feat/n2-l02-batch` (from `main` @ `da945b3` — Merge PR #7)
 
 ## Latest Relevant Commit
 
-`main` / `origin/main`: `bcc1f4c` — Merge PR #6 (N2-TEST-001).  
-This branch: `5ce2bde` — test: fix legacy app.spec quiz submit under Playwright.  
-PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/7
+`main` / `origin/main`: `da945b3` — Merge PR #7 (N2-E2E-001).  
+This branch: L02-BATCH content (uncommitted until user asks).
 
 ## Current Objective
 
-**N2-E2E-001** complete (verified). Awaiting merge of PR #7. Next: user chooses **N2-L02-BATCH** (needs approval) or **N2-L01-FURI-001** (needs decision).
+**N2-L02-BATCH** complete (verified). Await commit/PR. Next: **N2-L06-BATCH** (needs approval) or **N2-L01-FURI-001** (needs decision).
 
 ## Current Phase
 
-**Phase 1** — Lesson 1 quality gate + e2e regression **DONE** (in PR). Content still Lesson 1 only.
+**Phase 1+** — Lessons 1–5 published. Content still not full course (L6–26 unpublished).
 
 ## Current Task
 
-**N2-E2E-001** — **DONE**. PR #7 open.
+**N2-L02-BATCH** — **DONE**. Await commit/push/PR.
 
 ## Last Completed Work
 
-- PR #6 (TEST-001) merged to `main`.  
-- Fixed `tests/app.spec.ts` quiz submit / confirm modal flow.  
-- Full `npm run test:e2e` **2/2 pass**.  
-- Commit `5ce2bde` pushed; PR #7 opened.
+- PR #7 merged.  
+- Published `lesson-02`…`lesson-05` (21 groups / 630 exercises, rev 1, `agent_reviewed`).  
+- Manifest published L2–5; inventory `imported` for those 21 IDs.  
+- Lesson API returns `number`/`title`; Grammar UI no longer hard-codes Bài 01 eyebrow.  
+- Generators under `scripts/` (+ `fix-overlaps.mjs`).  
+- Verification: `npm test` **15/15**.
 
 ## Current State
 
-- 141/141 inventory mapped.  
-- Published content: Lesson 1 only (rev 5).  
+- Published lessons: **5** (L1–L5).  
+- Published groups: **26** / target 141.  
+- Published exercises: **780** / target 4230.  
 - Furigana JA→VI practice policy still open.
 
 ## Verification State
 
 | Check | State |
 |-------|--------|
-| `npm run test:e2e` | **PASS** 2/2 |
-| Lesson revision | **5** |
+| `npm test` | **PASS** 15/15 |
+| L1 revision | **5** |
+| L2–5 revision | **1** |
 
 ## Known Blockers
 
 - Furigana JA→VI (**N2-L01-FURI-001**) needs product decision.  
-- **N2-L02-BATCH** requires explicit user approval before lesson JSON import.
+- **N2-L06-BATCH** requires explicit approval before more lesson JSON.
 
 ## Exact Next Action
 
-1. Merge PR #7 (`feat/fix-app-spec-e2e`).  
-2. Then user chooses **N2-L02-BATCH** (approval) vs **N2-L01-FURI-001** (decision).  
-3. Do **not** import Lessons 2–26 JSON until approved.
+1. Commit (+ push/PR) `feat/n2-l02-batch` when user asks.  
+2. After merge: user chooses **N2-L06-BATCH** vs **N2-L01-FURI-001**.  
+3. Do **not** import Lessons 6–26 until approved.
 
 ## Files To Read Before Continuing
 
-1. `tests/app.spec.ts`  
-2. `docs/PLAN.md`  
-3. Master Requirement §71 if starting L02  
-4. Furigana sections if starting FURI
+1. `content/grammar/n2/lesson-02.json` (sample)  
+2. `scripts/gen-n2-l02-batch.mjs`  
+3. `tests/grammar/grammar.test.ts`  
+4. Master §71 if starting L06
 
 ## Safety Notes
 
-- Do not remap L1 pattern IDs.  
+- Do not remap L1 pattern IDs (`sai`, …).  
 - Do not hard-code 151→141.  
-- Do not import L2–26 content without approval.  
+- Do not treat 4230 as completed.  
 - Commit only when user asks.

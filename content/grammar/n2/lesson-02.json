@@ -1,0 +1,4461 @@
+{
+  "id": "lesson-02",
+  "titleJa": "〜している・進行中",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF trang 25 (trang in 12). Ví dụ học và câu luyện do trợ lý biên soạn (N2-L02-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập. Nguồn TNĐG gắn theo inventory.",
+  "patterns": [
+    {
+      "id": "l02-g01",
+      "title": "〜最中だ",
+      "meaning": "Đang ngay giữa lúc; đúng lúc đang làm / đang xảy ra",
+      "variants": [
+        "最中に",
+        "最中だ"
+      ],
+      "structures": [
+        "Nの ＋ 最中（だ／に）",
+        "Vている ＋ 最中（だ／に）"
+      ],
+      "explanation": "Nêu thời điểm đang ở giữa một hành động hoặc sự kiện. Thường mang sắc thái đang bận hoặc đang trong lúc đó.",
+      "usage": "Tin tức, tường thuật, xin lỗi vì đang bận; nhấn mạnh 'đúng giữa lúc'.",
+      "cautions": [
+        "Không dùng cho trạng thái tĩnh kéo dài không có cảm giác 'đang giữa'.",
+        "最中だ kết thúc câu; 最中に nối hành động khác xảy ra lúc đó."
+      ],
+      "contrast": "最中だ nhấn 'đúng giữa lúc đang diễn ra', mạnh hơn ている thông thường. Khác うちに (tranh thủ / trong khi còn).",
+      "examples": [
+        {
+          "ja": "会議の最中に携帯電話が鳴ってしまった。",
+          "reading": "かいぎのさいちゅうにけいたいでんわがなってしまった。",
+          "vi": "Đúng giữa cuộc họp, điện thoại di động đã reo lên.",
+          "ruby": [
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "携帯",
+              "reading": "けいたい"
+            },
+            {
+              "text": "電話",
+              "reading": "でんわ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "鳴",
+              "reading": "な"
+            },
+            {
+              "text": "ってしまった。"
+            }
+          ]
+        },
+        {
+          "ja": "料理をしている最中だ。",
+          "reading": "りょうりをしているさいちゅうだ。",
+          "vi": "Tôi đang giữa lúc nấu ăn.",
+          "ruby": [
+            {
+              "text": "料理",
+              "reading": "りょうり"
+            },
+            {
+              "text": "をしている"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "試験の最中は静かにしてください。",
+          "reading": "しけんのさいちゅうはしずかにしてください。",
+          "vi": "Trong lúc đang thi, xin hãy giữ yên lặng.",
+          "ruby": [
+            {
+              "text": "試験",
+              "reading": "しけん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "静",
+              "reading": "しず"
+            },
+            {
+              "text": "かにしてください。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 25,
+        "printedPage": 12,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-saichuu-ni-saichuu-da-dang-luc-ngay-trong-luc-dung-luc-vao/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l02-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Đúng giữa buổi thuyết trình, điện bị cắt.",
+          "answers": [
+            "発表の最中に停電した。"
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tôi đang giữa lúc viết báo cáo.",
+          "answers": [
+            "報告書を書いている最中だ。"
+          ],
+          "hint": "Vている ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Xin lỗi, tôi đang giữa cuộc họp.",
+          "answers": [
+            "すみません、会議の最中です。"
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đúng giữa trận đấu, trời đổ mưa.",
+          "answers": [
+            "試合の最中に雨が降ってきた。"
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đừng gọi điện khi đang giữa giờ học.",
+          "answers": [
+            "授業の最中に電話をかけないでください。"
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Tôi đang giữa lúc nói chuyện với khách.",
+          "answers": [
+            "客と話している最中だ。"
+          ],
+          "hint": "Vている ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Đúng giữa lúc đang xem phim, chuông cửa reo.",
+          "answers": [
+            "映画を見ている最中にドアのベルが鳴った。"
+          ],
+          "hint": "Vている ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Trong lúc đang kiểm tra, hãy giữ trật tự.",
+          "answers": [
+            "点検の最中は秩序を保ってください。"
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Tôi đang giữa lúc chuẩn bị tài liệu.",
+          "answers": [
+            "資料を準備している最中です。"
+          ],
+          "hint": "Vている ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Đúng giữa chuyến đi, xe buýt bị hỏng.",
+          "answers": [
+            "旅行の最中にバスが故障した。"
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "食事の最中に電話がかかってきた。",
+          "answers": [
+            "Đúng giữa bữa ăn, điện thoại reo."
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "彼は今、作業の最中だ。",
+          "answers": [
+            "Anh ấy hiện đang giữa lúc làm việc."
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "討論している最中に意見が対立した。",
+          "answers": [
+            "Đúng giữa lúc thảo luận, ý kiến đối lập nhau."
+          ],
+          "hint": "Vている ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "撮影の最中は動かないでください。",
+          "answers": [
+            "Trong lúc đang quay, xin đừng cử động."
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "面接の最中に緊張してしまった。",
+          "answers": [
+            "Đúng giữa buổi phỏng vấn, tôi đã căng thẳng."
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "今は引っ越しの最中です。",
+          "answers": [
+            "Hiện tôi đang giữa lúc chuyển nhà."
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "運転している最中に眠くなった。",
+          "answers": [
+            "Đúng lúc đang lái xe, tôi buồn ngủ."
+          ],
+          "hint": "Vている ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "式の最中に子供が泣き出した。",
+          "answers": [
+            "Đúng giữa buổi lễ, đứa trẻ khóc."
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "修理している最中だから、触れないで。",
+          "answers": [
+            "Vì đang giữa lúc sửa, đừng chạm vào."
+          ],
+          "hint": "Vている ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "試合の最中は応援を続けよう。",
+          "answers": [
+            "Hãy tiếp tục cổ vũ trong suốt trận đấu."
+          ],
+          "hint": "Nの ＋ 最中（だ／に）",
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-order-01",
+          "mode": "order",
+          "prompt": "Đúng giữa cuộc họp, chuông báo cháy reo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議の"
+            },
+            {
+              "id": "1",
+              "text": "最中に"
+            },
+            {
+              "id": "2",
+              "text": "火災報知器が"
+            },
+            {
+              "id": "3",
+              "text": "鳴った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Nの ＋ 最中（だ／に）",
+          "answers": [
+            "会議の最中に火災報知器が鳴った。"
+          ],
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo. Ghép bốn mảnh; ★ là mảnh chứa 最中.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-order-02",
+          "mode": "order",
+          "prompt": "Tôi đang giữa lúc học từ vựng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今は"
+            },
+            {
+              "id": "1",
+              "text": "単語を"
+            },
+            {
+              "id": "2",
+              "text": "覚えている"
+            },
+            {
+              "id": "3",
+              "text": "最中だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 3,
+          "hint": "Vている ＋ 最中（だ／に）",
+          "answers": [
+            "今は単語を覚えている最中だ。"
+          ],
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo. ★ là 最中だ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-order-03",
+          "mode": "order",
+          "prompt": "Trong lúc đang phẫu thuật, hãy tắt điện thoại.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "手術の"
+            },
+            {
+              "id": "1",
+              "text": "最中は"
+            },
+            {
+              "id": "2",
+              "text": "携帯電話を"
+            },
+            {
+              "id": "3",
+              "text": "切ってください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Nの ＋ 最中（だ／に）",
+          "answers": [
+            "手術の最中は携帯電話を切ってください。"
+          ],
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo. ★ là 最中は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-order-04",
+          "mode": "order",
+          "prompt": "Đúng lúc đang chạy, tôi bị ngã.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "走っている"
+            },
+            {
+              "id": "1",
+              "text": "最中に"
+            },
+            {
+              "id": "2",
+              "text": "転んで"
+            },
+            {
+              "id": "3",
+              "text": "しまった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vている ＋ 最中（だ／に）",
+          "answers": [
+            "走っている最中に転んでしまった。"
+          ],
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo. ★ là 最中に.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-order-05",
+          "mode": "order",
+          "prompt": "Xin lỗi vì gọi giữa lúc anh ấy đang ngủ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼が"
+            },
+            {
+              "id": "1",
+              "text": "寝ている"
+            },
+            {
+              "id": "2",
+              "text": "最中に"
+            },
+            {
+              "id": "3",
+              "text": "電話してしまった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vている ＋ 最中（だ／に）",
+          "answers": [
+            "彼が寝ている最中に電話してしまった。"
+          ],
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo. ★ là 最中に.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-order-06",
+          "mode": "order",
+          "prompt": "Giữa trận bóng, trọng tài thổi còi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "サッカーの"
+            },
+            {
+              "id": "1",
+              "text": "最中に"
+            },
+            {
+              "id": "2",
+              "text": "審判が"
+            },
+            {
+              "id": "3",
+              "text": "笛を吹いた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Nの ＋ 最中（だ／に）",
+          "answers": [
+            "サッカーの最中に審判が笛を吹いた。"
+          ],
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo. ★ là 最中に.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-order-07",
+          "mode": "order",
+          "prompt": "Tôi đang giữa lúc dọn phòng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "部屋を"
+            },
+            {
+              "id": "1",
+              "text": "片付けている"
+            },
+            {
+              "id": "2",
+              "text": "最中です"
+            },
+            {
+              "id": "3",
+              "text": "から。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vている ＋ 最中（だ／に）",
+          "answers": [
+            "部屋を片付けている最中ですから。"
+          ],
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo. ★ là 最中です.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-order-08",
+          "mode": "order",
+          "prompt": "Trong lúc hội nghị, máy ảnh bị cấm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議の"
+            },
+            {
+              "id": "1",
+              "text": "最中は"
+            },
+            {
+              "id": "2",
+              "text": "カメラが"
+            },
+            {
+              "id": "3",
+              "text": "使用禁止です。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Nの ＋ 最中（だ／に）",
+          "answers": [
+            "会議の最中はカメラが使用禁止です。"
+          ],
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo. ★ là 最中は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-order-09",
+          "mode": "order",
+          "prompt": "Đúng giữa lúc đang nấu, chuông reo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "料理を"
+            },
+            {
+              "id": "1",
+              "text": "している"
+            },
+            {
+              "id": "2",
+              "text": "最中に"
+            },
+            {
+              "id": "3",
+              "text": "ベルが鳴った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vている ＋ 最中（だ／に）",
+          "answers": [
+            "料理をしている最中にベルが鳴った。"
+          ],
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo. ★ là 最中に.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g01-order-10",
+          "mode": "order",
+          "prompt": "Đừng làm ồn giữa giờ kiểm tra.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "テストの"
+            },
+            {
+              "id": "1",
+              "text": "最中に"
+            },
+            {
+              "id": "2",
+              "text": "騒がないで"
+            },
+            {
+              "id": "3",
+              "text": "ください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Nの ＋ 最中（だ／に）",
+          "answers": [
+            "テストの最中に騒がないでください。"
+          ],
+          "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo. ★ là 最中に.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l02-g02",
+      "title": "〜うちに",
+      "meaning": "Trong lúc còn… / tranh thủ khi còn…; trong khi…",
+      "variants": [
+        "うちに"
+      ],
+      "structures": [
+        "Vる／Vない ＋ うちに",
+        "Aい／Nの ＋ うちに"
+      ],
+      "explanation": "Diễn tả làm việc gì trong khoảng thời gian còn đang ở trạng thái đó, hoặc tranh thủ trước khi trạng thái thay đổi.",
+      "usage": "Khuyên tranh thủ (còn trẻ, còn nóng…); hoặc hành động song song trong khoảng thời gian.",
+      "cautions": [
+        "Phân biệt với 間に: うちに hay nhấn 'trước khi thay đổi / tranh thủ'.",
+        "Với nghĩa tranh thủ, thường đi với trạng thái sẽ mất đi."
+      ],
+      "contrast": "うちに (tranh thủ) khác 最中 (đúng giữa lúc). Cũng khác までに (hạn chót hoàn thành).",
+      "examples": [
+        {
+          "ja": "若いうちにいろいろな経験をしておきたい。",
+          "reading": "わかいうちにいろいろなけいけんをしておきたい。",
+          "vi": "Tôi muốn trải nghiệm nhiều thứ khi còn trẻ.",
+          "ruby": [
+            {
+              "text": "若",
+              "reading": "わか"
+            },
+            {
+              "text": "いうちに"
+            },
+            {
+              "text": "いろいろな"
+            },
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "をしておきたい。"
+            }
+          ]
+        },
+        {
+          "ja": "忘れないうちにメモしておこう。",
+          "reading": "わすれないうちにめもしておこう。",
+          "vi": "Hãy ghi chú trước khi quên.",
+          "ruby": [
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れないうちに"
+            },
+            {
+              "text": "メモしておこう。"
+            }
+          ]
+        },
+        {
+          "ja": "暖かくないうちにコートを着なさい。",
+          "reading": "あたたかくないうちにこーとをきなさい。",
+          "vi": "Hãy mặc áo khoác trước khi trời chưa ấm (còn lạnh).",
+          "ruby": [
+            {
+              "text": "暖",
+              "reading": "あたた"
+            },
+            {
+              "text": "かくないうちに"
+            },
+            {
+              "text": "コートを"
+            },
+            {
+              "text": "着",
+              "reading": "き"
+            },
+            {
+              "text": "なさい。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 25,
+        "printedPage": 12,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-uchini-trong-luc-trong-khi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l02-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Hãy ăn khi còn nóng.",
+          "answers": [
+            "熱いうちに食べてください。"
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tôi muốn đi du lịch khi còn độc thân.",
+          "answers": [
+            "独身のうちに旅行しておきたい。"
+          ],
+          "hint": "Nの ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Gọi điện trước khi anh ấy về nhà.",
+          "answers": [
+            "彼が帰らないうちに電話しよう。"
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Hãy quyết định khi còn thời gian.",
+          "answers": [
+            "時間があるうちに決めましょう。"
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Tôi học thêm khi còn nhớ bài.",
+          "answers": [
+            "覚えているうちに復習する。"
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Ra ngoài chơi khi trời còn sáng.",
+          "answers": [
+            "明るいうちに外で遊ぼう。"
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Hãy gửi thư trước khi quên địa chỉ.",
+          "answers": [
+            "住所を忘れないうちに手紙を出そう。"
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tôi muốn đọc nhiều sách khi còn là sinh viên.",
+          "answers": [
+            "学生のうちに本をたくさん読みたい。"
+          ],
+          "hint": "Nの ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Hãy sửa lỗi khi còn sớm.",
+          "answers": [
+            "早いうちに間違いを直してください。"
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Tranh thủ lúc mưa chưa to, hãy về nhà.",
+          "answers": [
+            "雨がひどくならないうちに帰りましょう。"
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "冷めないうちにどうぞ召し上がってください。",
+          "answers": [
+            "Xin mời dùng khi còn chưa nguội."
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "元気なうちに運動を続けたい。",
+          "answers": [
+            "Tôi muốn tiếp tục tập thể dục khi còn khỏe."
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "暗くならないうちに買い物を済ませよう。",
+          "answers": [
+            "Hãy mua sắm xong trước khi trời tối."
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "子供のうちにピアノを習わせた。",
+          "answers": [
+            "Tôi đã cho học piano khi còn nhỏ."
+          ],
+          "hint": "Nの ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "知らないうちに春になっていた。",
+          "answers": [
+            "Không hay biết thì đã sang xuân."
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "働けるうちに貯金しておこう。",
+          "answers": [
+            "Hãy tiết kiệm khi còn làm việc được."
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "忘れないうちに礼状を書きます。",
+          "answers": [
+            "Tôi sẽ viết thư cảm ơn trước khi quên."
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "若いうちにもっと勉強すればよかった。",
+          "answers": [
+            "Giá như tôi học nhiều hơn khi còn trẻ."
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "電車が来ないうちに切符を買おう。",
+          "answers": [
+            "Hãy mua vé trước khi tàu đến."
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "暇なうちに部屋を掃除した。",
+          "answers": [
+            "Tôi đã dọn phòng lúc còn rảnh."
+          ],
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-order-01",
+          "mode": "order",
+          "prompt": "Hãy uống trà khi còn nóng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "熱い"
+            },
+            {
+              "id": "1",
+              "text": "うちに"
+            },
+            {
+              "id": "2",
+              "text": "お茶を"
+            },
+            {
+              "id": "3",
+              "text": "飲んでください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "answers": [
+            "熱いうちにお茶を飲んでください。"
+          ],
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động. ★ là うちに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-order-02",
+          "mode": "order",
+          "prompt": "Ghi lại trước khi quên tên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "名前を"
+            },
+            {
+              "id": "1",
+              "text": "忘れない"
+            },
+            {
+              "id": "2",
+              "text": "うちに"
+            },
+            {
+              "id": "3",
+              "text": "書き留めておこう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "answers": [
+            "名前を忘れないうちに書き留めておこう。"
+          ],
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động. ★ là うちに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-order-03",
+          "mode": "order",
+          "prompt": "Du lịch khi còn trẻ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "若い"
+            },
+            {
+              "id": "1",
+              "text": "うちに"
+            },
+            {
+              "id": "2",
+              "text": "世界を"
+            },
+            {
+              "id": "3",
+              "text": "見ておきたい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "answers": [
+            "若いうちに世界を見ておきたい。"
+          ],
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động. ★ là うちに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-order-04",
+          "mode": "order",
+          "prompt": "Về trước khi mưa to hơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨が"
+            },
+            {
+              "id": "1",
+              "text": "ひどくならない"
+            },
+            {
+              "id": "2",
+              "text": "うちに"
+            },
+            {
+              "id": "3",
+              "text": "帰りたい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "answers": [
+            "雨がひどくならないうちに帰りたい。"
+          ],
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động. ★ là うちに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-order-05",
+          "mode": "order",
+          "prompt": "Đọc sách lúc còn rảnh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "暇な"
+            },
+            {
+              "id": "1",
+              "text": "うちに"
+            },
+            {
+              "id": "2",
+              "text": "この本を"
+            },
+            {
+              "id": "3",
+              "text": "読んでおこう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "answers": [
+            "暇なうちにこの本を読んでおこう。"
+          ],
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động. ★ là うちに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-order-06",
+          "mode": "order",
+          "prompt": "Tập nói khi còn nhớ từ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "単語を"
+            },
+            {
+              "id": "1",
+              "text": "覚えている"
+            },
+            {
+              "id": "2",
+              "text": "うちに"
+            },
+            {
+              "id": "3",
+              "text": "声に出そう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "answers": [
+            "単語を覚えているうちに声に出そう。"
+          ],
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động. ★ là うちに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-order-07",
+          "mode": "order",
+          "prompt": "Gửi mail trước khi hết hạn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "期限が"
+            },
+            {
+              "id": "1",
+              "text": "切れる"
+            },
+            {
+              "id": "2",
+              "text": "うちに"
+            },
+            {
+              "id": "3",
+              "text": "メールを送る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "answers": [
+            "期限が切れるうちにメールを送る。"
+          ],
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động. ★ là うちに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-order-08",
+          "mode": "order",
+          "prompt": "Học khi còn là học sinh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "生徒の"
+            },
+            {
+              "id": "1",
+              "text": "うちに"
+            },
+            {
+              "id": "2",
+              "text": "基礎を"
+            },
+            {
+              "id": "3",
+              "text": "固めておきたい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Nの ＋ うちに",
+          "answers": [
+            "生徒のうちに基礎を固めておきたい。"
+          ],
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động. ★ là うちに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-order-09",
+          "mode": "order",
+          "prompt": "Ra ngoài khi trời còn mát.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "涼しい"
+            },
+            {
+              "id": "1",
+              "text": "うちに"
+            },
+            {
+              "id": "2",
+              "text": "散歩に"
+            },
+            {
+              "id": "3",
+              "text": "出かけよう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "answers": [
+            "涼しいうちに散歩に出かけよう。"
+          ],
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động. ★ là うちに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g02-order-10",
+          "mode": "order",
+          "prompt": "Quyết định trước khi muộn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "遅く"
+            },
+            {
+              "id": "1",
+              "text": "ならない"
+            },
+            {
+              "id": "2",
+              "text": "うちに"
+            },
+            {
+              "id": "3",
+              "text": "結論を出そう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Vない／Aい ＋ うちに",
+          "answers": [
+            "遅くならないうちに結論を出そう。"
+          ],
+          "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động. ★ là うちに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l02-g03",
+      "title": "〜ばかりだ・〜一方だ",
+      "meaning": "Càng lúc càng…; chỉ toàn… (xu hướng một chiều)",
+      "variants": [
+        "ばかりだ",
+        "一方だ"
+      ],
+      "structures": [
+        "Vる ＋ ばかりだ",
+        "Vる ＋ 一方だ"
+      ],
+      "explanation": "ばかりだ và 一方だ đều diễn tả xu hướng tiếp tục theo một hướng (thường tiêu cực hoặc thay đổi rõ). 一方だ cũng dùng trong văn viết/tin tức.",
+      "usage": "Mô tả tình hình xấu đi / tăng giảm một chiều; báo cáo xu hướng.",
+      "cautions": [
+        "Không nhầm với たばかり (vừa mới làm xong).",
+        "一方で (mặt khác) là nghĩa khác — không thuộc nhóm này."
+      ],
+      "contrast": "〜ばかりだ／一方だ = xu hướng một chiều. Khác つつある (đang trong quá trình chuyển biến).",
+      "examples": [
+        {
+          "ja": "物価は上がる一方だ。",
+          "reading": "ぶっかはあがるいっぽうだ。",
+          "vi": "Giá cả chỉ toàn tăng.",
+          "ruby": [
+            {
+              "text": "物価",
+              "reading": "ぶっか"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がる"
+            },
+            {
+              "text": "一方",
+              "reading": "いっぽう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "不満の声は増えるばかりだ。",
+          "reading": "ふまんのこえはふえるばかりだ。",
+          "vi": "Tiếng phàn nàn chỉ ngày càng nhiều.",
+          "ruby": [
+            {
+              "text": "不満",
+              "reading": "ふまん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "声",
+              "reading": "こえ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "えるばかりだ。"
+            }
+          ]
+        },
+        {
+          "ja": "患者の容体は悪化する一方だった。",
+          "reading": "かんじゃのようたいはあっかするいっぽうだった。",
+          "vi": "Tình trạng bệnh nhân chỉ ngày càng xấu.",
+          "ruby": [
+            {
+              "text": "患者",
+              "reading": "かんじゃ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "容体",
+              "reading": "ようたい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "悪化",
+              "reading": "あっか"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "一方",
+              "reading": "いっぽう"
+            },
+            {
+              "text": "だった。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 25,
+        "printedPage": 12,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-bakari-da-ngay-cang-cu-ngay-cang-cu-dan-khong-ngung/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-ippou-de-ippou-da-ngay-cang/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l02-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Chi phí chỉ ngày càng tăng.",
+          "answers": [
+            "費用は増える一方だ。"
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Số học viên chỉ toàn giảm.",
+          "answers": [
+            "受講者は減るばかりだ。"
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Ô nhiễm không khí ngày càng nghiêm trọng.",
+          "answers": [
+            "大気汚染は深刻になる一方だ。"
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Công việc của tôi chỉ càng thêm nhiều.",
+          "answers": [
+            "私の仕事は増えるばかりだ。"
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Khoảng cách giàu nghèo ngày càng lớn.",
+          "answers": [
+            "貧富の差は広がる一方だ。"
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Máy tính chỉ càng chậm hơn.",
+          "answers": [
+            "パソコンは遅くなるばかりだ。"
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nhu cầu nhà ở chỉ toàn tăng.",
+          "answers": [
+            "住宅需要は高まる一方だ。"
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tâm trạng anh ấy chỉ càng xấu.",
+          "answers": [
+            "彼の機嫌は悪くなるばかりだ。"
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Lượng khách du lịch ngày càng tăng.",
+          "answers": [
+            "観光客の数は増える一方だ。"
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nợ công chỉ ngày càng phình to.",
+          "answers": [
+            "借金は膨らむばかりだ。"
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "失業者は増える一方だ。",
+          "answers": [
+            "Số người thất nghiệp chỉ ngày càng tăng."
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "彼の成績は下がるばかりだ。",
+          "answers": [
+            "Thành tích của anh ấy chỉ càng giảm."
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "円安は進む一方だ。",
+          "answers": [
+            "Yên mất giá chỉ càng tiến triển."
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "待ち時間は長くなるばかりだ。",
+          "answers": [
+            "Thời gian chờ chỉ càng dài."
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "高齢化は進む一方である。",
+          "answers": [
+            "Già hóa dân số chỉ ngày càng tiến triển."
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "彼への不信は深まるばかりだ。",
+          "answers": [
+            "Sự bất tín với anh ấy chỉ càng sâu."
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "売上げは落ちる一方だ。",
+          "answers": [
+            "Doanh số chỉ toàn giảm."
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "騒音はひどくなるばかりだ。",
+          "answers": [
+            "Tiếng ồn chỉ càng tệ hơn."
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "要求は厳しくなる一方だ。",
+          "answers": [
+            "Yêu cầu chỉ ngày càng khắt khe."
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "彼の体調は悪化するばかりだった。",
+          "answers": [
+            "Sức khỏe anh ấy chỉ càng xấu đi."
+          ],
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-order-01",
+          "mode": "order",
+          "prompt": "Giá nhà chỉ ngày càng cao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "住宅価格は"
+            },
+            {
+              "id": "1",
+              "text": "上がる"
+            },
+            {
+              "id": "2",
+              "text": "一方"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "answers": [
+            "住宅価格は上がる一方だ。"
+          ],
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi. ★ là 一方.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-order-02",
+          "mode": "order",
+          "prompt": "Nợ chỉ càng tăng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "借金は"
+            },
+            {
+              "id": "1",
+              "text": "増える"
+            },
+            {
+              "id": "2",
+              "text": "ばかり"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "answers": [
+            "借金は増えるばかりだ。"
+          ],
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi. ★ là ばかり.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-order-03",
+          "mode": "order",
+          "prompt": "Ô nhiễm ngày càng nặng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "汚染は"
+            },
+            {
+              "id": "1",
+              "text": "深刻に"
+            },
+            {
+              "id": "2",
+              "text": "なる一方"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "answers": [
+            "汚染は深刻になる一方だ。"
+          ],
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi. ★ là なる一方.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-order-04",
+          "mode": "order",
+          "prompt": "Số lỗi chỉ càng nhiều.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ミスは"
+            },
+            {
+              "id": "1",
+              "text": "増える"
+            },
+            {
+              "id": "2",
+              "text": "ばかり"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "answers": [
+            "ミスは増えるばかりだ。"
+          ],
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi. ★ là ばかり.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-order-05",
+          "mode": "order",
+          "prompt": "Khoảng cách chỉ càng rộng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "格差は"
+            },
+            {
+              "id": "1",
+              "text": "広がる"
+            },
+            {
+              "id": "2",
+              "text": "一方"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "answers": [
+            "格差は広がる一方だ。"
+          ],
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi. ★ là 一方.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-order-06",
+          "mode": "order",
+          "prompt": "Áp lực công việc càng lớn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "仕事の圧は"
+            },
+            {
+              "id": "1",
+              "text": "強まる"
+            },
+            {
+              "id": "2",
+              "text": "一方"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "answers": [
+            "仕事の圧は強まる一方だ。"
+          ],
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi. ★ là 一方.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-order-07",
+          "mode": "order",
+          "prompt": "Lượng rác chỉ càng tăng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ゴミの量は"
+            },
+            {
+              "id": "1",
+              "text": "増える"
+            },
+            {
+              "id": "2",
+              "text": "ばかり"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "answers": [
+            "ゴミの量は増えるばかりだ。"
+          ],
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi. ★ là ばかり.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-order-08",
+          "mode": "order",
+          "prompt": "Chi phí y tế ngày càng cao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "医療費は"
+            },
+            {
+              "id": "1",
+              "text": "上がる"
+            },
+            {
+              "id": "2",
+              "text": "一方"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "answers": [
+            "医療費は上がる一方だ。"
+          ],
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi. ★ là 一方.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-order-09",
+          "mode": "order",
+          "prompt": "Sự bất an chỉ càng lớn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "不安は"
+            },
+            {
+              "id": "1",
+              "text": "大きくなる"
+            },
+            {
+              "id": "2",
+              "text": "ばかり"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "answers": [
+            "不安は大きくなるばかりだ。"
+          ],
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi. ★ là ばかり.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g03-order-10",
+          "mode": "order",
+          "prompt": "Già hóa dân số chỉ tiến triển.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "高齢化は"
+            },
+            {
+              "id": "1",
+              "text": "進む"
+            },
+            {
+              "id": "2",
+              "text": "一方"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる ＋ ばかりだ／一方だ",
+          "answers": [
+            "高齢化は進む一方だ。"
+          ],
+          "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi. ★ là 一方.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l02-g04",
+      "title": "〜（よ）うとしている",
+      "meaning": "Sắp / đang định làm; đang trên đà sắp xảy ra",
+      "variants": [
+        "ようとしている",
+        "うとしている"
+      ],
+      "structures": [
+        "V（よ）うとしている",
+        "V（よ）うとした"
+      ],
+      "explanation": "Diễn tả chủ thể sắp thực hiện hành động, hoặc sự việc sắp xảy ra. ようとした thường là 'định làm thì…'.",
+      "usage": "Kể chuyện, tường thuật khoảnh khắc sắp làm / sắp xảy ra.",
+      "cautions": [
+        "Khác ようとする (ý chí/cố gắng) ở sắc thái; bài này tập trung 'sắp / đang định'.",
+        "Với sự vật vô tri vẫn dùng được (雨が降ろうとしている)."
+      ],
+      "contrast": "（よ）うとしている ≈ sắp xảy ra / đang định. Khác つつある (đang dần chuyển biến).",
+      "examples": [
+        {
+          "ja": "電車が出発しようとしている。",
+          "reading": "でんしゃがしゅっぱつしようとしている。",
+          "vi": "Tàu đang sắp khởi hành.",
+          "ruby": [
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出発",
+              "reading": "しゅっぱつ"
+            },
+            {
+              "text": "しようとしている。"
+            }
+          ]
+        },
+        {
+          "ja": "出かけようとしたとき、雨が降り始めた。",
+          "reading": "でかけようとしたとき、あめがふりはじめた。",
+          "vi": "Đúng lúc tôi định ra ngoài thì trời bắt đầu mưa.",
+          "ruby": [
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "かけようとしたとき、"
+            },
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "降",
+              "reading": "ふ"
+            },
+            {
+              "text": "り始めた。"
+            }
+          ]
+        },
+        {
+          "ja": "夜が明けようとしている。",
+          "reading": "よるがあけようとしている。",
+          "vi": "Đêm đang sắp tàn (trời sắp sáng).",
+          "ruby": [
+            {
+              "text": "夜",
+              "reading": "よる"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "明",
+              "reading": "あ"
+            },
+            {
+              "text": "けようとしている。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 25,
+        "printedPage": 12,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-youtosuru-sap-dinh-tinh-dang-co/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l02-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Máy bay sắp cất cánh.",
+          "answers": [
+            "飛行機が離陸しようとしている。"
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tôi định gọi thì anh ấy đến.",
+          "answers": [
+            "電話をかけようとしたら、彼が来た。"
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Hoa anh đào sắp nở.",
+          "answers": [
+            "桜が咲こうとしている。"
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy sắp khóc.",
+          "answers": [
+            "彼女は泣こうとしている。"
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Tôi định ngồi thì chuông reo.",
+          "answers": [
+            "座ろうとしたとき、ベルが鳴った。"
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Mặt trời sắp lặn.",
+          "answers": [
+            "日が沈もうとしている。"
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy sắp nói điều quan trọng.",
+          "answers": [
+            "彼は重要なことを言おうとしている。"
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tôi định ra ngoài thì có khách.",
+          "answers": [
+            "出かけようとしたら、客が来た。"
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Cửa sổ sắp đóng lại.",
+          "answers": [
+            "窓が閉まろうとしている。"
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Đứa trẻ sắp ngủ.",
+          "answers": [
+            "子供が眠ろうとしている。"
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "バスが出ようとしている。",
+          "answers": [
+            "Xe buýt sắp khởi hành."
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "説明しようとしたが、言葉が出なかった。",
+          "answers": [
+            "Tôi định giải thích nhưng không nói nên lời."
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "雨がやもうとしている。",
+          "answers": [
+            "Mưa sắp tạnh."
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "彼は部屋を出ようとしている。",
+          "answers": [
+            "Anh ấy sắp ra khỏi phòng."
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "寝ようとしたとき、地震があった。",
+          "answers": [
+            "Đúng lúc tôi định ngủ thì có động đất."
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "新しい時代が始まろうとしている。",
+          "answers": [
+            "Một thời đại mới sắp bắt đầu."
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "彼女は真実を話そうとしている。",
+          "answers": [
+            "Cô ấy sắp nói sự thật."
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "ドアを開けようとしたら、鍵がかかっていた。",
+          "answers": [
+            "Tôi định mở cửa thì thấy đang khóa."
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "雪が積もろうとしている。",
+          "answers": [
+            "Tuyết sắp phủ dày."
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "会議が終わろうとしている。",
+          "answers": [
+            "Cuộc họp sắp kết thúc."
+          ],
+          "hint": "V（よ）うとしている／した",
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-order-01",
+          "mode": "order",
+          "prompt": "Tàu sắp đến ga.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "電車が"
+            },
+            {
+              "id": "1",
+              "text": "駅に"
+            },
+            {
+              "id": "2",
+              "text": "着こうと"
+            },
+            {
+              "id": "3",
+              "text": "している。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "V（よ）うとしている／した",
+          "answers": [
+            "電車が駅に着こうとしている。"
+          ],
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động. ★ chứa うと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-order-02",
+          "mode": "order",
+          "prompt": "Tôi định uống nước thì hết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "水を"
+            },
+            {
+              "id": "1",
+              "text": "飲もうと"
+            },
+            {
+              "id": "2",
+              "text": "したら、"
+            },
+            {
+              "id": "3",
+              "text": "なくなっていた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V（よ）うとしている／した",
+          "answers": [
+            "水を飲もうとしたら、なくなっていた。"
+          ],
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động. ★ là 飲もうと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-order-03",
+          "mode": "order",
+          "prompt": "Hoa sắp héo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "花が"
+            },
+            {
+              "id": "1",
+              "text": "いまにも"
+            },
+            {
+              "id": "2",
+              "text": "枯れようと"
+            },
+            {
+              "id": "3",
+              "text": "している。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "V（よ）うとしている／した",
+          "answers": [
+            "花がいまにも枯れようとしている。"
+          ],
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động. ★ là 枯れようと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-order-04",
+          "mode": "order",
+          "prompt": "Anh ấy sắp đứng dậy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼は"
+            },
+            {
+              "id": "1",
+              "text": "席を"
+            },
+            {
+              "id": "2",
+              "text": "立とうと"
+            },
+            {
+              "id": "3",
+              "text": "している。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "V（よ）うとしている／した",
+          "answers": [
+            "彼は席を立とうとしている。"
+          ],
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động. ★ là 立とうと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-order-05",
+          "mode": "order",
+          "prompt": "Tôi định gửi thì quên file.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "送ろうと"
+            },
+            {
+              "id": "1",
+              "text": "したら、"
+            },
+            {
+              "id": "2",
+              "text": "ファイルを"
+            },
+            {
+              "id": "3",
+              "text": "忘れていた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "V（よ）うとしている／した",
+          "answers": [
+            "送ろうとしたら、ファイルを忘れていた。"
+          ],
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động. ★ là 送ろうと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-order-06",
+          "mode": "order",
+          "prompt": "Trời sắp tối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "空が"
+            },
+            {
+              "id": "1",
+              "text": "暗く"
+            },
+            {
+              "id": "2",
+              "text": "なろうと"
+            },
+            {
+              "id": "3",
+              "text": "している。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "V（よ）うとしている／した",
+          "answers": [
+            "空が暗くなろうとしている。"
+          ],
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động. ★ là なろうと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-order-07",
+          "mode": "order",
+          "prompt": "Cô ấy sắp trả lời.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼女は"
+            },
+            {
+              "id": "1",
+              "text": "すぐに"
+            },
+            {
+              "id": "2",
+              "text": "答えようと"
+            },
+            {
+              "id": "3",
+              "text": "している。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "V（よ）うとしている／した",
+          "answers": [
+            "彼女はすぐに答えようとしている。"
+          ],
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động. ★ là 答えようと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-order-08",
+          "mode": "order",
+          "prompt": "Tôi định vào thì cửa đóng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "入ろうと"
+            },
+            {
+              "id": "1",
+              "text": "したら、"
+            },
+            {
+              "id": "2",
+              "text": "ドアが"
+            },
+            {
+              "id": "3",
+              "text": "閉まった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "V（よ）うとしている／した",
+          "answers": [
+            "入ろうとしたら、ドアが閉まった。"
+          ],
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động. ★ là 入ろうと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-order-09",
+          "mode": "order",
+          "prompt": "Lửa sắp tắt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "火が"
+            },
+            {
+              "id": "1",
+              "text": "消えようと"
+            },
+            {
+              "id": "2",
+              "text": "している"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "V（よ）うとしている／した",
+          "answers": [
+            "火が消えようとしているらしい。"
+          ],
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động. ★ là 消えようと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g04-order-10",
+          "mode": "order",
+          "prompt": "Họ sắp ký hợp đồng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼らは"
+            },
+            {
+              "id": "1",
+              "text": "契約に"
+            },
+            {
+              "id": "2",
+              "text": "サインしようと"
+            },
+            {
+              "id": "3",
+              "text": "している。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "V（よ）うとしている／した",
+          "answers": [
+            "彼らは契約にサインしようとしている。"
+          ],
+          "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động. ★ là サインしようと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l02-g05",
+      "title": "〜つつある",
+      "meaning": "Đang dần…; đang trong quá trình chuyển biến",
+      "variants": [
+        "つつある"
+      ],
+      "structures": [
+        "Vます ＋ つつある"
+      ],
+      "explanation": "Diễn tả sự thay đổi đang tiến triển theo hướng nào đó. Thường dùng văn viết, tin tức, báo cáo.",
+      "usage": "Mô tả xu hướng xã hội, tình hình đang chuyển biến.",
+      "cautions": [
+        "Không dùng cho hành động chủ động ngắn (như đang ăn).",
+        "Khác ている: つつある nhấn 'đang chuyển biến'."
+      ],
+      "contrast": "つつある = đang dần thay đổi. Khác （よ）うとしている (sắp xảy ra) và ばかりだ (chỉ toàn theo một hướng, thường tiêu cực).",
+      "examples": [
+        {
+          "ja": "景気は回復しつつある。",
+          "reading": "けいきはかいふくしつつある。",
+          "vi": "Kinh tế đang dần phục hồi.",
+          "ruby": [
+            {
+              "text": "景気",
+              "reading": "けいき"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "回復",
+              "reading": "かいふく"
+            },
+            {
+              "text": "しつつある。"
+            }
+          ]
+        },
+        {
+          "ja": "問題は解決しつつある。",
+          "reading": "もんだいはかいけつしつつある。",
+          "vi": "Vấn đề đang dần được giải quyết.",
+          "ruby": [
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "解決",
+              "reading": "かいけつ"
+            },
+            {
+              "text": "しつつある。"
+            }
+          ]
+        },
+        {
+          "ja": "伝統文化が失われつつある。",
+          "reading": "でんとうぶんかがうしなわれつつある。",
+          "vi": "Văn hóa truyền thống đang dần mất đi.",
+          "ruby": [
+            {
+              "text": "伝統",
+              "reading": "でんとう"
+            },
+            {
+              "text": "文化",
+              "reading": "ぶんか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "失",
+              "reading": "うしな"
+            },
+            {
+              "text": "われつつある。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 25,
+        "printedPage": 12,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-tsutsu-aru-dan-dan-ngay-cang/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l02-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Tình hình đang dần cải thiện.",
+          "answers": [
+            "状況は改善しつつある。"
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Rừng đang dần biến mất.",
+          "answers": [
+            "森は消えつつある。"
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nhận thức về môi trường đang dần cao.",
+          "answers": [
+            "環境への意識は高まりつつある。"
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Xung đột đang dần lắng dịu.",
+          "answers": [
+            "対立は収まりつつある。"
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Công nghệ mới đang dần phổ biến.",
+          "answers": [
+            "新しい技術は広まりつつある。"
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Số ca bệnh đang dần giảm.",
+          "answers": [
+            "患者数は減少しつつある。"
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Thành phố đang dần thay đổi.",
+          "answers": [
+            "街は変わりつつある。"
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Niềm tin đang dần được khôi phục.",
+          "answers": [
+            "信頼は回復しつつある。"
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Loài này đang dần tuyệt chủng.",
+          "answers": [
+            "この種は絶滅しつつある。"
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Quan hệ hai nước đang dần tốt lên.",
+          "answers": [
+            "両国の関係は良くなりつつある。"
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "社会は多様化しつつある。",
+          "answers": [
+            "Xã hội đang dần đa dạng hóa."
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "彼の病状は快方に向かいつつある。",
+          "answers": [
+            "Bệnh tình anh ấy đang dần khá hơn."
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "古い習慣は廃れつつある。",
+          "answers": [
+            "Tập quán cũ đang dần lỗi thời."
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "議論は決着しつつある。",
+          "answers": [
+            "Cuộc thảo luận đang dần ngã ngũ."
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "気候変動の影響が現れつつある。",
+          "answers": [
+            "Ảnh hưởng biến đổi khí hậu đang dần lộ rõ."
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "若者の価値観は変化しつつある。",
+          "answers": [
+            "Giá trị quan của giới trẻ đang dần thay đổi."
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "緊張は和らぎつつある。",
+          "answers": [
+            "Căng thẳng đang dần dịu lại."
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "新しい制度が定着しつつある。",
+          "answers": [
+            "Chế độ mới đang dần ổn định."
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "格差は縮小しつつある。",
+          "answers": [
+            "Khoảng cách đang dần thu hẹp."
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "希望が見えつつある。",
+          "answers": [
+            "Hy vọng đang dần lộ ra."
+          ],
+          "hint": "Vます ＋ つつある",
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-order-01",
+          "mode": "order",
+          "prompt": "Kinh tế đang dần phục hồi. （luyện）",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "景気は"
+            },
+            {
+              "id": "1",
+              "text": "少しずつ"
+            },
+            {
+              "id": "2",
+              "text": "回復し"
+            },
+            {
+              "id": "3",
+              "text": "つつある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 3,
+          "hint": "Vます ＋ つつある",
+          "answers": [
+            "景気は少しずつ回復しつつある。"
+          ],
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức. ★ là つつある.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-order-02",
+          "mode": "order",
+          "prompt": "Rừng đang dần mất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "森林は"
+            },
+            {
+              "id": "1",
+              "text": "急速に"
+            },
+            {
+              "id": "2",
+              "text": "失われ"
+            },
+            {
+              "id": "3",
+              "text": "つつある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 3,
+          "hint": "Vます ＋ つつある",
+          "answers": [
+            "森林は急速に失われつつある。"
+          ],
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức. ★ là つつある.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-order-03",
+          "mode": "order",
+          "prompt": "Nhận thức đang dần cao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "意識は"
+            },
+            {
+              "id": "1",
+              "text": "着実に"
+            },
+            {
+              "id": "2",
+              "text": "高まり"
+            },
+            {
+              "id": "3",
+              "text": "つつある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 3,
+          "hint": "Vます ＋ つつある",
+          "answers": [
+            "意識は着実に高まりつつある。"
+          ],
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức. ★ là つつある.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-order-04",
+          "mode": "order",
+          "prompt": "Vấn đề đang dần giải quyết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "問題は"
+            },
+            {
+              "id": "1",
+              "text": "徐々に"
+            },
+            {
+              "id": "2",
+              "text": "解決し"
+            },
+            {
+              "id": "3",
+              "text": "つつある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 3,
+          "hint": "Vます ＋ つつある",
+          "answers": [
+            "問題は徐々に解決しつつある。"
+          ],
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức. ★ là つつある.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-order-05",
+          "mode": "order",
+          "prompt": "Văn hóa đang dần mai một.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "文化は"
+            },
+            {
+              "id": "1",
+              "text": "静かに"
+            },
+            {
+              "id": "2",
+              "text": "消え"
+            },
+            {
+              "id": "3",
+              "text": "つつある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 3,
+          "hint": "Vます ＋ つつある",
+          "answers": [
+            "文化は静かに消えつつある。"
+          ],
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức. ★ là つつある.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-order-06",
+          "mode": "order",
+          "prompt": "Quan hệ đang dần cải thiện.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "関係は"
+            },
+            {
+              "id": "1",
+              "text": "確実に"
+            },
+            {
+              "id": "2",
+              "text": "改善し"
+            },
+            {
+              "id": "3",
+              "text": "つつある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 3,
+          "hint": "Vます ＋ つつある",
+          "answers": [
+            "関係は確実に改善しつつある。"
+          ],
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức. ★ là つつある.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-order-07",
+          "mode": "order",
+          "prompt": "Số liệu đang dần tăng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "数値は"
+            },
+            {
+              "id": "1",
+              "text": "年々"
+            },
+            {
+              "id": "2",
+              "text": "上昇し"
+            },
+            {
+              "id": "3",
+              "text": "つつある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 3,
+          "hint": "Vます ＋ つつある",
+          "answers": [
+            "数値は年々上昇しつつある。"
+          ],
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức. ★ là つつある.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-order-08",
+          "mode": "order",
+          "prompt": "Thành phố đang dần mở rộng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "都市は"
+            },
+            {
+              "id": "1",
+              "text": "郊外へ"
+            },
+            {
+              "id": "2",
+              "text": "広がり"
+            },
+            {
+              "id": "3",
+              "text": "つつある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 3,
+          "hint": "Vます ＋ つつある",
+          "answers": [
+            "都市は郊外へ広がりつつある。"
+          ],
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức. ★ là つつある.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-order-09",
+          "mode": "order",
+          "prompt": "Niềm tin đang dần trở lại.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "信頼は"
+            },
+            {
+              "id": "1",
+              "text": "ゆっくりと"
+            },
+            {
+              "id": "2",
+              "text": "戻り"
+            },
+            {
+              "id": "3",
+              "text": "つつある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 3,
+          "hint": "Vます ＋ つつある",
+          "answers": [
+            "信頼はゆっくりと戻りつつある。"
+          ],
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức. ★ là つつある.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g05-order-10",
+          "mode": "order",
+          "prompt": "Căng thẳng đang dần giảm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "緊張は"
+            },
+            {
+              "id": "1",
+              "text": "次第に"
+            },
+            {
+              "id": "2",
+              "text": "低下し"
+            },
+            {
+              "id": "3",
+              "text": "つつある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 3,
+          "hint": "Vます ＋ つつある",
+          "answers": [
+            "緊張は次第に低下しつつある。"
+          ],
+          "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức. ★ là つつある.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l02-g06",
+      "title": "〜つつ",
+      "meaning": "Vừa… vừa…; trong khi… (văn viết; gần ながら)",
+      "variants": [
+        "つつ"
+      ],
+      "structures": [
+        "Vます ＋ つつ"
+      ],
+      "explanation": "Nối hai hành động đồng thời hoặc hành động nền. Văn viết trang trọng hơn ながら. Không nhầm với つつある.",
+      "usage": "Văn viết, phát biểu; mô tả vừa làm A vừa làm B, hoặc dù biết vẫn… (khi có sắc thái đối lập nhẹ).",
+      "cautions": [
+        "つつ ≠ つつある (thiếu ある thì không có nghĩa 'đang dần').",
+        "Chủ ngữ thường cùng một người cho hai hành động."
+      ],
+      "contrast": "つつ ≈ ながら (đồng thời). つつある = đang chuyển biến — khác nhóm.",
+      "examples": [
+        {
+          "ja": "彼は働きつつ、夜学に通っている。",
+          "reading": "かれははたらきつつ、やがくにかよっている。",
+          "vi": "Anh ấy vừa làm việc vừa đi học buổi tối.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "働",
+              "reading": "はたら"
+            },
+            {
+              "text": "きつつ、"
+            },
+            {
+              "text": "夜学",
+              "reading": "やがく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "通",
+              "reading": "かよ"
+            },
+            {
+              "text": "っている。"
+            }
+          ]
+        },
+        {
+          "ja": "申し訳ないと思いつつ、断った。",
+          "reading": "もうしわけないと思いつつ、ことわった。",
+          "vi": "Trong khi cảm thấy xin lỗi, tôi vẫn từ chối.",
+          "ruby": [
+            {
+              "text": "申",
+              "reading": "もう"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "訳",
+              "reading": "わけ"
+            },
+            {
+              "text": "ないと思いつつ、"
+            },
+            {
+              "text": "断",
+              "reading": "ことわ"
+            },
+            {
+              "text": "った。"
+            }
+          ]
+        },
+        {
+          "ja": "音楽を聴きつつ作業を進めた。",
+          "reading": "おんがくをききつつさぎょうをすすめた。",
+          "vi": "Tôi vừa nghe nhạc vừa tiến hành công việc.",
+          "ruby": [
+            {
+              "text": "音楽",
+              "reading": "おんがく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聴",
+              "reading": "き"
+            },
+            {
+              "text": "きつつ"
+            },
+            {
+              "text": "作業",
+              "reading": "さぎょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "めた。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 25,
+        "printedPage": 12,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-tsutsu-vua-vua-trong-luc-trong-khi-van/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l02-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Tôi vừa đi vừa suy nghĩ.",
+          "answers": [
+            "歩きつつ考えた。"
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy vừa cười vừa trả lời.",
+          "answers": [
+            "彼は笑いつつ答えた。"
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Tôi vừa tiếc vừa chấp nhận.",
+          "answers": [
+            "残念に思いつつ受け入れた。"
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy vừa làm việc vừa nuôi con.",
+          "answers": [
+            "彼女は働きつつ子供を育てた。"
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Tôi vừa đọc báo vừa uống cà phê.",
+          "answers": [
+            "新聞を読みつつコーヒーを飲んだ。"
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy vừa lo vừa chờ kết quả.",
+          "answers": [
+            "彼は心配しつつ結果を待った。"
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Tôi vừa nghe giải thích vừa ghi chú.",
+          "answers": [
+            "説明を聞きつつメモを取った。"
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Họ vừa thảo luận vừa sửa kế hoạch.",
+          "answers": [
+            "彼らは話し合いつつ計画を修正した。"
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Tôi vừa biết lỗi vừa xin lỗi.",
+          "answers": [
+            "過ちを知りつつ謝罪した。"
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy vừa nhìn đồng hồ vừa nói.",
+          "answers": [
+            "彼女は時計を見つつ話した。"
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼はタバコを吸いつつ話した。",
+          "answers": [
+            "Anh ấy vừa hút thuốc vừa nói chuyện."
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "危険だと知りつつ登山した。",
+          "answers": [
+            "Dù biết nguy hiểm vẫn leo núi."
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "涙を流しつつ手紙を読んだ。",
+          "answers": [
+            "Tôi vừa khóc vừa đọc thư."
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "音楽を楽しみつつ料理した。",
+          "answers": [
+            "Tôi vừa thưởng thức nhạc vừa nấu ăn."
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "彼は躊躇いつつも同意した。",
+          "answers": [
+            "Anh ấy vừa do dự vừa đồng ý."
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "景色を眺めつつ歩いた。",
+          "answers": [
+            "Tôi vừa ngắm cảnh vừa đi bộ."
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "資料を確認しつつ発表した。",
+          "answers": [
+            "Tôi vừa kiểm tra tài liệu vừa thuyết trình."
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "彼女は悩みつつ決断した。",
+          "answers": [
+            "Cô ấy vừa lo lắng vừa quyết định."
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "子どもを見守しつつ仕事をした。",
+          "answers": [
+            "Tôi vừa trông con vừa làm việc."
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "彼は微笑みつつ部屋を出た。",
+          "answers": [
+            "Anh ấy vừa mỉm cười vừa ra khỏi phòng."
+          ],
+          "hint": "Vます ＋ つつ",
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-order-01",
+          "mode": "order",
+          "prompt": "Vừa đi vừa nói chuyện.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "歩き"
+            },
+            {
+              "id": "1",
+              "text": "つつ"
+            },
+            {
+              "id": "2",
+              "text": "話を"
+            },
+            {
+              "id": "3",
+              "text": "続けた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ",
+          "answers": [
+            "歩きつつ話を続けた。"
+          ],
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động. ★ là つつ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-order-02",
+          "mode": "order",
+          "prompt": "Vừa làm vừa học.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "働き"
+            },
+            {
+              "id": "1",
+              "text": "つつ"
+            },
+            {
+              "id": "2",
+              "text": "資格を"
+            },
+            {
+              "id": "3",
+              "text": "取った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ",
+          "answers": [
+            "働きつつ資格を取った。"
+          ],
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động. ★ là つつ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-order-03",
+          "mode": "order",
+          "prompt": "Vừa tiếc vừa từ chối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "残念に"
+            },
+            {
+              "id": "1",
+              "text": "思い"
+            },
+            {
+              "id": "2",
+              "text": "つつ"
+            },
+            {
+              "id": "3",
+              "text": "断った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vます ＋ つつ",
+          "answers": [
+            "残念に思いつつ断った。"
+          ],
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động. ★ là つつ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-order-04",
+          "mode": "order",
+          "prompt": "Vừa nghe vừa ghi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "聞き"
+            },
+            {
+              "id": "1",
+              "text": "つつ"
+            },
+            {
+              "id": "2",
+              "text": "要点を"
+            },
+            {
+              "id": "3",
+              "text": "書き留めた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ",
+          "answers": [
+            "聞きつつ要点を書き留めた。"
+          ],
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động. ★ là つつ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-order-05",
+          "mode": "order",
+          "prompt": "Vừa cười vừa giải thích.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "笑い"
+            },
+            {
+              "id": "1",
+              "text": "つつ"
+            },
+            {
+              "id": "2",
+              "text": "事情を"
+            },
+            {
+              "id": "3",
+              "text": "説明した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ",
+          "answers": [
+            "笑いつつ事情を説明した。"
+          ],
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động. ★ là つつ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-order-06",
+          "mode": "order",
+          "prompt": "Vừa lo vừa chờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "心配し"
+            },
+            {
+              "id": "1",
+              "text": "つつ"
+            },
+            {
+              "id": "2",
+              "text": "連絡を"
+            },
+            {
+              "id": "3",
+              "text": "待った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ",
+          "answers": [
+            "心配しつつ連絡を待った。"
+          ],
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động. ★ là つつ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-order-07",
+          "mode": "order",
+          "prompt": "Vừa đọc vừa dịch.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "原文を"
+            },
+            {
+              "id": "1",
+              "text": "読み"
+            },
+            {
+              "id": "2",
+              "text": "つつ"
+            },
+            {
+              "id": "3",
+              "text": "訳した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vます ＋ つつ",
+          "answers": [
+            "原文を読みつつ訳した。"
+          ],
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động. ★ là つつ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-order-08",
+          "mode": "order",
+          "prompt": "Vừa nhìn bản đồ vừa đi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "地図を"
+            },
+            {
+              "id": "1",
+              "text": "見"
+            },
+            {
+              "id": "2",
+              "text": "つつ"
+            },
+            {
+              "id": "3",
+              "text": "進んだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vます ＋ つつ",
+          "answers": [
+            "地図を見つつ進んだ。"
+          ],
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động. ★ là つつ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-order-09",
+          "mode": "order",
+          "prompt": "Vừa biết vẫn làm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "悪いと"
+            },
+            {
+              "id": "1",
+              "text": "知り"
+            },
+            {
+              "id": "2",
+              "text": "つつ"
+            },
+            {
+              "id": "3",
+              "text": "実行した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vます ＋ つつ",
+          "answers": [
+            "悪いと知りつつ実行した。"
+          ],
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động. ★ là つつ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l02-g06-order-10",
+          "mode": "order",
+          "prompt": "Vừa uống trà vừa nghỉ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "お茶を"
+            },
+            {
+              "id": "1",
+              "text": "飲み"
+            },
+            {
+              "id": "2",
+              "text": "つつ"
+            },
+            {
+              "id": "3",
+              "text": "休憩した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vます ＋ つつ",
+          "answers": [
+            "お茶を飲みつつ休憩した。"
+          ],
+          "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động. ★ là つつ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+        }
+      ]
+    }
+  ]
+}

@@ -15,18 +15,20 @@ This file is the human-readable companion. **Do not rename Lesson 1 production I
 |--------|-------|
 | Lessons | 26 |
 | Canonical groups | **141** |
-| Implemented groups (content in repo) | **5** (Lesson 1 only) |
+| Implemented groups (content in repo) | **26** (Lessons 1–5; L1 = 5 legacy IDs + L2–5 = 21) |
 | TNĐG URL mapped groups | **141** (Lessons 1–26 — N2-MAP-002 **DONE**) |
 | Canonical titles filled (L2–26) | **136** (L2–20 + L22–26 from [3A TOC](https://www.3anet.co.jp/np/books/3602/); L21 from Quizlet/mylittlewordland — 3A site jumps 20→22) |
 | Still unmapped | **0** |
 | Target exercises (not completed) | 4230 |
+| Exercises in published lessons (actual) | **780** (L1 150 + L2–5 630) |
 
 ## ID policy
 
 | Scope | ID format | Status |
 |-------|-----------|--------|
 | Lesson 1 (live) | `sai`, `saishite`, `totan`, `omouto`, `kanai` | **Locked** — used in `lesson-01.json`, DB progress/SRS |
-| Lessons 2–26 | `l02-g01` … `l26-g06` | **Provisional** — titles + TNĐG mapped; content still `not-imported` |
+| Lessons 2–5 | `l02-g01` … `l05-g04` | **Imported** (N2-L02-BATCH); IDs remain provisional |
+| Lessons 6–26 | `l06-g01` … `l26-g06` | **Provisional** — titles + TNĐG mapped; content still `not-imported` |
 
 Renaming any implemented ID requires an approved migration (Master §45).
 
@@ -42,9 +44,9 @@ Renaming any implemented ID requires an approved migration (Master §45).
 
 Two TNĐG articles → one Shinkanzen group for `saishite` is intentional (Master Requirement §4).
 
-## Lessons 2–5 — titles + TNĐG mapped (not imported)
+## Lessons 2–5 — **imported** (N2-L02-BATCH)
 
-Canonical Japanese titles from 3A Network book TOC. IDs remain provisional `lNN-gMM`. Content still `not-imported`.
+Canonical Japanese titles from 3A Network book TOC. IDs remain provisional `lNN-gMM`. Content status: **imported** / `agent_reviewed` (21 groups × 30 = 630 exercises).
 
 ### Lesson 2 — Đang diễn ra · Tiến hành (〜している／進行中)
 
@@ -329,7 +331,7 @@ Full URLs: `content/grammar/n2/inventory.json`.
 
 ## Mapping status (N2-MAP-002)
 
-**DONE:** Lessons 1–26 (**141/141**) — titles + TNĐG `sourceUrls` / `matchStatus`. Content still `not-imported` except Lesson 1.
+**DONE:** Lessons 1–26 (**141/141**) — titles + TNĐG `sourceUrls` / `matchStatus`. Content imported for Lessons **1–5** (26 groups / 780 exercises); L6–26 still `not-imported`.
 
 Do **not** import lesson JSON for L2–26 until content batch tasks (loader gate **N2-ARCH-001** is DONE).
 
