@@ -1,6 +1,6 @@
 # PROGRESS — factual completion log
 
-Last updated: 2026-09-15  
+Last updated: 2026-09-16  
 Rule: **never** write targets as completed counts.
 
 ## Current Status
@@ -19,24 +19,26 @@ Rule: **never** write targets as completed counts.
 - **N2-L01-PROG-001 DONE** (2026-09-15) — progress denominator + XP policy locked (ADR-008); merged PR #5.  
 - **N2-TEST-001 DONE** (2026-09-15/16) — golden validators + grammar Playwright; merged PR #6.  
 - **N2-E2E-001 DONE** (2026-09-16) — legacy `app.spec` fixed; full e2e 2/2; merged PR #7.  
-- **N2-L02-BATCH DONE** (2026-09-16) — Lessons 2–5 published (21×30 = 630 exercises).  
+- **N2-L02-BATCH DONE** (2026-09-16) — Lessons 2–5 published (21×30 = 630 exercises); merged PR #8.  
+- **N2-L06-BATCH DONE** (2026-09-16) — Lessons 6–10 authored/published on `feat/n2-l06-batch` (24×30 = 720); commit/PR pending.  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **AVAILABLE** — `main` @ PR #7; L02-BATCH on `feat/n2-l02-batch`.
+- Git: **AVAILABLE** — `main` @ PR #8 merge (`962a4d6`); work on `feat/n2-l06-batch`.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
-| Metric | TARGET | ACTUAL (re-verified 2026-09-16 after N2-L02-BATCH) |
+| Metric | TARGET | ACTUAL (re-verified 2026-09-16 after N2-L06-BATCH on feature branch) |
 |--------|--------|-----------------------------------------------|
 | Lessons in manifest | 26 | 26 rows in `manifest.json` |
-| Lessons published / learnable | 26 | **5** (`lesson-01`…`lesson-05`) |
-| Canonical groups | 141 | Manifest `sum(groupCount)=141`; **implemented content: 26** |
-| Exercises | 4230 | **780** (L1 150 + L2–5 630) |
+| Lessons published / learnable | 26 | **10** (`lesson-01`…`lesson-10`) on `feat/n2-l06-batch` |
+| Canonical groups | 141 | Manifest `sum(groupCount)=141`; **implemented content: 50** |
+| Exercises | 4230 | **1500** (L1 150 + L2–5 630 + L6–10 720) |
 | Learning examples (published) | richer set | **3 per group** |
 | TNĐG URLs | 141 mapped | **DONE** — 7 partial-match rows (see below) |
 | Independent teacher review | desired | **Not done** (`agent_reviewed` only) |
 
 Lesson 1 pattern IDs: `sai`, `saishite`, `totan`, `omouto`, `kanai` (rev **5**).  
-Lessons 2–5 IDs: `l02-g01`…`l05-g04` (rev **1**).
+Lessons 2–5 IDs: `l02-g01`…`l05-g04` (rev **1**).  
+Lessons 6–10 IDs: `l06-g01`…`l10-g04` (rev **1**).
 
 partial-match: `l04-g05`, `l04-g06`, `l13-g02`, `l13-g05`, `l18-g03`, `l23-g06`, `l26-g02`.
 
@@ -73,6 +75,16 @@ Re-verified against repository (no app code changes):
 - Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
 - Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
 
+### N2-L06-BATCH (2026-09-16) — DONE (uncommitted)
+
+- Authored + published Lessons 6–10: 24 groups × 30 exercises = **720** (plus 3 examples/group).  
+- Files: `lesson-06.json`…`lesson-10.json`; manifest `published: true`; inventory `imported` / `agent_reviewed`.  
+- Generators: `scripts/gen-n2-l06-batch.mjs`, `scripts/n2-batch/lesson06.mjs`…`lesson10.mjs`; `fix-overlaps.mjs` 0 tweaks.  
+- Tests: 10 published lessons / 50 patterns / 1500 exercises; DoD L2–10; inventory L6–10 assertions.  
+- Branch: `feat/n2-l06-batch` — **not committed** (awaiting user).  
+- Verification: `npm test` **15/15 pass**; `npm run build` after inventory type fix.  
+- Note: still `agent_reviewed` only; L11–26 unpublished.
+
 ### N2-L02-BATCH (2026-09-16) — DONE
 
 - Authored + published Lessons 2–5: 21 groups × 30 exercises = **630** (plus 3 examples/group).  
@@ -80,8 +92,8 @@ Re-verified against repository (no app code changes):
 - Generators: `scripts/gen-n2-l02-batch.mjs`, `scripts/n2-batch/*`, `scripts/fix-overlaps.mjs` (dedupe example↔practice).  
 - UI/API: lesson payload includes `number`/`title`; Grammar lesson/exercise eyebrows no longer hard-code Bài 01.  
 - Tests: multi-lesson loader (5 published / 26 patterns); L2–5 golden DoD; course counts 26/780; revisions snapshot 26.  
-- Branch: `feat/n2-l02-batch` (uncommitted until user asks).  
-- Verification: `npm test` **15/15 pass**.  
+- Branch: merged via PR #8 into `main` (`962a4d6`).  
+- Verification: `npm test` **15/15 pass** (on feature branch before merge).  
 - Note: still `agent_reviewed` only — not teacher-verified; target 4230 not complete.
 
 ### N2-E2E-001 (2026-09-16) — DONE
@@ -183,6 +195,7 @@ Re-verified against repository (no app code changes):
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-16 | N2-L06-BATCH Lessons 6–10 publish | **15/15 pass**; build OK | `npm test`; `npm run build` on `feat/n2-l06-batch` |
 | 2026-09-16 | N2-L02-BATCH Lessons 2–5 publish | **15/15 pass** | `npm test` |
 | 2026-09-16 | N2-E2E-001 fix legacy app.spec | **2/2 pass** | `npm run test:e2e` |
 | 2026-09-15 | N2-TEST-001 golden validators + grammar Playwright | **14/14** unit; grammar e2e **1/1** | `npm test`; `playwright test tests/grammar.spec.ts` |
@@ -205,17 +218,17 @@ Re-verified against repository (no app code changes):
 ## Known Incomplete Work
 
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
-- Lessons 6–26 content import (**N2-L06-BATCH**+ — needs approval).  
-- Commit/PR for `feat/n2-l02-batch` (awaiting user ask).
+- Lessons 11–26 content import (**N2-L11-BATCH**+ — needs approval).  
+- N2-L06-BATCH commit / PR — **PR #9 open** (https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/9).
 
 ## Known Issues
 
 - Dual trackers: `docs/grammar-n2/*` (history) vs root PLAN/PROGRESS (active).  
 - UX-CONTRACT cites `server/index.ts` for CRUD; implementation is `server/app.ts`.  
 - `premium-audit.json` stale `projectRoot` path.  
-- L2–5 learning examples may use simplified single-span ruby after overlap fixes in some regenerated paths — structured ruby preferred on re-author.
+- L2–10 learning examples may use simplified single-span ruby after overlap fixes in some regenerated paths — structured ruby preferred on re-author.
 
 ## Blockers
 
 1. Furigana JA→VI policy decision blocks **N2-L01-FURI-001**.  
-2. Explicit approval required before **N2-L06-BATCH** lesson JSON import.
+2. Explicit approval required before **N2-L11-BATCH** lesson JSON import.

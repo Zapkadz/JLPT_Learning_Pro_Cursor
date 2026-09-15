@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-16 (N2-L02-BATCH on `feat/n2-l02-batch`)
+2026-09-16 (N2-L06-BATCH authored on `feat/n2-l06-batch`)
 
 ## Project
 
@@ -11,66 +11,65 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/n2-l02-batch` (from `main` @ `da945b3` — Merge PR #7)
+`feat/n2-l06-batch` (uncommitted) — N2-L06-BATCH Lessons 6–10 content.
 
 ## Latest Relevant Commit
 
-`main` / `origin/main`: `da945b3` — Merge PR #7 (N2-E2E-001).  
-This branch: L02-BATCH content (uncommitted until user asks).
+`feat/n2-l06-batch` @ `4e312c1` — Lessons 6–10.  
+PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/9  
+`main` still at `962a4d6` until merge.
 
 ## Current Objective
 
-**N2-L02-BATCH** complete (verified). Await commit/PR. Next: **N2-L06-BATCH** (needs approval) or **N2-L01-FURI-001** (needs decision).
+**N2-L06-BATCH** — PR #9 open. After merge → **N2-L11-BATCH**.
 
 ## Current Phase
 
-**Phase 1+** — Lessons 1–5 published. Content still not full course (L6–26 unpublished).
+**Phase 1+** — Lessons 1–10 on feature branch / PR. L11–26 unpublished.
 
 ## Current Task
 
-**N2-L02-BATCH** — **DONE**. Await commit/push/PR.
+Await merge of PR #9; then start **N2-L11-BATCH**.
 
 ## Last Completed Work
 
-- PR #7 merged.  
-- Published `lesson-02`…`lesson-05` (21 groups / 630 exercises, rev 1, `agent_reviewed`).  
-- Manifest published L2–5; inventory `imported` for those 21 IDs.  
-- Lesson API returns `number`/`title`; Grammar UI no longer hard-codes Bài 01 eyebrow.  
-- Generators under `scripts/` (+ `fix-overlaps.mjs`).  
-- Verification: `npm test` **15/15**.
+- Authored Lessons 6–10: 24 groups × 30 = **720** exercises (+ 3 examples/group).  
+- Commit `4e312c1`; PR #9 opened.  
+- Tests: 10 lessons / 50 patterns / 1500 exercises; `npm test` 15/15; build OK.
 
 ## Current State
 
-- Published lessons: **5** (L1–L5).  
-- Published groups: **26** / target 141.  
-- Published exercises: **780** / target 4230.  
-- Furigana JA→VI practice policy still open.
+- Published lessons: **10** (L1–L10) on PR branch.  
+- Published groups: **50** / target 141.  
+- Published exercises: **1500** / target 4230.  
+- Furigana JA→VI practice policy still open (**N2-L01-FURI-001**).
 
 ## Verification State
 
 | Check | State |
 |-------|--------|
-| `npm test` | **PASS** 15/15 |
-| L1 revision | **5** |
-| L2–5 revision | **1** |
+| `npm test` | **15/15 pass** |
+| `npm run build` | **OK** |
+| Commit | `4e312c1` |
+| PR | **#9 open** |
 
 ## Known Blockers
 
 - Furigana JA→VI (**N2-L01-FURI-001**) needs product decision.  
-- **N2-L06-BATCH** requires explicit approval before more lesson JSON.
+- L6–10 content still `agent_reviewed` only (not teacher-verified).
 
 ## Exact Next Action
 
-1. Commit (+ push/PR) `feat/n2-l02-batch` when user asks.  
-2. After merge: user chooses **N2-L06-BATCH** vs **N2-L01-FURI-001**.  
-3. Do **not** import Lessons 6–26 until approved.
+1. Merge PR #9 when ready.  
+2. Start **N2-L11-BATCH** (Lessons 11–15) — user-approved.  
+3. Do **not** import Lessons 16–26 until approved. FURI-001 still needs product decision.
 
 ## Files To Read Before Continuing
 
-1. `content/grammar/n2/lesson-02.json` (sample)  
-2. `scripts/gen-n2-l02-batch.mjs`  
-3. `tests/grammar/grammar.test.ts`  
-4. Master §71 if starting L06
+1. `docs/PLAN.md`  
+2. `docs/PROGRESS.md` (N2-L06-BATCH entry)  
+3. `content/grammar/n2/inventory.json` (L11+ still not-imported)  
+4. Furigana sections if starting FURI
 
 ## Safety Notes
 

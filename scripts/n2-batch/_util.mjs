@@ -4,8 +4,8 @@ export function ruby(parts) {
   );
 }
 
-export function buildExercises(groupId, lessonNum, pack) {
-  const note = `Lesson ${lessonNum} authored (N2-L02-BATCH)`;
+export function buildExercises(groupId, lessonNum, pack, batchTag = "N2-L02-BATCH") {
+  const note = `Lesson ${lessonNum} authored (${batchTag})`;
   const out = [];
   for (let i = 0; i < pack.viJa.length; i++) {
     const q = pack.viJa[i];
@@ -56,7 +56,7 @@ export function buildExercises(groupId, lessonNum, pack) {
   return out;
 }
 
-export function makePattern(invGroup, theory, pack, lessonNum) {
+export function makePattern(invGroup, theory, pack, lessonNum, batchTag = "N2-L02-BATCH") {
   return {
     id: invGroup.groupId,
     title: invGroup.canonicalPattern,
@@ -75,6 +75,30 @@ export function makePattern(invGroup, theory, pack, lessonNum) {
     },
     reviewStatus: "agent_reviewed",
     revision: 1,
-    exercises: buildExercises(invGroup.groupId, lessonNum, pack),
+    exercises: buildExercises(invGroup.groupId, lessonNum, pack, batchTag),
+  };
+}
+
+/** Build 10/10/10 pack from VI↔JA pairs + order token rows; keeps examples out of practice via caller. */
+export function packFrom(h, e, viJaPairs, jaViPairs, orders) {
+  return {
+    viJa: viJaPairs.map(([p, a]) => ({ p, a, h, e })),
+    jaVi: jaViPairs.map(([p, a]) => ({ p, a, h, e })),
+    order: orders.map(([p, t, s]) => ({
+      p,
+      t,
+      s,
+      h,
+      e: e + " Ghép bốn mảnh theo đúng cấu trúc.",
+    })),
+  };
+}
+
+export function ex(ja, reading, vi, rubyParts) {
+  return {
+    ja,
+    reading,
+    vi,
+    ruby: ruby(rubyParts || [[ja]]),
   };
 }

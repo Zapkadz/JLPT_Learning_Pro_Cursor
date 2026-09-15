@@ -1,0 +1,3056 @@
+{
+  "id": "lesson-10",
+  "titleJa": "列挙・例示",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 10. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L06-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l10-g01",
+      "title": "〜やら〜やら",
+      "meaning": "Nào là… nào là… (liệt kê lung tung, thường bất ổn)",
+      "variants": [
+        "やらやら"
+      ],
+      "structures": [
+        "N／いA／V ＋ やら ＋ N／いA／V ＋ やら"
+      ],
+      "explanation": "Liệt kê vài thứ đại diện, gợi cảm giác lộn xộn hoặc dồn dập.",
+      "usage": "Kể chuyện, phàn nàn nhẹ: nào A nào B…",
+      "cautions": [
+        "Thường mang sắc thái chủ quan, không liệt kê trang trọng.",
+        "Khác や (liệt kê trung lập)."
+      ],
+      "contrast": "やらやら ≈ nào… nào…. Khác といった (ví dụ như…) và とか.",
+      "examples": [
+        {
+          "ja": "荷物やら書類やらで机がいっぱいだ。",
+          "reading": "にもつやらしょるいやらでつくえがいっぱいだ。",
+          "vi": "Nào đồ đạc nào giấy tờ, bàn đầy ắp.",
+          "ruby": [
+            {
+              "text": "荷物",
+              "reading": "にもつ"
+            },
+            {
+              "text": "やら"
+            },
+            {
+              "text": "書類",
+              "reading": "しょるい"
+            },
+            {
+              "text": "やらで"
+            },
+            {
+              "text": "机",
+              "reading": "つくえ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "いっぱいだ。"
+            }
+          ]
+        },
+        {
+          "ja": "嬉しいやら悲しいやら複雑な気分だ。",
+          "reading": "うれしいやらかなしいやらふくざつなきぶんだ。",
+          "vi": "Nào vui nào buồn, tâm trạng phức tạp.",
+          "ruby": [
+            {
+              "text": "嬉",
+              "reading": "うれ"
+            },
+            {
+              "text": "しいやら"
+            },
+            {
+              "text": "悲",
+              "reading": "かな"
+            },
+            {
+              "text": "しいやら"
+            },
+            {
+              "text": "複雑",
+              "reading": "ふくざつ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "気分",
+              "reading": "きぶん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "来るやら来ないやらはっきりしない。",
+          "reading": "くるやらこないやらはっきりしない。",
+          "vi": "Nào đến nào không, chẳng rõ.",
+          "ruby": [
+            {
+              "text": "来るやら"
+            },
+            {
+              "text": "来ないやら"
+            },
+            {
+              "text": "はっきりしない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 59,
+        "printedPage": 46,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-yara-yara-vua-vua-nao-la-nao-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l10-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nào mưa nào gió, trận đấu bị hủy.",
+          "answers": [
+            "雨やら風やらで試合が中止になった。"
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nào họp nào báo cáo, cả ngày bận.",
+          "answers": [
+            "会議やら報告やらで一日中忙しい。"
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nào vui nào lo, không ngủ được.",
+          "answers": [
+            "楽しいやら心配やらで眠れない。"
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nào sách nào tạp chí, phòng đầy.",
+          "answers": [
+            "本やら雑誌やらで部屋がいっぱいだ。"
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nào trẻ khóc nào điện thoại reo, hỗn loạn.",
+          "answers": [
+            "子供の泣き声やら電話の音やらで騒がしい。"
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nào đói nào mệt, không muốn đi.",
+          "answers": [
+            "空腹やら疲労やらで行きたくない。"
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nào lỗi máy nào mất mạng, công việc dừng.",
+          "answers": [
+            "故障やら通信障害やらで作業が止まった。"
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nào khen nào chê, anh ấy bối rối.",
+          "answers": [
+            "褒め言葉やら批判やらで彼は困惑した。"
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nào vali nào quà, hành lý nặng.",
+          "answers": [
+            "スーツケースやら土産やらで荷物が重い。"
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nào nhớ nào tiếc, không quên được.",
+          "answers": [
+            "懐かしいやら寂しいやらで忘れられない。"
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "宿題やら試験やらで余裕がない。",
+          "answers": [
+            "Nào bài tập nào thi, chẳng còn dư sức."
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "嬉しいやら恥ずかしいやら顔が赤い。",
+          "answers": [
+            "Nào vui nào ngại, mặt đỏ."
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "荷物やらゴミやらが廊下に置いてある。",
+          "answers": [
+            "Nào đồ nào rác để ở hành lang."
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "来るやらどうやら連絡がない。",
+          "answers": [
+            "Nào đến thế nào chẳng liên lạc."
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "文句やら言い訳やらばかり言う。",
+          "answers": [
+            "Chỉ nào phàn nàn nào biện hộ."
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "寒いやら暑いやら体調が変だ。",
+          "answers": [
+            "Nào lạnh nào nóng, sức khỏe lạ."
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "書類やらデータやら確認が必要だ。",
+          "answers": [
+            "Cần kiểm tra nào giấy tờ nào dữ liệu."
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "歌やら踊りやらで会場が盛り上がった。",
+          "answers": [
+            "Nào hát nào nhảy, hội trường sôi động."
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "不安やら期待やらで胸が騒ぐ。",
+          "answers": [
+            "Nào lo nào kỳ vọng, ngực thổn thức."
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "道具やら材料やらが足りない。",
+          "answers": [
+            "Thiếu nào dụng cụ nào nguyên liệu."
+          ],
+          "hint": "〜やら〜やら",
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-order-01",
+          "mode": "order",
+          "prompt": "Nào đồ nào giấy tờ bàn đầy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "荷物やら"
+            },
+            {
+              "id": "1",
+              "text": "書類やらで"
+            },
+            {
+              "id": "2",
+              "text": "机が"
+            },
+            {
+              "id": "3",
+              "text": "いっぱいだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜やら〜やら",
+          "answers": [
+            "荷物やら書類やらで机がいっぱいだのだ。"
+          ],
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-order-02",
+          "mode": "order",
+          "prompt": "Nào vui nào buồn tâm trạng phức tạp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "嬉しいやら"
+            },
+            {
+              "id": "1",
+              "text": "悲しいやら"
+            },
+            {
+              "id": "2",
+              "text": "気分が"
+            },
+            {
+              "id": "3",
+              "text": "複雑だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜やら〜やら",
+          "answers": [
+            "嬉しいやら悲しいやら気分が複雑だ。"
+          ],
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-order-03",
+          "mode": "order",
+          "prompt": "Nào đến nào không chẳng rõ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "来るやら"
+            },
+            {
+              "id": "1",
+              "text": "来ないやら"
+            },
+            {
+              "id": "2",
+              "text": "態度が"
+            },
+            {
+              "id": "3",
+              "text": "不明だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜やら〜やら",
+          "answers": [
+            "来るやら来ないやら態度が不明だ。"
+          ],
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-order-04",
+          "mode": "order",
+          "prompt": "Nào mưa nào gió trận hủy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨やら"
+            },
+            {
+              "id": "1",
+              "text": "風やらで"
+            },
+            {
+              "id": "2",
+              "text": "試合が"
+            },
+            {
+              "id": "3",
+              "text": "中止だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜やら〜やら",
+          "answers": [
+            "雨やら風やらで試合が中止だ。"
+          ],
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-order-05",
+          "mode": "order",
+          "prompt": "Nào họp nào báo cáo bận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議やら"
+            },
+            {
+              "id": "1",
+              "text": "報告やらで"
+            },
+            {
+              "id": "2",
+              "text": "一日が"
+            },
+            {
+              "id": "3",
+              "text": "終わる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜やら〜やら",
+          "answers": [
+            "会議やら報告やらで一日が終わる。"
+          ],
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-order-06",
+          "mode": "order",
+          "prompt": "Nào sách nào tạp chí đầy phòng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "本やら"
+            },
+            {
+              "id": "1",
+              "text": "雑誌やらで"
+            },
+            {
+              "id": "2",
+              "text": "部屋が"
+            },
+            {
+              "id": "3",
+              "text": "狭い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜やら〜やら",
+          "answers": [
+            "本やら雑誌やらで部屋が狭い。"
+          ],
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-order-07",
+          "mode": "order",
+          "prompt": "Nào đói nào mệt không muốn đi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "空腹やら"
+            },
+            {
+              "id": "1",
+              "text": "疲労やらで"
+            },
+            {
+              "id": "2",
+              "text": "外出を"
+            },
+            {
+              "id": "3",
+              "text": "やめた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜やら〜やら",
+          "answers": [
+            "空腹やら疲労やらで外出をやめた。"
+          ],
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-order-08",
+          "mode": "order",
+          "prompt": "Nào lỗi nào mất mạng dừng việc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "故障やら"
+            },
+            {
+              "id": "1",
+              "text": "障害やらで"
+            },
+            {
+              "id": "2",
+              "text": "作業が"
+            },
+            {
+              "id": "3",
+              "text": "止まった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜やら〜やら",
+          "answers": [
+            "故障やら障害やらで作業が止まった。"
+          ],
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-order-09",
+          "mode": "order",
+          "prompt": "Nào bài tập nào thi hết sức.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "宿題やら"
+            },
+            {
+              "id": "1",
+              "text": "試験やらで"
+            },
+            {
+              "id": "2",
+              "text": "余裕が"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜やら〜やら",
+          "answers": [
+            "宿題やら試験やらで余裕がない。"
+          ],
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g01-order-10",
+          "mode": "order",
+          "prompt": "Nào hát nào nhảy sôi động.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "歌やら"
+            },
+            {
+              "id": "1",
+              "text": "踊りやらで"
+            },
+            {
+              "id": "2",
+              "text": "会場が"
+            },
+            {
+              "id": "3",
+              "text": "熱い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜やら〜やら",
+          "answers": [
+            "歌やら踊りやらで会場が熱い。"
+          ],
+          "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l10-g02",
+      "title": "〜というか〜というか",
+      "meaning": "Vừa như… vừa như… / nói là… cũng được",
+      "variants": [
+        "というか"
+      ],
+      "structures": [
+        "〜というか〜というか"
+      ],
+      "explanation": "Liệt kê cách diễn đạt cảm xúc/ấn tượng chưa chắc chắn; chọn từ chưa quyết.",
+      "usage": "Nói cảm nghĩ mơ hồ: nói là vui cũng được, nói là lo cũng được.",
+      "cautions": [
+        "Thường dùng khi khó chọn một từ duy nhất.",
+        "Khác というより (đúng hơn là…)."
+      ],
+      "contrast": "というか ≈ nói là A cũng được, B cũng được. Khác やらやら (liệt kê sự việc).",
+      "examples": [
+        {
+          "ja": "嬉しいというか安心したというか複雑な気持ちだ。",
+          "reading": "うれしいというかあんしんしたというかふくざつなきもちだ。",
+          "vi": "Nói vui cũng được, nói yên tâm cũng được, cảm xúc phức tạp.",
+          "ruby": [
+            {
+              "text": "嬉",
+              "reading": "うれ"
+            },
+            {
+              "text": "しいというか"
+            },
+            {
+              "text": "安心",
+              "reading": "あんしん"
+            },
+            {
+              "text": "したというか"
+            },
+            {
+              "text": "複雑",
+              "reading": "ふくざつ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "気持",
+              "reading": "きも"
+            },
+            {
+              "text": "ちだ。"
+            }
+          ]
+        },
+        {
+          "ja": "彼は厳しいというか真面目というか不思議な人だ。",
+          "reading": "かれはきびしいというかまじめというかふしぎなひとだ。",
+          "vi": "Anh ấy nói nghiêm cũng được, nói nghiêm túc cũng được, người lạ.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "厳",
+              "reading": "きび"
+            },
+            {
+              "text": "しいというか"
+            },
+            {
+              "text": "真面目",
+              "reading": "まじめ"
+            },
+            {
+              "text": "というか"
+            },
+            {
+              "text": "不思議",
+              "reading": "ふしぎ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "残念というか悔しいというか言葉にできない。",
+          "reading": "ざんねんというかくやしいというかことばにできない。",
+          "vi": "Nói tiếc cũng được, nói tức cũng được, không nói nên lời.",
+          "ruby": [
+            {
+              "text": "残念",
+              "reading": "ざんねん"
+            },
+            {
+              "text": "というか"
+            },
+            {
+              "text": "悔",
+              "reading": "くや"
+            },
+            {
+              "text": "しいというか"
+            },
+            {
+              "text": "言葉",
+              "reading": "ことば"
+            },
+            {
+              "text": "にできない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 59,
+        "printedPage": 46,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-n1-to-iu-ka-to-iu-ka-co-the-noi-la-cung-co-the-noi-la-vua-co-ve-nhu-vua-co-ve-nhu/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l10-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nói vui cũng được nói ngạc nhiên cũng được.",
+          "answers": [
+            "嬉しいというか驚いたというかだ。"
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nói khó cũng được nói thú vị cũng được.",
+          "answers": [
+            "難しいというか面白いというか課題だ。"
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nói lạnh cũng được nói dễ chịu cũng được.",
+          "answers": [
+            "寒いというか爽やかというか天気だ。"
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nói giận cũng được nói buồn cũng được.",
+          "answers": [
+            "怒っているというか悲しいというか顔だ。"
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nói giản dị cũng được nói thô cũng được.",
+          "answers": [
+            "素朴というか粗いというかデザインだ。"
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nói tự tin cũng được nói kiêu cũng được.",
+          "answers": [
+            "自信があるというか生意気というか態度だ。"
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nói mệt cũng được nói thỏa mãn cũng được.",
+          "answers": [
+            "疲れたというか充実したというか一日だ。"
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nói dễ cũng được nói nhàm cũng được.",
+          "answers": [
+            "簡単というか単調というか作業だ。"
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nói thân thiện cũng được nói suồng sã cũng được.",
+          "answers": [
+            "親しみやすいというかくだけすぎというか話し方だ。"
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nói tiếc cũng được nói nhẹ nhõm cũng được.",
+          "answers": [
+            "残念というかほっとしたというか結果だ。"
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "嬉しいというか恥ずかしいというか返事に困った。",
+          "answers": [
+            "Nói vui cũng được nói ngại cũng được, khó đáp."
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "厳しいというか公正というか評価だった。",
+          "answers": [
+            "Nói nghiêm cũng được nói công bằng cũng được."
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "速いというか雑というか仕事ぶりだ。",
+          "answers": [
+            "Nói nhanh cũng được nói ẩu cũng được."
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "静かというか寂しいというか街だ。",
+          "answers": [
+            "Nói yên cũng được nói vắng cũng được."
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "賢いというか狡猾というか人だと感じた。",
+          "answers": [
+            "Cảm giác nói thông minh cũng được nói láu cũng được."
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "嬉しいというか不安というか発表の前だ。",
+          "answers": [
+            "Trước công bố, nói vui cũng được nói lo cũng được."
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "安いというか不安な品質というか商品だ。",
+          "answers": [
+            "Nói rẻ cũng được nói chất lượng đáng ngờ cũng được."
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "面白いというか分かりにくいというか説明だ。",
+          "answers": [
+            "Nói hay cũng được nói khó hiểu cũng được."
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "優しいというか甘いというか対応だ。",
+          "answers": [
+            "Nói dịu dàng cũng được nói nuông chiều cũng được."
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "新しいというか未熟というか企画だと指摘された。",
+          "answers": [
+            "Bị chỉ: nói mới cũng được nói chưa chín cũng được."
+          ],
+          "hint": "〜というか〜というか",
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-order-01",
+          "mode": "order",
+          "prompt": "Nói vui cũng được nói yên tâm cũng được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "嬉しいというか"
+            },
+            {
+              "id": "1",
+              "text": "安心というか"
+            },
+            {
+              "id": "2",
+              "text": "気持ちが"
+            },
+            {
+              "id": "3",
+              "text": "複雑だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というか〜というか",
+          "answers": [
+            "嬉しいというか安心というか気持ちが複雑だ。"
+          ],
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-order-02",
+          "mode": "order",
+          "prompt": "Nói nghiêm cũng được nói nghiêm túc cũng được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "厳しいというか"
+            },
+            {
+              "id": "1",
+              "text": "真面目というか"
+            },
+            {
+              "id": "2",
+              "text": "人柄が"
+            },
+            {
+              "id": "3",
+              "text": "独特だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というか〜というか",
+          "answers": [
+            "厳しいというか真面目というか人柄が独特だ。"
+          ],
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-order-03",
+          "mode": "order",
+          "prompt": "Nói tiếc cũng được nói tức cũng được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "残念というか"
+            },
+            {
+              "id": "1",
+              "text": "悔しいというか"
+            },
+            {
+              "id": "2",
+              "text": "言葉が"
+            },
+            {
+              "id": "3",
+              "text": "出ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というか〜というか",
+          "answers": [
+            "残念というか悔しいというか言葉が出ない。"
+          ],
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-order-04",
+          "mode": "order",
+          "prompt": "Thành ra vừa khó vừa thú vị.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "難しいというか"
+            },
+            {
+              "id": "1",
+              "text": "面白いというか"
+            },
+            {
+              "id": "2",
+              "text": "課題に"
+            },
+            {
+              "id": "3",
+              "text": "なった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というか〜というか",
+          "answers": [
+            "難しいというか面白いというか課題になった。"
+          ],
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-order-05",
+          "mode": "order",
+          "prompt": "Vẻ mặt cứng: vừa giận vừa buồn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "怒りというか"
+            },
+            {
+              "id": "1",
+              "text": "悲しみというか"
+            },
+            {
+              "id": "2",
+              "text": "表情が"
+            },
+            {
+              "id": "3",
+              "text": "固い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というか〜というか",
+          "answers": [
+            "怒りというか悲しみというか表情が固い。"
+          ],
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-order-06",
+          "mode": "order",
+          "prompt": "Một ngày vừa mệt vừa thỏa mãn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "疲労というか"
+            },
+            {
+              "id": "1",
+              "text": "充実というか"
+            },
+            {
+              "id": "2",
+              "text": "一日が"
+            },
+            {
+              "id": "3",
+              "text": "終わった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というか〜というか",
+          "answers": [
+            "疲労というか充実というか一日が終わった。"
+          ],
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-order-07",
+          "mode": "order",
+          "prompt": "Nói nhanh cũng được nói ẩu cũng được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "速いというか"
+            },
+            {
+              "id": "1",
+              "text": "雑というか"
+            },
+            {
+              "id": "2",
+              "text": "仕上がりに"
+            },
+            {
+              "id": "3",
+              "text": "なった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というか〜というか",
+          "answers": [
+            "速いというか雑というか仕上がりになった。"
+          ],
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-order-08",
+          "mode": "order",
+          "prompt": "Nói yên cũng được nói vắng cũng được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "静かというか"
+            },
+            {
+              "id": "1",
+              "text": "寂しいというか"
+            },
+            {
+              "id": "2",
+              "text": "街に"
+            },
+            {
+              "id": "3",
+              "text": "感じる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というか〜というか",
+          "answers": [
+            "静かというか寂しいというか街に感じる。"
+          ],
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-order-09",
+          "mode": "order",
+          "prompt": "Nói rẻ cũng được nói đáng ngờ cũng được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "安いというか"
+            },
+            {
+              "id": "1",
+              "text": "不安というか"
+            },
+            {
+              "id": "2",
+              "text": "品質が"
+            },
+            {
+              "id": "3",
+              "text": "気になる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というか〜というか",
+          "answers": [
+            "安いというか不安というか品質が気になる。"
+          ],
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g02-order-10",
+          "mode": "order",
+          "prompt": "Nói hay cũng được nói khó hiểu cũng được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "面白いというか"
+            },
+            {
+              "id": "1",
+              "text": "難解というか"
+            },
+            {
+              "id": "2",
+              "text": "説明に"
+            },
+            {
+              "id": "3",
+              "text": "なった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というか〜というか",
+          "answers": [
+            "面白いというか難解というか説明になった。"
+          ],
+          "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l10-g03",
+      "title": "〜にしても〜にしても・〜にしろ〜にしろ・〜にせよ〜にせよ",
+      "meaning": "Dù là… hay… thì… (liệt kê nhượng bộ)",
+      "variants": [
+        "にしても",
+        "にしろ",
+        "にせよ"
+      ],
+      "structures": [
+        "〜にしても〜にしても",
+        "〜にしろ〜にしろ",
+        "〜にせよ〜にせよ"
+      ],
+      "explanation": "Nêu vài khả năng/đối tượng rồi kết luận chung vẫn đúng với mọi trường hợp.",
+      "usage": "Lập luận: dù A hay B thì vẫn…",
+      "cautions": [
+        "にしろ／にせよ sắc thái viết mạnh hơn にしても.",
+        "Cũng dùng một vế にしても (dù là…)."
+      ],
+      "contrast": "にしても／にしろ／にせよ ≈ dù… hay…. Khác やらやら (liệt kê lung tung).",
+      "examples": [
+        {
+          "ja": "行くにしても行かないにしても連絡してほしい。",
+          "reading": "いくにしてもいかないにしてもれんらくしてほしい。",
+          "vi": "Dù đi hay không cũng muốn được liên lạc.",
+          "ruby": [
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "くにしても"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "かないにしても"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "してほしい。"
+            }
+          ]
+        },
+        {
+          "ja": "勝つにしろ負けるにしろ全力を尽くせ。",
+          "reading": "かつにしろまけるにしろぜんりょくをつくせ。",
+          "vi": "Dù thắng hay thua hãy hết sức.",
+          "ruby": [
+            {
+              "text": "勝",
+              "reading": "か"
+            },
+            {
+              "text": "つにしろ"
+            },
+            {
+              "text": "負",
+              "reading": "ま"
+            },
+            {
+              "text": "けるにしろ"
+            },
+            {
+              "text": "全力",
+              "reading": "ぜんりょく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "尽",
+              "reading": "つ"
+            },
+            {
+              "text": "くせ。"
+            }
+          ]
+        },
+        {
+          "ja": "高いにせよ安いにせよ品質が大事だ。",
+          "reading": "たかいにせよやすいにせよひんしつがだいじだ。",
+          "vi": "Dù đắt hay rẻ chất lượng mới quan trọng.",
+          "ruby": [
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "いにせよ"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "いにせよ"
+            },
+            {
+              "text": "品質",
+              "reading": "ひんしつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "大事",
+              "reading": "だいじ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 59,
+        "printedPage": 46,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-shite-mo-ni-shite-mo-cho-du-lahaythi-cung/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-shiro-ni-shiro-ni-seyo-ni-seyo-du-la-hay-du-co/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l10-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Dù mưa hay nắng trận đấu vẫn tổ chức.",
+          "answers": [
+            "雨にしても晴れにしても試合は行う。"
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Dù đồng ý hay không hãy trả lời sớm.",
+          "answers": [
+            "賛成にしても反対にしても早く返事してほしい。"
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Dù thắng hay thua hãy bắt tay.",
+          "answers": [
+            "勝つにしろ負けるにしろ握手しよう。"
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Dù đắt hay rẻ hãy so sánh kỹ.",
+          "answers": [
+            "高いにせよ安いにせよよく比較せよ。"
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Dù đi làm hay ở nhà hãy giữ sức khỏe.",
+          "answers": [
+            "出勤にしても在宅にしても健康を守れ。"
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Dù thích hay không phải hoàn thành.",
+          "answers": [
+            "好きにしろ嫌いにしろ仕上げなければならない。"
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Dù sớm hay muộn phải báo cáo.",
+          "answers": [
+            "早いにせよ遅いにせよ報告は必要だ。"
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Dù anh ấy hay cô ấy đều có trách nhiệm.",
+          "answers": [
+            "彼にしても彼女にしても責任がある。"
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Dù thành công hay thất bại hãy học hỏi.",
+          "answers": [
+            "成功にしろ失敗にしろ学べ。"
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Dù đông hay vắng phục vụ phải tốt.",
+          "answers": [
+            "混むにせよ空くにせよ接客は丁寧に。"
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "来るにしても来ないにしても席は確保する。",
+          "answers": [
+            "Dù đến hay không vẫn giữ chỗ."
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "買うにしろ買わないにしろ説明を聞け。",
+          "answers": [
+            "Dù mua hay không hãy nghe giải thích."
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "賛成にせよ反対にせよ理由を述べよ。",
+          "answers": [
+            "Dù tán thành hay phản đối hãy nêu lý do."
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "平日にしても休日にしても予約が要る。",
+          "answers": [
+            "Dù ngày thường hay ngày nghỉ đều cần đặt chỗ."
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "上手にしろ下手にしろ挑戦する価値がある。",
+          "answers": [
+            "Dù giỏi hay kém vẫn đáng thử."
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "高いにしても品質が伴わなければ意味がない。",
+          "answers": [
+            "Dù đắt nếu chất lượng không theo thì vô nghĩa."
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "彼にしても無理は続かない。",
+          "answers": [
+            "Dù là anh ấy cũng không thể cố mãi."
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "勝つにせよ負けるにせよ応援する。",
+          "answers": [
+            "Dù thắng hay thua tôi vẫn cổ vũ."
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "行くにしろ残るにしろ決断が必要だ。",
+          "answers": [
+            "Dù đi hay ở lại đều cần quyết định."
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "子どもにしても大人にしてもルールは同じだ。",
+          "answers": [
+            "Dù trẻ hay người lớn quy tắc như nhau."
+          ],
+          "hint": "〜にしても／にしろ／にせよ",
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-order-01",
+          "mode": "order",
+          "prompt": "Dù đi hay không hãy liên lạc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "行くにしても"
+            },
+            {
+              "id": "1",
+              "text": "行かないにしても"
+            },
+            {
+              "id": "2",
+              "text": "連絡を"
+            },
+            {
+              "id": "3",
+              "text": "くれ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にしても／にしろ／にせよ",
+          "answers": [
+            "行くにしても行かないにしても連絡をくれ。"
+          ],
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-order-02",
+          "mode": "order",
+          "prompt": "Dù thắng hay thua hãy hết sức. （luyện）",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "勝つにしろ"
+            },
+            {
+              "id": "1",
+              "text": "負けるにしろ"
+            },
+            {
+              "id": "2",
+              "text": "全力を"
+            },
+            {
+              "id": "3",
+              "text": "出せ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にしても／にしろ／にせよ",
+          "answers": [
+            "勝つにしろ負けるにしろ全力を出せ。"
+          ],
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-order-03",
+          "mode": "order",
+          "prompt": "Dù đắt hay rẻ chất lượng quan trọng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "高いにせよ"
+            },
+            {
+              "id": "1",
+              "text": "安いにせよ"
+            },
+            {
+              "id": "2",
+              "text": "品質が"
+            },
+            {
+              "id": "3",
+              "text": "大事だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にしても／にしろ／にせよ",
+          "answers": [
+            "高いにせよ安いにせよ品質が大事だのだ。"
+          ],
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-order-04",
+          "mode": "order",
+          "prompt": "Dù mưa hay nắng vẫn tổ chức.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨にしても"
+            },
+            {
+              "id": "1",
+              "text": "晴れにしても"
+            },
+            {
+              "id": "2",
+              "text": "開催は"
+            },
+            {
+              "id": "3",
+              "text": "する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にしても／にしろ／にせよ",
+          "answers": [
+            "雨にしても晴れにしても開催はする。"
+          ],
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-order-05",
+          "mode": "order",
+          "prompt": "Dù đồng ý hay không trả lời sớm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "賛成にしても"
+            },
+            {
+              "id": "1",
+              "text": "反対にしても"
+            },
+            {
+              "id": "2",
+              "text": "返事を"
+            },
+            {
+              "id": "3",
+              "text": "急げ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にしても／にしろ／にせよ",
+          "answers": [
+            "賛成にしても反対にしても返事を急げ。"
+          ],
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-order-06",
+          "mode": "order",
+          "prompt": "Dù thích hay không phải xong.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "好きにしろ"
+            },
+            {
+              "id": "1",
+              "text": "嫌いにしろ"
+            },
+            {
+              "id": "2",
+              "text": "完成が"
+            },
+            {
+              "id": "3",
+              "text": "必要だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にしても／にしろ／にせよ",
+          "answers": [
+            "好きにしろ嫌いにしろ完成が必要だ。"
+          ],
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-order-07",
+          "mode": "order",
+          "prompt": "Dù đến hay không giữ chỗ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "来るにしても"
+            },
+            {
+              "id": "1",
+              "text": "来ないにしても"
+            },
+            {
+              "id": "2",
+              "text": "席は"
+            },
+            {
+              "id": "3",
+              "text": "残す。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にしても／にしろ／にせよ",
+          "answers": [
+            "来るにしても来ないにしても席は残す。"
+          ],
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-order-08",
+          "mode": "order",
+          "prompt": "Dù mua hay không nghe giải thích.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "買うにしろ"
+            },
+            {
+              "id": "1",
+              "text": "買わないにしろ"
+            },
+            {
+              "id": "2",
+              "text": "説明を"
+            },
+            {
+              "id": "3",
+              "text": "聞け。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にしても／にしろ／にせよ",
+          "answers": [
+            "買うにしろ買わないにしろ説明を聞け。"
+          ],
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-order-09",
+          "mode": "order",
+          "prompt": "Dù tán thành hay phản đối nêu lý do.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "賛成にせよ"
+            },
+            {
+              "id": "1",
+              "text": "反対にせよ"
+            },
+            {
+              "id": "2",
+              "text": "理由を"
+            },
+            {
+              "id": "3",
+              "text": "言え。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にしても／にしろ／にせよ",
+          "answers": [
+            "賛成にせよ反対にせよ理由を言え。"
+          ],
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g03-order-10",
+          "mode": "order",
+          "prompt": "Dù trẻ hay lớn quy tắc như nhau.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "子供にしても"
+            },
+            {
+              "id": "1",
+              "text": "大人にしても"
+            },
+            {
+              "id": "2",
+              "text": "規則は"
+            },
+            {
+              "id": "3",
+              "text": "同じだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にしても／にしろ／にせよ",
+          "answers": [
+            "子供にしても大人にしても規則は同じだ。"
+          ],
+          "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l10-g04",
+      "title": "〜といった",
+      "meaning": "Những thứ như… / ví dụ như…",
+      "variants": [
+        "といった"
+      ],
+      "structures": [
+        "N や N ＋ といった ＋ N",
+        "N ＋ といった ＋ N"
+      ],
+      "explanation": "Đưa ví dụ đại diện rồi khái quát loại/nhóm; thường theo sau danh từ chỉ loại.",
+      "usage": "Giới thiệu ví dụ: những môn như…, những vấn đề như…",
+      "cautions": [
+        "Không nhầm với といったら (nói đến… thì).",
+        "Thường kết hợp や／とか trước といった."
+      ],
+      "contrast": "といった ≈ những thứ như. Khác やらやら (liệt kê cảm tính).",
+      "examples": [
+        {
+          "ja": "東京や大阪といった大都市に人が集まる。",
+          "reading": "とうきょうやおおさかといっただいとしにひとがあつまる。",
+          "vi": "Người tập trung ở các thành phố lớn như Tokyo, Osaka.",
+          "ruby": [
+            {
+              "text": "東京",
+              "reading": "とうきょう"
+            },
+            {
+              "text": "や"
+            },
+            {
+              "text": "大阪",
+              "reading": "おおさか"
+            },
+            {
+              "text": "といった"
+            },
+            {
+              "text": "大都市",
+              "reading": "だいとし"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "集",
+              "reading": "あつ"
+            },
+            {
+              "text": "まる。"
+            }
+          ]
+        },
+        {
+          "ja": "風邪やインフルエンザといった病気に注意したい。",
+          "reading": "かぜやいんふるえんざといったびょうきにちゅういしたい。",
+          "vi": "Muốn chú ý các bệnh như cảm, cúm.",
+          "ruby": [
+            {
+              "text": "風邪",
+              "reading": "かぜ"
+            },
+            {
+              "text": "や"
+            },
+            {
+              "text": "インフルエンザ"
+            },
+            {
+              "text": "といった"
+            },
+            {
+              "text": "病気",
+              "reading": "びょうき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "注意",
+              "reading": "ちゅうい"
+            },
+            {
+              "text": "したい。"
+            }
+          ]
+        },
+        {
+          "ja": "彼は野球やサッカーといったスポーツが得意だ。",
+          "reading": "かれはやきゅうやさっかーといったすぽーつがとくいだ。",
+          "vi": "Anh ấy giỏi các môn như bóng chày, bóng đá.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "野球",
+              "reading": "やきゅう"
+            },
+            {
+              "text": "や"
+            },
+            {
+              "text": "サッカー"
+            },
+            {
+              "text": "といった"
+            },
+            {
+              "text": "スポーツが"
+            },
+            {
+              "text": "得意",
+              "reading": "とくい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 59,
+        "printedPage": 46,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-to-itta-vi-du-nhu-nhung-thu-nhu/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l10-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Các môn như toán, lý cần luyện nhiều.",
+          "answers": [
+            "数学や物理といった科目は練習が必要だ。"
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Các nước như Nhật, Hàn phát triển công nghệ.",
+          "answers": [
+            "日本や韓国といった国は技術が進んでいる。"
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Các vấn đề như môi trường, năng lượng quan trọng.",
+          "answers": [
+            "環境やエネルギーといった問題が重要だ。"
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Các nghề như bác sĩ, luật sư được tôn trọng.",
+          "answers": [
+            "医師や弁護士といった職業は尊敬される。"
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Các lễ như Tết, Obon đông người về quê.",
+          "answers": [
+            "正月やお盆といった時期は帰省が多い。"
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Các app như bản đồ, dịch thuật tiện lợi.",
+          "answers": [
+            "地図や翻訳といったアプリが便利だ。"
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Các chi phí như tiền thuê, điện nước tăng.",
+          "answers": [
+            "家賃や光熱費といった支出が増えた。"
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Các môn thể thao như tennis, bơi phổ biến.",
+          "answers": [
+            "テニスや水泳といったスポーツが人気だ。"
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Các kỹ năng như giao tiếp, thuyết trình cần thiết.",
+          "answers": [
+            "会話や発表といったスキルが求められる。"
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Các hiện tượng như động đất, bão hay xảy ra.",
+          "answers": [
+            "地震や台風といった災害に備えたい。"
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "紅茶やコーヒーといった飲み物が好きだ。",
+          "answers": [
+            "Tôi thích đồ uống như trà, cà phê."
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "小説や詩といった文学作品を読む。",
+          "answers": [
+            "Đọc tác phẩm văn học như tiểu thuyết, thơ."
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "駅や空港といった交通拠点が混む。",
+          "answers": [
+            "Các điểm giao thông như ga, sân bay đông."
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "英語や中国語といった言語を学ぶ学生が増えた。",
+          "answers": [
+            "Sinh viên học ngôn ngữ như Anh, Trung tăng."
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "スマホやパソコンといった機器が必需品だ。",
+          "answers": [
+            "Thiết bị như điện thoại, máy tính là cần thiết."
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "美術館や博物館といった施設を巡った。",
+          "answers": [
+            "Đi quanh các cơ sở như bảo tàng mỹ thuật, bảo tàng."
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "会議や研修といった予定で埋まっている。",
+          "answers": [
+            "Lịch kín các việc như họp, tập huấn."
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "野菜や果物といった食材を安く買える。",
+          "answers": [
+            "Mua rẻ thực phẩm như rau, trái cây."
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "規則やマナーといった基本を守れ。",
+          "answers": [
+            "Hãy giữ những điều cơ bản như quy tắc, phép lịch sự."
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "映画やドラマといった娯楽が欠かせない。",
+          "answers": [
+            "Giải trí như phim, drama không thể thiếu."
+          ],
+          "hint": "N や N ＋ といった ＋ N",
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-order-01",
+          "mode": "order",
+          "prompt": "Thành phố lớn như Tokyo, Osaka.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "東京や大阪"
+            },
+            {
+              "id": "1",
+              "text": "といった"
+            },
+            {
+              "id": "2",
+              "text": "大都市に"
+            },
+            {
+              "id": "3",
+              "text": "集まる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N や N ＋ といった ＋ N",
+          "answers": [
+            "東京や大阪といった大都市に集まる。"
+          ],
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-order-02",
+          "mode": "order",
+          "prompt": "Bệnh như cảm, cúm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "風邪や流感"
+            },
+            {
+              "id": "1",
+              "text": "といった"
+            },
+            {
+              "id": "2",
+              "text": "病気に"
+            },
+            {
+              "id": "3",
+              "text": "注意する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N や N ＋ といった ＋ N",
+          "answers": [
+            "風邪や流感といった病気に注意する。"
+          ],
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-order-03",
+          "mode": "order",
+          "prompt": "Thể thao như bóng chày, bóng đá.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "野球や蹴球"
+            },
+            {
+              "id": "1",
+              "text": "といった"
+            },
+            {
+              "id": "2",
+              "text": "競技が"
+            },
+            {
+              "id": "3",
+              "text": "得意だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N や N ＋ といった ＋ N",
+          "answers": [
+            "野球や蹴球といった競技が得意だ。"
+          ],
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-order-04",
+          "mode": "order",
+          "prompt": "Môn như toán, lý.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "数学や物理"
+            },
+            {
+              "id": "1",
+              "text": "といった"
+            },
+            {
+              "id": "2",
+              "text": "科目を"
+            },
+            {
+              "id": "3",
+              "text": "学ぶ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N や N ＋ といった ＋ N",
+          "answers": [
+            "数学や物理といった科目を学ぶ。"
+          ],
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-order-05",
+          "mode": "order",
+          "prompt": "Nước như Nhật, Hàn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "日本や韓国"
+            },
+            {
+              "id": "1",
+              "text": "といった"
+            },
+            {
+              "id": "2",
+              "text": "国が"
+            },
+            {
+              "id": "3",
+              "text": "進んでいる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N や N ＋ といった ＋ N",
+          "answers": [
+            "日本や韓国といった国が進んでいる。"
+          ],
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-order-06",
+          "mode": "order",
+          "prompt": "Vấn đề như môi trường, năng lượng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "環境やエネルギー"
+            },
+            {
+              "id": "1",
+              "text": "といった"
+            },
+            {
+              "id": "2",
+              "text": "課題が"
+            },
+            {
+              "id": "3",
+              "text": "大きい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N や N ＋ といった ＋ N",
+          "answers": [
+            "環境やエネルギーといった課題が大きい。"
+          ],
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-order-07",
+          "mode": "order",
+          "prompt": "Nghề như bác sĩ, luật sư.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "医師や弁護士"
+            },
+            {
+              "id": "1",
+              "text": "といった"
+            },
+            {
+              "id": "2",
+              "text": "職業が"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N や N ＋ といった ＋ N",
+          "answers": [
+            "医師や弁護士といった職業がある。"
+          ],
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-order-08",
+          "mode": "order",
+          "prompt": "Đồ uống như trà, cà phê.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "紅茶やコーヒー"
+            },
+            {
+              "id": "1",
+              "text": "といった"
+            },
+            {
+              "id": "2",
+              "text": "飲み物が"
+            },
+            {
+              "id": "3",
+              "text": "好きだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N や N ＋ といった ＋ N",
+          "answers": [
+            "紅茶やコーヒーといった飲み物が好きだ。"
+          ],
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-order-09",
+          "mode": "order",
+          "prompt": "Thiết bị như điện thoại, máy tính.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "端末やPC"
+            },
+            {
+              "id": "1",
+              "text": "といった"
+            },
+            {
+              "id": "2",
+              "text": "機器が"
+            },
+            {
+              "id": "3",
+              "text": "要る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N や N ＋ といった ＋ N",
+          "answers": [
+            "端末やPCといった機器が要る。"
+          ],
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l10-g04-order-10",
+          "mode": "order",
+          "prompt": "Thảm họa như động đất, bão.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "地震や台風"
+            },
+            {
+              "id": "1",
+              "text": "といった"
+            },
+            {
+              "id": "2",
+              "text": "災害に"
+            },
+            {
+              "id": "3",
+              "text": "備える。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N や N ＋ といった ＋ N",
+          "answers": [
+            "地震や台風といった災害に備える。"
+          ],
+          "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+        }
+      ]
+    }
+  ]
+}

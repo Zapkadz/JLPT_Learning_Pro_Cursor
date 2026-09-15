@@ -44,35 +44,35 @@
       "number": 6,
       "title": "Không chỉ · Thêm vào đó",
       "groupCount": 5,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-07",
       "number": 7,
       "title": "Về · Đối với",
       "groupCount": 5,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-08",
       "number": 8,
       "title": "Căn cứ · Tiêu chuẩn",
       "groupCount": 5,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-09",
       "number": 9,
       "title": "Liên quan · Tương ứng",
       "groupCount": 5,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-10",
       "number": 10,
       "title": "Liệt kê · Ví dụ",
       "groupCount": 4,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-11",

@@ -1,0 +1,3836 @@
+{
+  "id": "lesson-07",
+  "titleJa": "関連・対象",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 7. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L06-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l07-g01",
+      "title": "〜に関して",
+      "meaning": "Về / liên quan đến…",
+      "variants": [
+        "に関して",
+        "に関する"
+      ],
+      "structures": [
+        "N ＋ に関して",
+        "N ＋ に関する ＋ N"
+      ],
+      "explanation": "Nêu chủ đề hoặc lĩnh vực đang nói đến; sắc thái trang trọng hơn について.",
+      "usage": "Báo cáo, họp, văn viết: về vấn đề…",
+      "cautions": [
+        "に関する修飾 N (問題に関する資料).",
+        "Hội thoại thân mật thường dùng について."
+      ],
+      "contrast": "に関して ≈ về… (trang trọng). Gần について; khác をめぐって (tranh cãi xoay quanh).",
+      "examples": [
+        {
+          "ja": "この問題に関して意見を聞かせてください。",
+          "reading": "このもんだいにかんしていけんをきかせてください。",
+          "vi": "Về vấn đề này, hãy cho tôi nghe ý kiến.",
+          "ruby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "かせてください。"
+            }
+          ]
+        },
+        {
+          "ja": "環境に関する記事を書いた。",
+          "reading": "かんきょうにかんするきじをかいた。",
+          "vi": "Tôi đã viết bài liên quan đến môi trường.",
+          "ruby": [
+            {
+              "text": "環境",
+              "reading": "かんきょう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "記事",
+              "reading": "きじ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "書",
+              "reading": "か"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
+        },
+        {
+          "ja": "契約内容に関して確認が必要だ。",
+          "reading": "けいやくないようにかんしてかくにんがひつようだ。",
+          "vi": "Cần xác nhận về nội dung hợp đồng.",
+          "ruby": [
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "内容",
+              "reading": "ないよう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 47,
+        "printedPage": 34,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-nikanshite-lien-quan-den/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l07-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Về kế hoạch này cần thảo luận thêm.",
+          "answers": [
+            "この計画に関してさらに議論が必要だ。"
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tôi muốn hỏi về lịch trình.",
+          "answers": [
+            "日程に関して質問したい。"
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Đã có báo cáo về tai nạn.",
+          "answers": [
+            "事故に関する報告が出た。"
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Về ngân sách chưa quyết định.",
+          "answers": [
+            "予算に関してまだ決まっていない。"
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đây là tài liệu liên quan đến luật mới.",
+          "answers": [
+            "これは新法に関する資料だ。"
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Về chất lượng sản phẩm có khiếu nại.",
+          "answers": [
+            "製品の品質に関して苦情がある。"
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Họ họp về chính sách tuyển dụng.",
+          "answers": [
+            "採用方針に関して会議を開いた。"
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Về sức khỏe của anh ấy tôi không biết.",
+          "answers": [
+            "彼の健康に関しては知らない。"
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Cần điều tra về nguyên nhân.",
+          "answers": [
+            "原因に関して調査が必要だ。"
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Bài viết liên quan đến giáo dục được đọc nhiều.",
+          "answers": [
+            "教育に関する記事がよく読まれている。"
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "安全に関して注意を呼びかける。",
+          "answers": [
+            "Kêu gọi chú ý về an toàn."
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "料金に関する説明を読んでください。",
+          "answers": [
+            "Hãy đọc phần giải thích về phí."
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "この件に関しては後日連絡します。",
+          "answers": [
+            "Về việc này sẽ liên lạc sau."
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "歴史に関する本を借りた。",
+          "answers": [
+            "Tôi mượn sách liên quan đến lịch sử."
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "規則に関して疑問がある。",
+          "answers": [
+            "Tôi có thắc mắc về quy định."
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "天候に関する情報を確認した。",
+          "answers": [
+            "Đã kiểm tra thông tin về thời tiết."
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "プライバシーに関して厳しいルールがある。",
+          "answers": [
+            "Có quy tắc nghiêm về quyền riêng tư."
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "貿易に関する交渉が続いている。",
+          "answers": [
+            "Đàm phán liên quan đến thương mại đang tiếp diễn."
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "彼の経歴に関しては詳しくない。",
+          "answers": [
+            "Về lý lịch anh ấy tôi không rõ lắm."
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "技術に関して専門家に相談した。",
+          "answers": [
+            "Đã hỏi chuyên gia về kỹ thuật."
+          ],
+          "hint": "N ＋ に関して／に関する",
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-order-01",
+          "mode": "order",
+          "prompt": "Về vấn đề này hãy cho ý kiến.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "問題に"
+            },
+            {
+              "id": "1",
+              "text": "関して"
+            },
+            {
+              "id": "2",
+              "text": "意見を"
+            },
+            {
+              "id": "3",
+              "text": "ください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に関して／に関する",
+          "answers": [
+            "問題に関して意見をください。"
+          ],
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-order-02",
+          "mode": "order",
+          "prompt": "Cần xác nhận về hợp đồng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "契約に"
+            },
+            {
+              "id": "1",
+              "text": "関して"
+            },
+            {
+              "id": "2",
+              "text": "確認が"
+            },
+            {
+              "id": "3",
+              "text": "要る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に関して／に関する",
+          "answers": [
+            "契約に関して確認が要る。"
+          ],
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-order-03",
+          "mode": "order",
+          "prompt": "Viết bài về môi trường.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "環境に"
+            },
+            {
+              "id": "1",
+              "text": "関する"
+            },
+            {
+              "id": "2",
+              "text": "記事を"
+            },
+            {
+              "id": "3",
+              "text": "書いた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に関して／に関する",
+          "answers": [
+            "環境に関する記事を書いたのだ。"
+          ],
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-order-04",
+          "mode": "order",
+          "prompt": "Hỏi về lịch trình.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "日程に"
+            },
+            {
+              "id": "1",
+              "text": "関して"
+            },
+            {
+              "id": "2",
+              "text": "質問が"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に関して／に関する",
+          "answers": [
+            "日程に関して質問がある。"
+          ],
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-order-05",
+          "mode": "order",
+          "prompt": "Báo cáo về tai nạn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "事故に"
+            },
+            {
+              "id": "1",
+              "text": "関する"
+            },
+            {
+              "id": "2",
+              "text": "報告が"
+            },
+            {
+              "id": "3",
+              "text": "出た。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に関して／に関する",
+          "answers": [
+            "事故に関する報告が出た。"
+          ],
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-order-06",
+          "mode": "order",
+          "prompt": "Chưa quyết về ngân sách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "予算に"
+            },
+            {
+              "id": "1",
+              "text": "関して"
+            },
+            {
+              "id": "2",
+              "text": "未定"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に関して／に関する",
+          "answers": [
+            "予算に関して未定だ。"
+          ],
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-order-07",
+          "mode": "order",
+          "prompt": "Khiếu nại về chất lượng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "品質に"
+            },
+            {
+              "id": "1",
+              "text": "関して"
+            },
+            {
+              "id": "2",
+              "text": "苦情が"
+            },
+            {
+              "id": "3",
+              "text": "来た。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に関して／に関する",
+          "answers": [
+            "品質に関して苦情が来た。"
+          ],
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-order-08",
+          "mode": "order",
+          "prompt": "Họp về tuyển dụng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "採用に"
+            },
+            {
+              "id": "1",
+              "text": "関して"
+            },
+            {
+              "id": "2",
+              "text": "会議を"
+            },
+            {
+              "id": "3",
+              "text": "開く。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に関して／に関する",
+          "answers": [
+            "採用に関して会議を開く。"
+          ],
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-order-09",
+          "mode": "order",
+          "prompt": "Điều tra về nguyên nhân.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "原因に"
+            },
+            {
+              "id": "1",
+              "text": "関して"
+            },
+            {
+              "id": "2",
+              "text": "調査を"
+            },
+            {
+              "id": "3",
+              "text": "行う。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に関して／に関する",
+          "answers": [
+            "原因に関して調査を行う。"
+          ],
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g01-order-10",
+          "mode": "order",
+          "prompt": "Đọc giải thích về phí.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "料金に"
+            },
+            {
+              "id": "1",
+              "text": "関する"
+            },
+            {
+              "id": "2",
+              "text": "説明を"
+            },
+            {
+              "id": "3",
+              "text": "読む。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に関して／に関する",
+          "answers": [
+            "料金に関する説明を読む。"
+          ],
+          "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l07-g02",
+      "title": "〜をめぐって",
+      "meaning": "Xoay quanh / xung quanh (thường tranh luận, xung đột)",
+      "variants": [
+        "をめぐって",
+        "をめぐる"
+      ],
+      "structures": [
+        "N ＋ をめぐって",
+        "N ＋ をめぐる ＋ N"
+      ],
+      "explanation": "Nêu trung tâm của tranh cãi, đàm phán, quan tâm; thường có nhiều bên liên quan.",
+      "usage": "Tin tức, phân tích: tranh luận xoay quanh…",
+      "cautions": [
+        "Khác について ở chỗ nhấn 'xoay quanh một điểm nóng'.",
+        "をめぐる修飾 N (遺産をめぐる争い)."
+      ],
+      "contrast": "をめぐって ≈ xoay quanh. Khác に関して (trung lập về chủ đề).",
+      "examples": [
+        {
+          "ja": "相続をめぐって家族が争っている。",
+          "reading": "そうぞくをめぐってかぞくがあらそっている。",
+          "vi": "Gia đình đang tranh chấp xoay quanh thừa kế.",
+          "ruby": [
+            {
+              "text": "相続",
+              "reading": "そうぞく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "めぐって"
+            },
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "争",
+              "reading": "あらそ"
+            },
+            {
+              "text": "っている。"
+            }
+          ]
+        },
+        {
+          "ja": "新制度をめぐる議論が続いている。",
+          "reading": "しんせいどをめぐるぎろんがつづいている。",
+          "vi": "Cuộc thảo luận xoay quanh chế độ mới vẫn tiếp diễn.",
+          "ruby": [
+            {
+              "text": "新",
+              "reading": "しん"
+            },
+            {
+              "text": "制度",
+              "reading": "せいど"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "めぐる"
+            },
+            {
+              "text": "議論",
+              "reading": "ぎろん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "いている。"
+            }
+          ]
+        },
+        {
+          "ja": "土地の境界をめぐって隣人と対立した。",
+          "reading": "とちのきょうかいをめぐってりんじんとたいりつした。",
+          "vi": "Đối đầu với hàng xóm xoay quanh ranh giới đất.",
+          "ruby": [
+            {
+              "text": "土地",
+              "reading": "とち"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "境界",
+              "reading": "きょうかい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "めぐって"
+            },
+            {
+              "text": "隣人",
+              "reading": "りんじん"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "対立",
+              "reading": "たいりつ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 47,
+        "printedPage": 34,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-o-megutte-xoay-quanh-xung-quanh/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l07-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Họ tranh luận xoay quanh ngân sách.",
+          "answers": [
+            "予算をめぐって議論している。"
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Có xung đột xoay quanh quyền lợi.",
+          "answers": [
+            "権利をめぐって対立が起きている。"
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Tin tức xoay quanh vụ bê bối.",
+          "answers": [
+            "その不祥事をめぐる報道が多い。"
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Hai nước đàm phán xoay quanh biên giới.",
+          "answers": [
+            "国境をめぐって両国が交渉している。"
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Gia đình cãi nhau xoay quanh nhà cửa.",
+          "answers": [
+            "家屋をめぐって親族がもめている。"
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Có tranh chấp xoay quanh bản quyền.",
+          "answers": [
+            "著作権をめぐる争いがある。"
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Ứng viên tranh luận xoay quanh thuế.",
+          "answers": [
+            "税金をめぐって候補者が討論した。"
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Công ty kiện nhau xoay quanh bằng sáng chế.",
+          "answers": [
+            "特許をめぐって企業が争っている。"
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Cư dân phản đối xoay quanh dự án xây dựng.",
+          "answers": [
+            "建設計画をめぐって住民が反対している。"
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Báo chí đưa tin xoay quanh kết quả bầu cử.",
+          "answers": [
+            "選挙結果をめぐる報道が続いている。"
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "遺産をめぐって兄弟が対立した。",
+          "answers": [
+            "Anh em đối đầu xoay quanh di sản."
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "人事をめぐる噂が広がっている。",
+          "answers": [
+            "Tin đồn xoay quanh nhân sự đang lan."
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "方針をめぐって意見が分かれた。",
+          "answers": [
+            "Ý kiến chia rẽ xoay quanh phương châm."
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "契約条件をめぐって交渉が難航した。",
+          "answers": [
+            "Đàm phán xoay quanh điều kiện hợp đồng gặp khó."
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "真実をめぐる論争が続いた。",
+          "answers": [
+            "Tranh luận xoay quanh sự thật kéo dài."
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "優勝をめぐって両チームが競った。",
+          "answers": [
+            "Hai đội tranh tài xoay quanh chức vô địch."
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "責任の所在をめぐって議論になった。",
+          "answers": [
+            "Thảo luận xoay quanh trách nhiệm thuộc về ai."
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "開発計画をめぐる抗議が行われた。",
+          "answers": [
+            "Có cuộc phản đối xoay quanh kế hoạch phát triển."
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "株価をめぐって投資家がざわついた。",
+          "answers": [
+            "Nhà đầu tư xôn xao xoay quanh giá cổ phiếu."
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "ルール改正をめぐって賛否が分かれた。",
+          "answers": [
+            "Tán thành/phản đối chia rẽ xoay quanh sửa quy tắc."
+          ],
+          "hint": "N ＋ をめぐって／をめぐる",
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-order-01",
+          "mode": "order",
+          "prompt": "Tranh luận xoay quanh ngân sách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "予算を"
+            },
+            {
+              "id": "1",
+              "text": "めぐって"
+            },
+            {
+              "id": "2",
+              "text": "議論が"
+            },
+            {
+              "id": "3",
+              "text": "続く。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をめぐって／をめぐる",
+          "answers": [
+            "予算をめぐって議論が続く。"
+          ],
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-order-02",
+          "mode": "order",
+          "prompt": "Xung đột xoay quanh quyền lợi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "権利を"
+            },
+            {
+              "id": "1",
+              "text": "めぐって"
+            },
+            {
+              "id": "2",
+              "text": "対立が"
+            },
+            {
+              "id": "3",
+              "text": "起きた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をめぐって／をめぐる",
+          "answers": [
+            "権利をめぐって対立が起きた。"
+          ],
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-order-03",
+          "mode": "order",
+          "prompt": "Tin xoay quanh bê bối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "不祥事を"
+            },
+            {
+              "id": "1",
+              "text": "めぐる"
+            },
+            {
+              "id": "2",
+              "text": "報道が"
+            },
+            {
+              "id": "3",
+              "text": "多い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をめぐって／をめぐる",
+          "answers": [
+            "不祥事をめぐる報道が多い。"
+          ],
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-order-04",
+          "mode": "order",
+          "prompt": "Đàm phán xoay quanh biên giới.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "国境を"
+            },
+            {
+              "id": "1",
+              "text": "めぐって"
+            },
+            {
+              "id": "2",
+              "text": "交渉が"
+            },
+            {
+              "id": "3",
+              "text": "進む。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をめぐって／をめぐる",
+          "answers": [
+            "国境をめぐって交渉が進む。"
+          ],
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-order-05",
+          "mode": "order",
+          "prompt": "Cãi nhau xoay quanh nhà.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "家屋を"
+            },
+            {
+              "id": "1",
+              "text": "めぐって"
+            },
+            {
+              "id": "2",
+              "text": "親族が"
+            },
+            {
+              "id": "3",
+              "text": "もめる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をめぐって／をめぐる",
+          "answers": [
+            "家屋をめぐって親族がもめる。"
+          ],
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-order-06",
+          "mode": "order",
+          "prompt": "Tranh chấp xoay quanh bản quyền.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "著作権を"
+            },
+            {
+              "id": "1",
+              "text": "めぐる"
+            },
+            {
+              "id": "2",
+              "text": "争いが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をめぐって／をめぐる",
+          "answers": [
+            "著作権をめぐる争いがある。"
+          ],
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-order-07",
+          "mode": "order",
+          "prompt": "Kiện xoay quanh bằng sáng chế.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "特許を"
+            },
+            {
+              "id": "1",
+              "text": "めぐって"
+            },
+            {
+              "id": "2",
+              "text": "企業が"
+            },
+            {
+              "id": "3",
+              "text": "争う。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をめぐって／をめぐる",
+          "answers": [
+            "特許をめぐって企業が争う。"
+          ],
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-order-08",
+          "mode": "order",
+          "prompt": "Phản đối xoay quanh dự án.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "計画を"
+            },
+            {
+              "id": "1",
+              "text": "めぐって"
+            },
+            {
+              "id": "2",
+              "text": "住民が"
+            },
+            {
+              "id": "3",
+              "text": "反対する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をめぐって／をめぐる",
+          "answers": [
+            "計画をめぐって住民が反対する。"
+          ],
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-order-09",
+          "mode": "order",
+          "prompt": "Anh em đối đầu xoay quanh di sản.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "遺産を"
+            },
+            {
+              "id": "1",
+              "text": "めぐって"
+            },
+            {
+              "id": "2",
+              "text": "兄弟が"
+            },
+            {
+              "id": "3",
+              "text": "対立した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をめぐって／をめぐる",
+          "answers": [
+            "遺産をめぐって兄弟が対立した。"
+          ],
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g02-order-10",
+          "mode": "order",
+          "prompt": "Ý kiến chia rẽ xoay quanh phương châm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "方針を"
+            },
+            {
+              "id": "1",
+              "text": "めぐって"
+            },
+            {
+              "id": "2",
+              "text": "意見が"
+            },
+            {
+              "id": "3",
+              "text": "分かれた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ をめぐって／をめぐる",
+          "answers": [
+            "方針をめぐって意見が分かれた。"
+          ],
+          "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l07-g03",
+      "title": "〜にかけては",
+      "meaning": "Về mặt… / trong lĩnh vực… thì (không ai bằng)",
+      "variants": [
+        "にかけては",
+        "にかけても"
+      ],
+      "structures": [
+        "N ＋ にかけては",
+        "N ＋ にかけても"
+      ],
+      "explanation": "Nhấn mạnh lĩnh vực sở trường: về mặt A thì (anh ấy) xuất sắc; にかけても nhấn dù lĩnh vực nào.",
+      "usage": "Khen ngợi năng lực, so sánh chuyên môn.",
+      "cautions": [
+        "Không nhầm với から～にかけて (khoảng thời gian/không gian).",
+        "Thường theo sau đánh giá tích cực."
+      ],
+      "contrast": "にかけては ≈ về mặt… thì. Khác に関して (chỉ nêu chủ đề).",
+      "examples": [
+        {
+          "ja": "料理にかけては彼女に勝てない。",
+          "reading": "りょうりにかけてはかのじょにかてない。",
+          "vi": "Về nấu ăn thì không thắng được cô ấy.",
+          "ruby": [
+            {
+              "text": "料理",
+              "reading": "りょうり"
+            },
+            {
+              "text": "にかけては"
+            },
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "勝",
+              "reading": "か"
+            },
+            {
+              "text": "てない。"
+            }
+          ]
+        },
+        {
+          "ja": "記憶力にかけては彼が一番だ。",
+          "reading": "きおくりょくにかけてはかれがいちばんだ。",
+          "vi": "Về trí nhớ thì anh ấy số một.",
+          "ruby": [
+            {
+              "text": "記憶力",
+              "reading": "きおくりょく"
+            },
+            {
+              "text": "にかけては"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "一番",
+              "reading": "いちばん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "誠実さにかけても彼は信頼できる。",
+          "reading": "せいじつさにかけてもかれはしんらいできる。",
+          "vi": "Về sự chân thành thì anh ấy cũng đáng tin.",
+          "ruby": [
+            {
+              "text": "誠実",
+              "reading": "せいじつ"
+            },
+            {
+              "text": "さにかけても"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "信頼",
+              "reading": "しんらい"
+            },
+            {
+              "text": "できる。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 47,
+        "printedPage": 34,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kakete-wa-ni-kakete-mo-ve-mat-noi-ve-trong-linh-vuc-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l07-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Về tiếng Anh thì không ai bằng anh ấy.",
+          "answers": [
+            "英語にかけては彼の右に出る者はいない。"
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Về tốc độ thì đội này mạnh nhất.",
+          "answers": [
+            "スピードにかけてはこのチームが最強だ。"
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Về nấu ăn tôi thua chị.",
+          "answers": [
+            "料理にかけては姉にはかなわない。"
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Về tính cẩn thận thì cô ấy số một.",
+          "answers": [
+            "丁寧さにかけては彼女が一番だ。"
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Về kiến thức lịch sử thì thầy ấy giỏi.",
+          "answers": [
+            "歴史の知識にかけては先生が詳しい。"
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Về dịch vụ khách hàng cửa hàng này nổi tiếng.",
+          "answers": [
+            "接客にかけてはこの店が有名だ。"
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Về sức bền thì anh ấy không thua ai.",
+          "answers": [
+            "持久力にかけては彼は負けない。"
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Về thiết kế thì công ty đó hàng đầu.",
+          "answers": [
+            "デザインにかけてはあの会社がトップだ。"
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Về sự đúng giờ thì đội này đáng tin.",
+          "answers": [
+            "時間厳守にかけてはこの班は信頼できる。"
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Về khiếu hài hước thì bạn ấy giỏi.",
+          "answers": [
+            "ユーモアにかけては彼が上手だ。"
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "交渉にかけては部長が得意だ。",
+          "answers": [
+            "Về đàm phán thì trưởng phòng giỏi."
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "忍耐にかけては彼女は誰にも負けない。",
+          "answers": [
+            "Về kiên nhẫn thì cô ấy không thua ai."
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "味にかけては母の料理が一番だ。",
+          "answers": [
+            "Về vị thì món mẹ nấu số một."
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "正確さにかけては機械の方が上だ。",
+          "answers": [
+            "Về độ chính xác thì máy tốt hơn."
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "創造性にかけては学生たちがすごい。",
+          "answers": [
+            "Về sáng tạo thì sinh viên thật ấn tượng."
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "体力にかけても彼は若い頃と変わらない。",
+          "answers": [
+            "Về thể lực thì anh ấy vẫn như thời trẻ."
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "礼儀にかけてはこの学校が厳しい。",
+          "answers": [
+            "Về lễ nghi thì trường này nghiêm."
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "効率にかけては新しい方法が優れている。",
+          "answers": [
+            "Về hiệu quả thì phương pháp mới vượt trội."
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "歌唱力にかけては彼女が群を抜いている。",
+          "answers": [
+            "Về khả năng hát thì cô ấy vượt trội."
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "分析力にかけては彼は社内一だ。",
+          "answers": [
+            "Về phân tích thì anh ấy nhất công ty."
+          ],
+          "hint": "N ＋ にかけては／にかけても",
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-order-01",
+          "mode": "order",
+          "prompt": "Về nấu ăn không thắng cô ấy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "料理に"
+            },
+            {
+              "id": "1",
+              "text": "かけては"
+            },
+            {
+              "id": "2",
+              "text": "彼女に"
+            },
+            {
+              "id": "3",
+              "text": "勝てない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にかけては／にかけても",
+          "answers": [
+            "料理にかけては彼女に勝てないのだ。"
+          ],
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-order-02",
+          "mode": "order",
+          "prompt": "Về trí nhớ anh ấy số một.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "記憶力に"
+            },
+            {
+              "id": "1",
+              "text": "かけては"
+            },
+            {
+              "id": "2",
+              "text": "彼が"
+            },
+            {
+              "id": "3",
+              "text": "一番だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にかけては／にかけても",
+          "answers": [
+            "記憶力にかけては彼が一番だのだ。"
+          ],
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-order-03",
+          "mode": "order",
+          "prompt": "Về tiếng Anh không ai bằng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "英語に"
+            },
+            {
+              "id": "1",
+              "text": "かけては"
+            },
+            {
+              "id": "2",
+              "text": "彼が"
+            },
+            {
+              "id": "3",
+              "text": "最強だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にかけては／にかけても",
+          "answers": [
+            "英語にかけては彼が最強だ。"
+          ],
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-order-04",
+          "mode": "order",
+          "prompt": "Về tốc độ đội này mạnh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "速度に"
+            },
+            {
+              "id": "1",
+              "text": "かけては"
+            },
+            {
+              "id": "2",
+              "text": "この班が"
+            },
+            {
+              "id": "3",
+              "text": "上だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にかけては／にかけても",
+          "answers": [
+            "速度にかけてはこの班が上だ。"
+          ],
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-order-05",
+          "mode": "order",
+          "prompt": "Về sự cẩn thận cô ấy nhất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "丁寧さに"
+            },
+            {
+              "id": "1",
+              "text": "かけては"
+            },
+            {
+              "id": "2",
+              "text": "彼女が"
+            },
+            {
+              "id": "3",
+              "text": "第一だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にかけては／にかけても",
+          "answers": [
+            "丁寧さにかけては彼女が第一だ。"
+          ],
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-order-06",
+          "mode": "order",
+          "prompt": "Về tiếp khách quán này nổi tiếng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "接客に"
+            },
+            {
+              "id": "1",
+              "text": "かけては"
+            },
+            {
+              "id": "2",
+              "text": "この店が"
+            },
+            {
+              "id": "3",
+              "text": "有名だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にかけては／にかけても",
+          "answers": [
+            "接客にかけてはこの店が有名だ。"
+          ],
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-order-07",
+          "mode": "order",
+          "prompt": "Về sức bền anh ấy không thua.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "持久力に"
+            },
+            {
+              "id": "1",
+              "text": "かけては"
+            },
+            {
+              "id": "2",
+              "text": "彼は"
+            },
+            {
+              "id": "3",
+              "text": "負けない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にかけては／にかけても",
+          "answers": [
+            "持久力にかけては彼は負けない。"
+          ],
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-order-08",
+          "mode": "order",
+          "prompt": "Về thiết kế công ty đó top.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "デザインに"
+            },
+            {
+              "id": "1",
+              "text": "かけては"
+            },
+            {
+              "id": "2",
+              "text": "あの社が"
+            },
+            {
+              "id": "3",
+              "text": "トップだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にかけては／にかけても",
+          "answers": [
+            "デザインにかけてはあの社がトップだ。"
+          ],
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-order-09",
+          "mode": "order",
+          "prompt": "Về đàm phán trưởng phòng giỏi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "交渉に"
+            },
+            {
+              "id": "1",
+              "text": "かけては"
+            },
+            {
+              "id": "2",
+              "text": "部長が"
+            },
+            {
+              "id": "3",
+              "text": "得意だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にかけては／にかけても",
+          "answers": [
+            "交渉にかけては部長が得意だ。"
+          ],
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g03-order-10",
+          "mode": "order",
+          "prompt": "Về vị món mẹ số một.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "味に"
+            },
+            {
+              "id": "1",
+              "text": "かけては"
+            },
+            {
+              "id": "2",
+              "text": "母の料理が"
+            },
+            {
+              "id": "3",
+              "text": "一番だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にかけては／にかけても",
+          "answers": [
+            "味にかけては母の料理が一番だ。"
+          ],
+          "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l07-g04",
+      "title": "〜に対して",
+      "meaning": "Đối với… / đối lại…",
+      "variants": [
+        "に対して",
+        "に対する"
+      ],
+      "structures": [
+        "N ＋ に対して",
+        "N ＋ に対する ＋ N"
+      ],
+      "explanation": "Nêu đối tượng nhận hành động/thái độ, hoặc đối chiếu hai bên.",
+      "usage": "Thái độ với người/việc; so sánh A thì… còn B thì…",
+      "cautions": [
+        "に対する修飾 N (会社に対する不満).",
+        "Có thể mang nghĩa 'trái lại' khi đối chiếu."
+      ],
+      "contrast": "に対して ≈ đối với / đối lại. Khác について (về chủ đề) và にこたえて (đáp ứng).",
+      "examples": [
+        {
+          "ja": "彼は顧客に対して丁寧だ。",
+          "reading": "かれはこきゃくにたいしてていねいだ。",
+          "vi": "Anh ấy lịch sự đối với khách hàng.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "顧客",
+              "reading": "こきゃく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "丁寧",
+              "reading": "ていねい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "質問に対する答えを準備した。",
+          "reading": "しつもんにたいするこたえをじゅんびした。",
+          "vi": "Đã chuẩn bị câu trả lời cho câu hỏi.",
+          "ruby": [
+            {
+              "text": "質問",
+              "reading": "しつもん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "答",
+              "reading": "こた"
+            },
+            {
+              "text": "えを"
+            },
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        },
+        {
+          "ja": "都市部に対して地方は人口が減っている。",
+          "reading": "としぶにたいしてちほうはじんこうがへっている。",
+          "vi": "Đối lại khu đô thị, địa phương dân số đang giảm.",
+          "ruby": [
+            {
+              "text": "都市部",
+              "reading": "としぶ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "地方",
+              "reading": "ちほう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "人口",
+              "reading": "じんこう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "減",
+              "reading": "へ"
+            },
+            {
+              "text": "っている。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 47,
+        "printedPage": 34,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-nitaishite-nitaisuru-doi-voi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l07-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy nghiêm khắc đối với học sinh.",
+          "answers": [
+            "彼は生徒に対して厳しい。"
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Công ty có trách nhiệm đối với xã hội.",
+          "answers": [
+            "企業は社会に対して責任がある。"
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Tôi biết ơn đối với sự giúp đỡ của bạn.",
+          "answers": [
+            "あなたの援助に対して感謝している。"
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đối với phê bình anh ấy bình tĩnh.",
+          "answers": [
+            "批判に対して彼は冷静だ。"
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đây là biện pháp đối với rủi ro.",
+          "answers": [
+            "これはリスクに対する対策だ。"
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Đối lại năm ngoái, năm nay bán chạy.",
+          "answers": [
+            "去年に対して今年はよく売れている。"
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy dịu dàng đối với trẻ nhỏ.",
+          "answers": [
+            "彼女は子供に対して優しい。"
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Đã trả lời đối với khiếu nại.",
+          "answers": [
+            "苦情に対して返答した。"
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Đối với đề xuất này ý kiến chia rẽ.",
+          "answers": [
+            "この提案に対して意見が分かれた。"
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Thái độ đối với môi trường đang thay đổi.",
+          "answers": [
+            "環境に対する意識が変わってきている。"
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "上司に対して意見を述べた。",
+          "answers": [
+            "Trình bày ý kiến đối với cấp trên."
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "暴力に対する罰則が強化された。",
+          "answers": [
+            "Hình phạt đối với bạo lực được siết chặt."
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "期待に対して結果が伴わなかった。",
+          "answers": [
+            "Đối với kỳ vọng, kết quả không theo kịp."
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "外国人に対して親切な町だ。",
+          "answers": [
+            "Là thị trấn thân thiện đối với người nước ngoài."
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "値上げに対して客が反発した。",
+          "answers": [
+            "Khách phản ứng đối với việc tăng giá."
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "彼の態度に対して不満がある。",
+          "answers": [
+            "Tôi bất mãn đối với thái độ của anh ấy."
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "質問に対してすぐに答えた。",
+          "answers": [
+            "Trả lời ngay đối với câu hỏi."
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "A案に対してB案の方が現実的だ。",
+          "answers": [
+            "Đối lại phương án A, B thực tế hơn."
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "自然災害に対する備えが必要だ。",
+          "answers": [
+            "Cần chuẩn bị đối với thiên tai."
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "観客に対して感謝の言葉を述べた。",
+          "answers": [
+            "Nói lời cảm ơn đối với khán giả."
+          ],
+          "hint": "N ＋ に対して／に対する",
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-order-01",
+          "mode": "order",
+          "prompt": "Lịch sự đối với khách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "顧客に"
+            },
+            {
+              "id": "1",
+              "text": "対して"
+            },
+            {
+              "id": "2",
+              "text": "丁寧に"
+            },
+            {
+              "id": "3",
+              "text": "接する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に対して／に対する",
+          "answers": [
+            "顧客に対して丁寧に接する。"
+          ],
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-order-02",
+          "mode": "order",
+          "prompt": "Chuẩn bị trả lời cho câu hỏi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "質問に"
+            },
+            {
+              "id": "1",
+              "text": "対する"
+            },
+            {
+              "id": "2",
+              "text": "答えを"
+            },
+            {
+              "id": "3",
+              "text": "用意した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に対して／に対する",
+          "answers": [
+            "質問に対する答えを用意した。"
+          ],
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-order-03",
+          "mode": "order",
+          "prompt": "Nghiêm đối với học sinh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "生徒に"
+            },
+            {
+              "id": "1",
+              "text": "対して"
+            },
+            {
+              "id": "2",
+              "text": "厳しく"
+            },
+            {
+              "id": "3",
+              "text": "指導する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に対して／に対する",
+          "answers": [
+            "生徒に対して厳しく指導する。"
+          ],
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-order-04",
+          "mode": "order",
+          "prompt": "Biết ơn đối với giúp đỡ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "援助に"
+            },
+            {
+              "id": "1",
+              "text": "対して"
+            },
+            {
+              "id": "2",
+              "text": "感謝を"
+            },
+            {
+              "id": "3",
+              "text": "伝える。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に対して／に対する",
+          "answers": [
+            "援助に対して感謝を伝える。"
+          ],
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-order-05",
+          "mode": "order",
+          "prompt": "Biện pháp đối với rủi ro.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "リスクに"
+            },
+            {
+              "id": "1",
+              "text": "対する"
+            },
+            {
+              "id": "2",
+              "text": "対策を"
+            },
+            {
+              "id": "3",
+              "text": "取る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に対して／に対する",
+          "answers": [
+            "リスクに対する対策を取る。"
+          ],
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-order-06",
+          "mode": "order",
+          "prompt": "Dịu dàng đối với trẻ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "子供に"
+            },
+            {
+              "id": "1",
+              "text": "対して"
+            },
+            {
+              "id": "2",
+              "text": "優しく"
+            },
+            {
+              "id": "3",
+              "text": "話す。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に対して／に対する",
+          "answers": [
+            "子供に対して優しく話す。"
+          ],
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-order-07",
+          "mode": "order",
+          "prompt": "Trả lời khiếu nại.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "苦情に"
+            },
+            {
+              "id": "1",
+              "text": "対して"
+            },
+            {
+              "id": "2",
+              "text": "返答を"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に対して／に対する",
+          "answers": [
+            "苦情に対して返答をした。"
+          ],
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-order-08",
+          "mode": "order",
+          "prompt": "Ý kiến chia rẽ về đề xuất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "提案に"
+            },
+            {
+              "id": "1",
+              "text": "対して"
+            },
+            {
+              "id": "2",
+              "text": "賛否が"
+            },
+            {
+              "id": "3",
+              "text": "分かれた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に対して／に対する",
+          "answers": [
+            "提案に対して賛否が分かれた。"
+          ],
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-order-09",
+          "mode": "order",
+          "prompt": "Phản ứng đối với tăng giá.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "値上げに"
+            },
+            {
+              "id": "1",
+              "text": "対して"
+            },
+            {
+              "id": "2",
+              "text": "客が"
+            },
+            {
+              "id": "3",
+              "text": "反発した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に対して／に対する",
+          "answers": [
+            "値上げに対して客が反発した。"
+          ],
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g04-order-10",
+          "mode": "order",
+          "prompt": "Nói cảm ơn đối với khán giả.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "観客に"
+            },
+            {
+              "id": "1",
+              "text": "対して"
+            },
+            {
+              "id": "2",
+              "text": "礼を"
+            },
+            {
+              "id": "3",
+              "text": "述べた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に対して／に対する",
+          "answers": [
+            "観客に対して礼を述べた。"
+          ],
+          "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l07-g05",
+      "title": "〜にこたえて",
+      "meaning": "Đáp ứng / đáp lại (mong đợi, yêu cầu, tiếng gọi…)",
+      "variants": [
+        "にこたえて",
+        "にこたえ"
+      ],
+      "structures": [
+        "N ＋ にこたえて",
+        "N ＋ にこたえ"
+      ],
+      "explanation": "Hành động nhằm đáp ứng kỳ vọng, nhu cầu, yêu cầu của đối tượng.",
+      "usage": "Thông báo, quảng cáo, bài viết trang trọng.",
+      "cautions": [
+        "Thường đi với 期待／要望／ニーズ／声など.",
+        "Không dùng cho 'trả lời câu hỏi' thông thường (dùng 答える)."
+      ],
+      "contrast": "にこたえて ≈ đáp ứng. Khác に対して (đối với) và 答える (trả lời).",
+      "examples": [
+        {
+          "ja": "消費者の要望にこたえて新製品を出した。",
+          "reading": "しょうひしゃのようぼうにこたえてしんせいひんをだした。",
+          "vi": "Đáp ứng nguyện vọng người tiêu dùng, đã ra sản phẩm mới.",
+          "ruby": [
+            {
+              "text": "消費者",
+              "reading": "しょうひしゃ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "要望",
+              "reading": "ようぼう"
+            },
+            {
+              "text": "にこたえて"
+            },
+            {
+              "text": "新製品",
+              "reading": "しんせいひん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        },
+        {
+          "ja": "ファンの声にこたえて再放送が決まった。",
+          "reading": "ふぁんのこえにこたえてさいほうそうがきまった。",
+          "vi": "Đáp lại tiếng nói người hâm mộ, đã quyết định phát lại.",
+          "ruby": [
+            {
+              "text": "ファンの"
+            },
+            {
+              "text": "声",
+              "reading": "こえ"
+            },
+            {
+              "text": "にこたえて"
+            },
+            {
+              "text": "再放送",
+              "reading": "さいほうそう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "まった。"
+            }
+          ]
+        },
+        {
+          "ja": "期待にこたえて彼は好成績を残した。",
+          "reading": "きたいにこたえてかれはこうせいせきをのこした。",
+          "vi": "Đáp lại kỳ vọng, anh ấy đạt thành tích tốt.",
+          "ruby": [
+            {
+              "text": "期待",
+              "reading": "きたい"
+            },
+            {
+              "text": "にこたえて"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "好成績",
+              "reading": "こうせいせき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "残",
+              "reading": "のこ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 47,
+        "printedPage": 34,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kotaete-theo-dap-ung-dap-lai/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l07-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Đáp ứng nhu cầu thị trường đã mở rộng sản xuất.",
+          "answers": [
+            "市場のニーズにこたえて生産を拡大した。"
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Đáp lại yêu cầu của cư dân đã mở thêm xe buýt.",
+          "answers": [
+            "住民の要求にこたえてバスを増便した。"
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Đáp ứng kỳ vọng của fan cô ấy hát lại.",
+          "answers": [
+            "ファンの期待にこたえて彼女はアンコールした。"
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đáp lại tiếng gọi cứu trợ đã gửi hàng.",
+          "answers": [
+            "救援の呼びかけにこたえて物資を送った。"
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đáp ứng mong muốn khách đã kéo dài giờ mở cửa.",
+          "answers": [
+            "客の希望にこたえて営業時間を延ばした。"
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Đáp lại kỳ vọng giáo viên anh ấy đậu kỳ thi.",
+          "answers": [
+            "先生の期待にこたえて彼は試験に合格した。"
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Đáp ứng nhu cầu học viên mở thêm lớp tối.",
+          "answers": [
+            "受講者のニーズにこたえて夜間講座を開いた。"
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Đáp lại yêu cầu công chúng công bố dữ liệu.",
+          "answers": [
+            "世論の要求にこたえてデータを公開した。"
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Đáp ứng nguyện vọng nhân viên cải thiện phúc lợi.",
+          "answers": [
+            "社員の要望にこたえて福利厚生を改善した。"
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Đáp lại kỳ vọng cổ đông tăng cổ tức.",
+          "answers": [
+            "株主の期待にこたえて配当を増やした。"
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "顧客の声にこたえて価格を見直した。",
+          "answers": [
+            "Đáp lại tiếng nói khách hàng đã xem lại giá."
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "時代の要請にこたえて制度を変えた。",
+          "answers": [
+            "Đáp ứng yêu cầu thời đại đã đổi chế độ."
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "読者の要望にこたえて続編を書いた。",
+          "answers": [
+            "Đáp ứng nguyện vọng độc giả đã viết phần tiếp."
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "選手たちは声援にこたえて奮闘した。",
+          "answers": [
+            "Các vận động viên đáp lại cổ vũ và cố gắng."
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "地域の期待にこたえて病院が開業した。",
+          "answers": [
+            "Đáp ứng kỳ vọng địa phương bệnh viện đã khai trương."
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "子供たちの願いにこたえて公園を造った。",
+          "answers": [
+            "Đáp lại ước nguyện của trẻ đã làm công viên."
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "利用者の意見にこたえてアプリを更新した。",
+          "answers": [
+            "Đáp ứng ý kiến người dùng đã cập nhật app."
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "国際社会の要請にこたえて協力した。",
+          "answers": [
+            "Đáp ứng yêu cầu cộng đồng quốc tế đã hợp tác."
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "観客のアンコールにこたえて再演した。",
+          "answers": [
+            "Đáp lại encore của khán giả đã diễn lại."
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "現場のニーズにこたえて人員を増やした。",
+          "answers": [
+            "Đáp ứng nhu cầu hiện trường đã tăng nhân sự."
+          ],
+          "hint": "N ＋ にこたえて",
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-order-01",
+          "mode": "order",
+          "prompt": "Đáp ứng nguyện vọng ra sản phẩm mới.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "要望に"
+            },
+            {
+              "id": "1",
+              "text": "こたえて"
+            },
+            {
+              "id": "2",
+              "text": "新製品を"
+            },
+            {
+              "id": "3",
+              "text": "出した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にこたえて",
+          "answers": [
+            "要望にこたえて新製品を出した。"
+          ],
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-order-02",
+          "mode": "order",
+          "prompt": "Đáp lại tiếng nói fan phát lại.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "声に"
+            },
+            {
+              "id": "1",
+              "text": "こたえて"
+            },
+            {
+              "id": "2",
+              "text": "再放送が"
+            },
+            {
+              "id": "3",
+              "text": "決まった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にこたえて",
+          "answers": [
+            "声にこたえて再放送が決まった。"
+          ],
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-order-03",
+          "mode": "order",
+          "prompt": "Đáp lại kỳ vọng đạt thành tích.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "期待に"
+            },
+            {
+              "id": "1",
+              "text": "こたえて"
+            },
+            {
+              "id": "2",
+              "text": "好成績を"
+            },
+            {
+              "id": "3",
+              "text": "残した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にこたえて",
+          "answers": [
+            "期待にこたえて好成績を残した。"
+          ],
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-order-04",
+          "mode": "order",
+          "prompt": "Đáp ứng nhu cầu mở rộng sản xuất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ニーズに"
+            },
+            {
+              "id": "1",
+              "text": "こたえて"
+            },
+            {
+              "id": "2",
+              "text": "生産を"
+            },
+            {
+              "id": "3",
+              "text": "拡大した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にこたえて",
+          "answers": [
+            "ニーズにこたえて生産を拡大した。"
+          ],
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-order-05",
+          "mode": "order",
+          "prompt": "Đáp lại yêu cầu tăng chuyến xe.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "要求に"
+            },
+            {
+              "id": "1",
+              "text": "こたえて"
+            },
+            {
+              "id": "2",
+              "text": "増便を"
+            },
+            {
+              "id": "3",
+              "text": "決めた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にこたえて",
+          "answers": [
+            "要求にこたえて増便を決めた。"
+          ],
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-order-06",
+          "mode": "order",
+          "prompt": "Đáp ứng mong muốn kéo dài giờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "希望に"
+            },
+            {
+              "id": "1",
+              "text": "こたえて"
+            },
+            {
+              "id": "2",
+              "text": "時間を"
+            },
+            {
+              "id": "3",
+              "text": "延ばした。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にこたえて",
+          "answers": [
+            "希望にこたえて時間を延ばした。"
+          ],
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-order-07",
+          "mode": "order",
+          "prompt": "Đáp lại kỳ vọng thầy đậu thi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "期待に"
+            },
+            {
+              "id": "1",
+              "text": "こたえて"
+            },
+            {
+              "id": "2",
+              "text": "合格を"
+            },
+            {
+              "id": "3",
+              "text": "果たした。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にこたえて",
+          "answers": [
+            "期待にこたえて合格を果たした。"
+          ],
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-order-08",
+          "mode": "order",
+          "prompt": "Đáp ứng nguyện vọng cải thiện phúc lợi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "要望に"
+            },
+            {
+              "id": "1",
+              "text": "こたえて"
+            },
+            {
+              "id": "2",
+              "text": "待遇を"
+            },
+            {
+              "id": "3",
+              "text": "改善した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にこたえて",
+          "answers": [
+            "要望にこたえて待遇を改善した。"
+          ],
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-order-09",
+          "mode": "order",
+          "prompt": "Đáp lại ý kiến cập nhật app.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "意見に"
+            },
+            {
+              "id": "1",
+              "text": "こたえて"
+            },
+            {
+              "id": "2",
+              "text": "アプリを"
+            },
+            {
+              "id": "3",
+              "text": "更新した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にこたえて",
+          "answers": [
+            "意見にこたえてアプリを更新した。"
+          ],
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        },
+        {
+          "id": "l07-g05-order-10",
+          "mode": "order",
+          "prompt": "Đáp ứng nhu cầu tăng nhân sự.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ニーズに"
+            },
+            {
+              "id": "1",
+              "text": "こたえて"
+            },
+            {
+              "id": "2",
+              "text": "人員を"
+            },
+            {
+              "id": "3",
+              "text": "増やした。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ にこたえて",
+          "answers": [
+            "ニーズにこたえて人員を増やした。"
+          ],
+          "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+        }
+      ]
+    }
+  ]
+}
