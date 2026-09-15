@@ -1,0 +1,3779 @@
+{
+  "id": "lesson-03",
+  "titleJa": "〜後で",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 3. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L02-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l03-g01",
+      "title": "〜てはじめて",
+      "meaning": "Chỉ sau khi… mới…; mãi đến khi… mới nhận ra",
+      "variants": [
+        "てはじめて"
+      ],
+      "structures": [
+        "Vて ＋ はじめて"
+      ],
+      "explanation": "Nêu rằng chỉ sau khi trải qua A thì mới xảy ra B (thường là nhận thức, hiểu ra, bắt đầu được).",
+      "usage": "Kể trải nghiệm; nhấn mạnh điều kiện tiên quyết về trải nghiệm.",
+      "cautions": [
+        "Không dùng cho chuỗi hành động đơn thuần 'xong A rồi B' — cần sắc thái 'mới/chỉ khi'.",
+        "Thường đi với nhận thức, khả năng, thay đổi nhận thức."
+      ],
+      "contrast": "てはじめて ≠ てから (sau khi). てはじめて nhấn 'chỉ nhờ trải qua mới…'.",
+      "examples": [
+        {
+          "ja": "病気になってはじめて健康のありがたさがわかった。",
+          "reading": "びょうきになってはじめてけんこうのありがたさがわかった。",
+          "vi": "Chỉ khi bị bệnh tôi mới hiểu giá trị của sức khỏe.",
+          "ruby": [
+            {
+              "text": "病気",
+              "reading": "びょうき"
+            },
+            {
+              "text": "になってはじめて"
+            },
+            {
+              "text": "健康",
+              "reading": "けんこう"
+            },
+            {
+              "text": "のありがたさがわかった。"
+            }
+          ]
+        },
+        {
+          "ja": "日本に来てはじめて刺身を食べた。",
+          "reading": "にほんにきてはじめてさしみをたべた。",
+          "vi": "Chỉ sau khi đến Nhật tôi mới ăn sashimi lần đầu.",
+          "ruby": [
+            {
+              "text": "日本",
+              "reading": "にほん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "来",
+              "reading": "き"
+            },
+            {
+              "text": "てはじめて"
+            },
+            {
+              "text": "刺身",
+              "reading": "さしみ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "食",
+              "reading": "た"
+            },
+            {
+              "text": "べた。"
+            }
+          ]
+        },
+        {
+          "ja": "失敗してはじめて自分の弱点に気づいた。",
+          "reading": "しっぱいしてはじめてじぶんのじゃくてんにきづいた。",
+          "vi": "Chỉ sau khi thất bại tôi mới nhận ra điểm yếu của mình.",
+          "ruby": [
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "してはじめて"
+            },
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "弱点",
+              "reading": "じゃくてん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "づいた。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 29,
+        "printedPage": 16,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-tehajimete-ke-tu-khi-bat-dau/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l03-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Chỉ khi mất việc tôi mới hiểu giá trị công việc.",
+          "answers": [
+            "職を失ってはじめて仕事の大切さがわかった。"
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Chỉ sau khi sống một mình tôi mới biết nấu ăn.",
+          "answers": [
+            "一人暮らしをしてはじめて料理ができるようになった。"
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Chỉ khi có con tôi mới hiểu công ơn cha mẹ.",
+          "answers": [
+            "親になってはじめて親の恩がわかった。"
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Chỉ sau khi đọc sách đó tôi mới quan tâm lịch sử.",
+          "answers": [
+            "その本を読んではじめて歴史に興味を持った。"
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Chỉ khi đi nước ngoài tôi mới nhận ra hạn chế tiếng Anh.",
+          "answers": [
+            "海外に行ってはじめて英語力の不足に気づいた。"
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Chỉ sau khi thất bại dự án tôi mới học cách lập kế hoạch.",
+          "answers": [
+            "プロジェクトに失敗してはじめて計画の立て方を学んだ。"
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Chỉ khi gặp thầy tôi mới thích toán.",
+          "answers": [
+            "先生に出会ってはじめて数学が好きになった。"
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Chỉ sau khi nghỉ việc tôi mới có thời gian cho gia đình.",
+          "answers": [
+            "退職してはじめて家族との時間を持てた。"
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Chỉ khi bị cảm tôi mới biết nghỉ ngơi quan trọng.",
+          "answers": [
+            "風邪をひいてはじめて休息の大切さがわかった。"
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chỉ sau khi thắng giải tôi mới tự tin.",
+          "answers": [
+            "大会に優勝してはじめて自信がついた。"
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "実際にやってみてはじめて難しさがわかった。",
+          "answers": [
+            "Chỉ khi thử làm thật tôi mới hiểu độ khó."
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "留学してはじめて自立できた。",
+          "answers": [
+            "Chỉ sau khi du học tôi mới tự lập được."
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "事故に遭ってはじめて安全運転を心がけるようになった。",
+          "answers": [
+            "Chỉ khi gặp tai nạn tôi mới chú tâm lái xe an toàn."
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "結婚してはじめて責任の重さを感じた。",
+          "answers": [
+            "Chỉ sau khi kết hôn tôi mới cảm nhận trọng trách."
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "彼に出会ってはじめて人生が変わった。",
+          "answers": [
+            "Chỉ khi gặp anh ấy cuộc đời tôi mới thay đổi."
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "辞めてはじめて会社の良さがわかった。",
+          "answers": [
+            "Chỉ sau khi nghỉ việc tôi mới hiểu điểm tốt của công ty."
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "発表してはじめて自分の考えが整理できた。",
+          "answers": [
+            "Chỉ khi thuyết trình tôi mới sắp xếp được suy nghĩ."
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "経験してはじめて人の気持ちがわかるようになる。",
+          "answers": [
+            "Chỉ sau khi trải nghiệm mới hiểu cảm xúc người khác."
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "試合に出てみてはじめて実力がわかった。",
+          "answers": [
+            "Chỉ khi ra sân thi đấu tôi mới biết thực lực."
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "夜勤をしてはじめて昼間の仕事の楽さがわかった。",
+          "answers": [
+            "Chỉ sau khi làm ca đêm tôi mới thấy ca ngày dễ chịu."
+          ],
+          "hint": "Vて ＋ はじめて",
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-order-01",
+          "mode": "order",
+          "prompt": "Chỉ khi bị bệnh mới biết ơn sức khỏe.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "病気に"
+            },
+            {
+              "id": "1",
+              "text": "なって"
+            },
+            {
+              "id": "2",
+              "text": "はじめて"
+            },
+            {
+              "id": "3",
+              "text": "健康のありがたさがわかった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vて ＋ はじめて",
+          "answers": [
+            "病気になってはじめて健康のありがたさがわかったのだ。"
+          ],
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động. ★ là はじめて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-order-02",
+          "mode": "order",
+          "prompt": "Chỉ sau khi đến Nhật mới ăn sushi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "日本に"
+            },
+            {
+              "id": "1",
+              "text": "来て"
+            },
+            {
+              "id": "2",
+              "text": "はじめて"
+            },
+            {
+              "id": "3",
+              "text": "寿司を食べた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vて ＋ はじめて",
+          "answers": [
+            "日本に来てはじめて寿司を食べた。"
+          ],
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động. ★ là はじめて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-order-03",
+          "mode": "order",
+          "prompt": "Chỉ khi thất bại mới nhận ra điểm yếu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失敗して"
+            },
+            {
+              "id": "1",
+              "text": "はじめて"
+            },
+            {
+              "id": "2",
+              "text": "弱点に"
+            },
+            {
+              "id": "3",
+              "text": "気づいた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ はじめて",
+          "answers": [
+            "失敗してはじめて弱点に気づいた。"
+          ],
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động. ★ là はじめて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-order-04",
+          "mode": "order",
+          "prompt": "Chỉ sau khi sống một mình mới biết tiết kiệm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一人で"
+            },
+            {
+              "id": "1",
+              "text": "暮らして"
+            },
+            {
+              "id": "2",
+              "text": "はじめて"
+            },
+            {
+              "id": "3",
+              "text": "節約を覚えた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vて ＋ はじめて",
+          "answers": [
+            "一人で暮らしてはじめて節約を覚えた。"
+          ],
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động. ★ là はじめて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-order-05",
+          "mode": "order",
+          "prompt": "Chỉ khi có con mới hiểu cha mẹ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "親に"
+            },
+            {
+              "id": "1",
+              "text": "なって"
+            },
+            {
+              "id": "2",
+              "text": "はじめて"
+            },
+            {
+              "id": "3",
+              "text": "親心がわかった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vて ＋ はじめて",
+          "answers": [
+            "親になってはじめて親心がわかった。"
+          ],
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động. ★ là はじめて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-order-06",
+          "mode": "order",
+          "prompt": "Chỉ sau khi đọc mới hiểu tác giả.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "作品を"
+            },
+            {
+              "id": "1",
+              "text": "読んで"
+            },
+            {
+              "id": "2",
+              "text": "はじめて"
+            },
+            {
+              "id": "3",
+              "text": "作者の意図がわかった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vて ＋ はじめて",
+          "answers": [
+            "作品を読んではじめて作者の意図がわかった。"
+          ],
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động. ★ là はじめて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-order-07",
+          "mode": "order",
+          "prompt": "Chỉ khi đi nước ngoài mới thấy hạn chế.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "海外へ"
+            },
+            {
+              "id": "1",
+              "text": "行って"
+            },
+            {
+              "id": "2",
+              "text": "はじめて"
+            },
+            {
+              "id": "3",
+              "text": "語学力不足に気づいた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vて ＋ はじめて",
+          "answers": [
+            "海外へ行ってはじめて語学力不足に気づいた。"
+          ],
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động. ★ là はじめて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-order-08",
+          "mode": "order",
+          "prompt": "Chỉ sau khi nghỉ mới có thời gian.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "仕事を"
+            },
+            {
+              "id": "1",
+              "text": "辞めて"
+            },
+            {
+              "id": "2",
+              "text": "はじめて"
+            },
+            {
+              "id": "3",
+              "text": "自分の時間ができた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vて ＋ はじめて",
+          "answers": [
+            "仕事を辞めてはじめて自分の時間ができた。"
+          ],
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động. ★ là はじめて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-order-09",
+          "mode": "order",
+          "prompt": "Chỉ khi thử mới biết khả năng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "実際に"
+            },
+            {
+              "id": "1",
+              "text": "やってみて"
+            },
+            {
+              "id": "2",
+              "text": "はじめて"
+            },
+            {
+              "id": "3",
+              "text": "自分の力がわかった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vて ＋ はじめて",
+          "answers": [
+            "実際にやってみてはじめて自分の力がわかった。"
+          ],
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động. ★ là はじめて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g01-order-10",
+          "mode": "order",
+          "prompt": "Chỉ sau khi gặp thầy mới thích học.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "良い先生に"
+            },
+            {
+              "id": "1",
+              "text": "出会って"
+            },
+            {
+              "id": "2",
+              "text": "はじめて"
+            },
+            {
+              "id": "3",
+              "text": "勉強が楽しくなった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vて ＋ はじめて",
+          "answers": [
+            "良い先生に出会ってはじめて勉強が楽しくなった。"
+          ],
+          "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động. ★ là はじめて.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l03-g02",
+      "title": "〜上（で）",
+      "meaning": "Sau khi… (trên cơ sở đó); trên phương diện…",
+      "variants": [
+        "上で",
+        "上"
+      ],
+      "structures": [
+        "Vた ＋ 上（で）",
+        "Nの ＋ 上（で）"
+      ],
+      "explanation": "Một nghĩa: sau khi hoàn tất A thì làm B (thường có chủ đích). Nghĩa khác: trên phương diện / xét về mặt…",
+      "usage": "Thủ tục, quyết định sau khi xem xét; hoặc nêu góc nhìn đánh giá.",
+      "cautions": [
+        "上で (sau khi) thường đi với Vた／Nの và hành động có chủ ý.",
+        "Phân biệt với 上に (thêm vào đó)."
+      ],
+      "contrast": "た上で ≈ sau khi (làm nền). Khác てから (trung tính hơn) và 次第 (ngay khi xong thì…).",
+      "examples": [
+        {
+          "ja": "内容を確認した上で契約してください。",
+          "reading": "ないようをかくにんしたうえでけいやくしてください。",
+          "vi": "Sau khi xác nhận nội dung, hãy ký hợp đồng.",
+          "ruby": [
+            {
+              "text": "内容",
+              "reading": "ないよう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "してください。"
+            }
+          ]
+        },
+        {
+          "ja": "計算の上では利益が出る。",
+          "reading": "けいさんのうえではりえきがでる。",
+          "vi": "Trên phương diện tính toán thì có lãi.",
+          "ruby": [
+            {
+              "text": "計算",
+              "reading": "けいさん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "では"
+            },
+            {
+              "text": "利益",
+              "reading": "りえき"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "る。"
+            }
+          ]
+        },
+        {
+          "ja": "よく考えた上で返事をします。",
+          "reading": "よくかんがえたうえでへんじをします。",
+          "vi": "Sau khi suy nghĩ kỹ tôi sẽ trả lời.",
+          "ruby": [
+            {
+              "text": "よく"
+            },
+            {
+              "text": "考",
+              "reading": "かんが"
+            },
+            {
+              "text": "えた"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "返事",
+              "reading": "へんじ"
+            },
+            {
+              "text": "をします。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 29,
+        "printedPage": 16,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ue-de-sau-khi-da/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ue-de-khi-trong-qua-trinh/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l03-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Sau khi đọc tài liệu, hãy quyết định.",
+          "answers": [
+            "資料を読んだ上で決めてください。"
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Sau khi thảo luận với gia đình, tôi sẽ trả lời.",
+          "answers": [
+            "家族と相談した上で返事します。"
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Trên phương diện luật pháp thì không sao.",
+          "answers": [
+            "法律の上では問題ない。"
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Sau khi kiểm tra sức khỏe, hãy nộp đơn.",
+          "answers": [
+            "健康診断を受けた上で申し込んでください。"
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Sau khi so sánh giá, tôi đã mua.",
+          "answers": [
+            "値段を比べた上で購入した。"
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Trên lý thuyết thì kế hoạch này ổn.",
+          "answers": [
+            "理論の上ではこの計画は妥当だ。"
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Sau khi nghe ý kiến mọi người, hãy sửa.",
+          "answers": [
+            "皆の意見を聞いた上で修正してください。"
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Sau khi xem hợp đồng, tôi đã ký.",
+          "answers": [
+            "契約書を見た上でサインした。"
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Trên giấy tờ thì anh ấy vẫn là sinh viên.",
+          "answers": [
+            "書類の上では彼はまだ学生だ。"
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Sau khi điều tra kỹ, cảnh sát đã bắt giữ.",
+          "answers": [
+            "詳しく調査した上で警察は逮捕した。"
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "事実を確かめた上で記事を書く。",
+          "answers": [
+            "Sau khi xác minh sự thật mới viết bài."
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "データ上では売上げが増えている。",
+          "answers": [
+            "Trên dữ liệu thì doanh số đang tăng."
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "十分検討した上で発表します。",
+          "answers": [
+            "Sau khi xem xét kỹ chúng tôi sẽ công bố."
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "親の同意を得た上で留学する。",
+          "answers": [
+            "Sau khi được cha mẹ đồng ý mới đi du học."
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "計算の上では黒字になるはずだ。",
+          "answers": [
+            "Trên tính toán lẽ ra phải có lãi."
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "説明を聞いた上で判断してください。",
+          "answers": [
+            "Sau khi nghe giải thích hãy phán đoán."
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "規則の上では禁止されている。",
+          "answers": [
+            "Trên quy định thì bị cấm."
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "試着した上で買ったほうがいい。",
+          "answers": [
+            "Nên mua sau khi thử đồ."
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "調査の上で判明した事実だ。",
+          "answers": [
+            "Đây là sự thật làm rõ sau điều tra."
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "相手の都合を聞いた上で日程を決める。",
+          "answers": [
+            "Sau khi hỏi lịch đối phương mới chốt ngày."
+          ],
+          "hint": "Vた／Nの ＋ 上（で）",
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-order-01",
+          "mode": "order",
+          "prompt": "Sau khi xác nhận, hãy ký.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "内容を"
+            },
+            {
+              "id": "1",
+              "text": "確認した"
+            },
+            {
+              "id": "2",
+              "text": "上で"
+            },
+            {
+              "id": "3",
+              "text": "契約してください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vた／Nの ＋ 上（で）",
+          "answers": [
+            "内容を確認した上で契約してくださいのだ。"
+          ],
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn. ★ là 上で.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-order-02",
+          "mode": "order",
+          "prompt": "Sau khi suy nghĩ kỹ sẽ trả lời.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "よく"
+            },
+            {
+              "id": "1",
+              "text": "考えた"
+            },
+            {
+              "id": "2",
+              "text": "上で"
+            },
+            {
+              "id": "3",
+              "text": "返事をします。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vた／Nの ＋ 上（で）",
+          "answers": [
+            "よく考えた上で返事をしますのだ。"
+          ],
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn. ★ là 上で.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-order-03",
+          "mode": "order",
+          "prompt": "Trên tính toán thì có lãi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "計算の"
+            },
+            {
+              "id": "1",
+              "text": "上では"
+            },
+            {
+              "id": "2",
+              "text": "利益が"
+            },
+            {
+              "id": "3",
+              "text": "出る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vた／Nの ＋ 上（で）",
+          "answers": [
+            "計算の上では利益が出るのだ。"
+          ],
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn. ★ là 上では.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-order-04",
+          "mode": "order",
+          "prompt": "Sau khi thảo luận hãy quyết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "家族と"
+            },
+            {
+              "id": "1",
+              "text": "相談した"
+            },
+            {
+              "id": "2",
+              "text": "上で"
+            },
+            {
+              "id": "3",
+              "text": "決めてください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vた／Nの ＋ 上（で）",
+          "answers": [
+            "家族と相談した上で決めてください。"
+          ],
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn. ★ là 上で.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-order-05",
+          "mode": "order",
+          "prompt": "Sau khi đọc hãy nộp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "説明書を"
+            },
+            {
+              "id": "1",
+              "text": "読んだ"
+            },
+            {
+              "id": "2",
+              "text": "上で"
+            },
+            {
+              "id": "3",
+              "text": "申し込んでください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vた／Nの ＋ 上（で）",
+          "answers": [
+            "説明書を読んだ上で申し込んでください。"
+          ],
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn. ★ là 上で.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-order-06",
+          "mode": "order",
+          "prompt": "Trên luật thì được phép.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "法律の"
+            },
+            {
+              "id": "1",
+              "text": "上では"
+            },
+            {
+              "id": "2",
+              "text": "許可"
+            },
+            {
+              "id": "3",
+              "text": "されている。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vた／Nの ＋ 上（で）",
+          "answers": [
+            "法律の上では許可されている。"
+          ],
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn. ★ là 上では.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-order-07",
+          "mode": "order",
+          "prompt": "Sau khi so sánh tôi mua.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "価格を"
+            },
+            {
+              "id": "1",
+              "text": "比べた"
+            },
+            {
+              "id": "2",
+              "text": "上で"
+            },
+            {
+              "id": "3",
+              "text": "購入した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vた／Nの ＋ 上（で）",
+          "answers": [
+            "価格を比べた上で購入した。"
+          ],
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn. ★ là 上で.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-order-08",
+          "mode": "order",
+          "prompt": "Sau khi nghe hãy sửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "意見を"
+            },
+            {
+              "id": "1",
+              "text": "聞いた"
+            },
+            {
+              "id": "2",
+              "text": "上で"
+            },
+            {
+              "id": "3",
+              "text": "修正する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vた／Nの ＋ 上（で）",
+          "answers": [
+            "意見を聞いた上で修正する。"
+          ],
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn. ★ là 上で.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-order-09",
+          "mode": "order",
+          "prompt": "Trên giấy tờ vẫn là hội viên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "書類の"
+            },
+            {
+              "id": "1",
+              "text": "上では"
+            },
+            {
+              "id": "2",
+              "text": "彼は"
+            },
+            {
+              "id": "3",
+              "text": "会員だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vた／Nの ＋ 上（で）",
+          "answers": [
+            "書類の上では彼は会員だ。"
+          ],
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn. ★ là 上では.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g02-order-10",
+          "mode": "order",
+          "prompt": "Sau khi điều tra mới bắt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "詳しく"
+            },
+            {
+              "id": "1",
+              "text": "調べた"
+            },
+            {
+              "id": "2",
+              "text": "上で"
+            },
+            {
+              "id": "3",
+              "text": "逮捕した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vた／Nの ＋ 上（で）",
+          "answers": [
+            "詳しく調べた上で逮捕した。"
+          ],
+          "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn. ★ là 上で.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l03-g03",
+      "title": "〜次第",
+      "meaning": "Ngay khi… thì sẽ… (dự định hành động ngay sau khi)",
+      "variants": [
+        "次第"
+      ],
+      "structures": [
+        "Vます ＋ 次第",
+        "N ＋ 次第"
+      ],
+      "explanation": "Nói sẽ làm B ngay khi A hoàn tất / xảy ra. Thường dùng lời hứa, thông báo lịch trình.",
+      "usage": "Email công việc, thông báo: 'xong A sẽ liên lạc ngay'.",
+      "cautions": [
+        "Không nhầm với 次第だ (tùy thuộc) — nghĩa khác, bài khác.",
+        "Thường không dùng cho sự việc đã xảy ra trong quá khứ tường thuật tự do."
+      ],
+      "contrast": "次第 ≈ ngay khi xong thì (tương lai/chủ đích). Khác たらすぐ (thân mật hơn) và て以来 (kể từ sau).",
+      "examples": [
+        {
+          "ja": "着き次第連絡します。",
+          "reading": "つきしだいれんらくします。",
+          "vi": "Đến nơi là tôi sẽ liên lạc ngay.",
+          "ruby": [
+            {
+              "text": "着",
+              "reading": "つ"
+            },
+            {
+              "text": "き次第"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "します。"
+            }
+          ]
+        },
+        {
+          "ja": "検査が終わり次第結果をお知らせします。",
+          "reading": "けんさがおわりしだいけっかをおしらせします。",
+          "vi": "Ngay khi kiểm tra xong sẽ thông báo kết quả.",
+          "ruby": [
+            {
+              "text": "検査",
+              "reading": "けんさ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わり次第"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "お"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "らせします。"
+            }
+          ]
+        },
+        {
+          "ja": "準備ができ次第出発しましょう。",
+          "reading": "じゅんびができしだいしゅっぱつしましょう。",
+          "vi": "Chuẩn bị xong là chúng ta khởi hành ngay.",
+          "ruby": [
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "でき次第"
+            },
+            {
+              "text": "出発",
+              "reading": "しゅっぱつ"
+            },
+            {
+              "text": "しましょう。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 29,
+        "printedPage": 16,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-shidai-ngay-sau-khi-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l03-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Về đến nhà là tôi sẽ gọi.",
+          "answers": [
+            "家に着き次第電話します。"
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Họp xong sẽ gửi biên bản ngay.",
+          "answers": [
+            "会議が終わり次第議事録を送ります。"
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Có tin sẽ báo ngay.",
+          "answers": [
+            "分かり次第お知らせします。"
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Máy bay hạ cánh là liên lạc.",
+          "answers": [
+            "飛行機が到着し次第連絡します。"
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Sửa xong sẽ giao hàng ngay.",
+          "answers": [
+            "修理が終わり次第配送します。"
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Quyết định xong sẽ công bố.",
+          "answers": [
+            "決まり次第発表します。"
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nhận được tài liệu sẽ xác nhận.",
+          "answers": [
+            "資料を受け取り次第確認します。"
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Mưa tạnh là chúng ta đi.",
+          "answers": [
+            "雨がやみ次第出発しましょう。"
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Xong thủ tục sẽ vào phòng.",
+          "answers": [
+            "手続きが済み次第入室できます。"
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Có chỗ trống sẽ liên hệ.",
+          "answers": [
+            "空きが出次第ご連絡します。"
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "到着次第メールしてください。",
+          "answers": [
+            "Đến nơi là hãy gửi email ngay."
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "準備ができ次第始めます。",
+          "answers": [
+            "Chuẩn bị xong là bắt đầu ngay."
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "結果が分かり次第報告します。",
+          "answers": [
+            "Có kết quả là tôi sẽ báo cáo ngay."
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "仕事が終わり次第合流します。",
+          "answers": [
+            "Tan làm là tôi sẽ hội quân ngay."
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "確認でき次第返信します。",
+          "answers": [
+            "Xác nhận được là tôi sẽ trả lời ngay."
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "電車が来次第乗りましょう。",
+          "answers": [
+            "Tàu đến là hãy lên ngay."
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "印刷が終わり次第配布します。",
+          "answers": [
+            "In xong sẽ phát ngay."
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "荷物が届き次第開封してください。",
+          "answers": [
+            "Hàng đến là hãy mở ngay."
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "面接が終わり次第結果を出します。",
+          "answers": [
+            "Phỏng vấn xong sẽ có kết quả ngay."
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "天候が回復し次第再開します。",
+          "answers": [
+            "Thời tiết ổn định lại sẽ mở lại ngay."
+          ],
+          "hint": "Vます／N ＋ 次第",
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-order-01",
+          "mode": "order",
+          "prompt": "Đến nơi là liên lạc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "着き"
+            },
+            {
+              "id": "1",
+              "text": "次第"
+            },
+            {
+              "id": "2",
+              "text": "すぐ"
+            },
+            {
+              "id": "3",
+              "text": "連絡します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます／N ＋ 次第",
+          "answers": [
+            "着き次第すぐ連絡します。"
+          ],
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích. ★ là 次第.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-order-02",
+          "mode": "order",
+          "prompt": "Họp xong gửi biên bản.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議が"
+            },
+            {
+              "id": "1",
+              "text": "終わり"
+            },
+            {
+              "id": "2",
+              "text": "次第"
+            },
+            {
+              "id": "3",
+              "text": "送ります。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vます／N ＋ 次第",
+          "answers": [
+            "会議が終わり次第送ります。"
+          ],
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích. ★ là 次第.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-order-03",
+          "mode": "order",
+          "prompt": "Có tin báo ngay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "分かり"
+            },
+            {
+              "id": "1",
+              "text": "次第"
+            },
+            {
+              "id": "2",
+              "text": "お知らせ"
+            },
+            {
+              "id": "3",
+              "text": "します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます／N ＋ 次第",
+          "answers": [
+            "分かり次第お知らせします。"
+          ],
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích. ★ là 次第.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-order-04",
+          "mode": "order",
+          "prompt": "Chuẩn bị xong khởi hành.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "準備が"
+            },
+            {
+              "id": "1",
+              "text": "でき"
+            },
+            {
+              "id": "2",
+              "text": "次第"
+            },
+            {
+              "id": "3",
+              "text": "出発しましょう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vます／N ＋ 次第",
+          "answers": [
+            "準備ができ次第出発しましょうのだ。"
+          ],
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích. ★ là 次第.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-order-05",
+          "mode": "order",
+          "prompt": "Quyết định xong công bố.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "決まり"
+            },
+            {
+              "id": "1",
+              "text": "次第"
+            },
+            {
+              "id": "2",
+              "text": "結果を"
+            },
+            {
+              "id": "3",
+              "text": "発表します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます／N ＋ 次第",
+          "answers": [
+            "決まり次第結果を発表します。"
+          ],
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích. ★ là 次第.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-order-06",
+          "mode": "order",
+          "prompt": "Sửa xong giao hàng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "修理が"
+            },
+            {
+              "id": "1",
+              "text": "終わり"
+            },
+            {
+              "id": "2",
+              "text": "次第"
+            },
+            {
+              "id": "3",
+              "text": "配送します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vます／N ＋ 次第",
+          "answers": [
+            "修理が終わり次第配送します。"
+          ],
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích. ★ là 次第.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-order-07",
+          "mode": "order",
+          "prompt": "Mưa tạnh thì đi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨が"
+            },
+            {
+              "id": "1",
+              "text": "やみ"
+            },
+            {
+              "id": "2",
+              "text": "次第"
+            },
+            {
+              "id": "3",
+              "text": "出かけよう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vます／N ＋ 次第",
+          "answers": [
+            "雨がやみ次第出かけよう。"
+          ],
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích. ★ là 次第.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-order-08",
+          "mode": "order",
+          "prompt": "Nhận được thì xác nhận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "受け取り"
+            },
+            {
+              "id": "1",
+              "text": "次第"
+            },
+            {
+              "id": "2",
+              "text": "内容を"
+            },
+            {
+              "id": "3",
+              "text": "確認します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます／N ＋ 次第",
+          "answers": [
+            "受け取り次第内容を確認します。"
+          ],
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích. ★ là 次第.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-order-09",
+          "mode": "order",
+          "prompt": "Hạ cánh là gọi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "到着し"
+            },
+            {
+              "id": "1",
+              "text": "次第"
+            },
+            {
+              "id": "2",
+              "text": "電話を"
+            },
+            {
+              "id": "3",
+              "text": "ください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます／N ＋ 次第",
+          "answers": [
+            "到着し次第電話をください。"
+          ],
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích. ★ là 次第.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g03-order-10",
+          "mode": "order",
+          "prompt": "Có chỗ trống liên hệ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "空きが"
+            },
+            {
+              "id": "1",
+              "text": "出"
+            },
+            {
+              "id": "2",
+              "text": "次第"
+            },
+            {
+              "id": "3",
+              "text": "ご連絡します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vます／N ＋ 次第",
+          "answers": [
+            "空きが出次第ご連絡します。"
+          ],
+          "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích. ★ là 次第.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l03-g04",
+      "title": "〜て以来・〜てこのかた",
+      "meaning": "Kể từ khi… đến nay; từ đó đến giờ",
+      "variants": [
+        "て以来",
+        "てこのかた"
+      ],
+      "structures": [
+        "Vて ＋ 以来",
+        "Vて ＋ このかた"
+      ],
+      "explanation": "Nêu mốc bắt đầu trong quá khứ và trạng thái/tình hình kéo dài đến hiện tại. てこのかた trang trọng/văn viết hơn.",
+      "usage": "Kể chuyện đời, thay đổi kể từ một sự kiện.",
+      "cautions": [
+        "Mốc thường là sự kiện cụ thể đã xảy ra.",
+        "このかた ít dùng trong hội thoại hàng ngày hơn 以来."
+      ],
+      "contrast": "て以来 ≈ kể từ sau đó đến nay. Khác てから (có thể chỉ chuỗi ngắn) và 次第 (tương lai ngay khi).",
+      "examples": [
+        {
+          "ja": "卒業して以来、彼に会っていない。",
+          "reading": "そつぎょうしていらい、かれにあっていない。",
+          "vi": "Kể từ khi tốt nghiệp, tôi chưa gặp lại anh ấy.",
+          "ruby": [
+            {
+              "text": "卒業",
+              "reading": "そつぎょう"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "以来",
+              "reading": "いらい"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "会",
+              "reading": "あ"
+            },
+            {
+              "text": "っていない。"
+            }
+          ]
+        },
+        {
+          "ja": "日本に来てこのかた、毎日日本語を勉強している。",
+          "reading": "にほんにきてこのかた、まいにちにほんごをべんきょうしている。",
+          "vi": "Kể từ khi đến Nhật đến nay, tôi học tiếng Nhật mỗi ngày.",
+          "ruby": [
+            {
+              "text": "日本",
+              "reading": "にほん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "来",
+              "reading": "き"
+            },
+            {
+              "text": "てこのかた、"
+            },
+            {
+              "text": "毎日",
+              "reading": "まいにち"
+            },
+            {
+              "text": "日本語",
+              "reading": "にほんご"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "勉強",
+              "reading": "べんきょう"
+            },
+            {
+              "text": "している。"
+            }
+          ]
+        },
+        {
+          "ja": "手術をして以来、体調が良い。",
+          "reading": "しゅじゅつをしていらい、たいちょうがよい。",
+          "vi": "Kể từ sau ca phẫu thuật, sức khỏe tôi tốt.",
+          "ruby": [
+            {
+              "text": "手術",
+              "reading": "しゅじゅつ"
+            },
+            {
+              "text": "をして"
+            },
+            {
+              "text": "以来",
+              "reading": "いらい"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "良",
+              "reading": "よ"
+            },
+            {
+              "text": "い。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 29,
+        "printedPage": 16,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-teirai-ke-tu-sau-khi/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-tekonokata-ke-tu-khi-thi-ke-tu-sau-khi-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l03-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Kể từ khi chuyển nhà, tôi chưa về quê.",
+          "answers": [
+            "引っ越して以来、実家に帰っていない。"
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Kể từ khi bắt đầu công việc này, tôi bận mỗi ngày.",
+          "answers": [
+            "この仕事を始めて以来、毎日忙しい。"
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Kể từ khi gặp cô ấy, cuộc sống tôi thay đổi.",
+          "answers": [
+            "彼女に会って以来、私の生活は変わった。"
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Kể từ khi bỏ thuốc, sức khỏe tốt hơn.",
+          "answers": [
+            "禁煙して以来、体調が良くなった。"
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Kể từ khi đến công ty này, tôi học được nhiều.",
+          "answers": [
+            "この会社に入ってこのかた、多くを学んだ。"
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Kể từ khi động đất, thành phố thay đổi.",
+          "answers": [
+            "地震があって以来、街の様子が変わった。"
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Kể từ khi có smartphone, tôi ít đọc sách.",
+          "answers": [
+            "スマホを持って以来、本をあまり読まない。"
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Kể từ khi kết hôn, tôi về sớm hơn.",
+          "answers": [
+            "結婚して以来、早く帰るようにしている。"
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Kể từ khi mở cửa hàng, cuối tuần luôn đông.",
+          "answers": [
+            "店を開いて以来、週末はいつも混んでいる。"
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Kể từ khi học N2, tôi nghe tin tức mỗi ngày.",
+          "answers": [
+            "N2の勉強を始めてこのかた、毎日ニュースを聞いている。"
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "大学を卒業して以来、彼とは連絡していない。",
+          "answers": [
+            "Kể từ khi tốt nghiệp đại học, tôi không liên lạc với anh ấy."
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "日本に来てこのかた、一度も帰国していない。",
+          "answers": [
+            "Kể từ khi đến Nhật đến nay, tôi chưa về nước lần nào."
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "病気をして以来、酒を控えている。",
+          "answers": [
+            "Kể từ khi bị bệnh, tôi hạn chế rượu."
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "子供が生まれて以来、生活リズムが変わった。",
+          "answers": [
+            "Kể từ khi có con, nhịp sống thay đổi."
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "転職して以来、残業が減った。",
+          "answers": [
+            "Kể từ khi chuyển việc, tăng ca giảm."
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "事故があって以来、慎重に運転している。",
+          "answers": [
+            "Kể từ sau tai nạn, tôi lái xe thận trọng."
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "留学してこのかた、視野が広がった。",
+          "answers": [
+            "Kể từ khi du học đến nay, tầm nhìn mở rộng."
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "新しい習慣を始めて以来、朝が楽になった。",
+          "answers": [
+            "Kể từ khi bắt đầu thói quen mới, buổi sáng dễ chịu hơn."
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "彼と別れて以来、連絡していない。",
+          "answers": [
+            "Kể từ khi chia tay, tôi không liên lạc."
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "この薬を飲み始めて以来、痛みが軽い。",
+          "answers": [
+            "Kể từ khi bắt đầu uống thuốc này, đau nhẹ hơn."
+          ],
+          "hint": "Vて ＋ 以来／このかた",
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-order-01",
+          "mode": "order",
+          "prompt": "Kể từ tốt nghiệp chưa gặp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "卒業して"
+            },
+            {
+              "id": "1",
+              "text": "以来、"
+            },
+            {
+              "id": "2",
+              "text": "彼に"
+            },
+            {
+              "id": "3",
+              "text": "会っていない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ 以来／このかた",
+          "answers": [
+            "卒業して以来、彼に会っていないのだ。"
+          ],
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài. ★ là 以来.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-order-02",
+          "mode": "order",
+          "prompt": "Kể từ đến Nhật học mỗi ngày.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "日本に"
+            },
+            {
+              "id": "1",
+              "text": "来てこのかた、"
+            },
+            {
+              "id": "2",
+              "text": "毎日"
+            },
+            {
+              "id": "3",
+              "text": "勉強している。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ 以来／このかた",
+          "answers": [
+            "日本に来てこのかた、毎日勉強している。"
+          ],
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài. ★ là てこのかた.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-order-03",
+          "mode": "order",
+          "prompt": "Kể từ phẫu thuật sức khỏe tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "手術をして"
+            },
+            {
+              "id": "1",
+              "text": "以来、"
+            },
+            {
+              "id": "2",
+              "text": "体調が"
+            },
+            {
+              "id": "3",
+              "text": "良い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ 以来／このかた",
+          "answers": [
+            "手術をして以来、体調が良いのだ。"
+          ],
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài. ★ là 以来.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-order-04",
+          "mode": "order",
+          "prompt": "Kể từ bỏ thuốc khỏe hơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "禁煙して"
+            },
+            {
+              "id": "1",
+              "text": "以来、"
+            },
+            {
+              "id": "2",
+              "text": "健康に"
+            },
+            {
+              "id": "3",
+              "text": "なった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ 以来／このかた",
+          "answers": [
+            "禁煙して以来、健康になった。"
+          ],
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài. ★ là 以来.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-order-05",
+          "mode": "order",
+          "prompt": "Kể từ chuyển nhà xa công ty.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "引っ越して"
+            },
+            {
+              "id": "1",
+              "text": "以来、"
+            },
+            {
+              "id": "2",
+              "text": "通勤が"
+            },
+            {
+              "id": "3",
+              "text": "長くなった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ 以来／このかた",
+          "answers": [
+            "引っ越して以来、通勤が長くなった。"
+          ],
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài. ★ là 以来.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-order-06",
+          "mode": "order",
+          "prompt": "Kể từ vào công ty học nhiều.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "入社して"
+            },
+            {
+              "id": "1",
+              "text": "このかた、"
+            },
+            {
+              "id": "2",
+              "text": "多くを"
+            },
+            {
+              "id": "3",
+              "text": "学んだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ 以来／このかた",
+          "answers": [
+            "入社してこのかた、多くを学んだ。"
+          ],
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài. ★ là このかた.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-order-07",
+          "mode": "order",
+          "prompt": "Kể từ có con ít ngủ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "子供が"
+            },
+            {
+              "id": "1",
+              "text": "生まれて以来、"
+            },
+            {
+              "id": "2",
+              "text": "睡眠が"
+            },
+            {
+              "id": "3",
+              "text": "足りない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ 以来／このかた",
+          "answers": [
+            "子供が生まれて以来、睡眠が足りない。"
+          ],
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài. ★ là 以来.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-order-08",
+          "mode": "order",
+          "prompt": "Kể từ động đất cảnh quan đổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "地震が"
+            },
+            {
+              "id": "1",
+              "text": "あって以来、"
+            },
+            {
+              "id": "2",
+              "text": "景色が"
+            },
+            {
+              "id": "3",
+              "text": "変わった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ 以来／このかた",
+          "answers": [
+            "地震があって以来、景色が変わった。"
+          ],
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài. ★ là 以来.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-order-09",
+          "mode": "order",
+          "prompt": "Kể từ kết hôn về sớm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "結婚して"
+            },
+            {
+              "id": "1",
+              "text": "以来、"
+            },
+            {
+              "id": "2",
+              "text": "早めに"
+            },
+            {
+              "id": "3",
+              "text": "帰宅する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ 以来／このかた",
+          "answers": [
+            "結婚して以来、早めに帰宅する。"
+          ],
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài. ★ là 以来.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g04-order-10",
+          "mode": "order",
+          "prompt": "Kể từ mở tiệm cuối tuần đông.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "開店して"
+            },
+            {
+              "id": "1",
+              "text": "以来、"
+            },
+            {
+              "id": "2",
+              "text": "週末は"
+            },
+            {
+              "id": "3",
+              "text": "混む。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ 以来／このかた",
+          "answers": [
+            "開店して以来、週末は混む。"
+          ],
+          "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài. ★ là 以来.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l03-g05",
+      "title": "〜てからでないと・〜てからでなければ",
+      "meaning": "Nếu chưa… thì không thể…; phải… rồi mới…",
+      "variants": [
+        "てからでないと",
+        "てからでなければ"
+      ],
+      "structures": [
+        "Vて ＋ からでないと",
+        "Vて ＋ からでなければ"
+      ],
+      "explanation": "Nêu điều kiện tiên quyết phủ định: nếu chưa hoàn thành A thì không thể / không nên B.",
+      "usage": "Quy tắc, điều kiện bắt buộc trước khi làm bước tiếp.",
+      "cautions": [
+        "Phần sau thường là khả năng phủ định hoặc điều không mong muốn.",
+        "からでなければ trang trọng/viết hơn một chút so với からでないと."
+      ],
+      "contrast": "てからでないと ≈ phải A rồi mới B. Khác た上で (sau khi làm nền, khẳng định hơn) và 次第 (ngay khi thì sẽ).",
+      "examples": [
+        {
+          "ja": "許可をもらってからでないと始められない。",
+          "reading": "きょかをもらってからでないとはじめられない。",
+          "vi": "Nếu chưa được phép thì không thể bắt đầu.",
+          "ruby": [
+            {
+              "text": "許可",
+              "reading": "きょか"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "もらってからでないと"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "められない。"
+            }
+          ]
+        },
+        {
+          "ja": "資料を読んでからでなければ判断できない。",
+          "reading": "しりょうをよんでからでなければはんだんできない。",
+          "vi": "Nếu chưa đọc tài liệu thì không thể phán đoán.",
+          "ruby": [
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "んでからでなければ"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
+        },
+        {
+          "ja": "温まってからでないと泳げない。",
+          "reading": "あたたまってからでないとおよげない。",
+          "vi": "Nếu chưa khởi động ấm người thì không thể bơi.",
+          "ruby": [
+            {
+              "text": "温",
+              "reading": "あたた"
+            },
+            {
+              "text": "まってからでないと"
+            },
+            {
+              "text": "泳",
+              "reading": "およ"
+            },
+            {
+              "text": "げない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 29,
+        "printedPage": 16,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-te-kara-denai-to-te-kara-denakereba-neu-khong-thi-se-chi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l03-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nếu chưa ký hợp đồng thì không thể bắt đầu làm.",
+          "answers": [
+            "契約してからでないと仕事を始められない。"
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nếu chưa hết hạn bảo hành thì không sửa mất phí.",
+          "answers": [
+            "保証期間が切れてからでないと有料修理になる。"
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nếu chưa xác nhận danh tính thì không vào được.",
+          "answers": [
+            "本人確認をしてからでないと入れない。"
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nếu chưa ăn sáng thì không tập được.",
+          "answers": [
+            "朝食を取ってからでないと練習できない。"
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nếu chưa nộp hồ sơ thì không xét tuyển.",
+          "answers": [
+            "書類を提出してからでなければ審査できない。"
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nếu chưa tắt máy thì không mở nắp.",
+          "answers": [
+            "電源を切ってからでないと蓋を開けてはいけない。"
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nếu chưa họp thì không công bố.",
+          "answers": [
+            "会議をしてからでないと発表できない。"
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nếu chưa có vé thì không lên được.",
+          "answers": [
+            "切符を買ってからでないと乗れない。"
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nếu chưa rửa tay thì không nấu.",
+          "answers": [
+            "手を洗ってからでないと料理してはいけない。"
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nếu chưa kiểm tra thì không gửi được.",
+          "answers": [
+            "確認してからでなければ送信できない。"
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "説明を聞いてからでないとサインできない。",
+          "answers": [
+            "Nếu chưa nghe giải thích thì không thể ký."
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "予約してからでないと利用できない。",
+          "answers": [
+            "Nếu chưa đặt trước thì không thể sử dụng."
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "練習してからでなければ本番に出られない。",
+          "answers": [
+            "Nếu chưa tập thì không thể ra thi đấu chính."
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "料金を払ってからでないと受け取れない。",
+          "answers": [
+            "Nếu chưa trả tiền thì không nhận được."
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "許可が出てからでないと公開できない。",
+          "answers": [
+            "Nếu chưa có phép thì không thể công khai."
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "冷めてからでないと触れない。",
+          "answers": [
+            "Nếu chưa nguội thì không chạm được."
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "登録してからでないとログインできない。",
+          "answers": [
+            "Nếu chưa đăng ký thì không đăng nhập được."
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "検査を受けてからでなければ手術できない。",
+          "answers": [
+            "Nếu chưa khám thì không phẫu thuật được."
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "親に相談してからでないと決められない。",
+          "answers": [
+            "Nếu chưa hỏi cha mẹ thì không quyết được."
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "準備が整ってからでないと始められない。",
+          "answers": [
+            "Nếu chưa sẵn sàng thì không bắt đầu được."
+          ],
+          "hint": "Vて ＋ からでないと／でなければ",
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-order-01",
+          "mode": "order",
+          "prompt": "Chưa được phép thì không bắt đầu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "許可を"
+            },
+            {
+              "id": "1",
+              "text": "もらってからでないと"
+            },
+            {
+              "id": "2",
+              "text": "始め"
+            },
+            {
+              "id": "3",
+              "text": "られない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ からでないと／でなければ",
+          "answers": [
+            "許可をもらってからでないと始められないのだ。"
+          ],
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định. ★ là からでないと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-order-02",
+          "mode": "order",
+          "prompt": "Chưa đọc thì không phán đoán.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "資料を"
+            },
+            {
+              "id": "1",
+              "text": "読んでからでなければ"
+            },
+            {
+              "id": "2",
+              "text": "判断"
+            },
+            {
+              "id": "3",
+              "text": "できない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ からでないと／でなければ",
+          "answers": [
+            "資料を読んでからでなければ判断できないのだ。"
+          ],
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định. ★ là からでなければ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-order-03",
+          "mode": "order",
+          "prompt": "Chưa ký thì không làm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "契約してからでないと"
+            },
+            {
+              "id": "1",
+              "text": "仕事を"
+            },
+            {
+              "id": "2",
+              "text": "始め"
+            },
+            {
+              "id": "3",
+              "text": "られない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "Vて ＋ からでないと／でなければ",
+          "answers": [
+            "契約してからでないと仕事を始められない。"
+          ],
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định. ★ là からでないと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-order-04",
+          "mode": "order",
+          "prompt": "Chưa xác nhận thì không vào.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "本人確認を"
+            },
+            {
+              "id": "1",
+              "text": "してからでないと"
+            },
+            {
+              "id": "2",
+              "text": "入室"
+            },
+            {
+              "id": "3",
+              "text": "できない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ からでないと／でなければ",
+          "answers": [
+            "本人確認をしてからでないと入室できない。"
+          ],
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định. ★ là からでないと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-order-05",
+          "mode": "order",
+          "prompt": "Chưa tắt máy thì không mở.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "電源を"
+            },
+            {
+              "id": "1",
+              "text": "切ってからでないと"
+            },
+            {
+              "id": "2",
+              "text": "開けて"
+            },
+            {
+              "id": "3",
+              "text": "はいけない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ からでないと／でなければ",
+          "answers": [
+            "電源を切ってからでないと開けてはいけない。"
+          ],
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định. ★ là からでないと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-order-06",
+          "mode": "order",
+          "prompt": "Chưa có vé thì không lên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "切符を"
+            },
+            {
+              "id": "1",
+              "text": "買ってからでないと"
+            },
+            {
+              "id": "2",
+              "text": "電車に"
+            },
+            {
+              "id": "3",
+              "text": "乗れない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ からでないと／でなければ",
+          "answers": [
+            "切符を買ってからでないと電車に乗れない。"
+          ],
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định. ★ là からでないと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-order-07",
+          "mode": "order",
+          "prompt": "Chưa nộp thì không xét.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "提出してからでなければ"
+            },
+            {
+              "id": "1",
+              "text": "審査を"
+            },
+            {
+              "id": "2",
+              "text": "開始"
+            },
+            {
+              "id": "3",
+              "text": "できない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "Vて ＋ からでないと／でなければ",
+          "answers": [
+            "提出してからでなければ審査を開始できない。"
+          ],
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định. ★ là からでなければ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-order-08",
+          "mode": "order",
+          "prompt": "Chưa họp thì không công bố.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議を"
+            },
+            {
+              "id": "1",
+              "text": "してからでないと"
+            },
+            {
+              "id": "2",
+              "text": "結果を"
+            },
+            {
+              "id": "3",
+              "text": "発表できない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ からでないと／でなければ",
+          "answers": [
+            "会議をしてからでないと結果を発表できない。"
+          ],
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định. ★ là からでないと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-order-09",
+          "mode": "order",
+          "prompt": "Chưa rửa tay thì không nấu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "手を"
+            },
+            {
+              "id": "1",
+              "text": "洗ってからでないと"
+            },
+            {
+              "id": "2",
+              "text": "料理して"
+            },
+            {
+              "id": "3",
+              "text": "はいけない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vて ＋ からでないと／でなければ",
+          "answers": [
+            "手を洗ってからでないと料理してはいけない。"
+          ],
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định. ★ là からでないと.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l03-g05-order-10",
+          "mode": "order",
+          "prompt": "Chưa kiểm tra thì không gửi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "確認してからでなければ"
+            },
+            {
+              "id": "1",
+              "text": "メールを"
+            },
+            {
+              "id": "2",
+              "text": "送信"
+            },
+            {
+              "id": "3",
+              "text": "できない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "Vて ＋ からでないと／でなければ",
+          "answers": [
+            "確認してからでなければメールを送信できない。"
+          ],
+          "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định. ★ là からでなければ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+        }
+      ]
+    }
+  ]
+}

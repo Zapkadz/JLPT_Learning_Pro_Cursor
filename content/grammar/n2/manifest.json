@@ -16,28 +16,28 @@
       "number": 2,
       "title": "Đang diễn ra · Tiến hành",
       "groupCount": 6,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-03",
       "number": 3,
       "title": "Sau khi",
       "groupCount": 5,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-04",
       "number": 4,
       "title": "Bắt đầu · Kết thúc · Khoảng thời gian",
       "groupCount": 6,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-05",
       "number": 5,
       "title": "Giới hạn",
       "groupCount": 4,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-06",

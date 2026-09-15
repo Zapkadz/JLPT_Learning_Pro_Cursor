@@ -6,11 +6,11 @@ Module design history remains in `docs/grammar-n2/PLAN.md` (do not treat that fi
 
 ## Current Goal
 
-Grammar N2 per Master Requirement. **N2-TEST-001 DONE** (merged). Full Playwright suite greened (await commit). Next: **N2-L02-BATCH** (needs explicit approval) or **N2-L01-FURI-001** (needs furigana decision).
+Grammar N2 per Master Requirement. **N2-L02-BATCH DONE** (await commit). Next: **N2-L06-BATCH** (needs approval) or **N2-L01-FURI-001** (needs furigana decision).
 
 ## Current Milestone
 
-**Phase 1 Grammar N2** — Lesson 1 quality gate complete; awaiting content-batch / furigana decision.
+**Phase 1+ Grammar N2** — Lessons 1–5 published; awaiting L6+ / furigana decision.
 
 ## Status legend
 
@@ -51,7 +51,7 @@ Implementation of N2-* coding tasks requires **explicit user approval**. Until t
 | N2-L01-PROG-001 | Align progress semantics without resetting user data | DONE | N2-L01-UX-001 | No double XP; denominator = 141; ADR-008 |
 | N2-TEST-001 | Golden template validators + representative Playwright grammar journey | DONE | N2-L01-* | `npm test` 14/14; grammar e2e 1/1; merged PR #6 |
 | N2-E2E-001 | Fix legacy `app.spec` under Playwright webServer | DONE | N2-TEST-001 | Full `test:e2e` 2/2 |
-| N2-L02-BATCH | Lessons 2–5 content + exercises + validate | TODO | N2-TEST-001 | Each published group meets DoD (Master §71) |
+| N2-L02-BATCH | Lessons 2–5 content + exercises + validate | DONE | N2-TEST-001 | 21 groups / 630 ex; §71 validators; published |
 | N2-L06-BATCH | Lessons 6–10 | TODO | N2-L02-BATCH | Same |
 | N2-L11-BATCH | Lessons 11–15 | TODO | N2-L06-BATCH | Same |
 | N2-L16-BATCH | Lessons 16–20 | TODO | N2-L11-BATCH | Same |

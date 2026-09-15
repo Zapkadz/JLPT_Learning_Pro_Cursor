@@ -1,0 +1,3051 @@
+{
+  "id": "lesson-05",
+  "titleJa": "限定",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 5. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L02-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l05-g01",
+      "title": "〜に限り",
+      "meaning": "Chỉ…; riêng… (giới hạn đối tượng / thời điểm đặc biệt)",
+      "variants": [
+        "に限り"
+      ],
+      "structures": [
+        "N ＋ に限り"
+      ],
+      "explanation": "Giới hạn đối tượng hoặc thời điểm được áp dụng đặc biệt (thường thông báo, ưu đãi).",
+      "usage": "Biển hiệu cửa hàng, thông báo: chỉ hôm nay, chỉ hội viên…",
+      "cautions": [
+        "に限り mang sắc thái thông báo/viết hơn だけ trong nhiều ngữ cảnh trang trọng.",
+        "Khác に限って (đúng vào lúc… lại…)."
+      ],
+      "contrast": "に限り ≈ chỉ áp dụng cho. Khác 限りでは (trong phạm vi nhận thức) và に限って (nghịch lý thời điểm).",
+      "examples": [
+        {
+          "ja": "本日に限り全品半額です。",
+          "reading": "ほんじつにかぎりぜんぴんはんがくです。",
+          "vi": "Chỉ hôm nay toàn bộ hàng giảm nửa giá.",
+          "ruby": [
+            {
+              "text": "本日",
+              "reading": "ほんじつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "全品",
+              "reading": "ぜんぴん"
+            },
+            {
+              "text": "半額",
+              "reading": "はんがく"
+            },
+            {
+              "text": "です。"
+            }
+          ]
+        },
+        {
+          "ja": "会員に限り入場できます。",
+          "reading": "かいいんにかぎりにゅうじょうできます。",
+          "vi": "Chỉ hội viên mới vào được.",
+          "ruby": [
+            {
+              "text": "会員",
+              "reading": "かいいん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "入場",
+              "reading": "にゅうじょう"
+            },
+            {
+              "text": "できます。"
+            }
+          ]
+        },
+        {
+          "ja": "先着100名に限りプレゼントを差し上げます。",
+          "reading": "せんちゃくひゃくめいにかぎりぷれぜんとをさしあげます。",
+          "vi": "Chỉ 100 người đến trước được tặng quà.",
+          "ruby": [
+            {
+              "text": "先着",
+              "reading": "せんちゃく"
+            },
+            {
+              "text": "100"
+            },
+            {
+              "text": "名",
+              "reading": "めい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "プレゼントを"
+            },
+            {
+              "text": "差",
+              "reading": "さ"
+            },
+            {
+              "text": "し上げます。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 37,
+        "printedPage": 24,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-nikagiru-nikagiri-nikagitte-chi-chi-danh-cho-chi-rieng-chi-gioi-han-trong/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l05-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Chỉ cuối tuần mới mở cửa.",
+          "answers": [
+            "週末に限り営業します。"
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Chỉ học sinh được giảm giá.",
+          "answers": [
+            "学生に限り割引があります。"
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Chỉ hôm nay miễn phí gửi hành lý.",
+          "answers": [
+            "本日に限り荷物預かりが無料です。"
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Chỉ thành viên mới tải được.",
+          "answers": [
+            "会員に限りダウンロードできます。"
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Chỉ buổi sáng bán bánh này.",
+          "answers": [
+            "午前中に限りこのパンを販売します。"
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Chỉ khách đặt trước được ưu tiên.",
+          "answers": [
+            "予約者に限り優先されます。"
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Chỉ tháng này phí vào cửa giảm.",
+          "answers": [
+            "今月に限り入場料が安くなります。"
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Chỉ người cao tuổi được ngồi ghế này.",
+          "answers": [
+            "高齢者に限りこの席を利用できます。"
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Chỉ ngày lễ tàu chạy thêm.",
+          "answers": [
+            "祝日に限り臨時列車が出ます。"
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chỉ đơn hàng trên 5000 yên được miễn ship.",
+          "answers": [
+            "5000円以上の注文に限り送料無料です。"
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "本日に限り入場無料です。",
+          "answers": [
+            "Chỉ hôm nay vào cửa miễn phí."
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "女性に限りサービスします。",
+          "answers": [
+            "Chỉ phục vụ cho nữ."
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "平日に限りこの料金です。",
+          "answers": [
+            "Chỉ ngày thường mới áp dụng mức phí này."
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "子どもに限り半額になります。",
+          "answers": [
+            "Chỉ trẻ em được giảm nửa giá."
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "オンライン申込に限り特典があります。",
+          "answers": [
+            "Chỉ đăng ký online mới có ưu đãi."
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "初回に限り体験できます。",
+          "answers": [
+            "Chỉ lần đầu mới được trải nghiệm."
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "現金支払いに限り割引します。",
+          "answers": [
+            "Chỉ thanh toán tiền mặt mới giảm giá."
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "招待客に限り裏口から入れます。",
+          "answers": [
+            "Chỉ khách mời được vào cửa sau."
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "雨の日に限り室内で行います。",
+          "answers": [
+            "Chỉ ngày mưa mới tổ chức trong nhà."
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "期間中に限り再入場が可能です。",
+          "answers": [
+            "Chỉ trong thời gian sự kiện mới vào lại được."
+          ],
+          "hint": "N ＋ に限り",
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-order-01",
+          "mode": "order",
+          "prompt": "Chỉ hôm nay nửa giá.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "本日に"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "全品"
+            },
+            {
+              "id": "3",
+              "text": "半額です。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限り",
+          "answers": [
+            "本日に限り全品半額ですのだ。"
+          ],
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi). ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-order-02",
+          "mode": "order",
+          "prompt": "Chỉ hội viên vào được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会員に"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "入場"
+            },
+            {
+              "id": "3",
+              "text": "できます。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限り",
+          "answers": [
+            "会員に限り入場できますのだ。"
+          ],
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi). ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-order-03",
+          "mode": "order",
+          "prompt": "Chỉ 100 người đến trước có quà.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "先着100名に"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "プレゼントを"
+            },
+            {
+              "id": "3",
+              "text": "差し上げます。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限り",
+          "answers": [
+            "先着100名に限りプレゼントを差し上げますのだ。"
+          ],
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi). ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-order-04",
+          "mode": "order",
+          "prompt": "Chỉ cuối tuần mở cửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "週末に"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "店を"
+            },
+            {
+              "id": "3",
+              "text": "開けます。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限り",
+          "answers": [
+            "週末に限り店を開けます。"
+          ],
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi). ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-order-05",
+          "mode": "order",
+          "prompt": "Chỉ học sinh được giảm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "学生に"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "割引が"
+            },
+            {
+              "id": "3",
+              "text": "あります。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限り",
+          "answers": [
+            "学生に限り割引があります。"
+          ],
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi). ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-order-06",
+          "mode": "order",
+          "prompt": "Chỉ buổi sáng bán.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "午前中に"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "販売"
+            },
+            {
+              "id": "3",
+              "text": "します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限り",
+          "answers": [
+            "午前中に限り販売します。"
+          ],
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi). ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-order-07",
+          "mode": "order",
+          "prompt": "Chỉ thành viên tải được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会員に"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "ダウンロード"
+            },
+            {
+              "id": "3",
+              "text": "可能です。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限り",
+          "answers": [
+            "会員に限りダウンロード可能です。"
+          ],
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi). ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-order-08",
+          "mode": "order",
+          "prompt": "Chỉ tháng này phí rẻ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今月に"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "料金が"
+            },
+            {
+              "id": "3",
+              "text": "安いです。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限り",
+          "answers": [
+            "今月に限り料金が安いです。"
+          ],
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi). ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-order-09",
+          "mode": "order",
+          "prompt": "Chỉ ngày lễ có tàu thêm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "祝日に"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "臨時便が"
+            },
+            {
+              "id": "3",
+              "text": "出ます。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限り",
+          "answers": [
+            "祝日に限り臨時便が出ます。"
+          ],
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi). ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g01-order-10",
+          "mode": "order",
+          "prompt": "Chỉ đặt trước được ưu tiên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "予約者に"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "優先席を"
+            },
+            {
+              "id": "3",
+              "text": "ご用意します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限り",
+          "answers": [
+            "予約者に限り優先席をご用意します。"
+          ],
+          "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi). ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l05-g02",
+      "title": "〜限り（は）",
+      "meaning": "Miễn là / chừng nào còn… thì…",
+      "variants": [
+        "限りは",
+        "限り"
+      ],
+      "structures": [
+        "Vる／Vない／Aい ＋ 限り（は）"
+      ],
+      "explanation": "Nêu điều kiện còn giữ nguyên thì kết quả/phán đoán vẫn đúng. 限りは nhấn mạnh điều kiện.",
+      "usage": "Cam kết, quy tắc: miễn còn… sẽ…",
+      "cautions": [
+        "Gần với うちは nhưng 限り（は） thiên về điều kiện logic hơn.",
+        "Khác 限りでは (giới hạn nguồn nhận thức)."
+      ],
+      "contrast": "限り（は） ≈ chừng nào còn A thì B. Khác に限り (chỉ đối tượng) và 限りでは (theo những gì tôi…).",
+      "examples": [
+        {
+          "ja": "ここにいる限りは安全だ。",
+          "reading": "ここにいるかぎりはあんぜんだ。",
+          "vi": "Chừng nào còn ở đây thì an toàn.",
+          "ruby": [
+            {
+              "text": "ここにいる"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りは"
+            },
+            {
+              "text": "安全",
+              "reading": "あんぜん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "秘密を守る限り協力する。",
+          "reading": "ひみつをまもるかぎりきょうりょくする。",
+          "vi": "Miễn là giữ bí mật, tôi sẽ hợp tác.",
+          "ruby": [
+            {
+              "text": "秘密",
+              "reading": "ひみつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "る"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "協力",
+              "reading": "きょうりょく"
+            },
+            {
+              "text": "する。"
+            }
+          ]
+        },
+        {
+          "ja": "元気な限り働きたい。",
+          "reading": "げんきなかぎりはたらきたい。",
+          "vi": "Miễn còn khỏe, tôi muốn làm việc.",
+          "ruby": [
+            {
+              "text": "元気",
+              "reading": "げんき"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "働",
+              "reading": "はたら"
+            },
+            {
+              "text": "きたい。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 37,
+        "printedPage": 24,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-kagiri-wa-chung-nao-ma/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l05-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Chừng nào còn làm ở đây, hãy tuân thủ quy định.",
+          "answers": [
+            "ここで働く限りは規則を守ってください。"
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Miễn còn mưa, trận đấu tạm dừng.",
+          "answers": [
+            "雨が降っている限り試合は中止だ。"
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Chừng nào còn khỏe, tôi đi bộ mỗi ngày.",
+          "answers": [
+            "元気な限り毎日歩く。"
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Miễn chưa có lệnh mới, hãy tiếp tục.",
+          "answers": [
+            "新しい指示がない限り続けてください。"
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Chừng nào còn là hội viên, được dùng phòng.",
+          "answers": [
+            "会員である限り部屋を使える。"
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Miễn còn sống ở Nhật, tôi học tiếng Nhật.",
+          "answers": [
+            "日本に住んでいる限り日本語を勉強する。"
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Chừng nào còn nợ, tôi không mua xe.",
+          "answers": [
+            "借金がある限り車は買わない。"
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Miễn còn hỗ trợ, dự án tiếp tục.",
+          "answers": [
+            "支援がある限りプロジェクトは続く。"
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Chừng nào còn trẻ, hãy thử nhiều thứ.",
+          "answers": [
+            "若い限りは色々挑戦したほうがいい。"
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Miễn chưa thay đổi luật, quy tắc này còn hiệu lực.",
+          "answers": [
+            "法律が変わらない限りこのルールは有効だ。"
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "ここにいる限り心配はいらない。",
+          "answers": [
+            "Chừng nào còn ở đây thì không cần lo."
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "努力する限り結果はついてくる。",
+          "answers": [
+            "Miễn còn cố gắng thì kết quả sẽ theo."
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "彼が反対しない限り進めよう。",
+          "answers": [
+            "Miễn anh ấy không phản đối thì hãy tiến hành."
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "健康な限り好きな仕事をしたい。",
+          "answers": [
+            "Miễn còn khỏe, tôi muốn làm việc mình thích."
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "資金がある限り研究を続ける。",
+          "answers": [
+            "Miễn còn vốn, tiếp tục nghiên cứu."
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "問題が残っている限り安心できない。",
+          "answers": [
+            "Chừng nào còn vấn đề thì chưa yên tâm."
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "契約が有効な限り守る必要がある。",
+          "answers": [
+            "Miễn hợp đồng còn hiệu lực thì cần tuân thủ."
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "私が責任者である限り最終決定は私がする。",
+          "answers": [
+            "Chừng nào tôi còn là người phụ trách thì tôi quyết cuối."
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "天候が悪くない限り出発する。",
+          "answers": [
+            "Miễn thời tiết không xấu thì khởi hành."
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "証拠がない限り犯人とは言えない。",
+          "answers": [
+            "Miễn chưa có bằng chứng thì không thể gọi là thủ phạm."
+          ],
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-order-01",
+          "mode": "order",
+          "prompt": "Chừng nào ở đây thì an toàn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ここにいる"
+            },
+            {
+              "id": "1",
+              "text": "限りは"
+            },
+            {
+              "id": "2",
+              "text": "安全"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "answers": [
+            "ここにいる限りは安全だのだ。"
+          ],
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả. ★ là 限りは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-order-02",
+          "mode": "order",
+          "prompt": "Miễn giữ bí mật sẽ hợp tác.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "秘密を"
+            },
+            {
+              "id": "1",
+              "text": "守る"
+            },
+            {
+              "id": "2",
+              "text": "限り"
+            },
+            {
+              "id": "3",
+              "text": "協力する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "answers": [
+            "秘密を守る限り協力するのだ。"
+          ],
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-order-03",
+          "mode": "order",
+          "prompt": "Miễn còn khỏe muốn làm việc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "元気な"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "働き"
+            },
+            {
+              "id": "3",
+              "text": "たい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "answers": [
+            "元気な限り働きたいのだ。"
+          ],
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-order-04",
+          "mode": "order",
+          "prompt": "Chừng nào làm ở đây hãy tuân thủ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ここで働く"
+            },
+            {
+              "id": "1",
+              "text": "限りは"
+            },
+            {
+              "id": "2",
+              "text": "規則を"
+            },
+            {
+              "id": "3",
+              "text": "守れ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "answers": [
+            "ここで働く限りは規則を守れ。"
+          ],
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả. ★ là 限りは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-order-05",
+          "mode": "order",
+          "prompt": "Miễn còn mưa thì dừng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨が降っている"
+            },
+            {
+              "id": "1",
+              "text": "限り"
+            },
+            {
+              "id": "2",
+              "text": "試合は"
+            },
+            {
+              "id": "3",
+              "text": "中止だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "answers": [
+            "雨が降っている限り試合は中止だ。"
+          ],
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-order-06",
+          "mode": "order",
+          "prompt": "Miễn chưa có lệnh mới hãy tiếp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "指示が"
+            },
+            {
+              "id": "1",
+              "text": "ない"
+            },
+            {
+              "id": "2",
+              "text": "限り"
+            },
+            {
+              "id": "3",
+              "text": "続けよ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "answers": [
+            "指示がない限り続けよ。"
+          ],
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-order-07",
+          "mode": "order",
+          "prompt": "Chừng nào còn hội viên được dùng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会員で"
+            },
+            {
+              "id": "1",
+              "text": "ある"
+            },
+            {
+              "id": "2",
+              "text": "限り"
+            },
+            {
+              "id": "3",
+              "text": "利用できる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "answers": [
+            "会員である限り利用できる。"
+          ],
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-order-08",
+          "mode": "order",
+          "prompt": "Miễn còn nợ không mua xe.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "借金が"
+            },
+            {
+              "id": "1",
+              "text": "ある"
+            },
+            {
+              "id": "2",
+              "text": "限り"
+            },
+            {
+              "id": "3",
+              "text": "買わない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "answers": [
+            "借金がある限り買わない。"
+          ],
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-order-09",
+          "mode": "order",
+          "prompt": "Miễn còn vốn nghiên cứu tiếp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "資金が"
+            },
+            {
+              "id": "1",
+              "text": "ある"
+            },
+            {
+              "id": "2",
+              "text": "限り"
+            },
+            {
+              "id": "3",
+              "text": "続ける。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "answers": [
+            "資金がある限り続ける。"
+          ],
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g02-order-10",
+          "mode": "order",
+          "prompt": "Miễn luật không đổi còn hiệu lực.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "法律が"
+            },
+            {
+              "id": "1",
+              "text": "変わらない"
+            },
+            {
+              "id": "2",
+              "text": "限り"
+            },
+            {
+              "id": "3",
+              "text": "有効だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "Vる／Aい ＋ 限り（は）",
+          "answers": [
+            "法律が変わらない限り有効だ。"
+          ],
+          "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả. ★ là 限り.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l05-g03",
+      "title": "〜限りでは",
+      "meaning": "Trong phạm vi… / theo những gì… (giới hạn nguồn nhận thức)",
+      "variants": [
+        "限りでは"
+      ],
+      "structures": [
+        "Vる／Nの ＋ 限りでは"
+      ],
+      "explanation": "Giới hạn phán đoán trong phạm vi thông tin người nói nắm được; thường kèm sắc thái khiêm tốn.",
+      "usage": "Báo cáo, nhận xét thận trọng: 'theo tôi biết…'.",
+      "cautions": [
+        "Phần sau là phán đoán dựa trên phạm vi đó.",
+        "Khác 限りは (điều kiện còn giữ)."
+      ],
+      "contrast": "限りでは ≈ theo phạm vi nhận thức. Khác に限り (giới hạn đối tượng) và に限って (đúng lúc lại).",
+      "examples": [
+        {
+          "ja": "私の知る限りでは、彼は欠席していない。",
+          "reading": "わたしのしるかぎりでは、かれはけっせきしていない。",
+          "vi": "Theo những gì tôi biết, anh ấy không vắng mặt.",
+          "ruby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "る"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは、"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "欠席",
+              "reading": "けっせき"
+            },
+            {
+              "text": "していない。"
+            }
+          ]
+        },
+        {
+          "ja": "調べた限りでは問題は見つからなかった。",
+          "reading": "しらべたかぎりではもんだいはみつからなかった。",
+          "vi": "Trong phạm vi đã kiểm tra, không thấy vấn đề.",
+          "ruby": [
+            {
+              "text": "調",
+              "reading": "しら"
+            },
+            {
+              "text": "べた"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "つからなかった。"
+            }
+          ]
+        },
+        {
+          "ja": "このデータ限りでは結論を出せない。",
+          "reading": "このでーたかぎりではけつろんをだせない。",
+          "vi": "Chỉ với dữ liệu này thì chưa đưa ra kết luận được.",
+          "ruby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "データ"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "結論",
+              "reading": "けつろん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "せない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 37,
+        "printedPage": 24,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-kagiri-de-wa-trong-pham-vi-theo-nhu-toi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l05-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Theo tôi nhớ thì họp lúc 10 giờ.",
+          "answers": [
+            "覚えている限りでは会議は10時だ。"
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Trong phạm vi đã đọc, không có lỗi.",
+          "answers": [
+            "読んだ限りでは誤りはない。"
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Theo những gì nghe được, anh ấy ổn.",
+          "answers": [
+            "聞いている限りでは彼は元気だ。"
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Với tài liệu này thì chưa đủ.",
+          "answers": [
+            "この資料限りでは不十分だ。"
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Trong phạm vi quan sát, máy chạy bình thường.",
+          "answers": [
+            "見る限りでは機械は正常だ。"
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Theo báo cáo thì doanh số tăng.",
+          "answers": [
+            "報告の限りでは売上げは増えている。"
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Trong phạm vi thử nghiệm, kết quả tốt.",
+          "answers": [
+            "試験した限りでは結果は良好だ。"
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Theo kinh nghiệm tôi, cách này hiệu quả.",
+          "answers": [
+            "経験の限りではこの方法が有効だ。"
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Trong phạm vi bản đồ, đường này ngắn nhất.",
+          "answers": [
+            "地図の限りではこの道が一番短い。"
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Theo những gì tôi biết, cửa hàng đóng cửa.",
+          "answers": [
+            "知る限りではその店は閉店した。"
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "私の知る限りでは彼は来ていない。",
+          "answers": [
+            "Theo tôi biết, anh ấy chưa đến."
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "確認した限りでは在庫はある。",
+          "answers": [
+            "Trong phạm vi đã xác nhận thì còn hàng."
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "この記録限りでは欠席は一度もない。",
+          "answers": [
+            "Theo hồ sơ này thì chưa vắng lần nào."
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "聞いた限りでは問題は解決した。",
+          "answers": [
+            "Theo những gì nghe được, vấn đề đã giải quyết."
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "見た限りでは異常はない。",
+          "answers": [
+            "Trong phạm vi nhìn thấy thì không bất thường."
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "調べた限りでは同じ事例はない。",
+          "answers": [
+            "Trong phạm vi đã tra thì không có vụ tương tự."
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "データ限りでは判断を保留する。",
+          "answers": [
+            "Chỉ với dữ liệu thì tạm giữ phán đoán."
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "記憶の限りでは昨日が締め切りだった。",
+          "answers": [
+            "Theo trí nhớ tôi, hạn là hôm qua."
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "ニュースの限りでは被害は小さい。",
+          "answers": [
+            "Theo tin tức thì thiệt hại nhỏ."
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "今把握している限りでは全員無事だ。",
+          "answers": [
+            "Trong phạm vi nắm được hiện nay, mọi người bình an."
+          ],
+          "hint": "Vる／Nの ＋ 限りでは",
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-order-01",
+          "mode": "order",
+          "prompt": "Theo tôi biết anh ấy không vắng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "知る"
+            },
+            {
+              "id": "1",
+              "text": "限りでは"
+            },
+            {
+              "id": "2",
+              "text": "彼は"
+            },
+            {
+              "id": "3",
+              "text": "欠席していない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限りでは",
+          "answers": [
+            "知る限りでは彼は欠席していない。"
+          ],
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng. ★ là 限りでは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-order-02",
+          "mode": "order",
+          "prompt": "Trong phạm vi kiểm tra không thấy lỗi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "調べた"
+            },
+            {
+              "id": "1",
+              "text": "限りでは"
+            },
+            {
+              "id": "2",
+              "text": "問題は"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限りでは",
+          "answers": [
+            "調べた限りでは問題はない。"
+          ],
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng. ★ là 限りでは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-order-03",
+          "mode": "order",
+          "prompt": "Với dữ liệu này chưa kết luận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "このデータ"
+            },
+            {
+              "id": "1",
+              "text": "限りでは"
+            },
+            {
+              "id": "2",
+              "text": "結論を"
+            },
+            {
+              "id": "3",
+              "text": "出せない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限りでは",
+          "answers": [
+            "このデータ限りでは結論を出せないのだ。"
+          ],
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng. ★ là 限りでは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-order-04",
+          "mode": "order",
+          "prompt": "Theo tôi nhớ họp lúc 10 giờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "覚えている"
+            },
+            {
+              "id": "1",
+              "text": "限りでは"
+            },
+            {
+              "id": "2",
+              "text": "10時"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限りでは",
+          "answers": [
+            "覚えている限りでは10時だ。"
+          ],
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng. ★ là 限りでは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-order-05",
+          "mode": "order",
+          "prompt": "Trong phạm vi đọc không có lỗi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "読んだ"
+            },
+            {
+              "id": "1",
+              "text": "限りでは"
+            },
+            {
+              "id": "2",
+              "text": "誤りは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限りでは",
+          "answers": [
+            "読んだ限りでは誤りはない。"
+          ],
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng. ★ là 限りでは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-order-06",
+          "mode": "order",
+          "prompt": "Theo những gì nghe anh ấy ổn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "聞いている"
+            },
+            {
+              "id": "1",
+              "text": "限りでは"
+            },
+            {
+              "id": "2",
+              "text": "元気"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限りでは",
+          "answers": [
+            "聞いている限りでは元気だ。"
+          ],
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng. ★ là 限りでは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-order-07",
+          "mode": "order",
+          "prompt": "Trong phạm vi nhìn máy bình thường.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "見る"
+            },
+            {
+              "id": "1",
+              "text": "限りでは"
+            },
+            {
+              "id": "2",
+              "text": "正常に"
+            },
+            {
+              "id": "3",
+              "text": "動いている。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限りでは",
+          "answers": [
+            "見る限りでは正常に動いている。"
+          ],
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng. ★ là 限りでは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-order-08",
+          "mode": "order",
+          "prompt": "Theo báo cáo doanh số tăng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "報告の"
+            },
+            {
+              "id": "1",
+              "text": "限りでは"
+            },
+            {
+              "id": "2",
+              "text": "売上げが"
+            },
+            {
+              "id": "3",
+              "text": "増えた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限りでは",
+          "answers": [
+            "報告の限りでは売上げが増えた。"
+          ],
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng. ★ là 限りでは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-order-09",
+          "mode": "order",
+          "prompt": "Theo hồ sơ chưa từng vắng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "記録の"
+            },
+            {
+              "id": "1",
+              "text": "限りでは"
+            },
+            {
+              "id": "2",
+              "text": "欠席は"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限りでは",
+          "answers": [
+            "記録の限りでは欠席はない。"
+          ],
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng. ★ là 限りでは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g03-order-10",
+          "mode": "order",
+          "prompt": "Theo tin tức thiệt hại nhỏ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ニュースの"
+            },
+            {
+              "id": "1",
+              "text": "限りでは"
+            },
+            {
+              "id": "2",
+              "text": "被害は"
+            },
+            {
+              "id": "3",
+              "text": "軽い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vる／Nの ＋ 限りでは",
+          "answers": [
+            "ニュースの限りでは被害は軽い。"
+          ],
+          "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng. ★ là 限りでは.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l05-g04",
+      "title": "〜に限って",
+      "meaning": "Đúng vào lúc… lại…; chỉ riêng… thì… (nghịch lý / đặc biệt)",
+      "variants": [
+        "に限って"
+      ],
+      "structures": [
+        "N ＋ に限って"
+      ],
+      "explanation": "Thường mang sắc thái 'đúng lúc quan trọng lại xảy ra điều không mong muốn', hoặc nhấn mạnh trường hợp đặc biệt.",
+      "usage": "Phàn nàn nhẹ, kể chuyện đời thường; cũng dùng giới hạn đối tượng mang sắc thái nhấn mạnh.",
+      "cautions": [
+        "Khác に限り (thông báo giới hạn trung tính).",
+        "Hay đi với sự việc trái mong đợi."
+      ],
+      "contrast": "に限って ≈ đúng vào… lại…. Khác に限り (chỉ áp dụng) và 限りでは (phạm vi nhận thức).",
+      "examples": [
+        {
+          "ja": "急いでいるときに限って電車が遅れる。",
+          "reading": "いそいでいるときにかぎってでんしゃがおくれる。",
+          "vi": "Đúng lúc đang vội thì tàu lại trễ.",
+          "ruby": [
+            {
+              "text": "急",
+              "reading": "いそ"
+            },
+            {
+              "text": "いでいるときに"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "遅",
+              "reading": "おく"
+            },
+            {
+              "text": "れる。"
+            }
+          ]
+        },
+        {
+          "ja": "彼に限ってそんなことはしない。",
+          "reading": "かれにかぎってそんなことはしない。",
+          "vi": "Riêng anh ấy thì không làm chuyện như vậy.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "そんなことはしない。"
+            }
+          ]
+        },
+        {
+          "ja": "大切な日に限って天気が悪い。",
+          "reading": "たいせつなひにかぎっててんきがわるい。",
+          "vi": "Đúng vào ngày quan trọng thì thời tiết lại xấu.",
+          "ruby": [
+            {
+              "text": "大切",
+              "reading": "たいせつ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "天気",
+              "reading": "てんき"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "い。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 37,
+        "printedPage": 24,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kagitte-chi-rieng-dung-vao/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-nikagiru-nikagiri-nikagitte-chi-chi-danh-cho-chi-rieng-chi-gioi-han-trong/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l05-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Đúng lúc không mang ô thì trời mưa.",
+          "answers": [
+            "傘を持っていない日に限って雨が降る。"
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Riêng hôm nay máy lại hỏng.",
+          "answers": [
+            "今日に限って機械が故障した。"
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Đúng lúc cần im lặng thì điện thoại reo.",
+          "answers": [
+            "静かにすべきときに限って電話が鳴る。"
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Riêng anh ấy thì tôi tin được.",
+          "answers": [
+            "彼に限って信じられる。"
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đúng ngày thi thì bị cảm.",
+          "answers": [
+            "試験の日に限って風邪をひく。"
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Riêng cửa hàng này thì luôn đông.",
+          "answers": [
+            "この店に限っていつも混んでいる。"
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Đúng lúc hết pin thì cần đèn pin.",
+          "answers": [
+            "電池がなくなったときに限って懐中電灯が必要になる。"
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Riêng lần này thì hãy bỏ qua.",
+          "answers": [
+            "今回に限って許してください。"
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Đúng lúc họp quan trọng thì đường kẹt.",
+          "answers": [
+            "重要な会議のときに限って道が混む。"
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Riêng con tôi thì không nói dối.",
+          "answers": [
+            "うちの子に限って嘘はつかない。"
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "忙しいときに限って客が来る。",
+          "answers": [
+            "Đúng lúc bận thì khách lại đến."
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "彼女に限って遅刻しない。",
+          "answers": [
+            "Riêng cô ấy thì không đến muộn."
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "休みの日に限って天気が崩れる。",
+          "answers": [
+            "Đúng ngày nghỉ thì thời tiết lại xấu."
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "必要なときに限って見つからない。",
+          "answers": [
+            "Đúng lúc cần thì lại không tìm thấy."
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "この道に限って工事中だ。",
+          "answers": [
+            "Riêng con đường này thì đang thi công."
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "提出日前日に限って調子が悪い。",
+          "answers": [
+            "Đúng ngày trước hạn nộp thì tình trạng lại xấu."
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "彼に限ってそんなミスはしないはずだ。",
+          "answers": [
+            "Riêng anh ấy lẽ ra không mắc lỗi như vậy."
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "写真を撮るときに限って笑顔になれない。",
+          "answers": [
+            "Đúng lúc chụp ảnh thì lại không cười được."
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "今夜に限って残業できない。",
+          "answers": [
+            "Riêng tối nay thì không tăng ca được."
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "大切な話の最中に限って邪魔が入る。",
+          "answers": [
+            "Đúng giữa lúc chuyện quan trọng thì lại bị làm phiền."
+          ],
+          "hint": "N ＋ に限って",
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-order-01",
+          "mode": "order",
+          "prompt": "Đúng lúc vội thì tàu trễ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "急いでいるときに"
+            },
+            {
+              "id": "1",
+              "text": "限って"
+            },
+            {
+              "id": "2",
+              "text": "電車が"
+            },
+            {
+              "id": "3",
+              "text": "遅れる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限って",
+          "answers": [
+            "急いでいるときに限って電車が遅れるのだ。"
+          ],
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý. ★ là 限って.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-order-02",
+          "mode": "order",
+          "prompt": "Riêng anh ấy không làm vậy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼に"
+            },
+            {
+              "id": "1",
+              "text": "限って"
+            },
+            {
+              "id": "2",
+              "text": "そんなことは"
+            },
+            {
+              "id": "3",
+              "text": "しない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限って",
+          "answers": [
+            "彼に限ってそんなことはしないのだ。"
+          ],
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý. ★ là 限って.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-order-03",
+          "mode": "order",
+          "prompt": "Đúng ngày quan trọng trời xấu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "大切な日に"
+            },
+            {
+              "id": "1",
+              "text": "限って"
+            },
+            {
+              "id": "2",
+              "text": "天気が"
+            },
+            {
+              "id": "3",
+              "text": "悪い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限って",
+          "answers": [
+            "大切な日に限って天気が悪いのだ。"
+          ],
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý. ★ là 限って.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-order-04",
+          "mode": "order",
+          "prompt": "Đúng lúc không mang ô thì mưa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "傘がない日に"
+            },
+            {
+              "id": "1",
+              "text": "限って"
+            },
+            {
+              "id": "2",
+              "text": "雨が"
+            },
+            {
+              "id": "3",
+              "text": "降る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限って",
+          "answers": [
+            "傘がない日に限って雨が降る。"
+          ],
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý. ★ là 限って.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-order-05",
+          "mode": "order",
+          "prompt": "Riêng hôm nay máy hỏng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今日に"
+            },
+            {
+              "id": "1",
+              "text": "限って"
+            },
+            {
+              "id": "2",
+              "text": "故障"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限って",
+          "answers": [
+            "今日に限って故障した。"
+          ],
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý. ★ là 限って.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-order-06",
+          "mode": "order",
+          "prompt": "Đúng ngày thi bị cảm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "試験の日に"
+            },
+            {
+              "id": "1",
+              "text": "限って"
+            },
+            {
+              "id": "2",
+              "text": "風邪を"
+            },
+            {
+              "id": "3",
+              "text": "ひく。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限って",
+          "answers": [
+            "試験の日に限って風邪をひく。"
+          ],
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý. ★ là 限って.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-order-07",
+          "mode": "order",
+          "prompt": "Riêng cô ấy không muộn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼女に"
+            },
+            {
+              "id": "1",
+              "text": "限って"
+            },
+            {
+              "id": "2",
+              "text": "遅刻は"
+            },
+            {
+              "id": "3",
+              "text": "しない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限って",
+          "answers": [
+            "彼女に限って遅刻はしない。"
+          ],
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý. ★ là 限って.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-order-08",
+          "mode": "order",
+          "prompt": "Đúng lúc bận khách đến.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忙しいときに"
+            },
+            {
+              "id": "1",
+              "text": "限って"
+            },
+            {
+              "id": "2",
+              "text": "客が"
+            },
+            {
+              "id": "3",
+              "text": "来る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限って",
+          "answers": [
+            "忙しいときに限って客が来る。"
+          ],
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý. ★ là 限って.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-order-09",
+          "mode": "order",
+          "prompt": "Riêng lần này hãy bỏ qua.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今回に"
+            },
+            {
+              "id": "1",
+              "text": "限って"
+            },
+            {
+              "id": "2",
+              "text": "許して"
+            },
+            {
+              "id": "3",
+              "text": "ください。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限って",
+          "answers": [
+            "今回に限って許してください。"
+          ],
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý. ★ là 限って.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        },
+        {
+          "id": "l05-g04-order-10",
+          "mode": "order",
+          "prompt": "Đúng lúc cần lại không thấy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "必要なときに"
+            },
+            {
+              "id": "1",
+              "text": "限って"
+            },
+            {
+              "id": "2",
+              "text": "見つから"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ に限って",
+          "answers": [
+            "必要なときに限って見つからない。"
+          ],
+          "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý. ★ là 限って.",
+          "origin": "authored",
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+        }
+      ]
+    }
+  ]
+}
