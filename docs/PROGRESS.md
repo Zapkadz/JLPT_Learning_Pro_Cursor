@@ -11,8 +11,9 @@ Rule: **never** write targets as completed counts.
 - **N2-AUDIT-001 DONE** (2026-09-14).  
 - **N2-MAP-001 DONE** (2026-09-14) — `content/grammar/n2/inventory.json` + `docs/grammar-n2/SOURCE-MAPPING.md`.  
 - **N2-MAP-002 DONE** (2026-09-15) — **141/141** groups mapped to TNĐG URLs / match status.  
+- **N2-ARCH-001 DONE** (2026-09-15) — multi-lesson loader (published JSON only).  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **AVAILABLE** — `main` → `origin/main` (`https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git`).
+- Git: **AVAILABLE** — `main` → `origin/main`; active work on `feat/n2-arch-001-loader`.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -62,6 +63,13 @@ Re-verified against repository (no app code changes):
 - Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
 - Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
 
+### N2-ARCH-001 (2026-09-15) — DONE
+
+- Replaced hard-coded `lesson-01.json` load with manifest-driven loader.  
+- Only `published: true` lessons are loaded; missing published file fails at startup.  
+- Router: `GET /lessons/:id` unpublished/unknown → 404; course counts from `allPatterns()`.  
+- Branch: `feat/n2-arch-001-loader`. No L2–26 content JSON added.
+
 ### N2-MAP-002 L21–26 batch (2026-09-15) — DONE (141/141)
 
 - Filled final 36 `canonicalPattern`s (L22–26 from 3A TOC; L21 from Quizlet/mylittlewordland).  
@@ -96,6 +104,7 @@ Re-verified against repository (no app code changes):
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-15 | N2-ARCH-001 multi-lesson loader + API unpublished 404 | **13/13 pass** | `npm test` |
 | 2026-09-15 | N2-MAP-002 L21–26 + inventory test | **12/12 pass** | `npm test` |
 | 2026-09-15 | N2-MAP-002 L16–20 + inventory test | **12/12 pass** | `npm test` |
 | 2026-09-15 | N2-MAP-002 L11–15 + inventory test | **12/12 pass** | `npm test` |
@@ -108,7 +117,8 @@ Re-verified against repository (no app code changes):
 
 ## Known Incomplete Work
 
-- Multi-lesson loader (**N2-ARCH-001**) — next when user approves.  
+- Additive metadata Zod (**N2-ARCH-002**).  
+- UI Lesson-1 hardcoding (**N2-L01-UX-001**).  
 - Lesson 1 golden-template polish (examples depth, metadata, optional practice furigana).  
 - Lessons 2–26 content import.  
 - Playwright grammar E2E.
@@ -121,4 +131,4 @@ Re-verified against repository (no app code changes):
 
 ## Blockers
 
-1. User approval / priority to start **N2-ARCH-001** (PLAN phase gate for coding tasks).
+1. Merge `feat/n2-arch-001-loader`, then continue **N2-ARCH-002** (or prioritize UX).

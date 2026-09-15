@@ -331,7 +331,7 @@ Full URLs: `content/grammar/n2/inventory.json`.
 
 **DONE:** Lessons 1–26 (**141/141**) — titles + TNĐG `sourceUrls` / `matchStatus`. Content still `not-imported` except Lesson 1.
 
-Do **not** import lesson JSON until **N2-ARCH-001** loader gate.
+Do **not** import lesson JSON for L2–26 until content batch tasks (loader gate **N2-ARCH-001** is DONE).
 
 ## Change log
 

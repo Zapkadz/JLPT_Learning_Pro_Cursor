@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-15 (N2-MAP-002 DONE 141/141)
+2026-09-15 (N2-ARCH-001 on `feat/n2-arch-001-loader`)
 
 ## Project
 
@@ -11,57 +11,58 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`main` (tracks `origin/main`)
+`feat/n2-arch-001-loader` (from `main` @ `6cdea59`)
 
 ## Latest Relevant Commit
 
-`c886a00` — `feat: complete N2-MAP-002 grammar inventory (141/141)`  
-Branch ahead of `origin/main` by 1 (not pushed).
+See HEAD of this branch after merge; base `main` was `6cdea59`.
 
 ## Current Objective
 
-N2-MAP-002 complete. Next coding task when approved: **N2-ARCH-001** (multi-lesson loader). Do not import L2–26 JSON until then.
+N2-ARCH-001 complete. Next when approved: **N2-ARCH-002** (additive metadata via Zod) or commit/push this branch.
 
 ## Current Phase
 
-**Phase 1** — N2-MAP-002 **DONE** (141/141 mapped).  
-N2-ARCH-001 **not started** (needs user priority / approval for coding tasks per PLAN phase gate).
+**Phase 1** — N2-ARCH-001 **DONE** (multi-lesson loader).  
+Content still Lesson 1 only; no L2–26 JSON imported.
 
 ## Current Task
 
-**N2-MAP-002** — **DONE**. Await user direction for **N2-ARCH-001**.
+**N2-ARCH-001** — **DONE**. Next: merge PR, then **N2-ARCH-002** or **N2-L01-UX-001**.
 
 ## Last Completed Work
 
-- **N2-MAP-002 L21–26:** 36 groups — L22–26 from 3A TOC; L21 from Quizlet/mylittlewordland (3A site jumps 20→22); TNĐG URLs.  
-- Prior batches: L16–20 (28), L11–15 (27), L6–10 (24), L2–5 (21), L1 (5).
+- Multi-lesson loader in `server/modules/grammar/content.ts`: loads only `manifest.published` lessons; unpublished need no JSON file.  
+- Router uses `getLesson` / `getPattern` / `allPatterns`.  
+- Tests: unpublished `lesson-02` → 404; L1 regression kept.
 
 ## Current State
 
-- **141/141** groups with titles + TNĐG URLs.  
-- Content still only Lesson 1 imported (5 groups / 150 exercises).  
-- partial-match: `l04-g05`, `l04-g06`, `l13-g02`, `l13-g05`, `l18-g03`, `l23-g06`, `l26-g02`.
+- 141/141 inventory mapped (MAP-002).  
+- Published content: Lesson 1 only (5 groups / 150 exercises).  
+- UI still hard-links Bài 01 in places (**N2-L01-UX-001** later).
 
 ## Verification State
 
 | Check | State |
 |-------|--------|
-| `npm test` | **PASS** 12/12 after MAP-002 L21–26 |
+| `npm test` | **PASS** 13/13 after N2-ARCH-001 |
 
 ## Known Blockers
 
-- PLAN phase gate: N2-* coding (ARCH) needs explicit user approval.  
 - Furigana on JA→VI practice — product decision still open.
 
 ## Exact Next Action
 
-Ask user / wait for approval to start **N2-ARCH-001** (multi-lesson content loader). Do **not** import lesson JSON before that.
+1. Merge PR for `feat/n2-arch-001-loader` into `main`.  
+2. Then **N2-ARCH-002** (additive metadata) or **N2-L01-UX-001** if UI hardcoding should go sooner.  
+3. Do **not** import Lessons 2–26 JSON until content batches.
 
 ## Files To Read Before Continuing
 
-1. `content/grammar/n2/inventory.json`  
-2. `docs/grammar-n2/SOURCE-MAPPING.md`  
-3. `server/modules/grammar/content.ts` (for ARCH-001)  
+1. `server/modules/grammar/content.ts`  
+2. `server/modules/grammar/router.ts`  
+3. `tests/grammar/grammar.test.ts`  
 4. `docs/requirements/GRAMMAR-N2-MASTER-REQUIREMENT.md`
 
 ## Safety Notes

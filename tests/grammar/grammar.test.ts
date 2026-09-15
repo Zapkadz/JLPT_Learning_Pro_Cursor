@@ -12,6 +12,10 @@ import {
   grade,
   publicExercise,
   normalizeTranslation,
+  getLesson,
+  lessonsById,
+  allPatterns,
+  isLessonPublished,
 } from "../../server/modules/grammar/content";
 import type {
   Exercise,
@@ -158,6 +162,25 @@ test("N2 canonical inventory has 141 unique group IDs and matches manifest", () 
   );
 });
 
+test("N2 multi-lesson loader loads published content only", () => {
+  assert.equal(lessonsById.size, 1);
+  assert.equal(getLesson("lesson-01")?.id, "lesson-01");
+  assert.equal(getLesson("lesson-02"), undefined);
+  assert.equal(isLessonPublished("lesson-01"), true);
+  assert.equal(isLessonPublished("lesson-02"), false);
+  assert.equal(allPatterns().length, 5);
+  assert.deepEqual(
+    allPatterns()
+      .map((p) => p.id)
+      .sort(),
+    ["sai", "saishite", "totan", "omouto", "kanai"].sort(),
+  );
+  for (const entry of manifest.lessons) {
+    if (entry.published) assert.ok(getLesson(entry.id), entry.id);
+    else assert.equal(getLesson(entry.id), undefined, entry.id);
+  }
+});
+
 test("N2 content coverage, no duplicate prompts, valid answer/token permutations and private DTO", () => {
   assert.equal(manifest.lessons.length, 26);
   assert.equal(
@@ -249,6 +272,18 @@ test("grammar ownership, resume, conflict, reveal, completion, XP and FSRS idemp
   const call = (path: string, method = "GET", body?: unknown) =>
     request(path, method, body, a.cookie);
   assert.equal((await request("/grammar/courses/n2")).status, 401);
+  const course = await call("/grammar/courses/n2");
+  assert.equal(course.status, 200);
+  assert.equal(course.data.publishedGroups, 5);
+  assert.equal(course.data.publishedExercises, 150);
+  const unpublished = await call("/grammar/lessons/lesson-02");
+  assert.equal(unpublished.status, 404);
+  assert.match(unpublished.data.error, /biên soạn/);
+  const unknownLesson = await call("/grammar/lessons/lesson-99");
+  assert.equal(unknownLesson.status, 404);
+  const publishedLesson = await call("/grammar/lessons/lesson-01");
+  assert.equal(publishedLesson.status, 200);
+  assert.equal(publishedLesson.data.patterns.length, 5);
   const s = (await call("/grammar/patterns/sai/sessions", "POST"))
     .data as Session;
   assert.equal(s.questions.length, 30);
