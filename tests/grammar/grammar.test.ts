@@ -22,6 +22,7 @@ import type {
   Session,
   ResponseState,
 } from "../../shared/grammar/types";
+import { patternSchema } from "../../shared/grammar/types";
 
 const inventory = JSON.parse(
   readFileSync(
@@ -181,6 +182,51 @@ test("N2 multi-lesson loader loads published content only", () => {
   }
 });
 
+test("N2 additive metadata is optional and public DTO still strips private fields", () => {
+  for (const p of lesson.patterns) {
+    assert.ok(Array.isArray(p.variants));
+    assert.ok(Array.isArray(p.source.urls));
+    assert.equal(p.variants.length, 0);
+    assert.equal(p.source.urls.length, 0);
+  }
+  const sample = lesson.patterns[0]!;
+  const enriched = patternSchema.parse({
+    ...JSON.parse(JSON.stringify(sample)),
+    variants: ["際に", "際は"],
+    source: {
+      ...sample.source,
+      urls: ["https://www.tiengnhatdongian.com/ngu-phap-n3-n2-sai-ni-khi-luc-trong-truong-hop-nhan-dip/"],
+    },
+    exercises: sample.exercises.map((q, i) =>
+      i === 0
+        ? {
+            ...q,
+            origin: "authored",
+            sourceNote: "Lesson 1 pilot authored item",
+          }
+        : q,
+    ),
+  });
+  assert.deepEqual(enriched.variants, ["際に", "際は"]);
+  assert.equal(enriched.source.urls.length, 1);
+  assert.equal(enriched.exercises[0]!.origin, "authored");
+  assert.equal(
+    enriched.exercises[0]!.sourceNote,
+    "Lesson 1 pilot authored item",
+  );
+  const dto = publicExercise(enriched.exercises[0]!);
+  for (const key of [
+    "answers",
+    "acceptedOrders",
+    "explanation",
+    "hint",
+    "origin",
+    "sourceNote",
+  ])
+    assert.ok(!(key in dto), key);
+  assert.deepEqual(Object.keys(dto).sort(), ["id", "mode", "prompt"]);
+});
+
 test("N2 content coverage, no duplicate prompts, valid answer/token permutations and private DTO", () => {
   assert.equal(manifest.lessons.length, 26);
   assert.equal(
@@ -284,6 +330,13 @@ test("grammar ownership, resume, conflict, reveal, completion, XP and FSRS idemp
   const publishedLesson = await call("/grammar/lessons/lesson-01");
   assert.equal(publishedLesson.status, 200);
   assert.equal(publishedLesson.data.patterns.length, 5);
+  assert.ok(Array.isArray(publishedLesson.data.patterns[0].variants));
+  const patternDetail = await call("/grammar/patterns/sai");
+  assert.equal(patternDetail.status, 200);
+  assert.equal(patternDetail.data.lessonId, "lesson-01");
+  assert.equal(patternDetail.data.lessonNumber, 1);
+  assert.equal(patternDetail.data.lessonTitle, "Thời điểm · Ngay sau khi");
+  assert.ok(Array.isArray(patternDetail.data.variants));
   const s = (await call("/grammar/patterns/sai/sessions", "POST"))
     .data as Session;
   assert.equal(s.questions.length, 30);

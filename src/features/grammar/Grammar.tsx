@@ -33,6 +33,7 @@ export function GrammarCourse() {
   const { data, error, reload } = useData<Course>("/grammar/courses/n2");
   if (error) return <ErrorState message={error} retry={reload} />;
   if (!data) return <Loading />;
+  const startLesson = data.lessons.find((l) => l.published);
   return (
     <div className="grammar-page">
       <div className="grammar-eyebrow">LỘ TRÌNH HỌC · N2</div>
@@ -48,9 +49,18 @@ export function GrammarCourse() {
             {data.targetGroups} nhóm · {data.lessons.length} bài · mục tiêu{" "}
             {data.targetExercises.toLocaleString("vi-VN")} câu luyện
           </p>
-          <Link className="btn primary" to="/grammar/n2/lessons/lesson-01">
-            Học bài 1 <ArrowRight size={17} />
-          </Link>
+          {startLesson ? (
+            <Link
+              className="btn primary"
+              to={"/grammar/n2/lessons/" + startLesson.id}
+            >
+              Học bài {startLesson.number} <ArrowRight size={17} />
+            </Link>
+          ) : (
+            <span className="btn primary" aria-disabled="true">
+              Chưa có bài sẵn sàng
+            </span>
+          )}
         </div>
         <div className="grammar-hero-mark" lang="ja">
           文<span>一歩ずつ、身につける。</span>
@@ -241,8 +251,11 @@ export function GrammarPattern() {
   if (!data) return <Loading />;
   return (
     <div className="grammar-page">
-      <Link className="back-link" to="/grammar/n2/lessons/lesson-01">
-        ← Bài 1 · Thời điểm, ngay sau khi
+      <Link
+        className="back-link"
+        to={"/grammar/n2/lessons/" + data.lessonId}
+      >
+        ← Bài {data.lessonNumber} · {data.lessonTitle}
       </Link>
       <div className="grammar-eyebrow">N2 · HỌC CÁCH DÙNG</div>
       <PageHead title={data.title} description={data.meaning}>

@@ -12,6 +12,8 @@ const base = {
   hint: z.string(),
   explanation: z.string().min(5),
   answers: z.array(z.string().min(1)).min(1),
+  origin: z.enum(["source", "source-adapted", "authored"]).optional(),
+  sourceNote: z.string().min(1).optional(),
 };
 export const exerciseSchema = z.discriminatedUnion("mode", [
   z.object({ ...base, mode: z.literal("vi-ja") }),
@@ -33,6 +35,7 @@ export const patternSchema = z.object({
   id: z.string(),
   title: z.string(),
   meaning: z.string(),
+  variants: z.array(z.string()).default([]),
   structures: z.array(z.string()),
   explanation: z.string(),
   usage: z.string(),
@@ -48,7 +51,11 @@ export const patternSchema = z.object({
       ),
     }),
   ),
-  source: z.object({ pdfPage: z.number(), printedPage: z.number() }),
+  source: z.object({
+    pdfPage: z.number(),
+    printedPage: z.number(),
+    urls: z.array(z.string().url()).default([]),
+  }),
   reviewStatus: z.literal("agent_reviewed"),
   revision: z.number(),
   exercises: z.array(exerciseSchema),
@@ -58,11 +65,15 @@ export type PatternSummary = Pick<Pattern, "id" | "title" | "meaning"> & {
   count: number;
   read: boolean;
   completed: number;
+  variants?: string[];
 };
 export type PatternDetail = Omit<Pattern, "exercises"> & {
   counts: Record<Mode, number>;
   read: boolean;
   provenance: string;
+  lessonId: string;
+  lessonNumber: number;
+  lessonTitle: string;
 };
 export type ResponseState = {
   answer: string | string[];

@@ -155,3 +155,5 @@ export function publicExercise(q: Exercise): PublicExercise {
 }
 
 // Content revisions are immutable; changing JSON requires a revision bump.
+// Additive pattern/exercise metadata (variants, origin) must stay optional/defaulted
+// so older lesson JSON and stored sessions keep loading.

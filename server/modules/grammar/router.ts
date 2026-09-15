@@ -128,6 +128,7 @@ export function grammarModule(db: Database.Database) {
           id: p.id,
           title: p.title,
           meaning: p.meaning,
+          variants: p.variants,
           count: p.exercises.length,
           read: read(uid, p.id),
           completed: s
@@ -140,11 +141,18 @@ export function grammarModule(db: Database.Database) {
     });
   });
   router.get("/patterns/:id", (req, res) => {
-    const { exercises, ...p } = pattern(req.params.id);
+    const lookup = getPattern(req.params.id);
+    if (!lookup) fail(404, "Không tìm thấy mẫu ngữ pháp.");
+    const { exercises, ...p } = lookup.pattern;
+    const lessonMeta = manifest.lessons.find((l) => l.id === lookup.lesson.id);
+    if (!lessonMeta) fail(404, "Không tìm thấy bài học.");
     res.json({
       ...p,
       read: read(res.locals.user.id, p.id),
-      provenance: patternLesson(req.params.id).provenance,
+      provenance: lookup.lesson.provenance,
+      lessonId: lookup.lesson.id,
+      lessonNumber: lessonMeta.number,
+      lessonTitle: lessonMeta.title,
       counts: Object.fromEntries(
         ["vi-ja", "ja-vi", "order"].map((m) => [
           m,
@@ -335,7 +343,10 @@ export function grammarModule(db: Database.Database) {
         deckId,
         uid,
         "N2 · " + p.title,
-        "Mẫu từ bài 1 · học ngữ pháp",
+        "Mẫu từ bài " +
+          (manifest.lessons.find((l) => l.id === patternLesson(p.id).id)
+            ?.number ?? "?") +
+          " · học ngữ pháp",
         "grammar",
         "N2",
         "{term}",
