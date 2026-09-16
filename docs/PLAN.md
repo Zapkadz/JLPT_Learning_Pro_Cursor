@@ -6,11 +6,11 @@ Module design history remains in `docs/grammar-n2/PLAN.md` (do not treat that fi
 
 ## Current Goal
 
-Grammar N2 per Master Requirement. **N2-L11-BATCH DONE** (Lessons 11–15 on `feat/n2-l11-batch`; commit/PR pending). Next: **N2-L16-BATCH** (needs approval) or **N2-L01-FURI-001**.
+Grammar N2 per Master Requirement. **N2-L16-BATCH DONE** (Lessons 16–20 on `feat/n2-l16-batch`; commit/PR pending). Next: **N2-L21-BATCH** (needs approval) or **N2-L01-FURI-001**. Ensure PR #10 (L11) merges to `main`.
 
 ## Current Milestone
 
-**Phase 1+ Grammar N2** — Lessons 1–15 on feature branch; awaiting commit/PR then L16+ / furigana decision.
+**Phase 1+ Grammar N2** — Lessons 1–20 on feature branch (stacked on L11); awaiting commit/PR then L21–26 / furigana decision.
 
 ## Status legend
 
@@ -53,8 +53,8 @@ Implementation of N2-* coding tasks requires **explicit user approval**. Until t
 | N2-E2E-001 | Fix legacy `app.spec` under Playwright webServer | DONE | N2-TEST-001 | Full `test:e2e` 2/2 |
 | N2-L02-BATCH | Lessons 2–5 content + exercises + validate | DONE | N2-TEST-001 | 21 groups / 630 ex; §71 validators; published |
 | N2-L06-BATCH | Lessons 6–10 | DONE | N2-L02-BATCH | 24 groups / 720 ex; §71 validators; published (PR #9 merged) |
-| N2-L11-BATCH | Lessons 11–15 | DONE | N2-L06-BATCH | 27 groups / 810 ex; §71 validators; published (commit/PR pending) |
-| N2-L16-BATCH | Lessons 16–20 | TODO | N2-L11-BATCH | Same |
+| N2-L11-BATCH | Lessons 11–15 | DONE | N2-L06-BATCH | 27 groups / 810 ex; §71 validators; published (PR #10) |
+| N2-L16-BATCH | Lessons 16–20 | DONE | N2-L11-BATCH | 28 groups / 840 ex; §71 validators; published (commit/PR pending) |
 | N2-L21-BATCH | Lessons 21–26 | TODO | N2-L16-BATCH | Same |
 | N2-FULL-ACC | Full-course acceptance (Master §73) | TODO | All lesson batches | 26/141/4230 validated with evidence — not placeholders |
 

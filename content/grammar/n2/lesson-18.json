@@ -1,0 +1,4421 @@
+{
+  "id": "lesson-18",
+  "titleJa": "不可能・困難・可能",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 18. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L16-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l18-g01",
+      "title": "〜がたい",
+      "meaning": "Khó mà… / không dễ… (cảm xúc, đánh giá)",
+      "variants": [
+        "がたい"
+      ],
+      "structures": [
+        "Vます ＋ がたい"
+      ],
+      "explanation": "がたい gắn vào thân ます: khó làm/chấp nhận về mặt tinh thần hoặc đánh giá, không chỉ khó kỹ thuật.",
+      "usage": "Tin tức, bình luận: khó tin, khó chấp nhận, khó quên.",
+      "cautions": [
+        "Thường với động từ liên quan cảm xúc/đánh giá: 信じがたい、許しがたい、忘れがたい.",
+        "Khác にくい (khó vì tính chất/kỹ thuật); がたい mang sắc thái chủ quan mạnh hơn."
+      ],
+      "contrast": "がたい ≈ khó mà…. Gần にくい nhưng thiên đánh giá/cảm xúc hơn.",
+      "examples": [
+        {
+          "ja": "彼の話は信じがたい。",
+          "reading": "かれのはなしはしんじがたい。",
+          "vi": "Chuyện anh ấy nói thật khó tin.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "信",
+              "reading": "しん"
+            },
+            {
+              "text": "じがたい。"
+            }
+          ]
+        },
+        {
+          "ja": "あの光景は忘れがたい。",
+          "reading": "あのこうけいはわすれがたい。",
+          "vi": "Cảnh tượng ấy thật khó quên.",
+          "ruby": [
+            {
+              "text": "あの"
+            },
+            {
+              "text": "光景",
+              "reading": "こうけい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れがたい。"
+            }
+          ]
+        },
+        {
+          "ja": "暴力は許しがたい行為だ。",
+          "reading": "ぼうりょくはゆるしがたいこういだ。",
+          "vi": "Bạo lực là hành vi khó chấp nhận.",
+          "ruby": [
+            {
+              "text": "暴力",
+              "reading": "ぼうりょく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "許",
+              "reading": "ゆる"
+            },
+            {
+              "text": "しがたい"
+            },
+            {
+              "text": "行為",
+              "reading": "こうい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 95,
+        "printedPage": 82,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-gatai-kho-ma-lam-gi-do/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l18-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Lời giải thích ấy khó chấp nhận.",
+          "answers": [
+            "その説明は受け入れがたい。"
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Kết quả này khó hiểu.",
+          "answers": [
+            "この結果は理解しがたい。"
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Thái độ ấy khó tha thứ.",
+          "answers": [
+            "あの態度は許しがたい。"
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Tin này khó tin nổi.",
+          "answers": [
+            "このニュースは信じがたい。"
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Kỷ niệm ấy khó quên.",
+          "answers": [
+            "その思い出は忘れがたい。"
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Yêu cầu này khó thực hiện.",
+          "answers": [
+            "この要求は応じがたい。"
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Hành động ấy khó bào chữa.",
+          "answers": [
+            "その行為は弁解しがたい。"
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Sự thật ấy khó thừa nhận.",
+          "answers": [
+            "その事実は認めがたい。"
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Cách nói ấy khó chịu.",
+          "answers": [
+            "その言い方は耐えがたい。"
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Quyết định ấy khó ủng hộ.",
+          "answers": [
+            "その決定は支持しがたい。"
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼の主張は理解しがたい。",
+          "answers": [
+            "Chủ trương của anh ấy khó hiểu."
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "裏切りは許しがたい。",
+          "answers": [
+            "Phản bội thật khó tha thứ."
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "その光景は忘れがたい。",
+          "answers": [
+            "Cảnh ấy thật khó quên."
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "この数字は信じがたい。",
+          "answers": [
+            "Con số này khó tin."
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "不正は見逃しがたい。",
+          "answers": [
+            "Bất chính khó bỏ qua."
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "その提案は受け入れがたい。",
+          "answers": [
+            "Đề xuất ấy khó chấp nhận."
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "この結論は納得しがたい。",
+          "answers": [
+            "Kết luận này khó tâm phục."
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "侮辱は耐えがたい。",
+          "answers": [
+            "Sỉ nhục thật khó chịu."
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "その扱い方は認めがたい。",
+          "answers": [
+            "Cách đối xử ấy khó thừa nhận."
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "この条件は応じがたい。",
+          "answers": [
+            "Điều kiện này khó đáp ứng."
+          ],
+          "hint": "〜がたい",
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-order-01",
+          "mode": "order",
+          "prompt": "Chuyện anh ấy khó tin.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼の話は"
+            },
+            {
+              "id": "1",
+              "text": "信じ"
+            },
+            {
+              "id": "2",
+              "text": "がたい"
+            },
+            {
+              "id": "3",
+              "text": "ものだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜がたい",
+          "answers": [
+            "彼の話は信じがたいものだ。"
+          ],
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-order-02",
+          "mode": "order",
+          "prompt": "Cảnh tượng khó quên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "あの光景は"
+            },
+            {
+              "id": "1",
+              "text": "忘れ"
+            },
+            {
+              "id": "2",
+              "text": "がたい"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜がたい",
+          "answers": [
+            "あの光景は忘れがたいだろう。"
+          ],
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-order-03",
+          "mode": "order",
+          "prompt": "Bạo lực thật khó chấp nhận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "暴力は"
+            },
+            {
+              "id": "1",
+              "text": "許しがたい"
+            },
+            {
+              "id": "2",
+              "text": "行為で"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜がたい",
+          "answers": [
+            "暴力は許しがたい行為である。"
+          ],
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-order-04",
+          "mode": "order",
+          "prompt": "Kết quả khó hiểu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この結果は"
+            },
+            {
+              "id": "1",
+              "text": "理解し"
+            },
+            {
+              "id": "2",
+              "text": "がたい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜がたい",
+          "answers": [
+            "この結果は理解しがたい。"
+          ],
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-order-05",
+          "mode": "order",
+          "prompt": "Tin tức khó tin.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "このニュースは"
+            },
+            {
+              "id": "1",
+              "text": "信じ"
+            },
+            {
+              "id": "2",
+              "text": "がたい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜がたい",
+          "answers": [
+            "このニュースは信じがたい。"
+          ],
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-order-06",
+          "mode": "order",
+          "prompt": "Thái độ khó tha thứ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "あの態度は"
+            },
+            {
+              "id": "1",
+              "text": "許し"
+            },
+            {
+              "id": "2",
+              "text": "がたい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜がたい",
+          "answers": [
+            "あの態度は許しがたい。"
+          ],
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-order-07",
+          "mode": "order",
+          "prompt": "Kỷ niệm khó quên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その思い出は"
+            },
+            {
+              "id": "1",
+              "text": "忘れ"
+            },
+            {
+              "id": "2",
+              "text": "がたい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜がたい",
+          "answers": [
+            "その思い出は忘れがたい。"
+          ],
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-order-08",
+          "mode": "order",
+          "prompt": "Yêu cầu khó đáp ứng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この要求は"
+            },
+            {
+              "id": "1",
+              "text": "応じ"
+            },
+            {
+              "id": "2",
+              "text": "がたい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜がたい",
+          "answers": [
+            "この要求は応じがたい。"
+          ],
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-order-09",
+          "mode": "order",
+          "prompt": "Sự thật khó thừa nhận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その事実は"
+            },
+            {
+              "id": "1",
+              "text": "認め"
+            },
+            {
+              "id": "2",
+              "text": "がたい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜がたい",
+          "answers": [
+            "その事実は認めがたい。"
+          ],
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g01-order-10",
+          "mode": "order",
+          "prompt": "Quyết định khó ủng hộ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その決定は"
+            },
+            {
+              "id": "1",
+              "text": "支持し"
+            },
+            {
+              "id": "2",
+              "text": "がたい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜がたい",
+          "answers": [
+            "その決定は支持しがたい。"
+          ],
+          "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l18-g02",
+      "title": "〜わけにはいかない・〜わけにもいかない",
+      "meaning": "Không thể… (vì lý do đạo đức/nghĩa vụ) / cũng không thể không…",
+      "variants": [
+        "わけにはいかない",
+        "わけにもいかない"
+      ],
+      "structures": [
+        "Vる ＋ わけにはいかない",
+        "Vない ＋ わけにはいかない",
+        "Vる ＋ わけにもいかない"
+      ],
+      "explanation": "わけにはいかない: không thể làm vì quy tắc, trách nhiệm, lương tâm. わけにもいかない: cũng không thể (làm) vì lý do tương tự, thường mềm hơn.",
+      "usage": "Từ chối lịch sự, tự ràng buộc: không thể bỏ cuộc, không thể nói dối.",
+      "cautions": [
+        "Khác できない (không có khả năng); đây là 'không nên/không được phép về mặt lý'.",
+        "Vないわけにはいかない ≈ buộc phải làm (không thể không làm)."
+      ],
+      "contrast": "わけにはいかない ≈ không thể…. わけにもいかない ≈ cũng không thể…. Khác てはいけない (cấm trực tiếp).",
+      "examples": [
+        {
+          "ja": "ここで諦めるわけにはいかない。",
+          "reading": "ここであきらめるわけにはいかない。",
+          "vi": "Không thể bỏ cuộc ở đây.",
+          "ruby": [
+            {
+              "text": "ここで"
+            },
+            {
+              "text": "諦",
+              "reading": "あきら"
+            },
+            {
+              "text": "めるわけにはいかない。"
+            }
+          ]
+        },
+        {
+          "ja": "嘘をつくわけにはいかない。",
+          "reading": "うそをつくわけにはいかない。",
+          "vi": "Không thể nói dối.",
+          "ruby": [
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "つ"
+            },
+            {
+              "text": "くわけにはいかない。"
+            }
+          ]
+        },
+        {
+          "ja": "何も言わないわけにもいかない。",
+          "reading": "なにもいわないわけにもいかない。",
+          "vi": "Cũng không thể không nói gì.",
+          "ruby": [
+            {
+              "text": "何",
+              "reading": "なに"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "わないわけにもいかない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 95,
+        "printedPage": 82,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-wakeniwaikanai-khong-the/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l18-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Không thể bỏ mặc đồng nghiệp.",
+          "answers": [
+            "同僚を放っておくわけにはいかない。"
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Không thể đến muộn họp quan trọng.",
+          "answers": [
+            "重要な会議に遅れるわけにはいかない。"
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Không thể phá lời hứa.",
+          "answers": [
+            "約束を破るわけにはいかない。"
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Cũng không thể từ chối lời mời.",
+          "answers": [
+            "招待を断るわけにもいかない。"
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Không thể im lặng mãi.",
+          "answers": [
+            "黙っているわけにはいかない。"
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Không thể tiêu tiền lung tung.",
+          "answers": [
+            "お金を無駄にするわけにはいかない。"
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Cũng không thể không giúp.",
+          "answers": [
+            "手伝わないわけにもいかない。"
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Không thể bỏ bê sức khỏe.",
+          "answers": [
+            "健康を疎かにするわけにはいかない。"
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Không thể lộ bí mật.",
+          "answers": [
+            "秘密を漏らすわけにはいかない。"
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Cũng không thể cười vào lúc ấy.",
+          "answers": [
+            "その場で笑うわけにもいかない。"
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "今日は休むわけにはいかない。",
+          "answers": [
+            "Hôm nay không thể nghỉ."
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "彼を無視するわけにはいかない。",
+          "answers": [
+            "Không thể phớt lờ anh ấy."
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "規則を破るわけにはいかない。",
+          "answers": [
+            "Không thể phá quy tắc."
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "返事をしないわけにもいかない。",
+          "answers": [
+            "Cũng không thể không trả lời."
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "親に心配をかけるわけにはいかない。",
+          "answers": [
+            "Không thể làm bố mẹ lo."
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "仕事を途中で放り出すわけにはいかない。",
+          "answers": [
+            "Không thể bỏ dở công việc."
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "失礼なことを言うわけにもいかない。",
+          "answers": [
+            "Cũng không thể nói thiếu lịch sự."
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "証拠を隠すわけにはいかない。",
+          "answers": [
+            "Không thể giấu bằng chứng."
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "一人で決めるわけにはいかない。",
+          "answers": [
+            "Không thể quyết một mình."
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "感謝しないわけにもいかない。",
+          "answers": [
+            "Cũng không thể không cảm ơn."
+          ],
+          "hint": "〜わけにはいかない",
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-order-01",
+          "mode": "order",
+          "prompt": "Không thể bỏ cuộc lúc này.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今ここで"
+            },
+            {
+              "id": "1",
+              "text": "諦める"
+            },
+            {
+              "id": "2",
+              "text": "わけには"
+            },
+            {
+              "id": "3",
+              "text": "いかない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わけにはいかない",
+          "answers": [
+            "今ここで諦めるわけにはいかない。"
+          ],
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-order-02",
+          "mode": "order",
+          "prompt": "Không được phép nói dối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "うそを"
+            },
+            {
+              "id": "1",
+              "text": "つく"
+            },
+            {
+              "id": "2",
+              "text": "わけには"
+            },
+            {
+              "id": "3",
+              "text": "いかない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わけにはいかない",
+          "answers": [
+            "うそをつくわけにはいかない。"
+          ],
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-order-03",
+          "mode": "order",
+          "prompt": "Cũng chẳng thể im thin thít.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "黙っている"
+            },
+            {
+              "id": "1",
+              "text": "わけにも"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わけにはいかない",
+          "answers": [
+            "黙っているわけにもいかない。"
+          ],
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-order-04",
+          "mode": "order",
+          "prompt": "Không thể nuốt lời đã hứa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "約束を"
+            },
+            {
+              "id": "1",
+              "text": "破る"
+            },
+            {
+              "id": "2",
+              "text": "わけには"
+            },
+            {
+              "id": "3",
+              "text": "いかない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わけにはいかない",
+          "answers": [
+            "約束を破るわけにはいかない。"
+          ],
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-order-05",
+          "mode": "order",
+          "prompt": "Không thể đến họp muộn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議に"
+            },
+            {
+              "id": "1",
+              "text": "遅れる"
+            },
+            {
+              "id": "2",
+              "text": "わけには"
+            },
+            {
+              "id": "3",
+              "text": "いかない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わけにはいかない",
+          "answers": [
+            "会議に遅れるわけにはいかない。"
+          ],
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-order-06",
+          "mode": "order",
+          "prompt": "Cũng không thể từ chối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "招待を"
+            },
+            {
+              "id": "1",
+              "text": "断る"
+            },
+            {
+              "id": "2",
+              "text": "わけにも"
+            },
+            {
+              "id": "3",
+              "text": "いかない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わけにはいかない",
+          "answers": [
+            "招待を断るわけにもいかない。"
+          ],
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-order-07",
+          "mode": "order",
+          "prompt": "Không thể để lộ mật.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "秘密を"
+            },
+            {
+              "id": "1",
+              "text": "漏らす"
+            },
+            {
+              "id": "2",
+              "text": "わけには"
+            },
+            {
+              "id": "3",
+              "text": "いかない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わけにはいかない",
+          "answers": [
+            "秘密を漏らすわけにはいかない。"
+          ],
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-order-08",
+          "mode": "order",
+          "prompt": "Cũng chẳng thể đứng nhìn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "手伝わない"
+            },
+            {
+              "id": "1",
+              "text": "わけにも"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わけにはいかない",
+          "answers": [
+            "手伝わないわけにもいかない。"
+          ],
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-order-09",
+          "mode": "order",
+          "prompt": "Không thể xem nhẹ sức khỏe.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "健康を"
+            },
+            {
+              "id": "1",
+              "text": "疎かにする"
+            },
+            {
+              "id": "2",
+              "text": "わけには"
+            },
+            {
+              "id": "3",
+              "text": "いかない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わけにはいかない",
+          "answers": [
+            "健康を疎かにするわけにはいかない。"
+          ],
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g02-order-10",
+          "mode": "order",
+          "prompt": "Không thể tiêu phí tiền.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "お金を"
+            },
+            {
+              "id": "1",
+              "text": "無駄にする"
+            },
+            {
+              "id": "2",
+              "text": "わけには"
+            },
+            {
+              "id": "3",
+              "text": "いかない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わけにはいかない",
+          "answers": [
+            "お金を無駄にするわけにはいかない。"
+          ],
+          "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l18-g03",
+      "title": "〜かねる",
+      "meaning": "Không thể… / khó lòng… (lịch sự, thường từ chối)",
+      "variants": [
+        "かねる",
+        "かねない"
+      ],
+      "structures": [
+        "Vます ＋ かねる"
+      ],
+      "explanation": "かねる lịch sự: người nói khó/không thể làm (thường từ chối nhẹ). Không nhầm với かねない (có nguy cơ…).",
+      "usage": "Công sở, dịch vụ: 分かりかねます、お答えしかねます.",
+      "cautions": [
+        "かねる = khó/không thể; かねない = có thể xảy ra (nghĩa gần như ngược).",
+        "Sắc thái trang trọng; ít dùng với người thân mật."
+      ],
+      "contrast": "かねる ≈ không thể/khó lòng…. Khác できない; lịch sự hơn. Đối lập かねない (có nguy cơ).",
+      "examples": [
+        {
+          "ja": "その件は分かりかねます。",
+          "reading": "そのけんはわかりかねます。",
+          "vi": "Việc đó tôi khó lòng nắm rõ.",
+          "ruby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "件",
+              "reading": "けん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かりかねます。"
+            }
+          ]
+        },
+        {
+          "ja": "ご要望には応じかねます。",
+          "reading": "ごようぼうにはおうじかねます。",
+          "vi": "Chúng tôi khó lòng đáp ứng yêu cầu của quý vị.",
+          "ruby": [
+            {
+              "text": "ご"
+            },
+            {
+              "text": "要望",
+              "reading": "ようぼう"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じかねます。"
+            }
+          ]
+        },
+        {
+          "ja": "今すぐお答えしかねます。",
+          "reading": "いますぐおこたえしかねます。",
+          "vi": "Tôi khó lòng trả lời ngay.",
+          "ruby": [
+            {
+              "text": "今",
+              "reading": "いま"
+            },
+            {
+              "text": "すぐ"
+            },
+            {
+              "text": "お"
+            },
+            {
+              "text": "答",
+              "reading": "こた"
+            },
+            {
+              "text": "えしかねます。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 95,
+        "printedPage": 82,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-khong-the-kho-ma-kho-co-the/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l18-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Tôi khó lòng đồng ý đề xuất ấy.",
+          "answers": [
+            "その提案には賛成しかねます。"
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Chúng tôi khó lòng thay đổi lịch.",
+          "answers": [
+            "日程の変更はいたしかねます。"
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Tôi khó lòng tiết lộ thông tin.",
+          "answers": [
+            "情報をお伝えしかねます。"
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy khó lòng chấp nhận điều kiện.",
+          "answers": [
+            "彼は条件を受け入れかねる。"
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Tôi khó lòng bình luận việc đó.",
+          "answers": [
+            "その件についてはコメントしかねます。"
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Cửa hàng khó lòng hoàn tiền.",
+          "answers": [
+            "返金には応じかねます。"
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Tôi khó lòng hứa chắc.",
+          "answers": [
+            "確約はいたしかねます。"
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Chúng tôi khó lòng giảm giá thêm.",
+          "answers": [
+            "これ以上の値引きはしかねます。"
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Tôi khó lòng tham dự họp ấy.",
+          "answers": [
+            "その会議には出席しかねます。"
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy khó lòng từ bỏ kế hoạch.",
+          "answers": [
+            "彼女は計画をあきらめかねる。"
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "詳細は説明しかねます。",
+          "answers": [
+            "Tôi khó lòng giải thích chi tiết."
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "即答はいたしかねます。",
+          "answers": [
+            "Tôi khó lòng trả lời tức thì."
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "ご期待には添えかねます。",
+          "answers": [
+            "Chúng tôi khó lòng đáp ứng kỳ vọng."
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "その判断は下しかねます。",
+          "answers": [
+            "Tôi khó lòng đưa ra phán đoán ấy."
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "個人情報は教えかねます。",
+          "answers": [
+            "Tôi khó lòng cho biết thông tin cá nhân."
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "無理な要求には応じかねる。",
+          "answers": [
+            "Khó lòng đáp ứng yêu cầu vô lý."
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "今の状況では賛成しかねます。",
+          "answers": [
+            "Trong tình hình này khó lòng tán thành."
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "お約束はいたしかねます。",
+          "answers": [
+            "Tôi khó lòng hứa."
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "その案は採用しかねます。",
+          "answers": [
+            "Chúng tôi khó lòng áp dụng phương án ấy."
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "責任は負いかねます。",
+          "answers": [
+            "Tôi khó lòng chịu trách nhiệm."
+          ],
+          "hint": "〜かねる",
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-order-01",
+          "mode": "order",
+          "prompt": "Việc này khó nắm rõ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この件は"
+            },
+            {
+              "id": "1",
+              "text": "分かり"
+            },
+            {
+              "id": "2",
+              "text": "かねます"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねる",
+          "answers": [
+            "この件は分かりかねます。"
+          ],
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-order-02",
+          "mode": "order",
+          "prompt": "Khó đáp ứng mong muốn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ご希望には"
+            },
+            {
+              "id": "1",
+              "text": "応じ"
+            },
+            {
+              "id": "2",
+              "text": "かねます"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねる",
+          "answers": [
+            "ご希望には応じかねます。"
+          ],
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-order-03",
+          "mode": "order",
+          "prompt": "Khó trả lời ngay bây giờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ただいまは"
+            },
+            {
+              "id": "1",
+              "text": "お答えし"
+            },
+            {
+              "id": "2",
+              "text": "かねます"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねる",
+          "answers": [
+            "ただいまはお答えしかねます。"
+          ],
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-order-04",
+          "mode": "order",
+          "prompt": "Khó đồng ý đề xuất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その提案には"
+            },
+            {
+              "id": "1",
+              "text": "賛成し"
+            },
+            {
+              "id": "2",
+              "text": "かねます"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねる",
+          "answers": [
+            "その提案には賛成しかねます。"
+          ],
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-order-05",
+          "mode": "order",
+          "prompt": "Khó hoàn tiền.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "返金には"
+            },
+            {
+              "id": "1",
+              "text": "応じ"
+            },
+            {
+              "id": "2",
+              "text": "かねます"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねる",
+          "answers": [
+            "返金には応じかねます。"
+          ],
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-order-06",
+          "mode": "order",
+          "prompt": "Khó hứa chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "確約は"
+            },
+            {
+              "id": "1",
+              "text": "いたし"
+            },
+            {
+              "id": "2",
+              "text": "かねます"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねる",
+          "answers": [
+            "確約はいたしかねます。"
+          ],
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-order-07",
+          "mode": "order",
+          "prompt": "Khó tiết lộ thông tin.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "情報を"
+            },
+            {
+              "id": "1",
+              "text": "お伝えし"
+            },
+            {
+              "id": "2",
+              "text": "かねます"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねる",
+          "answers": [
+            "情報をお伝えしかねます。"
+          ],
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-order-08",
+          "mode": "order",
+          "prompt": "Khó tham dự họp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その会議には"
+            },
+            {
+              "id": "1",
+              "text": "出席し"
+            },
+            {
+              "id": "2",
+              "text": "かねます"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねる",
+          "answers": [
+            "その会議には出席しかねます。"
+          ],
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-order-09",
+          "mode": "order",
+          "prompt": "Khó giảm giá thêm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "値引きは"
+            },
+            {
+              "id": "1",
+              "text": "し"
+            },
+            {
+              "id": "2",
+              "text": "かねます"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねる",
+          "answers": [
+            "値引きはしかねます。"
+          ],
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g03-order-10",
+          "mode": "order",
+          "prompt": "Khó chịu trách nhiệm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "責任は"
+            },
+            {
+              "id": "1",
+              "text": "負い"
+            },
+            {
+              "id": "2",
+              "text": "かねます"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねる",
+          "answers": [
+            "責任は負いかねます。"
+          ],
+          "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l18-g04",
+      "title": "〜ようがない",
+      "meaning": "Không còn cách nào… / không thể làm gì được",
+      "variants": [
+        "ようがない",
+        "ようもない"
+      ],
+      "structures": [
+        "Vます ＋ ようがない／ようもない"
+      ],
+      "explanation": "ようがない／ようもない: không có phương pháp/cách để làm; nhấn mạnh bất lực vì thiếu điều kiện.",
+      "usage": "Khi không có thông tin, công cụ, cơ hội: 連絡のしようがない.",
+      "cautions": [
+        "Thường đi với しよう／直しよう／助けよう… (dạng ます + よう).",
+        "ようもない gần nghĩa; sắc thái hơi mạnh/văn viết hơn một chút."
+      ],
+      "contrast": "ようがない ≈ không còn cách. Khác できない (thiếu khả năng thuần).",
+      "examples": [
+        {
+          "ja": "住所が分からず連絡のしようがない。",
+          "reading": "じゅうしょがわからずれんらくのしようがない。",
+          "vi": "Không biết địa chỉ nên không còn cách liên lạc.",
+          "ruby": [
+            {
+              "text": "住所",
+              "reading": "じゅうしょ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "からず"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "しようがない。"
+            }
+          ]
+        },
+        {
+          "ja": "壊れたら直しようがない。",
+          "reading": "こわれたらなおしようがない。",
+          "vi": "Nếu hỏng thì không còn cách sửa.",
+          "ruby": [
+            {
+              "text": "壊",
+              "reading": "こわ"
+            },
+            {
+              "text": "れたら"
+            },
+            {
+              "text": "直",
+              "reading": "なお"
+            },
+            {
+              "text": "しようがない。"
+            }
+          ]
+        },
+        {
+          "ja": "証拠がなくて反論しようもない。",
+          "reading": "しょうこがなくてはんろんしようもない。",
+          "vi": "Không có bằng chứng nên cũng chẳng phản bác được.",
+          "ruby": [
+            {
+              "text": "証拠",
+              "reading": "しょうこ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "なくて"
+            },
+            {
+              "text": "反論",
+              "reading": "はんろん"
+            },
+            {
+              "text": "しようもない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 95,
+        "printedPage": 82,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-youganai-youmonai-khong-co-cach-nao-ma/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l18-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Mất chìa thì không còn cách vào.",
+          "answers": [
+            "鍵がなくて入りようがない。"
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Không biết tên thì chẳng hỏi được.",
+          "answers": [
+            "名前が分からず聞きようがない。"
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Hết liệu thì không còn cách chữa.",
+          "answers": [
+            "薬がなくて治しようがない。"
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Không có tiền thì chẳng mua được.",
+          "answers": [
+            "金がなくて買いようがない。"
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Mất số điện thoại thì không liên lạc được.",
+          "answers": [
+            "番号がなくて連絡しようがない。"
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Không có dữ liệu thì chẳng phân tích được.",
+          "answers": [
+            "データがなくて分析しようがない。"
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Xe hỏng nặng thì chẳng sửa nổi.",
+          "answers": [
+            "車が大破して直しようもない。"
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Không có manh mối thì chẳng tìm được.",
+          "answers": [
+            "手がかりがなくて探しようがない。"
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Im lặng thì chẳng giải thích nổi.",
+          "answers": [
+            "黙っていて説明しようもない。"
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Thiếu nhân lực thì chẳng hoàn thành được.",
+          "answers": [
+            "人手不足で終えようがない。"
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "助けを求めようがない状況だ。",
+          "answers": [
+            "Tình huống không còn cách cầu cứu."
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "この傷は治しようがない。",
+          "answers": [
+            "Vết thương này không còn cách chữa."
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "理由を聞きようがない。",
+          "answers": [
+            "Không còn cách hỏi lý do."
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "誤りを正しようもない。",
+          "answers": [
+            "Cũng chẳng sửa sai được."
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "逃げようがないほど囲まれた。",
+          "answers": [
+            "Bị bao vây đến mức không còn đường thoát."
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "比較しようがないほど違う。",
+          "answers": [
+            "Khác đến mức chẳng so sánh được."
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "弁解しようがない失敗だ。",
+          "answers": [
+            "Thất bại không còn cách biện hộ."
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "情報が足りず判断しようがない。",
+          "answers": [
+            "Thiếu thông tin nên không còn cách phán đoán."
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "修理しようがない状態だ。",
+          "answers": [
+            "Tình trạng không còn cách sửa chữa."
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "慰めようもないほど悲しい。",
+          "answers": [
+            "Buồn đến mức chẳng an ủi nổi."
+          ],
+          "hint": "〜ようがない",
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-order-01",
+          "mode": "order",
+          "prompt": "Không biết chỗ ở khó liên lạc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "居場所が分からず"
+            },
+            {
+              "id": "1",
+              "text": "連絡の"
+            },
+            {
+              "id": "2",
+              "text": "しようが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ようがない",
+          "answers": [
+            "居場所が分からず連絡のしようがない。"
+          ],
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-order-02",
+          "mode": "order",
+          "prompt": "Hỏng hết thì khó sửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "壊れてしまえば"
+            },
+            {
+              "id": "1",
+              "text": "直し"
+            },
+            {
+              "id": "2",
+              "text": "ようが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ようがない",
+          "answers": [
+            "壊れてしまえば直しようがない。"
+          ],
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-order-03",
+          "mode": "order",
+          "prompt": "Không chứng cứ khó phản bác.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "根拠がなくて"
+            },
+            {
+              "id": "1",
+              "text": "反論し"
+            },
+            {
+              "id": "2",
+              "text": "ようも"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ようがない",
+          "answers": [
+            "根拠がなくて反論しようもない。"
+          ],
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-order-04",
+          "mode": "order",
+          "prompt": "Mất chìa khó vào.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "鍵がなくて"
+            },
+            {
+              "id": "1",
+              "text": "入り"
+            },
+            {
+              "id": "2",
+              "text": "ようが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ようがない",
+          "answers": [
+            "鍵がなくて入りようがない。"
+          ],
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-order-05",
+          "mode": "order",
+          "prompt": "Hết thuốc khó chữa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "薬がなくて"
+            },
+            {
+              "id": "1",
+              "text": "治し"
+            },
+            {
+              "id": "2",
+              "text": "ようが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ようがない",
+          "answers": [
+            "薬がなくて治しようがない。"
+          ],
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-order-06",
+          "mode": "order",
+          "prompt": "Không dữ liệu khó phân tích.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "データがなくて"
+            },
+            {
+              "id": "1",
+              "text": "分析し"
+            },
+            {
+              "id": "2",
+              "text": "ようが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ようがない",
+          "answers": [
+            "データがなくて分析しようがない。"
+          ],
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-order-07",
+          "mode": "order",
+          "prompt": "Không manh mối khó tìm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "手がかりがなくて"
+            },
+            {
+              "id": "1",
+              "text": "探し"
+            },
+            {
+              "id": "2",
+              "text": "ようが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ようがない",
+          "answers": [
+            "手がかりがなくて探しようがない。"
+          ],
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-order-08",
+          "mode": "order",
+          "prompt": "Xe hỏng nặng khó sửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "車が大破して"
+            },
+            {
+              "id": "1",
+              "text": "直し"
+            },
+            {
+              "id": "2",
+              "text": "ようも"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ようがない",
+          "answers": [
+            "車が大破して直しようもない。"
+          ],
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-order-09",
+          "mode": "order",
+          "prompt": "Thiếu người khó xong.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "人手不足で"
+            },
+            {
+              "id": "1",
+              "text": "終え"
+            },
+            {
+              "id": "2",
+              "text": "ようが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ようがない",
+          "answers": [
+            "人手不足で終えようがない。"
+          ],
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g04-order-10",
+          "mode": "order",
+          "prompt": "Không tiền khó mua.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "金がなくて"
+            },
+            {
+              "id": "1",
+              "text": "買い"
+            },
+            {
+              "id": "2",
+              "text": "ようが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ようがない",
+          "answers": [
+            "金がなくて買いようがない。"
+          ],
+          "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l18-g05",
+      "title": "〜どころではない",
+      "meaning": "Đâu phải lúc… / không phải tâm trạng để…",
+      "variants": [
+        "どころではない",
+        "どころではなく"
+      ],
+      "structures": [
+        "N／Vる ＋ どころではない",
+        "N／Vる ＋ どころではなく"
+      ],
+      "explanation": "どころではない: hoàn toàn không phải hoàn cảnh/tâm trạng để làm việc đó; thường vì bận, mệt, khủng hoảng.",
+      "usage": "Từ chối vui chơi khi quá bận: 旅行どころではない.",
+      "cautions": [
+        "Không chỉ 'không phải là…' trung tính; nhấn mạnh 'đâu rảnh/đâu phải lúc'.",
+        "どころではなく thường nối sang vế đối lập mạnh hơn."
+      ],
+      "contrast": "どころではない ≈ đâu phải lúc…. Khác ではない thuần phủ định.",
+      "examples": [
+        {
+          "ja": "忙しくて旅行どころではない。",
+          "reading": "いそがしくてりょこうどころではない。",
+          "vi": "Bận đến mức đâu phải lúc đi du lịch.",
+          "ruby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しくて"
+            },
+            {
+              "text": "旅行",
+              "reading": "りょこう"
+            },
+            {
+              "text": "どころではない。"
+            }
+          ]
+        },
+        {
+          "ja": "試験前で遊ぶどころではない。",
+          "reading": "しけんまえであそぶどころではない。",
+          "vi": "Trước kỳ thi đâu phải lúc chơi.",
+          "ruby": [
+            {
+              "text": "試験",
+              "reading": "しけん"
+            },
+            {
+              "text": "前",
+              "reading": "まえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "遊",
+              "reading": "あそ"
+            },
+            {
+              "text": "ぶどころではない。"
+            }
+          ]
+        },
+        {
+          "ja": "体調が悪くて食事どころではない。",
+          "reading": "たいちょうがわるくてしょくじどころではない。",
+          "vi": "Sức khỏe kém đến mức đâu phải lúc ăn.",
+          "ruby": [
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "くて"
+            },
+            {
+              "text": "食事",
+              "reading": "しょくじ"
+            },
+            {
+              "text": "どころではない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 95,
+        "printedPage": 82,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-dokoro-de-wa-nai-dokoro-de-wa-naku-khong-phai-la-luc-khong-co-tho/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l18-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Đang deadline đâu phải lúc nghỉ.",
+          "answers": [
+            "締め切り前で休みどころではない。"
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nhà có việc đâu phải lúc tiệc.",
+          "answers": [
+            "家に用事があって宴会どころではない。"
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Thất nghiệp đâu phải lúc mua xe.",
+          "answers": [
+            "失業中で車を買うどころではない。"
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đau bụng đâu phải lúc cười.",
+          "answers": [
+            "腹痛で笑っていられるどころではない。"
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Thi cử đâu phải lúc xem phim.",
+          "answers": [
+            "受験勉強で映画どころではない。"
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Sập mạng đâu phải lúc chơi game.",
+          "answers": [
+            "システム障害でゲームどころではない。"
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Chạy deadline đâu phải lúc cà phê.",
+          "answers": [
+            "納期に追われてお茶どころではない。"
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Cãi nhau đâu phải lúc du lịch.",
+          "answers": [
+            "喧嘩中で旅行どころではない。"
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Ốm nặng đâu phải lúc tập gym.",
+          "answers": [
+            "大病で運動どころではない。"
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nợ nần đâu phải lúc mua sắm.",
+          "answers": [
+            "借金があって買い物どころではない。"
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "今夜は残業で寝るどころではない。",
+          "answers": [
+            "Tối nay tăng ca đâu phải lúc ngủ."
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "準備不足で余裕どころではない。",
+          "answers": [
+            "Thiếu chuẩn bị đâu còn dư dả."
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "火事で悠長な話どころではない。",
+          "answers": [
+            "Hỏa hoạn đâu phải lúc nói thong thả."
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "赤字で投資どころではない。",
+          "answers": [
+            "Thâm hụt đâu phải lúc đầu tư."
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "渋滞でのんびりどころではない。",
+          "answers": [
+            "Kẹt xe đâu phải lúc thong dong."
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "苦情対応で休憩どころではない。",
+          "answers": [
+            "Xử lý khiếu nại đâu phải lúc nghỉ."
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "台風で外出どころではない。",
+          "answers": [
+            "Bão đâu phải lúc ra ngoài."
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "引っ越しで掃除どころではない。",
+          "answers": [
+            "Đang chuyển nhà đâu phải lúc dọn dẹp thường."
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "納品前で冗談どころではない。",
+          "answers": [
+            "Trước giao hàng đâu phải lúc đùa."
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "看病で自分のことはどころではない。",
+          "answers": [
+            "Chăm bệnh đâu rảnh việc của mình."
+          ],
+          "hint": "〜どころではない",
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-order-01",
+          "mode": "order",
+          "prompt": "Bận đâu rảnh đi chơi xa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忙しくて"
+            },
+            {
+              "id": "1",
+              "text": "観光"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜どころではない",
+          "answers": [
+            "忙しくて観光どころではない。"
+          ],
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-order-02",
+          "mode": "order",
+          "prompt": "Sát kỳ thi đâu phải lúc chơi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "試験直前で"
+            },
+            {
+              "id": "1",
+              "text": "遊ぶ"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜どころではない",
+          "answers": [
+            "試験直前で遊ぶどころではない。"
+          ],
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-order-03",
+          "mode": "order",
+          "prompt": "Ốm đâu phải lúc ăn uống.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "体調不良で"
+            },
+            {
+              "id": "1",
+              "text": "食事"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜どころではない",
+          "answers": [
+            "体調不良で食事どころではない。"
+          ],
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-order-04",
+          "mode": "order",
+          "prompt": "Deadline đâu phải lúc nghỉ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "締め切り前で"
+            },
+            {
+              "id": "1",
+              "text": "休み"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜どころではない",
+          "answers": [
+            "締め切り前で休みどころではない。"
+          ],
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-order-05",
+          "mode": "order",
+          "prompt": "Thất nghiệp đâu mua xe.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失業中で"
+            },
+            {
+              "id": "1",
+              "text": "車を買う"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜どころではない",
+          "answers": [
+            "失業中で車を買うどころではない。"
+          ],
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-order-06",
+          "mode": "order",
+          "prompt": "Thi cử đâu xem phim.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "受験勉強で"
+            },
+            {
+              "id": "1",
+              "text": "映画"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜どころではない",
+          "answers": [
+            "受験勉強で映画どころではない。"
+          ],
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-order-07",
+          "mode": "order",
+          "prompt": "Bão đâu ra ngoài.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "台風で"
+            },
+            {
+              "id": "1",
+              "text": "外出"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜どころではない",
+          "answers": [
+            "台風で外出どころではない。"
+          ],
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-order-08",
+          "mode": "order",
+          "prompt": "Thâm hụt đâu đầu tư.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "赤字で"
+            },
+            {
+              "id": "1",
+              "text": "投資"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜どころではない",
+          "answers": [
+            "赤字で投資どころではない。"
+          ],
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-order-09",
+          "mode": "order",
+          "prompt": "Tăng ca đâu phải lúc ngủ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "残業で"
+            },
+            {
+              "id": "1",
+              "text": "寝る"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜どころではない",
+          "answers": [
+            "残業で寝るどころではない。"
+          ],
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g05-order-10",
+          "mode": "order",
+          "prompt": "Nợ nần đâu mua sắm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "借金があって"
+            },
+            {
+              "id": "1",
+              "text": "買い物"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜どころではない",
+          "answers": [
+            "借金があって買い物どころではない。"
+          ],
+          "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l18-g06",
+      "title": "〜得る／〜得ない",
+      "meaning": "Có thể xảy ra… / không thể xảy ra…",
+      "variants": [
+        "得る",
+        "得ない",
+        "うる",
+        "えない"
+      ],
+      "structures": [
+        "Vます ＋ 得る（うる／える）",
+        "Vます ＋ 得ない（えない）"
+      ],
+      "explanation": "得る diễn đạt khả năng khách quan có thể xảy ra; 得ない phủ định khả năng đó. Đọc うる hoặc える tùy ngữ cảnh (うる phổ biến trong văn viết).",
+      "usage": "Phân tích rủi ro, lập luận: あり得る、起こり得ない.",
+      "cautions": [
+        "Không nhầm với 得る 'kiếm được/thu được' nghĩa từ vựng thường.",
+        "あり得る rất hay gặp; phủ định thường あり得ない."
+      ],
+      "contrast": "得る ≈ có thể xảy ra. 得ない ≈ không thể xảy ra. Khác できる (khả năng chủ thể).",
+      "examples": [
+        {
+          "ja": "そのような事故は起こり得る。",
+          "reading": "そのようなじこはおこりうる。",
+          "vi": "Tai nạn như vậy có thể xảy ra.",
+          "ruby": [
+            {
+              "text": "そのような"
+            },
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "起",
+              "reading": "お"
+            },
+            {
+              "text": "こり得る。"
+            }
+          ]
+        },
+        {
+          "ja": "彼が裏切ることはあり得ない。",
+          "reading": "かれがうらぎることはありえない。",
+          "vi": "Anh ấy phản bội là điều không thể xảy ra.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "裏切",
+              "reading": "うらぎ"
+            },
+            {
+              "text": "ることは"
+            },
+            {
+              "text": "あり得ない。"
+            }
+          ]
+        },
+        {
+          "ja": "最悪の場合も想定し得る。",
+          "reading": "さいあくのばあいもそうていしうる。",
+          "vi": "Cũng có thể giả định trường hợp xấu nhất.",
+          "ruby": [
+            {
+              "text": "最悪",
+              "reading": "さいあく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "場合",
+              "reading": "ばあい"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "想定",
+              "reading": "そうてい"
+            },
+            {
+              "text": "し得る。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 95,
+        "printedPage": 82,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-uru-co-the-co-kha-nang-xay-ra/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l18-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Sai sót kiểu đó hoàn toàn có thể.",
+          "answers": [
+            "そのようなミスは十分あり得る。"
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Thất bại cũng có thể xảy ra.",
+          "answers": [
+            "失敗も起こり得る。"
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Kết quả ấy không thể xảy ra.",
+          "answers": [
+            "その結果はあり得ない。"
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Rủi ro này vẫn dự đoán được.",
+          "answers": [
+            "このリスクは予測し得る。"
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy nói dối khó lòng xảy ra.",
+          "answers": [
+            "彼が嘘をつくことはあり得ない。"
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Thay đổi chính sách có thể xảy ra.",
+          "answers": [
+            "方針の変更はあり得る。"
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Thiên tai lớn vẫn có thể xảy ra.",
+          "answers": [
+            "大災害も起こり得る。"
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Giải pháp ấy không thể chấp nhận.",
+          "answers": [
+            "その解決策は容認し得ない。"
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Mọi tình huống đều hình dung được.",
+          "answers": [
+            "あらゆる状況を想像し得る。"
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Sự trùng hợp ấy không thể có.",
+          "answers": [
+            "その偶然はあり得ない。"
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "事故は誰にでも起こり得る。",
+          "answers": [
+            "Tai nạn ai cũng có thể gặp."
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "この説明では納得し得ない。",
+          "answers": [
+            "Với lời giải thích này không thể tâm phục."
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "誤作動もあり得る。",
+          "answers": [
+            "Lỗi hoạt động cũng có thể xảy ra."
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "彼の勝利は十分あり得る。",
+          "answers": [
+            "Chiến thắng của anh ấy hoàn toàn có thể."
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "そのような要求は認め得ない。",
+          "answers": [
+            "Yêu cầu như vậy không thể chấp nhận."
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "最悪の事態も起こり得る。",
+          "answers": [
+            "Tình huống xấu nhất cũng có thể xảy ra."
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "データ改ざんはあり得ない。",
+          "answers": [
+            "Giả mạo dữ liệu là điều không thể xảy ra."
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "この仮説は検証し得る。",
+          "answers": [
+            "Giả thuyết này có thể kiểm chứng."
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "全面拒否は避け得る選択だ。",
+          "answers": [
+            "Từ chối toàn bộ là lựa chọn có thể tránh."
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "その結論は導き得ない。",
+          "answers": [
+            "Không thể rút ra kết luận ấy."
+          ],
+          "hint": "〜得る／〜得ない",
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-order-01",
+          "mode": "order",
+          "prompt": "Tai nạn kiểu này vẫn có thể.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "こうした事故は"
+            },
+            {
+              "id": "1",
+              "text": "起こり"
+            },
+            {
+              "id": "2",
+              "text": "得る"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜得る／〜得ない",
+          "answers": [
+            "こうした事故は起こり得る。"
+          ],
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-order-02",
+          "mode": "order",
+          "prompt": "Anh ấy phản bội thật khó xảy ra.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼の裏切りは"
+            },
+            {
+              "id": "1",
+              "text": "あり"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜得る／〜得ない",
+          "answers": [
+            "彼の裏切りはあり得ない。"
+          ],
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-order-03",
+          "mode": "order",
+          "prompt": "Cũng có thể tính cả kịch bản xấu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "最悪の事態も"
+            },
+            {
+              "id": "1",
+              "text": "想定し"
+            },
+            {
+              "id": "2",
+              "text": "得る"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜得る／〜得ない",
+          "answers": [
+            "最悪の事態も想定し得る。"
+          ],
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-order-04",
+          "mode": "order",
+          "prompt": "Sai sót kiểu đó có thể.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "そのようなミスは"
+            },
+            {
+              "id": "1",
+              "text": "十分"
+            },
+            {
+              "id": "2",
+              "text": "あり"
+            },
+            {
+              "id": "3",
+              "text": "得る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜得る／〜得ない",
+          "answers": [
+            "そのようなミスは十分あり得る。"
+          ],
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-order-05",
+          "mode": "order",
+          "prompt": "Kết quả ấy không thể.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その結果は"
+            },
+            {
+              "id": "1",
+              "text": "あり"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜得る／〜得ない",
+          "answers": [
+            "その結果はあり得ない。"
+          ],
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-order-06",
+          "mode": "order",
+          "prompt": "Rủi ro vẫn dự đoán được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "このリスクは"
+            },
+            {
+              "id": "1",
+              "text": "予測し"
+            },
+            {
+              "id": "2",
+              "text": "得る"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜得る／〜得ない",
+          "answers": [
+            "このリスクは予測し得る。"
+          ],
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-order-07",
+          "mode": "order",
+          "prompt": "Đổi chính sách có thể.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "方針の変更は"
+            },
+            {
+              "id": "1",
+              "text": "あり"
+            },
+            {
+              "id": "2",
+              "text": "得る"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜得る／〜得ない",
+          "answers": [
+            "方針の変更はあり得る。"
+          ],
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-order-08",
+          "mode": "order",
+          "prompt": "Thiên tai lớn có thể.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "大災害も"
+            },
+            {
+              "id": "1",
+              "text": "起こり"
+            },
+            {
+              "id": "2",
+              "text": "得る"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜得る／〜得ない",
+          "answers": [
+            "大災害も起こり得る。"
+          ],
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-order-09",
+          "mode": "order",
+          "prompt": "Giải pháp không chấp nhận được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その解決策は"
+            },
+            {
+              "id": "1",
+              "text": "容認し"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜得る／〜得ない",
+          "answers": [
+            "その解決策は容認し得ない。"
+          ],
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l18-g06-order-10",
+          "mode": "order",
+          "prompt": "Trùng hợp ấy không thể.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その偶然は"
+            },
+            {
+              "id": "1",
+              "text": "あり"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜得る／〜得ない",
+          "answers": [
+            "その偶然はあり得ない。"
+          ],
+          "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+        }
+      ]
+    }
+  ]
+}

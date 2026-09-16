@@ -114,35 +114,35 @@
       "number": 16,
       "title": "Lý do (1)",
       "groupCount": 5,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-17",
       "number": 17,
       "title": "Lý do (2)",
       "groupCount": 5,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-18",
       "number": 18,
       "title": "Không thể · Khó khăn · Khả năng",
       "groupCount": 6,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-19",
       "number": 19,
       "title": "Góc nhìn đánh giá",
       "groupCount": 6,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-20",
       "number": 20,
       "title": "Kết quả",
       "groupCount": 6,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-21",
