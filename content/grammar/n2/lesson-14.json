@@ -1,0 +1,4489 @@
+{
+  "id": "lesson-14",
+  "titleJa": "逆接・譲歩",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 14. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L11-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l14-g01",
+      "title": "〜にもかかわらず",
+      "meaning": "Mặc dù… / dù… nhưng… (nhượng bộ trang trọng)",
+      "variants": [
+        "にもかかわらず"
+      ],
+      "structures": [
+        "N／普通形 ＋ にもかかわらず"
+      ],
+      "explanation": "Nhượng bộ rõ ràng: dù có A (thường bất lợi/khác thường) nhưng vẫn B; sắc thái văn viết, tin tức.",
+      "usage": "Báo cáo, bài luận: dù mưa to vẫn tổ chức; dù khó vẫn tiếp tục.",
+      "cautions": [
+        "Hình thức trang trọng hơn のに; ít dùng hội thoại thân mật.",
+        "Sau danh từ thường không cần だ: 雨にもかかわらず."
+      ],
+      "contrast": "にもかかわらず ≈ mặc dù. Gần のに; trang trọng hơn でも.",
+      "examples": [
+        {
+          "ja": "悪天候にもかかわらず試合は行われた。",
+          "reading": "あくてんこうにもかかわらずしあいはおこなわれた。",
+          "vi": "Dù thời tiết xấu, trận đấu vẫn được tổ chức.",
+          "ruby": [
+            {
+              "text": "悪天候",
+              "reading": "あくてんこう"
+            },
+            {
+              "text": "にもかかわらず"
+            },
+            {
+              "text": "試合",
+              "reading": "しあい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "行",
+              "reading": "おこな"
+            },
+            {
+              "text": "われた。"
+            }
+          ]
+        },
+        {
+          "ja": "忙しいにもかかわらず彼は手伝ってくれた。",
+          "reading": "いそがしいにもかかわらずかれはてつだってくれた。",
+          "vi": "Dù bận, anh ấy vẫn giúp tôi.",
+          "ruby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しいにもかかわらず"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "手伝",
+              "reading": "てつだ"
+            },
+            {
+              "text": "ってくれた。"
+            }
+          ]
+        },
+        {
+          "ja": "注意したにもかかわらず同じミスを繰り返した。",
+          "reading": "ちゅういしたにもかかわらずおなじみすをくりかえした。",
+          "vi": "Dù đã nhắc, vẫn lặp lại lỗi giống.",
+          "ruby": [
+            {
+              "text": "注意",
+              "reading": "ちゅうい"
+            },
+            {
+              "text": "したにもかかわらず"
+            },
+            {
+              "text": "同",
+              "reading": "おな"
+            },
+            {
+              "text": "じミスを"
+            },
+            {
+              "text": "繰",
+              "reading": "く"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "返",
+              "reading": "かえ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 77,
+        "printedPage": 64,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-mo-kakawarazu-mac-dunhung-mac-cho-nhung-cho-du-lanhung/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l14-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Dù mưa lớn buổi lễ vẫn diễn ra.",
+          "answers": [
+            "大雨にもかかわらず式は実施された。"
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Dù mệt cô ấy vẫn tiếp tục làm.",
+          "answers": [
+            "疲れているにもかかわらず彼女は作業を続けた。"
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Dù giá cao hàng vẫn bán chạy.",
+          "answers": [
+            "高いにもかかわらず商品はよく売れた。"
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Dù phản đối kế hoạch vẫn được duyệt.",
+          "answers": [
+            "反対にもかかわらず計画は承認された。"
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Dù ít kinh nghiệm anh ấy được chọn.",
+          "answers": [
+            "経験が少ないにもかかわらず彼は選ばれた。"
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Dù cảnh báo nguy hiểm vẫn đi.",
+          "answers": [
+            "危険だと警告されたにもかかわらず出発した。"
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Dù trời lạnh ngoài trời đông người.",
+          "answers": [
+            "寒いにもかかわらず屋外に人が多い。"
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Dù thất bại anh ấy không bỏ cuộc.",
+          "answers": [
+            "失敗したにもかかわらず彼は諦めなかった。"
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Dù luật cấm vẫn có người vi phạm.",
+          "answers": [
+            "禁止されているにもかかわらず違反する人がいる。"
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Dù lời khuyên bác sĩ vẫn hút thuốc.",
+          "answers": [
+            "医師の忠告にもかかわらず喫煙を続けた。"
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "準備不足にもかかわらず発表は成功した。",
+          "answers": [
+            "Dù thiếu chuẩn bị, thuyết trình vẫn thành công."
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "高齢にもかかわらず彼は現役だ。",
+          "answers": [
+            "Dù cao tuổi, anh ấy vẫn đang hoạt động."
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "費用が高いにもかかわらず参加者が多い。",
+          "answers": [
+            "Dù phí cao, người tham gia vẫn nhiều."
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "説明したにもかかわらず誤解が生じた。",
+          "answers": [
+            "Dù đã giải thích, vẫn phát sinh hiểu nhầm."
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "時間がなかったにもかかわらずレポートを出した。",
+          "answers": [
+            "Dù không có thời gian, vẫn nộp báo cáo."
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "体調不良にもかかわらず出勤した。",
+          "answers": [
+            "Dù không khỏe vẫn đi làm."
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "反対意見があるにもかかわらず決定した。",
+          "answers": [
+            "Dù có ý kiến phản đối vẫn quyết định."
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "雨が降っているにもかかわらず試合は続行した。",
+          "answers": [
+            "Dù mưa vẫn tiếp tục trận đấu."
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "経験豊富にもかかわらず慎重だった。",
+          "answers": [
+            "Dù giàu kinh nghiệm vẫn thận trọng."
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "努力したにもかかわらず結果は出なかった。",
+          "answers": [
+            "Dù nỗ lực, kết quả vẫn không ra."
+          ],
+          "hint": "〜にもかかわらず",
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-order-01",
+          "mode": "order",
+          "prompt": "Dù thời tiết xấu trận vẫn tổ chức.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "悪天候"
+            },
+            {
+              "id": "1",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "2",
+              "text": "試合は"
+            },
+            {
+              "id": "3",
+              "text": "行われた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にもかかわらず",
+          "answers": [
+            "悪天候にもかかわらず試合は行われたのだ。"
+          ],
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-order-02",
+          "mode": "order",
+          "prompt": "Dù bận anh vẫn giúp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忙しい"
+            },
+            {
+              "id": "1",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "2",
+              "text": "彼は"
+            },
+            {
+              "id": "3",
+              "text": "手伝った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にもかかわらず",
+          "answers": [
+            "忙しいにもかかわらず彼は手伝った。"
+          ],
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-order-03",
+          "mode": "order",
+          "prompt": "Dù nhắc vẫn lặp lỗi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "注意した"
+            },
+            {
+              "id": "1",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "2",
+              "text": "ミスを"
+            },
+            {
+              "id": "3",
+              "text": "繰り返した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にもかかわらず",
+          "answers": [
+            "注意したにもかかわらずミスを繰り返した。"
+          ],
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-order-04",
+          "mode": "order",
+          "prompt": "Dù mưa lớn lễ vẫn diễn ra.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "大雨"
+            },
+            {
+              "id": "1",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "2",
+              "text": "式は"
+            },
+            {
+              "id": "3",
+              "text": "実施された。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にもかかわらず",
+          "answers": [
+            "大雨にもかかわらず式は実施された。"
+          ],
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-order-05",
+          "mode": "order",
+          "prompt": "Dù mệt vẫn tiếp tục.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "疲れている"
+            },
+            {
+              "id": "1",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "2",
+              "text": "作業を"
+            },
+            {
+              "id": "3",
+              "text": "続けた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にもかかわらず",
+          "answers": [
+            "疲れているにもかかわらず作業を続けた。"
+          ],
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-order-06",
+          "mode": "order",
+          "prompt": "Dù thất bại không bỏ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失敗した"
+            },
+            {
+              "id": "1",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "2",
+              "text": "諦め"
+            },
+            {
+              "id": "3",
+              "text": "なかった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にもかかわらず",
+          "answers": [
+            "失敗したにもかかわらず諦めなかった。"
+          ],
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-order-07",
+          "mode": "order",
+          "prompt": "Dù thiếu chuẩn bị thành công.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "準備不足"
+            },
+            {
+              "id": "1",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "2",
+              "text": "発表は"
+            },
+            {
+              "id": "3",
+              "text": "成功した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にもかかわらず",
+          "answers": [
+            "準備不足にもかかわらず発表は成功した。"
+          ],
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-order-08",
+          "mode": "order",
+          "prompt": "Dù cao tuổi vẫn hoạt động.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "高齢"
+            },
+            {
+              "id": "1",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "2",
+              "text": "彼は"
+            },
+            {
+              "id": "3",
+              "text": "現役だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にもかかわらず",
+          "answers": [
+            "高齢にもかかわらず彼は現役だ。"
+          ],
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-order-09",
+          "mode": "order",
+          "prompt": "Dù không khỏe vẫn đi làm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "体調不良"
+            },
+            {
+              "id": "1",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "2",
+              "text": "出勤"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にもかかわらず",
+          "answers": [
+            "体調不良にもかかわらず出勤した。"
+          ],
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g01-order-10",
+          "mode": "order",
+          "prompt": "Dù nỗ lực không có kết quả.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力した"
+            },
+            {
+              "id": "1",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "2",
+              "text": "結果は"
+            },
+            {
+              "id": "3",
+              "text": "出なかった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にもかかわらず",
+          "answers": [
+            "努力したにもかかわらず結果は出なかった。"
+          ],
+          "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l14-g02",
+      "title": "〜ものの・〜とはいうものの",
+      "meaning": "Tuy… nhưng… / dù nói vậy… (nhượng bộ, thường viết)",
+      "variants": [
+        "ものの",
+        "とはいうものの"
+      ],
+      "structures": [
+        "普通形 ＋ ものの",
+        "〜とはいうものの"
+      ],
+      "explanation": "Thừa nhận A nhưng kết quả/thực tế là B không như mong đợi; とはいうものの nhấn 'dù nói thế'.",
+      "usage": "Văn viết, tự sự: biết là khó nhưng…; nói là nghỉ nhưng…",
+      "cautions": [
+        "ものの hơi trang trọng; ít dùng nói chuyện thân mật.",
+        "とはいうものの thường đứng đầu mệnh đề sau khi đã nêu ý trước."
+      ],
+      "contrast": "ものの／とはいうものの ≈ tuy… nhưng. Gần けれど; trang trọng hơn のに.",
+      "examples": [
+        {
+          "ja": "挑戦したものの思うような結果は出なかった。",
+          "reading": "ちょうせんしたもののおもうようなけっかはでなかった。",
+          "vi": "Tuy đã thử thách nhưng kết quả không như mong muốn.",
+          "ruby": [
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "したものの"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "うような"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "なかった。"
+            }
+          ]
+        },
+        {
+          "ja": "説明を受けたもののまだ理解できない。",
+          "reading": "せつめいをうけたもののまだりかいできない。",
+          "vi": "Tuy đã được giải thích nhưng vẫn chưa hiểu.",
+          "ruby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "けたものの"
+            },
+            {
+              "text": "まだ"
+            },
+            {
+              "text": "理解",
+              "reading": "りかい"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
+        },
+        {
+          "ja": "安いとはいうものの品質は確かだ。",
+          "reading": "やすいとはいうもののひんしつはたしかだ。",
+          "vi": "Dù nói là rẻ nhưng chất lượng chắc chắn.",
+          "ruby": [
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "いとはいうものの"
+            },
+            {
+              "text": "品質",
+              "reading": "ひんしつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "確",
+              "reading": "たし"
+            },
+            {
+              "text": "かだ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 77,
+        "printedPage": 64,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-monono-tuy-la-nhung/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-toha-iumonono-tuy-nhung-tuy-vay-ma-khong-phai-vay/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l14-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Tuy đã cố nhưng không đạt mục tiêu.",
+          "answers": [
+            "頑張ったものの目標には届かなかった。"
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tuy mua máy mới nhưng hay hỏng.",
+          "answers": [
+            "新しいパソコンを買ったもののすぐ故障した。"
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Tuy nghe giải thích nhưng vẫn nghi.",
+          "answers": [
+            "説明を聞いたものの疑問が残る。"
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Dù nói đơn giản nhưng làm khó.",
+          "answers": [
+            "簡単だとはいうものの実際は難しい。"
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Tuy đã nghỉ nhưng vẫn mệt.",
+          "answers": [
+            "休んだものの疲れが取れない。"
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Tuy đăng ký nhưng chưa tham gia.",
+          "answers": [
+            "申し込んだもののまだ参加していない。"
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Dù nói nhỏ nhưng ảnh hưởng lớn.",
+          "answers": [
+            "小さな問題だとはいうものの影響は大きい。"
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tuy đọc sách nhưng quên ngay.",
+          "answers": [
+            "本を読んだもののすぐ忘れてしまう。"
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Tuy luyện tập nhưng kỹ năng chưa lên.",
+          "answers": [
+            "練習したものの上達が遅い。"
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Dù nói là gần nhưng đi mất giờ.",
+          "answers": [
+            "近いとはいうものの歩くと一時間かかる。"
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "約束したものの都合が悪くなった。",
+          "answers": [
+            "Tuy đã hứa nhưng lịch bị xấu."
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "調べたものの確証は得られなかった。",
+          "answers": [
+            "Tuy đã tra cứu nhưng không có bằng chứng chắc."
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "開始したもののすぐに中断した。",
+          "answers": [
+            "Tuy đã bắt đầu nhưng sớm bị gián đoạn."
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "便利だとはいうものの使い方が複雑だ。",
+          "answers": [
+            "Dù nói tiện nhưng cách dùng phức tạp."
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "合格したものの安心できない。",
+          "answers": [
+            "Tuy đã đậu nhưng chưa yên tâm."
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "節約したものの貯金は増えない。",
+          "answers": [
+            "Tuy tiết kiệm nhưng tiền tiết kiệm không tăng."
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "助言したものの相手は聞かない。",
+          "answers": [
+            "Tuy đã khuyên nhưng đối phương không nghe."
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "無料だとはいうものの別料金が必要だ。",
+          "answers": [
+            "Dù nói miễn phí nhưng cần phí khác."
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "準備したものの雨で中止になった。",
+          "answers": [
+            "Tuy đã chuẩn bị nhưng mưa nên hủy."
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "経験豊富だとはいうものの初めての分野だ。",
+          "answers": [
+            "Dù nói giàu kinh nghiệm nhưng lĩnh vực mới."
+          ],
+          "hint": "〜ものの／〜とはいうものの",
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-order-01",
+          "mode": "order",
+          "prompt": "Tuy thử thách không như ý.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "挑戦した"
+            },
+            {
+              "id": "1",
+              "text": "ものの"
+            },
+            {
+              "id": "2",
+              "text": "結果は"
+            },
+            {
+              "id": "3",
+              "text": "出なかった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ものの／〜とはいうものの",
+          "answers": [
+            "挑戦したものの結果は出なかった。"
+          ],
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-order-02",
+          "mode": "order",
+          "prompt": "Tuy giải thích vẫn chưa hiểu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "説明を"
+            },
+            {
+              "id": "1",
+              "text": "受けたものの"
+            },
+            {
+              "id": "2",
+              "text": "理解は"
+            },
+            {
+              "id": "3",
+              "text": "できない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ものの／〜とはいうものの",
+          "answers": [
+            "説明を受けたものの理解はできない。"
+          ],
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-order-03",
+          "mode": "order",
+          "prompt": "Dù rẻ chất lượng chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "安いとは"
+            },
+            {
+              "id": "1",
+              "text": "いうものの"
+            },
+            {
+              "id": "2",
+              "text": "品質は"
+            },
+            {
+              "id": "3",
+              "text": "確かだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ものの／〜とはいうものの",
+          "answers": [
+            "安いとはいうものの品質は確かだのだ。"
+          ],
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-order-04",
+          "mode": "order",
+          "prompt": "Tuy cố không đạt mục tiêu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "頑張った"
+            },
+            {
+              "id": "1",
+              "text": "ものの"
+            },
+            {
+              "id": "2",
+              "text": "目標には"
+            },
+            {
+              "id": "3",
+              "text": "届かない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ものの／〜とはいうものの",
+          "answers": [
+            "頑張ったものの目標には届かない。"
+          ],
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-order-05",
+          "mode": "order",
+          "prompt": "Dù đơn giản làm khó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "簡単だとは"
+            },
+            {
+              "id": "1",
+              "text": "いうものの"
+            },
+            {
+              "id": "2",
+              "text": "実際は"
+            },
+            {
+              "id": "3",
+              "text": "難しい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ものの／〜とはいうものの",
+          "answers": [
+            "簡単だとはいうものの実際は難しい。"
+          ],
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-order-06",
+          "mode": "order",
+          "prompt": "Tuy nghỉ vẫn mệt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "休んだ"
+            },
+            {
+              "id": "1",
+              "text": "ものの"
+            },
+            {
+              "id": "2",
+              "text": "疲れが"
+            },
+            {
+              "id": "3",
+              "text": "残る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ものの／〜とはいうものの",
+          "answers": [
+            "休んだものの疲れが残る。"
+          ],
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-order-07",
+          "mode": "order",
+          "prompt": "Tuy hứa lịch xấu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "約束した"
+            },
+            {
+              "id": "1",
+              "text": "ものの"
+            },
+            {
+              "id": "2",
+              "text": "都合が"
+            },
+            {
+              "id": "3",
+              "text": "悪い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ものの／〜とはいうものの",
+          "answers": [
+            "約束したものの都合が悪い。"
+          ],
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-order-08",
+          "mode": "order",
+          "prompt": "Dù tiện cách dùng phức tạp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "便利だとは"
+            },
+            {
+              "id": "1",
+              "text": "いうものの"
+            },
+            {
+              "id": "2",
+              "text": "使い方は"
+            },
+            {
+              "id": "3",
+              "text": "複雑だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ものの／〜とはいうものの",
+          "answers": [
+            "便利だとはいうものの使い方は複雑だ。"
+          ],
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-order-09",
+          "mode": "order",
+          "prompt": "Tuy đậu chưa yên tâm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "合格した"
+            },
+            {
+              "id": "1",
+              "text": "ものの"
+            },
+            {
+              "id": "2",
+              "text": "安心は"
+            },
+            {
+              "id": "3",
+              "text": "できない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ものの／〜とはいうものの",
+          "answers": [
+            "合格したものの安心はできない。"
+          ],
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g02-order-10",
+          "mode": "order",
+          "prompt": "Tuy chuẩn bị mưa hủy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "準備した"
+            },
+            {
+              "id": "1",
+              "text": "ものの"
+            },
+            {
+              "id": "2",
+              "text": "雨で"
+            },
+            {
+              "id": "3",
+              "text": "中止だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ものの／〜とはいうものの",
+          "answers": [
+            "準備したものの雨で中止だ。"
+          ],
+          "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l14-g03",
+      "title": "〜ながら（も）",
+      "meaning": "Tuy… nhưng… / dù là… vẫn… (nhượng bộ)",
+      "variants": [
+        "ながら",
+        "ながらも"
+      ],
+      "structures": [
+        "Vます形／いA語幹／なA・N ＋ ながら（も）"
+      ],
+      "explanation": "Thừa nhận tình trạng A nhưng hành động/kết quả B trái hoặc ngoài dự kiến; ながらも nhấn nhượng bộ rõ hơn.",
+      "usage": "Biết sai mà vẫn làm; nhỏ tuổi mà…; nghèo mà…",
+      "cautions": [
+        "Khác ながら 'vừa… vừa…' (đồng thời) — ngữ cảnh quyết định nghĩa.",
+        "Với danh từ/なA thường: N／なA語幹＋ながら（も）."
+      ],
+      "contrast": "ながら（も） ≈ tuy… nhưng (nhượng bộ). Khác ながら đồng thời; gần つつも.",
+      "examples": [
+        {
+          "ja": "狭いながらも快適な部屋だ。",
+          "reading": "せまいながらもかいてきなへやだ。",
+          "vi": "Tuy hẹp nhưng là phòng dễ chịu.",
+          "ruby": [
+            {
+              "text": "狭",
+              "reading": "せま"
+            },
+            {
+              "text": "いながらも"
+            },
+            {
+              "text": "快適",
+              "reading": "かいてき"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "部屋",
+              "reading": "へや"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "彼は学生でありながら一流企業で働いている。",
+          "reading": "かれはがくせいでありながらいちりゅうきぎょうではたらいている。",
+          "vi": "Anh ấy dù là sinh viên vẫn làm ở công ty hàng đầu.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "学生",
+              "reading": "がくせい"
+            },
+            {
+              "text": "でありながら"
+            },
+            {
+              "text": "一流",
+              "reading": "いちりゅう"
+            },
+            {
+              "text": "企業",
+              "reading": "きぎょう"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "働",
+              "reading": "はたら"
+            },
+            {
+              "text": "いている。"
+            }
+          ]
+        },
+        {
+          "ja": "知っていながら教えてくれなかった。",
+          "reading": "しっていながらおしえてくれなかった。",
+          "vi": "Tuy biết nhưng không chịu nói cho tôi.",
+          "ruby": [
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "っていながら"
+            },
+            {
+              "text": "教",
+              "reading": "おし"
+            },
+            {
+              "text": "えてくれなかった。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 77,
+        "printedPage": 64,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-nagara-nagara-mo-tuy-nhung-du-la-nhung-mac-du-nhung/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l14-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Tuy nhỏ tuổi nhưng rất chín chắn.",
+          "answers": [
+            "若いながらも彼はとても落ち着いている。"
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tuy nghèo nhưng sống vui.",
+          "answers": [
+            "貧しいながらも楽しく暮らしている。"
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Tuy bận vẫn trả lời thư.",
+          "answers": [
+            "忙しいながらもメールを返信した。"
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Tuy biết nguy hiểm vẫn đi.",
+          "answers": [
+            "危険だと知りながらも出かけた。"
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Tuy là người mới vẫn đề xuất ý hay.",
+          "answers": [
+            "新人でありながら優れた提案をした。"
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Tuy mệt vẫn hoàn thành báo cáo.",
+          "answers": [
+            "疲れながらも報告書を仕上げた。"
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Tuy xa nhưng đi làm mỗi ngày.",
+          "answers": [
+            "遠いながらも毎日通勤している。"
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tuy thất bại vẫn mỉm cười.",
+          "answers": [
+            "失敗しながらも笑顔を見せた。"
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Tuy đơn giản nhưng hiệu quả.",
+          "answers": [
+            "単純ながらも効果的な方法だ。"
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Tuy không thích vẫn tham dự.",
+          "answers": [
+            "気が進まないながらも出席した。"
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "残念ながら今回は欠席します。",
+          "answers": [
+            "Đáng tiếc là lần này tôi xin vắng."
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "狭いながらも工夫次第で快適だ。",
+          "answers": [
+            "Tuy hẹp nhưng khéo bố trí vẫn dễ chịu."
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "疑いながらも契約書にサインした。",
+          "answers": [
+            "Tuy nghi ngờ vẫn ký hợp đồng."
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "子供ながらよく気がつく。",
+          "answers": [
+            "Dù còn trẻ đã rất tinh ý."
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "申し訳ないながらもお願いがある。",
+          "answers": [
+            "Xin lỗi nhưng tôi có việc nhờ."
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "不便ながらもこの町が好きだ。",
+          "answers": [
+            "Tuy bất tiện nhưng thích thị trấn này."
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "驚きながらも冷静に対応した。",
+          "answers": [
+            "Tuy ngạc nhiên vẫn ứng phó bình tĩnh."
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "反対されながらも計画を進めた。",
+          "answers": [
+            "Tuy bị phản đối vẫn tiến hành kế hoạch."
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "初心者ながらも大会に出た。",
+          "answers": [
+            "Dù mới vẫn tham gia giải."
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "涙を流しながらも前を向いた。",
+          "answers": [
+            "Tuy khóc vẫn hướng về phía trước."
+          ],
+          "hint": "〜ながら（も）",
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-order-01",
+          "mode": "order",
+          "prompt": "Tuy hẹp phòng dễ chịu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "狭い"
+            },
+            {
+              "id": "1",
+              "text": "ながらも"
+            },
+            {
+              "id": "2",
+              "text": "快適な"
+            },
+            {
+              "id": "3",
+              "text": "部屋だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ながら（も）",
+          "answers": [
+            "狭いながらも快適な部屋だのだ。"
+          ],
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-order-02",
+          "mode": "order",
+          "prompt": "Dù sinh viên làm công ty lớn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "学生で"
+            },
+            {
+              "id": "1",
+              "text": "ありながら"
+            },
+            {
+              "id": "2",
+              "text": "一流で"
+            },
+            {
+              "id": "3",
+              "text": "働く。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ながら（も）",
+          "answers": [
+            "学生でありながら一流で働く。"
+          ],
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-order-03",
+          "mode": "order",
+          "prompt": "Tuy biết không nói.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "知って"
+            },
+            {
+              "id": "1",
+              "text": "いながら"
+            },
+            {
+              "id": "2",
+              "text": "教えて"
+            },
+            {
+              "id": "3",
+              "text": "くれない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ながら（も）",
+          "answers": [
+            "知っていながら教えてくれない。"
+          ],
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-order-04",
+          "mode": "order",
+          "prompt": "Tuy nghèo sống vui.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "貧しい"
+            },
+            {
+              "id": "1",
+              "text": "ながらも"
+            },
+            {
+              "id": "2",
+              "text": "楽しく"
+            },
+            {
+              "id": "3",
+              "text": "暮らす。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ながら（も）",
+          "answers": [
+            "貧しいながらも楽しく暮らす。"
+          ],
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-order-05",
+          "mode": "order",
+          "prompt": "Tuy bận vẫn trả lời.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忙しい"
+            },
+            {
+              "id": "1",
+              "text": "ながらも"
+            },
+            {
+              "id": "2",
+              "text": "メールを"
+            },
+            {
+              "id": "3",
+              "text": "返す。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ながら（も）",
+          "answers": [
+            "忙しいながらもメールを返す。"
+          ],
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-order-06",
+          "mode": "order",
+          "prompt": "Tuy mệt hoàn thành báo cáo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "疲れ"
+            },
+            {
+              "id": "1",
+              "text": "ながらも"
+            },
+            {
+              "id": "2",
+              "text": "報告書を"
+            },
+            {
+              "id": "3",
+              "text": "仕上げた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ながら（も）",
+          "answers": [
+            "疲れながらも報告書を仕上げた。"
+          ],
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-order-07",
+          "mode": "order",
+          "prompt": "Tuy nghi vẫn ký.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "疑い"
+            },
+            {
+              "id": "1",
+              "text": "ながらも"
+            },
+            {
+              "id": "2",
+              "text": "契約に"
+            },
+            {
+              "id": "3",
+              "text": "サインした。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ながら（も）",
+          "answers": [
+            "疑いながらも契約にサインした。"
+          ],
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-order-08",
+          "mode": "order",
+          "prompt": "Dù trẻ rất tinh ý.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "子供"
+            },
+            {
+              "id": "1",
+              "text": "ながら"
+            },
+            {
+              "id": "2",
+              "text": "よく"
+            },
+            {
+              "id": "3",
+              "text": "気がつく。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ながら（も）",
+          "answers": [
+            "子供ながらよく気がつく。"
+          ],
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-order-09",
+          "mode": "order",
+          "prompt": "Tuy bất tiện thích phố.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "不便"
+            },
+            {
+              "id": "1",
+              "text": "ながらも"
+            },
+            {
+              "id": "2",
+              "text": "この町が"
+            },
+            {
+              "id": "3",
+              "text": "好きだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ながら（も）",
+          "answers": [
+            "不便ながらもこの町が好きだ。"
+          ],
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g03-order-10",
+          "mode": "order",
+          "prompt": "Dù mới vẫn dự giải.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "初心者"
+            },
+            {
+              "id": "1",
+              "text": "ながらも"
+            },
+            {
+              "id": "2",
+              "text": "大会に"
+            },
+            {
+              "id": "3",
+              "text": "出た。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜ながら（も）",
+          "answers": [
+            "初心者ながらも大会に出た。"
+          ],
+          "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l14-g04",
+      "title": "〜つつ（も）",
+      "meaning": "Dù… nhưng… / trong khi… (nhượng bộ văn viết)",
+      "variants": [
+        "つつも",
+        "つつ"
+      ],
+      "structures": [
+        "Vます形 ＋ つつ（も）"
+      ],
+      "explanation": "Nhượng bộ mang sắc văn viết: thừa nhận A nhưng vẫn B; gần ながらも nhưng trang trọng hơn.",
+      "usage": "Bài luận, báo cáo: biết rủi ro nhưng vẫn tiến hành; lo lắng nhưng quyết định.",
+      "cautions": [
+        "Khác つつ tiến triển đồng thời ở bài khác (L2).",
+        "Chủ yếu gắn động từ dạng ます; ít dùng hội thoại thân mật."
+      ],
+      "contrast": "つつ（も） ≈ dù… nhưng (viết). Gần ながらも; trang trọng hơn のに.",
+      "examples": [
+        {
+          "ja": "リスクを知りつつも挑戦することにした。",
+          "reading": "りすくをしりつつもちょうせんすることにした。",
+          "vi": "Dù biết rủi ro vẫn quyết định thử thách.",
+          "ruby": [
+            {
+              "text": "リスクを"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "りつつも"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "することにした。"
+            }
+          ]
+        },
+        {
+          "ja": "迷いつつも最終的に賛成した。",
+          "reading": "まよいつつもさいしゅうてきにさんせいした。",
+          "vi": "Dù còn phân vân, cuối cùng vẫn tán thành.",
+          "ruby": [
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "いつつも"
+            },
+            {
+              "text": "最終的",
+              "reading": "さいしゅうてき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        },
+        {
+          "ja": "感謝しつつも辞退せざるを得なかった。",
+          "reading": "かんしゃしつつもじたいせざるをえなかった。",
+          "vi": "Dù biết ơn vẫn buộc phải từ chối.",
+          "ruby": [
+            {
+              "text": "感謝",
+              "reading": "かんしゃ"
+            },
+            {
+              "text": "しつつも"
+            },
+            {
+              "text": "辞退",
+              "reading": "じたい"
+            },
+            {
+              "text": "せざるを得なかった。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 77,
+        "printedPage": 64,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-tsutsu-tsutsu-mo-du-la-nhu-the-nhung-mac-du-nhung-tuy-nhung/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l14-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Dù lo vẫn nộp đơn.",
+          "answers": [
+            "心配しつつも出願した。"
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Dù tiếc vẫn từ chức.",
+          "answers": [
+            "惜しみつつも退職を決めた。"
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Dù sợ vẫn lên sân khấu.",
+          "answers": [
+            "恐れつつも舞台に立った。"
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Dù nghi vẫn tin lời đó.",
+          "answers": [
+            "疑いつつもその話を信じた。"
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Dù phản đối trong lòng vẫn ký.",
+          "answers": [
+            "反対しつつも書類にサインした。"
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Dù mệt vẫn hoàn tất kiểm tra.",
+          "answers": [
+            "疲れつつも点検を終えた。"
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Dù xấu hổ vẫn xin lỗi.",
+          "answers": [
+            "恥じつつも謝罪した。"
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Dù do dự vẫn trả lời.",
+          "answers": [
+            "躊躇いつつも返事をした。"
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Dù hiểu rủi ro vẫn đầu tư.",
+          "answers": [
+            "理解しつつも投資を続けた。"
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Dù cảm ơn vẫn từ chối lời mời.",
+          "answers": [
+            "感謝しつつも招待を断った。"
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "危険を認識しつつも作業を続けた。",
+          "answers": [
+            "Dù nhận thức nguy hiểm vẫn tiếp tục làm."
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "期待しつつも結果を待った。",
+          "answers": [
+            "Dù kỳ vọng vẫn chờ kết quả."
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "反省しつつも次の課題に進んだ。",
+          "answers": [
+            "Dù tự phản tỉnh vẫn sang bài tiếp."
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "不満を感じつつも指示に従った。",
+          "answers": [
+            "Dù bất mãn vẫn tuân theo chỉ thị."
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "悲しみつつも笑顔を保った。",
+          "answers": [
+            "Dù buồn vẫn giữ nụ cười."
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "迷いつつも進路を決めた。",
+          "answers": [
+            "Dù phân vân vẫn chọn hướng đi."
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "驚きつつも冷静に記録した。",
+          "answers": [
+            "Dù ngạc nhiên vẫn ghi chép bình tĩnh."
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "申し訳なく思いつつも断った。",
+          "answers": [
+            "Dù thấy có lỗi vẫn từ chối."
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "楽しみつつも準備を進めた。",
+          "answers": [
+            "Dù mong chờ vẫn tiến hành chuẩn bị."
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "理解しつつもルールは守れなかった。",
+          "answers": [
+            "Dù hiểu vẫn không giữ được quy tắc."
+          ],
+          "hint": "Vます ＋ つつ（も）",
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-order-01",
+          "mode": "order",
+          "prompt": "Dù biết rủi ro vẫn thử.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "リスクを"
+            },
+            {
+              "id": "1",
+              "text": "知りつつも"
+            },
+            {
+              "id": "2",
+              "text": "挑戦する"
+            },
+            {
+              "id": "3",
+              "text": "ことにした。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ（も）",
+          "answers": [
+            "リスクを知りつつも挑戦することにしたのだ。"
+          ],
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-order-02",
+          "mode": "order",
+          "prompt": "Dù phân vân vẫn tán thành.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "迷い"
+            },
+            {
+              "id": "1",
+              "text": "つつも"
+            },
+            {
+              "id": "2",
+              "text": "最終的に"
+            },
+            {
+              "id": "3",
+              "text": "賛成した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ（も）",
+          "answers": [
+            "迷いつつも最終的に賛成したのだ。"
+          ],
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-order-03",
+          "mode": "order",
+          "prompt": "Dù biết ơn phải từ chối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "感謝し"
+            },
+            {
+              "id": "1",
+              "text": "つつも"
+            },
+            {
+              "id": "2",
+              "text": "辞退せざるを"
+            },
+            {
+              "id": "3",
+              "text": "得なかった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ（も）",
+          "answers": [
+            "感謝しつつも辞退せざるを得なかったのだ。"
+          ],
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-order-04",
+          "mode": "order",
+          "prompt": "Dù lo vẫn nộp đơn (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "心配し"
+            },
+            {
+              "id": "1",
+              "text": "つつも"
+            },
+            {
+              "id": "2",
+              "text": "出願を"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ（も）",
+          "answers": [
+            "心配しつつも出願をした。"
+          ],
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-order-05",
+          "mode": "order",
+          "prompt": "Dù sợ vẫn lên sân khấu (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "恐れ"
+            },
+            {
+              "id": "1",
+              "text": "つつも"
+            },
+            {
+              "id": "2",
+              "text": "舞台に"
+            },
+            {
+              "id": "3",
+              "text": "立った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ（も）",
+          "answers": [
+            "恐れつつも舞台に立った。"
+          ],
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-order-06",
+          "mode": "order",
+          "prompt": "Dù nghi vẫn tin.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "疑い"
+            },
+            {
+              "id": "1",
+              "text": "つつも"
+            },
+            {
+              "id": "2",
+              "text": "その話を"
+            },
+            {
+              "id": "3",
+              "text": "信じた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ（も）",
+          "answers": [
+            "疑いつつもその話を信じた。"
+          ],
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-order-07",
+          "mode": "order",
+          "prompt": "Dù nhận nguy vẫn làm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "危険を"
+            },
+            {
+              "id": "1",
+              "text": "認識しつつも"
+            },
+            {
+              "id": "2",
+              "text": "作業を"
+            },
+            {
+              "id": "3",
+              "text": "続けた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ（も）",
+          "answers": [
+            "危険を認識しつつも作業を続けた。"
+          ],
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-order-08",
+          "mode": "order",
+          "prompt": "Dù bất mãn vẫn tuân.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "不満を"
+            },
+            {
+              "id": "1",
+              "text": "感じつつも"
+            },
+            {
+              "id": "2",
+              "text": "指示に"
+            },
+            {
+              "id": "3",
+              "text": "従った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ（も）",
+          "answers": [
+            "不満を感じつつも指示に従った。"
+          ],
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-order-09",
+          "mode": "order",
+          "prompt": "Dù phân vân chọn hướng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "迷い"
+            },
+            {
+              "id": "1",
+              "text": "つつも"
+            },
+            {
+              "id": "2",
+              "text": "進路を"
+            },
+            {
+              "id": "3",
+              "text": "決めた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ（も）",
+          "answers": [
+            "迷いつつも進路を決めた。"
+          ],
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g04-order-10",
+          "mode": "order",
+          "prompt": "Dù thấy lỗi vẫn từ chối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "申し訳なく"
+            },
+            {
+              "id": "1",
+              "text": "思いつつも"
+            },
+            {
+              "id": "2",
+              "text": "誘いを"
+            },
+            {
+              "id": "3",
+              "text": "断った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "Vます ＋ つつ（も）",
+          "answers": [
+            "申し訳なく思いつつも誘いを断った。"
+          ],
+          "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l14-g05",
+      "title": "〜といっても",
+      "meaning": "Nói là… nhưng… / dù gọi là… cũng chẳng… (hạ thấp kỳ vọng)",
+      "variants": [
+        "といっても"
+      ],
+      "structures": [
+        "普通形 ＋ といっても"
+      ],
+      "explanation": "Thừa nhận cách gọi/đánh giá A nhưng thực tế mức độ thấp hơn hoặc khác với tưởng tượng.",
+      "usage": "Giải thích lại: nói là chuyên gia nhưng mới bắt đầu; nói là gần nhưng mất một giờ.",
+      "cautions": [
+        "Thường đi sau danh từ hoặc đánh giá: Nといっても…",
+        "Khác からといって (chỉ vì… không có nghĩa…)."
+      ],
+      "contrast": "といっても ≈ nói là… nhưng thực ra. Khác とはいえ; gần hạ thấp kỳ vọng.",
+      "examples": [
+        {
+          "ja": "専門家といってもまだ経験が浅い。",
+          "reading": "せんもんかといってもまだけいけんがあさい。",
+          "vi": "Nói là chuyên gia nhưng kinh nghiệm vẫn nông.",
+          "ruby": [
+            {
+              "text": "専門家",
+              "reading": "せんもんか"
+            },
+            {
+              "text": "といっても"
+            },
+            {
+              "text": "まだ"
+            },
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "浅",
+              "reading": "あさ"
+            },
+            {
+              "text": "い。"
+            }
+          ]
+        },
+        {
+          "ja": "休みといっても一日だけだ。",
+          "reading": "やすみといってもいちにちだけだ。",
+          "vi": "Nói là nghỉ nhưng chỉ có một ngày.",
+          "ruby": [
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みといっても"
+            },
+            {
+              "text": "一日",
+              "reading": "いちにち"
+            },
+            {
+              "text": "だけだ。"
+            }
+          ]
+        },
+        {
+          "ja": "失敗といっても大きな損害はない。",
+          "reading": "しっぱいといってもおおきなそんがいはない。",
+          "vi": "Nói là thất bại nhưng không thiệt hại lớn.",
+          "ruby": [
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "といっても"
+            },
+            {
+              "text": "大",
+              "reading": "おお"
+            },
+            {
+              "text": "きな"
+            },
+            {
+              "text": "損害",
+              "reading": "そんがい"
+            },
+            {
+              "text": "はない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 77,
+        "printedPage": 64,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-toittemo-cho-du-mac-du-dau-co-noi-la-nhung/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l14-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nói là xa nhưng đi bộ được.",
+          "answers": [
+            "遠いといっても歩いて行ける距離だ。"
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nói là đông nhưng chờ không lâu.",
+          "answers": [
+            "混んでいるといっても待ち時間は短い。"
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nói là khó nhưng có ví dụ.",
+          "answers": [
+            "難しいといっても例がある。"
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nói là tăng nhưng chỉ một chút.",
+          "answers": [
+            "増えたといっても少しだけだ。"
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nói là công ty lớn nhưng chi nhánh nhỏ.",
+          "answers": [
+            "大企業といっても小さな支社だ。"
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nói là lỗi nhưng dễ sửa.",
+          "answers": [
+            "ミスといっても簡単に直せる。"
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nói là mùa đông nhưng chưa lạnh lắm.",
+          "answers": [
+            "冬といってもそれほど寒くない。"
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nói là thành công nhưng mới bước đầu.",
+          "answers": [
+            "成功といってもまだ第一歩だ。"
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nói là quà nhưng chỉ tấm thiệp.",
+          "answers": [
+            "プレゼントといってもカードだけだ。"
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nói là họp nhưng chỉ năm phút.",
+          "answers": [
+            "会議といっても五分で終わる。"
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "高いといっても予算内だ。",
+          "answers": [
+            "Nói là đắt nhưng trong ngân sách."
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "遅いといっても一時間程度だ。",
+          "answers": [
+            "Nói là muộn nhưng khoảng một giờ."
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "賛成といっても条件付きだ。",
+          "answers": [
+            "Nói là tán thành nhưng có điều kiện."
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "休みといっても半日しかない。",
+          "answers": [
+            "Nói là nghỉ nhưng chỉ nửa ngày."
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "問題といっても小さなことだ。",
+          "answers": [
+            "Nói là vấn đề nhưng chuyện nhỏ."
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "雨といっても霧雨程度だ。",
+          "answers": [
+            "Nói là mưa nhưng chỉ mưa phùn."
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "忙しいといっても残業はない。",
+          "answers": [
+            "Nói là bận nhưng không tăng ca."
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "変更といっても日付だけだ。",
+          "answers": [
+            "Nói là thay đổi nhưng chỉ ngày tháng."
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "反対といっても少数だ。",
+          "answers": [
+            "Nói là phản đối nhưng là thiểu số."
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "遠いといっても電車で十分だ。",
+          "answers": [
+            "Nói là xa nhưng tàu mười phút."
+          ],
+          "hint": "〜といっても",
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-order-01",
+          "mode": "order",
+          "prompt": "Nói chuyên gia kinh nghiệm nông.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "専門家と"
+            },
+            {
+              "id": "1",
+              "text": "いっても"
+            },
+            {
+              "id": "2",
+              "text": "経験は"
+            },
+            {
+              "id": "3",
+              "text": "浅い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜といっても",
+          "answers": [
+            "専門家といっても経験は浅い。"
+          ],
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-order-02",
+          "mode": "order",
+          "prompt": "Nói nghỉ chỉ một ngày.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "休みと"
+            },
+            {
+              "id": "1",
+              "text": "いっても"
+            },
+            {
+              "id": "2",
+              "text": "一日"
+            },
+            {
+              "id": "3",
+              "text": "だけだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜といっても",
+          "answers": [
+            "休みといっても一日だけだのだ。"
+          ],
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-order-03",
+          "mode": "order",
+          "prompt": "Nói thất bại không thiệt lớn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失敗と"
+            },
+            {
+              "id": "1",
+              "text": "いっても"
+            },
+            {
+              "id": "2",
+              "text": "損害は"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜といっても",
+          "answers": [
+            "失敗といっても損害はない。"
+          ],
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-order-04",
+          "mode": "order",
+          "prompt": "Nói xa vẫn đi bộ được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "遠いと"
+            },
+            {
+              "id": "1",
+              "text": "いっても"
+            },
+            {
+              "id": "2",
+              "text": "歩ける"
+            },
+            {
+              "id": "3",
+              "text": "距離だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜といっても",
+          "answers": [
+            "遠いといっても歩ける距離だ。"
+          ],
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-order-05",
+          "mode": "order",
+          "prompt": "Nói tăng chỉ một chút.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "増えたと"
+            },
+            {
+              "id": "1",
+              "text": "いっても"
+            },
+            {
+              "id": "2",
+              "text": "少し"
+            },
+            {
+              "id": "3",
+              "text": "だけだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜といっても",
+          "answers": [
+            "増えたといっても少しだけだ。"
+          ],
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-order-06",
+          "mode": "order",
+          "prompt": "Nói lỗi dễ sửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ミスと"
+            },
+            {
+              "id": "1",
+              "text": "いっても"
+            },
+            {
+              "id": "2",
+              "text": "簡単に"
+            },
+            {
+              "id": "3",
+              "text": "直せる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜といっても",
+          "answers": [
+            "ミスといっても簡単に直せる。"
+          ],
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-order-07",
+          "mode": "order",
+          "prompt": "Nói đông chờ không lâu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "混んでいると"
+            },
+            {
+              "id": "1",
+              "text": "いっても"
+            },
+            {
+              "id": "2",
+              "text": "待ちは"
+            },
+            {
+              "id": "3",
+              "text": "短い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜といっても",
+          "answers": [
+            "混んでいるといっても待ちは短い。"
+          ],
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-order-08",
+          "mode": "order",
+          "prompt": "Nói đắt trong ngân sách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "高いと"
+            },
+            {
+              "id": "1",
+              "text": "いっても"
+            },
+            {
+              "id": "2",
+              "text": "予算内"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜といっても",
+          "answers": [
+            "高いといっても予算内だ。"
+          ],
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-order-09",
+          "mode": "order",
+          "prompt": "Nói họp năm phút xong.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議と"
+            },
+            {
+              "id": "1",
+              "text": "いっても"
+            },
+            {
+              "id": "2",
+              "text": "五分で"
+            },
+            {
+              "id": "3",
+              "text": "終わる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜といっても",
+          "answers": [
+            "会議といっても五分で終わる。"
+          ],
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g05-order-10",
+          "mode": "order",
+          "prompt": "Nói xa tàu mười phút.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "遠いと"
+            },
+            {
+              "id": "1",
+              "text": "いっても"
+            },
+            {
+              "id": "2",
+              "text": "電車で"
+            },
+            {
+              "id": "3",
+              "text": "十分だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜といっても",
+          "answers": [
+            "遠いといっても電車で十分だ。"
+          ],
+          "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l14-g06",
+      "title": "〜からといって",
+      "meaning": "Chỉ vì… không có nghĩa là… / không phải cứ… là…",
+      "variants": [
+        "からといって"
+      ],
+      "structures": [
+        "普通形 ＋ からといって"
+      ],
+      "explanation": "Phủ định suy luận: chỉ vì có A không đồng nghĩa được phép/được kết luận B; hay đi với phủ định hoặc わけではない.",
+      "usage": "Khuyên can: chỉ vì trẻ không có nghĩa được lười; chỉ vì đỗ không có nghĩa hết học.",
+      "cautions": [
+        "Thường kết hợp わけではない／とは限らない／〜ない.",
+        "Khác といっても (hạ thấp mức độ của chính A)."
+      ],
+      "contrast": "からといって ≈ chỉ vì… không có nghĩa…. Khác といっても; gần だからといって.",
+      "examples": [
+        {
+          "ja": "高いからといって品質が良いとは限らない。",
+          "reading": "たかいからといってひんしつがよいとはかぎらない。",
+          "vi": "Chỉ vì đắt không có nghĩa chất lượng chắc tốt.",
+          "ruby": [
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "いからといって"
+            },
+            {
+              "text": "品質",
+              "reading": "ひんしつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "良",
+              "reading": "よ"
+            },
+            {
+              "text": "いとは"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らない。"
+            }
+          ]
+        },
+        {
+          "ja": "忙しいからといって連絡を怠ってはいけない。",
+          "reading": "いそがしいからといってれんらくをおこたってはいけない。",
+          "vi": "Chỉ vì bận không được lơ là liên lạc.",
+          "ruby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しいからといって"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "怠",
+              "reading": "おこた"
+            },
+            {
+              "text": "ってはいけない。"
+            }
+          ]
+        },
+        {
+          "ja": "若いうちだからといって無理をしてはいけない。",
+          "reading": "わかいうちだからといってむりをしてはいけない。",
+          "vi": "Chỉ vì còn trẻ không được ép sức quá mức.",
+          "ruby": [
+            {
+              "text": "若",
+              "reading": "わか"
+            },
+            {
+              "text": "いうちだからといって"
+            },
+            {
+              "text": "無理",
+              "reading": "むり"
+            },
+            {
+              "text": "をしてはいけない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 77,
+        "printedPage": 64,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-karatoitte-cho-du-thi-cung-khong-han/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l14-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì rẻ không có nghĩa kém.",
+          "answers": [
+            "安いからといって粗悪とは限らない。"
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì đậu không có nghĩa hết học.",
+          "answers": [
+            "合格したからといって勉強をやめてはいけない。"
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì quen không được cẩu thả.",
+          "answers": [
+            "慣れているからといって油断してはいけない。"
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì xa không có nghĩa không đi được.",
+          "answers": [
+            "遠いからといって行けないわけではない。"
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì thất bại không được bỏ cuộc.",
+          "answers": [
+            "失敗したからといって諦めてはいけない。"
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì mưa không có nghĩa hủy hết.",
+          "answers": [
+            "雨だからといって全て中止とは限らない。"
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì là sếp không được hách dịch.",
+          "answers": [
+            "上司だからといって横柄であってはいけない。"
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì có tiền không có nghĩa hạnh phúc.",
+          "answers": [
+            "お金があるからといって幸せとは限らない。"
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì mệt không được bỏ qua an toàn.",
+          "answers": [
+            "疲れたからといって安全を疎かにしてはいけない。"
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì lần đầu không có nghĩa được từ bỏ.",
+          "answers": [
+            "初めてだからといって포기してはいけない。"
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "好きだからといって食べ過ぎてはいけない。",
+          "answers": [
+            "Chỉ vì thích không được ăn quá nhiều."
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "暇だからといって無駄に過ごしてはいけない。",
+          "answers": [
+            "Chỉ vì rảnh không được phí thời gian."
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "有名だからといって信頼できるとは限らない。",
+          "answers": [
+            "Chỉ vì nổi tiếng không chắc đáng tin."
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "安いからといって買いすぎてはいけない。",
+          "answers": [
+            "Chỉ vì rẻ không được mua quá nhiều."
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "怒ったからといって暴言を吐いてはいけない。",
+          "answers": [
+            "Chỉ vì giận không được nói tục."
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "便利だからといって依存しすぎてはいけない。",
+          "answers": [
+            "Chỉ vì tiện không được phụ thuộc quá."
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "若いからといって無理は禁物だ。",
+          "answers": [
+            "Chỉ vì trẻ, ép sức là điều cấm."
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "経験があるからといって慢心してはいけない。",
+          "answers": [
+            "Chỉ vì có kinh nghiệm không được kiêu."
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "無料だからといって品質が低いとは限らない。",
+          "answers": [
+            "Chỉ vì miễn phí không chắc chất lượng thấp."
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "忙しいからといって健康を犠牲にしてはいけない。",
+          "answers": [
+            "Chỉ vì bận không được hy sinh sức khỏe."
+          ],
+          "hint": "〜からといって",
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-order-01",
+          "mode": "order",
+          "prompt": "Chỉ vì đắt không chắc tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "高いから"
+            },
+            {
+              "id": "1",
+              "text": "といって"
+            },
+            {
+              "id": "2",
+              "text": "品質が"
+            },
+            {
+              "id": "3",
+              "text": "良いとは限らない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜からといって",
+          "answers": [
+            "高いからといって品質が良いとは限らないのだ。"
+          ],
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-order-02",
+          "mode": "order",
+          "prompt": "Chỉ vì bận không lơ liên lạc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忙しいから"
+            },
+            {
+              "id": "1",
+              "text": "といって"
+            },
+            {
+              "id": "2",
+              "text": "連絡を"
+            },
+            {
+              "id": "3",
+              "text": "怠るな。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜からといって",
+          "answers": [
+            "忙しいからといって連絡を怠るな。"
+          ],
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-order-03",
+          "mode": "order",
+          "prompt": "Chỉ vì trẻ không ép sức.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "若いから"
+            },
+            {
+              "id": "1",
+              "text": "といって"
+            },
+            {
+              "id": "2",
+              "text": "無理を"
+            },
+            {
+              "id": "3",
+              "text": "するな。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜からといって",
+          "answers": [
+            "若いからといって無理をするな。"
+          ],
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-order-04",
+          "mode": "order",
+          "prompt": "Chỉ vì rẻ không chắc kém.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "安いから"
+            },
+            {
+              "id": "1",
+              "text": "といって"
+            },
+            {
+              "id": "2",
+              "text": "粗悪とは"
+            },
+            {
+              "id": "3",
+              "text": "限らない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜からといって",
+          "answers": [
+            "安いからといって粗悪とは限らない。"
+          ],
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-order-05",
+          "mode": "order",
+          "prompt": "Chỉ vì đậu không bỏ học.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "合格したから"
+            },
+            {
+              "id": "1",
+              "text": "といって"
+            },
+            {
+              "id": "2",
+              "text": "勉強を"
+            },
+            {
+              "id": "3",
+              "text": "やめるな。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜からといって",
+          "answers": [
+            "合格したからといって勉強をやめるな。"
+          ],
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-order-06",
+          "mode": "order",
+          "prompt": "Chỉ vì thất bại không bỏ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失敗したから"
+            },
+            {
+              "id": "1",
+              "text": "といって"
+            },
+            {
+              "id": "2",
+              "text": "諦めては"
+            },
+            {
+              "id": "3",
+              "text": "いけない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜からといって",
+          "answers": [
+            "失敗したからといって諦めてはいけない。"
+          ],
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-order-07",
+          "mode": "order",
+          "prompt": "Chỉ vì thích không ăn quá.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "好きだから"
+            },
+            {
+              "id": "1",
+              "text": "といって"
+            },
+            {
+              "id": "2",
+              "text": "食べ過ぎて"
+            },
+            {
+              "id": "3",
+              "text": "はいけない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜からといって",
+          "answers": [
+            "好きだからといって食べ過ぎてはいけない。"
+          ],
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-order-08",
+          "mode": "order",
+          "prompt": "Chỉ vì nổi tiếng không chắc tin.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "有名だから"
+            },
+            {
+              "id": "1",
+              "text": "といって"
+            },
+            {
+              "id": "2",
+              "text": "信頼できるとは"
+            },
+            {
+              "id": "3",
+              "text": "限らない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜からといって",
+          "answers": [
+            "有名だからといって信頼できるとは限らない。"
+          ],
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-order-09",
+          "mode": "order",
+          "prompt": "Chỉ vì rảnh không phí thì giờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "暇だから"
+            },
+            {
+              "id": "1",
+              "text": "といって"
+            },
+            {
+              "id": "2",
+              "text": "無駄に"
+            },
+            {
+              "id": "3",
+              "text": "過ごすな。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜からといって",
+          "answers": [
+            "暇だからといって無駄に過ごすな。"
+          ],
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l14-g06-order-10",
+          "mode": "order",
+          "prompt": "Chỉ vì bận không bỏ sức khỏe.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忙しいから"
+            },
+            {
+              "id": "1",
+              "text": "といって"
+            },
+            {
+              "id": "2",
+              "text": "健康を"
+            },
+            {
+              "id": "3",
+              "text": "犠牲にするな。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜からといって",
+          "answers": [
+            "忙しいからといって健康を犠牲にするな。"
+          ],
+          "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+        }
+      ]
+    }
+  ]
+}

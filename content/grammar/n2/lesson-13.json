@@ -1,0 +1,3759 @@
+{
+  "id": "lesson-13",
+  "titleJa": "話題",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 13. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L11-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l13-g01",
+      "title": "〜とは",
+      "meaning": "… nghĩa là… / … chính là… (định nghĩa, giải thích)",
+      "variants": [
+        "とは"
+      ],
+      "structures": [
+        "N ＋ とは",
+        "〜とは〜ことだ／〜ものだ"
+      ],
+      "explanation": "Đưa ra định nghĩa hoặc giải thích bản chất của từ/khái niệm; hay gặp trong sách giáo khoa và bài giảng.",
+      "usage": "Giải thích thuật ngữ, nêu ý nghĩa: AとはBだ.",
+      "cautions": [
+        "Khác というのは khi kể chuyện / dẫn lời nói thường ngày.",
+        "Không dùng とは để chỉ liên tưởng chủ đề (dùng といえば／というと)."
+      ],
+      "contrast": "とは ≈ định nghĩa. Khác といえば (nhắc đến thì liên tưởng) và というのは (giải thích mềm).",
+      "examples": [
+        {
+          "ja": "Longevityとは長生きすることだ。",
+          "reading": "ろんじぇびてぃーとはながいきすることだ。",
+          "vi": "Longevity nghĩa là sống lâu.",
+          "ruby": [
+            {
+              "text": "Longevityとは"
+            },
+            {
+              "text": "長生",
+              "reading": "ながい"
+            },
+            {
+              "text": "きすることだ。"
+            }
+          ]
+        },
+        {
+          "ja": "ボランティアとは無報酬で社会に貢献することだ。",
+          "reading": "ぼらんてぃあとはむほうしゅうでしゃかいにこうけんすることだ。",
+          "vi": "Tình nguyện nghĩa là đóng góp cho xã hội không thù lao.",
+          "ruby": [
+            {
+              "text": "ボランティアとは"
+            },
+            {
+              "text": "無報酬",
+              "reading": "むほうしゅう"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "社会",
+              "reading": "しゃかい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "貢献",
+              "reading": "こうけん"
+            },
+            {
+              "text": "することだ。"
+            }
+          ]
+        },
+        {
+          "ja": "この記号とは何を意味するのか。",
+          "reading": "このきごうとはなにをいみするのか。",
+          "vi": "Ký hiệu này nghĩa là gì vậy?",
+          "ruby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "記号",
+              "reading": "きごう"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "何",
+              "reading": "なに"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "意味",
+              "reading": "いみ"
+            },
+            {
+              "text": "するのか。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 73,
+        "printedPage": 60,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-n1-to-wa-la-nghia-la-thi-that-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l13-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "GDP nghĩa là tổng sản phẩm quốc nội.",
+          "answers": [
+            "GDPとは国内総生産のことだ。"
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Thư viện nghĩa là nơi cho mượn sách.",
+          "answers": [
+            "図書館とは本を借りる場所だ。"
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Passport nghĩa là hộ chiếu.",
+          "answers": [
+            "パスポートとは旅券のことだ。"
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Copyright nghĩa là bản quyền.",
+          "answers": [
+            "著作権とは作品を保護する権利だ。"
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Recycling nghĩa là tái chế.",
+          "answers": [
+            "リサイクルとは資源を再利用することだ。"
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Internship nghĩa là thực tập.",
+          "answers": [
+            "インターンシップとは実務を学ぶことだ。"
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Deadline nghĩa là hạn chót.",
+          "answers": [
+            "締め切りとは提出の最終期限だ。"
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Democracy nghĩa là dân chủ.",
+          "answers": [
+            "民主主義とは国民が政治に参加する仕組みだ。"
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Inflation nghĩa là lạm phát.",
+          "answers": [
+            "インフレとは物価が上がることだ。"
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Mentor nghĩa là người hướng dẫn.",
+          "answers": [
+            "メンターとは助言してくれる先輩だ。"
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "AIとは人工知能のことだ。",
+          "answers": [
+            "AI nghĩa là trí tuệ nhân tạo."
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "方言とは地域特有の言葉だ。",
+          "answers": [
+            "Phương ngữ nghĩa là lời nói riêng của vùng."
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "予算とは使えるお金の計画だ。",
+          "answers": [
+            "Ngân sách nghĩa là kế hoạch tiền được dùng."
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "履歴書とは職歴を書く書類だ。",
+          "answers": [
+            "Sơ yếu lý lịch nghĩa là giấy ghi lịch sử nghề."
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "残業とは定時後に働くことだ。",
+          "answers": [
+            "Tăng ca nghĩa là làm việc sau giờ quy định."
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "条約とは国同士の約束だ。",
+          "answers": [
+            "Hiệp ước nghĩa là lời hứa giữa các nước."
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "栄養とは体に必要な成分だ。",
+          "answers": [
+            "Dinh dưỡng nghĩa là thành phần cơ thể cần."
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "選挙とは代表を選ぶ制度だ。",
+          "answers": [
+            "Bầu cử nghĩa là chế độ chọn đại diện."
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "習慣とは繰り返し行う行動だ。",
+          "answers": [
+            "Thói quen nghĩa là hành động lặp lại."
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "偏見とは根拠のない思い込みだ。",
+          "answers": [
+            "Định kiến nghĩa là thành kiến thiếu căn cứ."
+          ],
+          "hint": "N ＋ とは",
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-order-01",
+          "mode": "order",
+          "prompt": "GDP nghĩa là tổng sản phẩm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "GDPとは"
+            },
+            {
+              "id": "1",
+              "text": "国内の"
+            },
+            {
+              "id": "2",
+              "text": "総生産の"
+            },
+            {
+              "id": "3",
+              "text": "ことだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "N ＋ とは",
+          "answers": [
+            "GDPとは国内の総生産のことだ。"
+          ],
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-order-02",
+          "mode": "order",
+          "prompt": "Thư viện là nơi mượn sách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "図書館とは"
+            },
+            {
+              "id": "1",
+              "text": "本を"
+            },
+            {
+              "id": "2",
+              "text": "借りる"
+            },
+            {
+              "id": "3",
+              "text": "場所だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "N ＋ とは",
+          "answers": [
+            "図書館とは本を借りる場所だ。"
+          ],
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-order-03",
+          "mode": "order",
+          "prompt": "AI nghĩa là trí tuệ nhân tạo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "AIとは"
+            },
+            {
+              "id": "1",
+              "text": "人工"
+            },
+            {
+              "id": "2",
+              "text": "知能の"
+            },
+            {
+              "id": "3",
+              "text": "ことだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "N ＋ とは",
+          "answers": [
+            "AIとは人工知能のことだ。"
+          ],
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-order-04",
+          "mode": "order",
+          "prompt": "Deadline là hạn nộp cuối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "締め切りとは"
+            },
+            {
+              "id": "1",
+              "text": "提出の"
+            },
+            {
+              "id": "2",
+              "text": "最終"
+            },
+            {
+              "id": "3",
+              "text": "期限だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "N ＋ とは",
+          "answers": [
+            "締め切りとは提出の最終期限だ。"
+          ],
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-order-05",
+          "mode": "order",
+          "prompt": "Recycling là tái sử dụng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "リサイクルとは"
+            },
+            {
+              "id": "1",
+              "text": "資源を"
+            },
+            {
+              "id": "2",
+              "text": "再利用する"
+            },
+            {
+              "id": "3",
+              "text": "ことだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "N ＋ とは",
+          "answers": [
+            "リサイクルとは資源を再利用することだ。"
+          ],
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-order-06",
+          "mode": "order",
+          "prompt": "Ngân sách là kế hoạch tiền.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "予算とは"
+            },
+            {
+              "id": "1",
+              "text": "使える"
+            },
+            {
+              "id": "2",
+              "text": "お金の"
+            },
+            {
+              "id": "3",
+              "text": "計画だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "N ＋ とは",
+          "answers": [
+            "予算とは使えるお金の計画だ。"
+          ],
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-order-07",
+          "mode": "order",
+          "prompt": "Tăng ca là làm sau giờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "残業とは"
+            },
+            {
+              "id": "1",
+              "text": "定時後に"
+            },
+            {
+              "id": "2",
+              "text": "働く"
+            },
+            {
+              "id": "3",
+              "text": "ことだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "N ＋ とは",
+          "answers": [
+            "残業とは定時後に働くことだ。"
+          ],
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-order-08",
+          "mode": "order",
+          "prompt": "Bầu cử là chọn đại diện.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "選挙とは"
+            },
+            {
+              "id": "1",
+              "text": "代表を"
+            },
+            {
+              "id": "2",
+              "text": "選ぶ"
+            },
+            {
+              "id": "3",
+              "text": "制度だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "N ＋ とは",
+          "answers": [
+            "選挙とは代表を選ぶ制度だ。"
+          ],
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-order-09",
+          "mode": "order",
+          "prompt": "Thói quen là hành động lặp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "習慣とは"
+            },
+            {
+              "id": "1",
+              "text": "繰り返し"
+            },
+            {
+              "id": "2",
+              "text": "行う"
+            },
+            {
+              "id": "3",
+              "text": "行動だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "N ＋ とは",
+          "answers": [
+            "習慣とは繰り返し行う行動だ。"
+          ],
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g01-order-10",
+          "mode": "order",
+          "prompt": "Định kiến là thành kiến.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "偏見とは"
+            },
+            {
+              "id": "1",
+              "text": "根拠のない"
+            },
+            {
+              "id": "2",
+              "text": "思い込み"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "N ＋ とは",
+          "answers": [
+            "偏見とは根拠のない思い込みだ。"
+          ],
+          "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l13-g02",
+      "title": "〜といえば",
+      "meaning": "Nói đến… thì… / nhắc đến… liền nghĩ đến…",
+      "variants": [
+        "といえば"
+      ],
+      "structures": [
+        "N／普通形 ＋ といえば"
+      ],
+      "explanation": "Đưa chủ đề rồi liên tưởng đến điều tiêu biểu, hoặc nêu ý kiến khi phải chọn.",
+      "usage": "Nhắc chủ đề: nói đến mùa hè thì…; cũng dùng khi chọn đáp án: nếu phải nói thì…",
+      "cautions": [
+        "partial-match: bài TNĐG cũng nhắc といったら — vẫn học riêng といえば.",
+        "Khác とは (định nghĩa) và となると (khi đụng đến thì…)."
+      ],
+      "contrast": "といえば ≈ nhắc đến thì liên tưởng. Gần というと; khác といったら (cảm thán mạnh).",
+      "examples": [
+        {
+          "ja": "夏といえば海と花火だ。",
+          "reading": "なつといえばうみとはなびだ。",
+          "vi": "Nói đến mùa hè thì biển và pháo hoa.",
+          "ruby": [
+            {
+              "text": "夏",
+              "reading": "なつ"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "海",
+              "reading": "うみ"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "花火",
+              "reading": "はなび"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "日本の料理といえば寿司が思い浮かぶ。",
+          "reading": "にほんのりょうりといえばすしがおもいうかぶ。",
+          "vi": "Nói đến món Nhật thì nghĩ đến sushi.",
+          "ruby": [
+            {
+              "text": "日本",
+              "reading": "にほん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "料理",
+              "reading": "りょうり"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "寿司",
+              "reading": "すし"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "浮",
+              "reading": "う"
+            },
+            {
+              "text": "かぶ。"
+            }
+          ]
+        },
+        {
+          "ja": "私の趣味といえば読書です。",
+          "reading": "わたしのしゅみといえばどくしょです。",
+          "vi": "Sở thích của tôi, nói thì là đọc sách.",
+          "ruby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "趣味",
+              "reading": "しゅみ"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "読書",
+              "reading": "どくしょ"
+            },
+            {
+              "text": "です。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 73,
+        "printedPage": 60,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-toieba-toittara-noi-den-thi-nhac-moi-nho/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l13-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nói đến Kyoto thì đền chùa.",
+          "answers": [
+            "京都といえばお寺だ。"
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nói đến mùa đông thì tuyết.",
+          "answers": [
+            "冬といえば雪だ。"
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nói đến Osaka thì takoyaki.",
+          "answers": [
+            "大阪といえばたこ焼きだ。"
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nói đến kỳ nghỉ thì du lịch.",
+          "answers": [
+            "休暇といえば旅行だ。"
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nói đến sáng thì cà phê.",
+          "answers": [
+            "朝といえばコーヒーだ。"
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nói đến thể thao thì bóng đá.",
+          "answers": [
+            "スポーツといえばサッカーだ。"
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nói đến quà Nhật thì mochi.",
+          "answers": [
+            "日本のお土産といえば餅だ。"
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nói đến kỳ thi thì ôn tập.",
+          "answers": [
+            "試験といえば復習だ。"
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nói đến cuối tuần thì nghỉ ngơi.",
+          "answers": [
+            "週末といえば休息だ。"
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nói đến mùa xuân thì hoa anh đào.",
+          "answers": [
+            "春といえば桜だ。"
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "秋といえば紅葉が美しい。",
+          "answers": [
+            "Nói đến mùa thu thì lá đỏ đẹp."
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "東京といえば電車が便利だ。",
+          "answers": [
+            "Nói đến Tokyo thì tàu điện tiện."
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "子供の頃といえば外で遊んだ。",
+          "answers": [
+            "Nhắc tuổi nhỏ thì chơi ngoài trời."
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "健康といえば睡眠が大切だ。",
+          "answers": [
+            "Nói đến sức khỏe thì ngủ quan trọng."
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "夏祭りといえば浴衣を着る。",
+          "answers": [
+            "Nói đến lễ hội hè thì mặc yukata."
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "誕生日といえばケーキだ。",
+          "answers": [
+            "Nói đến sinh nhật thì bánh kem."
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "雨の日といえば家で本を読む。",
+          "answers": [
+            "Nói đến ngày mưa thì đọc sách ở nhà."
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "仕事のストレスといえば残業だ。",
+          "answers": [
+            "Nói đến stress công việc thì tăng ca."
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "旅行といえば計画が楽しい。",
+          "answers": [
+            "Nói đến du lịch thì lập kế hoạch vui."
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "勉強といえば辞書が必要だ。",
+          "answers": [
+            "Nói đến học thì cần từ điển."
+          ],
+          "hint": "N ＋ といえば",
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-order-01",
+          "mode": "order",
+          "prompt": "Nói hè thì biển pháo hoa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "夏と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "海が"
+            },
+            {
+              "id": "3",
+              "text": "好きだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といえば",
+          "answers": [
+            "夏といえば海が好きだ。"
+          ],
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-order-02",
+          "mode": "order",
+          "prompt": "Nói Kyoto thì đền.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "京都と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "お寺が"
+            },
+            {
+              "id": "3",
+              "text": "有名だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といえば",
+          "answers": [
+            "京都といえばお寺が有名だ。"
+          ],
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-order-03",
+          "mode": "order",
+          "prompt": "Nói đông thì tuyết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "冬と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "雪が"
+            },
+            {
+              "id": "3",
+              "text": "降る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といえば",
+          "answers": [
+            "冬といえば雪が降る。"
+          ],
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-order-04",
+          "mode": "order",
+          "prompt": "Nói thu thì lá đỏ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "秋と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "紅葉が"
+            },
+            {
+              "id": "3",
+              "text": "美しい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といえば",
+          "answers": [
+            "秋といえば紅葉が美しい。"
+          ],
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-order-05",
+          "mode": "order",
+          "prompt": "Nói xuân thì anh đào.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "春と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "桜が"
+            },
+            {
+              "id": "3",
+              "text": "咲く。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といえば",
+          "answers": [
+            "春といえば桜が咲く。"
+          ],
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-order-06",
+          "mode": "order",
+          "prompt": "Nói sinh nhật thì bánh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "誕生日と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "ケーキを"
+            },
+            {
+              "id": "3",
+              "text": "食べる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といえば",
+          "answers": [
+            "誕生日といえばケーキを食べる。"
+          ],
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-order-07",
+          "mode": "order",
+          "prompt": "Nói cuối tuần thì nghỉ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "週末と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "休息が"
+            },
+            {
+              "id": "3",
+              "text": "必要だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といえば",
+          "answers": [
+            "週末といえば休息が必要だ。"
+          ],
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-order-08",
+          "mode": "order",
+          "prompt": "Nói thể thao thì bóng đá.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "スポーツと"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "サッカーが"
+            },
+            {
+              "id": "3",
+              "text": "人気だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といえば",
+          "answers": [
+            "スポーツといえばサッカーが人気だ。"
+          ],
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-order-09",
+          "mode": "order",
+          "prompt": "Nói Tokyo thì tàu tiện.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "東京と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "電車が"
+            },
+            {
+              "id": "3",
+              "text": "便利だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といえば",
+          "answers": [
+            "東京といえば電車が便利だ。"
+          ],
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g02-order-10",
+          "mode": "order",
+          "prompt": "Nói sức khỏe thì ngủ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "健康と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "睡眠が"
+            },
+            {
+              "id": "3",
+              "text": "大切だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といえば",
+          "answers": [
+            "健康といえば睡眠が大切だ。"
+          ],
+          "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l13-g03",
+      "title": "〜というと・〜といえば・〜といったら",
+      "meaning": "Nói đến… / nhắc đến… thì… (cụm liên tưởng chủ đề)",
+      "variants": [
+        "というと",
+        "といえば",
+        "といったら"
+      ],
+      "structures": [
+        "N／普通形 ＋ というと",
+        "N／普通形 ＋ といえば",
+        "N／普通形 ＋ といったら"
+      ],
+      "explanation": "Cùng nêu chủ đề rồi dẫn liên tưởng; というと hơi khách quan, といえば phổ biến, といったら có thể nhấn cảm xúc.",
+      "usage": "Mở chủ đề hội thoại hoặc bài viết: nhắc A thì nghĩ B.",
+      "cautions": [
+        "Ba dạng gần nghĩa; chọn theo sắc thái, không đổi lung tung trong cùng câu.",
+        "といったら còn dùng cảm thán (l13-g05) — phân biệt ngữ cảnh."
+      ],
+      "contrast": "というと／といえば／といったら ≈ nói đến thì…. Khác とは (định nghĩa).",
+      "examples": [
+        {
+          "ja": "旅行というと海外を想像する人が多い。",
+          "reading": "りょこうというとかいがいをそうぞうするひとがおおい。",
+          "vi": "Nói đến du lịch, nhiều người tưởng tượng nước ngoài.",
+          "ruby": [
+            {
+              "text": "旅行",
+              "reading": "りょこう"
+            },
+            {
+              "text": "というと"
+            },
+            {
+              "text": "海外",
+              "reading": "かいがい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "想像",
+              "reading": "そうぞう"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "多",
+              "reading": "おお"
+            },
+            {
+              "text": "い。"
+            }
+          ]
+        },
+        {
+          "ja": "休憩といえばコーヒーが欠かせない。",
+          "reading": "きゅうけいといえばコーヒーがかかせない。",
+          "vi": "Nói đến nghỉ giải lao thì cà phê không thể thiếu.",
+          "ruby": [
+            {
+              "text": "休憩",
+              "reading": "きゅうけい"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "コーヒーが"
+            },
+            {
+              "text": "欠",
+              "reading": "か"
+            },
+            {
+              "text": "かせない。"
+            }
+          ]
+        },
+        {
+          "ja": "彼の笑顔といったら忘れられない。",
+          "reading": "かれのえがおといったらわすれられない。",
+          "vi": "Nụ cười anh ấy thì không thể quên.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "笑顔",
+              "reading": "えがお"
+            },
+            {
+              "text": "といったら"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れられない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 73,
+        "printedPage": 60,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-toiuto-noi-den/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-toieba-toittara-noi-den-thi-nhac-moi-nho/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l13-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nói đến kỳ nghỉ hè thì biển.",
+          "answers": [
+            "夏休みというと海だ。"
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nói đến bữa sáng thì bánh mì.",
+          "answers": [
+            "朝食といえばパンだ。"
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nói đến thành công thì nỗ lực.",
+          "answers": [
+            "成功といったら努力だ。"
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nói đến mưa thì ô.",
+          "answers": [
+            "雨というと傘が必要だ。"
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nói đến văn phòng thì máy tính.",
+          "answers": [
+            "オフィスといえばパソコンだ。"
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nói đến đêm khuya thì yên tĩnh.",
+          "answers": [
+            "深夜といったら静かだ。"
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nói đến trường thì bạn bè.",
+          "answers": [
+            "学校というと友達だ。"
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nói đến mùa thu hoạch thì gạo.",
+          "answers": [
+            "収穫といえば米だ。"
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nói đến lễ hội thì trống.",
+          "answers": [
+            "祭りといったら太鼓だ。"
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nói đến thư viện thì im lặng.",
+          "answers": [
+            "図書館というと静かな場所だ。"
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "休日というと家族と過ごす。",
+          "answers": [
+            "Nói đến ngày nghỉ thì ở với gia đình."
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "運動といえばジョギングが好きだ。",
+          "answers": [
+            "Nói đến vận động thì thích chạy bộ."
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "彼の料理といったら本格的だ。",
+          "answers": [
+            "Món anh ấy nấu thì rất đúng điệu."
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "冬というとこたつが恋しい。",
+          "answers": [
+            "Nói đến mùa đông thì nhớ kotatsu."
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "通勤といえば満員電車だ。",
+          "answers": [
+            "Nói đến đi làm thì tàu chật cứng."
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "失敗といったら学びの機会だ。",
+          "answers": [
+            "Nói đến thất bại thì là cơ hội học."
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "春というと花粉症に注意だ。",
+          "answers": [
+            "Nói đến xuân thì chú ý dị ứng phấn hoa."
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "会議といえば資料の準備だ。",
+          "answers": [
+            "Nói đến họp thì chuẩn bị tài liệu."
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "彼の優しさといったら有名だ。",
+          "answers": [
+            "Sự tử tế của anh ấy thì nổi tiếng."
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "旅行というと計画が大切だ。",
+          "answers": [
+            "Nói đến du lịch thì kế hoạch quan trọng."
+          ],
+          "hint": "〜というと／といえば／といったら",
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-order-01",
+          "mode": "order",
+          "prompt": "Nói du lịch thì nghĩ nước ngoài.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "旅行と"
+            },
+            {
+              "id": "1",
+              "text": "いうと"
+            },
+            {
+              "id": "2",
+              "text": "海外を"
+            },
+            {
+              "id": "3",
+              "text": "想像する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というと／といえば／といったら",
+          "answers": [
+            "旅行というと海外を想像する。"
+          ],
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-order-02",
+          "mode": "order",
+          "prompt": "Nói nghỉ thì cà phê.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "休憩と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "コーヒーが"
+            },
+            {
+              "id": "3",
+              "text": "欲しい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というと／といえば／といったら",
+          "answers": [
+            "休憩といえばコーヒーが欲しい。"
+          ],
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-order-03",
+          "mode": "order",
+          "prompt": "Nụ cười anh khó quên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "笑顔と"
+            },
+            {
+              "id": "1",
+              "text": "いったら"
+            },
+            {
+              "id": "2",
+              "text": "忘れられない"
+            },
+            {
+              "id": "3",
+              "text": "ものだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というと／といえば／といったら",
+          "answers": [
+            "笑顔といったら忘れられないものだ。"
+          ],
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-order-04",
+          "mode": "order",
+          "prompt": "Nói hè thì biển.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "夏休みと"
+            },
+            {
+              "id": "1",
+              "text": "いうと"
+            },
+            {
+              "id": "2",
+              "text": "海が"
+            },
+            {
+              "id": "3",
+              "text": "浮かぶ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というと／といえば／といったら",
+          "answers": [
+            "夏休みというと海が浮かぶ。"
+          ],
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-order-05",
+          "mode": "order",
+          "prompt": "Nói sáng thì bánh mì.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "朝食と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "パンが"
+            },
+            {
+              "id": "3",
+              "text": "定番だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というと／といえば／といったら",
+          "answers": [
+            "朝食といえばパンが定番だ。"
+          ],
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-order-06",
+          "mode": "order",
+          "prompt": "Nói mưa thì cần ô.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨と"
+            },
+            {
+              "id": "1",
+              "text": "いうと"
+            },
+            {
+              "id": "2",
+              "text": "傘が"
+            },
+            {
+              "id": "3",
+              "text": "必要だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というと／といえば／といったら",
+          "answers": [
+            "雨というと傘が必要だ。"
+          ],
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-order-07",
+          "mode": "order",
+          "prompt": "Nói đi làm thì tàu đông.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "通勤と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "満員電車が"
+            },
+            {
+              "id": "3",
+              "text": "思い浮かぶ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というと／といえば／といったら",
+          "answers": [
+            "通勤といえば満員電車が思い浮かぶ。"
+          ],
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-order-08",
+          "mode": "order",
+          "prompt": "Nói họp thì chuẩn bị giấy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議と"
+            },
+            {
+              "id": "1",
+              "text": "いえば"
+            },
+            {
+              "id": "2",
+              "text": "資料の"
+            },
+            {
+              "id": "3",
+              "text": "準備だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というと／といえば／といったら",
+          "answers": [
+            "会議といえば資料の準備だ。"
+          ],
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-order-09",
+          "mode": "order",
+          "prompt": "Nói đông thì nhớ kotatsu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "冬と"
+            },
+            {
+              "id": "1",
+              "text": "いうと"
+            },
+            {
+              "id": "2",
+              "text": "こたつが"
+            },
+            {
+              "id": "3",
+              "text": "恋しい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というと／といえば／といったら",
+          "answers": [
+            "冬というとこたつが恋しい。"
+          ],
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g03-order-10",
+          "mode": "order",
+          "prompt": "Nói thất bại thì học được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失敗と"
+            },
+            {
+              "id": "1",
+              "text": "いったら"
+            },
+            {
+              "id": "2",
+              "text": "学びの"
+            },
+            {
+              "id": "3",
+              "text": "機会だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜というと／といえば／といったら",
+          "answers": [
+            "失敗といったら学びの機会だ。"
+          ],
+          "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l13-g04",
+      "title": "〜（のこと）となると",
+      "meaning": "Cứ đụng đến… / khi nói đến lĩnh vực… thì…",
+      "variants": [
+        "となると",
+        "のこととなると"
+      ],
+      "structures": [
+        "N ＋ （のこと）となると",
+        "普通形 ＋ となると"
+      ],
+      "explanation": "Khi chủ đề chuyển sang lĩnh vực/việc cụ thể, thái độ hoặc tình hình thay đổi rõ; thường nhấn điểm yếu/điểm mạnh đặc biệt.",
+      "usage": "Nhấn: bình thường thì được, nhưng cứ đụng đến A thì…",
+      "cautions": [
+        "Khác となると giả định điều kiện ở bài khác (L15).",
+        "のこととなると nhấn 'việc về…' rõ hơn một chút."
+      ],
+      "contrast": "（のこと）となると ≈ cứ đụng đến… thì. Khác といえば (liên tưởng nhẹ).",
+      "examples": [
+        {
+          "ja": "彼は普段おとなしいが、仕事のこととなると厳しい。",
+          "reading": "かれはふだんおとなしいが、しごとのこととなるときびしい。",
+          "vi": "Anh ấy thường hiền, nhưng đụng đến việc làm thì nghiêm.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "普段",
+              "reading": "ふだん"
+            },
+            {
+              "text": "おとなしいが、"
+            },
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "のこととなると"
+            },
+            {
+              "text": "厳",
+              "reading": "きび"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
+        },
+        {
+          "ja": "お金のこととなると慎重になる。",
+          "reading": "おかねのこととなるとしんちょうになる。",
+          "vi": "Cứ đụng đến tiền thì trở nên thận trọng.",
+          "ruby": [
+            {
+              "text": "お金",
+              "reading": "おかね"
+            },
+            {
+              "text": "のこととなると"
+            },
+            {
+              "text": "慎重",
+              "reading": "しんちょう"
+            },
+            {
+              "text": "になる。"
+            }
+          ]
+        },
+        {
+          "ja": "試験となると急に本気を出す。",
+          "reading": "しけんとなるときゅうにほんきをだす。",
+          "vi": "Cứ đến kỳ thi thì đột nhiên nghiêm túc.",
+          "ruby": [
+            {
+              "text": "試験",
+              "reading": "しけん"
+            },
+            {
+              "text": "となると"
+            },
+            {
+              "text": "急",
+              "reading": "きゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "本気",
+              "reading": "ほんき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "す。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 73,
+        "printedPage": 60,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-no-koto-to-naru-to-cu-nhac-toi-cu-noi-den-la-lai-neu-ma-cu-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l13-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Đụng đến toán thì cậu ấy giỏi.",
+          "answers": [
+            "数学のこととなると彼は得意だ。"
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Đụng đến sức khỏe thì lo ngay.",
+          "answers": [
+            "健康のこととなると心配になる。"
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Đụng đến thời hạn thì căng thẳng.",
+          "answers": [
+            "締め切りとなると緊張する。"
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đụng đến con thì bà ấy mềm mỏng.",
+          "answers": [
+            "子供のこととなると彼女は優しい。"
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đụng đến tiền nhà thì tính toán kỹ.",
+          "answers": [
+            "家賃のこととなると慎重に考える。"
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Đụng đến thuyết trình thì run.",
+          "answers": [
+            "発表となると声が震える。"
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Đụng đến ăn thì anh ấy kén.",
+          "answers": [
+            "食事のこととなると彼は厳しい。"
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Đụng đến quy tắc thì không nhượng.",
+          "answers": [
+            "規則となると妥協しない。"
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Đụng đến tiếng Anh thì tự tin.",
+          "answers": [
+            "英語のこととなると自信がある。"
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Đụng đến đêm khuya thì mệt.",
+          "answers": [
+            "深夜となると集中力が落ちる。"
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "趣味のこととなると話が長い。",
+          "answers": [
+            "Đụng đến sở thích thì nói dài."
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "安全のこととなると妥協できない。",
+          "answers": [
+            "Đụng đến an toàn thì không thỏa hiệp."
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "試合となると急に強くなる。",
+          "answers": [
+            "Cứ đến trận đấu thì đột nhiên mạnh."
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "将来のこととなると悩みが増える。",
+          "answers": [
+            "Đụng đến tương lai thì lo nhiều hơn."
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "料理のこととなると時間がかかる。",
+          "answers": [
+            "Đụng đến nấu ăn thì tốn thời gian."
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "契約となると書類が増える。",
+          "answers": [
+            "Cứ đến hợp đồng thì giấy tờ tăng."
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "家族のこととなると優先する。",
+          "answers": [
+            "Đụng đến gia đình thì ưu tiên."
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "品質のこととなると妥協しない。",
+          "answers": [
+            "Đụng đến chất lượng thì không nhượng."
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "通勤となると電車が混む。",
+          "answers": [
+            "Cứ đến giờ đi làm thì tàu đông."
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "責任のこととなると態度が変わる。",
+          "answers": [
+            "Đụng đến trách nhiệm thì thái độ đổi."
+          ],
+          "hint": "N ＋ （のこと）となると",
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-order-01",
+          "mode": "order",
+          "prompt": "Đụng việc làm thì nghiêm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "仕事の"
+            },
+            {
+              "id": "1",
+              "text": "こととなると"
+            },
+            {
+              "id": "2",
+              "text": "態度が"
+            },
+            {
+              "id": "3",
+              "text": "厳しい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ （のこと）となると",
+          "answers": [
+            "仕事のこととなると態度が厳しい。"
+          ],
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-order-02",
+          "mode": "order",
+          "prompt": "Đụng tiền thì thận trọng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "お金の"
+            },
+            {
+              "id": "1",
+              "text": "こととなると"
+            },
+            {
+              "id": "2",
+              "text": "慎重に"
+            },
+            {
+              "id": "3",
+              "text": "なる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ （のこと）となると",
+          "answers": [
+            "お金のこととなると慎重になるのだ。"
+          ],
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-order-03",
+          "mode": "order",
+          "prompt": "Đến thi thì nghiêm túc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "試験と"
+            },
+            {
+              "id": "1",
+              "text": "なると"
+            },
+            {
+              "id": "2",
+              "text": "本気を"
+            },
+            {
+              "id": "3",
+              "text": "出す。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ （のこと）となると",
+          "answers": [
+            "試験となると本気を出す。"
+          ],
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-order-04",
+          "mode": "order",
+          "prompt": "Đụng toán thì giỏi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "数学の"
+            },
+            {
+              "id": "1",
+              "text": "こととなると"
+            },
+            {
+              "id": "2",
+              "text": "彼は"
+            },
+            {
+              "id": "3",
+              "text": "得意だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ （のこと）となると",
+          "answers": [
+            "数学のこととなると彼は得意だ。"
+          ],
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-order-05",
+          "mode": "order",
+          "prompt": "Đụng sức khỏe thì lo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "健康の"
+            },
+            {
+              "id": "1",
+              "text": "こととなると"
+            },
+            {
+              "id": "2",
+              "text": "心配が"
+            },
+            {
+              "id": "3",
+              "text": "増える。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ （のこと）となると",
+          "answers": [
+            "健康のこととなると心配が増える。"
+          ],
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-order-06",
+          "mode": "order",
+          "prompt": "Đến thuyết trình thì run.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "発表と"
+            },
+            {
+              "id": "1",
+              "text": "なると"
+            },
+            {
+              "id": "2",
+              "text": "声が"
+            },
+            {
+              "id": "3",
+              "text": "震える。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ （のこと）となると",
+          "answers": [
+            "発表となると声が震える。"
+          ],
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-order-07",
+          "mode": "order",
+          "prompt": "Đụng sở thích thì nói dài.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "趣味の"
+            },
+            {
+              "id": "1",
+              "text": "こととなると"
+            },
+            {
+              "id": "2",
+              "text": "話が"
+            },
+            {
+              "id": "3",
+              "text": "長い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ （のこと）となると",
+          "answers": [
+            "趣味のこととなると話が長い。"
+          ],
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-order-08",
+          "mode": "order",
+          "prompt": "Đụng an toàn không thỏa hiệp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "安全の"
+            },
+            {
+              "id": "1",
+              "text": "こととなると"
+            },
+            {
+              "id": "2",
+              "text": "妥協は"
+            },
+            {
+              "id": "3",
+              "text": "できない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ （のこと）となると",
+          "answers": [
+            "安全のこととなると妥協はできない。"
+          ],
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-order-09",
+          "mode": "order",
+          "prompt": "Đụng gia đình thì ưu tiên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "家族の"
+            },
+            {
+              "id": "1",
+              "text": "こととなると"
+            },
+            {
+              "id": "2",
+              "text": "最優先に"
+            },
+            {
+              "id": "3",
+              "text": "する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ （のこと）となると",
+          "answers": [
+            "家族のこととなると最優先にする。"
+          ],
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g04-order-10",
+          "mode": "order",
+          "prompt": "Đụng trách nhiệm thái độ đổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "責任の"
+            },
+            {
+              "id": "1",
+              "text": "こととなると"
+            },
+            {
+              "id": "2",
+              "text": "態度が"
+            },
+            {
+              "id": "3",
+              "text": "変わる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ （のこと）となると",
+          "answers": [
+            "責任のこととなると態度が変わる。"
+          ],
+          "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l13-g05",
+      "title": "〜といったら",
+      "meaning": "Nói đến… thì… (nhấn mạnh / cảm thán mức độ)",
+      "variants": [
+        "といったら"
+      ],
+      "structures": [
+        "N／普通形 ＋ といったら"
+      ],
+      "explanation": "Nhắc chủ đề rồi nhấn mức độ mạnh, thường kèm cảm thán: đẹp quá, tệ quá, không tả nổi…",
+      "usage": "Khen/chê mạnh: nói đến A thì thật sự…; cũng dùng liên tưởng như といえば.",
+      "cautions": [
+        "partial-match: chia sẻ bài TNĐG với といえば — vẫn viết đủ nội dung riêng.",
+        "Hay đi với ない／すごい／ひどい…; tránh dùng như định nghĩa とは."
+      ],
+      "contrast": "といったら ≈ nhấn cảm xúc khi nhắc chủ đề. Gần といえば; mạnh hơn というと.",
+      "examples": [
+        {
+          "ja": "この景色の美しさといったらない。",
+          "reading": "このけしきのうつくしさといったらない。",
+          "vi": "Đẹp của cảnh này thì không tả nổi.",
+          "ruby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "景色",
+              "reading": "けしき"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "美",
+              "reading": "うつく"
+            },
+            {
+              "text": "しさといったらない。"
+            }
+          ]
+        },
+        {
+          "ja": "昨日の混雑といったらひどかった。",
+          "reading": "きのうのこんざつといったらひどかった。",
+          "vi": "Đông đúc hôm qua thì thật kinh khủng.",
+          "ruby": [
+            {
+              "text": "昨日",
+              "reading": "きのう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "混雑",
+              "reading": "こんざつ"
+            },
+            {
+              "text": "といったら"
+            },
+            {
+              "text": "ひどかった。"
+            }
+          ]
+        },
+        {
+          "ja": "彼女の努力といったら尊敬するしかない。",
+          "reading": "かのじょのどりょくといったらそんけいするしかない。",
+          "vi": "Nỗ lực của cô ấy thì chỉ còn biết kính phục.",
+          "ruby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "といったら"
+            },
+            {
+              "text": "尊敬",
+              "reading": "そんけい"
+            },
+            {
+              "text": "するしかない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 73,
+        "printedPage": 60,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-toieba-toittara-noi-den-thi-nhac-moi-nho/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l13-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nóng hôm nay thì không tả nổi.",
+          "answers": [
+            "今日の暑さといったらない。"
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Vui của buổi tiệc thì tuyệt.",
+          "answers": [
+            "パーティーの楽しさといったら最高だ。"
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Ồn của công trường thì kinh.",
+          "answers": [
+            "工事の騒音といったらひどい。"
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Ngọt của bánh thì bất ngờ.",
+          "answers": [
+            "このケーキの甘さといったら驚くほどだ。"
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Lạnh đêm qua thì khủng khiếp.",
+          "answers": [
+            "昨夜の寒さといったらひどかった。"
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Đông của ga thì không tin nổi.",
+          "answers": [
+            "駅の混雑といったら信じられない。"
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Khó của bài thi thì quá sức.",
+          "answers": [
+            "試験の難しさといったら大変だ。"
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Đẹp của hoa anh đào thì tuyệt.",
+          "answers": [
+            "桜の美しさといったら素晴らしい。"
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Chậm của mạng thì bực.",
+          "answers": [
+            "通信の遅さといったらいらいらする。"
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Tốt của dịch vụ thì đáng khen.",
+          "answers": [
+            "接客の良さといったら感心する。"
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼の優しさといったら有名だよ。",
+          "answers": [
+            "Sự tử tế của anh ấy thì nổi tiếng."
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "この店の安さといったら驚きだ。",
+          "answers": [
+            "Rẻ của quán này thì đáng kinh ngạc."
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "渋滞のひどさといったら困る。",
+          "answers": [
+            "Tắc đường tệ thế thì khổ."
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "娘の成長といったら早いものだ。",
+          "answers": [
+            "Con gái lớn nhanh thì thật nhanh."
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "夜景のきれいさといったらない。",
+          "answers": [
+            "Đẹp của cảnh đêm thì không tả nổi."
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "彼の遅刻といったら日常茶飯事だ。",
+          "answers": [
+            "Đi muộn của anh ấy thì chuyện thường ngày."
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "この香りの強さといったら独特だ。",
+          "answers": [
+            "Mạnh của mùi này thì độc đáo."
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "夏休みの短さといったら残念だ。",
+          "answers": [
+            "Ngắn của nghỉ hè thì đáng tiếc."
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "彼の記憶力といったらすごい。",
+          "answers": [
+            "Trí nhớ của anh ấy thì tuyệt."
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "朝の混雑といったら避けたい。",
+          "answers": [
+            "Đông buổi sáng thì muốn tránh."
+          ],
+          "hint": "N ＋ といったら",
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-order-01",
+          "mode": "order",
+          "prompt": "Cảnh đẹp không tả nổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "景色の"
+            },
+            {
+              "id": "1",
+              "text": "美しさと"
+            },
+            {
+              "id": "2",
+              "text": "いったら"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "N ＋ といったら",
+          "answers": [
+            "景色の美しさといったらない。"
+          ],
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-order-02",
+          "mode": "order",
+          "prompt": "Đông hôm qua thật tệ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "昨日の"
+            },
+            {
+              "id": "1",
+              "text": "混雑と"
+            },
+            {
+              "id": "2",
+              "text": "いったら"
+            },
+            {
+              "id": "3",
+              "text": "ひどい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "N ＋ といったら",
+          "answers": [
+            "昨日の混雑といったらひどい。"
+          ],
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-order-03",
+          "mode": "order",
+          "prompt": "Nỗ lực cô đáng kính.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力と"
+            },
+            {
+              "id": "1",
+              "text": "いったら"
+            },
+            {
+              "id": "2",
+              "text": "尊敬する"
+            },
+            {
+              "id": "3",
+              "text": "しかない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といったら",
+          "answers": [
+            "努力といったら尊敬するしかない。"
+          ],
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-order-04",
+          "mode": "order",
+          "prompt": "Nóng hôm nay không tả.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今日の"
+            },
+            {
+              "id": "1",
+              "text": "暑さと"
+            },
+            {
+              "id": "2",
+              "text": "いったら"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "N ＋ といったら",
+          "answers": [
+            "今日の暑さといったらない。"
+          ],
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-order-05",
+          "mode": "order",
+          "prompt": "Ồn công trường kinh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "工事の"
+            },
+            {
+              "id": "1",
+              "text": "騒音と"
+            },
+            {
+              "id": "2",
+              "text": "いったら"
+            },
+            {
+              "id": "3",
+              "text": "ひどい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "N ＋ といったら",
+          "answers": [
+            "工事の騒音といったらひどい。"
+          ],
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-order-06",
+          "mode": "order",
+          "prompt": "Ga đông không tin nổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "駅の"
+            },
+            {
+              "id": "1",
+              "text": "混雑と"
+            },
+            {
+              "id": "2",
+              "text": "いったら"
+            },
+            {
+              "id": "3",
+              "text": "信じられない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "N ＋ といったら",
+          "answers": [
+            "駅の混雑といったら信じられない。"
+          ],
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-order-07",
+          "mode": "order",
+          "prompt": "Hoa anh đào đẹp tuyệt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "桜の"
+            },
+            {
+              "id": "1",
+              "text": "美しさと"
+            },
+            {
+              "id": "2",
+              "text": "いったら"
+            },
+            {
+              "id": "3",
+              "text": "素晴らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "N ＋ といったら",
+          "answers": [
+            "桜の美しさといったら素晴らしい。"
+          ],
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-order-08",
+          "mode": "order",
+          "prompt": "Mạng chậm thì bực.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "通信の"
+            },
+            {
+              "id": "1",
+              "text": "遅さと"
+            },
+            {
+              "id": "2",
+              "text": "いったら"
+            },
+            {
+              "id": "3",
+              "text": "いらいらする。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "N ＋ といったら",
+          "answers": [
+            "通信の遅さといったらいらいらする。"
+          ],
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-order-09",
+          "mode": "order",
+          "prompt": "Quán rẻ đáng ngạc nhiên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "店の"
+            },
+            {
+              "id": "1",
+              "text": "安さと"
+            },
+            {
+              "id": "2",
+              "text": "いったら"
+            },
+            {
+              "id": "3",
+              "text": "驚きだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "N ＋ といったら",
+          "answers": [
+            "店の安さといったら驚きだ。"
+          ],
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l13-g05-order-10",
+          "mode": "order",
+          "prompt": "Trí nhớ anh thì siêu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "記憶力と"
+            },
+            {
+              "id": "1",
+              "text": "いったら"
+            },
+            {
+              "id": "2",
+              "text": "本当に"
+            },
+            {
+              "id": "3",
+              "text": "すごい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "N ＋ といったら",
+          "answers": [
+            "記憶力といったら本当にすごい。"
+          ],
+          "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+        }
+      ]
+    }
+  ]
+}

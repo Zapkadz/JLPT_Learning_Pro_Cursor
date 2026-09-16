@@ -123,7 +123,8 @@ test("N2 canonical inventory has 141 unique group IDs and matches manifest", () 
       g.matchStatus === "full-match" || g.matchStatus === "partial-match",
       g.groupId,
     );
-    assert.equal(g.contentStatus, "not-imported", g.groupId);
+    assert.equal(g.contentStatus, "imported", g.groupId);
+    assert.equal(g.reviewStatus, "agent_reviewed", g.groupId);
   }
   const mappedL16to20 = inventory.groups.filter(
     (g) => g.lessonNumber >= 16 && g.lessonNumber <= 20,
@@ -167,21 +168,25 @@ test("N2 canonical inventory has 141 unique group IDs and matches manifest", () 
 });
 
 test("N2 multi-lesson loader loads published content only", () => {
-  assert.equal(lessonsById.size, 10);
+  assert.equal(lessonsById.size, 15);
   assert.equal(getLesson("lesson-01")?.id, "lesson-01");
   assert.equal(getLesson("lesson-02")?.id, "lesson-02");
   assert.equal(getLesson("lesson-10")?.id, "lesson-10");
-  assert.equal(getLesson("lesson-11"), undefined);
+  assert.equal(getLesson("lesson-15")?.id, "lesson-15");
+  assert.equal(getLesson("lesson-16"), undefined);
   assert.equal(isLessonPublished("lesson-01"), true);
   assert.equal(isLessonPublished("lesson-02"), true);
   assert.equal(isLessonPublished("lesson-10"), true);
-  assert.equal(isLessonPublished("lesson-11"), false);
-  assert.equal(allPatterns().length, 50);
+  assert.equal(isLessonPublished("lesson-15"), true);
+  assert.equal(isLessonPublished("lesson-16"), false);
+  assert.equal(allPatterns().length, 77);
   assert.ok(allPatterns().some((p) => p.id === "sai"));
   assert.ok(allPatterns().some((p) => p.id === "l02-g01"));
   assert.ok(allPatterns().some((p) => p.id === "l05-g04"));
   assert.ok(allPatterns().some((p) => p.id === "l06-g01"));
   assert.ok(allPatterns().some((p) => p.id === "l10-g04"));
+  assert.ok(allPatterns().some((p) => p.id === "l11-g01"));
+  assert.ok(allPatterns().some((p) => p.id === "l15-g06"));
   for (const entry of manifest.lessons) {
     if (entry.published) assert.ok(getLesson(entry.id), entry.id);
     else assert.equal(getLesson(entry.id), undefined, entry.id);
@@ -326,7 +331,7 @@ test("N2 Lesson 1 golden template validators (examples, 10/10/10, origin, hints)
   assert.notEqual(normalizeTranslation("có"), normalizeTranslation("co"));
 });
 
-test("N2 Lessons 2–10 published groups meet golden DoD (10/10/10, origin, examples)", () => {
+test("N2 Lessons 2–15 published groups meet golden DoD (10/10/10, origin, examples)", () => {
   const batch = [
     "lesson-02",
     "lesson-03",
@@ -337,12 +342,17 @@ test("N2 Lessons 2–10 published groups meet golden DoD (10/10/10, origin, exam
     "lesson-08",
     "lesson-09",
     "lesson-10",
+    "lesson-11",
+    "lesson-12",
+    "lesson-13",
+    "lesson-14",
+    "lesson-15",
   ].map((id) => getLesson(id)!);
-  assert.equal(batch.length, 9);
+  assert.equal(batch.length, 14);
   const all = batch.flatMap((l) => l.patterns.flatMap((p) => p.exercises));
-  assert.equal(all.length, 1350);
-  assert.equal(new Set(all.map((q) => q.id)).size, 1350);
-  assert.equal(new Set(all.map((q) => q.prompt)).size, 1350);
+  assert.equal(all.length, 2160);
+  assert.equal(new Set(all.map((q) => q.id)).size, 2160);
+  assert.equal(new Set(all.map((q) => q.prompt)).size, 2160);
   for (const l of batch) {
     assert.equal(l.revision, 1, l.id);
     for (const p of l.patterns) {
@@ -430,8 +440,8 @@ test("grammar ownership, resume, conflict, reveal, completion, XP and FSRS idemp
   assert.equal((await request("/grammar/courses/n2")).status, 401);
   const course = await call("/grammar/courses/n2");
   assert.equal(course.status, 200);
-  assert.equal(course.data.publishedGroups, 50);
-  assert.equal(course.data.publishedExercises, 1500);
+  assert.equal(course.data.publishedGroups, 77);
+  assert.equal(course.data.publishedExercises, 2310);
   assert.equal(course.data.targetGroups, 141);
   assert.equal(course.data.progressDenominator, 141);
   assert.equal(course.data.progressDenominator, course.data.targetGroups);
@@ -453,7 +463,7 @@ test("grammar ownership, resume, conflict, reveal, completion, XP and FSRS idemp
     new Date().toISOString(),
   );
   assert.equal((await call("/grammar/courses/n2")).data.read, 1);
-  const unpublished = await call("/grammar/lessons/lesson-11");
+  const unpublished = await call("/grammar/lessons/lesson-16");
   assert.equal(unpublished.status, 404);
   assert.match(unpublished.data.error, /biên soạn/);
   const unknownLesson = await call("/grammar/lessons/lesson-99");
@@ -656,7 +666,7 @@ test("grammar migration, restart and backup restore preserve user data and conte
           .prepare("SELECT count(*) n FROM grammar_content_revisions")
           .get() as { n: number }
       ).n,
-      50,
+      77,
     );
     assert.equal(db.pragma("integrity_check", { simple: true }), "ok");
     const restoredPath = join(dir, "restored.sqlite");
@@ -678,7 +688,7 @@ test("grammar migration, restart and backup restore preserve user data and conte
           .prepare("SELECT count(*) n FROM grammar_content_revisions")
           .get() as { n: number }
       ).n,
-      50,
+      77,
     );
     restored.close();
   } finally {

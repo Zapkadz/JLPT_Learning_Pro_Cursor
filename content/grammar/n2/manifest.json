@@ -79,35 +79,35 @@
       "number": 11,
       "title": "Bất kể · Bỏ qua",
       "groupCount": 5,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-12",
       "number": 12,
       "title": "Phủ định mạnh · Phủ định một phần",
       "groupCount": 5,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-13",
       "number": 13,
       "title": "Nêu chủ đề",
       "groupCount": 5,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-14",
       "number": 14,
       "title": "Nhượng bộ · Đối lập",
       "groupCount": 6,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-15",
       "number": 15,
       "title": "Giả định · Dù cho",
       "groupCount": 6,
-      "published": false
+      "published": true
     },
     {
       "id": "lesson-16",

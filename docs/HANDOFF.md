@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-16 (N2-L06-BATCH authored on `feat/n2-l06-batch`)
+2026-09-16 (N2-L11-BATCH PR #10)
 
 ## Project
 
@@ -11,37 +11,37 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/n2-l06-batch` (uncommitted) — N2-L06-BATCH Lessons 6–10 content.
+`feat/n2-l11-batch` @ `7cefe8f` — PR #10 open.
 
 ## Latest Relevant Commit
 
-`feat/n2-l06-batch` @ `4e312c1` — Lessons 6–10.  
-PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/9  
-`main` still at `962a4d6` until merge.
+`feat/n2-l11-batch` @ `7cefe8f` — Lessons 11–15.  
+PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/10  
+`main` still at `63cc9c8` until merge.
 
 ## Current Objective
 
-**N2-L06-BATCH** — PR #9 open. After merge → **N2-L11-BATCH**.
+**N2-L11-BATCH** — PR #10 open. After merge → **N2-L16-BATCH** (needs approval).
 
 ## Current Phase
 
-**Phase 1+** — Lessons 1–10 on feature branch / PR. L11–26 unpublished.
+**Phase 1+** — Lessons 1–15 on feature branch / PR. L16–26 unpublished.
 
 ## Current Task
 
-Await merge of PR #9; then start **N2-L11-BATCH**.
+Await merge of PR #10; then start **N2-L16-BATCH** only with approval.
 
 ## Last Completed Work
 
-- Authored Lessons 6–10: 24 groups × 30 = **720** exercises (+ 3 examples/group).  
-- Commit `4e312c1`; PR #9 opened.  
-- Tests: 10 lessons / 50 patterns / 1500 exercises; `npm test` 15/15; build OK.
+- Authored Lessons 11–15: 27 groups × 30 = **810** exercises (+ 3 examples/group).  
+- Commit `7cefe8f`; PR #10 opened.  
+- Tests: 15 lessons / 77 patterns / 2310 exercises; `npm test` 15/15.
 
 ## Current State
 
-- Published lessons: **10** (L1–L10) on PR branch.  
-- Published groups: **50** / target 141.  
-- Published exercises: **1500** / target 4230.  
+- Published lessons: **15** (L1–L15) on PR branch.  
+- Published groups: **77** / target 141.  
+- Published exercises: **2310** / target 4230.  
 - Furigana JA→VI practice policy still open (**N2-L01-FURI-001**).
 
 ## Verification State
@@ -49,26 +49,25 @@ Await merge of PR #9; then start **N2-L11-BATCH**.
 | Check | State |
 |-------|--------|
 | `npm test` | **15/15 pass** |
-| `npm run build` | **OK** |
-| Commit | `4e312c1` |
-| PR | **#9 open** |
+| Commit | `7cefe8f` |
+| PR | **#10 open** |
 
 ## Known Blockers
 
 - Furigana JA→VI (**N2-L01-FURI-001**) needs product decision.  
-- L6–10 content still `agent_reviewed` only (not teacher-verified).
+- L11–15 content still `agent_reviewed` only (not teacher-verified).
 
 ## Exact Next Action
 
-1. Merge PR #9 when ready.  
-2. Start **N2-L11-BATCH** (Lessons 11–15) — user-approved.  
+1. Merge PR #10 when ready.  
+2. Start **N2-L16-BATCH** (Lessons 16–20) only with user approval.  
 3. Do **not** import Lessons 16–26 until approved. FURI-001 still needs product decision.
 
 ## Files To Read Before Continuing
 
 1. `docs/PLAN.md`  
-2. `docs/PROGRESS.md` (N2-L06-BATCH entry)  
-3. `content/grammar/n2/inventory.json` (L11+ still not-imported)  
+2. `docs/PROGRESS.md` (N2-L11-BATCH entry)  
+3. `content/grammar/n2/inventory.json` (L16+ still not-imported)  
 4. Furigana sections if starting FURI
 
 ## Safety Notes

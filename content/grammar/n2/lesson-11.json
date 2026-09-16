@@ -1,0 +1,3684 @@
+{
+  "id": "lesson-11",
+  "titleJa": "無関係・不問",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 11. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L11-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập. Nguồn TNĐG gắn theo inventory.",
+  "patterns": [
+    {
+      "id": "l11-g01",
+      "title": "〜を問わず",
+      "meaning": "Bất kể… / không phân biệt…",
+      "variants": [
+        "を問わず"
+      ],
+      "structures": [
+        "N ＋ を問わず"
+      ],
+      "explanation": "Không phân biệt loại/đối tượng; điều kiện áp dụng cho mọi trường hợp nêu ra.",
+      "usage": "Thông báo, quy định: bất kể tuổi tác, ngày đêm, nội ngoại…",
+      "cautions": [
+        "Thường dùng với cặp đối lập hoặc phạm vi rộng (年齢・性別, 昼夜…).",
+        "Trang trọng hơn でも／でも; không dùng tùy tiện trong hội thoại thân mật."
+      ],
+      "contrast": "を問わず ≈ bất kể. Gần にかかわらず; khác はともかく (tạm gác A).",
+      "examples": [
+        {
+          "ja": "年齢を問わず参加できる。",
+          "reading": "ねんれいをとわずさんかできる。",
+          "vi": "Bất kể tuổi tác đều có thể tham gia.",
+          "ruby": [
+            {
+              "text": "年齢",
+              "reading": "ねんれい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "参加",
+              "reading": "さんか"
+            },
+            {
+              "text": "できる。"
+            }
+          ]
+        },
+        {
+          "ja": "昼夜を問わず電話がかかってくる。",
+          "reading": "ちゅうやをとわずでんわがかかってくる。",
+          "vi": "Điện thoại gọi đến bất kể ngày đêm.",
+          "ruby": [
+            {
+              "text": "昼夜",
+              "reading": "ちゅうや"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "電話",
+              "reading": "でんわ"
+            },
+            {
+              "text": "がかかってくる。"
+            }
+          ]
+        },
+        {
+          "ja": "経験を問わず募集している。",
+          "reading": "けいけんをとわずぼしゅうしている。",
+          "vi": "Đang tuyển bất kể kinh nghiệm.",
+          "ruby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "募集",
+              "reading": "ぼしゅう"
+            },
+            {
+              "text": "している。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 65,
+        "printedPage": 52,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-wo-towazu-khong-ke-bat-ke-khong-quan-trong-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l11-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Bất kể giới tính đều được ứng tuyển.",
+          "answers": [
+            "性別を問わず応募できる。"
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Bất kể quốc tịch đều được vào cửa.",
+          "answers": [
+            "国籍を問わず入場できる。"
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Bất kể ngày thường hay cuối tuần cửa hàng mở.",
+          "answers": [
+            "平日・休日を問わず店が開いている。"
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Bất kể nghề nghiệp đều được tham dự.",
+          "answers": [
+            "職業を問わず出席できる。"
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Bất kể thời tiết trận đấu vẫn diễn ra.",
+          "answers": [
+            "天候を問わず試合は行われる。"
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Bất kể trình độ đều được học thử.",
+          "answers": [
+            "レベルを問わず体験できる。"
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Bất kể mùa vụ đều có hàng.",
+          "answers": [
+            "季節を問わず商品がある。"
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Bất kể quy mô công ty đều nhận hỗ trợ.",
+          "answers": [
+            "規模を問わず支援を受けられる。"
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Bất kể phương tiện đều phải trả phí.",
+          "answers": [
+            "交通手段を問わず料金がかかる。"
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Bất kể lý do đều phải nộp báo cáo.",
+          "answers": [
+            "理由を問わず報告書が必要だ。"
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "学歴を問わず挑戦してほしい。",
+          "answers": [
+            "Muốn mọi người thử sức bất kể học vấn."
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "場所を問わず連絡が取れる。",
+          "answers": [
+            "Liên lạc được bất kể nơi đâu."
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "分野を問わず専門家が集まった。",
+          "answers": [
+            "Chuyên gia tụ họp bất kể lĩnh vực."
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "時間を問わず相談に乗る。",
+          "answers": [
+            "Sẵn sàng tư vấn bất kể giờ giấc."
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "立場を問わず意見を言うべきだ。",
+          "answers": [
+            "Nên nêu ý kiến bất kể lập trường."
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "形式を問わず提出してよい。",
+          "answers": [
+            "Nộp được bất kể hình thức."
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "言語を問わず資料を用意した。",
+          "answers": [
+            "Đã chuẩn bị tài liệu bất kể ngôn ngữ."
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "距離を問わず配達する。",
+          "answers": [
+            "Giao hàng bất kể khoảng cách."
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "予算を問わず見積もりを出す。",
+          "answers": [
+            "Đưa báo giá bất kể ngân sách."
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "条件を問わず検討する。",
+          "answers": [
+            "Xem xét bất kể điều kiện."
+          ],
+          "hint": "〜を問わず",
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-order-01",
+          "mode": "order",
+          "prompt": "Bất kể tuổi đều tham gia được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "年齢を"
+            },
+            {
+              "id": "1",
+              "text": "問わず"
+            },
+            {
+              "id": "2",
+              "text": "参加が"
+            },
+            {
+              "id": "3",
+              "text": "可能だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜を問わず",
+          "answers": [
+            "年齢を問わず参加が可能だ。"
+          ],
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-order-02",
+          "mode": "order",
+          "prompt": "Gọi đến bất kể ngày đêm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "昼夜を"
+            },
+            {
+              "id": "1",
+              "text": "問わず"
+            },
+            {
+              "id": "2",
+              "text": "電話が"
+            },
+            {
+              "id": "3",
+              "text": "来る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜を問わず",
+          "answers": [
+            "昼夜を問わず電話が来る。"
+          ],
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-order-03",
+          "mode": "order",
+          "prompt": "Tuyển bất kể kinh nghiệm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "経験を"
+            },
+            {
+              "id": "1",
+              "text": "問わず"
+            },
+            {
+              "id": "2",
+              "text": "募集を"
+            },
+            {
+              "id": "3",
+              "text": "行う。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜を問わず",
+          "answers": [
+            "経験を問わず募集を行う。"
+          ],
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-order-04",
+          "mode": "order",
+          "prompt": "Ứng tuyển bất kể giới tính.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "性別を"
+            },
+            {
+              "id": "1",
+              "text": "問わず"
+            },
+            {
+              "id": "2",
+              "text": "応募が"
+            },
+            {
+              "id": "3",
+              "text": "できる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜を問わず",
+          "answers": [
+            "性別を問わず応募ができる。"
+          ],
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-order-05",
+          "mode": "order",
+          "prompt": "Vào cửa bất kể quốc tịch.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "国籍を"
+            },
+            {
+              "id": "1",
+              "text": "問わず"
+            },
+            {
+              "id": "2",
+              "text": "入場が"
+            },
+            {
+              "id": "3",
+              "text": "認められる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜を問わず",
+          "answers": [
+            "国籍を問わず入場が認められる。"
+          ],
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-order-06",
+          "mode": "order",
+          "prompt": "Mở cửa bất kể ngày thường hay nghỉ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "平日休日を"
+            },
+            {
+              "id": "1",
+              "text": "問わず"
+            },
+            {
+              "id": "2",
+              "text": "営業を"
+            },
+            {
+              "id": "3",
+              "text": "続ける。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜を問わず",
+          "answers": [
+            "平日休日を問わず営業を続ける。"
+          ],
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-order-07",
+          "mode": "order",
+          "prompt": "Thi đấu bất kể thời tiết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "天候を"
+            },
+            {
+              "id": "1",
+              "text": "問わず"
+            },
+            {
+              "id": "2",
+              "text": "試合が"
+            },
+            {
+              "id": "3",
+              "text": "実施される。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜を問わず",
+          "answers": [
+            "天候を問わず試合が実施される。"
+          ],
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-order-08",
+          "mode": "order",
+          "prompt": "Học thử bất kể trình độ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "レベルを"
+            },
+            {
+              "id": "1",
+              "text": "問わず"
+            },
+            {
+              "id": "2",
+              "text": "体験が"
+            },
+            {
+              "id": "3",
+              "text": "できる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜を問わず",
+          "answers": [
+            "レベルを問わず体験ができる。"
+          ],
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-order-09",
+          "mode": "order",
+          "prompt": "Thử sức bất kể học vấn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "学歴を"
+            },
+            {
+              "id": "1",
+              "text": "問わず"
+            },
+            {
+              "id": "2",
+              "text": "挑戦して"
+            },
+            {
+              "id": "3",
+              "text": "ほしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜を問わず",
+          "answers": [
+            "学歴を問わず挑戦してほしい。"
+          ],
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g01-order-10",
+          "mode": "order",
+          "prompt": "Tư vấn bất kể giờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "時間を"
+            },
+            {
+              "id": "1",
+              "text": "問わず"
+            },
+            {
+              "id": "2",
+              "text": "相談に"
+            },
+            {
+              "id": "3",
+              "text": "乗る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜を問わず",
+          "answers": [
+            "時間を問わず相談に乗る。"
+          ],
+          "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l11-g02",
+      "title": "〜にかかわりなく・〜にかかわらず",
+      "meaning": "Không liên quan đến… / bất chấp…",
+      "variants": [
+        "にかかわりなく",
+        "にかかわらず"
+      ],
+      "structures": [
+        "N／Vる・ない／いA／なA語幹 ＋ にかかわりなく",
+        "N／Vる・ない／いA／なA語幹 ＋ にかかわらず"
+      ],
+      "explanation": "Kết quả/hành động không bị ảnh hưởng bởi điều kiện nêu trước; bất chấp A vẫn B.",
+      "usage": "Quy định, lập luận: dù mưa hay nắng, dù đồng ý hay không…",
+      "cautions": [
+        "にかかわらず phổ biến hơn trong văn viết; にかかわりなく cùng nghĩa.",
+        "Sau danh từ đôi khi có の (天候のいかんにかかわらず)."
+      ],
+      "contrast": "にかかわらず ≈ bất chấp. Gần を問わず; khác もかまわず (không quan tâm đến…).",
+      "examples": [
+        {
+          "ja": "天候にかかわらず出発する。",
+          "reading": "てんこうにかかわらずしゅっぱつする。",
+          "vi": "Dù thời tiết thế nào cũng khởi hành.",
+          "ruby": [
+            {
+              "text": "天候",
+              "reading": "てんこう"
+            },
+            {
+              "text": "にかかわらず"
+            },
+            {
+              "text": "出発",
+              "reading": "しゅっぱつ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
+        },
+        {
+          "ja": "費用にかかわりなく必要な調査をする。",
+          "reading": "ひようにかかわりなくひつようなちょうさをする。",
+          "vi": "Bất chấp chi phí vẫn làm khảo sát cần thiết.",
+          "ruby": [
+            {
+              "text": "費用",
+              "reading": "ひよう"
+            },
+            {
+              "text": "にかかわりなく"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "調査",
+              "reading": "ちょうさ"
+            },
+            {
+              "text": "をする。"
+            }
+          ]
+        },
+        {
+          "ja": "賛成するしないにかかわらず決める。",
+          "reading": "さんせいするしないにかかわらずきめる。",
+          "vi": "Dù tán thành hay không vẫn quyết định.",
+          "ruby": [
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "するしない"
+            },
+            {
+              "text": "にかかわらず"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "める。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 65,
+        "printedPage": 52,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-kakawarazu-bat-ke-khong-phan-biet-cho-du-hay-khong-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l11-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Bất chấp tuổi vẫn được dự thi.",
+          "answers": [
+            "年齢にかかわらず受験できる。"
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Bất chấp kết quả vẫn tiếp tục luyện.",
+          "answers": [
+            "結果にかかわりなく練習を続ける。"
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Dù mưa hay nắng sự kiện vẫn tổ chức.",
+          "answers": [
+            "雨天晴天にかかわらず行事を行う。"
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Bất chấp ý kiến vẫn tiến hành.",
+          "answers": [
+            "意見にかかわらず進める。"
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Dù có hay không có kinh nghiệm đều được.",
+          "answers": [
+            "経験の有無にかかわらず応募できる。"
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Bất chấp khoảng cách vẫn giao hàng.",
+          "answers": [
+            "距離にかかわりなく配送する。"
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Dù đồng ý hay phản đối phải tuân thủ.",
+          "answers": [
+            "賛成反対にかかわらず規則に従う。"
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Bất chấp tình trạng sức khỏe phải nghỉ.",
+          "answers": [
+            "体調にかかわらず休むべきだ。"
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Dù thành công hay thất bại hãy báo cáo.",
+          "answers": [
+            "成否にかかわらず報告せよ。"
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Bất chấp ngân sách vẫn ưu tiên an toàn.",
+          "answers": [
+            "予算にかかわりなく安全を優先する。"
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "成績にかかわらず努力は認められる。",
+          "answers": [
+            "Nỗ lực được công nhận bất chấp điểm số."
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "性別にかかわりなく平等に扱う。",
+          "answers": [
+            "Đối xử bình đẳng bất chấp giới tính."
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "来るか来ないかにかかわらず席を用意する。",
+          "answers": [
+            "Chuẩn bị chỗ dù đến hay không."
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "天候のいかんにかかわらず実施する。",
+          "answers": [
+            "Tổ chức bất chấp tình hình thời tiết."
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "好き嫌いにかかわらず野菜を食べなさい。",
+          "answers": [
+            "Hãy ăn rau bất chấp thích hay ghét."
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "国籍にかかわらず権利がある。",
+          "answers": [
+            "Có quyền bất chấp quốc tịch."
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "時間にかかわりなく対応する。",
+          "answers": [
+            "Ứng phó bất chấp thời gian."
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "勝敗にかかわらず握手する。",
+          "answers": [
+            "Bắt tay bất chấp thắng thua."
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "費用の多少にかかわらず申請できる。",
+          "answers": [
+            "Xin được bất chấp chi phí nhiều ít."
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "状況にかかわらず冷静でいろ。",
+          "answers": [
+            "Hãy bình tĩnh bất chấp tình huống."
+          ],
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-order-01",
+          "mode": "order",
+          "prompt": "Khởi hành bất chấp thời tiết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "天候に"
+            },
+            {
+              "id": "1",
+              "text": "かかわらず"
+            },
+            {
+              "id": "2",
+              "text": "出発を"
+            },
+            {
+              "id": "3",
+              "text": "決めた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "answers": [
+            "天候にかかわらず出発を決めた。"
+          ],
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-order-02",
+          "mode": "order",
+          "prompt": "Khảo sát bất chấp chi phí.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "費用に"
+            },
+            {
+              "id": "1",
+              "text": "かかわりなく"
+            },
+            {
+              "id": "2",
+              "text": "調査を"
+            },
+            {
+              "id": "3",
+              "text": "行う。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "answers": [
+            "費用にかかわりなく調査を行う。"
+          ],
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-order-03",
+          "mode": "order",
+          "prompt": "Quyết định dù tán thành hay không.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "賛否に"
+            },
+            {
+              "id": "1",
+              "text": "かかわらず"
+            },
+            {
+              "id": "2",
+              "text": "決定を"
+            },
+            {
+              "id": "3",
+              "text": "下す。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "answers": [
+            "賛否にかかわらず決定を下す。"
+          ],
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-order-04",
+          "mode": "order",
+          "prompt": "Dự thi bất chấp tuổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "年齢に"
+            },
+            {
+              "id": "1",
+              "text": "かかわらず"
+            },
+            {
+              "id": "2",
+              "text": "受験が"
+            },
+            {
+              "id": "3",
+              "text": "できる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "answers": [
+            "年齢にかかわらず受験ができる。"
+          ],
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-order-05",
+          "mode": "order",
+          "prompt": "Luyện tiếp bất chấp kết quả.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "結果に"
+            },
+            {
+              "id": "1",
+              "text": "かかわりなく"
+            },
+            {
+              "id": "2",
+              "text": "練習を"
+            },
+            {
+              "id": "3",
+              "text": "続ける。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "answers": [
+            "結果にかかわりなく練習を続ける。"
+          ],
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-order-06",
+          "mode": "order",
+          "prompt": "Tiến hành bất chấp ý kiến.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "意見に"
+            },
+            {
+              "id": "1",
+              "text": "かかわらず"
+            },
+            {
+              "id": "2",
+              "text": "作業を"
+            },
+            {
+              "id": "3",
+              "text": "進める。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "answers": [
+            "意見にかかわらず作業を進める。"
+          ],
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-order-07",
+          "mode": "order",
+          "prompt": "Giao hàng bất chấp khoảng cách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "距離に"
+            },
+            {
+              "id": "1",
+              "text": "かかわりなく"
+            },
+            {
+              "id": "2",
+              "text": "配送を"
+            },
+            {
+              "id": "3",
+              "text": "行う。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "answers": [
+            "距離にかかわりなく配送を行う。"
+          ],
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-order-08",
+          "mode": "order",
+          "prompt": "Báo cáo dù thành hay bại.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "成否に"
+            },
+            {
+              "id": "1",
+              "text": "かかわらず"
+            },
+            {
+              "id": "2",
+              "text": "報告が"
+            },
+            {
+              "id": "3",
+              "text": "必要だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "answers": [
+            "成否にかかわらず報告が必要だ。"
+          ],
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-order-09",
+          "mode": "order",
+          "prompt": "Đối xử bình đẳng bất chấp giới tính.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "性別に"
+            },
+            {
+              "id": "1",
+              "text": "かかわりなく"
+            },
+            {
+              "id": "2",
+              "text": "平等に"
+            },
+            {
+              "id": "3",
+              "text": "扱う。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "answers": [
+            "性別にかかわりなく平等に扱う。"
+          ],
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g02-order-10",
+          "mode": "order",
+          "prompt": "Bắt tay bất chấp thắng thua.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "勝敗に"
+            },
+            {
+              "id": "1",
+              "text": "かかわらず"
+            },
+            {
+              "id": "2",
+              "text": "握手を"
+            },
+            {
+              "id": "3",
+              "text": "する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜にかかわりなく・〜にかかわらず",
+          "answers": [
+            "勝敗にかかわらず握手をする。"
+          ],
+          "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l11-g03",
+      "title": "〜もかまわず",
+      "meaning": "Không quan tâm đến… / mặc kệ…",
+      "variants": [
+        "もかまわず"
+      ],
+      "structures": [
+        "N ＋ もかまわず",
+        "V／いA ＋ のもかまわず"
+      ],
+      "explanation": "Bỏ qua sự bất tiện/ý kiến xung quanh mà vẫn làm; nhấn mạnh thái độ không e ngại.",
+      "usage": "Miêu tả hành động bất chấp sự chú ý, mệt mỏi, mưa…",
+      "cautions": [
+        "Thường mang sắc thái chủ quan: mặc kệ A vẫn làm B.",
+        "Khác を問わず (phạm vi quy định); もかまわず thiên về hành vi cá nhân."
+      ],
+      "contrast": "もかまわず ≈ mặc kệ. Khác にかかわらず (điều kiện khách quan).",
+      "examples": [
+        {
+          "ja": "人目もかまわず泣いた。",
+          "reading": "ひとめもかまわずないた。",
+          "vi": "Khóc mặc kệ ánh mắt người quanh.",
+          "ruby": [
+            {
+              "text": "人目",
+              "reading": "ひとめ"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "泣",
+              "reading": "な"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
+        },
+        {
+          "ja": "雨もかまわず走り続けた。",
+          "reading": "あめもかまわずはしりつづけた。",
+          "vi": "Tiếp tục chạy mặc kệ mưa.",
+          "ruby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "走",
+              "reading": "はし"
+            },
+            {
+              "text": "り続けた。"
+            }
+          ]
+        },
+        {
+          "ja": "疲れているのもかまわず残業した。",
+          "reading": "つかれているのもかまわずざんぎょうした。",
+          "vi": "Làm thêm mặc dù đang mệt.",
+          "ruby": [
+            {
+              "text": "疲",
+              "reading": "つか"
+            },
+            {
+              "text": "れているのもかまわず"
+            },
+            {
+              "text": "残業",
+              "reading": "ざんぎょう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 65,
+        "printedPage": 52,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-mo-kamawazu-chang-quan-tam-den-bat-chap-mac-ke/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l11-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nói to mặc kệ xung quanh.",
+          "answers": [
+            "周囲もかまわず大声で話した。"
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Ngồi xuống mặc kệ bẩn.",
+          "answers": [
+            "汚れもかまわず座った。"
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Giúp đỡ mặc kệ bị chỉ trích.",
+          "answers": [
+            "批判もかまわず助けた。"
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đi tiếp mặc kệ đau chân.",
+          "answers": [
+            "足の痛みもかまわず歩いた。"
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Hát mặc kệ xấu hổ.",
+          "answers": [
+            "恥ずかしさもかまわず歌った。"
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Làm việc mặc kệ sốt.",
+          "answers": [
+            "熱もかまわず働いた。"
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Cười mặc kệ nghi thức.",
+          "answers": [
+            "形式もかまわず笑った。"
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Vào nhà mặc kệ giày bẩn.",
+          "answers": [
+            "靴の泥もかまわず入った。"
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Hỏi mặc kệ đang bận.",
+          "answers": [
+            "忙しさもかまわず質問した。"
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Gửi thư mặc kệ khuya.",
+          "answers": [
+            "夜更けもかまわずメールを送った。"
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "視線もかまわず抱きしめた。",
+          "answers": [
+            "Ôm chặt mặc kệ ánh nhìn."
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "危険もかまわず飛び込んだ。",
+          "answers": [
+            "Nhảy vào mặc kệ nguy hiểm."
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "迷惑もかまわず頼んだ。",
+          "answers": [
+            "Nhờ vả mặc kệ gây phiền."
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "服装もかまわず出席した。",
+          "answers": [
+            "Tham dự mặc kệ trang phục."
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "時間もかまわず議論した。",
+          "answers": [
+            "Thảo luận mặc kệ thời gian."
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "体調もかまわず練習した。",
+          "answers": [
+            "Luyện tập mặc kệ sức khỏe."
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "規則もかまわず行動した。",
+          "answers": [
+            "Hành động mặc kệ quy tắc."
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "騒音もかまわず眠った。",
+          "answers": [
+            "Ngủ được mặc kệ tiếng ồn."
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "反対もかまわず決断した。",
+          "answers": [
+            "Quyết định mặc kệ phản đối."
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "年齢もかまわず挑戦した。",
+          "answers": [
+            "Thử thách mặc kệ tuổi tác."
+          ],
+          "hint": "〜もかまわず",
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-order-01",
+          "mode": "order",
+          "prompt": "Khóc mặc kệ ánh mắt người.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "人目も"
+            },
+            {
+              "id": "1",
+              "text": "かまわず"
+            },
+            {
+              "id": "2",
+              "text": "涙を"
+            },
+            {
+              "id": "3",
+              "text": "流した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜もかまわず",
+          "answers": [
+            "人目もかまわず涙を流した。"
+          ],
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-order-02",
+          "mode": "order",
+          "prompt": "Chạy tiếp mặc kệ mưa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨も"
+            },
+            {
+              "id": "1",
+              "text": "かまわず"
+            },
+            {
+              "id": "2",
+              "text": "走行を"
+            },
+            {
+              "id": "3",
+              "text": "続けた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜もかまわず",
+          "answers": [
+            "雨もかまわず走行を続けた。"
+          ],
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-order-03",
+          "mode": "order",
+          "prompt": "Làm thêm mặc dù mệt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "疲れも"
+            },
+            {
+              "id": "1",
+              "text": "かまわず"
+            },
+            {
+              "id": "2",
+              "text": "残業を"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜もかまわず",
+          "answers": [
+            "疲れもかまわず残業をした。"
+          ],
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-order-04",
+          "mode": "order",
+          "prompt": "Nói to mặc kệ xung quanh (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "周囲も"
+            },
+            {
+              "id": "1",
+              "text": "かまわず"
+            },
+            {
+              "id": "2",
+              "text": "大声で"
+            },
+            {
+              "id": "3",
+              "text": "話した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜もかまわず",
+          "answers": [
+            "周囲もかまわず大声で話した。"
+          ],
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-order-05",
+          "mode": "order",
+          "prompt": "Ngồi mặc kệ bẩn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "汚れも"
+            },
+            {
+              "id": "1",
+              "text": "かまわず"
+            },
+            {
+              "id": "2",
+              "text": "地面に"
+            },
+            {
+              "id": "3",
+              "text": "座った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜もかまわず",
+          "answers": [
+            "汚れもかまわず地面に座った。"
+          ],
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-order-06",
+          "mode": "order",
+          "prompt": "Giúp mặc kệ chỉ trích.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "批判も"
+            },
+            {
+              "id": "1",
+              "text": "かまわず"
+            },
+            {
+              "id": "2",
+              "text": "援助を"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜もかまわず",
+          "answers": [
+            "批判もかまわず援助をした。"
+          ],
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-order-07",
+          "mode": "order",
+          "prompt": "Hát mặc kệ xấu hổ (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "恥ずかしさも"
+            },
+            {
+              "id": "1",
+              "text": "かまわず"
+            },
+            {
+              "id": "2",
+              "text": "歌声を"
+            },
+            {
+              "id": "3",
+              "text": "上げた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜もかまわず",
+          "answers": [
+            "恥ずかしさもかまわず歌声を上げた。"
+          ],
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-order-08",
+          "mode": "order",
+          "prompt": "Làm việc mặc kệ sốt (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "熱も"
+            },
+            {
+              "id": "1",
+              "text": "かまわず"
+            },
+            {
+              "id": "2",
+              "text": "仕事を"
+            },
+            {
+              "id": "3",
+              "text": "続けた。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜もかまわず",
+          "answers": [
+            "熱もかまわず仕事を続けた。"
+          ],
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-order-09",
+          "mode": "order",
+          "prompt": "Nhảy vào mặc kệ nguy hiểm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "危険も"
+            },
+            {
+              "id": "1",
+              "text": "かまわず"
+            },
+            {
+              "id": "2",
+              "text": "中へ"
+            },
+            {
+              "id": "3",
+              "text": "飛び込んだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜もかまわず",
+          "answers": [
+            "危険もかまわず中へ飛び込んだ。"
+          ],
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g03-order-10",
+          "mode": "order",
+          "prompt": "Quyết định mặc kệ phản đối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "反対も"
+            },
+            {
+              "id": "1",
+              "text": "かまわず"
+            },
+            {
+              "id": "2",
+              "text": "決断を"
+            },
+            {
+              "id": "3",
+              "text": "下した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜もかまわず",
+          "answers": [
+            "反対もかまわず決断を下した。"
+          ],
+          "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l11-g04",
+      "title": "〜はともかく（として）",
+      "meaning": "Tạm gác… sang một bên / … thì chưa nói",
+      "variants": [
+        "はともかく",
+        "はともかくとして"
+      ],
+      "structures": [
+        "N ＋ はともかく（として）"
+      ],
+      "explanation": "Đặt A sang một bên (không bàn/không ưu tiên) rồi nhấn mạnh B quan trọng hơn.",
+      "usage": "Đàm phán, đánh giá: về giá thì chưa nói, chất lượng…; ngoại hình thì thôi, tính cách…",
+      "cautions": [
+        "はともかく（として） không phủ nhận A, chỉ tạm không bàn.",
+        "Khác はさておき (cũng tạm gác nhưng đôi khi chuyển chủ đề nhẹ hơn)."
+      ],
+      "contrast": "はともかく ≈ tạm gác A. Gần はさておき; khác を問わず (bất kể).",
+      "examples": [
+        {
+          "ja": "値段はともかく品質がいい。",
+          "reading": "ねだんはともかくひんしつがいい。",
+          "vi": "Giá thì chưa nói, chất lượng tốt.",
+          "ruby": [
+            {
+              "text": "値段",
+              "reading": "ねだん"
+            },
+            {
+              "text": "はともかく"
+            },
+            {
+              "text": "品質",
+              "reading": "ひんしつ"
+            },
+            {
+              "text": "がいい。"
+            }
+          ]
+        },
+        {
+          "ja": "見た目はともかくとして中身が大事だ。",
+          "reading": "みためはともかくとしてなかみがだいじだ。",
+          "vi": "Ngoại hình thì thôi, nội dung mới quan trọng.",
+          "ruby": [
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "た目はともかくとして"
+            },
+            {
+              "text": "中身",
+              "reading": "なかみ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "大事",
+              "reading": "だいじ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "勝敗はともかく全力を出せ。",
+          "reading": "しょうはいはともかくぜんりょくをだせ。",
+          "vi": "Thắng thua thì chưa nói, hãy hết sức.",
+          "ruby": [
+            {
+              "text": "勝敗",
+              "reading": "しょうはい"
+            },
+            {
+              "text": "はともかく"
+            },
+            {
+              "text": "全力",
+              "reading": "ぜんりょく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "せ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 65,
+        "printedPage": 52,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-wa-tomokaku-khoan-hay-noi-den-chua-voi-noi-den-khoan-ban-den/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l11-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Kỹ năng thì chưa nói, thái độ tốt.",
+          "answers": [
+            "技術はともかく態度がよい。"
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tốc độ thì thôi, an toàn quan trọng.",
+          "answers": [
+            "速さはともかくとして安全が大事だ。"
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Điểm số thì chưa nói, hãy cố gắng.",
+          "answers": [
+            "点数はともかく努力してほしい。"
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Hình thức thì thôi, nội dung phải rõ.",
+          "answers": [
+            "形式はともかく内容を明確にせよ。"
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Giá thuê thì chưa nói, vị trí thuận tiện.",
+          "answers": [
+            "家賃はともかく立地が便利だ。"
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Kinh nghiệm thì thôi, nhiệt huyết có.",
+          "answers": [
+            "経験はともかくとして熱意がある。"
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Ngoại ngữ thì chưa nói, giao tiếp ổn.",
+          "answers": [
+            "語学はともかくコミュニケーションはできる。"
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Thời gian thì thôi, chất lượng ưu tiên.",
+          "answers": [
+            "時間はともかく品質を優先する。"
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Danh tiếng thì chưa nói, thực lực đáng tin.",
+          "answers": [
+            "名声はともかく実力が確かだ。"
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Sở thích thì thôi, nhiệm vụ phải xong.",
+          "answers": [
+            "好みはともかくとして仕事を終えよ。"
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "趣味はともかく健康第一だ。",
+          "answers": [
+            "Sở thích thì chưa nói, sức khỏe trước hết."
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "結果はともかく挑戦した意味がある。",
+          "answers": [
+            "Kết quả thì thôi, việc thử đã có ý nghĩa."
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "デザインはともかく使いやすい。",
+          "answers": [
+            "Thiết kế thì chưa nói, dễ dùng."
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "給料はともかくとしてやりがいがある。",
+          "answers": [
+            "Lương thì thôi, có động lực."
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "年齢はともかく能力で判断する。",
+          "answers": [
+            "Tuổi thì chưa nói, đánh giá theo năng lực."
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "過去はともかく今後を考えよう。",
+          "answers": [
+            "Quá khứ thì thôi, hãy nghĩ tương lai."
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "見た目はともかく味が抜群だ。",
+          "answers": [
+            "Ngoại hình thì chưa nói, vị xuất sắc."
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "費用はともかく必要なら買う。",
+          "answers": [
+            "Chi phí thì thôi, cần thì mua."
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "評判はともかく自分で確かめたい。",
+          "answers": [
+            "Dư luận thì chưa nói, muốn tự kiểm."
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "勝敗はともかく楽しもう。",
+          "answers": [
+            "Thắng thua thì thôi, hãy vui."
+          ],
+          "hint": "〜はともかく（として）",
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-order-01",
+          "mode": "order",
+          "prompt": "Giá thì chưa nói chất lượng tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "値段は"
+            },
+            {
+              "id": "1",
+              "text": "ともかく"
+            },
+            {
+              "id": "2",
+              "text": "品質が"
+            },
+            {
+              "id": "3",
+              "text": "高い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はともかく（として）",
+          "answers": [
+            "値段はともかく品質が高い。"
+          ],
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-order-02",
+          "mode": "order",
+          "prompt": "Ngoại hình thì thôi nội dung quan trọng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "見た目は"
+            },
+            {
+              "id": "1",
+              "text": "ともかくとして"
+            },
+            {
+              "id": "2",
+              "text": "中身を"
+            },
+            {
+              "id": "3",
+              "text": "見よ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はともかく（として）",
+          "answers": [
+            "見た目はともかくとして中身を見よ。"
+          ],
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-order-03",
+          "mode": "order",
+          "prompt": "Thắng thua thì chưa nói hãy hết sức.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "勝敗は"
+            },
+            {
+              "id": "1",
+              "text": "ともかく"
+            },
+            {
+              "id": "2",
+              "text": "全力で"
+            },
+            {
+              "id": "3",
+              "text": "戦え。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はともかく（として）",
+          "answers": [
+            "勝敗はともかく全力で戦え。"
+          ],
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-order-04",
+          "mode": "order",
+          "prompt": "Kỹ năng thì chưa nói thái độ tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "技術は"
+            },
+            {
+              "id": "1",
+              "text": "ともかく"
+            },
+            {
+              "id": "2",
+              "text": "態度が"
+            },
+            {
+              "id": "3",
+              "text": "よい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はともかく（として）",
+          "answers": [
+            "技術はともかく態度がよい。"
+          ],
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-order-05",
+          "mode": "order",
+          "prompt": "Tốc độ thì thôi an toàn quan trọng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "速さは"
+            },
+            {
+              "id": "1",
+              "text": "ともかくとして"
+            },
+            {
+              "id": "2",
+              "text": "安全が"
+            },
+            {
+              "id": "3",
+              "text": "大事だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はともかく（として）",
+          "answers": [
+            "速さはともかくとして安全が大事だ。"
+          ],
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-order-06",
+          "mode": "order",
+          "prompt": "Điểm thì chưa nói hãy cố.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "点数は"
+            },
+            {
+              "id": "1",
+              "text": "ともかく"
+            },
+            {
+              "id": "2",
+              "text": "努力が"
+            },
+            {
+              "id": "3",
+              "text": "必要だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はともかく（として）",
+          "answers": [
+            "点数はともかく努力が必要だ。"
+          ],
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-order-07",
+          "mode": "order",
+          "prompt": "Hình thức thì thôi nội dung phải rõ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "形式は"
+            },
+            {
+              "id": "1",
+              "text": "ともかく"
+            },
+            {
+              "id": "2",
+              "text": "内容を"
+            },
+            {
+              "id": "3",
+              "text": "明確に。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はともかく（として）",
+          "answers": [
+            "形式はともかく内容を明確に。"
+          ],
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-order-08",
+          "mode": "order",
+          "prompt": "Kinh nghiệm thì thôi có nhiệt huyết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "経験は"
+            },
+            {
+              "id": "1",
+              "text": "ともかくとして"
+            },
+            {
+              "id": "2",
+              "text": "熱意が"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はともかく（として）",
+          "answers": [
+            "経験はともかくとして熱意がある。"
+          ],
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-order-09",
+          "mode": "order",
+          "prompt": "Thiết kế thì chưa nói dễ dùng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "デザインは"
+            },
+            {
+              "id": "1",
+              "text": "ともかく"
+            },
+            {
+              "id": "2",
+              "text": "操作が"
+            },
+            {
+              "id": "3",
+              "text": "簡単だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はともかく（として）",
+          "answers": [
+            "デザインはともかく操作が簡単だ。"
+          ],
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g04-order-10",
+          "mode": "order",
+          "prompt": "Quá khứ thì thôi nghĩ tương lai.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "過去は"
+            },
+            {
+              "id": "1",
+              "text": "ともかく"
+            },
+            {
+              "id": "2",
+              "text": "今後を"
+            },
+            {
+              "id": "3",
+              "text": "考えよう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はともかく（として）",
+          "answers": [
+            "過去はともかく今後を考えよう。"
+          ],
+          "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l11-g05",
+      "title": "〜はさておき",
+      "meaning": "Gác… sang một bên / nói gì thì nói…",
+      "variants": [
+        "はさておき"
+      ],
+      "structures": [
+        "N ＋ はさておき"
+      ],
+      "explanation": "Tạm gác chủ đề A rồi chuyển sang B; thường dùng để chuyển mạch hoặc ưu tiên vấn đề khác.",
+      "usage": "Hội thoại/viết: chuyện đó tạm gác, trước hết…; đùa thì thôi, vấn đề chính…",
+      "cautions": [
+        "Thường đứng đầu câu hoặc mệnh đề để chuyển chủ đề.",
+        "Gần はともかく nhưng はさておき thiên về 'tạm để đó, nói việc khác'."
+      ],
+      "contrast": "はさておき ≈ tạm gác rồi chuyển. Gần はともかく; khác もかまわず.",
+      "examples": [
+        {
+          "ja": "冗談はさておき本題に入ろう。",
+          "reading": "じょうだんはさておきほんだいにはいろう。",
+          "vi": "Đùa thì thôi, vào vấn đề chính.",
+          "ruby": [
+            {
+              "text": "冗談",
+              "reading": "じょうだん"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "本題",
+              "reading": "ほんだい"
+            },
+            {
+              "text": "に入ろう。"
+            }
+          ]
+        },
+        {
+          "ja": "勝敗はさておき楽しめた。",
+          "reading": "しょうはいはさておきたのしめた。",
+          "vi": "Thắng thua tạm gác, đã vui được.",
+          "ruby": [
+            {
+              "text": "勝敗",
+              "reading": "しょうはい"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "楽",
+              "reading": "たの"
+            },
+            {
+              "text": "しめた。"
+            }
+          ]
+        },
+        {
+          "ja": "費用はさておき日程を決めたい。",
+          "reading": "ひようはさておきにっていをきめたい。",
+          "vi": "Chi phí tạm gác, muốn chốt lịch.",
+          "ruby": [
+            {
+              "text": "費用",
+              "reading": "ひよう"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "日程",
+              "reading": "にってい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "めたい。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 65,
+        "printedPage": 52,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-wa-sate-oki-khoan-hay-noi-den-chua-noi-den-chua-ban-toi-tam-thoi-chua-noi-den/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l11-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Chi tiết tạm gác, hãy nói kết luận.",
+          "answers": [
+            "詳細はさておき結論を話そう。"
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Quá khứ tạm gác, nhìn về phía trước.",
+          "answers": [
+            "過去はさておき前を向こう。"
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Giá tạm gác, hãy thử dùng.",
+          "answers": [
+            "値段はさておき使ってみよう。"
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Danh tiếng tạm gác, xem sản phẩm.",
+          "answers": [
+            "評判はさておき製品を見よう。"
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Cảm xúc tạm gác, hãy quyết định.",
+          "answers": [
+            "感情はさておき決断しよう。"
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Hình thức tạm gác, nội dung trước.",
+          "answers": [
+            "形式はさておき内容を先に。"
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Lời đồn tạm gác, xác nhận sự thật.",
+          "answers": [
+            "噂はさておき事実を確認せよ。"
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Sở thích tạm gác, nhiệm vụ đã đến hạn.",
+          "answers": [
+            "好みはさておき締切が近い。"
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Ngoại hình tạm gác, sức khỏe quan trọng.",
+          "answers": [
+            "外見はさておき健康が大事だ。"
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Tranh luận tạm gác, cần dữ liệu.",
+          "answers": [
+            "議論はさておきデータが必要だ。"
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "挨拶はさておき要件を伝えたい。",
+          "answers": [
+            "Chào hỏi tạm gác, muốn nói việc cần."
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "趣味はさておき仕事の話をしよう。",
+          "answers": [
+            "Sở thích tạm gác, nói chuyện công việc."
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "天候はさておき準備を整えよ。",
+          "answers": [
+            "Thời tiết tạm gác, hãy chuẩn bị."
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "年齢はさておき実力を見たい。",
+          "answers": [
+            "Tuổi tạm gác, muốn xem thực lực."
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "文句はさておき手伝ってくれ。",
+          "answers": [
+            "Phàn nàn tạm gác, hãy giúp đi."
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "理論はさておき実践が先だ。",
+          "answers": [
+            "Lý thuyết tạm gác, thực hành trước."
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "私事はさておき会議を始めよう。",
+          "answers": [
+            "Chuyện riêng tạm gác, bắt đầu họp."
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "得失はさておき挑戦する価値がある。",
+          "answers": [
+            "Được mất tạm gác, đáng thử."
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "見た目はさておき機能が優れている。",
+          "answers": [
+            "Ngoại hình tạm gác, chức năng vượt trội."
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "雑談はさておき提案を聞こう。",
+          "answers": [
+            "Tán gẫu tạm gác, hãy nghe đề xuất."
+          ],
+          "hint": "〜はさておき",
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-order-01",
+          "mode": "order",
+          "prompt": "Đùa thì thôi vào vấn đề chính.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "冗談は"
+            },
+            {
+              "id": "1",
+              "text": "さておき"
+            },
+            {
+              "id": "2",
+              "text": "本題を"
+            },
+            {
+              "id": "3",
+              "text": "話そう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はさておき",
+          "answers": [
+            "冗談はさておき本題を話そう。"
+          ],
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-order-02",
+          "mode": "order",
+          "prompt": "Thắng thua tạm gác đã vui.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "勝敗は"
+            },
+            {
+              "id": "1",
+              "text": "さておき"
+            },
+            {
+              "id": "2",
+              "text": "楽しさが"
+            },
+            {
+              "id": "3",
+              "text": "残った。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はさておき",
+          "answers": [
+            "勝敗はさておき楽しさが残った。"
+          ],
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-order-03",
+          "mode": "order",
+          "prompt": "Chi phí tạm gác muốn chốt lịch.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "費用は"
+            },
+            {
+              "id": "1",
+              "text": "さておき"
+            },
+            {
+              "id": "2",
+              "text": "日程から"
+            },
+            {
+              "id": "3",
+              "text": "決めよう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はさておき",
+          "answers": [
+            "費用はさておき日程から決めよう。"
+          ],
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-order-04",
+          "mode": "order",
+          "prompt": "Chi tiết tạm gác nói kết luận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "詳細は"
+            },
+            {
+              "id": "1",
+              "text": "さておき"
+            },
+            {
+              "id": "2",
+              "text": "結論を"
+            },
+            {
+              "id": "3",
+              "text": "話そう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はさておき",
+          "answers": [
+            "詳細はさておき結論を話そう。"
+          ],
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-order-05",
+          "mode": "order",
+          "prompt": "Quá khứ tạm gác nhìn phía trước.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "過去は"
+            },
+            {
+              "id": "1",
+              "text": "さておき"
+            },
+            {
+              "id": "2",
+              "text": "前方を"
+            },
+            {
+              "id": "3",
+              "text": "向こう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はさておき",
+          "answers": [
+            "過去はさておき前方を向こう。"
+          ],
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-order-06",
+          "mode": "order",
+          "prompt": "Giá tạm gác hãy thử dùng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "値段は"
+            },
+            {
+              "id": "1",
+              "text": "さておき"
+            },
+            {
+              "id": "2",
+              "text": "使用を"
+            },
+            {
+              "id": "3",
+              "text": "試そう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はさておき",
+          "answers": [
+            "値段はさておき使用を試そう。"
+          ],
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-order-07",
+          "mode": "order",
+          "prompt": "Cảm xúc tạm gác hãy quyết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "感情は"
+            },
+            {
+              "id": "1",
+              "text": "さておき"
+            },
+            {
+              "id": "2",
+              "text": "決断を"
+            },
+            {
+              "id": "3",
+              "text": "しよう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はさておき",
+          "answers": [
+            "感情はさておき決断をしよう。"
+          ],
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-order-08",
+          "mode": "order",
+          "prompt": "Lời đồn tạm gác xác nhận sự thật.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "噂は"
+            },
+            {
+              "id": "1",
+              "text": "さておき"
+            },
+            {
+              "id": "2",
+              "text": "事実を"
+            },
+            {
+              "id": "3",
+              "text": "確認せよ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はさておき",
+          "answers": [
+            "噂はさておき事実を確認せよ。"
+          ],
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-order-09",
+          "mode": "order",
+          "prompt": "Chào hỏi tạm gác nói việc cần.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "挨拶は"
+            },
+            {
+              "id": "1",
+              "text": "さておき"
+            },
+            {
+              "id": "2",
+              "text": "用件を"
+            },
+            {
+              "id": "3",
+              "text": "伝えたい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はさておき",
+          "answers": [
+            "挨拶はさておき用件を伝えたい。"
+          ],
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l11-g05-order-10",
+          "mode": "order",
+          "prompt": "Tán gẫu tạm gác nghe đề xuất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雑談は"
+            },
+            {
+              "id": "1",
+              "text": "さておき"
+            },
+            {
+              "id": "2",
+              "text": "提案を"
+            },
+            {
+              "id": "3",
+              "text": "聞こう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜はさておき",
+          "answers": [
+            "雑談はさておき提案を聞こう。"
+          ],
+          "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+        }
+      ]
+    }
+  ]
+}
