@@ -1,0 +1,4429 @@
+{
+  "id": "lesson-22",
+  "titleJa": "推量",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 22. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L21-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l22-g01",
+      "title": "〜とみえる",
+      "meaning": "Hình như… / trông có vẻ… (suy đoán từ dấu hiệu)",
+      "variants": [
+        "とみえる",
+        "と見えて",
+        "と見える"
+      ],
+      "structures": [
+        "普通形 ＋ とみえる／と見える",
+        "普通形 ＋ とみえて"
+      ],
+      "explanation": "とみえる／と見えて suy đoán dựa trên vẻ bề ngoài hoặc tình huống quan sát được: có vẻ như A.",
+      "usage": "Nhận xét từ dấu hiệu: mệt; bận; vừa khóc; sắp mưa…",
+      "cautions": [
+        "とみえて nối tiếp: vì có vẻ A nên B.",
+        "Khác ようだ／みたいだ khẩu ngữ hơn; とみえる hơi khách quan/văn viết."
+      ],
+      "contrast": "とみえる ≈ có vẻ như…. Gần ようだ nhưng nhấn suy đoán từ vẻ ngoài quan sát.",
+      "examples": [
+        {
+          "ja": "彼は疲れているとみえる。",
+          "reading": "かれはつかれているとみえる。",
+          "vi": "Anh ấy trông có vẻ mệt.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "疲",
+              "reading": "つか"
+            },
+            {
+              "text": "れているとみえる。"
+            }
+          ]
+        },
+        {
+          "ja": "雨が降るとみえて傘を持っている。",
+          "reading": "あめがふるとみえてかさをもっている。",
+          "vi": "Có vẻ sắp mưa nên đang cầm ô.",
+          "ruby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "降",
+              "reading": "ふ"
+            },
+            {
+              "text": "るとみえて"
+            },
+            {
+              "text": "傘",
+              "reading": "かさ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "持",
+              "reading": "も"
+            },
+            {
+              "text": "っている。"
+            }
+          ]
+        },
+        {
+          "ja": "会議は長引いたとみえる。",
+          "reading": "かいぎはながびいたとみえる。",
+          "vi": "Cuộc họp hình như đã kéo dài.",
+          "ruby": [
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "長",
+              "reading": "なが"
+            },
+            {
+              "text": "引",
+              "reading": "び"
+            },
+            {
+              "text": "いたとみえる。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 113,
+        "printedPage": 100,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-tomiete-tomieru-duong-nhu-trong-co-ve-co-ve-nhu-co-ve-nhu-thi-phai/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l22-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy có vẻ đang vội.",
+          "answers": [
+            "彼女は急いでいるとみえる。"
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Có vẻ lạnh nên mặc áo dày.",
+          "answers": [
+            "寒いとみえて厚着をしている。"
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy hình như vừa khóc.",
+          "answers": [
+            "彼は泣いていたとみえる。"
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Có vẻ bận nên không trả lời.",
+          "answers": [
+            "忙しいとみえて返事がない。"
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Cửa hàng hình như đã đóng.",
+          "answers": [
+            "店は閉店したとみえる。"
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Có vẻ đói nên ăn nhanh.",
+          "answers": [
+            "空腹だとみえて急いで食べている。"
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Họ hình như đã hòa giải.",
+          "answers": [
+            "二人は仲直りしたとみえる。"
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Có vẻ sốt nên da đỏ.",
+          "answers": [
+            "熱があるとみえて顔が赤い。"
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Máy hình như bị hỏng.",
+          "answers": [
+            "機械は故障したとみえる。"
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Có vẻ mưa to nên đường ướt.",
+          "answers": [
+            "大雨だったとみえて道が濡れている。"
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼は失望しているとみえる。",
+          "answers": [
+            "Anh ấy trông có vẻ thất vọng."
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "風邪だとみえて咳をしている。",
+          "answers": [
+            "Có vẻ cảm nên đang ho."
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "試験は難しかったとみえる。",
+          "answers": [
+            "Kỳ thi hình như đã khó."
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "怒っているとみえて黙り込んだ。",
+          "answers": [
+            "Có vẻ giận nên im thin thít."
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "旅先から戻ったとみえる。",
+          "answers": [
+            "Hình như vừa về từ chuyến đi."
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "足りないとみえて補充を頼んだ。",
+          "answers": [
+            "Có vẻ thiếu nên nhờ bổ sung."
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "成功したとみえて喜んでいる。",
+          "answers": [
+            "Hình như thành công nên đang vui."
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "迷っているとみえて立ち止まった。",
+          "answers": [
+            "Có vẻ do dự nên dừng bước."
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "約束を忘れたとみえる。",
+          "answers": [
+            "Hình như đã quên lời hứa."
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "疲弊したとみえて休んでいる。",
+          "answers": [
+            "Có vẻ kiệt sức nên đang nghỉ."
+          ],
+          "hint": "〜とみえる",
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-order-01",
+          "mode": "order",
+          "prompt": "Cô ấy đang vội vàng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼女は急いでいると"
+            },
+            {
+              "id": "1",
+              "text": "みえる様子"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜とみえる",
+          "answers": [
+            "彼女は急いでいるとみえる様子だ。"
+          ],
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-order-02",
+          "mode": "order",
+          "prompt": "Lạnh nên mặc áo dày.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "寒いとみえて"
+            },
+            {
+              "id": "1",
+              "text": "コートを"
+            },
+            {
+              "id": "2",
+              "text": "着込んでいる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜とみえる",
+          "answers": [
+            "寒いとみえてコートを着込んでいる。"
+          ],
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-order-03",
+          "mode": "order",
+          "prompt": "Anh ấy vừa khóc xong.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼は泣いていたと"
+            },
+            {
+              "id": "1",
+              "text": "みえる痕が"
+            },
+            {
+              "id": "2",
+              "text": "ある"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜とみえる",
+          "answers": [
+            "彼は泣いていたとみえる痕がある。"
+          ],
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-order-04",
+          "mode": "order",
+          "prompt": "Bận nên không trả lời.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忙しいとみえて"
+            },
+            {
+              "id": "1",
+              "text": "連絡が"
+            },
+            {
+              "id": "2",
+              "text": "途絶えた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜とみえる",
+          "answers": [
+            "忙しいとみえて連絡が途絶えた。"
+          ],
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-order-05",
+          "mode": "order",
+          "prompt": "Cửa hàng đã đóng cửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "店は閉店したと"
+            },
+            {
+              "id": "1",
+              "text": "みえる看板が"
+            },
+            {
+              "id": "2",
+              "text": "出ている"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜とみえる",
+          "answers": [
+            "店は閉店したとみえる看板が出ている。"
+          ],
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-order-06",
+          "mode": "order",
+          "prompt": "Đói nên ăn rất nhanh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "空腹だとみえて"
+            },
+            {
+              "id": "1",
+              "text": "一気に"
+            },
+            {
+              "id": "2",
+              "text": "平らげた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜とみえる",
+          "answers": [
+            "空腹だとみえて一気に平らげた。"
+          ],
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-order-07",
+          "mode": "order",
+          "prompt": "Hai người đã hòa giải.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "二人は仲直りしたと"
+            },
+            {
+              "id": "1",
+              "text": "みえる笑顔を"
+            },
+            {
+              "id": "2",
+              "text": "見せた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜とみえる",
+          "answers": [
+            "二人は仲直りしたとみえる笑顔を見せた。"
+          ],
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-order-08",
+          "mode": "order",
+          "prompt": "Sốt nên mặt đỏ bừng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "熱があるとみえて"
+            },
+            {
+              "id": "1",
+              "text": "頬が"
+            },
+            {
+              "id": "2",
+              "text": "赤くなっている"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜とみえる",
+          "answers": [
+            "熱があるとみえて頬が赤くなっている。"
+          ],
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-order-09",
+          "mode": "order",
+          "prompt": "Máy móc đã bị hỏng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "機械は故障したと"
+            },
+            {
+              "id": "1",
+              "text": "みえる音が"
+            },
+            {
+              "id": "2",
+              "text": "する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜とみえる",
+          "answers": [
+            "機械は故障したとみえる音がする。"
+          ],
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g01-order-10",
+          "mode": "order",
+          "prompt": "Mưa to nên đường ướt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "大雨だったとみえて"
+            },
+            {
+              "id": "1",
+              "text": "路面が"
+            },
+            {
+              "id": "2",
+              "text": "濡れている"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜とみえる",
+          "answers": [
+            "大雨だったとみえて路面が濡れている。"
+          ],
+          "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l22-g02",
+      "title": "〜かねない",
+      "meaning": "Có thể (xảy ra điều xấu)… / e rằng sẽ…",
+      "variants": [
+        "かねない"
+      ],
+      "structures": [
+        "Vます ＋ かねない"
+      ],
+      "explanation": "かねない cảnh báo khả năng điều không mong muốn xảy ra: rất có thể A (xấu).",
+      "usage": "Cảnh báo rủi ro: quên; gây hiểu nhầm; dẫn đến tai nạn…",
+      "cautions": [
+        "Chỉ dùng cho khả năng tiêu cực; không dùng cho kết quả tốt.",
+        "Đối lập かねる (khó/không thể làm — lịch sự)."
+      ],
+      "contrast": "かねない ≈ e rằng sẽ (xấu)…. Khác かもしれない (trung tính) và đối lập かねる.",
+      "examples": [
+        {
+          "ja": "このままでは失敗しかねない。",
+          "reading": "このままではしっぱいしかねない。",
+          "vi": "Cứ thế này e rằng sẽ thất bại.",
+          "ruby": [
+            {
+              "text": "このままでは"
+            },
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "しかねない。"
+            }
+          ]
+        },
+        {
+          "ja": "誤解を招きかねない表現だ。",
+          "reading": "ごかいをまねきかねないひょうげんだ。",
+          "vi": "Cách nói có thể gây hiểu nhầm.",
+          "ruby": [
+            {
+              "text": "誤解",
+              "reading": "ごかい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "招",
+              "reading": "まね"
+            },
+            {
+              "text": "きかねない"
+            },
+            {
+              "text": "表現",
+              "reading": "ひょうげん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "彼は秘密を漏らしかねない。",
+          "reading": "かれはひみつをもらしかねない。",
+          "vi": "Anh ấy có thể lộ bí mật.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "秘密",
+              "reading": "ひみつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "漏",
+              "reading": "も"
+            },
+            {
+              "text": "らしかねない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 113,
+        "printedPage": 100,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-kanenai-co-kha-nang-co-the-se/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l22-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "E rằng sẽ đến muộn.",
+          "answers": [
+            "遅刻しかねない。"
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Có thể gây thương tích.",
+          "answers": [
+            "けがをさせかねない。"
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "E rằng quên mang theo.",
+          "answers": [
+            "忘れかねないので確認する。"
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Có thể dẫn đến tranh cãi.",
+          "answers": [
+            "論争を招きかねない。"
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "E rằng mất khách hàng.",
+          "answers": [
+            "顧客を失いかねない。"
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Có thể phá vỡ quan hệ.",
+          "answers": [
+            "関係を壊しかねない発言だ。"
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "E rằng cháy nếu bất cẩn.",
+          "answers": [
+            "不注意だと火事になりかねない。"
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Có thể bị phạt nặng.",
+          "answers": [
+            "高額の罰金を科されかねない。"
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "E rằng kế hoạch đổ bể.",
+          "answers": [
+            "計画が頓挫しかねない。"
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Có thể làm mất uy tín.",
+          "answers": [
+            "信用を失いかねない行為だ。"
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "事故を起こしかねない運転だ。",
+          "answers": [
+            "Cách lái có thể gây tai nạn."
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "約束を破りかねない態度だ。",
+          "answers": [
+            "Thái độ e rằng sẽ thất hứa."
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "情報漏洩を招きかねない。",
+          "answers": [
+            "Có thể dẫn đến lộ thông tin."
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "体調を崩しかねない働き方だ。",
+          "answers": [
+            "Cách làm việc e rằng hại sức khỏe."
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "対立が深刻化しかねない。",
+          "answers": [
+            "Đối lập có thể trở nên nghiêm trọng."
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "誤解されかねない言い方だ。",
+          "answers": [
+            "Cách nói dễ bị hiểu nhầm."
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "予算オーバーになりかねない。",
+          "answers": [
+            "E rằng vượt ngân sách."
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "信頼を損ないかねない。",
+          "answers": [
+            "Có thể làm tổn hại lòng tin."
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "遅刻の常習になりかねない。",
+          "answers": [
+            "E rằng thành thói quen muộn giờ."
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "大きな損失を招きかねない。",
+          "answers": [
+            "Có thể gây tổn thất lớn."
+          ],
+          "hint": "〜かねない",
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-order-01",
+          "mode": "order",
+          "prompt": "E sẽ đến giờ muộn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "このペースでは"
+            },
+            {
+              "id": "1",
+              "text": "遅刻しかねないと"
+            },
+            {
+              "id": "2",
+              "text": "思う"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねない",
+          "answers": [
+            "このペースでは遅刻しかねないと思う。"
+          ],
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-order-02",
+          "mode": "order",
+          "prompt": "Chơi bất cẩn dễ gây thương.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "不用意だと"
+            },
+            {
+              "id": "1",
+              "text": "けがをさせかねない"
+            },
+            {
+              "id": "2",
+              "text": "遊びだ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねない",
+          "answers": [
+            "不用意だとけがをさせかねない遊びだ。"
+          ],
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-order-03",
+          "mode": "order",
+          "prompt": "E quên mang theo đồ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "大事な書類を"
+            },
+            {
+              "id": "1",
+              "text": "忘れかねないので"
+            },
+            {
+              "id": "2",
+              "text": "確認する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねない",
+          "answers": [
+            "大事な書類を忘れかねないので確認する。"
+          ],
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-order-04",
+          "mode": "order",
+          "prompt": "Có thể gây tranh cãi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その提案は"
+            },
+            {
+              "id": "1",
+              "text": "論争を招きかねないと"
+            },
+            {
+              "id": "2",
+              "text": "危惧する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねない",
+          "answers": [
+            "その提案は論争を招きかねないと危惧する。"
+          ],
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-order-05",
+          "mode": "order",
+          "prompt": "E mất khách hàng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "対応を誤ると"
+            },
+            {
+              "id": "1",
+              "text": "顧客を失いかねない"
+            },
+            {
+              "id": "2",
+              "text": "状況だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねない",
+          "answers": [
+            "対応を誤ると顧客を失いかねない状況だ。"
+          ],
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-order-06",
+          "mode": "order",
+          "prompt": "Có thể phá quan hệ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "不用意な一言が"
+            },
+            {
+              "id": "1",
+              "text": "関係を壊しかねない"
+            },
+            {
+              "id": "2",
+              "text": "発言だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねない",
+          "answers": [
+            "不用意な一言が関係を壊しかねない発言だ。"
+          ],
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-order-07",
+          "mode": "order",
+          "prompt": "Bất cẩn dễ cháy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "火の取り扱いを誤ると"
+            },
+            {
+              "id": "1",
+              "text": "火事になりかねない"
+            },
+            {
+              "id": "2",
+              "text": "危険が"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねない",
+          "answers": [
+            "火の取り扱いを誤ると火事になりかねない危険がある。"
+          ],
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-order-08",
+          "mode": "order",
+          "prompt": "Vi phạm dễ bị phạt nặng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "規則違反だと"
+            },
+            {
+              "id": "1",
+              "text": "罰金を科されかねない"
+            },
+            {
+              "id": "2",
+              "text": "行為だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねない",
+          "answers": [
+            "規則違反だと罰金を科されかねない行為だ。"
+          ],
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-order-09",
+          "mode": "order",
+          "prompt": "E kế hoạch đổ vỡ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "資金不足で"
+            },
+            {
+              "id": "1",
+              "text": "計画が頓挫しかねない"
+            },
+            {
+              "id": "2",
+              "text": "恐れが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねない",
+          "answers": [
+            "資金不足で計画が頓挫しかねない恐れがある。"
+          ],
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g02-order-10",
+          "mode": "order",
+          "prompt": "Có thể mất uy tín.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その行為は"
+            },
+            {
+              "id": "1",
+              "text": "信用を失いかねない"
+            },
+            {
+              "id": "2",
+              "text": "結果を"
+            },
+            {
+              "id": "3",
+              "text": "招く。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜かねない",
+          "answers": [
+            "その行為は信用を失いかねない結果を招く。"
+          ],
+          "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l22-g03",
+      "title": "〜おそれがある",
+      "meaning": "Có nguy cơ… / e rằng sẽ… (lo ngại)",
+      "variants": [
+        "おそれがある",
+        "恐れがある"
+      ],
+      "structures": [
+        "Nの ＋ おそれがある",
+        "Vる ＋ おそれがある"
+      ],
+      "explanation": "おそれがある nêu lo ngại khả năng xấu xảy ra — thường văn viết, tin tức, cảnh báo chính thức.",
+      "usage": "Cảnh báo thiên tai, sức khỏe, an ninh, rủi ro pháp lý…",
+      "cautions": [
+        "Thường dùng kanji 恐れがある trong văn bản trang trọng.",
+        "Khác かねない (khẩu ngữ/đánh giá cá nhân hơn); おそれがある khách quan hơn."
+      ],
+      "contrast": "おそれがある ≈ có nguy cơ…. Gần かねない nhưng thiên văn phong tin tức/chính thức.",
+      "examples": [
+        {
+          "ja": "大雨による洪水のおそれがある。",
+          "reading": "おおあめによるこうずいのおそれがある。",
+          "vi": "Có nguy cơ lũ do mưa lớn.",
+          "ruby": [
+            {
+              "text": "大雨",
+              "reading": "おおあめ"
+            },
+            {
+              "text": "による"
+            },
+            {
+              "text": "洪水",
+              "reading": "こうずい"
+            },
+            {
+              "text": "のおそれがある。"
+            }
+          ]
+        },
+        {
+          "ja": "感染が拡大するおそれがある。",
+          "reading": "かんせんがかくだいするおそれがある。",
+          "vi": "Có nguy cơ lây nhiễm lan rộng.",
+          "ruby": [
+            {
+              "text": "感染",
+              "reading": "かんせん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "拡大",
+              "reading": "かくだい"
+            },
+            {
+              "text": "するおそれがある。"
+            }
+          ]
+        },
+        {
+          "ja": "データ消失のおそれがある。",
+          "reading": "データしょうしつのおそれがある。",
+          "vi": "Có nguy cơ mất dữ liệu.",
+          "ruby": [
+            {
+              "text": "データ"
+            },
+            {
+              "text": "消失",
+              "reading": "しょうしつ"
+            },
+            {
+              "text": "のおそれがある。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 113,
+        "printedPage": 100,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-osorega-aru-e-la-e-rang-so-rang/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l22-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Có nguy cơ động đất xảy ra.",
+          "answers": [
+            "地震が発生するおそれがある。"
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "E rằng giá sẽ tăng mạnh.",
+          "answers": [
+            "価格が高騰するおそれがある。"
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Có nguy cơ tắc đường dài.",
+          "answers": [
+            "長時間の渋滞のおそれがある。"
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "E rằng thuốc có tác dụng phụ.",
+          "answers": [
+            "副作用が出るおそれがある。"
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Có nguy cơ hệ thống sập.",
+          "answers": [
+            "システムが停止するおそれがある。"
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "E rằng chất lượng giảm.",
+          "answers": [
+            "品質が低下するおそれがある。"
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Có nguy cơ cháy rừng.",
+          "answers": [
+            "山火事のおそれがある。"
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "E rằng bị lộ thông tin cá nhân.",
+          "answers": [
+            "個人情報が漏れるおそれがある。"
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Có nguy cơ thiếu nhân lực.",
+          "answers": [
+            "人手不足のおそれがある。"
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "E rằng hợp đồng bị hủy.",
+          "answers": [
+            "契約が破棄されるおそれがある。"
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "台風が接近するおそれがある。",
+          "answers": [
+            "Có nguy cơ bão tiến gần."
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "健康を害するおそれがある。",
+          "answers": [
+            "E rằng hại sức khỏe."
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "誤作動のおそれがある。",
+          "answers": [
+            "Có nguy cơ hoạt động sai."
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "環境が汚染されるおそれがある。",
+          "answers": [
+            "E rằng môi trường bị ô nhiễm."
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "倒産のおそれがある企業だ。",
+          "answers": [
+            "Doanh nghiệp có nguy cơ phá sản."
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "二次被害が発生するおそれがある。",
+          "answers": [
+            "Có nguy cơ thiệt hại thứ cấp."
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "供給が滞るおそれがある。",
+          "answers": [
+            "E rằng nguồn cung bị trì trệ."
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "法的な争いのおそれがある。",
+          "answers": [
+            "Có nguy cơ tranh chấp pháp lý."
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "記録が改ざんされるおそれがある。",
+          "answers": [
+            "E rằng hồ sơ bị chỉnh sửa sai."
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "交通麻痺のおそれがある。",
+          "answers": [
+            "Có nguy cơ giao thông tê liệt."
+          ],
+          "hint": "〜おそれがある",
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-order-01",
+          "mode": "order",
+          "prompt": "Có nguy cơ động đất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "地震が発生する"
+            },
+            {
+              "id": "1",
+              "text": "おそれがあると"
+            },
+            {
+              "id": "2",
+              "text": "発表された"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おそれがある",
+          "answers": [
+            "地震が発生するおそれがあると発表された。"
+          ],
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-order-02",
+          "mode": "order",
+          "prompt": "E giá sẽ tăng mạnh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "価格が高騰する"
+            },
+            {
+              "id": "1",
+              "text": "おそれがあるため"
+            },
+            {
+              "id": "2",
+              "text": "注意する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おそれがある",
+          "answers": [
+            "価格が高騰するおそれがあるため注意する。"
+          ],
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-order-03",
+          "mode": "order",
+          "prompt": "Có nguy cơ tắc đường.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "長時間の渋滞の"
+            },
+            {
+              "id": "1",
+              "text": "おそれがある区間"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おそれがある",
+          "answers": [
+            "長時間の渋滞のおそれがある区間だ。"
+          ],
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-order-04",
+          "mode": "order",
+          "prompt": "E thuốc có tác dụng phụ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "副作用が出る"
+            },
+            {
+              "id": "1",
+              "text": "おそれがある薬"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おそれがある",
+          "answers": [
+            "副作用が出るおそれがある薬だ。"
+          ],
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-order-05",
+          "mode": "order",
+          "prompt": "Hệ thống có thể dừng đột ngột.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "システムが停止する"
+            },
+            {
+              "id": "1",
+              "text": "おそれがあるので"
+            },
+            {
+              "id": "2",
+              "text": "点検する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おそれがある",
+          "answers": [
+            "システムが停止するおそれがあるので点検する。"
+          ],
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-order-06",
+          "mode": "order",
+          "prompt": "E chất lượng giảm sút.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "品質が低下する"
+            },
+            {
+              "id": "1",
+              "text": "おそれがある製品"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おそれがある",
+          "answers": [
+            "品質が低下するおそれがある製品だ。"
+          ],
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-order-07",
+          "mode": "order",
+          "prompt": "Cảnh báo nguy cơ cháy rừng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "山火事の"
+            },
+            {
+              "id": "1",
+              "text": "おそれがあると"
+            },
+            {
+              "id": "2",
+              "text": "警告された"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おそれがある",
+          "answers": [
+            "山火事のおそれがあると警告された。"
+          ],
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-order-08",
+          "mode": "order",
+          "prompt": "E lộ thông tin cá nhân.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "個人情報が漏れる"
+            },
+            {
+              "id": "1",
+              "text": "おそれがあるため"
+            },
+            {
+              "id": "2",
+              "text": "対策を"
+            },
+            {
+              "id": "3",
+              "text": "取る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おそれがある",
+          "answers": [
+            "個人情報が漏れるおそれがあるため対策を取る。"
+          ],
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-order-09",
+          "mode": "order",
+          "prompt": "Có nguy cơ thiếu người.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "人手不足の"
+            },
+            {
+              "id": "1",
+              "text": "おそれがある部署"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おそれがある",
+          "answers": [
+            "人手不足のおそれがある部署だ。"
+          ],
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g03-order-10",
+          "mode": "order",
+          "prompt": "E hợp đồng bị hủy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "契約が破棄される"
+            },
+            {
+              "id": "1",
+              "text": "おそれがある案件"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おそれがある",
+          "answers": [
+            "契約が破棄されるおそれがある案件だ。"
+          ],
+          "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l22-g04",
+      "title": "〜まい／〜ではあるまいか",
+      "meaning": "Sẽ không… / quyết không…; chẳng phải là… hay sao?",
+      "variants": [
+        "まい",
+        "ではあるまいか"
+      ],
+      "structures": [
+        "Vる／Vまい形 ＋ まい",
+        "普通形 ＋ ではあるまいか"
+      ],
+      "explanation": "まい: phủ định ý chí/suy đoán (sẽ không / quyết không). ではあるまいか: nghi vấn nhẹ khẳng định — chẳng phải A hay sao?",
+      "usage": "Quyết tâm không làm; suy đoán phủ định; khẳng định gián tiếp lịch sự.",
+      "cautions": [
+        "Động từ nhóm I: 書く→書くまい; nhóm II: 食べる→食べまい; する→するまい／すまい; 来る→こまい.",
+        "ではあるまいか gần nghĩa ではないだろうか."
+      ],
+      "contrast": "まい ≈ sẽ/quyết không…. ではあるまいか ≈ chẳng phải… sao? Khác ないだろう trung tính hơn.",
+      "examples": [
+        {
+          "ja": "二度と行くまいと決意した。",
+          "reading": "にどといくまいとけついした。",
+          "vi": "Quyết không bao giờ đi nữa.",
+          "ruby": [
+            {
+              "text": "二度",
+              "reading": "にど"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "くまいと"
+            },
+            {
+              "text": "決意",
+              "reading": "けつい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        },
+        {
+          "ja": "彼は真実を知るまい。",
+          "reading": "かれはしんじつをしるまい。",
+          "vi": "Anh ấy sẽ chẳng biết sự thật.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "真実",
+              "reading": "しんじつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "るまい。"
+            }
+          ]
+        },
+        {
+          "ja": "これは詐欺ではあるまいか。",
+          "reading": "これはさぎではあるまいか。",
+          "vi": "Chẳng phải đây là lừa đảo hay sao?",
+          "ruby": [
+            {
+              "text": "これは"
+            },
+            {
+              "text": "詐欺",
+              "reading": "さぎ"
+            },
+            {
+              "text": "ではあるまいか。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 113,
+        "printedPage": 100,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-mai-se-khong-quyet-khong-khong-bao-gio-tuyet-doi-khong/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-dewa-arumai-ka-chang-phai-la-hay-sao-lieu-chang/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l22-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Quyết không nói với ai.",
+          "answers": [
+            "誰にも言うまい。"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Chẳng phải anh ấy đang lo sao?",
+          "answers": [
+            "彼は心配しているのではあるまいか。"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Sẽ không bao giờ quên.",
+          "answers": [
+            "決して忘れまい。"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Chẳng phải giá quá cao sao?",
+          "answers": [
+            "値段が高すぎるのではあるまいか。"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Quyết không phụ lòng tin.",
+          "answers": [
+            "信頼を裏切るまい。"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Chẳng phải đây là cơ hội sao?",
+          "answers": [
+            "これは好機ではあるまいか。"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Sẽ không lặp lại lỗi đó.",
+          "answers": [
+            "同じ過ちを繰り返すまい。"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Chẳng phải kế hoạch rủi ro sao?",
+          "answers": [
+            "計画は危険ではあるまいか。"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Quyết không bỏ cuộc giữa chừng.",
+          "answers": [
+            "途中で諦めるまい。"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chẳng phải kết quả sai sao?",
+          "answers": [
+            "結果が誤っているのではあるまいか。"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "二度と頼むまい。",
+          "answers": [
+            "Quyết không nhờ nữa."
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "彼は気づくまい。",
+          "answers": [
+            "Anh ấy sẽ chẳng nhận ra."
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "これは過労ではあるまいか。",
+          "answers": [
+            "Chẳng phải đây là kiệt sức vì làm việc sao?"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "秘密を漏らすまいと誓った。",
+          "answers": [
+            "Thề sẽ không lộ bí mật."
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "状況は深刻ではあるまいか。",
+          "answers": [
+            "Chẳng phải tình hình nghiêm trọng sao?"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "二度と嘘はつくまい。",
+          "answers": [
+            "Quyết không nói dối nữa."
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "彼には分かるまい。",
+          "answers": [
+            "Anh ấy sẽ chẳng hiểu nổi."
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "これは警告ではあるまいか。",
+          "answers": [
+            "Chẳng phải đây là cảnh báo sao?"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "後悔するようなことはするまい。",
+          "answers": [
+            "Sẽ không làm điều dễ hối hận."
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "提案は時期尚早ではあるまいか。",
+          "answers": [
+            "Chẳng phải đề xuất còn quá sớm sao?"
+          ],
+          "hint": "〜まい／ではあるまいか",
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-order-01",
+          "mode": "order",
+          "prompt": "Quyết không kể với ai.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "誰にも"
+            },
+            {
+              "id": "1",
+              "text": "言うまいと"
+            },
+            {
+              "id": "2",
+              "text": "心に決めた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／ではあるまいか",
+          "answers": [
+            "誰にも言うまいと心に決めた。"
+          ],
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-order-02",
+          "mode": "order",
+          "prompt": "Anh ấy đang lo lắng chăng?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼は心配しているのでは"
+            },
+            {
+              "id": "1",
+              "text": "あるまいかと"
+            },
+            {
+              "id": "2",
+              "text": "思う"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／ではあるまいか",
+          "answers": [
+            "彼は心配しているのではあるまいかと思う。"
+          ],
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-order-03",
+          "mode": "order",
+          "prompt": "Sẽ không quên được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この教訓は"
+            },
+            {
+              "id": "1",
+              "text": "決して忘れまいと"
+            },
+            {
+              "id": "2",
+              "text": "誓う"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／ではあるまいか",
+          "answers": [
+            "この教訓は決して忘れまいと誓う。"
+          ],
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-order-04",
+          "mode": "order",
+          "prompt": "Giá chẳng quá cao sao?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "値段が高すぎるのでは"
+            },
+            {
+              "id": "1",
+              "text": "あるまいかと"
+            },
+            {
+              "id": "2",
+              "text": "疑う"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／ではあるまいか",
+          "answers": [
+            "値段が高すぎるのではあるまいかと疑う。"
+          ],
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-order-05",
+          "mode": "order",
+          "prompt": "Quyết không phụ niềm tin.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "周囲の信頼を"
+            },
+            {
+              "id": "1",
+              "text": "裏切るまいと"
+            },
+            {
+              "id": "2",
+              "text": "努める"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／ではあるまいか",
+          "answers": [
+            "周囲の信頼を裏切るまいと努める。"
+          ],
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-order-06",
+          "mode": "order",
+          "prompt": "Đây chẳng phải cơ hội sao?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今こそ好機では"
+            },
+            {
+              "id": "1",
+              "text": "あるまいかと"
+            },
+            {
+              "id": "2",
+              "text": "判断する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／ではあるまいか",
+          "answers": [
+            "今こそ好機ではあるまいかと判断する。"
+          ],
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-order-07",
+          "mode": "order",
+          "prompt": "Không lặp lại lỗi cũ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "同じ過ちを"
+            },
+            {
+              "id": "1",
+              "text": "繰り返すまいと"
+            },
+            {
+              "id": "2",
+              "text": "反省した"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／ではあるまいか",
+          "answers": [
+            "同じ過ちを繰り返すまいと反省した。"
+          ],
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-order-08",
+          "mode": "order",
+          "prompt": "Kế hoạch rủi ro chăng?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その計画は危険では"
+            },
+            {
+              "id": "1",
+              "text": "あるまいかと"
+            },
+            {
+              "id": "2",
+              "text": "危惧する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／ではあるまいか",
+          "answers": [
+            "その計画は危険ではあるまいかと危惧する。"
+          ],
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-order-09",
+          "mode": "order",
+          "prompt": "Quyết không bỏ cuộc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "どんな困難でも"
+            },
+            {
+              "id": "1",
+              "text": "諦めるまいと"
+            },
+            {
+              "id": "2",
+              "text": "踏ん張る"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／ではあるまいか",
+          "answers": [
+            "どんな困難でも諦めるまいと踏ん張る。"
+          ],
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g04-order-10",
+          "mode": "order",
+          "prompt": "Kết quả sai chăng?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "計算結果が誤っているのでは"
+            },
+            {
+              "id": "1",
+              "text": "あるまいかと"
+            },
+            {
+              "id": "2",
+              "text": "確認する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／ではあるまいか",
+          "answers": [
+            "計算結果が誤っているのではあるまいかと確認する。"
+          ],
+          "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l22-g05",
+      "title": "〜に違いない・〜に相違ない",
+      "meaning": "Chắc chắn là… / không sai nữa là…",
+      "variants": [
+        "に違いない",
+        "に相違ない"
+      ],
+      "structures": [
+        "普通形 ＋ に違いない",
+        "普通形 ＋ に相違ない"
+      ],
+      "explanation": "に違いない／に相違ない khẳng định mạnh suy đoán: chắc chắn A, không còn nghi ngờ.",
+      "usage": "Kết luận từ bằng chứng: chắc là thủ phạm; chắc đã đến nơi…",
+      "cautions": [
+        "に相違ない trang trọng/văn viết hơn に違いない.",
+        "Là suy đoán chắc chắn, không phải sự thật đã xác nhận 100%."
+      ],
+      "contrast": "に違いない ≈ chắc chắn…. Gần はずだ nhưng nhấn niềm tin mạnh của người nói hơn.",
+      "examples": [
+        {
+          "ja": "彼が犯人に違いない。",
+          "reading": "かれがはんにんにちがいない。",
+          "vi": "Chắc chắn anh ấy là thủ phạm.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "犯人",
+              "reading": "はんにん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "違",
+              "reading": "ちが"
+            },
+            {
+              "text": "いない。"
+            }
+          ]
+        },
+        {
+          "ja": "これは本物に相違ない。",
+          "reading": "これはほんものにそういない。",
+          "vi": "Đây chắc chắn là đồ thật.",
+          "ruby": [
+            {
+              "text": "これは"
+            },
+            {
+              "text": "本物",
+              "reading": "ほんもの"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "相違",
+              "reading": "そうい"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
+        },
+        {
+          "ja": "彼女はもう着いているに違いない。",
+          "reading": "かのじょはもうついているにちがいない。",
+          "vi": "Cô ấy chắc đã đến nơi rồi.",
+          "ruby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "もう"
+            },
+            {
+              "text": "着",
+              "reading": "つ"
+            },
+            {
+              "text": "いているに"
+            },
+            {
+              "text": "違",
+              "reading": "ちが"
+            },
+            {
+              "text": "いない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 113,
+        "printedPage": 100,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-ni-chigai-nai-chac-chan-chan-han-han-la-nhat-dinh-la/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-souinai-chac-chan-khong-sai-dung-la-chinh-la-nhat-dinh-la-khong-nghi-ngo-gi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l22-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Chắc chắn anh ấy nói dối.",
+          "answers": [
+            "彼は嘘をついているに違いない。"
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Đây chắc chắn là lỗi hệ thống.",
+          "answers": [
+            "これはシステム障害に相違ない。"
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy chắc đang giận.",
+          "answers": [
+            "彼女は怒っているに違いない。"
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Chắc chắn mưa sẽ đến.",
+          "answers": [
+            "まもなく雨になるに違いない。"
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đây chắc là chữ ký giả.",
+          "answers": [
+            "これは偽造の署名に相違ない。"
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy chắc đã quên hẹn.",
+          "answers": [
+            "彼は約束を忘れたに違いない。"
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Chắc chắn còn chỗ trống.",
+          "answers": [
+            "空席が残っているに違いない。"
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Đây chắc chắn là tin đồn.",
+          "answers": [
+            "これは噂に相違ない。"
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Cậu bé chắc đang đói.",
+          "answers": [
+            "子供は空腹に違いない。"
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chắc chắn có lý do sâu xa.",
+          "answers": [
+            "裏に事情があるに相違ない。"
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "犯人は内部の者に違いない。",
+          "answers": [
+            "Thủ phạm chắc chắn là người trong cuộc."
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "この判断は誤りに相違ない。",
+          "answers": [
+            "Phán đoán này chắc chắn sai."
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "彼はすでに帰宅したに違いない。",
+          "answers": [
+            "Anh ấy chắc đã về nhà rồi."
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "原因は配線に相違ない。",
+          "answers": [
+            "Nguyên nhân chắc chắn là dây điện."
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "彼女は合格するに違いない。",
+          "answers": [
+            "Cô ấy chắc chắn sẽ đỗ."
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "これは誤報に相違ない。",
+          "answers": [
+            "Đây chắc chắn là tin sai."
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "彼の話は事実に違いない。",
+          "answers": [
+            "Lời anh ấy chắc chắn là sự thật."
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "結果は明白に相違ない。",
+          "answers": [
+            "Kết quả chắc chắn đã rõ ràng."
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "荷物は届いているに違いない。",
+          "answers": [
+            "Hành lý chắc đã tới rồi."
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "意図は明らかであるに相違ない。",
+          "answers": [
+            "Ý đồ chắc chắn đã rõ."
+          ],
+          "hint": "〜に違いない／に相違ない",
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-order-01",
+          "mode": "order",
+          "prompt": "Anh ấy đang nói dối chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼は嘘をついているに"
+            },
+            {
+              "id": "1",
+              "text": "違いないと"
+            },
+            {
+              "id": "2",
+              "text": "思う"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に違いない／に相違ない",
+          "answers": [
+            "彼は嘘をついているに違いないと思う。"
+          ],
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-order-02",
+          "mode": "order",
+          "prompt": "Đây là lỗi hệ thống chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "これはシステム障害に"
+            },
+            {
+              "id": "1",
+              "text": "相違ないと"
+            },
+            {
+              "id": "2",
+              "text": "判断する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に違いない／に相違ない",
+          "answers": [
+            "これはシステム障害に相違ないと判断する。"
+          ],
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-order-03",
+          "mode": "order",
+          "prompt": "Cô ấy đang giận chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼女は怒っているに"
+            },
+            {
+              "id": "1",
+              "text": "違いない様子"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に違いない／に相違ない",
+          "answers": [
+            "彼女は怒っているに違いない様子だ。"
+          ],
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-order-04",
+          "mode": "order",
+          "prompt": "Sắp mưa chắc chắn rồi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "まもなく雨になるに"
+            },
+            {
+              "id": "1",
+              "text": "違いない空模様"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に違いない／に相違ない",
+          "answers": [
+            "まもなく雨になるに違いない空模様だ。"
+          ],
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-order-05",
+          "mode": "order",
+          "prompt": "Chữ ký giả chắc chắn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "これは偽造の署名に"
+            },
+            {
+              "id": "1",
+              "text": "相違ないと"
+            },
+            {
+              "id": "2",
+              "text": "見られる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に違いない／に相違ない",
+          "answers": [
+            "これは偽造の署名に相違ないと見られる。"
+          ],
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-order-06",
+          "mode": "order",
+          "prompt": "Anh quên hẹn chắc rồi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼は約束を忘れたに"
+            },
+            {
+              "id": "1",
+              "text": "違いないと"
+            },
+            {
+              "id": "2",
+              "text": "気づいた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に違いない／に相違ない",
+          "answers": [
+            "彼は約束を忘れたに違いないと気づいた。"
+          ],
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-order-07",
+          "mode": "order",
+          "prompt": "Còn chỗ trống chắc chắn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "空席が残っているに"
+            },
+            {
+              "id": "1",
+              "text": "違いない会場"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に違いない／に相違ない",
+          "answers": [
+            "空席が残っているに違いない会場だ。"
+          ],
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-order-08",
+          "mode": "order",
+          "prompt": "Đây là tin đồn chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "これは単なる噂に"
+            },
+            {
+              "id": "1",
+              "text": "相違ないと"
+            },
+            {
+              "id": "2",
+              "text": "思う"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に違いない／に相違ない",
+          "answers": [
+            "これは単なる噂に相違ないと思う。"
+          ],
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-order-09",
+          "mode": "order",
+          "prompt": "Đứa trẻ đang đói chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "子供は空腹に"
+            },
+            {
+              "id": "1",
+              "text": "違いない様子で"
+            },
+            {
+              "id": "2",
+              "text": "泣いている"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に違いない／に相違ない",
+          "answers": [
+            "子供は空腹に違いない様子で泣いている。"
+          ],
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g05-order-10",
+          "mode": "order",
+          "prompt": "Có lý do sâu xa chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "裏に事情があるに"
+            },
+            {
+              "id": "1",
+              "text": "相違ないと"
+            },
+            {
+              "id": "2",
+              "text": "推測する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に違いない／に相違ない",
+          "answers": [
+            "裏に事情があるに相違ないと推測する。"
+          ],
+          "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l22-g06",
+      "title": "〜にきまっている",
+      "meaning": "Chắc chắn / nhất định là… (đương nhiên)",
+      "variants": [
+        "にきまっている",
+        "に決まっている"
+      ],
+      "structures": [
+        "普通形 ＋ にきまっている",
+        "普通形 ＋ に決まっている"
+      ],
+      "explanation": "にきまっている khẳng định đầy tự tin/đương nhiên: A thì chắc chắn/nhất định vậy rồi.",
+      "usage": "Nhận định chắc nịch, đôi khi hơi chủ quan/khẩu ngữ hơn に違いない.",
+      "cautions": [
+        "に決まっている là cách viết kanji phổ biến của にきまっている.",
+        "Thiên khẩu ngữ/cảm xúc; văn bản trang trọng ưu tiên に違いない／はずだ."
+      ],
+      "contrast": "にきまっている ≈ nhất định là…. Gần に違いない nhưng chủ quan/khẩu ngữ hơn.",
+      "examples": [
+        {
+          "ja": "勝つにきまっている。",
+          "reading": "かつにきまっている。",
+          "vi": "Nhất định sẽ thắng.",
+          "ruby": [
+            {
+              "text": "勝",
+              "reading": "か"
+            },
+            {
+              "text": "つにきまっている。"
+            }
+          ]
+        },
+        {
+          "ja": "彼の言うことは嘘に決まっている。",
+          "reading": "かれのいうことはうそにきまっている。",
+          "vi": "Lời anh ấy nhất định là nói dối.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "うことは"
+            },
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "まっている。"
+            }
+          ]
+        },
+        {
+          "ja": "そんな計画は失敗にきまっている。",
+          "reading": "そんなけいかくはしっぱいにきまっている。",
+          "vi": "Kế hoạch kiểu đó nhất định thất bại.",
+          "ruby": [
+            {
+              "text": "そんな"
+            },
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "にきまっている。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 113,
+        "printedPage": 100,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-nikimatteiru-chac-chan-nhat-dinh/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l22-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nhất định anh ấy sẽ đến muộn.",
+          "answers": [
+            "彼は遅れるにきまっている。"
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Giá đó nhất định đắt.",
+          "answers": [
+            "その値段は高いに決まっている。"
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nhất định sẽ có hàng đợi.",
+          "answers": [
+            "行列ができるにきまっている。"
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Câu trả lời nhất định sai.",
+          "answers": [
+            "その答えは間違っているに決まっている。"
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nhất định trời sẽ nắng.",
+          "answers": [
+            "晴れるにきまっている。"
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy nhất định từ chối.",
+          "answers": [
+            "彼は断るに決まっている。"
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nhất định hết vé sớm.",
+          "answers": [
+            "すぐに売り切れるにきまっている。"
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tin đó nhất định giả.",
+          "answers": [
+            "その話は嘘に決まっている。"
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nhất định cô ấy vui.",
+          "answers": [
+            "彼女は喜ぶにきまっている。"
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Kết quả nhất định rõ ràng.",
+          "answers": [
+            "結果は明白に決まっている。"
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼が優勝するにきまっている。",
+          "answers": [
+            "Anh ấy nhất định đoạt chức vô địch."
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "この店は混むに決まっている。",
+          "answers": [
+            "Quán này nhất định đông."
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "試験は難しいにきまっている。",
+          "answers": [
+            "Kỳ thi nhất định khó."
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "言い訳は通用しないに決まっている。",
+          "answers": [
+            "Lời bao biện nhất định không ăn thua."
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "値段が上がるにきまっている。",
+          "answers": [
+            "Giá nhất định sẽ tăng."
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "彼の提案は通るに決まっている。",
+          "answers": [
+            "Đề xuất của anh ấy nhất định được duyệt."
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "今夜は眠れないにきまっている。",
+          "answers": [
+            "Đêm nay nhất định không ngủ được."
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "その映画は面白いに決まっている。",
+          "answers": [
+            "Phim đó nhất định hay."
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "文句が出るにきまっている。",
+          "answers": [
+            "Nhất định sẽ có phàn nàn."
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "彼は賛成するに決まっている。",
+          "answers": [
+            "Anh ấy nhất định đồng ý."
+          ],
+          "hint": "〜にきまっている",
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-order-01",
+          "mode": "order",
+          "prompt": "Anh ấy sẽ đến muộn chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼は遅れるに"
+            },
+            {
+              "id": "1",
+              "text": "きまっていると"
+            },
+            {
+              "id": "2",
+              "text": "思う"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にきまっている",
+          "answers": [
+            "彼は遅れるにきまっていると思う。"
+          ],
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-order-02",
+          "mode": "order",
+          "prompt": "Giá đó đắt là chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その値段は高いに"
+            },
+            {
+              "id": "1",
+              "text": "決まっていると"
+            },
+            {
+              "id": "2",
+              "text": "誰もが"
+            },
+            {
+              "id": "3",
+              "text": "思う。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にきまっている",
+          "answers": [
+            "その値段は高いに決まっていると誰もが思う。"
+          ],
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-order-03",
+          "mode": "order",
+          "prompt": "Nhất định có hàng đợi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "行列ができるに"
+            },
+            {
+              "id": "1",
+              "text": "きまっている時間帯"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にきまっている",
+          "answers": [
+            "行列ができるにきまっている時間帯だ。"
+          ],
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-order-04",
+          "mode": "order",
+          "prompt": "Đáp án sai là chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その答えは間違っているに"
+            },
+            {
+              "id": "1",
+              "text": "決まっていると"
+            },
+            {
+              "id": "2",
+              "text": "断言できる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にきまっている",
+          "answers": [
+            "その答えは間違っているに決まっていると断言できる。"
+          ],
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-order-05",
+          "mode": "order",
+          "prompt": "Trời nắng là chắc rồi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今日は晴れるに"
+            },
+            {
+              "id": "1",
+              "text": "きまっている空"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にきまっている",
+          "answers": [
+            "今日は晴れるにきまっている空だ。"
+          ],
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-order-06",
+          "mode": "order",
+          "prompt": "Anh ấy từ chối chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼は断るに"
+            },
+            {
+              "id": "1",
+              "text": "決まっていると"
+            },
+            {
+              "id": "2",
+              "text": "予想する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にきまっている",
+          "answers": [
+            "彼は断るに決まっていると予想する。"
+          ],
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-order-07",
+          "mode": "order",
+          "prompt": "Vé hết sớm là chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "チケットはすぐに売り切れるに"
+            },
+            {
+              "id": "1",
+              "text": "きまっていると"
+            },
+            {
+              "id": "2",
+              "text": "分かる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にきまっている",
+          "answers": [
+            "チケットはすぐに売り切れるにきまっていると分かる。"
+          ],
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-order-08",
+          "mode": "order",
+          "prompt": "Tin đó giả là chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その話は嘘に"
+            },
+            {
+              "id": "1",
+              "text": "決まっていると"
+            },
+            {
+              "id": "2",
+              "text": "見破る"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にきまっている",
+          "answers": [
+            "その話は嘘に決まっていると見破る。"
+          ],
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-order-09",
+          "mode": "order",
+          "prompt": "Cô ấy vui là chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼女は喜ぶに"
+            },
+            {
+              "id": "1",
+              "text": "きまっている反応"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にきまっている",
+          "answers": [
+            "彼女は喜ぶにきまっている反応だ。"
+          ],
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l22-g06-order-10",
+          "mode": "order",
+          "prompt": "Kết quả rõ là chắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "結果は明白に"
+            },
+            {
+              "id": "1",
+              "text": "決まっている案件"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にきまっている",
+          "answers": [
+            "結果は明白に決まっている案件だ。"
+          ],
+          "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+        }
+      ]
+    }
+  ]
+}

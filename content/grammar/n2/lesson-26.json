@@ -1,0 +1,4527 @@
+{
+  "id": "lesson-26",
+  "titleJa": "願望・感嘆",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 26. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L21-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l26-g01",
+      "title": "〜たいものだ・〜てほしいものだ",
+      "meaning": "Thật sự muốn… / ước gì… / mong người khác… (ước nguyện mạnh)",
+      "variants": [
+        "たいものだ",
+        "てほしいものだ"
+      ],
+      "structures": [
+        "Vます語幹 ＋ たいものだ",
+        "Vて ＋ ほしいものだ"
+      ],
+      "explanation": "たいものだ／てほしいものだ nhấn mong muốn sâu, ước nguyện hoặc hy vọng chân thành — mạnh hơn たい／てほしい thông thường, thường mang sắc thái cảm thán.",
+      "usage": "Bày tỏ ước muốn cá nhân hoặc mong người khác hành động: ước được…; mong ai đó… giúp.",
+      "cautions": [
+        "たいものだ nói mong muốn của chính mình; てほしいものだ mong người khác làm.",
+        "Không dùng như mệnh lệnh trực tiếp; mang tính ước nguyện/cảm thán hơn yêu cầu cụ thể."
+      ],
+      "contrast": "たいものだ ≈ thật muốn/ước gì. Khác たい (mong muốn thường) và てほしい (mong người khác, ít cảm thán hơn).",
+      "examples": [
+        {
+          "ja": "一度は海外で暮らしてみたいものだ。",
+          "reading": "いちどはかいがいでくらしてみたいものだ。",
+          "vi": "Ước được sống thử ở nước ngoài một lần.",
+          "ruby": [
+            {
+              "text": "一度",
+              "reading": "いちど"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "海外",
+              "reading": "かいがい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "暮",
+              "reading": "く"
+            },
+            {
+              "text": "らしてみたいものだ。"
+            }
+          ]
+        },
+        {
+          "ja": "若い人にもっと本を読んでほしいものだ。",
+          "reading": "わかいひとにもっとほんをよんでほしいものだ。",
+          "vi": "Mong giới trẻ đọc sách nhiều hơn.",
+          "ruby": [
+            {
+              "text": "若",
+              "reading": "わか"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "にもっと"
+            },
+            {
+              "text": "本",
+              "reading": "ほん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "んでほしいものだ。"
+            }
+          ]
+        },
+        {
+          "ja": "静かな場所でゆっくり休みたいものだ。",
+          "reading": "しずかなばしょでゆっくりやすみたいものだ。",
+          "vi": "Ước được nghỉ ngơi thong thả ở nơi yên tĩnh.",
+          "ruby": [
+            {
+              "text": "静",
+              "reading": "しず"
+            },
+            {
+              "text": "かな"
+            },
+            {
+              "text": "場所",
+              "reading": "ばしょ"
+            },
+            {
+              "text": "でゆっくり"
+            },
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みたいものだ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 129,
+        "printedPage": 116,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-tai-mono-da-that-su-muon-rat-muon-cuc-ky-muon-uoc-gi/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-te-hoshii-mono-da-mong-muon-hy-vong/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l26-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Ước được gặp lại thầy cũ.",
+          "answers": [
+            "昔の先生にもう一度会いたいものだ。"
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Mong mọi người giữ lời hứa.",
+          "answers": [
+            "皆に約束を守ってほしいものだ。"
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Ước được đi du lịch không lo nghĩ.",
+          "answers": [
+            "何も気にせず旅行したいものだ。"
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Mong con cái khỏe mạnh.",
+          "answers": [
+            "子供には元気でいてほしいものだ。"
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Ước được nghe ý kiến chân thành.",
+          "answers": [
+            "率直な意見を聞きたいものだ。"
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Mong sếp lắng nghe nhân viên.",
+          "answers": [
+            "上司には部下の声を聞いてほしいものだ。"
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Ước được sống gần thiên nhiên.",
+          "answers": [
+            "自然の近くで暮らしたいものだ。"
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Mong thế hệ sau quý trọng hòa bình.",
+          "answers": [
+            "次の世代に平和を大切にしてほしいものだ。"
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Ước được thử sức với nghề mới.",
+          "answers": [
+            "新しい仕事に挑戦したいものだ。"
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Mong khách du lịch tôn trọng văn hóa địa phương.",
+          "answers": [
+            "観光客には現地の文化を尊重してほしいものだ。"
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "一生に一度は富士山に登りたいものだ。",
+          "answers": [
+            "Ước được leo Phú Sĩ một lần trong đời."
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "政治家には正直であってほしいものだ。",
+          "answers": [
+            "Mong chính trị gia trung thực."
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "週末は家族と過ごしたいものだ。",
+          "answers": [
+            "Ước được dành cuối tuần với gia đình."
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "若者には夢を追い続けてほしいものだ。",
+          "answers": [
+            "Mong thanh niên tiếp tục theo đuổi ước mơ."
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "静かな朝にコーヒーを味わいたいものだ。",
+          "answers": [
+            "Ước được thưởng thức cà phê vào buổi sáng yên tĩnh."
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "隣人にはもう少し静かにしてほしいものだ。",
+          "answers": [
+            "Mong hàng xóm yên lặng hơn một chút."
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "定年後は趣味に打ち込みたいものだ。",
+          "answers": [
+            "Ước sau nghỉ hưu được dồn sức vào sở thích."
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "生徒には自分の頭で考えてほしいものだ。",
+          "answers": [
+            "Mong học sinh tự suy nghĩ bằng đầu mình."
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "いつか自分の店を持ちたいものだ。",
+          "answers": [
+            "Ước có ngày mở được cửa hàng riêng."
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "社会には弱者に優しい制度であってほしいものだ。",
+          "answers": [
+            "Mong xã hội có chế độ tử tế với người yếu."
+          ],
+          "hint": "〜たいものだ／てほしいものだ",
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-order-01",
+          "mode": "order",
+          "prompt": "Ước sống thử ở nước ngoài.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "海外で一度は"
+            },
+            {
+              "id": "1",
+              "text": "暮らしてみたい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たいものだ／てほしいものだ",
+          "answers": [
+            "海外で一度は暮らしてみたいものだ。"
+          ],
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-order-02",
+          "mode": "order",
+          "prompt": "Mong giới trẻ đọc nhiều hơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "若い人にもっと"
+            },
+            {
+              "id": "1",
+              "text": "本を読んでほしい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たいものだ／てほしいものだ",
+          "answers": [
+            "若い人にもっと本を読んでほしいものだのだ。"
+          ],
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-order-03",
+          "mode": "order",
+          "prompt": "Ước nghỉ nơi yên tĩnh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "静かな場所で"
+            },
+            {
+              "id": "1",
+              "text": "休みたい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たいものだ／てほしいものだ",
+          "answers": [
+            "静かな場所で休みたいものだ。"
+          ],
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-order-04",
+          "mode": "order",
+          "prompt": "Ước gặp lại thầy cũ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "昔の恩師に"
+            },
+            {
+              "id": "1",
+              "text": "会いたい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たいものだ／てほしいものだ",
+          "answers": [
+            "昔の恩師に会いたいものだ。"
+          ],
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-order-05",
+          "mode": "order",
+          "prompt": "Mong mọi người giữ lời.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "皆に約束を"
+            },
+            {
+              "id": "1",
+              "text": "守ってほしい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たいものだ／てほしいものだ",
+          "answers": [
+            "皆に約束を守ってほしいものだ。"
+          ],
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-order-06",
+          "mode": "order",
+          "prompt": "Ước nghe ý kiến thẳng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "率直な声を"
+            },
+            {
+              "id": "1",
+              "text": "聞きたい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たいものだ／てほしいものだ",
+          "answers": [
+            "率直な声を聞きたいものだ。"
+          ],
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-order-07",
+          "mode": "order",
+          "prompt": "Mong sếp nghe nhân viên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "上司に部下の声を"
+            },
+            {
+              "id": "1",
+              "text": "聞いてほしい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たいものだ／てほしいものだ",
+          "answers": [
+            "上司に部下の声を聞いてほしいものだ。"
+          ],
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-order-08",
+          "mode": "order",
+          "prompt": "Ước sống gần thiên nhiên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "自然のそばで"
+            },
+            {
+              "id": "1",
+              "text": "暮らしたい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たいものだ／てほしいものだ",
+          "answers": [
+            "自然のそばで暮らしたいものだ。"
+          ],
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-order-09",
+          "mode": "order",
+          "prompt": "Ước leo Phú Sĩ một lần.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "富士山に一度は"
+            },
+            {
+              "id": "1",
+              "text": "登りたい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たいものだ／てほしいものだ",
+          "answers": [
+            "富士山に一度は登りたいものだ。"
+          ],
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g01-order-10",
+          "mode": "order",
+          "prompt": "Mong chính trị gia trung thực.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "政治家には正直で"
+            },
+            {
+              "id": "1",
+              "text": "あってほしい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たいものだ／てほしいものだ",
+          "answers": [
+            "政治家には正直であってほしいものだ。"
+          ],
+          "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l26-g02",
+      "title": "〜ものだ",
+      "meaning": "Đã từng… (hoài niệm) / lẽ ra nên… (lý tưởng)",
+      "variants": [
+        "ものだ",
+        "もんだ"
+      ],
+      "structures": [
+        "Vた ＋ ものだ",
+        "普通形 ＋ ものだ（理想・あるべき姿）"
+      ],
+      "explanation": "ものだ ở bài này chủ yếu: (1) nhớ lại thói quen/cảnh cũ với cảm xúc (たものだ); (2) nêu lý tưởng/điều đáng có — ‘lẽ ra phải…’, mang sắc cảm thán nhẹ.",
+      "usage": "Kể kỷ niệm: hồi đó hay…; nêu chuẩn mực lý tưởng: vốn phải… / đáng lẽ…",
+      "cautions": [
+        "Nghĩa hoài niệm thường đi với Vたものだ và ngữ cảnh quá khứ.",
+        "Khác ものだ bài 23 (bản chất/lẽ thường chung) và nghĩa khuyên bảo ở bài khác — ở đây nhấn nhớ thương hoặc lý tưởng."
+      ],
+      "contrast": "ものだ (bài 26) ≈ hoài niệm / lý tưởng. Khác たいものだ (ước muốn mạnh) và ものだ bản chất chung (bài 23).",
+      "examples": [
+        {
+          "ja": "子供の頃は川で魚を捕ったものだ。",
+          "reading": "こどものころはかわでさかなをとったものだ。",
+          "vi": "Hồi nhỏ tôi từng bắt cá ở sông.",
+          "ruby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "頃",
+              "reading": "ころ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "川",
+              "reading": "かわ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "魚",
+              "reading": "さかな"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "捕",
+              "reading": "と"
+            },
+            {
+              "text": "ったものだ。"
+            }
+          ]
+        },
+        {
+          "ja": "教師というものは生徒の模範となるものだ。",
+          "reading": "きょうしというものはせいとのもはんとなるものだ。",
+          "vi": "Người thầy lẽ ra phải là gương mẫu cho học sinh.",
+          "ruby": [
+            {
+              "text": "教師",
+              "reading": "きょうし"
+            },
+            {
+              "text": "というものは"
+            },
+            {
+              "text": "生徒",
+              "reading": "せいと"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "模範",
+              "reading": "もはん"
+            },
+            {
+              "text": "となるものだ。"
+            }
+          ]
+        },
+        {
+          "ja": "冬の夜は囲炉裏を囲んで話したものだ。",
+          "reading": "ふゆのよるはいろりをかこんではなしたものだ。",
+          "vi": "Đêm đông từng ngồi quanh bếp lửa trò chuyện.",
+          "ruby": [
+            {
+              "text": "冬",
+              "reading": "ふゆ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "夜",
+              "reading": "よる"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "囲炉裏",
+              "reading": "いろり"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "囲",
+              "reading": "かこ"
+            },
+            {
+              "text": "んで"
+            },
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "したものだ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 129,
+        "printedPage": 116,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-tamonoda-toi-nho-thuong-hay/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l26-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Hồi học từng đạp xe đến trường.",
+          "answers": [
+            "学生時代は自転車で通学したものだ。"
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Lãnh đạo lẽ ra phải chịu trách nhiệm.",
+          "answers": [
+            "指導者は責任を取るものだ。"
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Hồi bé từng nghe bà kể chuyện.",
+          "answers": [
+            "幼い頃は祖母の昔話を聞いたものだ。"
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Bạn bè lẽ ra phải giúp lúc khó.",
+          "answers": [
+            "友人は困った時に支え合うものだ。"
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Hồi đó từng chạy trên cánh đồng.",
+          "answers": [
+            "あの頃は野原を駆け回ったものだ。"
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Lời hứa lẽ ra phải được giữ.",
+          "answers": [
+            "約束は必ず果たすものだ。"
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Hồi trẻ từng viết nhật ký mỗi đêm.",
+          "answers": [
+            "若い日々は毎晩日記を書いたものだ。"
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Người lớn lẽ ra phải bảo vệ trẻ em.",
+          "answers": [
+            "大人は子供を守るものだ。"
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Hồi quê từng hái trái trên đồi.",
+          "answers": [
+            "田舎では丘で果実を摘んだものだ。"
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Công chức lẽ ra phải trung thực.",
+          "answers": [
+            "公務員は公正であるものだ。"
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "夏休みは海辺で泳いだものだ。",
+          "answers": [
+            "Hè từng bơi ở bờ biển."
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "親は子の成長を見守るものだ。",
+          "answers": [
+            "Cha mẹ lẽ ra phải dõi theo sự lớn lên của con."
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "祭りでは夜遅くまで踊ったものだ。",
+          "answers": [
+            "Ngày hội từng nhảy múa đến khuya."
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "医者は命を最優先するものだ。",
+          "answers": [
+            "Bác sĩ lẽ ra phải ưu tiên mạng sống trước hết."
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "雨の日は図書館で過ごしたものだ。",
+          "answers": [
+            "Ngày mưa từng dành thời gian ở thư viện."
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "報道は事実に基づくものだ。",
+          "answers": [
+            "Báo chí lẽ ra phải dựa trên sự thật."
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "祖父は庭の野菜を育てたものだ。",
+          "answers": [
+            "Ông từng trồng rau trong vườn."
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "選手は最後まで諦めないものだ。",
+          "answers": [
+            "Vận động viên lẽ ra không bỏ cuộc đến cùng."
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "正月は親戚が集まったものだ。",
+          "answers": [
+            "Tết từng có họ hàng tụ họp."
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "教師は一人ひとりを大切にするものだ。",
+          "answers": [
+            "Giáo viên lẽ ra phải trân trọng từng học sinh."
+          ],
+          "hint": "〜ものだ（回想・理想）",
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-order-01",
+          "mode": "order",
+          "prompt": "Hồi nhỏ từng bắt cá sông.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "子供の頃は川で"
+            },
+            {
+              "id": "1",
+              "text": "魚を捕った"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ（回想・理想）",
+          "answers": [
+            "子供の頃は川で魚を捕ったものだのだ。"
+          ],
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-order-02",
+          "mode": "order",
+          "prompt": "Thầy lẽ ra là gương mẫu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "教師は生徒の"
+            },
+            {
+              "id": "1",
+              "text": "模範となる"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ（回想・理想）",
+          "answers": [
+            "教師は生徒の模範となるものだ。"
+          ],
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-order-03",
+          "mode": "order",
+          "prompt": "Đêm đông từng ngồi quanh lửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "冬の夜は囲炉裏を"
+            },
+            {
+              "id": "1",
+              "text": "囲んで話した"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ（回想・理想）",
+          "answers": [
+            "冬の夜は囲炉裏を囲んで話したものだのだ。"
+          ],
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-order-04",
+          "mode": "order",
+          "prompt": "Hồi học từng đạp xe đi học.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "学生時代は自転車で"
+            },
+            {
+              "id": "1",
+              "text": "通学した"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ（回想・理想）",
+          "answers": [
+            "学生時代は自転車で通学したものだ。"
+          ],
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-order-05",
+          "mode": "order",
+          "prompt": "Lãnh đạo lẽ ra chịu trách nhiệm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "指導者は責任を"
+            },
+            {
+              "id": "1",
+              "text": "取る"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ（回想・理想）",
+          "answers": [
+            "指導者は責任を取るものだ。"
+          ],
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-order-06",
+          "mode": "order",
+          "prompt": "Hồi bé từng nghe bà kể.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "幼い頃は祖母の"
+            },
+            {
+              "id": "1",
+              "text": "話を聞いた"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ（回想・理想）",
+          "answers": [
+            "幼い頃は祖母の話を聞いたものだ。"
+          ],
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-order-07",
+          "mode": "order",
+          "prompt": "Bạn lẽ ra giúp lúc khó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "友人は困った時に"
+            },
+            {
+              "id": "1",
+              "text": "支え合う"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ（回想・理想）",
+          "answers": [
+            "友人は困った時に支え合うものだ。"
+          ],
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-order-08",
+          "mode": "order",
+          "prompt": "Hè từng bơi ngoài biển.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "夏休みは海で"
+            },
+            {
+              "id": "1",
+              "text": "泳いだ"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ（回想・理想）",
+          "answers": [
+            "夏休みは海で泳いだものだ。"
+          ],
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-order-09",
+          "mode": "order",
+          "prompt": "Cha mẹ lẽ ra dõi con lớn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "親は子の成長を"
+            },
+            {
+              "id": "1",
+              "text": "見守る"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ（回想・理想）",
+          "answers": [
+            "親は子の成長を見守るものだ。"
+          ],
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g02-order-10",
+          "mode": "order",
+          "prompt": "Ngày mưa từng ở thư viện.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨の日は図書館で"
+            },
+            {
+              "id": "1",
+              "text": "過ごした"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ（回想・理想）",
+          "answers": [
+            "雨の日は図書館で過ごしたものだ。"
+          ],
+          "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l26-g03",
+      "title": "〜ないもの（だろう）か",
+      "meaning": "Không lẽ không… sao? / liệu có cách nào… không?",
+      "variants": [
+        "ないものか",
+        "ないものだろうか"
+      ],
+      "structures": [
+        "Vない ＋ ものか",
+        "Vない ＋ ものだろうか"
+      ],
+      "explanation": "ないもの（だろう）か bày tỏ mong muốn tìm cách làm được điều khó, hoặc nghi vấn cảm thán: không thể nào… sao? — thường mang hy vọng hoặc bất mãn nhẹ.",
+      "usage": "Ước tìm giải pháp: không lẽ không cứu được sao?; liệu không thể cải thiện sao?",
+      "cautions": [
+        "ものか／ものだろうか ở đây gắn Vない; sắc thái khác ものか phủ định mạnh kiểu ‘đâu có…’.",
+        "ものだろうか hơi mềm/văn viết hơn ものか."
+      ],
+      "contrast": "ないものか ≈ không lẽ không… được sao. Khác たいものだ (ước muốn trực tiếp) và だろうか nghi vấn thuần túy.",
+      "examples": [
+        {
+          "ja": "何とか彼を助けられないものだろうか。",
+          "reading": "なんとかかれをたすけられないものだろうか。",
+          "vi": "Không lẽ không có cách nào giúp anh ấy sao?",
+          "ruby": [
+            {
+              "text": "何",
+              "reading": "なん"
+            },
+            {
+              "text": "とか"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "けられないものだろうか。"
+            }
+          ]
+        },
+        {
+          "ja": "もう少し安くできないものか。",
+          "reading": "もうすこしやすくできないものか。",
+          "vi": "Không lẽ không thể rẻ hơn một chút sao?",
+          "ruby": [
+            {
+              "text": "もう"
+            },
+            {
+              "text": "少",
+              "reading": "すこ"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "くできないものか。"
+            }
+          ]
+        },
+        {
+          "ja": "この問題を解決できないものだろうか。",
+          "reading": "このもんだいをかいけつできないものだろうか。",
+          "vi": "Liệu không thể giải quyết vấn đề này sao?",
+          "ruby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "解決",
+              "reading": "かいけつ"
+            },
+            {
+              "text": "できないものだろうか。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 129,
+        "printedPage": 116,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-nai-mono-darou-ka-khong-the-sao-lieu-co-the-hay-khong-khong-co-cach-nao/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l26-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Không lẽ không thể hòa giải sao?",
+          "answers": [
+            "何とか仲直りできないものか。"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Liệu không thể rút ngắn thời gian sao?",
+          "answers": [
+            "もう少し時間を短縮できないものだろうか。"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Không lẽ không cứu được bệnh nhân sao?",
+          "answers": [
+            "患者を救えないものだろうか。"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Không thể cải thiện dịch vụ sao?",
+          "answers": [
+            "サービスを改善できないものか。"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Liệu không thể tránh xung đột sao?",
+          "answers": [
+            "衝突を避けられないものだろうか。"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Không lẽ không thuyết phục được sao?",
+          "answers": [
+            "彼を説得できないものか。"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Liệu không thể giảm chi phí sao?",
+          "answers": [
+            "コストを抑えられないものだろうか。"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Không thể tìm lại tài liệu sao?",
+          "answers": [
+            "書類を見つけられないものか。"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Liệu không thể đổi lịch sao?",
+          "answers": [
+            "日程を変更できないものだろうか。"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Không lẽ không bảo vệ môi trường sao?",
+          "answers": [
+            "環境を守れないものだろうか。"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "何とか間に合わせられないものか。",
+          "answers": [
+            "Không lẽ không kịp giờ sao?"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "被害を最小限にできないものだろうか。",
+          "answers": [
+            "Liệu không thể giảm thiệt hại tối thiểu sao?"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "もっと分かりやすく説明できないものか。",
+          "answers": [
+            "Không thể giải thích dễ hiểu hơn sao?"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "両者の意見をまとめられないものだろうか。",
+          "answers": [
+            "Liệu không thể gom ý kiến hai bên sao?"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "この機械を修理できないものか。",
+          "answers": [
+            "Không lẽ không sửa được máy này sao?"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "無駄を省けないものだろうか。",
+          "answers": [
+            "Liệu không thể cắt bỏ lãng phí sao?"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "子供たちに希望を与えられないものか。",
+          "answers": [
+            "Không thể trao hy vọng cho trẻ em sao?"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "交通事故を減らせないものだろうか。",
+          "answers": [
+            "Liệu không thể giảm tai nạn giao thông sao?"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "もっと早く知らせられないものか。",
+          "answers": [
+            "Không lẽ không báo sớm hơn sao?"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "公正な判断が下せないものだろうか。",
+          "answers": [
+            "Liệu không thể đưa ra phán đoán công bằng sao?"
+          ],
+          "hint": "〜ないもの（だろう）か",
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-order-01",
+          "mode": "order",
+          "prompt": "Không lẽ không giúp được anh ấy?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "何とか彼を"
+            },
+            {
+              "id": "1",
+              "text": "助けられない"
+            },
+            {
+              "id": "2",
+              "text": "ものだろう"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないもの（だろう）か",
+          "answers": [
+            "何とか彼を助けられないものだろうかのだ。"
+          ],
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-order-02",
+          "mode": "order",
+          "prompt": "Không thể rẻ hơn chút sao?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "もう少し安く"
+            },
+            {
+              "id": "1",
+              "text": "できない"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないもの（だろう）か",
+          "answers": [
+            "もう少し安くできないものかのだ。"
+          ],
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-order-03",
+          "mode": "order",
+          "prompt": "Liệu không giải quyết được sao?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この問題を"
+            },
+            {
+              "id": "1",
+              "text": "解決できない"
+            },
+            {
+              "id": "2",
+              "text": "ものだろう"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないもの（だろう）か",
+          "answers": [
+            "この問題を解決できないものだろうかのだ。"
+          ],
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-order-04",
+          "mode": "order",
+          "prompt": "Không lẽ không hòa giải được?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "仲直りできない"
+            },
+            {
+              "id": "1",
+              "text": "もの"
+            },
+            {
+              "id": "2",
+              "text": "か"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないもの（だろう）か",
+          "answers": [
+            "仲直りできないものか。"
+          ],
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-order-05",
+          "mode": "order",
+          "prompt": "Liệu không rút ngắn được giờ?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "時間を短縮できない"
+            },
+            {
+              "id": "1",
+              "text": "ものだろう"
+            },
+            {
+              "id": "2",
+              "text": "か"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないもの（だろう）か",
+          "answers": [
+            "時間を短縮できないものだろうか。"
+          ],
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-order-06",
+          "mode": "order",
+          "prompt": "Không cải thiện dịch vụ sao?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "サービスを"
+            },
+            {
+              "id": "1",
+              "text": "改善できない"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないもの（だろう）か",
+          "answers": [
+            "サービスを改善できないものか。"
+          ],
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-order-07",
+          "mode": "order",
+          "prompt": "Không thuyết phục được sao?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼を説得できない"
+            },
+            {
+              "id": "1",
+              "text": "もの"
+            },
+            {
+              "id": "2",
+              "text": "か"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないもの（だろう）か",
+          "answers": [
+            "彼を説得できないものか。"
+          ],
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-order-08",
+          "mode": "order",
+          "prompt": "Liệu không giảm chi phí sao?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "費用を抑えられない"
+            },
+            {
+              "id": "1",
+              "text": "ものだろう"
+            },
+            {
+              "id": "2",
+              "text": "か"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないもの（だろう）か",
+          "answers": [
+            "費用を抑えられないものだろうか。"
+          ],
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-order-09",
+          "mode": "order",
+          "prompt": "Không lẽ không kịp giờ sao?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "間に合わせられない"
+            },
+            {
+              "id": "1",
+              "text": "もの"
+            },
+            {
+              "id": "2",
+              "text": "か"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないもの（だろう）か",
+          "answers": [
+            "間に合わせられないものか。"
+          ],
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g03-order-10",
+          "mode": "order",
+          "prompt": "Liệu không giảm thiệt hại sao?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "被害を抑えられない"
+            },
+            {
+              "id": "1",
+              "text": "ものだろう"
+            },
+            {
+              "id": "2",
+              "text": "か"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないもの（だろう）か",
+          "answers": [
+            "被害を抑えられないものだろうか。"
+          ],
+          "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao? Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l26-g04",
+      "title": "〜ものがある",
+      "meaning": "Có điều gì đó… / mang cảm giác… (đánh giá cảm xúc)",
+      "variants": [
+        "ものがある"
+      ],
+      "structures": [
+        "普通形 ＋ ものがある",
+        "いAい ＋ ものがある",
+        "なAな ＋ ものがある"
+      ],
+      "explanation": "ものがある nêu cảm nhận chủ quan: trong sự việc/đối tượng có yếu tố khiến ta thấy cảm động, khó chịu, đáng nể… — đánh giá tinh tế hơn nhận xét phẳng.",
+      "usage": "Viết luận, nhận xét: có gì đó cảm động; có điểm đáng suy nghĩ; có vẻ khiên cưỡng.",
+      "cautions": [
+        "Thường đi với tính từ/động từ mang sắc thái đánh giá (感心・不満・不可解…).",
+        "Khác ものだ cảm thán chung; ものがある nhấn ‘có yếu tố/cảm giác ấy’."
+      ],
+      "contrast": "ものがある ≈ có điều gì đó khiến thấy…. Khác ものだ (hoài niệm/lý tưởng) và ことがある (có khi…).",
+      "examples": [
+        {
+          "ja": "彼の生き方には感心するものがある。",
+          "reading": "かれのいきかたにはかんしんするものがある。",
+          "vi": "Cách sống của anh ấy có điều gì đó đáng khâm phục.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "生",
+              "reading": "い"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "方",
+              "reading": "かた"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "感心",
+              "reading": "かんしん"
+            },
+            {
+              "text": "するものがある。"
+            }
+          ]
+        },
+        {
+          "ja": "その説明には納得できないものがある。",
+          "reading": "そのせつめいにはなっとくできないものがある。",
+          "vi": "Lời giải thích đó có điều gì khiến khó chấp nhận.",
+          "ruby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "納得",
+              "reading": "なっとく"
+            },
+            {
+              "text": "できないものがある。"
+            }
+          ]
+        },
+        {
+          "ja": "この小説には心を打つものがある。",
+          "reading": "このしょうせつにはこころをうつものがある。",
+          "vi": "Cuốn tiểu thuyết này có điều gì đụng đến lòng người.",
+          "ruby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "小説",
+              "reading": "しょうせつ"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "心",
+              "reading": "こころ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "打",
+              "reading": "う"
+            },
+            {
+              "text": "つものがある。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 129,
+        "printedPage": 116,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-mono-ga-aru-co-cam-giac-gi-do-co-nhung-cai-co-gi-do/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l26-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Bài phát biểu có điều cảm động.",
+          "answers": [
+            "彼のスピーチには感動するものがある。"
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Kế hoạch có điểm đáng nghi.",
+          "answers": [
+            "その計画には疑わしいものがある。"
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Tranh có vẻ sâu sắc.",
+          "answers": [
+            "この絵には深いものがある。"
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Thái độ đó có điều khó chịu.",
+          "answers": [
+            "あの態度には不快なものがある。"
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Câu chuyện có sức thuyết phục.",
+          "answers": [
+            "話には説得力のあるものがある。"
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Quyết định có vẻ vội vàng.",
+          "answers": [
+            "その決定には性急なものがある。"
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Ánh mắt có điều day dứt.",
+          "answers": [
+            "彼の目には悔しそうなものがある。"
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Báo cáo có điểm thiếu sót.",
+          "answers": [
+            "報告書には不十分なものがある。"
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Giai điệu có vẻ nhớ thương.",
+          "answers": [
+            "その旋律には懐かしいものがある。"
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chính sách có điều bất công.",
+          "answers": [
+            "政策には不公平なものがある。"
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼女の努力には見習うべきものがある。",
+          "answers": [
+            "Nỗ lực của cô ấy có điều đáng học hỏi."
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "その意見には一理あるものがある。",
+          "answers": [
+            "Ý kiến đó có phần hợp lý."
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "この写真には悲しいものがある。",
+          "answers": [
+            "Bức ảnh này có vẻ buồn."
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "上司の言葉には配慮が足りないものがある。",
+          "answers": [
+            "Lời sếp có điều thiếu tế nhị."
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "作品には独創性を感じるものがある。",
+          "answers": [
+            "Tác phẩm có điều gì mang tính độc đáo."
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "説明には曖昧なものがある。",
+          "answers": [
+            "Lời giải thích có vẻ mơ hồ."
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "彼の提案には魅力的なものがある。",
+          "answers": [
+            "Đề xuất của anh ấy có sức hấp dẫn."
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "現状には改善すべきものがある。",
+          "answers": [
+            "Hiện trạng còn chỗ cần cải thiện."
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "その光景には息をのむものがある。",
+          "answers": [
+            "Cảnh đó có điều khiến nín thở."
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "批判には耳を傾けるべきものがある。",
+          "answers": [
+            "Lời phê bình có điều đáng lắng nghe."
+          ],
+          "hint": "〜ものがある",
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-order-01",
+          "mode": "order",
+          "prompt": "Cách sống anh ấy đáng khâm phục.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼の生き方には"
+            },
+            {
+              "id": "1",
+              "text": "感心する"
+            },
+            {
+              "id": "2",
+              "text": "ものが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものがある",
+          "answers": [
+            "彼の生き方には感心するものがあるのだ。"
+          ],
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-order-02",
+          "mode": "order",
+          "prompt": "Giải thích khó chấp nhận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その説明には"
+            },
+            {
+              "id": "1",
+              "text": "納得できない"
+            },
+            {
+              "id": "2",
+              "text": "ものが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものがある",
+          "answers": [
+            "その説明には納得できないものがあるのだ。"
+          ],
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-order-03",
+          "mode": "order",
+          "prompt": "Tiểu thuyết đụng đến lòng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この小説には"
+            },
+            {
+              "id": "1",
+              "text": "心を打つ"
+            },
+            {
+              "id": "2",
+              "text": "ものが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものがある",
+          "answers": [
+            "この小説には心を打つものがあるのだ。"
+          ],
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-order-04",
+          "mode": "order",
+          "prompt": "Phát biểu có phần cảm động.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "スピーチには"
+            },
+            {
+              "id": "1",
+              "text": "感動する"
+            },
+            {
+              "id": "2",
+              "text": "ものが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものがある",
+          "answers": [
+            "スピーチには感動するものがある。"
+          ],
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-order-05",
+          "mode": "order",
+          "prompt": "Kế hoạch kia đáng nghi ngờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "計画には"
+            },
+            {
+              "id": "1",
+              "text": "疑わしい"
+            },
+            {
+              "id": "2",
+              "text": "ものが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものがある",
+          "answers": [
+            "計画には疑わしいものがある。"
+          ],
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-order-06",
+          "mode": "order",
+          "prompt": "Thái độ có vẻ khó chịu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "態度には"
+            },
+            {
+              "id": "1",
+              "text": "不快な"
+            },
+            {
+              "id": "2",
+              "text": "ものが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものがある",
+          "answers": [
+            "態度には不快なものがある。"
+          ],
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-order-07",
+          "mode": "order",
+          "prompt": "Quyết định có vẻ vội.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "決定には"
+            },
+            {
+              "id": "1",
+              "text": "性急な"
+            },
+            {
+              "id": "2",
+              "text": "ものが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものがある",
+          "answers": [
+            "決定には性急なものがある。"
+          ],
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-order-08",
+          "mode": "order",
+          "prompt": "Nỗ lực cô ấy đáng học.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力には"
+            },
+            {
+              "id": "1",
+              "text": "見習うべき"
+            },
+            {
+              "id": "2",
+              "text": "ものが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものがある",
+          "answers": [
+            "努力には見習うべきものがある。"
+          ],
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-order-09",
+          "mode": "order",
+          "prompt": "Ý kiến có phần hợp lý.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "意見には"
+            },
+            {
+              "id": "1",
+              "text": "一理ある"
+            },
+            {
+              "id": "2",
+              "text": "ものが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものがある",
+          "answers": [
+            "意見には一理あるものがある。"
+          ],
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g04-order-10",
+          "mode": "order",
+          "prompt": "Tác phẩm mang tính độc đáo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "作品には"
+            },
+            {
+              "id": "1",
+              "text": "独創性を感じる"
+            },
+            {
+              "id": "2",
+              "text": "ものが"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものがある",
+          "answers": [
+            "作品には独創性を感じるものがある。"
+          ],
+          "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l26-g05",
+      "title": "〜ことだ",
+      "meaning": "Thật là…! / quả là…! (cảm thán)",
+      "variants": [
+        "ことだ"
+      ],
+      "structures": [
+        "いAい ＋ ことだ",
+        "なAな ＋ ことだ",
+        "普通形 ＋ ことだ"
+      ],
+      "explanation": "ことだ cảm thán nhấn mạnh cảm xúc trước tính chất sự việc: thật đáng tiếc, thật đáng mừng, thật nguy hiểm… — khác nghĩa khuyên bảo ‘nên…’.",
+      "usage": "Than thở, khen/chê cảm xúc: thật đáng sợ; thật vui; thật tội nghiệp.",
+      "cautions": [
+        "Ở bài này là nghĩa cảm thán, không phải lời khuyên ことだ (nên làm…).",
+        "Thường đi với tính từ đánh giá (悲しい・嬉しい・恐ろしい・情けない…)."
+      ],
+      "contrast": "ことだ (cảm thán) ≈ thật là…! Khác ことだ khuyên bảo và ことだろう／ことか (cường điệu mức độ).",
+      "examples": [
+        {
+          "ja": "家族と長く離れるとは寂しいことだ。",
+          "reading": "かぞくとながくはなれるとはさびしいことだ。",
+          "vi": "Xa gia đình lâu thật là buồn.",
+          "ruby": [
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "長",
+              "reading": "なが"
+            },
+            {
+              "text": "く"
+            },
+            {
+              "text": "離",
+              "reading": "はな"
+            },
+            {
+              "text": "れるとは"
+            },
+            {
+              "text": "寂",
+              "reading": "さび"
+            },
+            {
+              "text": "しいことだ。"
+            }
+          ]
+        },
+        {
+          "ja": "努力が報われるとは嬉しいことだ。",
+          "reading": "どりょくがむくわれるとはうれしいことだ。",
+          "vi": "Nỗ lực được đền đáp thật là vui.",
+          "ruby": [
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "報",
+              "reading": "むく"
+            },
+            {
+              "text": "われるとは"
+            },
+            {
+              "text": "嬉",
+              "reading": "うれ"
+            },
+            {
+              "text": "しいことだ。"
+            }
+          ]
+        },
+        {
+          "ja": "夜道を一人で歩くとは危険なことだ。",
+          "reading": "よみちをひとりであるくとはきけんなことだ。",
+          "vi": "Đi một mình trên đường đêm thật nguy hiểm.",
+          "ruby": [
+            {
+              "text": "夜道",
+              "reading": "よみち"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "一人",
+              "reading": "ひとり"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "歩",
+              "reading": "ある"
+            },
+            {
+              "text": "くとは"
+            },
+            {
+              "text": "危険",
+              "reading": "きけん"
+            },
+            {
+              "text": "なことだ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 129,
+        "printedPage": 116,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-kotoda-cam-giac-that-la-that-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l26-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Thất bại lần nữa thật đáng tiếc.",
+          "answers": [
+            "再び失敗するとは残念なことだ。"
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Được gặp bạn cũ thật vui.",
+          "answers": [
+            "旧友に会えるとは嬉しいことだ。"
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Bỏ mặc người yếu thật tệ.",
+          "answers": [
+            "弱者を放置するとは情けないことだ。"
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Leo núi một mình thật liều.",
+          "answers": [
+            "一人で山に登るとは大胆なことだ。"
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Mất chìa khóa thật phiền.",
+          "answers": [
+            "鍵をなくすとは困ったことだ。"
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Được khen trước mọi người thật xấu hổ.",
+          "answers": [
+            "皆の前で褒められるとは恥ずかしいことだ。"
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Thiên tai đến bất ngờ thật khủng khiếp.",
+          "answers": [
+            "災害が突然襲うとは恐ろしいことだ。"
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Hoàn thành đúng hạn thật đáng khen.",
+          "answers": [
+            "期限内に仕上げるとは立派なことだ。"
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Quên lời hứa thật đáng trách.",
+          "answers": [
+            "約束を忘れるとは申し訳ないことだ。"
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nhìn con lớn lên thật cảm động.",
+          "answers": [
+            "子供の成長を見るとは感慨深いことだ。"
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "長年の夢が叶うとは喜ばしいことだ。",
+          "answers": [
+            "Giấc mơ nhiều năm thành hiện thực thật đáng mừng."
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "大切な書類を紛失するとは重大なことだ。",
+          "answers": [
+            "Làm mất giấy tờ quan trọng thật nghiêm trọng."
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "見知らぬ土地で迷子になるとは不安なことだ。",
+          "answers": [
+            "Lạc ở nơi lạ thật bất an."
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "誠実に生きるとは美しいことだ。",
+          "answers": [
+            "Sống chân thành thật đẹp."
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "助けを求めずに我慢するとは辛いことだ。",
+          "answers": [
+            "Nhịn không cầu cứu thật khổ."
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "突然の別れは悲しいことだ。",
+          "answers": [
+            "Chia tay đột ngột thật buồn."
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "嘘をつき通すとは恥ずかしいことだ。",
+          "answers": [
+            "Nói dối đến cùng thật xấu hổ."
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "困難に立ち向かうとは勇気あることだ。",
+          "answers": [
+            "Đối mặt khó khăn thật dũng cảm."
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "小さな親切は尊いことだ。",
+          "answers": [
+            "Sự tử tế nhỏ thật quý."
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "健康を損なうとは愚かなことだ。",
+          "answers": [
+            "Làm hại sức khỏe thật dại dột."
+          ],
+          "hint": "〜ことだ（感嘆）",
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-order-01",
+          "mode": "order",
+          "prompt": "Xa gia đình lâu thật buồn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "長く離れるとは"
+            },
+            {
+              "id": "1",
+              "text": "寂しい"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ（感嘆）",
+          "answers": [
+            "長く離れるとは寂しいことだ。"
+          ],
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-order-02",
+          "mode": "order",
+          "prompt": "Được đền đáp thật vui.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力が報われるとは"
+            },
+            {
+              "id": "1",
+              "text": "嬉しい"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ（感嘆）",
+          "answers": [
+            "努力が報われるとは嬉しいことだのだ。"
+          ],
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-order-03",
+          "mode": "order",
+          "prompt": "Đi đường đêm một mình nguy hiểm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "夜道を一人で歩くとは"
+            },
+            {
+              "id": "1",
+              "text": "危険な"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ（感嘆）",
+          "answers": [
+            "夜道を一人で歩くとは危険なことだのだ。"
+          ],
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-order-04",
+          "mode": "order",
+          "prompt": "Thất bại lại thật đáng tiếc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "再び失敗するとは"
+            },
+            {
+              "id": "1",
+              "text": "残念な"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ（感嘆）",
+          "answers": [
+            "再び失敗するとは残念なことだ。"
+          ],
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-order-05",
+          "mode": "order",
+          "prompt": "Gặp bạn cũ thật vui.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "旧友に会えるとは"
+            },
+            {
+              "id": "1",
+              "text": "嬉しい"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ（感嘆）",
+          "answers": [
+            "旧友に会えるとは嬉しいことだ。"
+          ],
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-order-06",
+          "mode": "order",
+          "prompt": "Bỏ mặc kẻ yếu thật đáng xấu hổ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "弱者を放置するとは"
+            },
+            {
+              "id": "1",
+              "text": "情けない"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ（感嘆）",
+          "answers": [
+            "弱者を放置するとは情けないことだ。"
+          ],
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-order-07",
+          "mode": "order",
+          "prompt": "Thiên tai bất ngờ thật đáng sợ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "災害が襲うとは"
+            },
+            {
+              "id": "1",
+              "text": "恐ろしい"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ（感嘆）",
+          "answers": [
+            "災害が襲うとは恐ろしいことだ。"
+          ],
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-order-08",
+          "mode": "order",
+          "prompt": "Giấc mơ thành hiện thực đáng mừng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "夢が叶うとは"
+            },
+            {
+              "id": "1",
+              "text": "喜ばしい"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ（感嘆）",
+          "answers": [
+            "夢が叶うとは喜ばしいことだ。"
+          ],
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-order-09",
+          "mode": "order",
+          "prompt": "Làm mất giấy tờ thật nghiêm trọng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "書類を紛失するとは"
+            },
+            {
+              "id": "1",
+              "text": "重大な"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ（感嘆）",
+          "answers": [
+            "書類を紛失するとは重大なことだ。"
+          ],
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g05-order-10",
+          "mode": "order",
+          "prompt": "Sống chân thành thật đẹp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "誠実に生きるとは"
+            },
+            {
+              "id": "1",
+              "text": "美しい"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ（感嘆）",
+          "answers": [
+            "誠実に生きるとは美しいことだ。"
+          ],
+          "explanation": "Câu cảm thán: 〜ことだ — thật là…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l26-g06",
+      "title": "〜ことだろう・〜ことか",
+      "meaning": "Biết bao… / biết chừng nào…! (cường điệu cảm thán)",
+      "variants": [
+        "ことだろう",
+        "ことか"
+      ],
+      "structures": [
+        "普通形 ＋ ことだろう",
+        "普通形 ＋ ことか"
+      ],
+      "explanation": "ことだろう／ことか cường điệu mức độ cảm xúc hoặc suy đoán cảm thán: biết bao vui, biết chừng nào vất vả — thường kèm どれほど・なんと・どれだけ.",
+      "usage": "Cảm thán mạnh hoặc đồng cảm: biết bao lo lắng; vất vả biết chừng nào.",
+      "cautions": [
+        "ことか thường kết thúc cảm thán mạnh; ことだろう hơi suy đoán/đồng cảm hơn.",
+        "Hay đi với どれほど／なんと／どんなに để nhấn mức độ."
+      ],
+      "contrast": "ことだろう／ことか ≈ biết bao…! Khác ことだ cảm thán ngắn và だろう nghi vấn thường.",
+      "examples": [
+        {
+          "ja": "家族はどれほど心配したことだろう。",
+          "reading": "かぞくはどれほどしんぱいしたことだろう。",
+          "vi": "Gia đình đã lo lắng biết bao.",
+          "ruby": [
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "はどれほど"
+            },
+            {
+              "text": "心配",
+              "reading": "しんぱい"
+            },
+            {
+              "text": "したことだろう。"
+            }
+          ]
+        },
+        {
+          "ja": "一人でどれだけ苦労したことか。",
+          "reading": "ひとりでどれだけくろうしたことか。",
+          "vi": "Một mình đã vất vả biết chừng nào.",
+          "ruby": [
+            {
+              "text": "一人",
+              "reading": "ひとり"
+            },
+            {
+              "text": "でどれだけ"
+            },
+            {
+              "text": "苦労",
+              "reading": "くろう"
+            },
+            {
+              "text": "したことか。"
+            }
+          ]
+        },
+        {
+          "ja": "合格を知った時、なんとうれしかったことか。",
+          "reading": "ごうかくをしったとき、なんとうれしかったことか。",
+          "vi": "Khi biết mình đỗ, vui biết bao.",
+          "ruby": [
+            {
+              "text": "合格",
+              "reading": "ごうかく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "った"
+            },
+            {
+              "text": "時",
+              "reading": "とき"
+            },
+            {
+              "text": "、なんと"
+            },
+            {
+              "text": "うれしかったことか。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 129,
+        "printedPage": 116,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-kotoka-that-la-cuc-ky-khong-biet-toi-co-nao/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l26-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Cha mẹ đã chờ đợi biết bao.",
+          "answers": [
+            "両親はどれほど待っていたことだろう。"
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy đã khóc biết chừng nào.",
+          "answers": [
+            "彼女はどれだけ泣いたことか。"
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy đã cố gắng biết bao.",
+          "answers": [
+            "彼はどんなに努力したことだろう。"
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đội đã thất vọng biết chừng nào.",
+          "answers": [
+            "チームはどれほど落胆したことか。"
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Trẻ em đã sợ hãi biết bao.",
+          "answers": [
+            "子供たちはなんと怖がったことだろう。"
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Bệnh nhân đã chịu đựng biết chừng nào.",
+          "answers": [
+            "患者はどれだけ耐えたことか。"
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Bạn đã vui mừng biết bao.",
+          "answers": [
+            "君はどんなに喜んだことだろう。"
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Họ đã mất mát biết chừng nào.",
+          "answers": [
+            "彼らはどれほど失ったことか。"
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Cô giáo đã tự hào biết bao.",
+          "answers": [
+            "先生はなんと誇らしかったことだろう。"
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chúng tôi đã hồi hộp biết chừng nào.",
+          "answers": [
+            "私たちはどれだけ緊張したことか。"
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "被災者はどれほど不安だったことだろう。",
+          "answers": [
+            "Nạn nhân đã bất an biết bao."
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "息子の成功に親はなんとうれしかったことか。",
+          "answers": [
+            "Cha mẹ vui vì con thành công biết chừng nào."
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "長い旅はどんなに疲れたことだろう。",
+          "answers": [
+            "Chuyến đi dài đã mệt biết bao."
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "誤解を解くのにどれだけ時間がかかったことか。",
+          "answers": [
+            "Gỡ hiểu lầm mất thời gian biết chừng nào."
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "初めての舞台はどれほど緊張したことだろう。",
+          "answers": [
+            "Sân khấu lần đầu hồi hộp biết bao."
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "友人の優しさにどれだけ救われたことか。",
+          "answers": [
+            "Được cứu nhờ lòng tốt bạn biết chừng nào."
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "別れの日はなんと悲しかったことだろう。",
+          "answers": [
+            "Ngày chia tay buồn biết bao."
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "完成までどれほど苦労したことか。",
+          "answers": [
+            "Đến lúc hoàn thành đã vất vả biết chừng nào."
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "知らせを聞いてどんなに驚いたことだろう。",
+          "answers": [
+            "Nghe tin đã ngạc nhiên biết bao."
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "静かな夜はどれだけ心が落ち着いたことか。",
+          "answers": [
+            "Đêm yên đã làm lòng dịu lại biết chừng nào."
+          ],
+          "hint": "〜ことだろう／ことか",
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-order-01",
+          "mode": "order",
+          "prompt": "Gia đình lo lắng biết bao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "家族はどれほど"
+            },
+            {
+              "id": "1",
+              "text": "心配した"
+            },
+            {
+              "id": "2",
+              "text": "ことだろう"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだろう／ことか",
+          "answers": [
+            "家族はどれほど心配したことだろうのだ。"
+          ],
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-order-02",
+          "mode": "order",
+          "prompt": "Một mình vất vả biết chừng nào.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一人でどれだけ"
+            },
+            {
+              "id": "1",
+              "text": "苦労した"
+            },
+            {
+              "id": "2",
+              "text": "ことか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだろう／ことか",
+          "answers": [
+            "一人でどれだけ苦労したことかのだ。"
+          ],
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-order-03",
+          "mode": "order",
+          "prompt": "Khi đỗ vui biết bao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "合格を知った時"
+            },
+            {
+              "id": "1",
+              "text": "なんとうれしかった"
+            },
+            {
+              "id": "2",
+              "text": "ことか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだろう／ことか",
+          "answers": [
+            "合格を知った時なんとうれしかったことか。"
+          ],
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-order-04",
+          "mode": "order",
+          "prompt": "Cha mẹ chờ biết bao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "両親はどれほど"
+            },
+            {
+              "id": "1",
+              "text": "待っていた"
+            },
+            {
+              "id": "2",
+              "text": "ことだろう"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだろう／ことか",
+          "answers": [
+            "両親はどれほど待っていたことだろう。"
+          ],
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-order-05",
+          "mode": "order",
+          "prompt": "Cô ấy khóc biết chừng nào.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼女はどれだけ"
+            },
+            {
+              "id": "1",
+              "text": "泣いた"
+            },
+            {
+              "id": "2",
+              "text": "ことか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだろう／ことか",
+          "answers": [
+            "彼女はどれだけ泣いたことか。"
+          ],
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-order-06",
+          "mode": "order",
+          "prompt": "Anh ấy cố biết bao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼はどんなに"
+            },
+            {
+              "id": "1",
+              "text": "努力した"
+            },
+            {
+              "id": "2",
+              "text": "ことだろう"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだろう／ことか",
+          "answers": [
+            "彼はどんなに努力したことだろう。"
+          ],
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-order-07",
+          "mode": "order",
+          "prompt": "Đội thất vọng biết chừng nào.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "チームはどれほど"
+            },
+            {
+              "id": "1",
+              "text": "落胆した"
+            },
+            {
+              "id": "2",
+              "text": "ことか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだろう／ことか",
+          "answers": [
+            "チームはどれほど落胆したことか。"
+          ],
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-order-08",
+          "mode": "order",
+          "prompt": "Nạn nhân bất an biết bao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "被災者はどれほど"
+            },
+            {
+              "id": "1",
+              "text": "不安だった"
+            },
+            {
+              "id": "2",
+              "text": "ことだろう"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだろう／ことか",
+          "answers": [
+            "被災者はどれほど不安だったことだろう。"
+          ],
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-order-09",
+          "mode": "order",
+          "prompt": "Chuyến đi dài mệt biết bao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "長い旅はどんなに"
+            },
+            {
+              "id": "1",
+              "text": "疲れた"
+            },
+            {
+              "id": "2",
+              "text": "ことだろう"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだろう／ことか",
+          "answers": [
+            "長い旅はどんなに疲れたことだろう。"
+          ],
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l26-g06-order-10",
+          "mode": "order",
+          "prompt": "Ngày chia tay buồn biết bao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "別れの日はなんと"
+            },
+            {
+              "id": "1",
+              "text": "悲しかった"
+            },
+            {
+              "id": "2",
+              "text": "ことだろう"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだろう／ことか",
+          "answers": [
+            "別れの日はなんと悲しかったことだろう。"
+          ],
+          "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…! Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+        }
+      ]
+    }
+  ]
+}

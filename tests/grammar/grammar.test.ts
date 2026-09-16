@@ -151,7 +151,8 @@ test("N2 canonical inventory has 141 unique group IDs and matches manifest", () 
       g.matchStatus === "full-match" || g.matchStatus === "partial-match",
       g.groupId,
     );
-    assert.equal(g.contentStatus, "not-imported", g.groupId);
+    assert.equal(g.contentStatus, "imported", g.groupId);
+    assert.equal(g.reviewStatus, "agent_reviewed", g.groupId);
   }
   assert.equal(
     inventory.groups.filter(
@@ -169,20 +170,24 @@ test("N2 canonical inventory has 141 unique group IDs and matches manifest", () 
 });
 
 test("N2 multi-lesson loader loads published content only", () => {
-  assert.equal(lessonsById.size, 20);
+  assert.equal(lessonsById.size, 26);
   assert.equal(getLesson("lesson-01")?.id, "lesson-01");
   assert.equal(getLesson("lesson-02")?.id, "lesson-02");
   assert.equal(getLesson("lesson-10")?.id, "lesson-10");
   assert.equal(getLesson("lesson-15")?.id, "lesson-15");
   assert.equal(getLesson("lesson-20")?.id, "lesson-20");
-  assert.equal(getLesson("lesson-21"), undefined);
+  assert.equal(getLesson("lesson-26")?.id, "lesson-26");
   assert.equal(isLessonPublished("lesson-01"), true);
   assert.equal(isLessonPublished("lesson-02"), true);
   assert.equal(isLessonPublished("lesson-10"), true);
   assert.equal(isLessonPublished("lesson-15"), true);
   assert.equal(isLessonPublished("lesson-20"), true);
-  assert.equal(isLessonPublished("lesson-21"), false);
-  assert.equal(allPatterns().length, 105);
+  assert.equal(isLessonPublished("lesson-26"), true);
+  assert.equal(
+    manifest.lessons.every((l) => l.published),
+    true,
+  );
+  assert.equal(allPatterns().length, 141);
   assert.ok(allPatterns().some((p) => p.id === "sai"));
   assert.ok(allPatterns().some((p) => p.id === "l02-g01"));
   assert.ok(allPatterns().some((p) => p.id === "l05-g04"));
@@ -192,6 +197,8 @@ test("N2 multi-lesson loader loads published content only", () => {
   assert.ok(allPatterns().some((p) => p.id === "l15-g06"));
   assert.ok(allPatterns().some((p) => p.id === "l16-g01"));
   assert.ok(allPatterns().some((p) => p.id === "l20-g06"));
+  assert.ok(allPatterns().some((p) => p.id === "l21-g01"));
+  assert.ok(allPatterns().some((p) => p.id === "l26-g06"));
   for (const entry of manifest.lessons) {
     if (entry.published) assert.ok(getLesson(entry.id), entry.id);
     else assert.equal(getLesson(entry.id), undefined, entry.id);
@@ -336,33 +343,16 @@ test("N2 Lesson 1 golden template validators (examples, 10/10/10, origin, hints)
   assert.notEqual(normalizeTranslation("có"), normalizeTranslation("co"));
 });
 
-test("N2 Lessons 2–20 published groups meet golden DoD (10/10/10, origin, examples)", () => {
-  const batch = [
-    "lesson-02",
-    "lesson-03",
-    "lesson-04",
-    "lesson-05",
-    "lesson-06",
-    "lesson-07",
-    "lesson-08",
-    "lesson-09",
-    "lesson-10",
-    "lesson-11",
-    "lesson-12",
-    "lesson-13",
-    "lesson-14",
-    "lesson-15",
-    "lesson-16",
-    "lesson-17",
-    "lesson-18",
-    "lesson-19",
-    "lesson-20",
-  ].map((id) => getLesson(id)!);
-  assert.equal(batch.length, 19);
+test("N2 Lessons 2–26 published groups meet golden DoD (10/10/10, origin, examples)", () => {
+  const batch = [];
+  for (let n = 2; n <= 26; n++) {
+    batch.push(getLesson("lesson-" + String(n).padStart(2, "0"))!);
+  }
+  assert.equal(batch.length, 25);
   const all = batch.flatMap((l) => l.patterns.flatMap((p) => p.exercises));
-  assert.equal(all.length, 3000);
-  assert.equal(new Set(all.map((q) => q.id)).size, 3000);
-  assert.equal(new Set(all.map((q) => q.prompt)).size, 3000);
+  assert.equal(all.length, 4080);
+  assert.equal(new Set(all.map((q) => q.id)).size, 4080);
+  assert.equal(new Set(all.map((q) => q.prompt)).size, 4080);
   for (const l of batch) {
     assert.equal(l.revision, 1, l.id);
     for (const p of l.patterns) {
@@ -450,12 +440,12 @@ test("grammar ownership, resume, conflict, reveal, completion, XP and FSRS idemp
   assert.equal((await request("/grammar/courses/n2")).status, 401);
   const course = await call("/grammar/courses/n2");
   assert.equal(course.status, 200);
-  assert.equal(course.data.publishedGroups, 105);
-  assert.equal(course.data.publishedExercises, 3150);
+  assert.equal(course.data.publishedGroups, 141);
+  assert.equal(course.data.publishedExercises, 4230);
   assert.equal(course.data.targetGroups, 141);
   assert.equal(course.data.progressDenominator, 141);
   assert.equal(course.data.progressDenominator, course.data.targetGroups);
-  assert.notEqual(course.data.progressDenominator, course.data.publishedGroups);
+  assert.equal(course.data.progressDenominator, course.data.publishedGroups);
   assert.equal(course.data.read, 0);
   assert.equal(course.data.practiced, 0);
   const markRead = await call("/grammar/patterns/sai/progress", "PUT");
@@ -473,9 +463,9 @@ test("grammar ownership, resume, conflict, reveal, completion, XP and FSRS idemp
     new Date().toISOString(),
   );
   assert.equal((await call("/grammar/courses/n2")).data.read, 1);
-  const unpublished = await call("/grammar/lessons/lesson-21");
-  assert.equal(unpublished.status, 404);
-  assert.match(unpublished.data.error, /biên soạn/);
+  const publishedL26 = await call("/grammar/lessons/lesson-26");
+  assert.equal(publishedL26.status, 200);
+  assert.equal(publishedL26.data.patterns.length, 6);
   const unknownLesson = await call("/grammar/lessons/lesson-99");
   assert.equal(unknownLesson.status, 404);
   const publishedLesson = await call("/grammar/lessons/lesson-01");
@@ -676,7 +666,7 @@ test("grammar migration, restart and backup restore preserve user data and conte
           .prepare("SELECT count(*) n FROM grammar_content_revisions")
           .get() as { n: number }
       ).n,
-      105,
+      141,
     );
     assert.equal(db.pragma("integrity_check", { simple: true }), "ok");
     const restoredPath = join(dir, "restored.sqlite");
@@ -698,7 +688,7 @@ test("grammar migration, restart and backup restore preserve user data and conte
           .prepare("SELECT count(*) n FROM grammar_content_revisions")
           .get() as { n: number }
       ).n,
-      105,
+      141,
     );
     restored.close();
   } finally {

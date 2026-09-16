@@ -1,0 +1,5179 @@
+{
+  "id": "lesson-23",
+  "titleJa": "感想・判断",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 23. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L21-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l23-g01",
+      "title": "〜ものだ",
+      "meaning": "Vốn là… / lẽ thường là… / thật là… (cảm thán, bản chất)",
+      "variants": [
+        "ものだ",
+        "もんだ"
+      ],
+      "structures": [
+        "普通形 ＋ ものだ／もんだ",
+        "いAい ＋ ものだ",
+        "なAな ＋ ものだ"
+      ],
+      "explanation": "ものだ nêu bản chất/lẽ thường của sự việc, hoặc cảm thán mạnh (ngạc nhiên, xúc động) trước sự thật; khẩu ngữ thường thành もんだ.",
+      "usage": "Nhận định chung: người ta vốn…; cảm thán: thời gian trôi thật nhanh.",
+      "cautions": [
+        "Khác nghĩa khuyên bảo ものだ／ものではない ở bài 24 (nên/không nên).",
+        "もんだ thân mật hơn; văn viết thường giữ ものだ."
+      ],
+      "contrast": "ものだ (bài 23) ≈ vốn/lẽ thường/cảm thán. Khác というものだ (định nghĩa ‘đúng là…’) và べきだ (nghĩa vụ).",
+      "examples": [
+        {
+          "ja": "人の心は変わりやすいものだ。",
+          "reading": "ひとのこころはかわりやすいものだ。",
+          "vi": "Lòng người vốn dễ thay đổi.",
+          "ruby": [
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "心",
+              "reading": "こころ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わりやすいものだ。"
+            }
+          ]
+        },
+        {
+          "ja": "子供の成長は早いものだ。",
+          "reading": "こどものせいちょうははやいものだ。",
+          "vi": "Trẻ con lớn lên thật nhanh.",
+          "ruby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "成長",
+              "reading": "せいちょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "早",
+              "reading": "はや"
+            },
+            {
+              "text": "いものだ。"
+            }
+          ]
+        },
+        {
+          "ja": "若い頃はよく徹夜したものだ。",
+          "reading": "わかいころはよくてつやしたものだ。",
+          "vi": "Hồi trẻ tôi từng thức trắng đêm nhiều.",
+          "ruby": [
+            {
+              "text": "若",
+              "reading": "わか"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "頃",
+              "reading": "ころ"
+            },
+            {
+              "text": "はよく"
+            },
+            {
+              "text": "徹夜",
+              "reading": "てつや"
+            },
+            {
+              "text": "したものだ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 117,
+        "printedPage": 104,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-mono-da-mono-de-wa-nai-duong-nhien-ban-chat-la-nen-khong-nen-hoi-con-khi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l23-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Tiền bạc vốn dễ hết.",
+          "answers": [
+            "お金はすぐになくなるものだ。"
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Thời gian trôi thật nhanh.",
+          "answers": [
+            "時間が経つのは早いものだ。"
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Người ta dễ quên ơn cũ.",
+          "answers": [
+            "人は恩を忘れやすいものだ。"
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Càng lớn càng nhớ quê.",
+          "answers": [
+            "年を取るほど故郷が恋しいものだ。"
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Công việc mới vốn mệt.",
+          "answers": [
+            "新しい仕事は疲れるものだ。"
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Hồi học hay đọc sách đêm.",
+          "answers": [
+            "学生の頃は夜遅くまで本を読んだものだ。"
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Mưa mùa này vốn bất ngờ.",
+          "answers": [
+            "この季節の雨は突然降るものだ。"
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Trẻ con vốn thích hỏi.",
+          "answers": [
+            "子供は何でも聞きたがるものだ。"
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Thất bại vốn dạy người ta.",
+          "answers": [
+            "失敗は人を成長させるものだ。"
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nghe nhạc cũ thấy xúc động.",
+          "answers": [
+            "昔の曲を聞くと懐かしいものだ。"
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "習慣は簡単には変わらないものだ。",
+          "answers": [
+            "Thói quen vốn không dễ đổi."
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "約束は守るべきものだと分かる。",
+          "answers": [
+            "Tôi hiểu lời hứa vốn phải giữ."
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "一人暮らしは寂しいものだ。",
+          "answers": [
+            "Sống một mình vốn cô đơn."
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "成功の裏には努力があるものだ。",
+          "answers": [
+            "Sau thành công vốn có nỗ lực."
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "言葉は時に人を傷つけるものだ。",
+          "answers": [
+            "Lời nói đôi khi vốn làm tổn thương."
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "若い頃は無茶をしたものだ。",
+          "answers": [
+            "Hồi trẻ từng làm liều."
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "季節の変わり目は体調を崩しやすいものだ。",
+          "answers": [
+            "Giao mùa vốn dễ ốm."
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "親の気持ちは後から分かるものだ。",
+          "answers": [
+            "Lòng cha mẹ vốn hiểu muộn."
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "初めての挑戦は不安なものだ。",
+          "answers": [
+            "Thử lần đầu vốn bất an."
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "美しい景色は心を穏やかにするものだ。",
+          "answers": [
+            "Cảnh đẹp vốn làm lòng dịu lại."
+          ],
+          "hint": "〜ものだ",
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-order-01",
+          "mode": "order",
+          "prompt": "Lòng người vốn dễ đổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "人の心は"
+            },
+            {
+              "id": "1",
+              "text": "変わりやすい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ",
+          "answers": [
+            "人の心は変わりやすいものだのだ。"
+          ],
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-order-02",
+          "mode": "order",
+          "prompt": "Trẻ lớn lên thật nhanh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "子供の成長は"
+            },
+            {
+              "id": "1",
+              "text": "早い"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ",
+          "answers": [
+            "子供の成長は早いものだのだ。"
+          ],
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-order-03",
+          "mode": "order",
+          "prompt": "Hồi trẻ hay thức trắng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "若い頃はよく"
+            },
+            {
+              "id": "1",
+              "text": "徹夜した"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ",
+          "answers": [
+            "若い頃はよく徹夜したものだのだ。"
+          ],
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-order-04",
+          "mode": "order",
+          "prompt": "Tiền vốn mau hết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "お金はすぐに"
+            },
+            {
+              "id": "1",
+              "text": "なくなる"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ",
+          "answers": [
+            "お金はすぐになくなるものだ。"
+          ],
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-order-05",
+          "mode": "order",
+          "prompt": "Thời gian trôi nhanh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "時間が経つのは"
+            },
+            {
+              "id": "1",
+              "text": "早い"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ",
+          "answers": [
+            "時間が経つのは早いものだ。"
+          ],
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-order-06",
+          "mode": "order",
+          "prompt": "Người dễ quên ơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "人は恩を"
+            },
+            {
+              "id": "1",
+              "text": "忘れやすい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ",
+          "answers": [
+            "人は恩を忘れやすいものだ。"
+          ],
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-order-07",
+          "mode": "order",
+          "prompt": "Thất bại dạy người.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失敗は人を"
+            },
+            {
+              "id": "1",
+              "text": "成長させる"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ",
+          "answers": [
+            "失敗は人を成長させるものだ。"
+          ],
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-order-08",
+          "mode": "order",
+          "prompt": "Sống một mình cô đơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一人暮らしは"
+            },
+            {
+              "id": "1",
+              "text": "寂しい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ",
+          "answers": [
+            "一人暮らしは寂しいものだ。"
+          ],
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-order-09",
+          "mode": "order",
+          "prompt": "Giao mùa dễ ốm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "季節の変わり目は"
+            },
+            {
+              "id": "1",
+              "text": "体調を崩しやすい"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ",
+          "answers": [
+            "季節の変わり目は体調を崩しやすいものだ。"
+          ],
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g01-order-10",
+          "mode": "order",
+          "prompt": "Thử lần đầu bất an.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "初めての挑戦は"
+            },
+            {
+              "id": "1",
+              "text": "不安な"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ",
+          "answers": [
+            "初めての挑戦は不安なものだ。"
+          ],
+          "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l23-g02",
+      "title": "〜というものだ",
+      "meaning": "Đúng là… / thế mới gọi là… / thật sự là…",
+      "variants": [
+        "というものだ"
+      ],
+      "structures": [
+        "普通形 ＋ というものだ",
+        "N ＋ というものだ"
+      ],
+      "explanation": "というものだ khẳng định đánh giá: đó mới đúng là bản chất/định nghĩa của việc đó, thường mang sắc thái khen hoặc nhấn mạnh.",
+      "usage": "Kết luận nhận định: giúp người khác mới đúng là bạn; đó mới gọi là trách nhiệm.",
+      "cautions": [
+        "Khác ものだ cảm thán chung; というものだ nhấn ‘định nghĩa/đúng nghĩa là…’.",
+        "Thường ở cuối câu nhận định chắc chắn, ít dùng hỏi."
+      ],
+      "contrast": "というものだ ≈ đúng là / thế mới gọi là. Khác にほかならない (chính là, không gì khác) và にすぎない (chỉ là).",
+      "examples": [
+        {
+          "ja": "困った時こそ助け合うというのが友情というものだ。",
+          "reading": "こまったときこそたすけあうというのがゆうじょうというものだ。",
+          "vi": "Lúc khó khăn mới giúp nhau — đó mới gọi là tình bạn.",
+          "ruby": [
+            {
+              "text": "困",
+              "reading": "こま"
+            },
+            {
+              "text": "った"
+            },
+            {
+              "text": "時",
+              "reading": "とき"
+            },
+            {
+              "text": "こそ"
+            },
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "け合うというのが"
+            },
+            {
+              "text": "友情",
+              "reading": "ゆうじょう"
+            },
+            {
+              "text": "というものだ。"
+            }
+          ]
+        },
+        {
+          "ja": "約束を守るというのが社会人というものだ。",
+          "reading": "やくそくをまもるというのがしゃかいじんというものだ。",
+          "vi": "Giữ lời hứa — đó mới đúng là người đi làm.",
+          "ruby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "るというのが"
+            },
+            {
+              "text": "社会人",
+              "reading": "しゃかいじん"
+            },
+            {
+              "text": "というものだ。"
+            }
+          ]
+        },
+        {
+          "ja": "努力が報われるというのは喜びというものだ。",
+          "reading": "どりょくがむくわれるというのはよろこびというものだ。",
+          "vi": "Nỗ lực được đền đáp — đó mới là niềm vui.",
+          "ruby": [
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "報",
+              "reading": "むく"
+            },
+            {
+              "text": "われるというのは"
+            },
+            {
+              "text": "喜",
+              "reading": "よろこ"
+            },
+            {
+              "text": "びというものだ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 117,
+        "printedPage": 104,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-to-iu-mono-da-that-la-dung-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l23-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Biết xin lỗi mới đúng là trưởng thành.",
+          "answers": [
+            "過ちを認めるというのが大人というものだ。"
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Chia sẻ khó khăn mới là đồng đội.",
+          "answers": [
+            "苦楽を共にするというのが仲間というものだ。"
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Giữ bí mật mới đúng là tin cậy.",
+          "answers": [
+            "秘密を守るというのが信頼というものだ。"
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Lắng nghe ý kiến mới là lãnh đạo.",
+          "answers": [
+            "部下の声を聞くというのが上司というものだ。"
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Hoàn thành đúng hạn mới là trách nhiệm.",
+          "answers": [
+            "期限を守るというのが責任というものだ。"
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Giúp người yếu mới là lòng tốt.",
+          "answers": [
+            "弱い人を助けるというのが優しさというものだ。"
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Học từ thất bại mới là tiến bộ.",
+          "answers": [
+            "失敗から学ぶというのが成長というものだ。"
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nói thật dù khó mới là thành thật.",
+          "answers": [
+            "言いづらいことも話すというのが正直というものだ。"
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Tôn trọng khác biệt mới là khoan dung.",
+          "answers": [
+            "違いを認めるというのが寛容というものだ。"
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chuẩn bị kỹ mới là chuyên nghiệp.",
+          "answers": [
+            "準備を怠らないというのがプロというものだ。"
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "感謝を伝えるというのが礼儀というものだ。",
+          "answers": [
+            "Bày tỏ biết ơn — đó mới là lễ độ."
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "相手の立場で考えるというのが思いやりというものだ。",
+          "answers": [
+            "Nghĩ theo phía đối phương — đó mới là quan tâm."
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "約束の時間に来るというのが常識というものだ。",
+          "answers": [
+            "Đến đúng giờ hẹn — đó mới là lẽ thường."
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "最後まで諦めないというのが根性というものだ。",
+          "answers": [
+            "Không bỏ cuộc đến cùng — đó mới là bản lĩnh."
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "公平に扱うというのが正義というものだ。",
+          "answers": [
+            "Đối xử công bằng — đó mới là công lý."
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "自分の言葉に責任を持つというのが誠実というものだ。",
+          "answers": [
+            "Chịu trách nhiệm lời mình — đó mới là chân thành."
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "困っている人に手を貸すというのが親切というものだ。",
+          "answers": [
+            "Đưa tay giúp người khó — đó mới là tốt bụng."
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "事実に基づいて話すというのが誠実さというものだ。",
+          "answers": [
+            "Nói dựa trên sự thật — đó mới là thành thật."
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "チームのために動くというのが協力というものだ。",
+          "answers": [
+            "Hành động vì đội — đó mới là hợp tác."
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "小さな改善を重ねるというのが工夫というものだ。",
+          "answers": [
+            "Gom cải tiến nhỏ — đó mới là sáng tạo."
+          ],
+          "hint": "〜というものだ",
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-order-01",
+          "mode": "order",
+          "prompt": "Giúp nhau lúc khó mới là bạn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "助け合うというのが"
+            },
+            {
+              "id": "1",
+              "text": "友情"
+            },
+            {
+              "id": "2",
+              "text": "というもの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜というものだ",
+          "answers": [
+            "助け合うというのが友情というものだ。"
+          ],
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-order-02",
+          "mode": "order",
+          "prompt": "Giữ lời mới là người đi làm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "約束を守るというのが"
+            },
+            {
+              "id": "1",
+              "text": "社会人"
+            },
+            {
+              "id": "2",
+              "text": "というもの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜というものだ",
+          "answers": [
+            "約束を守るというのが社会人というものだのだ。"
+          ],
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-order-03",
+          "mode": "order",
+          "prompt": "Nỗ lực được đền là vui.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力が報われるというのは"
+            },
+            {
+              "id": "1",
+              "text": "喜び"
+            },
+            {
+              "id": "2",
+              "text": "というもの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜というものだ",
+          "answers": [
+            "努力が報われるというのは喜びというものだのだ。"
+          ],
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-order-04",
+          "mode": "order",
+          "prompt": "Xin lỗi mới là trưởng thành.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "過ちを認めるというのが"
+            },
+            {
+              "id": "1",
+              "text": "大人"
+            },
+            {
+              "id": "2",
+              "text": "というもの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜というものだ",
+          "answers": [
+            "過ちを認めるというのが大人というものだ。"
+          ],
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-order-05",
+          "mode": "order",
+          "prompt": "Giữ bí mật mới là tin cậy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "秘密を守るというのが"
+            },
+            {
+              "id": "1",
+              "text": "信頼"
+            },
+            {
+              "id": "2",
+              "text": "というもの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜というものだ",
+          "answers": [
+            "秘密を守るというのが信頼というものだ。"
+          ],
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-order-06",
+          "mode": "order",
+          "prompt": "Đúng hạn mới là trách nhiệm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "期限を守るというのが"
+            },
+            {
+              "id": "1",
+              "text": "責任"
+            },
+            {
+              "id": "2",
+              "text": "というもの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜というものだ",
+          "answers": [
+            "期限を守るというのが責任というものだ。"
+          ],
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-order-07",
+          "mode": "order",
+          "prompt": "Học từ sai mới là tiến bộ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失敗から学ぶというのが"
+            },
+            {
+              "id": "1",
+              "text": "成長"
+            },
+            {
+              "id": "2",
+              "text": "というもの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜というものだ",
+          "answers": [
+            "失敗から学ぶというのが成長というものだ。"
+          ],
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-order-08",
+          "mode": "order",
+          "prompt": "Bày tỏ ơn mới là lễ độ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "感謝を伝えるというのが"
+            },
+            {
+              "id": "1",
+              "text": "礼儀"
+            },
+            {
+              "id": "2",
+              "text": "というもの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜というものだ",
+          "answers": [
+            "感謝を伝えるというのが礼儀というものだ。"
+          ],
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-order-09",
+          "mode": "order",
+          "prompt": "Đến đúng giờ mới là lẽ thường.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "約束の時間に来るというのが"
+            },
+            {
+              "id": "1",
+              "text": "常識"
+            },
+            {
+              "id": "2",
+              "text": "というもの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜というものだ",
+          "answers": [
+            "約束の時間に来るというのが常識というものだ。"
+          ],
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g02-order-10",
+          "mode": "order",
+          "prompt": "Không bỏ cuộc mới là bản lĩnh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "最後まで諦めないというのが"
+            },
+            {
+              "id": "1",
+              "text": "根性"
+            },
+            {
+              "id": "2",
+              "text": "というもの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜というものだ",
+          "answers": [
+            "最後まで諦めないというのが根性というものだ。"
+          ],
+          "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l23-g03",
+      "title": "〜にすぎない",
+      "meaning": "Chỉ là… / chẳng qua là… (không hơn thế)",
+      "variants": [
+        "にすぎない",
+        "に過ぎない"
+      ],
+      "structures": [
+        "N ＋ にすぎない",
+        "普通形 ＋ にすぎない",
+        "N ＋ に過ぎない"
+      ],
+      "explanation": "にすぎない／に過ぎない hạ thấp mức độ: chỉ là A thôi, không đáng kể hoặc không phải điều lớn lao hơn.",
+      "usage": "Khiêm tốn hoặc phủ định phóng đại: đó chỉ là ý kiến cá nhân; chỉ là sơ suất nhỏ.",
+      "cautions": [
+        "すぎない và 過ぎない cùng nghĩa; kanji 過ぎ thường trong văn viết.",
+        "Khác だけ (chỉ) ở chỗ nhấn ‘không hơn mức đó / đánh giá thấp’."
+      ],
+      "contrast": "にすぎない ≈ chỉ là / chẳng qua. Đối lập にほかならない (chính là, không gì khác).",
+      "examples": [
+        {
+          "ja": "これは私の個人的な意見にすぎない。",
+          "reading": "これはわたしのこじんてきないけんにすぎない。",
+          "vi": "Đây chỉ là ý kiến cá nhân của tôi.",
+          "ruby": [
+            {
+              "text": "これは"
+            },
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "個人的",
+              "reading": "こじんてき"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "にすぎない。"
+            }
+          ]
+        },
+        {
+          "ja": "彼はまだ新人にすぎない。",
+          "reading": "かれはまだしんじんにすぎない。",
+          "vi": "Anh ấy vẫn chỉ là người mới.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "はまだ"
+            },
+            {
+              "text": "新人",
+              "reading": "しんじん"
+            },
+            {
+              "text": "にすぎない。"
+            }
+          ]
+        },
+        {
+          "ja": "今回のミスは不注意にすぎない。",
+          "reading": "こんかいのみすはふちゅういにすぎない。",
+          "vi": "Lỗi lần này chẳng qua là bất cẩn.",
+          "ruby": [
+            {
+              "text": "今回",
+              "reading": "こんかい"
+            },
+            {
+              "text": "のミスは"
+            },
+            {
+              "text": "不注意",
+              "reading": "ふちゅうい"
+            },
+            {
+              "text": "にすぎない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 117,
+        "printedPage": 104,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-ni-suginai-chi-la-chi-don-gian-la-chi-la-khong-hon-khong-kem/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l23-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Đó chỉ là tin đồn thôi.",
+          "answers": [
+            "それは噂にすぎない。"
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tôi chỉ là sinh viên thôi.",
+          "answers": [
+            "私は学生にすぎない。"
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Số tiền đó chỉ là tạm ứng.",
+          "answers": [
+            "その金額は前払いにすぎない。"
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đây chỉ là bản nháp.",
+          "answers": [
+            "これは下書きにすぎない。"
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy chỉ là khách mời.",
+          "answers": [
+            "彼は来賓にすぎない。"
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Đó chỉ là hiểu nhầm nhỏ.",
+          "answers": [
+            "それは小さな誤解にすぎない。"
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Tôi chỉ biết sơ thôi.",
+          "answers": [
+            "私は少し知っているにすぎない。"
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Thành công đó chỉ là may mắn.",
+          "answers": [
+            "その成功は幸運にすぎない。"
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Đây chỉ là bước đầu.",
+          "answers": [
+            "これは第一歩にすぎない。"
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Lời khen đó chỉ là xã giao.",
+          "answers": [
+            "その褒め言葉は社交辞令にすぎない。"
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼の説明は言い訳にすぎない。",
+          "answers": [
+            "Lời giải thích của anh chỉ là biện hộ."
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "今回の結果は偶然にすぎない。",
+          "answers": [
+            "Kết quả lần này chẳng qua là tình cờ."
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "私にできるのは手伝うことにすぎない。",
+          "answers": [
+            "Tôi chỉ có thể giúp một chút thôi."
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "その計画は机上の空論にすぎない。",
+          "answers": [
+            "Kế hoạch đó chỉ là lý thuyết suông."
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "彼は形式上の責任者にすぎない。",
+          "answers": [
+            "Anh ấy chỉ là người chịu trách nhiệm trên danh nghĩa."
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "この症状は風邪の初期にすぎない。",
+          "answers": [
+            "Triệu chứng này chỉ là giai đoạn đầu của cảm."
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "私の役割は連絡係にすぎない。",
+          "answers": [
+            "Vai trò của tôi chỉ là người liên lạc."
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "その差は誤差にすぎない。",
+          "answers": [
+            "Chênh lệch đó chỉ là sai số."
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "彼の反対は感情的なものにすぎない。",
+          "answers": [
+            "Phản đối của anh chỉ là cảm tính."
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "今の蓄えはわずかなお金にすぎない。",
+          "answers": [
+            "Tiền tiết kiệm hiện chỉ là số nhỏ."
+          ],
+          "hint": "〜にすぎない",
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-order-01",
+          "mode": "order",
+          "prompt": "Đây chỉ là ý kiến cá nhân.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "これは私の"
+            },
+            {
+              "id": "1",
+              "text": "個人的な意見に"
+            },
+            {
+              "id": "2",
+              "text": "すぎない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にすぎない",
+          "answers": [
+            "これは私の個人的な意見にすぎないのだ。"
+          ],
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-order-02",
+          "mode": "order",
+          "prompt": "Anh ấy vẫn chỉ là người mới. （luyện）",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼はまだ"
+            },
+            {
+              "id": "1",
+              "text": "新人に"
+            },
+            {
+              "id": "2",
+              "text": "すぎない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にすぎない",
+          "answers": [
+            "彼はまだ新人にすぎないのだ。"
+          ],
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-order-03",
+          "mode": "order",
+          "prompt": "Lỗi lần này chỉ bất cẩn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今回のミスは"
+            },
+            {
+              "id": "1",
+              "text": "不注意に"
+            },
+            {
+              "id": "2",
+              "text": "すぎない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にすぎない",
+          "answers": [
+            "今回のミスは不注意にすぎないのだ。"
+          ],
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-order-04",
+          "mode": "order",
+          "prompt": "Đó chỉ là tin đồn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "それは"
+            },
+            {
+              "id": "1",
+              "text": "噂に"
+            },
+            {
+              "id": "2",
+              "text": "すぎない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にすぎない",
+          "answers": [
+            "それは噂にすぎない。"
+          ],
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-order-05",
+          "mode": "order",
+          "prompt": "Tôi chỉ là sinh viên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "私は"
+            },
+            {
+              "id": "1",
+              "text": "学生に"
+            },
+            {
+              "id": "2",
+              "text": "すぎない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にすぎない",
+          "answers": [
+            "私は学生にすぎない。"
+          ],
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-order-06",
+          "mode": "order",
+          "prompt": "Đây chỉ là bản thảo thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "これは"
+            },
+            {
+              "id": "1",
+              "text": "下書きに"
+            },
+            {
+              "id": "2",
+              "text": "すぎない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にすぎない",
+          "answers": [
+            "これは下書きにすぎない。"
+          ],
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-order-07",
+          "mode": "order",
+          "prompt": "Thành công chỉ là may.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その成功は"
+            },
+            {
+              "id": "1",
+              "text": "幸運に"
+            },
+            {
+              "id": "2",
+              "text": "すぎない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にすぎない",
+          "answers": [
+            "その成功は幸運にすぎない。"
+          ],
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-order-08",
+          "mode": "order",
+          "prompt": "Đây mới chỉ là khởi đầu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "これは"
+            },
+            {
+              "id": "1",
+              "text": "第一歩に"
+            },
+            {
+              "id": "2",
+              "text": "すぎない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にすぎない",
+          "answers": [
+            "これは第一歩にすぎない。"
+          ],
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-order-09",
+          "mode": "order",
+          "prompt": "Kết quả chỉ tình cờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今回の結果は"
+            },
+            {
+              "id": "1",
+              "text": "偶然に"
+            },
+            {
+              "id": "2",
+              "text": "すぎない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にすぎない",
+          "answers": [
+            "今回の結果は偶然にすぎない。"
+          ],
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g03-order-10",
+          "mode": "order",
+          "prompt": "Chênh lệch chỉ sai số.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その差は"
+            },
+            {
+              "id": "1",
+              "text": "誤差に"
+            },
+            {
+              "id": "2",
+              "text": "すぎない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にすぎない",
+          "answers": [
+            "その差は誤差にすぎない。"
+          ],
+          "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l23-g04",
+      "title": "〜にほかならない",
+      "meaning": "Chính là… / không gì khác ngoài…",
+      "variants": [
+        "にほかならない"
+      ],
+      "structures": [
+        "N ＋ にほかならない",
+        "普通形の名詞化 ＋ にほかならない"
+      ],
+      "explanation": "にほかならない khẳng định chắc chắn: A chính là B, không phải thứ gì khác — thường kết luận nguyên nhân hoặc bản chất.",
+      "usage": "Kết luận mạnh: thành công chính là nhờ nỗ lực; đó chính là sự thật.",
+      "cautions": [
+        "Giọng trang trọng/khẳng định; ít dùng khẩu ngữ thân mật.",
+        "Đối lập rõ với にすぎない (hạ thấp)."
+      ],
+      "contrast": "にほかならない ≈ chính là / không gì khác. Khác というものだ (định nghĩa đánh giá) và にすぎない.",
+      "examples": [
+        {
+          "ja": "彼の成功は日々の努力の結果にほかならない。",
+          "reading": "かれのせいこうはひびのどりょくのけっかにほかならない。",
+          "vi": "Thành công của anh ấy chính là kết quả nỗ lực hằng ngày.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "日々",
+              "reading": "ひび"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
+        },
+        {
+          "ja": "今回の事故は不注意にほかならない。",
+          "reading": "こんかいのじこはふちゅういにほかならない。",
+          "vi": "Tai nạn lần này chính là do bất cẩn.",
+          "ruby": [
+            {
+              "text": "今回",
+              "reading": "こんかい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "不注意",
+              "reading": "ふちゅうい"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
+        },
+        {
+          "ja": "それは愛の表現にほかならない。",
+          "reading": "それはあいのひょうげんにほかならない。",
+          "vi": "Đó chính là cách thể hiện tình yêu.",
+          "ruby": [
+            {
+              "text": "それは"
+            },
+            {
+              "text": "愛",
+              "reading": "あい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "表現",
+              "reading": "ひょうげん"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 117,
+        "printedPage": 104,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-hoka-naranai-chinh-la-khong-phai-gi-khac/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l23-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Thất bại đó chính là bài học.",
+          "answers": [
+            "その失敗は貴重な教訓にほかならない。"
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Lời cảm ơn chính là phép lịch sự.",
+          "answers": [
+            "お礼の言葉は基本的な礼儀にほかならない。"
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Sự chậm trễ chính là thiếu chuẩn bị.",
+          "answers": [
+            "その遅れは準備不足にほかならない。"
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Niềm vui này chính là nhờ mọi người.",
+          "answers": [
+            "この喜びは皆の支えにほかならない。"
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Phản ứng đó chính là sợ hãi.",
+          "answers": [
+            "その反応は恐怖にほかならない。"
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Quyết định đó chính là trách nhiệm.",
+          "answers": [
+            "その決断は責任の表れにほかならない。"
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Im lặng đó chính là đồng ý.",
+          "answers": [
+            "その沈黙は同意にほかならない。"
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Sự khác biệt chính là điểm mạnh.",
+          "answers": [
+            "その違いは強みにほかならない。"
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Kết quả xấu chính do chủ quan.",
+          "answers": [
+            "悪い結果は慢心にほかならない。"
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Giúp đỡ đó chính là tình bạn.",
+          "answers": [
+            "その援助は友情の証にほかならない。"
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼の発言は警告にほかならない。",
+          "answers": [
+            "Lời anh ấy chính là lời cảnh báo."
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "今回の勝利はチームワークにほかならない。",
+          "answers": [
+            "Chiến thắng lần này chính là nhờ tinh thần đồng đội."
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "その笑顔は安心の印にほかならない。",
+          "answers": [
+            "Nụ cười đó chính là dấu hiệu yên tâm."
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "この制度は公平性の確保にほかならない。",
+          "answers": [
+            "Chế độ này chính là để đảm bảo công bằng."
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "彼の怒りは失望にほかならない。",
+          "answers": [
+            "Cơn giận của anh chính là thất vọng."
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "その提案は妥協案にほかならない。",
+          "answers": [
+            "Đề xuất đó chính là phương án thỏa hiệp."
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "今回の改善は地道な点検にほかならない。",
+          "answers": [
+            "Cải thiện lần này chính nhờ kiểm tra kiên trì."
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "その涙は感謝にほかならない。",
+          "answers": [
+            "Nước mắt đó chính là lòng biết ơn."
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "彼の態度は拒絶にほかならない。",
+          "answers": [
+            "Thái độ anh ấy chính là từ chối."
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "この結果は長年の研究にほかならない。",
+          "answers": [
+            "Kết quả này chính là nhờ nghiên cứu lâu năm."
+          ],
+          "hint": "〜にほかならない",
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-order-01",
+          "mode": "order",
+          "prompt": "Thành công chính nhờ nỗ lực.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼の成功は"
+            },
+            {
+              "id": "1",
+              "text": "日々の努力の結果に"
+            },
+            {
+              "id": "2",
+              "text": "ほかならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にほかならない",
+          "answers": [
+            "彼の成功は日々の努力の結果にほかならないのだ。"
+          ],
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-order-02",
+          "mode": "order",
+          "prompt": "Tai nạn chính do bất cẩn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今回の事故は"
+            },
+            {
+              "id": "1",
+              "text": "不注意に"
+            },
+            {
+              "id": "2",
+              "text": "ほかならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にほかならない",
+          "answers": [
+            "今回の事故は不注意にほかならないのだ。"
+          ],
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-order-03",
+          "mode": "order",
+          "prompt": "Đó chính là thể hiện tình yêu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "それは愛の"
+            },
+            {
+              "id": "1",
+              "text": "表現に"
+            },
+            {
+              "id": "2",
+              "text": "ほかならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にほかならない",
+          "answers": [
+            "それは愛の表現にほかならないのだ。"
+          ],
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-order-04",
+          "mode": "order",
+          "prompt": "Thất bại chính là bài học.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その失敗は"
+            },
+            {
+              "id": "1",
+              "text": "貴重な教訓に"
+            },
+            {
+              "id": "2",
+              "text": "ほかならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にほかならない",
+          "answers": [
+            "その失敗は貴重な教訓にほかならない。"
+          ],
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-order-05",
+          "mode": "order",
+          "prompt": "Chậm trễ chính thiếu chuẩn bị.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その遅れは"
+            },
+            {
+              "id": "1",
+              "text": "準備不足に"
+            },
+            {
+              "id": "2",
+              "text": "ほかならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にほかならない",
+          "answers": [
+            "その遅れは準備不足にほかならない。"
+          ],
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-order-06",
+          "mode": "order",
+          "prompt": "Im lặng chính là đồng ý.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その沈黙は"
+            },
+            {
+              "id": "1",
+              "text": "同意に"
+            },
+            {
+              "id": "2",
+              "text": "ほかならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にほかならない",
+          "answers": [
+            "その沈黙は同意にほかならない。"
+          ],
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-order-07",
+          "mode": "order",
+          "prompt": "Lời anh chính là cảnh báo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼の発言は"
+            },
+            {
+              "id": "1",
+              "text": "警告に"
+            },
+            {
+              "id": "2",
+              "text": "ほかならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にほかならない",
+          "answers": [
+            "彼の発言は警告にほかならない。"
+          ],
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-order-08",
+          "mode": "order",
+          "prompt": "Thắng nhờ tinh thần đồng đội.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今回の勝利は"
+            },
+            {
+              "id": "1",
+              "text": "チームワークに"
+            },
+            {
+              "id": "2",
+              "text": "ほかならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にほかならない",
+          "answers": [
+            "今回の勝利はチームワークにほかならない。"
+          ],
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-order-09",
+          "mode": "order",
+          "prompt": "Nước mắt chính là biết ơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その涙は"
+            },
+            {
+              "id": "1",
+              "text": "感謝に"
+            },
+            {
+              "id": "2",
+              "text": "ほかならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にほかならない",
+          "answers": [
+            "その涙は感謝にほかならない。"
+          ],
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g04-order-10",
+          "mode": "order",
+          "prompt": "Kết quả nhờ nghiên cứu lâu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この結果は"
+            },
+            {
+              "id": "1",
+              "text": "長年の研究に"
+            },
+            {
+              "id": "2",
+              "text": "ほかならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にほかならない",
+          "answers": [
+            "この結果は長年の研究にほかならない。"
+          ],
+          "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l23-g05",
+      "title": "〜に越したことはない",
+      "meaning": "Không gì hơn… / tốt nhất là… (càng… càng tốt)",
+      "variants": [
+        "に越したことはない"
+      ],
+      "structures": [
+        "N ＋ に越したことはない",
+        "普通形 ＋ に越したことはない"
+      ],
+      "explanation": "に越したことはない nói rằng nếu được A thì không gì tốt hơn — khuyến khích mức lý tưởng dù không bắt buộc tuyệt đối.",
+      "usage": "Lời khuyên mềm: có bảo hiểm thì tốt nhất; chuẩn bị sớm không gì hơn.",
+      "cautions": [
+        "Không khẳng định ‘phải làm’; chỉ nói ‘tốt hơn nếu…’.",
+        "Thường kèm điều kiện mong muốn (sức khỏe, an toàn, chuẩn bị)."
+      ],
+      "contrast": "に越したことはない ≈ không gì hơn / tốt nhất là. Khác べきだ (nên/phải) và しかない (chỉ còn cách).",
+      "examples": [
+        {
+          "ja": "健康に越したことはない。",
+          "reading": "けんこうにこしたことはない。",
+          "vi": "Không gì hơn được sức khỏe.",
+          "ruby": [
+            {
+              "text": "健康",
+              "reading": "けんこう"
+            },
+            {
+              "text": "に越したことはない。"
+            }
+          ]
+        },
+        {
+          "ja": "早めに準備するに越したことはない。",
+          "reading": "はやめにじゅんびするにこしたことはない。",
+          "vi": "Chuẩn bị sớm thì không gì hơn.",
+          "ruby": [
+            {
+              "text": "早",
+              "reading": "はや"
+            },
+            {
+              "text": "めに"
+            },
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "するに越したことはない。"
+            }
+          ]
+        },
+        {
+          "ja": "バックアップは多いに越したことはない。",
+          "reading": "ばっくあっぷはおおいにこしたことはない。",
+          "vi": "Bản sao lưu thì càng nhiều càng tốt.",
+          "ruby": [
+            {
+              "text": "バックアップは"
+            },
+            {
+              "text": "多",
+              "reading": "おお"
+            },
+            {
+              "text": "いに越したことはない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 117,
+        "printedPage": 104,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-koshita-koto-wa-nai-thi-tot-hon-la-tot-nhat-khong-gi-tot-hon-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l23-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Có kinh nghiệm thì tốt nhất.",
+          "answers": [
+            "経験があるに越したことはない。"
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Mang ô thì không gì hơn.",
+          "answers": [
+            "傘を持っていくに越したことはない。"
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Xác nhận lại thì tốt hơn.",
+          "answers": [
+            "再確認するに越したことはない。"
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Ngủ đủ giấc không gì hơn.",
+          "answers": [
+            "十分な睡眠に越したことはない。"
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Có dư thời gian thì tốt.",
+          "answers": [
+            "時間に余裕があるに越したことはない。"
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Ghi chú rõ ràng thì tốt nhất.",
+          "answers": [
+            "メモを詳しく残すに越したことはない。"
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Biết ngoại ngữ thì càng tốt.",
+          "answers": [
+            "外国語ができるに越したことはない。"
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Đường đi an toàn không gì hơn.",
+          "answers": [
+            "安全な道を選ぶに越したことはない。"
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Hỏi trước thì tốt hơn.",
+          "answers": [
+            "事前に尋ねるに越したことはない。"
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Giữ liên lạc thường xuyên thì tốt.",
+          "answers": [
+            "こまめに連絡するに越したことはない。"
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "保険に入っておくに越したことはない。",
+          "answers": [
+            "Mua bảo hiểm sẵn thì không gì hơn."
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "証拠を残すに越したことはない。",
+          "answers": [
+            "Giữ bằng chứng thì tốt nhất."
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "余裕を持って出発するに越したことはない。",
+          "answers": [
+            "Xuất phát dư thời gian thì không gì hơn."
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "専門家に相談するに越したことはない。",
+          "answers": [
+            "Hỏi chuyên gia thì tốt hơn."
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "定期的に点検するに越したことはない。",
+          "answers": [
+            "Kiểm tra định kỳ thì không gì hơn."
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "パスワードは複雑なものに越したことはない。",
+          "answers": [
+            "Mật khẩu phức tạp thì tốt nhất."
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "説明は丁寧であるに越したことはない。",
+          "answers": [
+            "Giải thích lịch sự thì không gì hơn."
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "予備の電池を持つに越したことはない。",
+          "answers": [
+            "Mang pin dự phòng thì tốt hơn."
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "契約書はよく読むに越したことはない。",
+          "answers": [
+            "Đọc kỹ hợp đồng thì không gì hơn."
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "体調管理はしっかりするに越したことはない。",
+          "answers": [
+            "Quản lý sức khỏe kỹ thì tốt nhất."
+          ],
+          "hint": "〜に越したことはない",
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-order-01",
+          "mode": "order",
+          "prompt": "Sức khỏe không gì hơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "健康に"
+            },
+            {
+              "id": "1",
+              "text": "越したことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に越したことはない",
+          "answers": [
+            "健康に越したことはないのだ。"
+          ],
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-order-02",
+          "mode": "order",
+          "prompt": "Chuẩn bị sớm thì tốt nhất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "早めに準備するに"
+            },
+            {
+              "id": "1",
+              "text": "越したことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に越したことはない",
+          "answers": [
+            "早めに準備するに越したことはないのだ。"
+          ],
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-order-03",
+          "mode": "order",
+          "prompt": "Sao lưu càng nhiều càng tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "バックアップは多いに"
+            },
+            {
+              "id": "1",
+              "text": "越したことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に越したことはない",
+          "answers": [
+            "バックアップは多いに越したことはないのだ。"
+          ],
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-order-04",
+          "mode": "order",
+          "prompt": "Có kinh nghiệm thì tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "経験があるに"
+            },
+            {
+              "id": "1",
+              "text": "越したことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に越したことはない",
+          "answers": [
+            "経験があるに越したことはない。"
+          ],
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-order-05",
+          "mode": "order",
+          "prompt": "Mang ô thì tốt hơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "傘を持っていくに"
+            },
+            {
+              "id": "1",
+              "text": "越したことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に越したことはない",
+          "answers": [
+            "傘を持っていくに越したことはない。"
+          ],
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-order-06",
+          "mode": "order",
+          "prompt": "Xác nhận lại thì tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "再確認するに"
+            },
+            {
+              "id": "1",
+              "text": "越したことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に越したことはない",
+          "answers": [
+            "再確認するに越したことはない。"
+          ],
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-order-07",
+          "mode": "order",
+          "prompt": "Ngủ đủ không gì hơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "十分な睡眠に"
+            },
+            {
+              "id": "1",
+              "text": "越したことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に越したことはない",
+          "answers": [
+            "十分な睡眠に越したことはない。"
+          ],
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-order-08",
+          "mode": "order",
+          "prompt": "Mua bảo hiểm sẵn thì tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "保険に入っておくに"
+            },
+            {
+              "id": "1",
+              "text": "越したことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に越したことはない",
+          "answers": [
+            "保険に入っておくに越したことはない。"
+          ],
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-order-09",
+          "mode": "order",
+          "prompt": "Hỏi chuyên gia thì tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "専門家に相談するに"
+            },
+            {
+              "id": "1",
+              "text": "越したことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に越したことはない",
+          "answers": [
+            "専門家に相談するに越したことはない。"
+          ],
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g05-order-10",
+          "mode": "order",
+          "prompt": "Đọc kỹ hợp đồng thì tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "契約書はよく読むに"
+            },
+            {
+              "id": "1",
+              "text": "越したことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜に越したことはない",
+          "answers": [
+            "契約書はよく読むに越したことはない。"
+          ],
+          "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l23-g06",
+      "title": "〜しかない・〜よりほかない",
+      "meaning": "Chỉ còn cách… / không còn cách nào khác ngoài…",
+      "variants": [
+        "しかない",
+        "よりほかない",
+        "ほかない"
+      ],
+      "structures": [
+        "Vる ＋ しかない",
+        "Vる ＋ よりほかない",
+        "Vる ＋ ほかない"
+      ],
+      "explanation": "しかない・よりほかない・ほかない đều nói không còn lựa chọn nào khác ngoài hành động đó; よりほかない hơi trang trọng hơn しかない.",
+      "usage": "Tình thế buộc phải: hết tiền thì chỉ còn về nhà; không còn cách nào khác ngoài xin lỗi.",
+      "cautions": [
+        "partial-match: TNĐG chủ yếu phủ họ ほかない; vẫn học đủ しかない trong inventory.",
+        "Khác だけ (chỉ) — ở đây nhấn ‘bất đắc dĩ / không còn lựa chọn’."
+      ],
+      "contrast": "しかない／よりほかない ≈ chỉ còn cách…. Khác に越したことはない (tốt nhất nếu…) và べきだ (nên).",
+      "examples": [
+        {
+          "ja": "電車が止まったので歩くしかない。",
+          "reading": "でんしゃがとまったのであるくしかない。",
+          "vi": "Tàu dừng nên chỉ còn cách đi bộ.",
+          "ruby": [
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "止",
+              "reading": "と"
+            },
+            {
+              "text": "まったので"
+            },
+            {
+              "text": "歩",
+              "reading": "ある"
+            },
+            {
+              "text": "くしかない。"
+            }
+          ]
+        },
+        {
+          "ja": "謝るよりほかない。",
+          "reading": "あやまるよりほかない。",
+          "vi": "Không còn cách nào khác ngoài xin lỗi.",
+          "ruby": [
+            {
+              "text": "謝",
+              "reading": "あやま"
+            },
+            {
+              "text": "るよりほかない。"
+            }
+          ]
+        },
+        {
+          "ja": "今は待つほかない。",
+          "reading": "いまはまつほかない。",
+          "vi": "Giờ chỉ còn cách chờ.",
+          "ruby": [
+            {
+              "text": "今",
+              "reading": "いま"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "待",
+              "reading": "ま"
+            },
+            {
+              "text": "つほかない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 117,
+        "printedPage": 104,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-yorihokawanai-yorihokanai-yorihokashi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l23-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Hết chỗ ngồi nên chỉ còn đứng.",
+          "answers": [
+            "席がないので立つしかない。"
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Mưa to nên chỉ còn ở nhà.",
+          "answers": [
+            "大雨なので家にいるしかない。"
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Không còn cách nào ngoài nộp lại.",
+          "answers": [
+            "出し直すよりほかない。"
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Hỏng máy nên chỉ còn sửa.",
+          "answers": [
+            "故障したので修理するしかない。"
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Muộn rồi nên chỉ còn chạy.",
+          "answers": [
+            "遅いので走るしかない。"
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Không hiểu thì chỉ còn hỏi.",
+          "answers": [
+            "分からないなら尋ねるほかない。"
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Hết tiền mặt nên chỉ còn thẻ.",
+          "answers": [
+            "現金がないのでカードで払うしかない。"
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Bị từ chối nên chỉ còn thôi.",
+          "answers": [
+            "断られたので諦めるよりほかない。"
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Tài liệu thiếu nên chỉ còn bổ sung.",
+          "answers": [
+            "資料が足りないので追加するしかない。"
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Đường tắc nên chỉ còn đợi.",
+          "answers": [
+            "渋滞なので待つほかない。"
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "証拠がない以上、信じるしかない。",
+          "answers": [
+            "Đã không có bằng chứng thì chỉ còn tin."
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "期限が近いので急ぐよりほかない。",
+          "answers": [
+            "Sát hạn nên không còn cách nào ngoài gấp."
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "助けが来ないので自分でやるしかない。",
+          "answers": [
+            "Không có ai giúp nên chỉ còn tự làm."
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "雨が止まないので延期するほかない。",
+          "answers": [
+            "Mưa không tạnh nên chỉ còn hoãn."
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "予算が足りないので縮小するしかない。",
+          "answers": [
+            "Thiếu ngân sách nên chỉ còn thu hẹp."
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "相手が謝らないなら訴えるよりほかない。",
+          "answers": [
+            "Đối phương không xin lỗi thì chỉ còn kiện."
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "鍵を忘れたので戻るしかない。",
+          "answers": [
+            "Quên chìa nên chỉ còn quay lại."
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "説明しても無駄なので黙るほかない。",
+          "answers": [
+            "Giải thích cũng vô ích nên chỉ còn im."
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "在庫が切れたので別店へ行くしかない。",
+          "answers": [
+            "Hết hàng nên chỉ còn sang quán khác."
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "体調が悪いので休むよりほかない。",
+          "answers": [
+            "Sức khỏe kém nên không còn cách nào ngoài nghỉ."
+          ],
+          "hint": "〜しかない・〜よりほかない",
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-order-01",
+          "mode": "order",
+          "prompt": "Tàu dừng chỉ còn đi bộ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "電車が止まったので"
+            },
+            {
+              "id": "1",
+              "text": "歩く"
+            },
+            {
+              "id": "2",
+              "text": "しかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜しかない・〜よりほかない",
+          "answers": [
+            "電車が止まったので歩くしかないのだ。"
+          ],
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-order-02",
+          "mode": "order",
+          "prompt": "Chỉ còn cách xin lỗi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "謝る"
+            },
+            {
+              "id": "1",
+              "text": "よりほか"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜しかない・〜よりほかない",
+          "answers": [
+            "謝るよりほかないのだ。"
+          ],
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-order-03",
+          "mode": "order",
+          "prompt": "Giờ chỉ còn chờ thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今は"
+            },
+            {
+              "id": "1",
+              "text": "待つ"
+            },
+            {
+              "id": "2",
+              "text": "ほかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜しかない・〜よりほかない",
+          "answers": [
+            "今は待つほかないのだ。"
+          ],
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-order-04",
+          "mode": "order",
+          "prompt": "Hết chỗ chỉ còn đứng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "席がないので"
+            },
+            {
+              "id": "1",
+              "text": "立つ"
+            },
+            {
+              "id": "2",
+              "text": "しかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜しかない・〜よりほかない",
+          "answers": [
+            "席がないので立つしかない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-order-05",
+          "mode": "order",
+          "prompt": "Mưa to chỉ còn ở nhà.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "大雨なので"
+            },
+            {
+              "id": "1",
+              "text": "家にいる"
+            },
+            {
+              "id": "2",
+              "text": "しかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜しかない・〜よりほかない",
+          "answers": [
+            "大雨なので家にいるしかない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-order-06",
+          "mode": "order",
+          "prompt": "Chỉ còn nộp lại.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "出し直す"
+            },
+            {
+              "id": "1",
+              "text": "よりほか"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜しかない・〜よりほかない",
+          "answers": [
+            "出し直すよりほかない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-order-07",
+          "mode": "order",
+          "prompt": "Hỏng máy chỉ còn sửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "故障したので"
+            },
+            {
+              "id": "1",
+              "text": "修理する"
+            },
+            {
+              "id": "2",
+              "text": "しかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜しかない・〜よりほかない",
+          "answers": [
+            "故障したので修理するしかない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-order-08",
+          "mode": "order",
+          "prompt": "Sát hạn chỉ còn gấp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "期限が近いので"
+            },
+            {
+              "id": "1",
+              "text": "急ぐ"
+            },
+            {
+              "id": "2",
+              "text": "よりほかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜しかない・〜よりほかない",
+          "answers": [
+            "期限が近いので急ぐよりほかない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-order-09",
+          "mode": "order",
+          "prompt": "Quên chìa chỉ còn quay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "鍵を忘れたので"
+            },
+            {
+              "id": "1",
+              "text": "戻る"
+            },
+            {
+              "id": "2",
+              "text": "しかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜しかない・〜よりほかない",
+          "answers": [
+            "鍵を忘れたので戻るしかない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g06-order-10",
+          "mode": "order",
+          "prompt": "Ốm thì chỉ còn nghỉ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "体調が悪いので"
+            },
+            {
+              "id": "1",
+              "text": "休む"
+            },
+            {
+              "id": "2",
+              "text": "よりほかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜しかない・〜よりほかない",
+          "answers": [
+            "体調が悪いので休むよりほかない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l23-g07",
+      "title": "〜べきだ／〜べきではない",
+      "meaning": "Nên… / không nên… (nghĩa vụ, đánh giá đúng sai)",
+      "variants": [
+        "べきだ",
+        "べきではない",
+        "べき"
+      ],
+      "structures": [
+        "Vる ＋ べきだ",
+        "Vる ＋ べきではない",
+        "する → すべきだ／するべきだ"
+      ],
+      "explanation": "べきだ nêu việc nên làm theo lẽ phải/nghĩa vụ; べきではない phủ định — không nên làm. Với する thường gặp すべきだ.",
+      "usage": "Khuyên bảo hoặc nhận định đạo đức/xã hội: nên nói thật; không nên nói dối.",
+      "cautions": [
+        "Mạnh hơn たほうがいい; mang sắc ‘đúng/sai’ rõ.",
+        "Khác ものだ／ことだ khuyên theo tập quán (bài 24)."
+      ],
+      "contrast": "べきだ ≈ nên/phải (lẽ phải). Khác しかない (bất đắc dĩ) và に越したことはない (tốt nhất nếu).",
+      "examples": [
+        {
+          "ja": "約束は守るべきだ。",
+          "reading": "やくそくはまもるべきだ。",
+          "vi": "Lời hứa thì nên giữ.",
+          "ruby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "るべきだ。"
+            }
+          ]
+        },
+        {
+          "ja": "他人のプライバシーを侵害すべきではない。",
+          "reading": "たにんのぷらいばしーをしんがいすべきではない。",
+          "vi": "Không nên xâm phạm quyền riêng tư của người khác.",
+          "ruby": [
+            {
+              "text": "他人",
+              "reading": "たにん"
+            },
+            {
+              "text": "のプライバシーを"
+            },
+            {
+              "text": "侵害",
+              "reading": "しんがい"
+            },
+            {
+              "text": "すべきではない。"
+            }
+          ]
+        },
+        {
+          "ja": "困っている人を助けるべきだ。",
+          "reading": "こまっているひとをたすけるべきだ。",
+          "vi": "Nên giúp người đang gặp khó.",
+          "ruby": [
+            {
+              "text": "困",
+              "reading": "こま"
+            },
+            {
+              "text": "っている"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "けるべきだ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 117,
+        "printedPage": 104,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-bekida-bekidewanai-nen-can-phai/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l23-g07-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nên đọc kỹ hợp đồng.",
+          "answers": [
+            "契約書はよく読むべきだ。"
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Không nên nói dối khách hàng.",
+          "answers": [
+            "顧客に嘘をつくべきではない。"
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nên cảm ơn người đã giúp.",
+          "answers": [
+            "助けてくれた人に礼を言うべきだ。"
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Không nên bỏ mặc đồng đội.",
+          "answers": [
+            "仲間を見捨てるべきではない。"
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nên nộp báo cáo đúng hạn.",
+          "answers": [
+            "報告書は期限内に提出すべきだ。"
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Không nên cười nhạo lỗi người khác.",
+          "answers": [
+            "他人の失敗を笑うべきではない。"
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nên xin phép trước khi dùng.",
+          "answers": [
+            "使う前に許可を取るべきだ。"
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Không nên chia sẻ mật khẩu.",
+          "answers": [
+            "パスワードを共有すべきではない。"
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nên lắng nghe ý kiến phản biện.",
+          "answers": [
+            "反対意見にも耳を傾けるべきだ。"
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Không nên đánh giá vội vàng.",
+          "answers": [
+            "慌てて判断すべきではない。"
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "事実は正直に伝えるべきだ。",
+          "answers": [
+            "Sự thật thì nên nói thẳng."
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "公共の場で大声を出すべきではない。",
+          "answers": [
+            "Không nên nói lớn ở nơi công cộng."
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "困ったときは相談すべきだ。",
+          "answers": [
+            "Khi khó khăn thì nên bàn bạc."
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "約束の時間に遅れるべきではない。",
+          "answers": [
+            "Không nên đến muộn giờ hẹn."
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "環境に配慮した行動を取るべきだ。",
+          "answers": [
+            "Nên hành động quan tâm môi trường."
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "個人情報を勝手に公開すべきではない。",
+          "answers": [
+            "Không nên tự ý công khai thông tin cá nhân."
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "ミスはすぐに報告すべきだ。",
+          "answers": [
+            "Lỗi thì nên báo cáo ngay."
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "根拠のない噂を広めるべきではない。",
+          "answers": [
+            "Không nên loan tin đồn vô căn cứ."
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "後輩には丁寧に教えるべきだ。",
+          "answers": [
+            "Nên dạy hậu bối một cách lịch sự."
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "感情だけで決定すべきではない。",
+          "answers": [
+            "Không nên quyết chỉ vì cảm xúc."
+          ],
+          "hint": "〜べきだ／〜べきではない",
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-order-01",
+          "mode": "order",
+          "prompt": "Lời hứa thì nên giữ. （luyện）",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "約束は"
+            },
+            {
+              "id": "1",
+              "text": "守る"
+            },
+            {
+              "id": "2",
+              "text": "べき"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜べきだ／〜べきではない",
+          "answers": [
+            "約束は守るべきだのだ。"
+          ],
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-order-02",
+          "mode": "order",
+          "prompt": "Không nên xâm phạm riêng tư.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "プライバシーを"
+            },
+            {
+              "id": "1",
+              "text": "侵害すべき"
+            },
+            {
+              "id": "2",
+              "text": "ではない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜べきだ／〜べきではない",
+          "answers": [
+            "プライバシーを侵害すべきではない。"
+          ],
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-order-03",
+          "mode": "order",
+          "prompt": "Nên giúp người gặp khó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "困っている人を"
+            },
+            {
+              "id": "1",
+              "text": "助ける"
+            },
+            {
+              "id": "2",
+              "text": "べき"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜べきだ／〜べきではない",
+          "answers": [
+            "困っている人を助けるべきだのだ。"
+          ],
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-order-04",
+          "mode": "order",
+          "prompt": "Hợp đồng thì phải đọc kỹ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "契約書はよく"
+            },
+            {
+              "id": "1",
+              "text": "読む"
+            },
+            {
+              "id": "2",
+              "text": "べき"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜べきだ／〜べきではない",
+          "answers": [
+            "契約書はよく読むべきだ。"
+          ],
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-order-05",
+          "mode": "order",
+          "prompt": "Không nên nói dối khách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "顧客に嘘を"
+            },
+            {
+              "id": "1",
+              "text": "つくべき"
+            },
+            {
+              "id": "2",
+              "text": "ではない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜べきだ／〜べきではない",
+          "answers": [
+            "顧客に嘘をつくべきではない。"
+          ],
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-order-06",
+          "mode": "order",
+          "prompt": "Nên cảm ơn người giúp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "助けてくれた人に"
+            },
+            {
+              "id": "1",
+              "text": "礼を言う"
+            },
+            {
+              "id": "2",
+              "text": "べき"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜べきだ／〜べきではない",
+          "answers": [
+            "助けてくれた人に礼を言うべきだ。"
+          ],
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-order-07",
+          "mode": "order",
+          "prompt": "Báo cáo phải nộp đúng hạn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "報告書は"
+            },
+            {
+              "id": "1",
+              "text": "期限内に"
+            },
+            {
+              "id": "2",
+              "text": "提出す"
+            },
+            {
+              "id": "3",
+              "text": "べきだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜べきだ／〜べきではない",
+          "answers": [
+            "報告書は期限内に提出すべきだ。"
+          ],
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-order-08",
+          "mode": "order",
+          "prompt": "Mật khẩu không được chia sẻ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "パスワードを"
+            },
+            {
+              "id": "1",
+              "text": "共有すべき"
+            },
+            {
+              "id": "2",
+              "text": "ではない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜べきだ／〜べきではない",
+          "answers": [
+            "パスワードを共有すべきではない。"
+          ],
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-order-09",
+          "mode": "order",
+          "prompt": "Sự thật nên nói thẳng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "事実は正直に"
+            },
+            {
+              "id": "1",
+              "text": "伝える"
+            },
+            {
+              "id": "2",
+              "text": "べき"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜べきだ／〜べきではない",
+          "answers": [
+            "事実は正直に伝えるべきだ。"
+          ],
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l23-g07-order-10",
+          "mode": "order",
+          "prompt": "Lỗi thì nên báo ngay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ミスは"
+            },
+            {
+              "id": "1",
+              "text": "すぐに"
+            },
+            {
+              "id": "2",
+              "text": "報告す"
+            },
+            {
+              "id": "3",
+              "text": "べきだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜べきだ／〜べきではない",
+          "answers": [
+            "ミスはすぐに報告すべきだ。"
+          ],
+          "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+        }
+      ]
+    }
+  ]
+}

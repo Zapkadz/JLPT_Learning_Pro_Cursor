@@ -33,6 +33,12 @@ for (const id of [
   "lesson-18",
   "lesson-19",
   "lesson-20",
+  "lesson-21",
+  "lesson-22",
+  "lesson-23",
+  "lesson-24",
+  "lesson-25",
+  "lesson-26",
 ]) {
   const path = `content/grammar/n2/${id}.json`;
   const lesson = JSON.parse(readFileSync(path, "utf8"));
