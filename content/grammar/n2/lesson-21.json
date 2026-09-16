@@ -1,0 +1,4449 @@
+{
+  "id": "lesson-21",
+  "titleJa": "強調・婉曲",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 21. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L21-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập. Nguồn TNĐG gắn theo inventory.",
+  "patterns": [
+    {
+      "id": "l21-g01",
+      "title": "〜くらい・ぐらい",
+      "meaning": "Đến mức… / khoảng… / ít ra cũng…",
+      "variants": [
+        "くらい",
+        "ぐらい"
+      ],
+      "structures": [
+        "N／普通形 ＋ くらい（ぐらい）",
+        "Vる ＋ くらい（ぐらい）"
+      ],
+      "explanation": "くらい／ぐらい nêu mức độ ước lượng, so sánh mức, hoặc nhấn 'ít ra cũng đến mức A'.",
+      "usage": "Ước lượng số lượng/thời gian; nhấn mức độ đáng kể hoặc tối thiểu.",
+      "cautions": [
+        "くらい và ぐらい gần như thay thế được; ぐらい hơi khẩu ngữ hơn.",
+        "Khác ほど khi chỉ so sánh mức độ thuần; くらい còn dùng ước lượng số."
+      ],
+      "contrast": "くらい ≈ đến mức / khoảng. Gần ほど (mức độ) nhưng くらい cũng dùng ước lượng.",
+      "examples": [
+        {
+          "ja": "泣きたいくらい悔しかった。",
+          "reading": "なきたいくらいくやしかった。",
+          "vi": "Đau khổ đến mức muốn khóc.",
+          "ruby": [
+            {
+              "text": "泣",
+              "reading": "な"
+            },
+            {
+              "text": "きたいくらい"
+            },
+            {
+              "text": "悔",
+              "reading": "くや"
+            },
+            {
+              "text": "しかった。"
+            }
+          ]
+        },
+        {
+          "ja": "駅まで歩いて十分ぐらいかかる。",
+          "reading": "えきまであるいてじゅっぷんぐらいかかる。",
+          "vi": "Đi bộ đến ga mất khoảng mười phút.",
+          "ruby": [
+            {
+              "text": "駅",
+              "reading": "えき"
+            },
+            {
+              "text": "まで"
+            },
+            {
+              "text": "歩",
+              "reading": "ある"
+            },
+            {
+              "text": "いて"
+            },
+            {
+              "text": "十分",
+              "reading": "じゅっぷん"
+            },
+            {
+              "text": "ぐらいかかる。"
+            }
+          ]
+        },
+        {
+          "ja": "自分の名前ぐらいは書ける。",
+          "reading": "じぶんのなまえぐらいはかける。",
+          "vi": "Ít ra cũng viết được tên mình.",
+          "ruby": [
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "名前",
+              "reading": "なまえ"
+            },
+            {
+              "text": "ぐらいは"
+            },
+            {
+              "text": "書",
+              "reading": "か"
+            },
+            {
+              "text": "ける。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 109,
+        "printedPage": 96,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-kurai-gurai-den-muc-it-ra-toi-thieu-co-chi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l21-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Mệt đến mức đứng không nổi.",
+          "answers": [
+            "立っていられないくらい疲れた。"
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Còn khoảng năm phút nữa.",
+          "answers": [
+            "あと五分ぐらいだ。"
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Ít ra cũng biết chào hỏi.",
+          "answers": [
+            "挨拶ぐらいはできる。"
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Vui đến mức nhảy lên.",
+          "answers": [
+            "飛び上がるくらい嬉しかった。"
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đến mức không ngủ được.",
+          "answers": [
+            "眠れないくらい心配だ。"
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Cách đây khoảng hai kilômét.",
+          "answers": [
+            "ここから二キロぐらいだ。"
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Ít ra cũng đọc được hiragana.",
+          "answers": [
+            "ひらがなぐらいは読める。"
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Đau đến mức muốn kêu.",
+          "answers": [
+            "叫び声が出るくらい痛かった。"
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Khoảng ba người sẽ đến.",
+          "answers": [
+            "三人ぐらいは来るだろう。"
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Ít ra cũng mang theo tiền mặt.",
+          "answers": [
+            "現金ぐらいは持っていく。"
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "見えなくなるくらい遠かった。",
+          "answers": [
+            "Xa đến mức gần như không thấy."
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "一時間ぐらい待てますか。",
+          "answers": [
+            "Có thể đợi khoảng một tiếng không?"
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "自分の住所ぐらいは覚えている。",
+          "answers": [
+            "Ít ra cũng nhớ địa chỉ mình."
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "倒れそうなくらい眠い。",
+          "answers": [
+            "Buồn ngủ đến mức suýt ngã."
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "五百円ぐらいしかない。",
+          "answers": [
+            "Chỉ còn khoảng năm trăm yên."
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "謝るくらいの余裕はある。",
+          "answers": [
+            "Ít ra cũng còn đủ sức xin lỗi."
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "忘れられないくらい印象的だった。",
+          "answers": [
+            "Ấn tượng đến mức không quên được."
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "十分ぐらい休憩しよう。",
+          "answers": [
+            "Nghỉ khoảng mười phút thôi."
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "自分の番ぐらいは分かる。",
+          "answers": [
+            "Ít ra cũng biết đến lượt mình."
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "泣けてくるくらい感動した。",
+          "answers": [
+            "Cảm động đến mức muốn khóc."
+          ],
+          "hint": "〜くらい／ぐらい",
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-order-01",
+          "mode": "order",
+          "prompt": "Mệt đứng không nổi nữa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "立っていられないくらい"
+            },
+            {
+              "id": "1",
+              "text": "疲れ果てて"
+            },
+            {
+              "id": "2",
+              "text": "しまった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜くらい／ぐらい",
+          "answers": [
+            "立っていられないくらい疲れ果ててしまった。"
+          ],
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-order-02",
+          "mode": "order",
+          "prompt": "Còn năm phút nữa thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "あと五分ぐらいで"
+            },
+            {
+              "id": "1",
+              "text": "始まる予定"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜くらい／ぐらい",
+          "answers": [
+            "あと五分ぐらいで始まる予定だ。"
+          ],
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-order-03",
+          "mode": "order",
+          "prompt": "Ít ra biết chào hỏi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "挨拶ぐらいは"
+            },
+            {
+              "id": "1",
+              "text": "きちんと"
+            },
+            {
+              "id": "2",
+              "text": "できる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜くらい／ぐらい",
+          "answers": [
+            "挨拶ぐらいはきちんとできる。"
+          ],
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-order-04",
+          "mode": "order",
+          "prompt": "Vui muốn nhảy lên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "飛び上がるくらい"
+            },
+            {
+              "id": "1",
+              "text": "嬉しくて"
+            },
+            {
+              "id": "2",
+              "text": "たまらない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜くらい／ぐらい",
+          "answers": [
+            "飛び上がるくらい嬉しくてたまらない。"
+          ],
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-order-05",
+          "mode": "order",
+          "prompt": "Lo đến mức mất ngủ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "眠れないくらい"
+            },
+            {
+              "id": "1",
+              "text": "不安に"
+            },
+            {
+              "id": "2",
+              "text": "なっている"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜くらい／ぐらい",
+          "answers": [
+            "眠れないくらい不安になっている。"
+          ],
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-order-06",
+          "mode": "order",
+          "prompt": "Cách đây khoảng hai km.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ここから二キロぐらい"
+            },
+            {
+              "id": "1",
+              "text": "離れていると"
+            },
+            {
+              "id": "2",
+              "text": "思う"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜くらい／ぐらい",
+          "answers": [
+            "ここから二キロぐらい離れていると思う。"
+          ],
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-order-07",
+          "mode": "order",
+          "prompt": "Ít ra đọc được kana.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ひらがなぐらいは"
+            },
+            {
+              "id": "1",
+              "text": "読めるように"
+            },
+            {
+              "id": "2",
+              "text": "なった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜くらい／ぐらい",
+          "answers": [
+            "ひらがなぐらいは読めるようになった。"
+          ],
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-order-08",
+          "mode": "order",
+          "prompt": "Đau muốn kêu lên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "叫ぶくらい"
+            },
+            {
+              "id": "1",
+              "text": "痛みが"
+            },
+            {
+              "id": "2",
+              "text": "強かった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜くらい／ぐらい",
+          "answers": [
+            "叫ぶくらい痛みが強かった。"
+          ],
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-order-09",
+          "mode": "order",
+          "prompt": "Khoảng ba người tới.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "三人ぐらいは"
+            },
+            {
+              "id": "1",
+              "text": "会場に"
+            },
+            {
+              "id": "2",
+              "text": "来る"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜くらい／ぐらい",
+          "answers": [
+            "三人ぐらいは会場に来る。"
+          ],
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g01-order-10",
+          "mode": "order",
+          "prompt": "Ít ra mang tiền mặt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "現金ぐらいは"
+            },
+            {
+              "id": "1",
+              "text": "用意して"
+            },
+            {
+              "id": "2",
+              "text": "おく"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜くらい／ぐらい",
+          "answers": [
+            "現金ぐらいは用意しておく。"
+          ],
+          "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l21-g02",
+      "title": "〜など・なんか・なんて",
+      "meaning": "Những thứ như… / (khinh thường) cái kiểu…",
+      "variants": [
+        "など",
+        "なんか",
+        "なんて"
+      ],
+      "structures": [
+        "N ＋ など／なんか／なんて",
+        "普通形 ＋ なんて"
+      ],
+      "explanation": "など liệt kê/ví dụ nhẹ; なんか／なんて khẩu ngữ, thường hạ thấp hoặc kinh ngạc trước đối tượng.",
+      "usage": "Nói nhẹ 'v.v.'; phủ định/khinh thường; ngạc nhiên trước sự việc.",
+      "cautions": [
+        "なんか／なんて khẩu ngữ; tránh trong văn bản trang trọng (dùng など／などという).",
+        "なんて sau mệnh đề thường kèm đánh giá mạnh (thật không ngờ / chẳng ra gì)."
+      ],
+      "contrast": "など ≈ và những thứ như…. なんか／なんて thiên hạ thấp hoặc cảm thán hơn など.",
+      "examples": [
+        {
+          "ja": "お菓子など持っていきます。",
+          "reading": "おかしなどもっていきます。",
+          "vi": "Tôi sẽ mang theo bánh kẹo gì đó.",
+          "ruby": [
+            {
+              "text": "お菓子",
+              "reading": "おかし"
+            },
+            {
+              "text": "など"
+            },
+            {
+              "text": "持",
+              "reading": "も"
+            },
+            {
+              "text": "っていきます。"
+            }
+          ]
+        },
+        {
+          "ja": "お金なんかいらない。",
+          "reading": "おかねなんかいらない。",
+          "vi": "Tiền bạc gì đó chẳng cần.",
+          "ruby": [
+            {
+              "text": "お金",
+              "reading": "おかね"
+            },
+            {
+              "text": "なんかいらない。"
+            }
+          ]
+        },
+        {
+          "ja": "彼が合格するなんて信じられない。",
+          "reading": "かれがごうかくするなんてしんじられない。",
+          "vi": "Anh ấy đỗ thì thật không tin nổi.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "合格",
+              "reading": "ごうかく"
+            },
+            {
+              "text": "するなんて"
+            },
+            {
+              "text": "信",
+              "reading": "しん"
+            },
+            {
+              "text": "じられない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 109,
+        "printedPage": 96,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-nado-nai-nay-no-nay-kia-chang-chut-nao/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-nanka-nai-nanka-inai-khong-khong-co-dau/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-nande-cai-thu-nhu-cai-goi-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l21-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Mang theo nước uống gì đó.",
+          "answers": [
+            "飲み物などを持参する。"
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tôi chẳng cần lời khen gì.",
+          "answers": [
+            "褒め言葉なんかいらない。"
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy nghỉ việc thì không tin.",
+          "answers": [
+            "彼女が辞めるなんて信じられない。"
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đồ chơi gì đó để trên bàn.",
+          "answers": [
+            "おもちゃなどが机の上にある。"
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Lời xin lỗi kiểu đó vô nghĩa.",
+          "answers": [
+            "そんな謝罪なんかに意味はない。"
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Tôi thắng giải thì thật lạ.",
+          "answers": [
+            "私が受賞するなんて奇妙だ。"
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Sách báo gì đó xếp góc phòng.",
+          "answers": [
+            "本や雑誌などを隅に置く。"
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy chẳng biết lễ nghi gì.",
+          "answers": [
+            "彼は礼儀なんかわからない。"
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Đến muộn thì không chấp nhận.",
+          "answers": [
+            "遅刻するなんて許されない。"
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Quà vặt gì đó cũng được.",
+          "answers": [
+            "手土産などがあれば十分だ。"
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "書類などを机に置いてください。",
+          "answers": [
+            "Hãy để giấy tờ gì đó lên bàn."
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "言い訳なんかを聞きたくない。",
+          "answers": [
+            "Chẳng muốn nghe lời bao biện gì."
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "彼が嘘をつくなんて思わなかった。",
+          "answers": [
+            "Không ngờ anh ấy lại nói dối."
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "果物などを買って帰ろう。",
+          "answers": [
+            "Mua hoa quả gì đó rồi về thôi."
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "趣味なんかより仕事が大事だ。",
+          "answers": [
+            "Việc quan trọng hơn thú vui tầm phào."
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "失敗するなんてあり得ない。",
+          "answers": [
+            "Thất bại thì không thể nào."
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "名刺などを忘れないでください。",
+          "answers": [
+            "Đừng quên danh thiếp gì đó."
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "泣き言なんかを言うな。",
+          "answers": [
+            "Đừng có than vãn kiểu đó."
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "彼女が怒るなんて珍しい。",
+          "answers": [
+            "Cô ấy giận thì thật hiếm."
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "掃除道具などを片付ける。",
+          "answers": [
+            "Dọn cất dụng cụ vệ sinh gì đó."
+          ],
+          "hint": "〜など／なんか／なんて",
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-order-01",
+          "mode": "order",
+          "prompt": "Mang theo đồ uống nữa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "飲み物などを"
+            },
+            {
+              "id": "1",
+              "text": "忘れずに"
+            },
+            {
+              "id": "2",
+              "text": "持参する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜など／なんか／なんて",
+          "answers": [
+            "飲み物などを忘れずに持参する。"
+          ],
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-order-02",
+          "mode": "order",
+          "prompt": "Chẳng cần lời khen.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "褒め言葉なんか"
+            },
+            {
+              "id": "1",
+              "text": "全く"
+            },
+            {
+              "id": "2",
+              "text": "いらない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜など／なんか／なんて",
+          "answers": [
+            "褒め言葉なんか全くいらない。"
+          ],
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-order-03",
+          "mode": "order",
+          "prompt": "Cô ấy nghỉ thật không tin.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼女が辞めるなんて"
+            },
+            {
+              "id": "1",
+              "text": "到底"
+            },
+            {
+              "id": "2",
+              "text": "信じられない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜など／なんか／なんて",
+          "answers": [
+            "彼女が辞めるなんて到底信じられない。"
+          ],
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-order-04",
+          "mode": "order",
+          "prompt": "Đồ chơi để trên bàn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "おもちゃなどが"
+            },
+            {
+              "id": "1",
+              "text": "机の上に"
+            },
+            {
+              "id": "2",
+              "text": "並んでいる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜など／なんか／なんて",
+          "answers": [
+            "おもちゃなどが机の上に並んでいる。"
+          ],
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-order-05",
+          "mode": "order",
+          "prompt": "Xin lỗi kiểu đó vô nghĩa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "そんな謝罪なんかに"
+            },
+            {
+              "id": "1",
+              "text": "価値は"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜など／なんか／なんて",
+          "answers": [
+            "そんな謝罪なんかに価値はない。"
+          ],
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-order-06",
+          "mode": "order",
+          "prompt": "Tôi đoạt giải thật lạ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "私が受賞するなんて"
+            },
+            {
+              "id": "1",
+              "text": "不思議で"
+            },
+            {
+              "id": "2",
+              "text": "ならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜など／なんか／なんて",
+          "answers": [
+            "私が受賞するなんて不思議でならない。"
+          ],
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-order-07",
+          "mode": "order",
+          "prompt": "Sách báo xếp góc phòng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "本や雑誌などを"
+            },
+            {
+              "id": "1",
+              "text": "部屋の隅に"
+            },
+            {
+              "id": "2",
+              "text": "置く"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜など／なんか／なんて",
+          "answers": [
+            "本や雑誌などを部屋の隅に置く。"
+          ],
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-order-08",
+          "mode": "order",
+          "prompt": "Anh chẳng biết lễ nghi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "礼儀なんかを"
+            },
+            {
+              "id": "1",
+              "text": "心得て"
+            },
+            {
+              "id": "2",
+              "text": "いない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜など／なんか／なんて",
+          "answers": [
+            "礼儀なんかを心得ていない。"
+          ],
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-order-09",
+          "mode": "order",
+          "prompt": "Đến muộn không chấp nhận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "遅刻するなんて"
+            },
+            {
+              "id": "1",
+              "text": "絶対に"
+            },
+            {
+              "id": "2",
+              "text": "許されない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜など／なんか／なんて",
+          "answers": [
+            "遅刻するなんて絶対に許されない。"
+          ],
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g02-order-10",
+          "mode": "order",
+          "prompt": "Quà vặt cũng đủ rồi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "手土産などがあれば"
+            },
+            {
+              "id": "1",
+              "text": "それで"
+            },
+            {
+              "id": "2",
+              "text": "十分だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜など／なんか／なんて",
+          "answers": [
+            "手土産などがあればそれで十分だ。"
+          ],
+          "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l21-g03",
+      "title": "〜まで・までして・てまで",
+      "meaning": "Đến mức… / thậm chí làm… / đến nỗi phải…",
+      "variants": [
+        "まで",
+        "までして",
+        "てまで"
+      ],
+      "structures": [
+        "N ＋ まで（して）",
+        "Vて ＋ まで"
+      ],
+      "explanation": "まで／までして／てまで nhấn cực điểm: thậm chí đến mức A (thường quá đáng hoặc hy sinh lớn).",
+      "usage": "Phê phán/ngạc nhiên vì mức độ cực đoan; nêu quyết tâm bất chấp.",
+      "cautions": [
+        "てまで thường kèm đánh giá tiêu cực hoặc nghi vấn 'có đáng không'.",
+        "Khác まで thời gian/không gian ('cho đến'); ngữ cảnh nhấn mạnh mức độ."
+      ],
+      "contrast": "までして／てまで ≈ thậm chí đến mức…. Khác さえ (cũng/thậm chí) thiên liệt kê cực điểm nhẹ hơn.",
+      "examples": [
+        {
+          "ja": "借金までして車を買った。",
+          "reading": "しゃっきんまでしてくるまをかった。",
+          "vi": "Thậm chí vay nợ để mua xe.",
+          "ruby": [
+            {
+              "text": "借金",
+              "reading": "しゃっきん"
+            },
+            {
+              "text": "までして"
+            },
+            {
+              "text": "車",
+              "reading": "くるま"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "った。"
+            }
+          ]
+        },
+        {
+          "ja": "嘘をついてまで合格したいのか。",
+          "reading": "うそをついてまでごうかくしたいのか。",
+          "vi": "Đến mức nói dối chỉ để đỗ sao?",
+          "ruby": [
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "ついてまで"
+            },
+            {
+              "text": "合格",
+              "reading": "ごうかく"
+            },
+            {
+              "text": "したいのか。"
+            }
+          ]
+        },
+        {
+          "ja": "夜中まで働いて疲れ果てた。",
+          "reading": "よなかまではたらいてつかれはてた。",
+          "vi": "Làm đến tận nửa đêm rồi kiệt sức.",
+          "ruby": [
+            {
+              "text": "夜中",
+              "reading": "よなか"
+            },
+            {
+              "text": "まで"
+            },
+            {
+              "text": "働",
+              "reading": "はたら"
+            },
+            {
+              "text": "いて"
+            },
+            {
+              "text": "疲",
+              "reading": "つか"
+            },
+            {
+              "text": "れ"
+            },
+            {
+              "text": "果",
+              "reading": "は"
+            },
+            {
+              "text": "てた。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 109,
+        "printedPage": 96,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-made-shite-te-made-den-muc-toi-muc/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-made-cho-den-khi-den-tan-den-muc-tham-chi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l21-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Thậm chí bỏ việc để đi du lịch.",
+          "answers": [
+            "仕事を辞めてまで旅行した。"
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Đến mức khóc mới xin lỗi.",
+          "answers": [
+            "泣くまで謝った。"
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Vay tiền để tổ chức tiệc.",
+          "answers": [
+            "借金までして宴会を開いた。"
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đến mức gian lận chỉ để thắng?",
+          "answers": [
+            "不正をしてまで勝ちたいのか。"
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Làm đến tận sáng mới xong.",
+          "answers": [
+            "朝まで作業して終わらせた。"
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Hy sinh sức khỏe để kiếm tiền.",
+          "answers": [
+            "健康を犠牲にしてまで稼いだ。"
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Đến mức quỳ xuống van xin.",
+          "answers": [
+            "土下座までして頼んだ。"
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nói dối để giữ thể diện?",
+          "answers": [
+            "嘘をついてまで体面を保つのか。"
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Học đến đêm khuya mới ngủ.",
+          "answers": [
+            "深夜まで勉強してから寝た。"
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Bán nhà để trả nợ.",
+          "answers": [
+            "家を売ってまで借金を返した。"
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "徹夜してまで資料を仕上げた。",
+          "answers": [
+            "Thức trắng để hoàn thành tài liệu."
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "親に嘘までついた。",
+          "answers": [
+            "Thậm chí nói dối cả bố mẹ."
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "命を危険にさらしてまで救助した。",
+          "answers": [
+            "Đến mức liều mạng để cứu người."
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "借金をしてまでブランド品を買うな。",
+          "answers": [
+            "Đừng vay nợ chỉ để mua hàng hiệu."
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "夜中まで議論が続いた。",
+          "answers": [
+            "Tranh luận kéo dài đến nửa đêm."
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "泣いてまで反対する必要はない。",
+          "answers": [
+            "Không cần phản đối đến mức khóc."
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "退職してまで独立した。",
+          "answers": [
+            "Thậm chí nghỉ việc để độc lập."
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "規則を破ってまで参加したいのか。",
+          "answers": [
+            "Đến mức phá luật chỉ để tham gia sao?"
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "朝まで練習を続けた。",
+          "answers": [
+            "Luyện tập liên tục đến sáng."
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "貯金を崩してまで援助した。",
+          "answers": [
+            "Thậm chí phá tiết kiệm để hỗ trợ."
+          ],
+          "hint": "〜まで／までして／てまで",
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-order-01",
+          "mode": "order",
+          "prompt": "Nghỉ việc để đi du lịch.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "仕事を辞めてまで"
+            },
+            {
+              "id": "1",
+              "text": "海外旅行に"
+            },
+            {
+              "id": "2",
+              "text": "行った"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まで／までして／てまで",
+          "answers": [
+            "仕事を辞めてまで海外旅行に行った。"
+          ],
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-order-02",
+          "mode": "order",
+          "prompt": "Khóc mới chịu xin lỗi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "泣くまで"
+            },
+            {
+              "id": "1",
+              "text": "何度も"
+            },
+            {
+              "id": "2",
+              "text": "謝った"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まで／までして／てまで",
+          "answers": [
+            "泣くまで何度も謝った。"
+          ],
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-order-03",
+          "mode": "order",
+          "prompt": "Vay nợ để mở tiệc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "借金までして"
+            },
+            {
+              "id": "1",
+              "text": "盛大な宴会を"
+            },
+            {
+              "id": "2",
+              "text": "開いた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まで／までして／てまで",
+          "answers": [
+            "借金までして盛大な宴会を開いた。"
+          ],
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-order-04",
+          "mode": "order",
+          "prompt": "Gian lận chỉ để thắng?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "不正をしてまで"
+            },
+            {
+              "id": "1",
+              "text": "勝利を"
+            },
+            {
+              "id": "2",
+              "text": "求めるのか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まで／までして／てまで",
+          "answers": [
+            "不正をしてまで勝利を求めるのか。"
+          ],
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-order-05",
+          "mode": "order",
+          "prompt": "Làm đến sáng mới xong.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "朝まで作業して"
+            },
+            {
+              "id": "1",
+              "text": "ようやく"
+            },
+            {
+              "id": "2",
+              "text": "終わらせた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まで／までして／てまで",
+          "answers": [
+            "朝まで作業してようやく終わらせた。"
+          ],
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-order-06",
+          "mode": "order",
+          "prompt": "Hy sinh sức khỏe kiếm tiền.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "健康を犠牲にしてまで"
+            },
+            {
+              "id": "1",
+              "text": "お金を"
+            },
+            {
+              "id": "2",
+              "text": "稼いだ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まで／までして／てまで",
+          "answers": [
+            "健康を犠牲にしてまでお金を稼いだ。"
+          ],
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-order-07",
+          "mode": "order",
+          "prompt": "Quỳ xuống để van xin.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "土下座までして"
+            },
+            {
+              "id": "1",
+              "text": "許しを"
+            },
+            {
+              "id": "2",
+              "text": "頼んだ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まで／までして／てまで",
+          "answers": [
+            "土下座までして許しを頼んだ。"
+          ],
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-order-08",
+          "mode": "order",
+          "prompt": "Nói dối giữ thể diện?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "嘘をついてまで"
+            },
+            {
+              "id": "1",
+              "text": "体面を"
+            },
+            {
+              "id": "2",
+              "text": "守るのか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まで／までして／てまで",
+          "answers": [
+            "嘘をついてまで体面を守るのか。"
+          ],
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-order-09",
+          "mode": "order",
+          "prompt": "Học đến khuya rồi ngủ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "深夜まで勉強して"
+            },
+            {
+              "id": "1",
+              "text": "やっと"
+            },
+            {
+              "id": "2",
+              "text": "眠った"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まで／までして／てまで",
+          "answers": [
+            "深夜まで勉強してやっと眠った。"
+          ],
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g03-order-10",
+          "mode": "order",
+          "prompt": "Bán nhà mới trả hết nợ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "家を売ってまで"
+            },
+            {
+              "id": "1",
+              "text": "借金を"
+            },
+            {
+              "id": "2",
+              "text": "返済した"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まで／までして／てまで",
+          "answers": [
+            "家を売ってまで借金を返済した。"
+          ],
+          "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l21-g04",
+      "title": "〜として〜ない",
+      "meaning": "Không một ai / không một… nào (làm)…",
+      "variants": [
+        "として〜ない",
+        "一人として〜ない"
+      ],
+      "structures": [
+        "一人として〜ない",
+        "一日として〜ない",
+        "N ＋ として ＋ 否定"
+      ],
+      "explanation": "として〜ない nhấn phủ định toàn bộ: không một N nào (làm/có)… — thường với 一人／一日／一度…",
+      "usage": "Nhấn mạnh sự vắng bóng hoàn toàn: không ai đồng ý; không ngày nào yên.",
+      "cautions": [
+        "Luôn đi với phủ định; không dùng khẳng định sau として theo nghĩa này.",
+        "Khác として nghĩa 'với tư cách là…'."
+      ],
+      "contrast": "として〜ない ≈ không một… nào. Gần も〜ない nhưng trang trọng/nhấn mạnh hơn.",
+      "examples": [
+        {
+          "ja": "一人として反対しなかった。",
+          "reading": "ひとりとしてはんたいしなかった。",
+          "vi": "Không một ai phản đối.",
+          "ruby": [
+            {
+              "text": "一人",
+              "reading": "ひとり"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "しなかった。"
+            }
+          ]
+        },
+        {
+          "ja": "一日として安心できない。",
+          "reading": "いちにちとしてあんしんできない。",
+          "vi": "Không một ngày nào yên tâm được.",
+          "ruby": [
+            {
+              "text": "一日",
+              "reading": "いちにち"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "安心",
+              "reading": "あんしん"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
+        },
+        {
+          "ja": "一度として約束を破ったことがない。",
+          "reading": "いちどとしてやくそくをやぶったことがない。",
+          "vi": "Chưa từng một lần thất hứa.",
+          "ruby": [
+            {
+              "text": "一度",
+              "reading": "いちど"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "破",
+              "reading": "やぶ"
+            },
+            {
+              "text": "ったことがない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 109,
+        "printedPage": 96,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-to-shite-nai-khong-mot-ai-khong-mot-ngay-khong-mot-lan/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l21-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Không một ai cười.",
+          "answers": [
+            "一人として笑わなかった。"
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Không ngày nào quên luyện tập.",
+          "answers": [
+            "一日として練習を怠らない。"
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Chưa một lần bỏ cuộc.",
+          "answers": [
+            "一度として諦めなかった。"
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Không ai hiểu ý tôi.",
+          "answers": [
+            "一人として私の意図を理解しない。"
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Không đêm nào ngủ ngon.",
+          "answers": [
+            "一夜として熟睡できない。"
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Chưa lần nào đến muộn.",
+          "answers": [
+            "一度として遅刻したことがない。"
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Không ai chịu giúp.",
+          "answers": [
+            "一人として手伝おうとしない。"
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Không ngày nào hết lo.",
+          "answers": [
+            "一日として心配事が絶えない。"
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Chưa lần nào nói dối.",
+          "answers": [
+            "一度として嘘をついたことがない。"
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Không ai biết câu trả lời.",
+          "answers": [
+            "一人として答えを知らない。"
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "一人として賛成しなかった。",
+          "answers": [
+            "Không một ai tán thành."
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "一日として暇な日がない。",
+          "answers": [
+            "Không một ngày nào rảnh."
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "一度として文句を言わない。",
+          "answers": [
+            "Chưa từng một lần phàn nàn."
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "一人として逃げなかった。",
+          "answers": [
+            "Không ai bỏ chạy."
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "一夜として静かではなかった。",
+          "answers": [
+            "Không đêm nào yên tĩnh."
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "一度として嘘はつかない。",
+          "answers": [
+            "Không bao giờ nói dối dù một lần."
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "一人として彼を責めない。",
+          "answers": [
+            "Không ai trách anh ấy."
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "一日として連絡を欠かさない。",
+          "answers": [
+            "Không ngày nào bỏ liên lạc."
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "一度として約束を破らない。",
+          "answers": [
+            "Không lần nào phá lời hứa."
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "一人として疑問を持たなかった。",
+          "answers": [
+            "Không ai có nghi vấn."
+          ],
+          "hint": "〜として〜ない",
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-order-01",
+          "mode": "order",
+          "prompt": "Không ai cười cả.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一人として"
+            },
+            {
+              "id": "1",
+              "text": "笑おうとも"
+            },
+            {
+              "id": "2",
+              "text": "しなかった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として〜ない",
+          "answers": [
+            "一人として笑おうともしなかった。"
+          ],
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-order-02",
+          "mode": "order",
+          "prompt": "Không ngày nào bỏ luyện.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一日として"
+            },
+            {
+              "id": "1",
+              "text": "練習を"
+            },
+            {
+              "id": "2",
+              "text": "怠らない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として〜ない",
+          "answers": [
+            "一日として練習を怠らない。"
+          ],
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-order-03",
+          "mode": "order",
+          "prompt": "Chưa lần nào bỏ cuộc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一度として"
+            },
+            {
+              "id": "1",
+              "text": "諦めようと"
+            },
+            {
+              "id": "2",
+              "text": "しなかった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として〜ない",
+          "answers": [
+            "一度として諦めようとしなかった。"
+          ],
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-order-04",
+          "mode": "order",
+          "prompt": "Chẳng ai hiểu ý tôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一人として"
+            },
+            {
+              "id": "1",
+              "text": "私の意図を"
+            },
+            {
+              "id": "2",
+              "text": "理解しない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として〜ない",
+          "answers": [
+            "一人として私の意図を理解しない。"
+          ],
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-order-05",
+          "mode": "order",
+          "prompt": "Không đêm nào ngủ sâu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一夜として"
+            },
+            {
+              "id": "1",
+              "text": "ぐっすり"
+            },
+            {
+              "id": "2",
+              "text": "眠れない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として〜ない",
+          "answers": [
+            "一夜としてぐっすり眠れない。"
+          ],
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-order-06",
+          "mode": "order",
+          "prompt": "Chưa lần nào muộn giờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一度として"
+            },
+            {
+              "id": "1",
+              "text": "遅刻など"
+            },
+            {
+              "id": "2",
+              "text": "していない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として〜ない",
+          "answers": [
+            "一度として遅刻などしていない。"
+          ],
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-order-07",
+          "mode": "order",
+          "prompt": "Không ai chịu giúp đỡ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一人として"
+            },
+            {
+              "id": "1",
+              "text": "手伝おうと"
+            },
+            {
+              "id": "2",
+              "text": "しない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として〜ない",
+          "answers": [
+            "一人として手伝おうとしない。"
+          ],
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-order-08",
+          "mode": "order",
+          "prompt": "Lo lắng không ngày nào dứt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一日として"
+            },
+            {
+              "id": "1",
+              "text": "心配事が"
+            },
+            {
+              "id": "2",
+              "text": "消えない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として〜ない",
+          "answers": [
+            "一日として心配事が消えない。"
+          ],
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-order-09",
+          "mode": "order",
+          "prompt": "Chưa từng nói dối lần nào.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一度として"
+            },
+            {
+              "id": "1",
+              "text": "嘘をついた"
+            },
+            {
+              "id": "2",
+              "text": "覚えがない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として〜ない",
+          "answers": [
+            "一度として嘘をついた覚えがない。"
+          ],
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g04-order-10",
+          "mode": "order",
+          "prompt": "Không ai biết đáp án.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一人として"
+            },
+            {
+              "id": "1",
+              "text": "正解を"
+            },
+            {
+              "id": "2",
+              "text": "知らない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として〜ない",
+          "answers": [
+            "一人として正解を知らない。"
+          ],
+          "explanation": "Câu として＋否定: không một (người/ngày/lần) nào…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l21-g05",
+      "title": "〜さえ",
+      "meaning": "Thậm chí… / ngay cả… cũng…",
+      "variants": [
+        "さえ",
+        "でさえ"
+      ],
+      "structures": [
+        "N ＋ さえ（も）",
+        "Nでさえ",
+        "Vます ＋ さえすれば"
+      ],
+      "explanation": "さえ nhấn cực điểm: ngay cả A (cũng)… — thường kèm phủ định hoặc điều kiện tối thiểu さえすれば.",
+      "usage": "Nhấn 'ngay cả… cũng không/có'; nêu điều kiện tối thiểu đủ để…",
+      "cautions": [
+        "でさえ nhấn mạnh hơn さえ một chút.",
+        "さえすれば = chỉ cần… là đủ; khác さえ phủ định."
+      ],
+      "contrast": "さえ ≈ thậm chí/ngay cả. Gần まで (cực điểm) và も nhưng さえ nhấn 'không ngờ cả A'.",
+      "examples": [
+        {
+          "ja": "子供でさえ分かる問題だ。",
+          "reading": "こどもでさえわかるもんだいだ。",
+          "vi": "Ngay cả trẻ con cũng hiểu câu hỏi này.",
+          "ruby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "でさえ"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かる"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "名前さえ思い出せない。",
+          "reading": "なまえさえおもいだせない。",
+          "vi": "Đến tên cũng không nhớ ra.",
+          "ruby": [
+            {
+              "text": "名前",
+              "reading": "なまえ"
+            },
+            {
+              "text": "さえ"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "せない。"
+            }
+          ]
+        },
+        {
+          "ja": "休みさえあれば旅行したい。",
+          "reading": "やすみさえあればりょこうしたい。",
+          "vi": "Chỉ cần có nghỉ là muốn đi du lịch.",
+          "ruby": [
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みさえあれば"
+            },
+            {
+              "text": "旅行",
+              "reading": "りょこう"
+            },
+            {
+              "text": "したい。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 109,
+        "printedPage": 96,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-sae-ngay-ca-tham-chi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l21-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Ngay cả giáo viên cũng nhầm.",
+          "answers": [
+            "先生でさえ間違える。"
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Đến nước cũng không uống nổi.",
+          "answers": [
+            "水さえ飲めない。"
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Chỉ cần cố là được.",
+          "answers": [
+            "努力しさえすれば成功する。"
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Ngay cả người lớn cũng sợ.",
+          "answers": [
+            "大人でさえ怖がる。"
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đến chào cũng quên.",
+          "answers": [
+            "挨拶さえ忘れてしまった。"
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Chỉ cần có thời gian là đi.",
+          "answers": [
+            "時間さえあれば行く。"
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Ngay cả máy cũng hỏng.",
+          "answers": [
+            "機械でさえ故障した。"
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Đến đứng cũng khó.",
+          "answers": [
+            "立つことさえ難しい。"
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Chỉ cần đọc kỹ là hiểu.",
+          "answers": [
+            "よく読みさえすれば分かる。"
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Ngay cả bạn thân cũng không biết.",
+          "answers": [
+            "親友でさえ知らない。"
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "初心者でさえ操作できる。",
+          "answers": [
+            "Ngay cả người mới cũng thao tác được."
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "声さえ出せなかった。",
+          "answers": [
+            "Đến tiếng cũng không phát ra được."
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "練習しさえすれば上達する。",
+          "answers": [
+            "Chỉ cần luyện là tiến bộ."
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "専門家でさえ判断に迷う。",
+          "answers": [
+            "Ngay cả chuyên gia cũng do dự."
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "一言さえ言えなかった。",
+          "answers": [
+            "Đến một lời cũng không nói được."
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "天気さえ良ければ出発する。",
+          "answers": [
+            "Chỉ cần thời tiết đẹp là xuất phát."
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "子供でさえ知っている事実だ。",
+          "answers": [
+            "Sự thật ngay cả trẻ con cũng biết."
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "呼吸さえ苦しい。",
+          "answers": [
+            "Đến thở cũng khó khăn."
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "連絡しさえすれば助かる。",
+          "answers": [
+            "Chỉ cần liên lạc là được cứu."
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "社長でさえ例外ではない。",
+          "answers": [
+            "Ngay cả giám đốc cũng không ngoại lệ."
+          ],
+          "hint": "〜さえ",
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-order-01",
+          "mode": "order",
+          "prompt": "Giáo viên cũng nhầm luôn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "先生でさえ"
+            },
+            {
+              "id": "1",
+              "text": "時々"
+            },
+            {
+              "id": "2",
+              "text": "間違える"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜さえ",
+          "answers": [
+            "先生でさえ時々間違える。"
+          ],
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-order-02",
+          "mode": "order",
+          "prompt": "Nước cũng không uống nổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "水さえ"
+            },
+            {
+              "id": "1",
+              "text": "喉を"
+            },
+            {
+              "id": "2",
+              "text": "通らない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜さえ",
+          "answers": [
+            "水さえ喉を通らない。"
+          ],
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-order-03",
+          "mode": "order",
+          "prompt": "Chỉ cần cố là thành công.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力しさえすれば"
+            },
+            {
+              "id": "1",
+              "text": "必ず"
+            },
+            {
+              "id": "2",
+              "text": "成功する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜さえ",
+          "answers": [
+            "努力しさえすれば必ず成功する。"
+          ],
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-order-04",
+          "mode": "order",
+          "prompt": "Người lớn cũng thấy sợ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "大人でさえ"
+            },
+            {
+              "id": "1",
+              "text": "恐怖を"
+            },
+            {
+              "id": "2",
+              "text": "感じる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜さえ",
+          "answers": [
+            "大人でさえ恐怖を感じる。"
+          ],
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-order-05",
+          "mode": "order",
+          "prompt": "Chào hỏi cũng quên mất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "挨拶さえ"
+            },
+            {
+              "id": "1",
+              "text": "すっかり"
+            },
+            {
+              "id": "2",
+              "text": "忘れた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜さえ",
+          "answers": [
+            "挨拶さえすっかり忘れた。"
+          ],
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-order-06",
+          "mode": "order",
+          "prompt": "Có thời gian là sẽ đi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "時間さえあれば"
+            },
+            {
+              "id": "1",
+              "text": "すぐに"
+            },
+            {
+              "id": "2",
+              "text": "行く"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜さえ",
+          "answers": [
+            "時間さえあればすぐに行く。"
+          ],
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-order-07",
+          "mode": "order",
+          "prompt": "Máy móc cũng bị hỏng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "機械でさえ"
+            },
+            {
+              "id": "1",
+              "text": "突然"
+            },
+            {
+              "id": "2",
+              "text": "故障した"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜さえ",
+          "answers": [
+            "機械でさえ突然故障した。"
+          ],
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-order-08",
+          "mode": "order",
+          "prompt": "Đứng dậy cũng khó khăn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "立つことさえ"
+            },
+            {
+              "id": "1",
+              "text": "容易では"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜さえ",
+          "answers": [
+            "立つことさえ容易ではない。"
+          ],
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-order-09",
+          "mode": "order",
+          "prompt": "Đọc kỹ là sẽ hiểu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "よく読みさえすれば"
+            },
+            {
+              "id": "1",
+              "text": "内容が"
+            },
+            {
+              "id": "2",
+              "text": "分かる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜さえ",
+          "answers": [
+            "よく読みさえすれば内容が分かる。"
+          ],
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g05-order-10",
+          "mode": "order",
+          "prompt": "Bạn thân cũng không biết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "親友でさえ"
+            },
+            {
+              "id": "1",
+              "text": "真相を"
+            },
+            {
+              "id": "2",
+              "text": "知らない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜さえ",
+          "answers": [
+            "親友でさえ真相を知らない。"
+          ],
+          "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần…. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l21-g06",
+      "title": "〜てでも",
+      "meaning": "Dù phải… cũng (làm)… / cho dù phải…",
+      "variants": [
+        "てでも"
+      ],
+      "structures": [
+        "Vて ＋ でも"
+      ],
+      "explanation": "てでも bày tỏ quyết tâm mạnh: dù phải làm A (bất tiện/cực đoan) cũng muốn đạt B.",
+      "usage": "Quyết tâm bất chấp phương tiện: dù vay nợ cũng mua; dù nghỉ việc cũng đi.",
+      "cautions": [
+        "Thường kèm ý chí mạnh (たい／つもり／なければならない).",
+        "Khác ても (dù… vẫn) trung tính hơn; てでも nhấn 'bằng mọi giá'."
+      ],
+      "contrast": "てでも ≈ dù phải… cũng…. Gần までして nhưng てでも thiên quyết tâm của người nói.",
+      "examples": [
+        {
+          "ja": "借金してでも留学したい。",
+          "reading": "しゃっきんしてでもりゅうがくしたい。",
+          "vi": "Dù phải vay nợ cũng muốn du học.",
+          "ruby": [
+            {
+              "text": "借金",
+              "reading": "しゃっきん"
+            },
+            {
+              "text": "してでも"
+            },
+            {
+              "text": "留学",
+              "reading": "りゅうがく"
+            },
+            {
+              "text": "したい。"
+            }
+          ]
+        },
+        {
+          "ja": "夜を徹してでも仕上げる。",
+          "reading": "よをてっしてでもしあげる。",
+          "vi": "Dù phải thức trắng cũng hoàn thành.",
+          "ruby": [
+            {
+              "text": "夜",
+              "reading": "よ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "徹",
+              "reading": "てっ"
+            },
+            {
+              "text": "してでも"
+            },
+            {
+              "text": "仕",
+              "reading": "し"
+            },
+            {
+              "text": "上げる。"
+            }
+          ]
+        },
+        {
+          "ja": "辞めてでも自分の道を行く。",
+          "reading": "やめてでもじぶんのみちをいく。",
+          "vi": "Dù nghỉ việc cũng đi con đường mình.",
+          "ruby": [
+            {
+              "text": "辞",
+              "reading": "や"
+            },
+            {
+              "text": "めてでも"
+            },
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "道",
+              "reading": "みち"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "く。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 109,
+        "printedPage": 96,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-te-demo-cho-du-tham-chi-phai-lam/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l21-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Dù phải bán xe cũng trả nợ.",
+          "answers": [
+            "車を売ってでも借金を返す。"
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Dù phải xếp hàng cũng mua.",
+          "answers": [
+            "並んででも手に入れる。"
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Dù phải đi bộ cũng đến kịp.",
+          "answers": [
+            "歩いてでも間に合わせる。"
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Dù phải vay cũng cứu bạn.",
+          "answers": [
+            "借りてでも友人を助ける。"
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Dù phải thức khuya cũng ôn.",
+          "answers": [
+            "夜更かししてでも復習する。"
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Dù phải đổi lịch cũng gặp.",
+          "answers": [
+            "予定を変えてでも会う。"
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Dù phải cắt giảm cũng hoàn thành.",
+          "answers": [
+            "経費を削ってでもやり遂げる。"
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Dù phải xin lỗi cũng hòa giải.",
+          "answers": [
+            "頭を下げてでも仲直りする。"
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Dù phải đổi nghề cũng theo đuổi.",
+          "answers": [
+            "転職してでも夢を追う。"
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Dù phải chờ lâu cũng đăng ký.",
+          "answers": [
+            "長く待ってでも申し込む。"
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "徹夜してでも論文を書く。",
+          "answers": [
+            "Dù thức trắng cũng viết luận văn."
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "借金してでも家を買う。",
+          "answers": [
+            "Dù vay nợ cũng mua nhà."
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "走ってでも会場に着く。",
+          "answers": [
+            "Dù phải chạy cũng tới hội trường."
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "休職してでも介護する。",
+          "answers": [
+            "Dù nghỉ việc tạm cũng chăm sóc."
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "謝ってでも協力を得る。",
+          "answers": [
+            "Dù xin lỗi cũng tranh thủ hợp tác."
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "遠回りしてでも安全を選ぶ。",
+          "answers": [
+            "Dù đường vòng cũng chọn an toàn."
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "節約してでも留学費用を貯める。",
+          "answers": [
+            "Dù tiết kiệm cũng tích phí du học."
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "無理してでも締め切りに間に合わせる。",
+          "answers": [
+            "Dù gắng sức cũng kịp hạn."
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "対立してでも意見を通す。",
+          "answers": [
+            "Dù đối đầu cũng giữ ý kiến."
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "夜行列車に乗ってでも帰る。",
+          "answers": [
+            "Dù tàu đêm cũng về nhà."
+          ],
+          "hint": "〜てでも",
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-order-01",
+          "mode": "order",
+          "prompt": "Bán xe cũng trả hết nợ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "車を売ってでも"
+            },
+            {
+              "id": "1",
+              "text": "借金を"
+            },
+            {
+              "id": "2",
+              "text": "完済する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てでも",
+          "answers": [
+            "車を売ってでも借金を完済する。"
+          ],
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-order-02",
+          "mode": "order",
+          "prompt": "Xếp hàng cũng phải mua.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "何時間並んででも"
+            },
+            {
+              "id": "1",
+              "text": "商品を"
+            },
+            {
+              "id": "2",
+              "text": "入手する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てでも",
+          "answers": [
+            "何時間並んででも商品を入手する。"
+          ],
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-order-03",
+          "mode": "order",
+          "prompt": "Đi bộ cũng đến kịp giờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "歩いてでも"
+            },
+            {
+              "id": "1",
+              "text": "開始に"
+            },
+            {
+              "id": "2",
+              "text": "間に合わせる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てでも",
+          "answers": [
+            "歩いてでも開始に間に合わせる。"
+          ],
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-order-04",
+          "mode": "order",
+          "prompt": "Vay tiền cũng cứu bạn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "金を借りてでも"
+            },
+            {
+              "id": "1",
+              "text": "友人を"
+            },
+            {
+              "id": "2",
+              "text": "助ける"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てでも",
+          "answers": [
+            "金を借りてでも友人を助ける。"
+          ],
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-order-05",
+          "mode": "order",
+          "prompt": "Thức khuya cũng ôn bài.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "夜更かししてでも"
+            },
+            {
+              "id": "1",
+              "text": "試験勉強を"
+            },
+            {
+              "id": "2",
+              "text": "続ける"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てでも",
+          "answers": [
+            "夜更かししてでも試験勉強を続ける。"
+          ],
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-order-06",
+          "mode": "order",
+          "prompt": "Đổi lịch cũng gặp mặt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "予定を変えてでも"
+            },
+            {
+              "id": "1",
+              "text": "直接"
+            },
+            {
+              "id": "2",
+              "text": "会う"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てでも",
+          "answers": [
+            "予定を変えてでも直接会う。"
+          ],
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-order-07",
+          "mode": "order",
+          "prompt": "Cắt chi phí cũng hoàn tất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "経費を削ってでも"
+            },
+            {
+              "id": "1",
+              "text": "計画を"
+            },
+            {
+              "id": "2",
+              "text": "やり遂げる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てでも",
+          "answers": [
+            "経費を削ってでも計画をやり遂げる。"
+          ],
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-order-08",
+          "mode": "order",
+          "prompt": "Cúi đầu cũng hòa giải.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "頭を下げてでも"
+            },
+            {
+              "id": "1",
+              "text": "関係を"
+            },
+            {
+              "id": "2",
+              "text": "修復する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てでも",
+          "answers": [
+            "頭を下げてでも関係を修復する。"
+          ],
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-order-09",
+          "mode": "order",
+          "prompt": "Đổi nghề cũng theo đuổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "転職してでも"
+            },
+            {
+              "id": "1",
+              "text": "夢を"
+            },
+            {
+              "id": "2",
+              "text": "追いかけたい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てでも",
+          "answers": [
+            "転職してでも夢を追いかけたい。"
+          ],
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l21-g06-order-10",
+          "mode": "order",
+          "prompt": "Chờ lâu cũng đăng ký.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "何時間待ってでも"
+            },
+            {
+              "id": "1",
+              "text": "手続きを"
+            },
+            {
+              "id": "2",
+              "text": "済ませる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てでも",
+          "answers": [
+            "何時間待ってでも手続きを済ませる。"
+          ],
+          "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+        }
+      ]
+    }
+  ]
+}

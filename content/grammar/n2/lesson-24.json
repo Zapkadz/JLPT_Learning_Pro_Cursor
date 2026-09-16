@@ -1,0 +1,4469 @@
+{
+  "id": "lesson-24",
+  "titleJa": "提案・意志",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 24. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L21-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l24-g01",
+      "title": "〜（よ）うではないか",
+      "meaning": "Hãy cùng… đi / sao không cùng… nhỉ (kêu gọi hành động chung)",
+      "variants": [
+        "ようではないか",
+        "ようじゃないか"
+      ],
+      "structures": [
+        "V意志形 ＋ ではないか／じゃないか",
+        "V（よ）う ＋ ではないか"
+      ],
+      "explanation": "（よ）うではないか／じゃないか kêu gọi cùng làm: đề xuất mạnh mang sắc ‘cùng nhau quyết tâm’ hơn 〜ましょう.",
+      "usage": "Hội họp, bài phát biểu, khuyến khích nhóm: hãy cùng cố gắng; cùng bắt đầu thôi.",
+      "cautions": [
+        "ではないか trang trọng hơn; じゃないか khẩu ngữ.",
+        "Khác 〜ようか (do dự/đề xuất nhẹ); ở đây nhấn kêu gọi tập thể."
+      ],
+      "contrast": "（よ）うではないか ≈ hãy cùng…. Khác ことだ (khuyên cá nhân) và べきだ (nghĩa vụ lẽ phải).",
+      "examples": [
+        {
+          "ja": "力を合わせて解決しようではないか。",
+          "reading": "ちからをあわせてかいけつしようではないか。",
+          "vi": "Hãy cùng chung sức giải quyết thôi.",
+          "ruby": [
+            {
+              "text": "力",
+              "reading": "ちから"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "合",
+              "reading": "あ"
+            },
+            {
+              "text": "わせて"
+            },
+            {
+              "text": "解決",
+              "reading": "かいけつ"
+            },
+            {
+              "text": "しようではないか。"
+            }
+          ]
+        },
+        {
+          "ja": "新しい企画に挑戦しようじゃないか。",
+          "reading": "あたらしいきかくにちょうせんしようじゃないか。",
+          "vi": "Hãy thử thách dự án mới thôi.",
+          "ruby": [
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "企画",
+              "reading": "きかく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "しようじゃないか。"
+            }
+          ]
+        },
+        {
+          "ja": "今夜はゆっくり休もうではないか。",
+          "reading": "こんやはゆっくりやすもうではないか。",
+          "vi": "Đêm nay hãy nghỉ ngơi thoải mái thôi.",
+          "ruby": [
+            {
+              "text": "今夜",
+              "reading": "こんや"
+            },
+            {
+              "text": "はゆっくり"
+            },
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "もうではないか。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 121,
+        "printedPage": 108,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-you-de-wa-nai-ka-hay-cung-sao-khong/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l24-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Hãy cùng ôn thi chăm chỉ thôi.",
+          "answers": [
+            "一緒に試験勉強を頑張ろうではないか。"
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Hãy bắt đầu họp thôi.",
+          "answers": [
+            "会議を始めようじゃないか。"
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Hãy cùng bảo vệ môi trường thôi.",
+          "answers": [
+            "環境を守ろうではないか。"
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Hãy thử lại lần nữa thôi.",
+          "answers": [
+            "もう一度やり直そうじゃないか。"
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Hãy cùng chia sẻ ý kiến thôi.",
+          "answers": [
+            "意見を出し合おうではないか。"
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Hãy đi bộ đến ga thôi.",
+          "answers": [
+            "駅まで歩いて行こうじゃないか。"
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Hãy cùng chào đón khách thôi.",
+          "answers": [
+            "来客を迎えようではないか。"
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Hãy tiết kiệm điện thôi.",
+          "answers": [
+            "電気を節約しようじゃないか。"
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Hãy cùng hoàn thành báo cáo thôi.",
+          "answers": [
+            "報告書を仕上げようではないか。"
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Hãy nghỉ giải lao một chút thôi.",
+          "answers": [
+            "少し休憩しようじゃないか。"
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "真相を明らかにしようではないか。",
+          "answers": [
+            "Hãy cùng làm rõ sự thật thôi."
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "地域のためにボランティアしようじゃないか。",
+          "answers": [
+            "Hãy tình nguyện vì địa phương thôi."
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "無駄な争いはやめようではないか。",
+          "answers": [
+            "Hãy thôi tranh cãi vô ích thôi."
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "新しいルールを守ろうじゃないか。",
+          "answers": [
+            "Hãy cùng tuân thủ quy tắc mới thôi."
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "今日中に結論を出そうではないか。",
+          "answers": [
+            "Hãy đưa ra kết luận trong hôm nay thôi."
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "お互いを尊重しようじゃないか。",
+          "answers": [
+            "Hãy tôn trọng lẫn nhau thôi."
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "計画を見直そうではないか。",
+          "answers": [
+            "Hãy xem lại kế hoạch thôi."
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "笑顔で挨拶しようじゃないか。",
+          "answers": [
+            "Hãy chào nhau bằng nụ cười thôi."
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "力を合わせて勝ち残ろうではないか。",
+          "answers": [
+            "Hãy chung sức để ở lại vòng trong thôi."
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "まずは現状を把握しようじゃないか。",
+          "answers": [
+            "Trước hết hãy nắm tình hình hiện tại thôi."
+          ],
+          "hint": "〜（よ）うではないか",
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-order-01",
+          "mode": "order",
+          "prompt": "Cùng chung sức giải quyết thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "力を合わせて"
+            },
+            {
+              "id": "1",
+              "text": "解決しよう"
+            },
+            {
+              "id": "2",
+              "text": "ではないか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うではないか",
+          "answers": [
+            "力を合わせて解決しようではないかのだ。"
+          ],
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-order-02",
+          "mode": "order",
+          "prompt": "Thử thách dự án mới thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "新しい企画に"
+            },
+            {
+              "id": "1",
+              "text": "挑戦しよう"
+            },
+            {
+              "id": "2",
+              "text": "じゃないか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うではないか",
+          "answers": [
+            "新しい企画に挑戦しようじゃないかのだ。"
+          ],
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-order-03",
+          "mode": "order",
+          "prompt": "Đêm nay nghỉ thoải mái thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今夜はゆっくり"
+            },
+            {
+              "id": "1",
+              "text": "休もう"
+            },
+            {
+              "id": "2",
+              "text": "ではないか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うではないか",
+          "answers": [
+            "今夜はゆっくり休もうではないかのだ。"
+          ],
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-order-04",
+          "mode": "order",
+          "prompt": "Cùng ôn thi chăm chỉ thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一緒に試験勉強を"
+            },
+            {
+              "id": "1",
+              "text": "頑張ろう"
+            },
+            {
+              "id": "2",
+              "text": "ではないか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うではないか",
+          "answers": [
+            "一緒に試験勉強を頑張ろうではないか。"
+          ],
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-order-05",
+          "mode": "order",
+          "prompt": "Bắt đầu cuộc họp thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議を"
+            },
+            {
+              "id": "1",
+              "text": "始めよう"
+            },
+            {
+              "id": "2",
+              "text": "じゃないか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うではないか",
+          "answers": [
+            "会議を始めようじゃないか。"
+          ],
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-order-06",
+          "mode": "order",
+          "prompt": "Cùng bảo vệ môi trường thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "環境を"
+            },
+            {
+              "id": "1",
+              "text": "守ろう"
+            },
+            {
+              "id": "2",
+              "text": "ではないか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うではないか",
+          "answers": [
+            "環境を守ろうではないか。"
+          ],
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-order-07",
+          "mode": "order",
+          "prompt": "Thử lại lần nữa thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "もう一度"
+            },
+            {
+              "id": "1",
+              "text": "やり直そう"
+            },
+            {
+              "id": "2",
+              "text": "じゃないか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うではないか",
+          "answers": [
+            "もう一度やり直そうじゃないか。"
+          ],
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-order-08",
+          "mode": "order",
+          "prompt": "Làm rõ sự thật thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "真相を"
+            },
+            {
+              "id": "1",
+              "text": "明らかにしよう"
+            },
+            {
+              "id": "2",
+              "text": "ではないか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うではないか",
+          "answers": [
+            "真相を明らかにしようではないか。"
+          ],
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-order-09",
+          "mode": "order",
+          "prompt": "Thôi tranh cãi vô ích.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "無駄な争いは"
+            },
+            {
+              "id": "1",
+              "text": "やめよう"
+            },
+            {
+              "id": "2",
+              "text": "ではないか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うではないか",
+          "answers": [
+            "無駄な争いはやめようではないか。"
+          ],
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g01-order-10",
+          "mode": "order",
+          "prompt": "Nắm tình hình trước đã.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "まずは現状を"
+            },
+            {
+              "id": "1",
+              "text": "把握しよう"
+            },
+            {
+              "id": "2",
+              "text": "じゃないか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うではないか",
+          "answers": [
+            "まずは現状を把握しようじゃないか。"
+          ],
+          "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l24-g02",
+      "title": "〜ことだ",
+      "meaning": "Nên… / điều cần làm là… (lời khuyên cụ thể)",
+      "variants": [
+        "ことだ",
+        "ないことだ"
+      ],
+      "structures": [
+        "Vる ＋ ことだ",
+        "Vない ＋ ことだ"
+      ],
+      "explanation": "ことだ đưa lời khuyên thực tế: điều nên làm (hoặc không nên làm) trong tình huống đó là A — mang sắc ‘cách hay nhất lúc này’.",
+      "usage": "Khuyên bạn bè/đồng nghiệp: muốn khỏe thì nên ngủ sớm; đừng lo thừa thì nên hỏi.",
+      "cautions": [
+        "Khác ことだ định nghĩa (〜とは〜ことだ ở bài khác); ở đây là lời khuyên.",
+        "Thường dùng với người ngang/dưới hoặc tự nhủ; với cấp trên có thể quá thẳng."
+      ],
+      "contrast": "ことだ ≈ nên/điều cần làm là…. Khác べきだ (lẽ phải) và ものだ (chuẩn mực xã hội).",
+      "examples": [
+        {
+          "ja": "風邪のときは暖かくして寝ることだ。",
+          "reading": "かぜのときはあたたかくしてねることだ。",
+          "vi": "Khi cảm thì nên đắp ấm mà ngủ.",
+          "ruby": [
+            {
+              "text": "風邪",
+              "reading": "かぜ"
+            },
+            {
+              "text": "のときは"
+            },
+            {
+              "text": "暖",
+              "reading": "あたた"
+            },
+            {
+              "text": "かくして"
+            },
+            {
+              "text": "寝",
+              "reading": "ね"
+            },
+            {
+              "text": "ることだ。"
+            }
+          ]
+        },
+        {
+          "ja": "分からないことはすぐ質問することだ。",
+          "reading": "わからないことはすぐしつもんすることだ。",
+          "vi": "Điều không hiểu thì nên hỏi ngay.",
+          "ruby": [
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "からないことはすぐ"
+            },
+            {
+              "text": "質問",
+              "reading": "しつもん"
+            },
+            {
+              "text": "することだ。"
+            }
+          ]
+        },
+        {
+          "ja": "焦らずに一歩ずつ進むことだ。",
+          "reading": "あせらずにいっぽずつすすむことだ。",
+          "vi": "Đừng vội — nên tiến từng bước một.",
+          "ruby": [
+            {
+              "text": "焦",
+              "reading": "あせ"
+            },
+            {
+              "text": "らずに"
+            },
+            {
+              "text": "一歩",
+              "reading": "いっぽ"
+            },
+            {
+              "text": "ずつ"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "むことだ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 121,
+        "printedPage": 108,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-kotoda-nen-khong-nen-lam-gi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l24-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Muốn giỏi thì nên luyện mỗi ngày.",
+          "answers": [
+            "上達したければ毎日練習することだ。"
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Mệt thì nên nghỉ sớm hôm nay.",
+          "answers": [
+            "疲れたら今日は早く休むことだ。"
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Trước họp nên đọc tài liệu.",
+          "answers": [
+            "会議の前に資料を読むことだ。"
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đừng đoán mò — nên kiểm tra số liệu.",
+          "answers": [
+            "勘に頼らずデータを確認することだ。"
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Muốn giảm cân thì nên đi bộ.",
+          "answers": [
+            "痩せたければ歩くことだ。"
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Khi căng thẳng nên hít thở sâu.",
+          "answers": [
+            "緊張したら深呼吸することだ。"
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Đừng trì hoãn — nên làm ngay việc quan trọng.",
+          "answers": [
+            "先延ばしせず重要任務から着手することだ。"
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Muốn được tin thì nên giữ lời hứa.",
+          "answers": [
+            "信頼されたければ約束を守ることだ。"
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Khi lạc đường nên hỏi người địa phương.",
+          "answers": [
+            "道に迷ったら地元の人に尋ねることだ。"
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Đừng so sánh — nên tập trung vào mình.",
+          "answers": [
+            "他人と比べず自分の課題に集中することだ。"
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "体調管理を怠らないことだ。",
+          "answers": [
+            "Đừng sao nhãng việc quản lý sức khỏe."
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "困ったときは一人で抱え込まないことだ。",
+          "answers": [
+            "Khi khó đừng ôm một mình."
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "発言の前に要点を整理することだ。",
+          "answers": [
+            "Trước khi phát biểu nên sắp xếp ý chính."
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "ミスしたらすぐに謝ることだ。",
+          "answers": [
+            "Lỡ sai thì nên xin lỗi ngay."
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "節約したければ無駄遣いをやめることだ。",
+          "answers": [
+            "Muốn tiết kiệm thì nên thôi tiêu xài lãng phí."
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "良い人間関係を築きたければ挨拶を欠かさないことだ。",
+          "answers": [
+            "Muốn quan hệ tốt thì đừng bỏ chào hỏi."
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "安全のためにはヘルメットを着用することだ。",
+          "answers": [
+            "Vì an toàn nên đội mũ bảo hiểm."
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "成果を出すには優先順位をつけることだ。",
+          "answers": [
+            "Muốn ra kết quả thì nên đặt thứ tự ưu tiên."
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "眠れないときはカフェインを控えることだ。",
+          "answers": [
+            "Khó ngủ thì nên hạn chế caffeine."
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "誤解を避けるにはメールで確認することだ。",
+          "answers": [
+            "Muốn tránh hiểu nhầm thì nên xác nhận bằng mail."
+          ],
+          "hint": "〜ことだ",
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-order-01",
+          "mode": "order",
+          "prompt": "Cảm thì nên đắp ấm ngủ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "風邪のときは暖かくして"
+            },
+            {
+              "id": "1",
+              "text": "寝る"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ",
+          "answers": [
+            "風邪のときは暖かくして寝ることだのだ。"
+          ],
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-order-02",
+          "mode": "order",
+          "prompt": "Không hiểu thì hỏi ngay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "分からないことはすぐ"
+            },
+            {
+              "id": "1",
+              "text": "質問する"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ",
+          "answers": [
+            "分からないことはすぐ質問することだのだ。"
+          ],
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-order-03",
+          "mode": "order",
+          "prompt": "Đừng vội, tiến từng bước.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "焦らずに一歩ずつ"
+            },
+            {
+              "id": "1",
+              "text": "進む"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ",
+          "answers": [
+            "焦らずに一歩ずつ進むことだのだ。"
+          ],
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-order-04",
+          "mode": "order",
+          "prompt": "Muốn giỏi luyện mỗi ngày.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "上達したければ毎日"
+            },
+            {
+              "id": "1",
+              "text": "練習する"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ",
+          "answers": [
+            "上達したければ毎日練習することだ。"
+          ],
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-order-05",
+          "mode": "order",
+          "prompt": "Mệt thì nghỉ sớm hôm nay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "疲れたら今日は早く"
+            },
+            {
+              "id": "1",
+              "text": "休む"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ",
+          "answers": [
+            "疲れたら今日は早く休むことだ。"
+          ],
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-order-06",
+          "mode": "order",
+          "prompt": "Trước họp đọc tài liệu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議の前に資料を"
+            },
+            {
+              "id": "1",
+              "text": "読む"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ",
+          "answers": [
+            "会議の前に資料を読むことだ。"
+          ],
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-order-07",
+          "mode": "order",
+          "prompt": "Căng thẳng thì hít sâu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "緊張したら"
+            },
+            {
+              "id": "1",
+              "text": "深呼吸する"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ",
+          "answers": [
+            "緊張したら深呼吸することだ。"
+          ],
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-order-08",
+          "mode": "order",
+          "prompt": "Lỡ sai thì xin lỗi ngay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ミスしたらすぐに"
+            },
+            {
+              "id": "1",
+              "text": "謝る"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ",
+          "answers": [
+            "ミスしたらすぐに謝ることだ。"
+          ],
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-order-09",
+          "mode": "order",
+          "prompt": "An toàn thì đội mũ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "安全のためにはヘルメットを"
+            },
+            {
+              "id": "1",
+              "text": "着用する"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ",
+          "answers": [
+            "安全のためにはヘルメットを着用することだ。"
+          ],
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g02-order-10",
+          "mode": "order",
+          "prompt": "Khó ngủ hạn chế caffeine.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "眠れないときはカフェインを"
+            },
+            {
+              "id": "1",
+              "text": "控える"
+            },
+            {
+              "id": "2",
+              "text": "こと"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだ",
+          "answers": [
+            "眠れないときはカフェインを控えることだ。"
+          ],
+          "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l24-g03",
+      "title": "〜ものだ／〜ものではない",
+      "meaning": "Nên… / không nên… (theo lẽ thường, đạo lý xã hội)",
+      "variants": [
+        "ものだ",
+        "ものではない"
+      ],
+      "structures": [
+        "Vる ＋ ものだ",
+        "Vない ＋ ものだ",
+        "Vる ＋ ものではない／もんじゃない"
+      ],
+      "explanation": "ものだ／ものではない khuyên theo chuẩn mực xã hội hoặc lẽ thường: người ta vốn nên A; không nên làm B. Khác ものだ cảm thán/bản chất ở bài 23.",
+      "usage": "Dạy bảo, nhắc nhở phép tắc: trẻ em nên chào; không nên cười nhạo người khác.",
+      "cautions": [
+        "ものではない／もんじゃない phủ định mạnh ‘không nên’ theo đạo lý.",
+        "Giọng có thể giáo huấn; cẩn thận đối tượng nghe."
+      ],
+      "contrast": "ものだ（khuyên）≈ nên theo lẽ thường. Khác ものだ bài 23 (cảm thán) và ことだ (khuyên tình huống cụ thể).",
+      "examples": [
+        {
+          "ja": "目上の人には丁寧に話すものだ。",
+          "reading": "めうえのひとにはていねいにはなすものだ。",
+          "vi": "Với người trên thì nên nói lịch sự.",
+          "ruby": [
+            {
+              "text": "目上",
+              "reading": "めうえ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "丁寧",
+              "reading": "ていねい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "すものだ。"
+            }
+          ]
+        },
+        {
+          "ja": "他人の失敗を笑うつもりはないものだ。",
+          "reading": "たにんのしっぱいをわらいつもりはないものだ。",
+          "vi": "Lẽ ra không nên có ý cười thất bại người khác.",
+          "ruby": [
+            {
+              "text": "他人",
+              "reading": "たにん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "笑",
+              "reading": "わら"
+            },
+            {
+              "text": "うつもりはないものだ。"
+            }
+          ]
+        },
+        {
+          "ja": "借りたものは返すべきで、無断で使うものではない。",
+          "reading": "かりたものはかえすべきで、むだんでつかうものではない。",
+          "vi": "Đồ mượn phải trả — không nên tự ý dùng.",
+          "ruby": [
+            {
+              "text": "借",
+              "reading": "か"
+            },
+            {
+              "text": "りたものは"
+            },
+            {
+              "text": "返",
+              "reading": "かえ"
+            },
+            {
+              "text": "すべきで、"
+            },
+            {
+              "text": "無断",
+              "reading": "むだん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "使",
+              "reading": "つか"
+            },
+            {
+              "text": "うものではない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 121,
+        "printedPage": 108,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-mono-da-mono-de-wa-nai-duong-nhien-ban-chat-la-nen-khong-nen-hoi-con-khi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l24-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Trẻ em nên chào người lớn.",
+          "answers": [
+            "子供は大人に挨拶するものだ。"
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Không nên nói xấu sau lưng.",
+          "answers": [
+            "陰で人の悪口を言うものではない。"
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Đến đúng giờ là lẽ thường.",
+          "answers": [
+            "約束の時間には来るものだ。"
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Không nên mở thư của người khác.",
+          "answers": [
+            "他人の手紙を開けるものではない。"
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Được giúp thì nên cảm ơn.",
+          "answers": [
+            "助けてもらったらお礼を言うものだ。"
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Không nên bỏ rác bừa bãi.",
+          "answers": [
+            "ゴミをポイ捨てするものではない。"
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Trong thư viện nên giữ im lặng.",
+          "answers": [
+            "図書館では静かにするものだ。"
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Không nên cười khi tang lễ.",
+          "answers": [
+            "葬式で笑うものではない。"
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Có lỗi thì nên thành thật thừa nhận.",
+          "answers": [
+            "間違えたら素直に認めるものだ。"
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Không nên tự ý lấy đồ chung.",
+          "answers": [
+            "共用の物を勝手に持ち出すものではない。"
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "困っている人を見捨てるものではない。",
+          "answers": [
+            "Không nên bỏ mặc người đang khó."
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "食事の前には手を洗うものだ。",
+          "answers": [
+            "Trước bữa ăn nên rửa tay."
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "他人の秘密をばらすものではない。",
+          "answers": [
+            "Không nên tiết lộ bí mật người khác."
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "公共交通では優先席を譲るものだ。",
+          "answers": [
+            "Trên phương tiện công cộng nên nhường ghế ưu tiên."
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "嘘をついて逃れようとするものではない。",
+          "answers": [
+            "Không nên nói dối để thoát thân."
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "感謝の気持ちは言葉で伝えるものだ。",
+          "answers": [
+            "Lòng biết ơn nên bày tỏ bằng lời."
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "公共の場で大声で騒ぐものではない。",
+          "answers": [
+            "Không nên om sòm nơi công cộng."
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "借りたお金はきちんと返すものだ。",
+          "answers": [
+            "Tiền mượn nên trả đúng đắn."
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "相手の話を最後まで遮るものではない。",
+          "answers": [
+            "Không nên cắt ngang lời người khác đến cuối."
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "ルールは守って遊ぶものだ。",
+          "answers": [
+            "Chơi thì nên tuân thủ luật."
+          ],
+          "hint": "〜ものだ／〜ものではない",
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-order-01",
+          "mode": "order",
+          "prompt": "Với người trên nói lịch sự.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "目上の人には丁寧に"
+            },
+            {
+              "id": "1",
+              "text": "話す"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ／〜ものではない",
+          "answers": [
+            "目上の人には丁寧に話すものだのだ。"
+          ],
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-order-02",
+          "mode": "order",
+          "prompt": "Đồ mượn không tự ý dùng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "無断で使う"
+            },
+            {
+              "id": "1",
+              "text": "ものでは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ／〜ものではない",
+          "answers": [
+            "無断で使うものではない。"
+          ],
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-order-03",
+          "mode": "order",
+          "prompt": "Trẻ nên chào người lớn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "子供は大人に"
+            },
+            {
+              "id": "1",
+              "text": "挨拶する"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ／〜ものではない",
+          "answers": [
+            "子供は大人に挨拶するものだ。"
+          ],
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-order-04",
+          "mode": "order",
+          "prompt": "Không nói xấu sau lưng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "陰で人の悪口を"
+            },
+            {
+              "id": "1",
+              "text": "言うものでは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ／〜ものではない",
+          "answers": [
+            "陰で人の悪口を言うものではない。"
+          ],
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-order-05",
+          "mode": "order",
+          "prompt": "Đến đúng giờ hẹn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "約束の時間には"
+            },
+            {
+              "id": "1",
+              "text": "来る"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ／〜ものではない",
+          "answers": [
+            "約束の時間には来るものだ。"
+          ],
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-order-06",
+          "mode": "order",
+          "prompt": "Không mở thư người khác.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "他人の手紙を"
+            },
+            {
+              "id": "1",
+              "text": "開けるものでは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ／〜ものではない",
+          "answers": [
+            "他人の手紙を開けるものではない。"
+          ],
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-order-07",
+          "mode": "order",
+          "prompt": "Được giúp thì cảm ơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "助けてもらったらお礼を"
+            },
+            {
+              "id": "1",
+              "text": "言う"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ／〜ものではない",
+          "answers": [
+            "助けてもらったらお礼を言うものだ。"
+          ],
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-order-08",
+          "mode": "order",
+          "prompt": "Không bỏ mặc người khó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "困っている人を"
+            },
+            {
+              "id": "1",
+              "text": "見捨てるものでは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ／〜ものではない",
+          "answers": [
+            "困っている人を見捨てるものではない。"
+          ],
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-order-09",
+          "mode": "order",
+          "prompt": "Trước ăn nên rửa tay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "食事の前には手を"
+            },
+            {
+              "id": "1",
+              "text": "洗う"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ／〜ものではない",
+          "answers": [
+            "食事の前には手を洗うものだ。"
+          ],
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g03-order-10",
+          "mode": "order",
+          "prompt": "Tiền mượn nên trả đúng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "借りたお金はきちんと"
+            },
+            {
+              "id": "1",
+              "text": "返す"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだ／〜ものではない",
+          "answers": [
+            "借りたお金はきちんと返すものだ。"
+          ],
+          "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l24-g04",
+      "title": "〜ことはない",
+      "meaning": "Không cần… / chẳng việc gì phải…",
+      "variants": [
+        "ことはない"
+      ],
+      "structures": [
+        "Vる ＋ ことはない",
+        "Vない ＋ ことはない（別義：không phải là không…）"
+      ],
+      "explanation": "Vる＋ことはない trấn an hoặc khuyên: không cần làm A / chẳng việc gì phải A. (Lưu ý: Vない＋ことはない mang nghĩa khác — ‘không phải là không…’.)",
+      "usage": "An ủi, giảm áp lực: không cần lo; chẳng việc gì phải xin lỗi nhiều.",
+      "cautions": [
+        "Ở bài này trọng tâm nghĩa ‘không cần’ với Vる＋ことはない.",
+        "Khác に越したことはない (tốt nhất nếu…) ở bài 23."
+      ],
+      "contrast": "ことはない ≈ không cần…. Khác べきではない (không nên — đạo đức) và ものではない (không nên — chuẩn mực).",
+      "examples": [
+        {
+          "ja": "小さなミスくらい気にすることはない。",
+          "reading": "ちいさなみすくらいきにすることはない。",
+          "vi": "Lỗi nhỏ thôi — chẳng việc gì phải để tâm.",
+          "ruby": [
+            {
+              "text": "小",
+              "reading": "ちい"
+            },
+            {
+              "text": "さなミスくらい"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "にすることはない。"
+            }
+          ]
+        },
+        {
+          "ja": "全部一人でやることはない。",
+          "reading": "ぜんぶひとりでやることはない。",
+          "vi": "Không cần làm hết một mình.",
+          "ruby": [
+            {
+              "text": "全部",
+              "reading": "ぜんぶ"
+            },
+            {
+              "text": "一人",
+              "reading": "ひとり"
+            },
+            {
+              "text": "でやることはない。"
+            }
+          ]
+        },
+        {
+          "ja": "そんなに慌てることはない。",
+          "reading": "そんなにあわてることはない。",
+          "vi": "Không cần phải cuống lên như thế.",
+          "ruby": [
+            {
+              "text": "そんなに"
+            },
+            {
+              "text": "慌",
+              "reading": "あわ"
+            },
+            {
+              "text": "てることはない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 121,
+        "printedPage": 108,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-kotowanai-khong-can-khong-viec-gi-phai/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l24-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Không cần xin lỗi nhiều lần.",
+          "answers": [
+            "何度も謝ることはない。"
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Chẳng việc gì phải xấu hổ.",
+          "answers": [
+            "恥ずかしがることはない。"
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Không cần mang quá nhiều đồ.",
+          "answers": [
+            "荷物を抱えすぎることはない。"
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Chẳng việc gì phải so sánh với người khác.",
+          "answers": [
+            "他人と比べることはない。"
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Không cần trả lời ngay lập tức.",
+          "answers": [
+            "すぐに返事することはない。"
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Chẳng việc gì phải thức trắng vì việc đó.",
+          "answers": [
+            "その件で徹夜することはない。"
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Không cần nói lớn như vậy.",
+          "answers": [
+            "そんなに大きな声を出すことはない。"
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Chẳng việc gì phải từ chối cứng.",
+          "answers": [
+            "きっぱり断ることはない。"
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Không cần mua cái đắt nhất.",
+          "answers": [
+            "一番高いものを選ぶことはない。"
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chẳng việc gì phải giấu chuyện nhỏ.",
+          "answers": [
+            "些細なことを隠すことはない。"
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "心配しすぎることはない。",
+          "answers": [
+            "Không cần lo quá mức."
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "一人で抱え込むことはない。",
+          "answers": [
+            "Chẳng việc gì phải ôm một mình."
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "完璧を目指しすぎることはない。",
+          "answers": [
+            "Không cần cầu toàn quá."
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "今更後悔することはない。",
+          "answers": [
+            "Giờ này chẳng việc gì phải hối hận."
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "わざわざ出向くことはない。",
+          "answers": [
+            "Không cần phải đích thân đến."
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "細かい点まで気にすることはない。",
+          "answers": [
+            "Không cần để ý đến từng chi tiết nhỏ."
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "無理に笑うことはない。",
+          "answers": [
+            "Chẳng việc gì phải cười gượng."
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "全部覚えようとすることはない。",
+          "answers": [
+            "Không cần cố nhớ hết."
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "そんなに急ぐことはない。",
+          "answers": [
+            "Không cần vội đến thế."
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "遠慮しすぎることはない。",
+          "answers": [
+            "Chẳng việc gì phải khách khí quá."
+          ],
+          "hint": "〜ことはない",
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-order-01",
+          "mode": "order",
+          "prompt": "Lỗi nhỏ chẳng cần để tâm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "小さなミスくらい"
+            },
+            {
+              "id": "1",
+              "text": "気にする"
+            },
+            {
+              "id": "2",
+              "text": "ことは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことはない",
+          "answers": [
+            "小さなミスくらい気にすることはないのだ。"
+          ],
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-order-02",
+          "mode": "order",
+          "prompt": "Không cần làm hết một mình. （luyện）",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "全部一人で"
+            },
+            {
+              "id": "1",
+              "text": "やる"
+            },
+            {
+              "id": "2",
+              "text": "ことは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことはない",
+          "answers": [
+            "全部一人でやることはないのだ。"
+          ],
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-order-03",
+          "mode": "order",
+          "prompt": "Không cần cuống như thế.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "そんなに"
+            },
+            {
+              "id": "1",
+              "text": "慌てる"
+            },
+            {
+              "id": "2",
+              "text": "ことは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことはない",
+          "answers": [
+            "そんなに慌てることはないのだ。"
+          ],
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-order-04",
+          "mode": "order",
+          "prompt": "Không cần xin lỗi nhiều.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "何度も"
+            },
+            {
+              "id": "1",
+              "text": "謝る"
+            },
+            {
+              "id": "2",
+              "text": "ことは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことはない",
+          "answers": [
+            "何度も謝ることはない。"
+          ],
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-order-05",
+          "mode": "order",
+          "prompt": "Chẳng việc gì xấu hổ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "恥ずかしがる"
+            },
+            {
+              "id": "1",
+              "text": "ことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことはない",
+          "answers": [
+            "恥ずかしがることはない。"
+          ],
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-order-06",
+          "mode": "order",
+          "prompt": "Không cần so với người.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "他人と"
+            },
+            {
+              "id": "1",
+              "text": "比べる"
+            },
+            {
+              "id": "2",
+              "text": "ことは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことはない",
+          "answers": [
+            "他人と比べることはない。"
+          ],
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-order-07",
+          "mode": "order",
+          "prompt": "Không lo quá mức.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "心配しすぎる"
+            },
+            {
+              "id": "1",
+              "text": "ことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことはない",
+          "answers": [
+            "心配しすぎることはない。"
+          ],
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-order-08",
+          "mode": "order",
+          "prompt": "Không ôm một mình.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一人で抱え込む"
+            },
+            {
+              "id": "1",
+              "text": "ことは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことはない",
+          "answers": [
+            "一人で抱え込むことはない。"
+          ],
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-order-09",
+          "mode": "order",
+          "prompt": "Không cần đích thân đến.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "わざわざ"
+            },
+            {
+              "id": "1",
+              "text": "出向く"
+            },
+            {
+              "id": "2",
+              "text": "ことは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことはない",
+          "answers": [
+            "わざわざ出向くことはない。"
+          ],
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g04-order-10",
+          "mode": "order",
+          "prompt": "Không cần vội đến thế.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "そんなに"
+            },
+            {
+              "id": "1",
+              "text": "急ぐ"
+            },
+            {
+              "id": "2",
+              "text": "ことは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことはない",
+          "answers": [
+            "そんなに急ぐことはない。"
+          ],
+          "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l24-g05",
+      "title": "〜まい／〜（よ）うか〜まいか",
+      "meaning": "Sẽ không… / quyết không…; liệu có… hay không…",
+      "variants": [
+        "まい",
+        "（よ）うか〜まいか"
+      ],
+      "structures": [
+        "Vる／Vます ＋ まい",
+        "V（よ）うか ＋ Vまい か",
+        "V（よ）うかVまいか"
+      ],
+      "explanation": "まい phủ định ý chí hoặc suy đoán mạnh: quyết/sẽ không A. （よ）うか〜まいか diễn tả do dự giữa làm hay không làm.",
+      "usage": "Quyết tâm: sẽ không lặp lại. Do dự: liệu có nói hay không nói.",
+      "cautions": [
+        "Khác まい／ではあるまいか ở bài 22 (suy đoán ‘chẳng phải… sao?’); bài này nhấn ý chí và lưỡng lự.",
+        "する→するまい／すまい; くる→こまい; nhóm II: 食べまい."
+      ],
+      "contrast": "まい ≈ quyết/sẽ không. （よ）うかまいか ≈ liệu có… hay không. Khác ないだろう (suy đoán trung tính).",
+      "examples": [
+        {
+          "ja": "二度と同じ失敗はすまい。",
+          "reading": "にどとおなじしっぱいはすまい。",
+          "vi": "Sẽ không phạm cùng một lỗi nữa.",
+          "ruby": [
+            {
+              "text": "二度",
+              "reading": "にど"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "同",
+              "reading": "おな"
+            },
+            {
+              "text": "じ"
+            },
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "はすまい。"
+            }
+          ]
+        },
+        {
+          "ja": "行くか行くまいか迷っている。",
+          "reading": "いくかいくまいかまよっている。",
+          "vi": "Đang phân vân liệu có đi hay không.",
+          "ruby": [
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "くか"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "くまいか"
+            },
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "っている。"
+            }
+          ]
+        },
+        {
+          "ja": "言うか言うまいか今夜決める。",
+          "reading": "いうかいうまいかこんやけっていする。",
+          "vi": "Đêm nay sẽ quyết nói hay không nói.",
+          "ruby": [
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "うか"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "うまいか"
+            },
+            {
+              "text": "今夜",
+              "reading": "こんや"
+            },
+            {
+              "text": "決",
+              "reading": "けっ"
+            },
+            {
+              "text": "める。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 121,
+        "printedPage": 108,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-mai-se-khong-quyet-khong-khong-bao-gio-tuyet-doi-khong/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-you-ka-mai-ka-co-nen-hay-khong-co-lam-hay-la-khong-lam-gi-do/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l24-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Quyết không bỏ cuộc giữa chừng (dịch).",
+          "answers": [
+            "途中で諦めるまい。"
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Liệu có nhận lời hay không đang phân vân.",
+          "answers": [
+            "引き受けるか引き受けるまいか迷う。"
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Sẽ không lộ bí mật cho ai.",
+          "answers": [
+            "秘密を誰にも漏らすまい。"
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Liệu có mua hay không vẫn chưa quyết.",
+          "answers": [
+            "買うか買うまいか決められない。"
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Quyết không phụ lòng mọi người.",
+          "answers": [
+            "皆の期待を裏切るまい。"
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Liệu có chuyển việc hay không đang nghĩ.",
+          "answers": [
+            "転職するか転職すまいか考え中だ。"
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Sẽ không quên ơn lần này.",
+          "answers": [
+            "この恩は忘れまい。"
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Liệu có gửi mail hay không do dự.",
+          "answers": [
+            "メールを送ろうか送るまいか迷った。"
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Quyết không nói dối nữa.",
+          "answers": [
+            "もう嘘はつくまい。"
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Liệu có tham gia hay không chưa rõ.",
+          "answers": [
+            "参加しようかするまいか分からない。"
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "二度と遅刻はすまい。",
+          "answers": [
+            "Sẽ không đến muộn nữa."
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "告白しようかするまいか昨夜悩んだ。",
+          "answers": [
+            "Đêm qua khổ sở liệu có tỏ tình hay không."
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "彼にはもう頼むまい。",
+          "answers": [
+            "Sẽ không nhờ anh ấy nữa."
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "残るか残るまいか家族と相談する。",
+          "answers": [
+            "Ở lại hay không sẽ bàn với gia đình."
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "同じ過ちを繰り返すまいと誓った。",
+          "answers": [
+            "Thề sẽ không lặp lại lỗi cũ."
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "発表するか発表すまいか直前まで迷った。",
+          "answers": [
+            "Đến phút chót vẫn phân vân công bố hay không."
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "二度と文句は言うまい。",
+          "answers": [
+            "Sẽ không phàn nàn nữa."
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "行くか行くまいか朝までに決める。",
+          "answers": [
+            "Đi hay không sẽ quyết trước sáng."
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "弱い自分に負けるまい。",
+          "answers": [
+            "Sẽ không thua cái tôi yếu đuối."
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "断るか断るまいか一晩考える。",
+          "answers": [
+            "Từ chối hay không nghĩ cả đêm."
+          ],
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-order-01",
+          "mode": "order",
+          "prompt": "Không phạm cùng lỗi nữa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "二度と同じ失敗は"
+            },
+            {
+              "id": "1",
+              "text": "す"
+            },
+            {
+              "id": "2",
+              "text": "まい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "answers": [
+            "二度と同じ失敗はすまいのだ。"
+          ],
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-order-02",
+          "mode": "order",
+          "prompt": "Phân vân đi hay không.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "行くか行くまいか"
+            },
+            {
+              "id": "1",
+              "text": "迷って"
+            },
+            {
+              "id": "2",
+              "text": "いる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "answers": [
+            "行くか行くまいか迷っているのだ。"
+          ],
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-order-03",
+          "mode": "order",
+          "prompt": "Đêm nay quyết nói hay không.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "言うか言うまいか"
+            },
+            {
+              "id": "1",
+              "text": "今夜"
+            },
+            {
+              "id": "2",
+              "text": "決める"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "answers": [
+            "言うか言うまいか今夜決めるのだ。"
+          ],
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-order-04",
+          "mode": "order",
+          "prompt": "Quyết không bỏ cuộc (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "途中で"
+            },
+            {
+              "id": "1",
+              "text": "諦める"
+            },
+            {
+              "id": "2",
+              "text": "まい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "answers": [
+            "途中で諦めるまい。"
+          ],
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-order-05",
+          "mode": "order",
+          "prompt": "Không lộ bí mật.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "秘密を誰にも"
+            },
+            {
+              "id": "1",
+              "text": "漏らす"
+            },
+            {
+              "id": "2",
+              "text": "まい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "answers": [
+            "秘密を誰にも漏らすまい。"
+          ],
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-order-06",
+          "mode": "order",
+          "prompt": "Mua hay không chưa quyết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "買うか買うまいか"
+            },
+            {
+              "id": "1",
+              "text": "決められ"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "answers": [
+            "買うか買うまいか決められない。"
+          ],
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-order-07",
+          "mode": "order",
+          "prompt": "Không đến muộn nữa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "二度と遅刻は"
+            },
+            {
+              "id": "1",
+              "text": "す"
+            },
+            {
+              "id": "2",
+              "text": "まい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "answers": [
+            "二度と遅刻はすまい。"
+          ],
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-order-08",
+          "mode": "order",
+          "prompt": "Không nhờ anh ấy nữa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼にはもう"
+            },
+            {
+              "id": "1",
+              "text": "頼む"
+            },
+            {
+              "id": "2",
+              "text": "まい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "answers": [
+            "彼にはもう頼むまい。"
+          ],
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-order-09",
+          "mode": "order",
+          "prompt": "Không thua cái tôi yếu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "弱い自分に"
+            },
+            {
+              "id": "1",
+              "text": "負ける"
+            },
+            {
+              "id": "2",
+              "text": "まい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "answers": [
+            "弱い自分に負けるまい。"
+          ],
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g05-order-10",
+          "mode": "order",
+          "prompt": "Đi hay không quyết sáng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "行くか行くまいか"
+            },
+            {
+              "id": "1",
+              "text": "朝までに"
+            },
+            {
+              "id": "2",
+              "text": "決める"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜まい／〜（よ）うか〜まいか",
+          "answers": [
+            "行くか行くまいか朝までに決める。"
+          ],
+          "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l24-g06",
+      "title": "〜ものか",
+      "meaning": "Làm gì có… / tuyệt đối không… (phủ định mạnh, phản kháng)",
+      "variants": [
+        "ものか",
+        "もんか",
+        "ものですか"
+      ],
+      "structures": [
+        "普通形 ＋ ものか／もんか",
+        "Vる ＋ ものか",
+        "いAい ＋ ものか"
+      ],
+      "explanation": "ものか／もんか phủ định cảm xúc mạnh: làm gì có chuyện đó; tuyệt đối không làm/không thừa nhận — thường phản kháng hoặc tự nhủ quyết liệt.",
+      "usage": "Từ chối quyết liệt: làm gì có chịu thua; tuyệt đối không xin lỗi kẻ đó.",
+      "cautions": [
+        "もんか khẩu ngữ hơn ものか; giọng mạnh, dễ tỏ ra thô.",
+        "Khác ものではない (khuyên ‘không nên’); ものか là ‘tuyệt đối không / làm gì có’."
+      ],
+      "contrast": "ものか ≈ làm gì có / tuyệt đối không. Khác ことはない (không cần) và まい (quyết không — ý chí).",
+      "examples": [
+        {
+          "ja": "あんな理不尽な要求に応じるものか。",
+          "reading": "あんなりふじんなようきゅうにおうじるものか。",
+          "vi": "Làm gì có chuyện đáp ứng yêu cầu vô lý đó.",
+          "ruby": [
+            {
+              "text": "あんな"
+            },
+            {
+              "text": "理不尽",
+              "reading": "りふじん"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "要求",
+              "reading": "ようきゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じるものか。"
+            }
+          ]
+        },
+        {
+          "ja": "二度と彼に頼むもんか。",
+          "reading": "にどとかれにたのむもんか。",
+          "vi": "Tuyệt đối không nhờ anh ấy nữa.",
+          "ruby": [
+            {
+              "text": "二度",
+              "reading": "にど"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "頼",
+              "reading": "たの"
+            },
+            {
+              "text": "むもんか。"
+            }
+          ]
+        },
+        {
+          "ja": "こんな成績で満足できるものか。",
+          "reading": "こんなせいせきでまんぞくできるものか。",
+          "vi": "Làm gì có thỏa mãn với thành tích thế này.",
+          "ruby": [
+            {
+              "text": "こんな"
+            },
+            {
+              "text": "成績",
+              "reading": "せいせき"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "満足",
+              "reading": "まんぞく"
+            },
+            {
+              "text": "できるものか。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 121,
+        "printedPage": 108,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-monoka-monka-monodesuka-khong-doi-nao-nhat-dinh-khong/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l24-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Làm gì có chịu thua dễ vậy.",
+          "answers": [
+            "こんなことで負けるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tuyệt đối không tin lời đó.",
+          "answers": [
+            "そんな話を信じるもんか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Làm gì có bỏ cuộc giữa chừng.",
+          "answers": [
+            "途中で諦めるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Tuyệt đối không đi cùng hắn.",
+          "answers": [
+            "あいつと同行するもんか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Làm gì có quên ơn sâu đó.",
+          "answers": [
+            "あの恩を忘れるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Tuyệt đối không lặp lại lỗi cũ.",
+          "answers": [
+            "同じミスを繰り返すもんか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Làm gì có sợ lời dị nghị.",
+          "answers": [
+            "陰口など怖がるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tuyệt đối không bán rẻ nguyên tắc.",
+          "answers": [
+            "信念を安売りするもんか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Làm gì có vui với lời khen giả.",
+          "answers": [
+            "社交辞令で喜べるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Tuyệt đối không để lộ bí mật.",
+          "answers": [
+            "秘密を漏らすもんか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "誰がそんな条件を飲むものか。",
+          "answers": [
+            "Ai mà chấp nhận điều kiện kiểu đó."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "こんな安月給で働くもんか。",
+          "answers": [
+            "Tuyệt đối không làm với lương thấp thế."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "負けてたまるものか。",
+          "answers": [
+            "Làm gì có chịu thua."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "もう二度と謝るもんか。",
+          "answers": [
+            "Tuyệt đối không xin lỗi nữa."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "こんな説明で納得できるものか。",
+          "answers": [
+            "Làm gì có thuyết phục được với giải thích thế này."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "弱い者いじめをするものか。",
+          "answers": [
+            "Tuyệt đối không bắt nạt kẻ yếu."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "約束を破って逃げるもんか。",
+          "answers": [
+            "Làm gì có bỏ chạy sau khi phá hứa."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "こんな難問にひるむものか。",
+          "answers": [
+            "Tuyệt đối không nao núng trước bài khó thế."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "彼の言いなりになるもんか。",
+          "answers": [
+            "Làm gì có nghe theo anh ấy hết."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "現状に甘んじるものか。",
+          "answers": [
+            "Tuyệt đối không cam chịu hiện trạng."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-order-01",
+          "mode": "order",
+          "prompt": "Đáp ứng yêu cầu vô lý ư?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "あんな理不尽な要求に"
+            },
+            {
+              "id": "1",
+              "text": "応じる"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものか",
+          "answers": [
+            "あんな理不尽な要求に応じるものかのだ。"
+          ],
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-order-02",
+          "mode": "order",
+          "prompt": "Không nhờ anh ấy nữa (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "二度と彼に"
+            },
+            {
+              "id": "1",
+              "text": "頼む"
+            },
+            {
+              "id": "2",
+              "text": "もん"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものか",
+          "answers": [
+            "二度と彼に頼むもんかのだ。"
+          ],
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-order-03",
+          "mode": "order",
+          "prompt": "Thỏa mãn thành tích này ư?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "こんな成績で"
+            },
+            {
+              "id": "1",
+              "text": "満足できる"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものか",
+          "answers": [
+            "こんな成績で満足できるものかのだ。"
+          ],
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-order-04",
+          "mode": "order",
+          "prompt": "Chịu thua dễ vậy ư?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "こんなことで"
+            },
+            {
+              "id": "1",
+              "text": "負ける"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものか",
+          "answers": [
+            "こんなことで負けるものか。"
+          ],
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-order-05",
+          "mode": "order",
+          "prompt": "Tin lời đó sao được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "そんな話を"
+            },
+            {
+              "id": "1",
+              "text": "信じる"
+            },
+            {
+              "id": "2",
+              "text": "もん"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものか",
+          "answers": [
+            "そんな話を信じるもんか。"
+          ],
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-order-06",
+          "mode": "order",
+          "prompt": "Bỏ cuộc giữa chừng ư?",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "途中で"
+            },
+            {
+              "id": "1",
+              "text": "諦める"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものか",
+          "answers": [
+            "途中で諦めるものか。"
+          ],
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-order-07",
+          "mode": "order",
+          "prompt": "Không quên ơn đó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "あの恩を"
+            },
+            {
+              "id": "1",
+              "text": "忘れる"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものか",
+          "answers": [
+            "あの恩を忘れるものか。"
+          ],
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-order-08",
+          "mode": "order",
+          "prompt": "Ai chấp nhận điều kiện đó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "誰がそんな条件を"
+            },
+            {
+              "id": "1",
+              "text": "飲む"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものか",
+          "answers": [
+            "誰がそんな条件を飲むものか。"
+          ],
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-order-09",
+          "mode": "order",
+          "prompt": "Chịu thua sao được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "負けて"
+            },
+            {
+              "id": "1",
+              "text": "たまる"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものか",
+          "answers": [
+            "負けてたまるものか。"
+          ],
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l24-g06-order-10",
+          "mode": "order",
+          "prompt": "Không cam chịu hiện trạng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "現状に"
+            },
+            {
+              "id": "1",
+              "text": "甘んじる"
+            },
+            {
+              "id": "2",
+              "text": "もの"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものか",
+          "answers": [
+            "現状に甘んじるものか。"
+          ],
+          "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+        }
+      ]
+    }
+  ]
+}

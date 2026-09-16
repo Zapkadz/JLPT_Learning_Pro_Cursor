@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-16 (N2-L16-BATCH PR #11)
+2026-09-16 (N2-L21-BATCH on `feat/n2-l21-batch`)
 
 ## Project
 
@@ -11,67 +11,73 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/n2-l16-batch` @ `05fe4b3` — PR #11 open.
+`feat/n2-l21-batch` — N2-L21-BATCH Lessons 21–26 (uncommitted).
 
 ## Latest Relevant Commit
 
-`feat/n2-l16-batch` @ `05fe4b3` — Lessons 16–20.  
-PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/11  
-`main` / `origin/main`: `e7898f2` — Merge PR #10 (Lessons 11–15) until #11 merges.
+`main` / `origin/main`: `80c6da9` — Merge PR #11 (Lessons 16–20).  
+This branch: L21–26 authored; **not committed** (per user).
 
 ## Current Objective
 
-**N2-L16-BATCH** — PR #11 open. After merge → **N2-L21-BATCH** (needs approval).
+**N2-L21-BATCH** — Lessons 21–26 authored, published in content, tests green. Awaiting user commit / PR.  
+This completes published content scale: **26 / 141 / 4230** (still `agent_reviewed` only — not teacher FULL-ACC).
 
 ## Current Phase
 
-**Phase 1+** — Lessons 1–20 on feature branch / PR. L21–26 unpublished.
+**Phase 1+** — All 26 lessons published in content (on this branch).
 
 ## Current Task
 
-Await merge of PR #11; then start **N2-L21-BATCH** only with approval.
+N2-L21-BATCH — **implementation complete**; verification **15/15**; commit pending user request.
 
 ## Last Completed Work
 
-- Authored Lessons 16–20: 28 groups × 30 = **840** exercises (+ 3 examples/group).  
-- Commit `05fe4b3`; PR #11 opened.  
-- Tests: 20 lessons / 105 patterns / 3150 exercises; `npm test` 15/15.
+- Merged PR #11 into `main`.  
+- Authored Lessons 21–26: 36 groups × 30 = **1080** exercises (+ 3 examples/group).  
+- Generators: `scripts/gen-n2-l21-batch.mjs`, `scripts/n2-batch/lesson21.mjs`…`lesson26.mjs`.  
+- Manifest published L21–26; inventory `imported` / `agent_reviewed` for 36 IDs.  
+- Tests: 26 lessons / 141 patterns / 4230 exercises; DoD L2–26.
 
 ## Current State
 
-- Published lessons: **20** (L1–L20) on PR branch.  
-- Published groups: **105** / target 141.  
-- Published exercises: **3150** / target 4230.  
-- Furigana JA→VI practice policy still open (**N2-L01-FURI-001**).
+- Published lessons: **26** / target 26.  
+- Published groups: **141** / target 141.  
+- Published exercises: **4230** / target 4230.  
+- Independent teacher review: **not done**.  
+- Furigana JA→VI practice policy still open (**N2-L01-FURI-001**).  
+- **N2-FULL-ACC** still TODO (teacher verification + §73 evidence).
 
 ## Verification State
 
 | Check | State |
 |-------|--------|
+| `node scripts/gen-n2-l21-batch.mjs` | **OK** |
+| `node scripts/fix-overlaps.mjs` | **OK** |
 | `npm test` | **15/15 pass** |
-| Commit | `05fe4b3` |
-| PR | **#11 open** |
+| `npm run build` | **OK** |
+| Commit / PR | **Not done** (awaiting user) |
 
 ## Known Blockers
 
 - Furigana JA→VI (**N2-L01-FURI-001**) needs product decision.  
-- L16–20 content still `agent_reviewed` only.
+- Full-course teacher review still open (**N2-FULL-ACC**).
 
 ## Exact Next Action
 
-1. Merge PR #11 when ready.  
-2. Start **N2-L21-BATCH** (Lessons 21–26) only with user approval.  
-3. FURI-001 still needs product decision.
+1. Commit + PR for `feat/n2-l21-batch` (shipping).  
+2. After merge: **N2-FULL-ACC** and/or **N2-L01-FURI-001** (need decisions).  
+3. Do not declare teacher-verified completion.
 
 ## Files To Read Before Continuing
 
 1. `docs/PLAN.md`  
-2. `docs/PROGRESS.md` (N2-L16-BATCH entry)  
-3. `content/grammar/n2/inventory.json` (L21+ still not-imported)
+2. `docs/PROGRESS.md` (N2-L21-BATCH entry)  
+3. Master Requirement §73 for FULL-ACC
 
 ## Safety Notes
 
 - Do not remap L1 pattern IDs (`sai`, …).  
 - Do not hard-code 151→141.  
-- Do not treat 4230 as completed.  
+- Do not treat 4230 as teacher-verified complete.  
 - Commit only when user asks.

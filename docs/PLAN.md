@@ -6,11 +6,11 @@ Module design history remains in `docs/grammar-n2/PLAN.md` (do not treat that fi
 
 ## Current Goal
 
-Grammar N2 per Master Requirement. **N2-L16-BATCH DONE** (Lessons 16–20 on `feat/n2-l16-batch`; commit/PR pending). Next: **N2-L21-BATCH** (needs approval) or **N2-L01-FURI-001**. Ensure PR #10 (L11) merges to `main`.
+Grammar N2 per Master Requirement. **N2-L21-BATCH DONE** (Lessons 21–26 on `feat/n2-l21-batch`; commit/PR pending). Published scale **26/141/4230** (`agent_reviewed`). Next: commit/PR, then **N2-FULL-ACC** and/or **N2-L01-FURI-001**.
 
 ## Current Milestone
 
-**Phase 1+ Grammar N2** — Lessons 1–20 on feature branch (stacked on L11); awaiting commit/PR then L21–26 / furigana decision.
+**Phase 1+ Grammar N2** — full lesson content authored on feature branch; awaiting commit/PR then acceptance / furigana decision.
 
 ## Status legend
 
@@ -54,8 +54,8 @@ Implementation of N2-* coding tasks requires **explicit user approval**. Until t
 | N2-L02-BATCH | Lessons 2–5 content + exercises + validate | DONE | N2-TEST-001 | 21 groups / 630 ex; §71 validators; published |
 | N2-L06-BATCH | Lessons 6–10 | DONE | N2-L02-BATCH | 24 groups / 720 ex; §71 validators; published (PR #9 merged) |
 | N2-L11-BATCH | Lessons 11–15 | DONE | N2-L06-BATCH | 27 groups / 810 ex; §71 validators; published (PR #10) |
-| N2-L16-BATCH | Lessons 16–20 | DONE | N2-L11-BATCH | 28 groups / 840 ex; §71 validators; published (commit/PR pending) |
-| N2-L21-BATCH | Lessons 21–26 | TODO | N2-L16-BATCH | Same |
+| N2-L16-BATCH | Lessons 16–20 | DONE | N2-L11-BATCH | 28 groups / 840 ex; §71 validators; published (PR #11 merged) |
+| N2-L21-BATCH | Lessons 21–26 | DONE | N2-L16-BATCH | 36 groups / 1080 ex; §71 validators; published (commit/PR pending) |
 | N2-FULL-ACC | Full-course acceptance (Master §73) | TODO | All lesson batches | 26/141/4230 validated with evidence — not placeholders |
 
 ### Historical Lesson 1 pilot (already shipped — detail in `docs/grammar-n2/PROGRESS.md`)

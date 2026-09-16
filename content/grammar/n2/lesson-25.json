@@ -1,0 +1,3766 @@
+{
+  "id": "lesson-25",
+  "titleJa": "強い感情",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 25. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L21-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l25-g01",
+      "title": "〜てしかたがない・〜てしょうがない・〜てたまらない",
+      "meaning": "Không chịu nổi / không sao ngăn được (cảm xúc mạnh)",
+      "variants": [
+        "てしかたがない",
+        "てしょうがない",
+        "てたまらない"
+      ],
+      "structures": [
+        "Vて ＋ しかたがない／しょうがない／たまらない",
+        "いAくて ＋ しかたがない／しょうがない／たまらない",
+        "なAで ＋ しかたがない／しょうがない／たまらない"
+      ],
+      "explanation": "Diễn tả cảm xúc/mong muốn mạnh đến mức không kiểm soát được. てたまらない thiên cảm xúc chủ quan; て仕方がない／しょうがない cũng dùng cho khó chịu, buồn chán.",
+      "usage": "Nói cảm xúc mạnh: vui, buồn, muốn, ngứa, ồn… không chịu nổi.",
+      "cautions": [
+        "Thường gắn cảm xúc/trạng thái của bản thân người nói.",
+        "しょうがない khẩu ngữ hơn 仕方がない; cả ba gần nghĩa nhưng sắc thái hơi khác."
+      ],
+      "contrast": "てたまらない／て仕方がない ≈ không chịu nổi. Khác てならない (thường cảm xúc tự nhiên, văn viết hơn).",
+      "examples": [
+        {
+          "ja": "合格が嬉しくてたまらない。",
+          "reading": "ごうかくがうれしくてたまらない。",
+          "vi": "Đỗ rồi vui không chịu nổi.",
+          "ruby": [
+            {
+              "text": "合格",
+              "reading": "ごうかく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "嬉",
+              "reading": "うれ"
+            },
+            {
+              "text": "しくてたまらない。"
+            }
+          ]
+        },
+        {
+          "ja": "隣の騒音がうるさくて仕方がない。",
+          "reading": "となりのそうおんがうるさくてしかたがない。",
+          "vi": "Tiếng ồn nhà bên ồn không chịu nổi.",
+          "ruby": [
+            {
+              "text": "隣",
+              "reading": "となり"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "騒音",
+              "reading": "そうおん"
+            },
+            {
+              "text": "がうるさくて"
+            },
+            {
+              "text": "仕方",
+              "reading": "しかた"
+            },
+            {
+              "text": "がない。"
+            }
+          ]
+        },
+        {
+          "ja": "新しい映画が見たくてしょうがない。",
+          "reading": "あたらしいえいががみたくてしょうがない。",
+          "vi": "Muốn xem phim mới không chịu nổi.",
+          "ruby": [
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "映画",
+              "reading": "えいが"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "たくてしょうがない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 125,
+        "printedPage": 112,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-teshouganai-khong-the-chiu-noi-khong-biet-phai-lam-sao-khong-sao-ngan-duoc-vo-cung/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-tetamaranai-khong-chiu-noi-khong-chiu-duoc-rat-vo-cung/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l25-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nóng không chịu nổi.",
+          "answers": [
+            "暑くてたまらない。"
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Muốn gặp bạn không chịu nổi.",
+          "answers": [
+            "友人に会いたくてしょうがない。"
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Ngứa không chịu nổi.",
+          "answers": [
+            "かゆくて仕方がない。"
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Buồn ngủ không chịu nổi.",
+          "answers": [
+            "眠くてたまらない。"
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Lo lắng không chịu nổi.",
+          "answers": [
+            "不安で仕方がない。"
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Muốn ăn bánh ngọt quá.",
+          "answers": [
+            "甘いものが食べたくてしょうがない。"
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Cáu tiết không chịu nổi.",
+          "answers": [
+            "腹が立ってたまらない。"
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nhớ nhà không chịu nổi.",
+          "answers": [
+            "故郷が恋しくて仕方がない。"
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Tò mò không chịu nổi.",
+          "answers": [
+            "中身が気になってしょうがない。"
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Vui vì được khen không chịu nổi.",
+          "answers": [
+            "褒められて嬉しくてたまらない。"
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "寒くてたまらないので暖房を入れた。",
+          "answers": [
+            "Lạnh không chịu nổi nên bật sưởi."
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "彼の成功が羨ましくて仕方がない。",
+          "answers": [
+            "Ghen tị thành công của anh ấy không chịu nổi."
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "休みが待ち遠しくてしょうがない。",
+          "answers": [
+            "Mong ngày nghỉ không chịu nổi."
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "この曲を聴くと悲しくてたまらない。",
+          "answers": [
+            "Nghe bài này buồn không chịu nổi."
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "喉が渇いて仕方がない。",
+          "answers": [
+            "Khát không chịu nổi."
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "新しいスマホが欲しくてしょうがない。",
+          "answers": [
+            "Muốn điện thoại mới không chịu nổi."
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "虫刺されがかゆくてたまらない。",
+          "answers": [
+            "Muỗi đốt ngứa không chịu nổi."
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "会議が長くて退屈で仕方がない。",
+          "answers": [
+            "Họp dài chán không chịu nổi."
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "合格発表が気になってしょうがない。",
+          "answers": [
+            "Tò mò kết quả thi không chịu nổi."
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "孫の顔が見たくてたまらない。",
+          "answers": [
+            "Muốn thấy mặt cháu không chịu nổi."
+          ],
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-order-01",
+          "mode": "order",
+          "prompt": "Nóng quá chịu không nổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今日は暑くて"
+            },
+            {
+              "id": "1",
+              "text": "たまら"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "answers": [
+            "今日は暑くてたまらない。"
+          ],
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-order-02",
+          "mode": "order",
+          "prompt": "Muốn gặp bạn quá đi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "友人に会いたくて"
+            },
+            {
+              "id": "1",
+              "text": "しょうが"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "answers": [
+            "友人に会いたくてしょうがない。"
+          ],
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-order-03",
+          "mode": "order",
+          "prompt": "Ngứa quá chịu không nổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "傷口がかゆくて"
+            },
+            {
+              "id": "1",
+              "text": "仕方が"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "answers": [
+            "傷口がかゆくて仕方がない。"
+          ],
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-order-04",
+          "mode": "order",
+          "prompt": "Buồn ngủ quá.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "昨夜は眠くて"
+            },
+            {
+              "id": "1",
+              "text": "たまら"
+            },
+            {
+              "id": "2",
+              "text": "なかった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "answers": [
+            "昨夜は眠くてたまらなかった。"
+          ],
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-order-05",
+          "mode": "order",
+          "prompt": "Lo quá chịu không nổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "結果が不安で"
+            },
+            {
+              "id": "1",
+              "text": "仕方が"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "answers": [
+            "結果が不安で仕方がない。"
+          ],
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-order-06",
+          "mode": "order",
+          "prompt": "Thèm đồ ngọt quá.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "デザートが食べたくて"
+            },
+            {
+              "id": "1",
+              "text": "しょうが"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "answers": [
+            "デザートが食べたくてしょうがない。"
+          ],
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-order-07",
+          "mode": "order",
+          "prompt": "Cáu quá chịu không nổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "不正に腹が立って"
+            },
+            {
+              "id": "1",
+              "text": "たまら"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "answers": [
+            "不正に腹が立ってたまらない。"
+          ],
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-order-08",
+          "mode": "order",
+          "prompt": "Nhớ quê quá.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "故郷が恋しくて"
+            },
+            {
+              "id": "1",
+              "text": "仕方が"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "answers": [
+            "故郷が恋しくて仕方がない。"
+          ],
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-order-09",
+          "mode": "order",
+          "prompt": "Tò mò nội dung quá.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "箱の中が気になって"
+            },
+            {
+              "id": "1",
+              "text": "しょうが"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "answers": [
+            "箱の中が気になってしょうがない。"
+          ],
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g01-order-10",
+          "mode": "order",
+          "prompt": "Được khen vui quá.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "先生に褒められて"
+            },
+            {
+              "id": "1",
+              "text": "嬉しくてたまら"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てしかたがない／しょうがない／たまらない",
+          "answers": [
+            "先生に褒められて嬉しくてたまらない。"
+          ],
+          "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l25-g02",
+      "title": "〜てならない",
+      "meaning": "Không chịu nổi / cứ… mãi không thôi (cảm xúc tự nhiên)",
+      "variants": [
+        "てならない"
+      ],
+      "structures": [
+        "Vて ＋ ならない",
+        "いAくて ＋ ならない",
+        "なAで ＋ ならない"
+      ],
+      "explanation": "てならない diễn tả cảm xúc/nghĩ ngợi dâng lên tự nhiên, khó kiềm chế — thường lo, hối, tò mò, xúc động. Thiên văn viết/trang trọng hơn てたまらない.",
+      "usage": "Viết luận, nhật ký, kể cảm xúc: lo mãi, hối mãi, xúc động không thôi.",
+      "cautions": [
+        "Thường với cảm xúc tự phát (心配・後悔・気になる・感動), ít dùng cho cảm giác thể chất như ngứa/nóng.",
+        "Không nhầm với ならない nghĩa 'không được phép / không thành'."
+      ],
+      "contrast": "てならない ≈ cảm xúc tự nhiên không thôi. Gần てたまらない nhưng formal hơn, ít dùng cảm giác cơ thể.",
+      "examples": [
+        {
+          "ja": "息子の将来が心配でならない。",
+          "reading": "むすこのしょうらいがしんぱいでならない。",
+          "vi": "Lo tương lai con trai không thôi.",
+          "ruby": [
+            {
+              "text": "息子",
+              "reading": "むすこ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "将来",
+              "reading": "しょうらい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "心配",
+              "reading": "しんぱい"
+            },
+            {
+              "text": "でならない。"
+            }
+          ]
+        },
+        {
+          "ja": "あの時の失敗が悔やまれてならない。",
+          "reading": "あのときのしっぱいがくやまれてならない。",
+          "vi": "Cứ hối mãi về thất bại lúc đó.",
+          "ruby": [
+            {
+              "text": "あの"
+            },
+            {
+              "text": "時",
+              "reading": "とき"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "悔や",
+              "reading": "くや"
+            },
+            {
+              "text": "まれてならない。"
+            }
+          ]
+        },
+        {
+          "ja": "彼の安否が気になってならない。",
+          "reading": "かれのあんぴがきになってならない。",
+          "vi": "Cứ băn khoăn mãi về an nguy của anh ấy.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "安否",
+              "reading": "あんぴ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "になってならない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 125,
+        "printedPage": 112,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-tenaranai-khong-chiu-noi-het-suc-vo-cung-oi-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l25-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Cứ lo mãi về sức khỏe mẹ.",
+          "answers": [
+            "母の健康が心配でならない。"
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Cứ nhớ mãi lời cô ấy.",
+          "answers": [
+            "彼女の言葉が思い出されてならない。"
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Cứ xúc động mãi trước cảnh đó.",
+          "answers": [
+            "その光景に感動してならない。"
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Cứ nghi mãi lời giải thích.",
+          "answers": [
+            "説明に疑問を感じてならない。"
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Cứ tò mò mãi về kết quả.",
+          "answers": [
+            "試験の結果が気になってならない。"
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Cứ buồn mãi vì chia tay.",
+          "answers": [
+            "別れが悲しくてならない。"
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Cứ tiếc mãi cơ hội đã mất.",
+          "answers": [
+            "逃した機会が惜しまれてならない。"
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Cứ khó chịu mãi với thái độ đó.",
+          "answers": [
+            "あの態度が腹立たしくてならない。"
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Cứ xúc động mãi khi nghe tin.",
+          "answers": [
+            "知らせを聞いて胸が熱くてならない。"
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Cứ day dứt mãi vì đã im lặng.",
+          "answers": [
+            "黙っていたことが悔やまれてならない。"
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "友人の安否が気になってならない。",
+          "answers": [
+            "Cứ băn khoăn mãi an nguy bạn."
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "幼い日々が懐かしくてならない。",
+          "answers": [
+            "Cứ nhớ thương mãi ngày thơ ấu."
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "不公平さが許せなくてならない。",
+          "answers": [
+            "Cứ không chấp nhận nổi sự bất công."
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "彼の成功が誇らしくてならない。",
+          "answers": [
+            "Cứ tự hào mãi về thành công của anh ấy."
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "真相が知りたくてならない。",
+          "answers": [
+            "Cứ muốn biết sự thật không thôi."
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "患者の容体が心配でならない。",
+          "answers": [
+            "Cứ lo mãi tình trạng bệnh nhân."
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "昔の写真を見ると寂しくてならない。",
+          "answers": [
+            "Nhìn ảnh cũ cứ buồn không thôi."
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "自分の発言が後悔されてならない。",
+          "answers": [
+            "Cứ hối mãi lời mình đã nói."
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "被災地の様子が気になってならない。",
+          "answers": [
+            "Cứ băn khoăn mãi tình hình vùng thiên tai."
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "あのメロディーが頭から離れなくてならない。",
+          "answers": [
+            "Giai điệu đó cứ không rời khỏi đầu."
+          ],
+          "hint": "〜てならない",
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-order-01",
+          "mode": "order",
+          "prompt": "Lo tương lai con không thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "息子の将来が"
+            },
+            {
+              "id": "1",
+              "text": "とても心配で"
+            },
+            {
+              "id": "2",
+              "text": "ならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てならない",
+          "answers": [
+            "息子の将来がとても心配でならない。"
+          ],
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-order-02",
+          "mode": "order",
+          "prompt": "Hối mãi thất bại hôm đó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "あの失敗が"
+            },
+            {
+              "id": "1",
+              "text": "悔やまれて"
+            },
+            {
+              "id": "2",
+              "text": "ならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てならない",
+          "answers": [
+            "あの失敗が悔やまれてならない。"
+          ],
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-order-03",
+          "mode": "order",
+          "prompt": "Băn khoăn an nguy anh ấy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼の安否が"
+            },
+            {
+              "id": "1",
+              "text": "大変気になって"
+            },
+            {
+              "id": "2",
+              "text": "ならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てならない",
+          "answers": [
+            "彼の安否が大変気になってならない。"
+          ],
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-order-04",
+          "mode": "order",
+          "prompt": "Lo sức khỏe mẹ không thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "母の体調が"
+            },
+            {
+              "id": "1",
+              "text": "心配で"
+            },
+            {
+              "id": "2",
+              "text": "ならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てならない",
+          "answers": [
+            "母の体調が心配でならない。"
+          ],
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-order-05",
+          "mode": "order",
+          "prompt": "Nhớ mãi câu cô ấy nói.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼女の一言が"
+            },
+            {
+              "id": "1",
+              "text": "思い出されて"
+            },
+            {
+              "id": "2",
+              "text": "ならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てならない",
+          "answers": [
+            "彼女の一言が思い出されてならない。"
+          ],
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-order-06",
+          "mode": "order",
+          "prompt": "Xúc động mãi trước cảnh ấy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その場面に"
+            },
+            {
+              "id": "1",
+              "text": "感動して"
+            },
+            {
+              "id": "2",
+              "text": "ならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てならない",
+          "answers": [
+            "その場面に感動してならない。"
+          ],
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-order-07",
+          "mode": "order",
+          "prompt": "Tò mò điểm thi không thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "合否が"
+            },
+            {
+              "id": "1",
+              "text": "気になって"
+            },
+            {
+              "id": "2",
+              "text": "ならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てならない",
+          "answers": [
+            "合否が気になってならない。"
+          ],
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-order-08",
+          "mode": "order",
+          "prompt": "Buồn mãi vì phải chia tay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "別れが"
+            },
+            {
+              "id": "1",
+              "text": "悲しくて"
+            },
+            {
+              "id": "2",
+              "text": "ならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てならない",
+          "answers": [
+            "別れが悲しくてならない。"
+          ],
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-order-09",
+          "mode": "order",
+          "prompt": "Tiếc mãi cơ hội đã bỏ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "逃したチャンスが"
+            },
+            {
+              "id": "1",
+              "text": "惜しまれて"
+            },
+            {
+              "id": "2",
+              "text": "ならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てならない",
+          "answers": [
+            "逃したチャンスが惜しまれてならない。"
+          ],
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g02-order-10",
+          "mode": "order",
+          "prompt": "Day dứt vì đã im lặng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "沈黙したことが"
+            },
+            {
+              "id": "1",
+              "text": "悔やまれて"
+            },
+            {
+              "id": "2",
+              "text": "ならない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜てならない",
+          "answers": [
+            "沈黙したことが悔やまれてならない。"
+          ],
+          "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l25-g03",
+      "title": "〜ないではいられない・〜ずにはいられない",
+      "meaning": "Không thể không… / không nhịn được phải…",
+      "variants": [
+        "ないではいられない",
+        "ずにはいられない"
+      ],
+      "structures": [
+        "Vない ＋ ではいられない",
+        "Vず ＋ にはいられない"
+      ],
+      "explanation": "ないではいられない／ずにはいられない: cảm xúc/ý thức thôi thúc khiến không thể đứng yên không làm — cười, khóc, giúp, nói…",
+      "usage": "Kể phản ứng không nhịn được: nghe chuyện buồn thì khóc; thấy khổ thì giúp.",
+      "cautions": [
+        "ずにはいられない gắn Vず (không phải ない); する → せずにはいられない.",
+        "Khác nghĩa bắt buộc xã hội của ないわけにはいかない / ざるを得ない."
+      ],
+      "contrast": "ずにはいられない ≈ không nhịn được phải làm. Khác ざるを得ない (bất đắc dĩ vì hoàn cảnh).",
+      "examples": [
+        {
+          "ja": "その話を聞いて笑わずにはいられない。",
+          "reading": "そのはなしをきいてわらわずにはいられない。",
+          "vi": "Nghe chuyện đó không nhịn được cười.",
+          "ruby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "いて"
+            },
+            {
+              "text": "笑",
+              "reading": "わら"
+            },
+            {
+              "text": "わずにはいられない。"
+            }
+          ]
+        },
+        {
+          "ja": "困っている人を見ると助けずにはいられない。",
+          "reading": "こまっているひとをみるとたすけずにはいられない。",
+          "vi": "Thấy người khó khăn thì không thể không giúp.",
+          "ruby": [
+            {
+              "text": "困",
+              "reading": "こま"
+            },
+            {
+              "text": "っている"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "ると"
+            },
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "けずにはいられない。"
+            }
+          ]
+        },
+        {
+          "ja": "美味しい匂いがして買わないではいられない。",
+          "reading": "おいしいにおいがしてかわないではいられない。",
+          "vi": "Mùi ngon khiến không thể không mua.",
+          "ruby": [
+            {
+              "text": "美味",
+              "reading": "おい"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "匂",
+              "reading": "にお"
+            },
+            {
+              "text": "いがして"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "わないではいられない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 125,
+        "printedPage": 112,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-nai-de-wa-irarenai-khong-the-khong-khong-the-nhin-duoc-khong-the-chiu-duoc/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l25-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nghe tin buồn không nhịn được khóc.",
+          "answers": [
+            "悲しい知らせに泣かずにはいられない。"
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Thấy bất công không thể không nói.",
+          "answers": [
+            "不正を見ると言わずにはいられない。"
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nghe nhạc hay không nhịn được hát theo.",
+          "answers": [
+            "名曲を聴くと口ずさまずにはいられない。"
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nhìn ảnh cũ không thể không nhớ.",
+          "answers": [
+            "昔の写真を見ると懐かしまずにはいられない。"
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Thấy trẻ lạc không thể không hỏi.",
+          "answers": [
+            "迷子を見つけると声をかけずにはいられない。"
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Đọc tin đó không nhịn được tức.",
+          "answers": [
+            "その記事を読むと怒らずにはいられない。"
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Ngửi mùi cà phê không thể không uống.",
+          "answers": [
+            "コーヒーの香りに誘われて飲まずにはいられない。"
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Thấy lỗi không thể không sửa.",
+          "answers": [
+            "誤りを見つけると直さずにはいられない。"
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nghe lời cảm ơn không nhịn được xúc động.",
+          "answers": [
+            "お礼の言葉に感動せずにはいられない。"
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nhìn cảnh đẹp không thể không chụp.",
+          "answers": [
+            "美しい景色を見ると撮らずにはいられない。"
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼の冗談には笑わないではいられない。",
+          "answers": [
+            "Nghe trò đùa anh ấy không nhịn được cười."
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "弱者を放っておけずにはいられない。",
+          "answers": [
+            "Không thể bỏ mặc người yếu."
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "真相を知ると伝えないではいられない。",
+          "answers": [
+            "Biết sự thật thì không thể không nói."
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "猫を見ると触らずにはいられない。",
+          "answers": [
+            "Thấy mèo thì không nhịn được chạm."
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "名作を読むと考え込まずにはいられない。",
+          "answers": [
+            "Đọc kiệt tác thì không thể không suy nghĩ."
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "空腹だと買わないではいられない。",
+          "answers": [
+            "Đói thì không thể không mua."
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "不備を見つけると指摘せずにはいられない。",
+          "answers": [
+            "Thấy thiếu sót thì không thể không chỉ ra."
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "旧友の消息を聞くと連絡せずにはいられない。",
+          "answers": [
+            "Nghe tin bạn cũ thì không thể không liên lạc."
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "この味を知るとまた食べずにはいられない。",
+          "answers": [
+            "Biết vị này rồi thì không thể không ăn lại."
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "正義のために立ち上がらずにはいられない。",
+          "answers": [
+            "Vì công lý không thể không đứng lên."
+          ],
+          "hint": "〜ないではいられない／ずにはいられない",
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-order-01",
+          "mode": "order",
+          "prompt": "Nghe chuyện đó phải cười.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その話には"
+            },
+            {
+              "id": "1",
+              "text": "笑わずには"
+            },
+            {
+              "id": "2",
+              "text": "いられない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないではいられない／ずにはいられない",
+          "answers": [
+            "その話には笑わずにはいられない。"
+          ],
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-order-02",
+          "mode": "order",
+          "prompt": "Thấy khổ thì phải giúp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "困っている人を"
+            },
+            {
+              "id": "1",
+              "text": "助けずには"
+            },
+            {
+              "id": "2",
+              "text": "いられない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないではいられない／ずにはいられない",
+          "answers": [
+            "困っている人を助けずにはいられない。"
+          ],
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-order-03",
+          "mode": "order",
+          "prompt": "Mùi ngon khiến phải mua.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "香りに誘われて"
+            },
+            {
+              "id": "1",
+              "text": "買わないでは"
+            },
+            {
+              "id": "2",
+              "text": "いられない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないではいられない／ずにはいられない",
+          "answers": [
+            "香りに誘われて買わないではいられない。"
+          ],
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-order-04",
+          "mode": "order",
+          "prompt": "Tin buồn khiến phải khóc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "悲しい報せに"
+            },
+            {
+              "id": "1",
+              "text": "泣かずには"
+            },
+            {
+              "id": "2",
+              "text": "いられない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないではいられない／ずにはいられない",
+          "answers": [
+            "悲しい報せに泣かずにはいられない。"
+          ],
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-order-05",
+          "mode": "order",
+          "prompt": "Bất công khiến phải nói.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "不正を見て"
+            },
+            {
+              "id": "1",
+              "text": "言わずには"
+            },
+            {
+              "id": "2",
+              "text": "いられない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないではいられない／ずにはいられない",
+          "answers": [
+            "不正を見て言わずにはいられない。"
+          ],
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-order-06",
+          "mode": "order",
+          "prompt": "Ảnh cũ khiến phải nhớ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "昔の写真に"
+            },
+            {
+              "id": "1",
+              "text": "懐かしまずには"
+            },
+            {
+              "id": "2",
+              "text": "いられない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないではいられない／ずにはいられない",
+          "answers": [
+            "昔の写真に懐かしまずにはいられない。"
+          ],
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-order-07",
+          "mode": "order",
+          "prompt": "Tin đó khiến phải giận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "記事を読んで"
+            },
+            {
+              "id": "1",
+              "text": "怒らずには"
+            },
+            {
+              "id": "2",
+              "text": "いられない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないではいられない／ずにはいられない",
+          "answers": [
+            "記事を読んで怒らずにはいられない。"
+          ],
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-order-08",
+          "mode": "order",
+          "prompt": "Thấy lỗi thì phải sửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ミスを見つけて"
+            },
+            {
+              "id": "1",
+              "text": "直さずには"
+            },
+            {
+              "id": "2",
+              "text": "いられない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないではいられない／ずにはいられない",
+          "answers": [
+            "ミスを見つけて直さずにはいられない。"
+          ],
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-order-09",
+          "mode": "order",
+          "prompt": "Cảnh đẹp khiến phải chụp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "絶景を前に"
+            },
+            {
+              "id": "1",
+              "text": "撮らずには"
+            },
+            {
+              "id": "2",
+              "text": "いられない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないではいられない／ずにはいられない",
+          "answers": [
+            "絶景を前に撮らずにはいられない。"
+          ],
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g03-order-10",
+          "mode": "order",
+          "prompt": "Được cảm ơn thì xúc động.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "お礼の言葉に"
+            },
+            {
+              "id": "1",
+              "text": "感動せずには"
+            },
+            {
+              "id": "2",
+              "text": "いられない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないではいられない／ずにはいられない",
+          "answers": [
+            "お礼の言葉に感動せずにはいられない。"
+          ],
+          "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l25-g04",
+      "title": "〜ないわけに（は）いかない",
+      "meaning": "Không thể không… / đành phải… (nghĩa vụ xã hội)",
+      "variants": [
+        "ないわけにはいかない",
+        "ないわけにいかない"
+      ],
+      "structures": [
+        "Vない ＋ わけにはいかない",
+        "Vない ＋ わけにいかない"
+      ],
+      "explanation": "ないわけに（は）いかない: vì lý do xã hội, bổn phận, lời hứa… nên không thể chọn không làm — đành phải làm.",
+      "usage": "Từ chối lời mời khó; phải đi họp; phải chăm sóc người thân.",
+      "cautions": [
+        "Nhấn nghĩa vụ/hoàn cảnh xã hội hơn là thôi thúc cảm xúc.",
+        "わけにはいかない phổ biến hơn; わけにいかない cũng gặp."
+      ],
+      "contrast": "ないわけにはいかない ≈ không thể không (vì bổn phận). Khác ずにはいられない (không nhịn được) và ざるを得ない (bất đắc dĩ khách quan).",
+      "examples": [
+        {
+          "ja": "上司に頼まれたので断らないわけにはいかない。",
+          "reading": "じょうしにたのまれたのでことわらないわけにはいかない。",
+          "vi": "Sếp nhờ nên không thể từ chối.",
+          "ruby": [
+            {
+              "text": "上司",
+              "reading": "じょうし"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "頼",
+              "reading": "たの"
+            },
+            {
+              "text": "まれたので"
+            },
+            {
+              "text": "断",
+              "reading": "ことわ"
+            },
+            {
+              "text": "らないわけにはいかない。"
+            }
+          ]
+        },
+        {
+          "ja": "約束した以上、行かないわけにはいかない。",
+          "reading": "やくそくしたいじょう、いかないわけにはいかない。",
+          "vi": "Đã hứa thì không thể không đi.",
+          "ruby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "以上",
+              "reading": "いじょう"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "かないわけにはいかない。"
+            }
+          ]
+        },
+        {
+          "ja": "親の世話をしないわけにはいかない。",
+          "reading": "おやのせわをしないわけにはいかない。",
+          "vi": "Không thể không chăm sóc bố mẹ.",
+          "ruby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "世話",
+              "reading": "せわ"
+            },
+            {
+              "text": "をしないわけにはいかない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 125,
+        "printedPage": 112,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-nai-wake-ni-wa-ikanai-khong-the-khong-danh-phai-buoc-phai/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l25-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Đã nhận việc thì không thể bỏ.",
+          "answers": [
+            "引き受けた以上、やらないわけにはいかない。"
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Bạn nhờ thì không thể không giúp.",
+          "answers": [
+            "友人に頼まれて手伝わないわけにはいかない。"
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Là thành viên thì không thể vắng.",
+          "answers": [
+            "メンバーとして欠席しないわけにはいかない。"
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đã hẹn bác sĩ thì không thể trễ.",
+          "answers": [
+            "予約したから遅れないわけにはいかない。"
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Có lỗi thì không thể không xin lỗi.",
+          "answers": [
+            "自分のミスなので謝らないわけにはいかない。"
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Là trưởng nhóm thì không thể im.",
+          "answers": [
+            "リーダーとして黙っていないわけにはいかない。"
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Khách đến thì không thể không tiếp.",
+          "answers": [
+            "客が来たので応対しないわけにはいかない。"
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Luật quy định thì không thể bỏ qua.",
+          "answers": [
+            "規則なので守らないわけにはいかない。"
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Đã vay thì không thể không trả.",
+          "answers": [
+            "借りたお金は返さないわけにはいかない。"
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Thầy nhờ thì không thể từ chối.",
+          "answers": [
+            "先生の頼みを断らないわけにはいかない。"
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "家族の大事な日に行かないわけにはいかない。",
+          "answers": [
+            "Ngày quan trọng của gia đình không thể không đi."
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "証拠がある以上、認めないわけにはいかない。",
+          "answers": [
+            "Đã có bằng chứng thì không thể không thừa nhận."
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "同僚が忙しいので代わらないわけにはいかない。",
+          "answers": [
+            "Đồng nghiệp bận nên không thể không làm thay."
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "招待された以上、出席しないわけにはいかない。",
+          "answers": [
+            "Đã được mời thì không thể không dự."
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "約束の品は渡さないわけにはいかない。",
+          "answers": [
+            "Đồ đã hứa không thể không giao."
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "被害者に説明しないわけにはいかない。",
+          "answers": [
+            "Không thể không giải thích với nạn nhân."
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "税金は払わないわけにはいかない。",
+          "answers": [
+            "Thuế không thể không nộp."
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "子どもの世話をしないわけにはいかない。",
+          "answers": [
+            "Không thể không chăm sóc con."
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "締め切り前に提出しないわけにはいかない。",
+          "answers": [
+            "Trước hạn không thể không nộp."
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "恩がある人を無視しないわけにはいかない。",
+          "answers": [
+            "Người có ơn không thể bỏ mặc."
+          ],
+          "hint": "〜ないわけに（は）いかない",
+          "explanation": "Câu bổn phận: không thể không… / đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-order-01",
+          "mode": "order",
+          "prompt": "Sếp nhờ nên khó từ chối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "上司の依頼を"
+            },
+            {
+              "id": "1",
+              "text": "断らないわけには"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないわけに（は）いかない",
+          "answers": [
+            "上司の依頼を断らないわけにはいかない。"
+          ],
+          "explanation": "Câu bổn phận: không thể không… / đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-order-02",
+          "mode": "order",
+          "prompt": "Đã hứa thì phải đi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "約束したから"
+            },
+            {
+              "id": "1",
+              "text": "行かないわけには"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないわけに（は）いかない",
+          "answers": [
+            "約束したから行かないわけにはいかない。"
+          ],
+          "explanation": "Câu bổn phận: không thể không… / đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-order-03",
+          "mode": "order",
+          "prompt": "Phải chăm sóc bố mẹ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "親の面倒を"
+            },
+            {
+              "id": "1",
+              "text": "見ないわけには"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないわけに（は）いかない",
+          "answers": [
+            "親の面倒を見ないわけにはいかない。"
+          ],
+          "explanation": "Câu bổn phận: không thể không… / đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-order-04",
+          "mode": "order",
+          "prompt": "Nhận việc rồi phải làm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "引き受けた仕事は"
+            },
+            {
+              "id": "1",
+              "text": "やらないわけには"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないわけに（は）いかない",
+          "answers": [
+            "引き受けた仕事はやらないわけにはいかない。"
+          ],
+          "explanation": "Câu bổn phận: không thể không… / đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-order-05",
+          "mode": "order",
+          "prompt": "Bạn nhờ thì phải giúp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "友人の頼みを"
+            },
+            {
+              "id": "1",
+              "text": "断れないわけには"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないわけに（は）いかない",
+          "answers": [
+            "友人の頼みを断れないわけにはいかない。"
+          ],
+          "explanation": "Câu bổn phận: không thể không… / đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-order-06",
+          "mode": "order",
+          "prompt": "Thành viên thì khó vắng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "部員として"
+            },
+            {
+              "id": "1",
+              "text": "欠かさないわけには"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないわけに（は）いかない",
+          "answers": [
+            "部員として欠かさないわけにはいかない。"
+          ],
+          "explanation": "Câu bổn phận: không thể không… / đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-order-07",
+          "mode": "order",
+          "prompt": "Có lỗi thì phải xin lỗi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "過失がある以上"
+            },
+            {
+              "id": "1",
+              "text": "謝らないわけには"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないわけに（は）いかない",
+          "answers": [
+            "過失がある以上謝らないわけにはいかない。"
+          ],
+          "explanation": "Câu bổn phận: không thể không… / đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-order-08",
+          "mode": "order",
+          "prompt": "Khách tới thì phải tiếp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "来客には"
+            },
+            {
+              "id": "1",
+              "text": "対応しないわけには"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないわけに（は）いかない",
+          "answers": [
+            "来客には対応しないわけにはいかない。"
+          ],
+          "explanation": "Câu bổn phận: không thể không… / đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-order-09",
+          "mode": "order",
+          "prompt": "Vay rồi thì phải trả.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "借金は"
+            },
+            {
+              "id": "1",
+              "text": "返さないわけには"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないわけに（は）いかない",
+          "answers": [
+            "借金は返さないわけにはいかない。"
+          ],
+          "explanation": "Câu bổn phận: không thể không… / đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g04-order-10",
+          "mode": "order",
+          "prompt": "Được mời thì phải dự.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "招かれた以上"
+            },
+            {
+              "id": "1",
+              "text": "出席しないわけには"
+            },
+            {
+              "id": "2",
+              "text": "いかない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないわけに（は）いかない",
+          "answers": [
+            "招かれた以上出席しないわけにはいかない。"
+          ],
+          "explanation": "Câu bổn phận: không thể không… / đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l25-g05",
+      "title": "〜ざるを得ない",
+      "meaning": "Đành phải… / không còn cách nào khác ngoài…",
+      "variants": [
+        "ざるを得ない"
+      ],
+      "structures": [
+        "Vない語幹 ＋ ざるを得ない",
+        "する → せざるを得ない"
+      ],
+      "explanation": "ざるを得ない: vì hoàn cảnh khách quan/áp lực thực tế, không còn lựa chọn nào khác ngoài việc phải làm — sắc thái bất đắc dĩ, hơi trang trọng.",
+      "usage": "Tin tức, báo cáo, văn viết: buộc phải hủy, buộc phải thừa nhận, buộc phải thay đổi.",
+      "cautions": [
+        "Dùng thân Vない bỏ ない + ざるを得ない; する đặc biệt thành せざるを得ない.",
+        "Thiên bất đắc dĩ khách quan; khác cảm xúc ずにはいられない."
+      ],
+      "contrast": "ざるを得ない ≈ đành phải (không còn cách). Gần ないわけにはいかない nhưng nhấn hoàn cảnh bất khả kháng hơn bổn phận.",
+      "examples": [
+        {
+          "ja": "予算不足で計画を変更せざるを得ない。",
+          "reading": "よさんぶそくでけいかくをへんこうせざるをえない。",
+          "vi": "Thiếu ngân sách nên đành phải đổi kế hoạch.",
+          "ruby": [
+            {
+              "text": "予算",
+              "reading": "よさん"
+            },
+            {
+              "text": "不足",
+              "reading": "ぶそく"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "変更",
+              "reading": "へんこう"
+            },
+            {
+              "text": "せざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
+        },
+        {
+          "ja": "証拠がない以上、認めざるを得ない。",
+          "reading": "しょうこがないいじょう、みとめざるをえない。",
+          "vi": "Không có bằng chứng thì đành phải thừa nhận.",
+          "ruby": [
+            {
+              "text": "証拠",
+              "reading": "しょうこ"
+            },
+            {
+              "text": "がない"
+            },
+            {
+              "text": "以上",
+              "reading": "いじょう"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "認",
+              "reading": "みと"
+            },
+            {
+              "text": "めざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
+        },
+        {
+          "ja": "体調不良で欠席せざるを得なかった。",
+          "reading": "たいちょうふりょうでけっせきせざるをえなかった。",
+          "vi": "Sức khỏe kém nên đành phải vắng mặt.",
+          "ruby": [
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "不良",
+              "reading": "ふりょう"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "欠席",
+              "reading": "けっせき"
+            },
+            {
+              "text": "せざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "なかった。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 125,
+        "printedPage": 112,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-zaru-o-enai-danh-phai-buoc-phai-khong-the-khong/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l25-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Mưa to nên đành hủy sự kiện.",
+          "answers": [
+            "大雨でイベントを中止せざるを得ない。"
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Hết hàng nên đành từ chối đơn.",
+          "answers": [
+            "在庫切れで注文を断らざるを得ない。"
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Lỗi hệ thống nên đành tạm dừng.",
+          "answers": [
+            "障害のためサービスを停止せざるを得ない。"
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Thiếu người nên đành tăng ca.",
+          "answers": [
+            "人手不足で残業せざるを得ない。"
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Giá tăng nên đành tăng giá bán.",
+          "answers": [
+            "原価高騰で値上げせざるを得ない。"
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Không còn chỗ nên đành chờ chuyến sau.",
+          "answers": [
+            "満席で次便を待たざるを得ない。"
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Bị phát hiện nên đành thú nhận.",
+          "answers": [
+            "発覚した以上、告白せざるを得ない。"
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Thời hạn gấp nên đành rút ngắn.",
+          "answers": [
+            "期限が迫り短縮せざるを得ない。"
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Phản đối nhiều nên đành rút lại.",
+          "answers": [
+            "反対が多く撤回せざるを得ない。"
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Bệnh nặng nên đành nhập viện.",
+          "answers": [
+            "症状が重く入院せざるを得ない。"
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "交通渋滞で遅刻せざるを得なかった。",
+          "answers": [
+            "Kẹt xe nên đành phải đến muộn."
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "資金難で事業を縮小せざるを得ない。",
+          "answers": [
+            "Thiếu vốn nên đành thu hẹp kinh doanh."
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "規則違反で処分せざるを得ない。",
+          "answers": [
+            "Vi phạm quy định nên đành phải xử lý."
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "天候不良で離陸を延期せざるを得ない。",
+          "answers": [
+            "Thời tiết xấu nên đành hoãn cất cánh."
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "データ不足で結論を保留せざるを得ない。",
+          "answers": [
+            "Thiếu dữ liệu nên đành giữ nguyên kết luận."
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "契約上、支払わざるを得ない。",
+          "answers": [
+            "Theo hợp đồng đành phải thanh toán."
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "世論の圧力で方針を変えざるを得ない。",
+          "answers": [
+            "Áp lực dư luận nên đành đổi phương châm."
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "故障した車を修理せざるを得なかった。",
+          "answers": [
+            "Xe hỏng nên đành phải sửa."
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "事実を前に認めざるを得ない。",
+          "answers": [
+            "Trước sự thật đành phải thừa nhận."
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "安全のため立ち退かざるを得ない。",
+          "answers": [
+            "Vì an toàn đành phải sơ tán."
+          ],
+          "hint": "〜ざるを得ない",
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-order-01",
+          "mode": "order",
+          "prompt": "Thiếu ngân sách đành đổi kế hoạch.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "予算不足で"
+            },
+            {
+              "id": "1",
+              "text": "予定を変更せざるを"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ざるを得ない",
+          "answers": [
+            "予算不足で予定を変更せざるを得ない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-order-02",
+          "mode": "order",
+          "prompt": "Không chứng cứ đành thừa nhận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "証拠がなく"
+            },
+            {
+              "id": "1",
+              "text": "認めざるを"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ざるを得ない",
+          "answers": [
+            "証拠がなく認めざるを得ない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-order-03",
+          "mode": "order",
+          "prompt": "Ốm nên đành vắng mặt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "体調を崩し"
+            },
+            {
+              "id": "1",
+              "text": "欠席せざるを"
+            },
+            {
+              "id": "2",
+              "text": "得なかった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ざるを得ない",
+          "answers": [
+            "体調を崩し欠席せざるを得なかった。"
+          ],
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-order-04",
+          "mode": "order",
+          "prompt": "Mưa lớn đành hủy sự kiện.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "豪雨のため"
+            },
+            {
+              "id": "1",
+              "text": "中止せざるを"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ざるを得ない",
+          "answers": [
+            "豪雨のため中止せざるを得ない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-order-05",
+          "mode": "order",
+          "prompt": "Hết hàng đành từ chối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "在庫がなく"
+            },
+            {
+              "id": "1",
+              "text": "断らざるを"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ざるを得ない",
+          "answers": [
+            "在庫がなく断らざるを得ない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-order-06",
+          "mode": "order",
+          "prompt": "Lỗi máy đành tạm dừng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "障害発生で"
+            },
+            {
+              "id": "1",
+              "text": "停止せざるを"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ざるを得ない",
+          "answers": [
+            "障害発生で停止せざるを得ない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-order-07",
+          "mode": "order",
+          "prompt": "Thiếu người đành tăng ca.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "人手不足で"
+            },
+            {
+              "id": "1",
+              "text": "残業せざるを"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ざるを得ない",
+          "answers": [
+            "人手不足で残業せざるを得ない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-order-08",
+          "mode": "order",
+          "prompt": "Kẹt xe đành đến muộn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "渋滞で"
+            },
+            {
+              "id": "1",
+              "text": "遅刻せざるを"
+            },
+            {
+              "id": "2",
+              "text": "得なかった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ざるを得ない",
+          "answers": [
+            "渋滞で遅刻せざるを得なかった。"
+          ],
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-order-09",
+          "mode": "order",
+          "prompt": "Thiếu vốn đành thu hẹp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "資金難で"
+            },
+            {
+              "id": "1",
+              "text": "縮小せざるを"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ざるを得ない",
+          "answers": [
+            "資金難で縮小せざるを得ない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        },
+        {
+          "id": "l25-g05-order-10",
+          "mode": "order",
+          "prompt": "Vì an toàn đành sơ tán.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "安全のため"
+            },
+            {
+              "id": "1",
+              "text": "避難せざるを"
+            },
+            {
+              "id": "2",
+              "text": "得ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ざるを得ない",
+          "answers": [
+            "安全のため避難せざるを得ない。"
+          ],
+          "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+        }
+      ]
+    }
+  ]
+}
