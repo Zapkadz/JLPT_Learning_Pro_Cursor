@@ -280,7 +280,7 @@ Re-verified against repository (no app code changes):
 ## Known Incomplete Work
 
 - Independent teacher review of N2 content / furigana readings (language QA).  
-- N2-L01-FURI-001 commit / PR on `feat/n2-l01-furi-001` — awaiting user.
+- N2-L01-FURI-001 commit / PR — **PR #14 open** (https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/14).
 
 ## Known Issues
 
