@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-16 (N2-L21-BATCH PR #12)
+2026-09-16 (N2-FULL-ACC automated evidence on `feat/n2-full-acc`)
 
 ## Project
 
@@ -11,70 +11,69 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/n2-l21-batch` @ `ddb5125` — PR #12 open.
+`feat/n2-full-acc` @ `981a9d2` — PR #13 open.
 
 ## Latest Relevant Commit
 
-`feat/n2-l21-batch` @ `ddb5125` — Lessons 21–26.  
-PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/12  
-`main` still at `80c6da9` until merge.
+`feat/n2-full-acc` @ `981a9d2` — N2-FULL-ACC evidence.  
+PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/13  
+`main` still at `1d229f6` until merge.
 
 ## Current Objective
 
-**N2-L21-BATCH** — PR #12 open. Completes published content scale **26/141/4230** (`agent_reviewed`).  
-After merge → **N2-FULL-ACC** and/or **N2-L01-FURI-001**.
+**N2-FULL-ACC** — automated §73 evidence **PASS**. Independent teacher review still **PENDING**.
 
 ## Current Phase
 
-**Phase 1+** — All 26 lessons on feature branch / PR.
+**Phase 1+ complete (content scale)** — 26/141/4230 published on `main`. Acceptance evidence on feature branch.
 
 ## Current Task
 
-Await merge of PR #12; then acceptance / furigana decisions.
+N2-FULL-ACC automated portion complete; commit/PR pending user. Teacher review + FURI still open.
 
 ## Last Completed Work
 
-- Authored Lessons 21–26: 36 groups × 30 = **1080** exercises.  
-- Commit `ddb5125`; PR #12 opened.  
-- Course: 26 lessons / 141 patterns / 4230 exercises; `npm test` 15/15.
+- Merged PR #12 into `main`.  
+- Added `scripts/n2-full-acceptance.mjs` + `docs/grammar-n2/FULL-ACCEPTANCE.md` + evidence JSON.  
+- Verification: acceptance script PASS; `npm test` 15/15; `npm run build` OK; `test:e2e` 2/2.
 
 ## Current State
 
-- Published lessons: **26** / 26.  
-- Published groups: **141** / 141.  
-- Published exercises: **4230** / 4230.  
-- Teacher review: **not done**.  
-- Furigana JA→VI (**N2-L01-FURI-001**) open.  
-- **N2-FULL-ACC** still TODO.
+- Published: **26 / 141 / 4230** on `main`.  
+- Review level: **agent_reviewed** only.  
+- Furigana JA→VI (**N2-L01-FURI-001**) still needs product decision.
 
 ## Verification State
 
 | Check | State |
 |-------|--------|
-| `npm test` | **15/15 pass** |
-| Commit | `ddb5125` |
-| PR | **#12 open** |
+| `node scripts/n2-full-acceptance.mjs` | **PASS** |
+| `npm test` | **15/15** |
+| `npm run build` | **OK** |
+| `npm run test:e2e` | **2/2** |
+| Teacher independent review | **PENDING** |
+| Commit / PR | **#13 open** |
 
 ## Known Blockers
 
-- Furigana JA→VI (**N2-L01-FURI-001**) needs product decision.  
-- Full-course teacher review (**N2-FULL-ACC**).
+- Independent teacher review for true “verified” language QA.  
+- Furigana JA→VI policy (**N2-L01-FURI-001**).
 
 ## Exact Next Action
 
-1. Merge PR #12 when ready.  
-2. Decide next: **N2-FULL-ACC** and/or **N2-L01-FURI-001**.  
-3. Do not declare teacher-verified completion.
+1. Commit + PR for `feat/n2-full-acc` (shipping).  
+2. Optionally start **N2-L01-FURI-001** after product decision.  
+3. Do **not** claim teacher-approved / expert-verified.
 
 ## Files To Read Before Continuing
 
-1. `docs/PLAN.md`  
-2. `docs/PROGRESS.md` (N2-L21-BATCH entry)  
-3. Master Requirement §73 for FULL-ACC
+1. `docs/grammar-n2/FULL-ACCEPTANCE.md`  
+2. `docs/PLAN.md`  
+3. Master Requirement §73 / §23
 
 ## Safety Notes
 
-- Do not remap L1 pattern IDs (`sai`, …).  
+- Do not remap L1 pattern IDs.  
 - Do not hard-code 151→141.  
-- Do not treat 4230 as teacher-verified complete.  
+- Do not treat 4230 as teacher-verified.  
 - Commit only when user asks.

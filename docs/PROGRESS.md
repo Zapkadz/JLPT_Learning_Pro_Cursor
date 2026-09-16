@@ -23,20 +23,21 @@ Rule: **never** write targets as completed counts.
 - **N2-L06-BATCH DONE** (2026-09-16) — Lessons 6–10 published (24×30 = 720); merged PR #9 (`63cc9c8`).  
 - **N2-L11-BATCH DONE** (2026-09-16) — Lessons 11–15 published (27×30 = 810); merged PR #10.  
 - **N2-L16-BATCH DONE** (2026-09-16) — Lessons 16–20 published (28×30 = 840); merged PR #11 (`80c6da9`).  
-- **N2-L21-BATCH DONE** (2026-09-16) — Lessons 21–26 authored/published on `feat/n2-l21-batch` (36×30 = 1080); commit/PR pending.  
+- **N2-L21-BATCH DONE** (2026-09-16) — Lessons 21–26 published (36×30 = 1080); merged PR #12 (`1d229f6`).  
+- **N2-FULL-ACC DONE** (2026-09-16) — automated §73 evidence on `feat/n2-full-acc`; teacher review still PENDING.  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **AVAILABLE** — `main` @ PR #11 merge (`80c6da9`); work on `feat/n2-l21-batch`.
+- Git: **AVAILABLE** — `main` @ PR #12 merge (`1d229f6`); work on `feat/n2-full-acc`.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
-| Metric | TARGET | ACTUAL (re-verified 2026-09-16 after N2-L21-BATCH on feature branch) |
+| Metric | TARGET | ACTUAL (re-verified 2026-09-16 after N2-FULL-ACC on `main` + evidence branch) |
 |--------|--------|-----------------------------------------------|
-| Lessons in manifest | 26 | 26 rows in `manifest.json` |
-| Lessons published / learnable | 26 | **26** (`lesson-01`…`lesson-26`) on `feat/n2-l21-batch` |
-| Canonical groups | 141 | Manifest `sum(groupCount)=141`; **implemented content: 141** |
-| Exercises | 4230 | **4230** (L1–20 3150 + L21–26 1080) |
+| Lessons in manifest | 26 | 26 rows; **all published** |
+| Lessons published / learnable | 26 | **26** |
+| Canonical groups | 141 | **141** implemented |
+| Exercises | 4230 | **4230** validated (unique IDs + prompts) |
 | Learning examples (published) | richer set | **3 per group** |
-| TNĐG URLs | 141 mapped | **DONE** — 7 partial-match rows (see below) |
+| TNĐG URLs | 141 mapped | **DONE** — 7 partial-match rows |
 | Independent teacher review | desired | **Not done** (`agent_reviewed` only) |
 
 Lesson 1 pattern IDs: `sai`, `saishite`, `totan`, `omouto`, `kanai` (rev **5**).  
@@ -81,16 +82,25 @@ Re-verified against repository (no app code changes):
 - Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
 - Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
 
-### N2-L21-BATCH (2026-09-16) — DONE (uncommitted)
+### N2-FULL-ACC (2026-09-16) — DONE (automated; teacher PENDING)
+
+- Merged PR #12; branch `feat/n2-full-acc`.  
+- Added `scripts/n2-full-acceptance.mjs` (hard fail on §73 content/scale violations).  
+- Report: `docs/grammar-n2/FULL-ACCEPTANCE.md` + `FULL-ACCEPTANCE-EVIDENCE.json`.  
+- Evidence: 26/141/4230; unique IDs/prompts 4230; `npm test` **15/15**; `npm run build` OK; `test:e2e` **2/2**.  
+- Explicitly **not** claiming independent teacher review (§23).  
+- Uncommitted pending user commit/PR.
+
+### N2-L21-BATCH (2026-09-16) — DONE
 
 - Authored + published Lessons 21–26: 36 groups × 30 exercises = **1080** (plus 3 examples/group).  
 - Files: `lesson-21.json`…`lesson-26.json`; manifest all `published: true`; inventory `imported` / `agent_reviewed`.  
 - Generators: `scripts/gen-n2-l21-batch.mjs`, `scripts/n2-batch/lesson21.mjs`…`lesson26.mjs`.  
 - Course totals on branch: **26 lessons / 141 groups / 4230 exercises**.  
 - Tests: DoD L2–26; unpublished path now only `lesson-99`; progressDenominator === publishedGroups (141).  
-- Branch: `feat/n2-l21-batch` — **not committed** (awaiting user).  
+- Branch: merged via PR #12 into `main` (`1d229f6`).  
 - Verification: `npm test` **15/15 pass**; `npm run build` OK.  
-- Note: still `agent_reviewed` only — **N2-FULL-ACC** not claimed.
+- Note: still `agent_reviewed` only — **N2-FULL-ACC** teacher review not claimed.
 
 ### N2-L16-BATCH (2026-09-16) — DONE
 
@@ -232,7 +242,8 @@ Re-verified against repository (no app code changes):
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
-| 2026-09-16 | N2-L21-BATCH Lessons 21–26 publish | **15/15 pass**; build OK | `npm test`; `npm run build` on `feat/n2-l21-batch` |
+| 2026-09-16 | N2-FULL-ACC automated §73 evidence | acceptance PASS; **15/15**; e2e **2/2**; build OK | `node scripts/n2-full-acceptance.mjs`; `npm test`; `npm run test:e2e`; `npm run build` |
+| 2026-09-16 | N2-L21-BATCH Lessons 21–26 publish | **15/15 pass**; build OK | PR #12 merged `1d229f6` |
 | 2026-09-16 | N2-L16-BATCH Lessons 16–20 publish | **15/15 pass**; build OK | `npm test`; `npm run build` on `feat/n2-l16-batch` |
 | 2026-09-16 | N2-L11-BATCH Lessons 11–15 publish | **15/15 pass**; build OK | `npm test`; `npm run build` on `feat/n2-l11-batch` |
 | 2026-09-16 | N2-L06-BATCH Lessons 6–10 publish | **15/15 pass**; build OK | `npm test`; `npm run build` on `feat/n2-l06-batch` |
@@ -258,8 +269,8 @@ Re-verified against repository (no app code changes):
 ## Known Incomplete Work
 
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
-- Full-course teacher acceptance (**N2-FULL-ACC** — §73; content scale met but `agent_reviewed` only).  
-- N2-L21-BATCH commit / PR — **PR #12 open** (https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/12).
+- Independent teacher review of N2 content (language QA; not claimed by N2-FULL-ACC).  
+- N2-FULL-ACC commit / PR — **PR #13 open** (https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/13).
 
 ## Known Issues
 
@@ -271,4 +282,4 @@ Re-verified against repository (no app code changes):
 ## Blockers
 
 1. Furigana JA→VI policy decision blocks **N2-L01-FURI-001**.  
-2. Independent teacher review required before claiming **N2-FULL-ACC**.
+2. Human teacher/reviewer required for true independent language verification.
