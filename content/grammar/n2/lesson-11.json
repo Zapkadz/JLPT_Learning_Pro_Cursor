@@ -247,7 +247,30 @@
           "hint": "〜を問わず",
           "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "学歴",
+              "reading": "がくれき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "してほしい。"
+            }
+          ]
         },
         {
           "id": "l11-g01-ja-vi-02",
@@ -259,7 +282,37 @@
           "hint": "〜を問わず",
           "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "場所",
+              "reading": "ばしょ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "取",
+              "reading": "と"
+            },
+            {
+              "text": "れる。"
+            }
+          ]
         },
         {
           "id": "l11-g01-ja-vi-03",
@@ -271,7 +324,41 @@
           "hint": "〜を問わず",
           "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "分野",
+              "reading": "ぶんや"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "専門",
+              "reading": "せんもん"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "集",
+              "reading": "あつ"
+            },
+            {
+              "text": "まった。"
+            }
+          ]
         },
         {
           "id": "l11-g01-ja-vi-04",
@@ -283,7 +370,37 @@
           "hint": "〜を問わず",
           "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "乗",
+              "reading": "の"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l11-g01-ja-vi-05",
@@ -295,7 +412,37 @@
           "hint": "〜を問わず",
           "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "立場",
+              "reading": "たちば"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "うべきだ。"
+            }
+          ]
         },
         {
           "id": "l11-g01-ja-vi-06",
@@ -307,7 +454,30 @@
           "hint": "〜を問わず",
           "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "形式",
+              "reading": "けいしき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "提出",
+              "reading": "ていしゅつ"
+            },
+            {
+              "text": "してよい。"
+            }
+          ]
         },
         {
           "id": "l11-g01-ja-vi-07",
@@ -319,7 +489,37 @@
           "hint": "〜を問わず",
           "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "言語",
+              "reading": "げんご"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "用意",
+              "reading": "ようい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l11-g01-ja-vi-08",
@@ -331,7 +531,30 @@
           "hint": "〜を問わず",
           "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "距離",
+              "reading": "きょり"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "配達",
+              "reading": "はいたつ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l11-g01-ja-vi-09",
@@ -343,7 +566,37 @@
           "hint": "〜を問わず",
           "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "予算",
+              "reading": "よさん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "見積",
+              "reading": "みつ"
+            },
+            {
+              "text": "もりを"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "す。"
+            }
+          ]
         },
         {
           "id": "l11-g01-ja-vi-10",
@@ -355,7 +608,30 @@
           "hint": "〜を問わず",
           "explanation": "Câu dùng を問わず: bất kể phạm vi nêu ra, điều kiện vẫn áp dụng.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "条件",
+              "reading": "じょうけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "検討",
+              "reading": "けんとう"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l11-g01-order-01",
@@ -983,7 +1259,30 @@
           "hint": "〜にかかわりなく・〜にかかわらず",
           "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "成績",
+              "reading": "せいせき"
+            },
+            {
+              "text": "にかかわらず"
+            },
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "認",
+              "reading": "みと"
+            },
+            {
+              "text": "められる。"
+            }
+          ]
         },
         {
           "id": "l11-g02-ja-vi-02",
@@ -995,7 +1294,30 @@
           "hint": "〜にかかわりなく・〜にかかわらず",
           "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "性別",
+              "reading": "せいべつ"
+            },
+            {
+              "text": "にかかわりなく"
+            },
+            {
+              "text": "平等",
+              "reading": "びょうどう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "扱",
+              "reading": "あつか"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l11-g02-ja-vi-03",
@@ -1007,7 +1329,37 @@
           "hint": "〜にかかわりなく・〜にかかわらず",
           "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "来",
+              "reading": "く"
+            },
+            {
+              "text": "るか"
+            },
+            {
+              "text": "来",
+              "reading": "こ"
+            },
+            {
+              "text": "ないかにかかわらず"
+            },
+            {
+              "text": "席",
+              "reading": "せき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "用意",
+              "reading": "ようい"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l11-g02-ja-vi-04",
@@ -1019,7 +1371,23 @@
           "hint": "〜にかかわりなく・〜にかかわらず",
           "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "天候",
+              "reading": "てんこう"
+            },
+            {
+              "text": "のいかんにかかわらず"
+            },
+            {
+              "text": "実施",
+              "reading": "じっし"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l11-g02-ja-vi-05",
@@ -1031,7 +1399,37 @@
           "hint": "〜にかかわりなく・〜にかかわらず",
           "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "好",
+              "reading": "すき"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "嫌",
+              "reading": "ら"
+            },
+            {
+              "text": "いにかかわらず"
+            },
+            {
+              "text": "野菜",
+              "reading": "やさい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "食",
+              "reading": "た"
+            },
+            {
+              "text": "べなさい。"
+            }
+          ]
         },
         {
           "id": "l11-g02-ja-vi-06",
@@ -1043,7 +1441,23 @@
           "hint": "〜にかかわりなく・〜にかかわらず",
           "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "国籍",
+              "reading": "こくせき"
+            },
+            {
+              "text": "にかかわらず"
+            },
+            {
+              "text": "権利",
+              "reading": "けんり"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l11-g02-ja-vi-07",
@@ -1055,7 +1469,23 @@
           "hint": "〜にかかわりなく・〜にかかわらず",
           "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "にかかわりなく"
+            },
+            {
+              "text": "対応",
+              "reading": "たいおう"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l11-g02-ja-vi-08",
@@ -1067,7 +1497,23 @@
           "hint": "〜にかかわりなく・〜にかかわらず",
           "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "勝敗",
+              "reading": "しょうはい"
+            },
+            {
+              "text": "にかかわらず"
+            },
+            {
+              "text": "握手",
+              "reading": "あくしゅ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l11-g02-ja-vi-09",
@@ -1079,7 +1525,30 @@
           "hint": "〜にかかわりなく・〜にかかわらず",
           "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "費用",
+              "reading": "ひよう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "多少",
+              "reading": "たしょう"
+            },
+            {
+              "text": "にかかわらず"
+            },
+            {
+              "text": "申請",
+              "reading": "しんせい"
+            },
+            {
+              "text": "できる。"
+            }
+          ]
         },
         {
           "id": "l11-g02-ja-vi-10",
@@ -1091,7 +1560,23 @@
           "hint": "〜にかかわりなく・〜にかかわらず",
           "explanation": "Câu dùng にかかわらず／にかかわりなく: kết quả không phụ thuộc điều kiện trước.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "状況",
+              "reading": "じょうきょう"
+            },
+            {
+              "text": "にかかわらず"
+            },
+            {
+              "text": "冷静",
+              "reading": "れいせい"
+            },
+            {
+              "text": "でいろ。"
+            }
+          ]
         },
         {
           "id": "l11-g02-order-01",
@@ -1708,7 +2193,23 @@
           "hint": "〜もかまわず",
           "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "視線",
+              "reading": "しせん"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "抱",
+              "reading": "だ"
+            },
+            {
+              "text": "きしめた。"
+            }
+          ]
         },
         {
           "id": "l11-g03-ja-vi-02",
@@ -1720,7 +2221,30 @@
           "hint": "〜もかまわず",
           "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "危険",
+              "reading": "きけん"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "飛",
+              "reading": "と"
+            },
+            {
+              "text": "び"
+            },
+            {
+              "text": "込",
+              "reading": "こ"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l11-g03-ja-vi-03",
@@ -1732,7 +2256,23 @@
           "hint": "〜もかまわず",
           "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "迷惑",
+              "reading": "めいわく"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "頼",
+              "reading": "たの"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l11-g03-ja-vi-04",
@@ -1744,7 +2284,23 @@
           "hint": "〜もかまわず",
           "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "服装",
+              "reading": "ふくそう"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "出席",
+              "reading": "しゅっせき"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l11-g03-ja-vi-05",
@@ -1756,7 +2312,23 @@
           "hint": "〜もかまわず",
           "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "議論",
+              "reading": "ぎろん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l11-g03-ja-vi-06",
@@ -1768,7 +2340,23 @@
           "hint": "〜もかまわず",
           "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l11-g03-ja-vi-07",
@@ -1780,7 +2368,23 @@
           "hint": "〜もかまわず",
           "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "規則",
+              "reading": "きそく"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "行動",
+              "reading": "こうどう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l11-g03-ja-vi-08",
@@ -1792,7 +2396,23 @@
           "hint": "〜もかまわず",
           "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "騒音",
+              "reading": "そうおん"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "眠",
+              "reading": "ねむ"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l11-g03-ja-vi-09",
@@ -1804,7 +2424,23 @@
           "hint": "〜もかまわず",
           "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "決断",
+              "reading": "けつだん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l11-g03-ja-vi-10",
@@ -1816,7 +2452,23 @@
           "hint": "〜もかまわず",
           "explanation": "Câu dùng もかまわず: mặc kệ trở ngại/ý kiến mà vẫn hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "年齢",
+              "reading": "ねんれい"
+            },
+            {
+              "text": "もかまわず"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l11-g03-order-01",
@@ -2447,7 +3099,31 @@
           "hint": "〜はともかく（として）",
           "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "趣味",
+              "reading": "しゅみ"
+            },
+            {
+              "text": "はともかく"
+            },
+            {
+              "text": "健康",
+              "reading": "けんこう"
+            },
+            {
+              "text": "第",
+              "reading": "だい"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l11-g04-ja-vi-02",
@@ -2459,7 +3135,30 @@
           "hint": "〜はともかく（として）",
           "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "はともかく"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "意味",
+              "reading": "いみ"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l11-g04-ja-vi-03",
@@ -2471,7 +3170,19 @@
           "hint": "〜はともかく（として）",
           "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "デザインはともかく"
+            },
+            {
+              "text": "使",
+              "reading": "つか"
+            },
+            {
+              "text": "いやすい。"
+            }
+          ]
         },
         {
           "id": "l11-g04-ja-vi-04",
@@ -2483,7 +3194,16 @@
           "hint": "〜はともかく（として）",
           "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "給料",
+              "reading": "きゅうりょう"
+            },
+            {
+              "text": "はともかくとしてやりがいがある。"
+            }
+          ]
         },
         {
           "id": "l11-g04-ja-vi-05",
@@ -2495,7 +3215,30 @@
           "hint": "〜はともかく（として）",
           "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "年齢",
+              "reading": "ねんれい"
+            },
+            {
+              "text": "はともかく"
+            },
+            {
+              "text": "能力",
+              "reading": "のうりょく"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l11-g04-ja-vi-06",
@@ -2507,7 +3250,30 @@
           "hint": "〜はともかく（として）",
           "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "過去",
+              "reading": "かこ"
+            },
+            {
+              "text": "はともかく"
+            },
+            {
+              "text": "今後",
+              "reading": "こんご"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "考",
+              "reading": "かんが"
+            },
+            {
+              "text": "えよう。"
+            }
+          ]
         },
         {
           "id": "l11-g04-ja-vi-07",
@@ -2519,7 +3285,37 @@
           "hint": "〜はともかく（として）",
           "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "た"
+            },
+            {
+              "text": "目",
+              "reading": "め"
+            },
+            {
+              "text": "はともかく"
+            },
+            {
+              "text": "味",
+              "reading": "あじ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "抜群",
+              "reading": "ばつぐん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l11-g04-ja-vi-08",
@@ -2531,7 +3327,30 @@
           "hint": "〜はともかく（として）",
           "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "費用",
+              "reading": "ひよう"
+            },
+            {
+              "text": "はともかく"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "なら"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l11-g04-ja-vi-09",
@@ -2543,7 +3362,30 @@
           "hint": "〜はともかく（として）",
           "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "評判",
+              "reading": "ひょうばん"
+            },
+            {
+              "text": "はともかく"
+            },
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "確",
+              "reading": "たし"
+            },
+            {
+              "text": "かめたい。"
+            }
+          ]
         },
         {
           "id": "l11-g04-ja-vi-10",
@@ -2555,7 +3397,23 @@
           "hint": "〜はともかく（として）",
           "explanation": "Câu dùng はともかく（として）: tạm gác A rồi nhấn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "勝敗",
+              "reading": "しょうはい"
+            },
+            {
+              "text": "はともかく"
+            },
+            {
+              "text": "楽",
+              "reading": "たの"
+            },
+            {
+              "text": "しもう。"
+            }
+          ]
         },
         {
           "id": "l11-g04-order-01",
@@ -3178,7 +4036,30 @@
           "hint": "〜はさておき",
           "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "挨拶",
+              "reading": "あいさつ"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "要件",
+              "reading": "ようけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "伝",
+              "reading": "つた"
+            },
+            {
+              "text": "えたい。"
+            }
+          ]
         },
         {
           "id": "l11-g05-ja-vi-02",
@@ -3190,7 +4071,30 @@
           "hint": "〜はさておき",
           "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "趣味",
+              "reading": "しゅみ"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "をしよう。"
+            }
+          ]
         },
         {
           "id": "l11-g05-ja-vi-03",
@@ -3202,7 +4106,30 @@
           "hint": "〜はさておき",
           "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "天候",
+              "reading": "てんこう"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "整",
+              "reading": "ととの"
+            },
+            {
+              "text": "えよ。"
+            }
+          ]
         },
         {
           "id": "l11-g05-ja-vi-04",
@@ -3214,7 +4141,30 @@
           "hint": "〜はさておき",
           "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "年齢",
+              "reading": "ねんれい"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "実力",
+              "reading": "じつりょく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "たい。"
+            }
+          ]
         },
         {
           "id": "l11-g05-ja-vi-05",
@@ -3226,7 +4176,23 @@
           "hint": "〜はさておき",
           "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "文句",
+              "reading": "もんく"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "手伝",
+              "reading": "てつだ"
+            },
+            {
+              "text": "ってくれ。"
+            }
+          ]
         },
         {
           "id": "l11-g05-ja-vi-06",
@@ -3238,7 +4204,30 @@
           "hint": "〜はさておき",
           "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "理論",
+              "reading": "りろん"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "実践",
+              "reading": "じっせん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "先",
+              "reading": "さき"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l11-g05-ja-vi-07",
@@ -3250,7 +4239,30 @@
           "hint": "〜はさておき",
           "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "私事",
+              "reading": "しじ"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めよう。"
+            }
+          ]
         },
         {
           "id": "l11-g05-ja-vi-08",
@@ -3262,7 +4274,30 @@
           "hint": "〜はさておき",
           "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "得失",
+              "reading": "とくしつ"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "価値",
+              "reading": "かち"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l11-g05-ja-vi-09",
@@ -3274,7 +4309,37 @@
           "hint": "〜はさておき",
           "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "た"
+            },
+            {
+              "text": "目",
+              "reading": "め"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "機能",
+              "reading": "きのう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "優",
+              "reading": "すぐ"
+            },
+            {
+              "text": "れている。"
+            }
+          ]
         },
         {
           "id": "l11-g05-ja-vi-10",
@@ -3286,7 +4351,30 @@
           "hint": "〜はさておき",
           "explanation": "Câu dùng はさておき: tạm gác A rồi chuyển/ưu tiên B.",
           "origin": "authored",
-          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 11 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雑談",
+              "reading": "ざつだん"
+            },
+            {
+              "text": "はさておき"
+            },
+            {
+              "text": "提案",
+              "reading": "ていあん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "こう。"
+            }
+          ]
         },
         {
           "id": "l11-g05-order-01",

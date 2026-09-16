@@ -277,7 +277,37 @@
           "hint": "N ＋ に関して／に関する",
           "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安全",
+              "reading": "あんぜん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "注意",
+              "reading": "ちゅうい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "呼",
+              "reading": "よ"
+            },
+            {
+              "text": "びかける。"
+            }
+          ]
         },
         {
           "id": "l07-g01-ja-vi-02",
@@ -289,7 +319,37 @@
           "hint": "N ＋ に関して／に関する",
           "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "料金",
+              "reading": "りょうきん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "んでください。"
+            }
+          ]
         },
         {
           "id": "l07-g01-ja-vi-03",
@@ -301,7 +361,37 @@
           "hint": "N ＋ に関して／に関する",
           "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "件",
+              "reading": "けん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "しては"
+            },
+            {
+              "text": "後日",
+              "reading": "ごじつ"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l07-g01-ja-vi-04",
@@ -313,7 +403,37 @@
           "hint": "N ＋ に関して／に関する",
           "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "歴史",
+              "reading": "れきし"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "本",
+              "reading": "ほん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "借",
+              "reading": "か"
+            },
+            {
+              "text": "りた。"
+            }
+          ]
         },
         {
           "id": "l07-g01-ja-vi-05",
@@ -325,7 +445,30 @@
           "hint": "N ＋ に関して／に関する",
           "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "規則",
+              "reading": "きそく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "疑問",
+              "reading": "ぎもん"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l07-g01-ja-vi-06",
@@ -337,7 +480,37 @@
           "hint": "N ＋ に関して／に関する",
           "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "天候",
+              "reading": "てんこう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "情報",
+              "reading": "じょうほう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l07-g01-ja-vi-07",
@@ -349,7 +522,26 @@
           "hint": "N ＋ に関して／に関する",
           "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "プライバシーに"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "厳",
+              "reading": "きび"
+            },
+            {
+              "text": "しいルールがある。"
+            }
+          ]
         },
         {
           "id": "l07-g01-ja-vi-08",
@@ -361,7 +553,37 @@
           "hint": "N ＋ に関して／に関する",
           "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "貿易",
+              "reading": "ぼうえき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "交渉",
+              "reading": "こうしょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "いている。"
+            }
+          ]
         },
         {
           "id": "l07-g01-ja-vi-09",
@@ -373,7 +595,37 @@
           "hint": "N ＋ に関して／に関する",
           "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "経歴",
+              "reading": "けいれき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "しては"
+            },
+            {
+              "text": "詳",
+              "reading": "くわ"
+            },
+            {
+              "text": "しくない。"
+            }
+          ]
         },
         {
           "id": "l07-g01-ja-vi-10",
@@ -385,7 +637,41 @@
           "hint": "N ＋ に関して／に関する",
           "explanation": "Câu dùng に関して／に関する để nói về / liên quan đến chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "技術",
+              "reading": "ぎじゅつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "関",
+              "reading": "かん"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "専門",
+              "reading": "せんもん"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l07-g01-order-01",
@@ -1044,7 +1330,30 @@
           "hint": "N ＋ をめぐって／をめぐる",
           "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "遺産",
+              "reading": "いさん"
+            },
+            {
+              "text": "をめぐって"
+            },
+            {
+              "text": "兄弟",
+              "reading": "きょうだい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "対立",
+              "reading": "たいりつ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l07-g02-ja-vi-02",
@@ -1056,7 +1365,30 @@
           "hint": "N ＋ をめぐって／をめぐる",
           "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "人事",
+              "reading": "じんじ"
+            },
+            {
+              "text": "をめぐる"
+            },
+            {
+              "text": "噂",
+              "reading": "うわさ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "広",
+              "reading": "ひろ"
+            },
+            {
+              "text": "がっている。"
+            }
+          ]
         },
         {
           "id": "l07-g02-ja-vi-03",
@@ -1068,7 +1400,30 @@
           "hint": "N ＋ をめぐって／をめぐる",
           "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "方針",
+              "reading": "ほうしん"
+            },
+            {
+              "text": "をめぐって"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かれた。"
+            }
+          ]
         },
         {
           "id": "l07-g02-ja-vi-04",
@@ -1080,7 +1435,34 @@
           "hint": "N ＋ をめぐって／をめぐる",
           "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "条件",
+              "reading": "じょうけん"
+            },
+            {
+              "text": "をめぐって"
+            },
+            {
+              "text": "交渉",
+              "reading": "こうしょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "難航",
+              "reading": "なんこう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l07-g02-ja-vi-05",
@@ -1092,7 +1474,30 @@
           "hint": "N ＋ をめぐって／をめぐる",
           "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "真実",
+              "reading": "しんじつ"
+            },
+            {
+              "text": "をめぐる"
+            },
+            {
+              "text": "論争",
+              "reading": "ろんそう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l07-g02-ja-vi-06",
@@ -1104,7 +1509,30 @@
           "hint": "N ＋ をめぐって／をめぐる",
           "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "優勝",
+              "reading": "ゆうしょう"
+            },
+            {
+              "text": "をめぐって"
+            },
+            {
+              "text": "両",
+              "reading": "りょう"
+            },
+            {
+              "text": "チームが"
+            },
+            {
+              "text": "競",
+              "reading": "きそ"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l07-g02-ja-vi-07",
@@ -1116,7 +1544,30 @@
           "hint": "N ＋ をめぐって／をめぐる",
           "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "所在",
+              "reading": "しょざい"
+            },
+            {
+              "text": "をめぐって"
+            },
+            {
+              "text": "議論",
+              "reading": "ぎろん"
+            },
+            {
+              "text": "になった。"
+            }
+          ]
         },
         {
           "id": "l07-g02-ja-vi-08",
@@ -1128,7 +1579,34 @@
           "hint": "N ＋ をめぐって／をめぐる",
           "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "開発",
+              "reading": "かいはつ"
+            },
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "をめぐる"
+            },
+            {
+              "text": "抗議",
+              "reading": "こうぎ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "行",
+              "reading": "おこな"
+            },
+            {
+              "text": "われた。"
+            }
+          ]
         },
         {
           "id": "l07-g02-ja-vi-09",
@@ -1140,7 +1618,27 @@
           "hint": "N ＋ をめぐって／をめぐる",
           "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "株価",
+              "reading": "かぶか"
+            },
+            {
+              "text": "をめぐって"
+            },
+            {
+              "text": "投資",
+              "reading": "とうし"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "がざわついた。"
+            }
+          ]
         },
         {
           "id": "l07-g02-ja-vi-10",
@@ -1152,7 +1650,33 @@
           "hint": "N ＋ をめぐって／をめぐる",
           "explanation": "Câu dùng をめぐって để nói tranh luận/xung đột xoay quanh một điểm.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ルール"
+            },
+            {
+              "text": "改正",
+              "reading": "かいせい"
+            },
+            {
+              "text": "をめぐって"
+            },
+            {
+              "text": "賛否",
+              "reading": "さんぴ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かれた。"
+            }
+          ]
         },
         {
           "id": "l07-g02-order-01",
@@ -1791,7 +2315,30 @@
           "hint": "N ＋ にかけては／にかけても",
           "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "交渉",
+              "reading": "こうしょう"
+            },
+            {
+              "text": "にかけては"
+            },
+            {
+              "text": "部長",
+              "reading": "ぶちょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "得意",
+              "reading": "とくい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l07-g03-ja-vi-02",
@@ -1803,7 +2350,37 @@
           "hint": "N ＋ にかけては／にかけても",
           "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忍耐",
+              "reading": "にんたい"
+            },
+            {
+              "text": "にかけては"
+            },
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "誰",
+              "reading": "だれ"
+            },
+            {
+              "text": "にも"
+            },
+            {
+              "text": "負",
+              "reading": "ま"
+            },
+            {
+              "text": "けない。"
+            }
+          ]
         },
         {
           "id": "l07-g03-ja-vi-03",
@@ -1815,7 +2392,37 @@
           "hint": "N ＋ にかけては／にかけても",
           "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "味",
+              "reading": "あじ"
+            },
+            {
+              "text": "にかけては"
+            },
+            {
+              "text": "母",
+              "reading": "はは"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "料理",
+              "reading": "りょうり"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "一番",
+              "reading": "いちばん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l07-g03-ja-vi-04",
@@ -1827,7 +2434,37 @@
           "hint": "N ＋ にかけては／にかけても",
           "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "正確",
+              "reading": "せいかく"
+            },
+            {
+              "text": "さにかけては"
+            },
+            {
+              "text": "機械",
+              "reading": "きかい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "方",
+              "reading": "ほう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l07-g03-ja-vi-05",
@@ -1839,7 +2476,27 @@
           "hint": "N ＋ にかけては／にかけても",
           "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "創造",
+              "reading": "そうぞう"
+            },
+            {
+              "text": "性",
+              "reading": "せい"
+            },
+            {
+              "text": "にかけては"
+            },
+            {
+              "text": "学生",
+              "reading": "がくせい"
+            },
+            {
+              "text": "たちがすごい。"
+            }
+          ]
         },
         {
           "id": "l07-g03-ja-vi-06",
@@ -1851,7 +2508,44 @@
           "hint": "N ＋ にかけては／にかけても",
           "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "体力",
+              "reading": "たいりょく"
+            },
+            {
+              "text": "にかけても"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "若",
+              "reading": "わか"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "頃",
+              "reading": "ころ"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わらない。"
+            }
+          ]
         },
         {
           "id": "l07-g03-ja-vi-07",
@@ -1863,7 +2557,30 @@
           "hint": "N ＋ にかけては／にかけても",
           "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "礼儀",
+              "reading": "れいぎ"
+            },
+            {
+              "text": "にかけてはこの"
+            },
+            {
+              "text": "学校",
+              "reading": "がっこう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "厳",
+              "reading": "きび"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l07-g03-ja-vi-08",
@@ -1875,7 +2592,37 @@
           "hint": "N ＋ にかけては／にかけても",
           "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "効率",
+              "reading": "こうりつ"
+            },
+            {
+              "text": "にかけては"
+            },
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "方法",
+              "reading": "ほうほう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "優",
+              "reading": "すぐ"
+            },
+            {
+              "text": "れている。"
+            }
+          ]
         },
         {
           "id": "l07-g03-ja-vi-09",
@@ -1887,7 +2634,41 @@
           "hint": "N ＋ にかけては／にかけても",
           "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "歌唱",
+              "reading": "かしょう"
+            },
+            {
+              "text": "力",
+              "reading": "りょく"
+            },
+            {
+              "text": "にかけては"
+            },
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "群",
+              "reading": "ぐん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "いている。"
+            }
+          ]
         },
         {
           "id": "l07-g03-ja-vi-10",
@@ -1899,7 +2680,38 @@
           "hint": "N ＋ にかけては／にかけても",
           "explanation": "Câu dùng にかけては để nói về mặt / trong lĩnh vực thì (xuất sắc).",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "分析",
+              "reading": "ぶんせき"
+            },
+            {
+              "text": "力",
+              "reading": "りょく"
+            },
+            {
+              "text": "にかけては"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "社内",
+              "reading": "しゃない"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l07-g03-order-01",
@@ -2566,7 +3378,37 @@
           "hint": "N ＋ に対して／に対する",
           "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "上司",
+              "reading": "じょうし"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "述",
+              "reading": "の"
+            },
+            {
+              "text": "べた。"
+            }
+          ]
         },
         {
           "id": "l07-g04-ja-vi-02",
@@ -2578,7 +3420,37 @@
           "hint": "N ＋ に対して／に対する",
           "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "暴力",
+              "reading": "ぼうりょく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "罰則",
+              "reading": "ばっそく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "強化",
+              "reading": "きょうか"
+            },
+            {
+              "text": "された。"
+            }
+          ]
         },
         {
           "id": "l07-g04-ja-vi-03",
@@ -2590,7 +3462,37 @@
           "hint": "N ＋ に対して／に対する",
           "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "期待",
+              "reading": "きたい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "伴",
+              "reading": "ともな"
+            },
+            {
+              "text": "わなかった。"
+            }
+          ]
         },
         {
           "id": "l07-g04-ja-vi-04",
@@ -2602,7 +3504,41 @@
           "hint": "N ＋ に対して／に対する",
           "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "外国",
+              "reading": "がいこく"
+            },
+            {
+              "text": "人",
+              "reading": "じん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "親切",
+              "reading": "しんせつ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "町",
+              "reading": "まち"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l07-g04-ja-vi-05",
@@ -2614,7 +3550,37 @@
           "hint": "N ＋ に対して／に対する",
           "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "値上",
+              "reading": "ねあ"
+            },
+            {
+              "text": "げに"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "客",
+              "reading": "きゃく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "反発",
+              "reading": "はんぱつ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l07-g04-ja-vi-06",
@@ -2626,7 +3592,37 @@
           "hint": "N ＋ に対して／に対する",
           "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "態度",
+              "reading": "たいど"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "不満",
+              "reading": "ふまん"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l07-g04-ja-vi-07",
@@ -2638,7 +3634,30 @@
           "hint": "N ＋ に対して／に対する",
           "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "質問",
+              "reading": "しつもん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "してすぐに"
+            },
+            {
+              "text": "答",
+              "reading": "こた"
+            },
+            {
+              "text": "えた。"
+            }
+          ]
         },
         {
           "id": "l07-g04-ja-vi-08",
@@ -2650,7 +3669,51 @@
           "hint": "N ＋ に対して／に対する",
           "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "A"
+            },
+            {
+              "text": "案",
+              "reading": "あん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "してB"
+            },
+            {
+              "text": "案",
+              "reading": "あん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "方",
+              "reading": "ほう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "現実",
+              "reading": "げんじつ"
+            },
+            {
+              "text": "的",
+              "reading": "てき"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l07-g04-ja-vi-09",
@@ -2662,7 +3725,41 @@
           "hint": "N ＋ に対して／に対する",
           "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "自然",
+              "reading": "しぜん"
+            },
+            {
+              "text": "災害",
+              "reading": "さいがい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "備",
+              "reading": "そな"
+            },
+            {
+              "text": "えが"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l07-g04-ja-vi-10",
@@ -2674,7 +3771,44 @@
           "hint": "N ＋ に対して／に対する",
           "explanation": "Câu dùng に対して để nói đối với đối tượng hoặc đối chiếu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "観客",
+              "reading": "かんきゃく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対",
+              "reading": "たい"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "感謝",
+              "reading": "かんしゃ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "言葉",
+              "reading": "ことば"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "述",
+              "reading": "の"
+            },
+            {
+              "text": "べた。"
+            }
+          ]
         },
         {
           "id": "l07-g04-order-01",
@@ -3330,7 +4464,37 @@
           "hint": "N ＋ にこたえて",
           "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "顧客",
+              "reading": "こきゃく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "声",
+              "reading": "こえ"
+            },
+            {
+              "text": "にこたえて"
+            },
+            {
+              "text": "価格",
+              "reading": "かかく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見直",
+              "reading": "みなお"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l07-g05-ja-vi-02",
@@ -3342,7 +4506,37 @@
           "hint": "N ＋ にこたえて",
           "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "時代",
+              "reading": "じだい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "要請",
+              "reading": "ようせい"
+            },
+            {
+              "text": "にこたえて"
+            },
+            {
+              "text": "制度",
+              "reading": "せいど"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "えた。"
+            }
+          ]
         },
         {
           "id": "l07-g05-ja-vi-03",
@@ -3354,7 +4548,37 @@
           "hint": "N ＋ にこたえて",
           "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "読者",
+              "reading": "どくしゃ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "要望",
+              "reading": "ようぼう"
+            },
+            {
+              "text": "にこたえて"
+            },
+            {
+              "text": "続編",
+              "reading": "ぞくへん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "書",
+              "reading": "か"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l07-g05-ja-vi-04",
@@ -3366,7 +4590,30 @@
           "hint": "N ＋ にこたえて",
           "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "選手",
+              "reading": "せんしゅ"
+            },
+            {
+              "text": "たちは"
+            },
+            {
+              "text": "声援",
+              "reading": "せいえん"
+            },
+            {
+              "text": "にこたえて"
+            },
+            {
+              "text": "奮闘",
+              "reading": "ふんとう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l07-g05-ja-vi-05",
@@ -3378,7 +4625,37 @@
           "hint": "N ＋ にこたえて",
           "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "地域",
+              "reading": "ちいき"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "期待",
+              "reading": "きたい"
+            },
+            {
+              "text": "にこたえて"
+            },
+            {
+              "text": "病院",
+              "reading": "びょういん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "開業",
+              "reading": "かいぎょう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l07-g05-ja-vi-06",
@@ -3390,7 +4667,37 @@
           "hint": "N ＋ にこたえて",
           "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "たちの"
+            },
+            {
+              "text": "願",
+              "reading": "ねが"
+            },
+            {
+              "text": "いにこたえて"
+            },
+            {
+              "text": "公園",
+              "reading": "こうえん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "造",
+              "reading": "つく"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l07-g05-ja-vi-07",
@@ -3402,7 +4709,34 @@
           "hint": "N ＋ にこたえて",
           "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "利用",
+              "reading": "りよう"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "にこたえてアプリを"
+            },
+            {
+              "text": "更新",
+              "reading": "こうしん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l07-g05-ja-vi-08",
@@ -3414,7 +4748,34 @@
           "hint": "N ＋ にこたえて",
           "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "国際",
+              "reading": "こくさい"
+            },
+            {
+              "text": "社会",
+              "reading": "しゃかい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "要請",
+              "reading": "ようせい"
+            },
+            {
+              "text": "にこたえて"
+            },
+            {
+              "text": "協力",
+              "reading": "きょうりょく"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l07-g05-ja-vi-09",
@@ -3426,7 +4787,23 @@
           "hint": "N ＋ にこたえて",
           "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "観客",
+              "reading": "かんきゃく"
+            },
+            {
+              "text": "のアンコールにこたえて"
+            },
+            {
+              "text": "再演",
+              "reading": "さいえん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l07-g05-ja-vi-10",
@@ -3438,7 +4815,30 @@
           "hint": "N ＋ にこたえて",
           "explanation": "Câu dùng にこたえて để nói đáp ứng / đáp lại kỳ vọng hoặc yêu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 7 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "現場",
+              "reading": "げんば"
+            },
+            {
+              "text": "のニーズにこたえて"
+            },
+            {
+              "text": "人員",
+              "reading": "じんいん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "やした。"
+            }
+          ]
         },
         {
           "id": "l07-g05-order-01",

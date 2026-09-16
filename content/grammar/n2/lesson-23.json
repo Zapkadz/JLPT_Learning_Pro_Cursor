@@ -250,7 +250,30 @@
           "hint": "〜ものだ",
           "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "習慣",
+              "reading": "しゅうかん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "簡単",
+              "reading": "かんたん"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わらないものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g01-ja-vi-02",
@@ -262,7 +285,30 @@
           "hint": "〜ものだ",
           "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "るべきものだと"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かる。"
+            }
+          ]
         },
         {
           "id": "l23-g01-ja-vi-03",
@@ -274,7 +320,23 @@
           "hint": "〜ものだ",
           "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一人暮",
+              "reading": "ひとりぐ"
+            },
+            {
+              "text": "らしは"
+            },
+            {
+              "text": "寂",
+              "reading": "さび"
+            },
+            {
+              "text": "しいものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g01-ja-vi-04",
@@ -286,7 +348,30 @@
           "hint": "〜ものだ",
           "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "裏",
+              "reading": "うら"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "があるものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g01-ja-vi-05",
@@ -298,7 +383,37 @@
           "hint": "〜ものだ",
           "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "言葉",
+              "reading": "ことば"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "時",
+              "reading": "とき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "傷",
+              "reading": "きず"
+            },
+            {
+              "text": "つけるものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g01-ja-vi-06",
@@ -310,7 +425,30 @@
           "hint": "〜ものだ",
           "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "若",
+              "reading": "わか"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "頃",
+              "reading": "ころ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "無茶",
+              "reading": "むちゃ"
+            },
+            {
+              "text": "をしたものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g01-ja-vi-07",
@@ -322,7 +460,44 @@
           "hint": "〜ものだ",
           "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "季節",
+              "reading": "きせつ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わり"
+            },
+            {
+              "text": "目",
+              "reading": "め"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "崩",
+              "reading": "くず"
+            },
+            {
+              "text": "しやすいものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g01-ja-vi-08",
@@ -334,7 +509,37 @@
           "hint": "〜ものだ",
           "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "気持",
+              "reading": "きも"
+            },
+            {
+              "text": "ちは"
+            },
+            {
+              "text": "後",
+              "reading": "ご"
+            },
+            {
+              "text": "から"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かるものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g01-ja-vi-09",
@@ -346,7 +551,30 @@
           "hint": "〜ものだ",
           "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "初",
+              "reading": "はじ"
+            },
+            {
+              "text": "めての"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "不安",
+              "reading": "ふあん"
+            },
+            {
+              "text": "なものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g01-ja-vi-10",
@@ -358,7 +586,37 @@
           "hint": "〜ものだ",
           "explanation": "Câu nhận định/cảm thán: 普通形＋ものだ — vốn là / thật là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "美",
+              "reading": "うつく"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "景色",
+              "reading": "けしき"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "心",
+              "reading": "こころ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "穏",
+              "reading": "おだ"
+            },
+            {
+              "text": "やかにするものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g01-order-01",
@@ -1003,7 +1261,30 @@
           "hint": "〜というものだ",
           "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "感謝",
+              "reading": "かんしゃ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "伝",
+              "reading": "つた"
+            },
+            {
+              "text": "えるというのが"
+            },
+            {
+              "text": "礼儀",
+              "reading": "れいぎ"
+            },
+            {
+              "text": "というものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g02-ja-vi-02",
@@ -1015,7 +1296,37 @@
           "hint": "〜というものだ",
           "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "相手",
+              "reading": "あいて"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "立場",
+              "reading": "たちば"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "考",
+              "reading": "かんが"
+            },
+            {
+              "text": "えるというのが"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "いやりというものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g02-ja-vi-03",
@@ -1027,7 +1338,37 @@
           "hint": "〜というものだ",
           "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "来",
+              "reading": "く"
+            },
+            {
+              "text": "るというのが"
+            },
+            {
+              "text": "常識",
+              "reading": "じょうしき"
+            },
+            {
+              "text": "というものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g02-ja-vi-04",
@@ -1039,7 +1380,30 @@
           "hint": "〜というものだ",
           "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "最後",
+              "reading": "さいご"
+            },
+            {
+              "text": "まで"
+            },
+            {
+              "text": "諦",
+              "reading": "あきら"
+            },
+            {
+              "text": "めないというのが"
+            },
+            {
+              "text": "根性",
+              "reading": "こんじょう"
+            },
+            {
+              "text": "というものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g02-ja-vi-05",
@@ -1051,7 +1415,30 @@
           "hint": "〜というものだ",
           "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "公平",
+              "reading": "こうへい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "扱",
+              "reading": "あつか"
+            },
+            {
+              "text": "うというのが"
+            },
+            {
+              "text": "正義",
+              "reading": "せいぎ"
+            },
+            {
+              "text": "というものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g02-ja-vi-06",
@@ -1063,7 +1450,44 @@
           "hint": "〜というものだ",
           "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "言葉",
+              "reading": "ことば"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "持",
+              "reading": "も"
+            },
+            {
+              "text": "つというのが"
+            },
+            {
+              "text": "誠実",
+              "reading": "せいじつ"
+            },
+            {
+              "text": "というものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g02-ja-vi-07",
@@ -1075,7 +1499,44 @@
           "hint": "〜というものだ",
           "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "困",
+              "reading": "こま"
+            },
+            {
+              "text": "っている"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "手",
+              "reading": "て"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "貸",
+              "reading": "か"
+            },
+            {
+              "text": "すというのが"
+            },
+            {
+              "text": "親切",
+              "reading": "しんせつ"
+            },
+            {
+              "text": "というものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g02-ja-vi-08",
@@ -1087,7 +1548,37 @@
           "hint": "〜というものだ",
           "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "事実",
+              "reading": "じじつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づいて"
+            },
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "すというのが"
+            },
+            {
+              "text": "誠実",
+              "reading": "せいじつ"
+            },
+            {
+              "text": "さというものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g02-ja-vi-09",
@@ -1099,7 +1590,26 @@
           "hint": "〜というものだ",
           "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "チームのために"
+            },
+            {
+              "text": "動",
+              "reading": "うご"
+            },
+            {
+              "text": "くというのが"
+            },
+            {
+              "text": "協力",
+              "reading": "きょうりょく"
+            },
+            {
+              "text": "というものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g02-ja-vi-10",
@@ -1111,7 +1621,37 @@
           "hint": "〜というものだ",
           "explanation": "Câu khẳng định định nghĩa: 〜というものだ — đúng là / thế mới gọi là…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "小",
+              "reading": "ちい"
+            },
+            {
+              "text": "さな"
+            },
+            {
+              "text": "改善",
+              "reading": "かいぜん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "重",
+              "reading": "かさ"
+            },
+            {
+              "text": "ねるというのが"
+            },
+            {
+              "text": "工夫",
+              "reading": "くふう"
+            },
+            {
+              "text": "というものだ。"
+            }
+          ]
         },
         {
           "id": "l23-g02-order-01",
@@ -1740,7 +2280,37 @@
           "hint": "〜にすぎない",
           "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "訳",
+              "reading": "わけ"
+            },
+            {
+              "text": "にすぎない。"
+            }
+          ]
         },
         {
           "id": "l23-g03-ja-vi-02",
@@ -1752,7 +2322,30 @@
           "hint": "〜にすぎない",
           "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今回",
+              "reading": "こんかい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "偶然",
+              "reading": "ぐうぜん"
+            },
+            {
+              "text": "にすぎない。"
+            }
+          ]
         },
         {
           "id": "l23-g03-ja-vi-03",
@@ -1764,7 +2357,23 @@
           "hint": "〜にすぎない",
           "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "にできるのは"
+            },
+            {
+              "text": "手伝",
+              "reading": "てつだ"
+            },
+            {
+              "text": "うことにすぎない。"
+            }
+          ]
         },
         {
           "id": "l23-g03-ja-vi-04",
@@ -1776,7 +2385,33 @@
           "hint": "〜にすぎない",
           "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "机上",
+              "reading": "きじょう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "空論",
+              "reading": "くうろん"
+            },
+            {
+              "text": "にすぎない。"
+            }
+          ]
         },
         {
           "id": "l23-g03-ja-vi-05",
@@ -1788,7 +2423,38 @@
           "hint": "〜にすぎない",
           "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "形式",
+              "reading": "けいしき"
+            },
+            {
+              "text": "上",
+              "reading": "じょう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "にすぎない。"
+            }
+          ]
         },
         {
           "id": "l23-g03-ja-vi-06",
@@ -1800,7 +2466,33 @@
           "hint": "〜にすぎない",
           "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "症状",
+              "reading": "しょうじょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "風邪",
+              "reading": "かぜ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "初期",
+              "reading": "しょき"
+            },
+            {
+              "text": "にすぎない。"
+            }
+          ]
         },
         {
           "id": "l23-g03-ja-vi-07",
@@ -1812,7 +2504,34 @@
           "hint": "〜にすぎない",
           "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "役割",
+              "reading": "やくわり"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "係",
+              "reading": "がかり"
+            },
+            {
+              "text": "にすぎない。"
+            }
+          ]
         },
         {
           "id": "l23-g03-ja-vi-08",
@@ -1824,7 +2543,26 @@
           "hint": "〜にすぎない",
           "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "差",
+              "reading": "さ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "誤差",
+              "reading": "ごさ"
+            },
+            {
+              "text": "にすぎない。"
+            }
+          ]
         },
         {
           "id": "l23-g03-ja-vi-09",
@@ -1836,7 +2574,34 @@
           "hint": "〜にすぎない",
           "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "感情",
+              "reading": "かんじょう"
+            },
+            {
+              "text": "的",
+              "reading": "てき"
+            },
+            {
+              "text": "なものにすぎない。"
+            }
+          ]
         },
         {
           "id": "l23-g03-ja-vi-10",
@@ -1848,7 +2613,30 @@
           "hint": "〜にすぎない",
           "explanation": "Câu hạ thấp mức độ: N／普通形＋にすぎない — chỉ là / chẳng qua…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今",
+              "reading": "いま"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "蓄",
+              "reading": "たくわ"
+            },
+            {
+              "text": "えはわずかなお"
+            },
+            {
+              "text": "金",
+              "reading": "かね"
+            },
+            {
+              "text": "にすぎない。"
+            }
+          ]
         },
         {
           "id": "l23-g03-order-01",
@@ -2496,7 +3284,30 @@
           "hint": "〜にほかならない",
           "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "発言",
+              "reading": "はつげん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "警告",
+              "reading": "けいこく"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
         },
         {
           "id": "l23-g04-ja-vi-02",
@@ -2508,7 +3319,23 @@
           "hint": "〜にほかならない",
           "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今回",
+              "reading": "こんかい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "勝利",
+              "reading": "しょうり"
+            },
+            {
+              "text": "はチームワークにほかならない。"
+            }
+          ]
         },
         {
           "id": "l23-g04-ja-vi-03",
@@ -2520,7 +3347,33 @@
           "hint": "〜にほかならない",
           "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "笑顔",
+              "reading": "えがお"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "安心",
+              "reading": "あんしん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "印",
+              "reading": "しるし"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
         },
         {
           "id": "l23-g04-ja-vi-04",
@@ -2532,7 +3385,37 @@
           "hint": "〜にほかならない",
           "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "制度",
+              "reading": "せいど"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "公平",
+              "reading": "こうへい"
+            },
+            {
+              "text": "性",
+              "reading": "せい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "確保",
+              "reading": "かくほ"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
         },
         {
           "id": "l23-g04-ja-vi-05",
@@ -2544,7 +3427,30 @@
           "hint": "〜にほかならない",
           "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "怒",
+              "reading": "いか"
+            },
+            {
+              "text": "りは"
+            },
+            {
+              "text": "失望",
+              "reading": "しつぼう"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
         },
         {
           "id": "l23-g04-ja-vi-06",
@@ -2556,7 +3462,30 @@
           "hint": "〜にほかならない",
           "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "提案",
+              "reading": "ていあん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "妥協",
+              "reading": "だきょう"
+            },
+            {
+              "text": "案",
+              "reading": "あん"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
         },
         {
           "id": "l23-g04-ja-vi-07",
@@ -2568,7 +3497,37 @@
           "hint": "〜にほかならない",
           "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今回",
+              "reading": "こんかい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "改善",
+              "reading": "かいぜん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "地道",
+              "reading": "じみち"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "点検",
+              "reading": "てんけん"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
         },
         {
           "id": "l23-g04-ja-vi-08",
@@ -2580,7 +3539,26 @@
           "hint": "〜にほかならない",
           "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "涙",
+              "reading": "なみだ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "感謝",
+              "reading": "かんしゃ"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
         },
         {
           "id": "l23-g04-ja-vi-09",
@@ -2592,7 +3570,30 @@
           "hint": "〜にほかならない",
           "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "態度",
+              "reading": "たいど"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "拒絶",
+              "reading": "きょぜつ"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
         },
         {
           "id": "l23-g04-ja-vi-10",
@@ -2604,7 +3605,33 @@
           "hint": "〜にほかならない",
           "explanation": "Câu khẳng định bản chất: N＋にほかならない — chính là / không gì khác…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "長年",
+              "reading": "ながねん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "研究",
+              "reading": "けんきゅう"
+            },
+            {
+              "text": "にほかならない。"
+            }
+          ]
         },
         {
           "id": "l23-g04-order-01",
@@ -3210,7 +4237,30 @@
           "hint": "〜に越したことはない",
           "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "保険",
+              "reading": "ほけん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "入",
+              "reading": "はい"
+            },
+            {
+              "text": "っておくに"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "したことはない。"
+            }
+          ]
         },
         {
           "id": "l23-g05-ja-vi-02",
@@ -3222,7 +4272,30 @@
           "hint": "〜に越したことはない",
           "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "証拠",
+              "reading": "しょうこ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "残",
+              "reading": "のこ"
+            },
+            {
+              "text": "すに"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "したことはない。"
+            }
+          ]
         },
         {
           "id": "l23-g05-ja-vi-03",
@@ -3234,7 +4307,37 @@
           "hint": "〜に越したことはない",
           "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "余裕",
+              "reading": "よゆう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "持",
+              "reading": "も"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "出発",
+              "reading": "しゅっぱつ"
+            },
+            {
+              "text": "するに"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "したことはない。"
+            }
+          ]
         },
         {
           "id": "l23-g05-ja-vi-04",
@@ -3246,7 +4349,34 @@
           "hint": "〜に越したことはない",
           "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "専門",
+              "reading": "せんもん"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "するに"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "したことはない。"
+            }
+          ]
         },
         {
           "id": "l23-g05-ja-vi-05",
@@ -3258,7 +4388,34 @@
           "hint": "〜に越したことはない",
           "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "定期",
+              "reading": "ていき"
+            },
+            {
+              "text": "的",
+              "reading": "てき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "点検",
+              "reading": "てんけん"
+            },
+            {
+              "text": "するに"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "したことはない。"
+            }
+          ]
         },
         {
           "id": "l23-g05-ja-vi-06",
@@ -3270,7 +4427,26 @@
           "hint": "〜に越したことはない",
           "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "パスワードは"
+            },
+            {
+              "text": "複雑",
+              "reading": "ふくざつ"
+            },
+            {
+              "text": "なものに"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "したことはない。"
+            }
+          ]
         },
         {
           "id": "l23-g05-ja-vi-07",
@@ -3282,7 +4458,30 @@
           "hint": "〜に越したことはない",
           "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "丁寧",
+              "reading": "ていねい"
+            },
+            {
+              "text": "であるに"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "したことはない。"
+            }
+          ]
         },
         {
           "id": "l23-g05-ja-vi-08",
@@ -3294,7 +4493,37 @@
           "hint": "〜に越したことはない",
           "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "予備",
+              "reading": "よび"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "電池",
+              "reading": "でんち"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "持",
+              "reading": "も"
+            },
+            {
+              "text": "つに"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "したことはない。"
+            }
+          ]
         },
         {
           "id": "l23-g05-ja-vi-09",
@@ -3306,7 +4535,34 @@
           "hint": "〜に越したことはない",
           "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "書",
+              "reading": "しょ"
+            },
+            {
+              "text": "はよく"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "むに"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "したことはない。"
+            }
+          ]
         },
         {
           "id": "l23-g05-ja-vi-10",
@@ -3318,7 +4574,27 @@
           "hint": "〜に越したことはない",
           "explanation": "Câu khuyên mức lý tưởng: 〜に越したことはない — không gì hơn / tốt nhất…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "管理",
+              "reading": "かんり"
+            },
+            {
+              "text": "はしっかりするに"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "したことはない。"
+            }
+          ]
         },
         {
           "id": "l23-g05-order-01",
@@ -3938,7 +5214,30 @@
           "hint": "〜しかない・〜よりほかない",
           "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "証拠",
+              "reading": "しょうこ"
+            },
+            {
+              "text": "がない"
+            },
+            {
+              "text": "以上",
+              "reading": "いじょう"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "信",
+              "reading": "しん"
+            },
+            {
+              "text": "じるしかない。"
+            }
+          ]
         },
         {
           "id": "l23-g06-ja-vi-02",
@@ -3950,7 +5249,30 @@
           "hint": "〜しかない・〜よりほかない",
           "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "期限",
+              "reading": "きげん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "近",
+              "reading": "ちか"
+            },
+            {
+              "text": "いので"
+            },
+            {
+              "text": "急",
+              "reading": "いそ"
+            },
+            {
+              "text": "ぐよりほかない。"
+            }
+          ]
         },
         {
           "id": "l23-g06-ja-vi-03",
@@ -3962,7 +5284,30 @@
           "hint": "〜しかない・〜よりほかない",
           "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "けが"
+            },
+            {
+              "text": "来",
+              "reading": "こ"
+            },
+            {
+              "text": "ないので"
+            },
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "でやるしかない。"
+            }
+          ]
         },
         {
           "id": "l23-g06-ja-vi-04",
@@ -3974,7 +5319,30 @@
           "hint": "〜しかない・〜よりほかない",
           "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "止",
+              "reading": "や"
+            },
+            {
+              "text": "まないので"
+            },
+            {
+              "text": "延期",
+              "reading": "えんき"
+            },
+            {
+              "text": "するほかない。"
+            }
+          ]
         },
         {
           "id": "l23-g06-ja-vi-05",
@@ -3986,7 +5354,30 @@
           "hint": "〜しかない・〜よりほかない",
           "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "予算",
+              "reading": "よさん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "足",
+              "reading": "た"
+            },
+            {
+              "text": "りないので"
+            },
+            {
+              "text": "縮小",
+              "reading": "しゅくしょう"
+            },
+            {
+              "text": "するしかない。"
+            }
+          ]
         },
         {
           "id": "l23-g06-ja-vi-06",
@@ -3998,7 +5389,30 @@
           "hint": "〜しかない・〜よりほかない",
           "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "相手",
+              "reading": "あいて"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "謝",
+              "reading": "あやま"
+            },
+            {
+              "text": "らないなら"
+            },
+            {
+              "text": "訴",
+              "reading": "うった"
+            },
+            {
+              "text": "えるよりほかない。"
+            }
+          ]
         },
         {
           "id": "l23-g06-ja-vi-07",
@@ -4010,7 +5424,30 @@
           "hint": "〜しかない・〜よりほかない",
           "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "鍵",
+              "reading": "かぎ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れたので"
+            },
+            {
+              "text": "戻",
+              "reading": "もど"
+            },
+            {
+              "text": "るしかない。"
+            }
+          ]
         },
         {
           "id": "l23-g06-ja-vi-08",
@@ -4022,7 +5459,30 @@
           "hint": "〜しかない・〜よりほかない",
           "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "しても"
+            },
+            {
+              "text": "無駄",
+              "reading": "むだ"
+            },
+            {
+              "text": "なので"
+            },
+            {
+              "text": "黙",
+              "reading": "だま"
+            },
+            {
+              "text": "るほかない。"
+            }
+          ]
         },
         {
           "id": "l23-g06-ja-vi-09",
@@ -4034,7 +5494,41 @@
           "hint": "〜しかない・〜よりほかない",
           "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "在庫",
+              "reading": "ざいこ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "切",
+              "reading": "き"
+            },
+            {
+              "text": "れたので"
+            },
+            {
+              "text": "別",
+              "reading": "べつ"
+            },
+            {
+              "text": "店",
+              "reading": "てん"
+            },
+            {
+              "text": "へ"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "くしかない。"
+            }
+          ]
         },
         {
           "id": "l23-g06-ja-vi-10",
@@ -4046,7 +5540,30 @@
           "hint": "〜しかない・〜よりほかない",
           "explanation": "Câu bất đắc dĩ: Vる＋しかない／よりほかない／ほかない — chỉ còn cách…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "いので"
+            },
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "むよりほかない。"
+            }
+          ]
         },
         {
           "id": "l23-g06-order-01",
@@ -4673,7 +6190,30 @@
           "hint": "〜べきだ／〜べきではない",
           "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "事実",
+              "reading": "じじつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "正直",
+              "reading": "しょうじき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "伝",
+              "reading": "つた"
+            },
+            {
+              "text": "えるべきだ。"
+            }
+          ]
         },
         {
           "id": "l23-g07-ja-vi-02",
@@ -4685,7 +6225,37 @@
           "hint": "〜べきだ／〜べきではない",
           "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "公共",
+              "reading": "こうきょう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "場",
+              "reading": "ば"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "大声",
+              "reading": "おおごえ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "すべきではない。"
+            }
+          ]
         },
         {
           "id": "l23-g07-ja-vi-03",
@@ -4697,7 +6267,23 @@
           "hint": "〜べきだ／〜べきではない",
           "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "困",
+              "reading": "こま"
+            },
+            {
+              "text": "ったときは"
+            },
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "すべきだ。"
+            }
+          ]
         },
         {
           "id": "l23-g07-ja-vi-04",
@@ -4709,7 +6295,30 @@
           "hint": "〜べきだ／〜べきではない",
           "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "遅",
+              "reading": "おく"
+            },
+            {
+              "text": "れるべきではない。"
+            }
+          ]
         },
         {
           "id": "l23-g07-ja-vi-05",
@@ -4721,7 +6330,37 @@
           "hint": "〜べきだ／〜べきではない",
           "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "環境",
+              "reading": "かんきょう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "配慮",
+              "reading": "はいりょ"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "行動",
+              "reading": "こうどう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "取",
+              "reading": "と"
+            },
+            {
+              "text": "るべきだ。"
+            }
+          ]
         },
         {
           "id": "l23-g07-ja-vi-06",
@@ -4733,7 +6372,34 @@
           "hint": "〜べきだ／〜べきではない",
           "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "個人",
+              "reading": "こじん"
+            },
+            {
+              "text": "情報",
+              "reading": "じょうほう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "勝手",
+              "reading": "かって"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "公開",
+              "reading": "こうかい"
+            },
+            {
+              "text": "すべきではない。"
+            }
+          ]
         },
         {
           "id": "l23-g07-ja-vi-07",
@@ -4745,7 +6411,19 @@
           "hint": "〜べきだ／〜べきではない",
           "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ミスはすぐに"
+            },
+            {
+              "text": "報告",
+              "reading": "ほうこく"
+            },
+            {
+              "text": "すべきだ。"
+            }
+          ]
         },
         {
           "id": "l23-g07-ja-vi-08",
@@ -4757,7 +6435,30 @@
           "hint": "〜べきだ／〜べきではない",
           "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "根拠",
+              "reading": "こんきょ"
+            },
+            {
+              "text": "のない"
+            },
+            {
+              "text": "噂",
+              "reading": "うわさ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "広",
+              "reading": "ひろ"
+            },
+            {
+              "text": "めるべきではない。"
+            }
+          ]
         },
         {
           "id": "l23-g07-ja-vi-09",
@@ -4769,7 +6470,30 @@
           "hint": "〜べきだ／〜べきではない",
           "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "後輩",
+              "reading": "こうはい"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "丁寧",
+              "reading": "ていねい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "教",
+              "reading": "おし"
+            },
+            {
+              "text": "えるべきだ。"
+            }
+          ]
         },
         {
           "id": "l23-g07-ja-vi-10",
@@ -4781,7 +6505,23 @@
           "hint": "〜べきだ／〜べきではない",
           "explanation": "Câu nghĩa vụ: Vる＋べきだ／べきではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 23 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "感情",
+              "reading": "かんじょう"
+            },
+            {
+              "text": "だけで"
+            },
+            {
+              "text": "決定",
+              "reading": "けってい"
+            },
+            {
+              "text": "すべきではない。"
+            }
+          ]
         },
         {
           "id": "l23-g07-order-01",

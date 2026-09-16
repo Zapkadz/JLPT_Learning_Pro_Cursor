@@ -231,7 +231,23 @@
           "hint": "〜わけがない",
           "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "裏切",
+              "reading": "うらぎ"
+            },
+            {
+              "text": "るわけがない。"
+            }
+          ]
         },
         {
           "id": "l12-g01-ja-vi-02",
@@ -243,7 +259,30 @@
           "hint": "〜わけがない",
           "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今",
+              "reading": "いま"
+            },
+            {
+              "text": "から"
+            },
+            {
+              "text": "間",
+              "reading": "ま"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "合",
+              "reading": "あ"
+            },
+            {
+              "text": "うわけがない。"
+            }
+          ]
         },
         {
           "id": "l12-g01-ja-vi-03",
@@ -255,7 +294,26 @@
           "hint": "〜わけがない",
           "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "そんな"
+            },
+            {
+              "text": "都合",
+              "reading": "つごう"
+            },
+            {
+              "text": "のいい"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "があるわけがない。"
+            }
+          ]
         },
         {
           "id": "l12-g01-ja-vi-04",
@@ -267,7 +325,23 @@
           "hint": "〜わけがない",
           "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "ゼロで"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "するわけがない。"
+            }
+          ]
         },
         {
           "id": "l12-g01-ja-vi-05",
@@ -279,7 +353,26 @@
           "hint": "〜わけがない",
           "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "布陣",
+              "reading": "ふじん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "勝",
+              "reading": "か"
+            },
+            {
+              "text": "つわけがない。"
+            }
+          ]
         },
         {
           "id": "l12-g01-ja-vi-06",
@@ -291,7 +384,23 @@
           "hint": "〜わけがない",
           "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "誰",
+              "reading": "だれ"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "らないわけがない。"
+            }
+          ]
         },
         {
           "id": "l12-g01-ja-vi-07",
@@ -303,7 +412,23 @@
           "hint": "〜わけがない",
           "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "なしで"
+            },
+            {
+              "text": "上達",
+              "reading": "じょうたつ"
+            },
+            {
+              "text": "するわけがない。"
+            }
+          ]
         },
         {
           "id": "l12-g01-ja-vi-08",
@@ -315,7 +440,37 @@
           "hint": "〜わけがない",
           "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "量",
+              "reading": "りょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "人",
+              "reading": "にん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "運",
+              "reading": "はこ"
+            },
+            {
+              "text": "ぶわけがない。"
+            }
+          ]
         },
         {
           "id": "l12-g01-ja-vi-09",
@@ -327,7 +482,30 @@
           "hint": "〜わけがない",
           "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "急",
+              "reading": "きゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "態度",
+              "reading": "たいど"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わるわけがない。"
+            }
+          ]
         },
         {
           "id": "l12-g01-ja-vi-10",
@@ -339,7 +517,41 @@
           "hint": "〜わけがない",
           "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無料",
+              "reading": "むりょう"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "高級",
+              "reading": "こうきゅう"
+            },
+            {
+              "text": "品",
+              "reading": "ひん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "手",
+              "reading": "て"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "入",
+              "reading": "はい"
+            },
+            {
+              "text": "るわけがない。"
+            }
+          ]
         },
         {
           "id": "l12-g01-order-01",
@@ -959,7 +1171,23 @@
           "hint": "〜どころではない・〜どころか",
           "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "風邪",
+              "reading": "かぜ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "外出",
+              "reading": "がいしゅつ"
+            },
+            {
+              "text": "どころではない。"
+            }
+          ]
         },
         {
           "id": "l12-g02-ja-vi-02",
@@ -971,7 +1199,23 @@
           "hint": "〜どころではない・〜どころか",
           "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "手伝",
+              "reading": "てつだ"
+            },
+            {
+              "text": "うどころか"
+            },
+            {
+              "text": "邪魔",
+              "reading": "じゃま"
+            },
+            {
+              "text": "をした。"
+            }
+          ]
         },
         {
           "id": "l12-g02-ja-vi-03",
@@ -983,7 +1227,30 @@
           "hint": "〜どころではない・〜どころか",
           "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "笑",
+              "reading": "わら"
+            },
+            {
+              "text": "うどころか"
+            },
+            {
+              "text": "泣",
+              "reading": "な"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l12-g02-ja-vi-04",
@@ -995,7 +1262,23 @@
           "hint": "〜どころではない・〜どころか",
           "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "貯金",
+              "reading": "ちょきん"
+            },
+            {
+              "text": "どころではない"
+            },
+            {
+              "text": "出費",
+              "reading": "しゅっぴ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l12-g02-ja-vi-05",
@@ -1007,7 +1290,23 @@
           "hint": "〜どころではない・〜どころか",
           "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "楽",
+              "reading": "らく"
+            },
+            {
+              "text": "になるどころか"
+            },
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しくなった。"
+            }
+          ]
         },
         {
           "id": "l12-g02-ja-vi-06",
@@ -1019,7 +1318,23 @@
           "hint": "〜どころではない・〜どころか",
           "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "どころではない"
+            },
+            {
+              "text": "騒",
+              "reading": "さわ"
+            },
+            {
+              "text": "ぎだ。"
+            }
+          ]
         },
         {
           "id": "l12-g02-ja-vi-07",
@@ -1031,7 +1346,27 @@
           "hint": "〜どころではない・〜どころか",
           "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "優勝",
+              "reading": "ゆうしょう"
+            },
+            {
+              "text": "どころか"
+            },
+            {
+              "text": "予選",
+              "reading": "よせん"
+            },
+            {
+              "text": "落",
+              "reading": "お"
+            },
+            {
+              "text": "ちだ。"
+            }
+          ]
         },
         {
           "id": "l12-g02-ja-vi-08",
@@ -1043,7 +1378,30 @@
           "hint": "〜どころではない・〜どころか",
           "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "読書",
+              "reading": "どくしょ"
+            },
+            {
+              "text": "どころではない"
+            },
+            {
+              "text": "疲",
+              "reading": "つか"
+            },
+            {
+              "text": "れ"
+            },
+            {
+              "text": "方",
+              "reading": "かた"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l12-g02-ja-vi-09",
@@ -1055,7 +1413,23 @@
           "hint": "〜どころではない・〜どころか",
           "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "解決",
+              "reading": "かいけつ"
+            },
+            {
+              "text": "どころか"
+            },
+            {
+              "text": "悪化",
+              "reading": "あっか"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l12-g02-ja-vi-10",
@@ -1067,7 +1441,23 @@
           "hint": "〜どころではない・〜どころか",
           "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "観光",
+              "reading": "かんこう"
+            },
+            {
+              "text": "どころではない"
+            },
+            {
+              "text": "日程",
+              "reading": "にってい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l12-g02-order-01",
@@ -1674,7 +2064,23 @@
           "hint": "〜ものか",
           "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "二度",
+              "reading": "にど"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "頼",
+              "reading": "たの"
+            },
+            {
+              "text": "むものか。"
+            }
+          ]
         },
         {
           "id": "l12-g03-ja-vi-02",
@@ -1686,7 +2092,16 @@
           "hint": "〜ものか",
           "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "負",
+              "reading": "ま"
+            },
+            {
+              "text": "けるもんか。"
+            }
+          ]
         },
         {
           "id": "l12-g03-ja-vi-03",
@@ -1698,7 +2113,30 @@
           "hint": "〜ものか",
           "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "うことを"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "くものか。"
+            }
+          ]
         },
         {
           "id": "l12-g03-ja-vi-04",
@@ -1710,7 +2148,23 @@
           "hint": "〜ものか",
           "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "いから"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "うものか。"
+            }
+          ]
         },
         {
           "id": "l12-g03-ja-vi-05",
@@ -1722,7 +2176,26 @@
           "hint": "〜ものか",
           "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "そんな"
+            },
+            {
+              "text": "条件",
+              "reading": "じょうけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "飲",
+              "reading": "の"
+            },
+            {
+              "text": "むものか。"
+            }
+          ]
         },
         {
           "id": "l12-g03-ja-vi-06",
@@ -1734,7 +2207,23 @@
           "hint": "〜ものか",
           "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "泣",
+              "reading": "な"
+            },
+            {
+              "text": "いて"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "せるものか。"
+            }
+          ]
         },
         {
           "id": "l12-g03-ja-vi-07",
@@ -1746,7 +2235,27 @@
           "hint": "〜ものか",
           "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今更",
+              "reading": "いまさら"
+            },
+            {
+              "text": "謝",
+              "reading": "あやま"
+            },
+            {
+              "text": "られても"
+            },
+            {
+              "text": "許",
+              "reading": "ゆる"
+            },
+            {
+              "text": "すものか。"
+            }
+          ]
         },
         {
           "id": "l12-g03-ja-vi-08",
@@ -1758,7 +2267,27 @@
           "hint": "〜ものか",
           "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "人",
+              "reading": "にん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "全部",
+              "reading": "ぜんぶ"
+            },
+            {
+              "text": "やるものか。"
+            }
+          ]
         },
         {
           "id": "l12-g03-ja-vi-09",
@@ -1770,7 +2299,23 @@
           "hint": "〜ものか",
           "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "秘密",
+              "reading": "ひみつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "漏",
+              "reading": "も"
+            },
+            {
+              "text": "らすものか。"
+            }
+          ]
         },
         {
           "id": "l12-g03-ja-vi-10",
@@ -1782,7 +2327,26 @@
           "hint": "〜ものか",
           "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "そんな"
+            },
+            {
+              "text": "場所",
+              "reading": "ばしょ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "住",
+              "reading": "す"
+            },
+            {
+              "text": "むものか。"
+            }
+          ]
         },
         {
           "id": "l12-g03-order-01",
@@ -2388,7 +2952,23 @@
           "hint": "〜わけではない・〜というわけではない",
           "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しいわけではないが"
+            },
+            {
+              "text": "余裕",
+              "reading": "よゆう"
+            },
+            {
+              "text": "もない。"
+            }
+          ]
         },
         {
           "id": "l12-g04-ja-vi-02",
@@ -2400,7 +2980,23 @@
           "hint": "〜わけではない・〜というわけではない",
           "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "嫌",
+              "reading": "きら"
+            },
+            {
+              "text": "いなわけではないが"
+            },
+            {
+              "text": "得意",
+              "reading": "とくい"
+            },
+            {
+              "text": "でもない。"
+            }
+          ]
         },
         {
           "id": "l12-g04-ja-vi-03",
@@ -2412,7 +3008,16 @@
           "hint": "〜わけではない・〜というわけではない",
           "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無理",
+              "reading": "むり"
+            },
+            {
+              "text": "だというわけではない。"
+            }
+          ]
         },
         {
           "id": "l12-g04-ja-vi-04",
@@ -2424,7 +3029,16 @@
           "hint": "〜わけではない・〜というわけではない",
           "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "をついたわけではない。"
+            }
+          ]
         },
         {
           "id": "l12-g04-ja-vi-05",
@@ -2436,7 +3050,16 @@
           "hint": "〜わけではない・〜というわけではない",
           "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "簡単",
+              "reading": "かんたん"
+            },
+            {
+              "text": "だというわけではない。"
+            }
+          ]
         },
         {
           "id": "l12-g04-ja-vi-06",
@@ -2448,7 +3071,16 @@
           "hint": "〜わけではない・〜というわけではない",
           "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無視",
+              "reading": "むし"
+            },
+            {
+              "text": "したわけではない。"
+            }
+          ]
         },
         {
           "id": "l12-g04-ja-vi-07",
@@ -2460,7 +3092,16 @@
           "hint": "〜わけではない・〜というわけではない",
           "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "満足",
+              "reading": "まんぞく"
+            },
+            {
+              "text": "したというわけではない。"
+            }
+          ]
         },
         {
           "id": "l12-g04-ja-vi-08",
@@ -2472,7 +3113,16 @@
           "hint": "〜わけではない・〜というわけではない",
           "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "がないわけではない。"
+            }
+          ]
         },
         {
           "id": "l12-g04-ja-vi-09",
@@ -2484,7 +3134,16 @@
           "hint": "〜わけではない・〜というわけではない",
           "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "急",
+              "reading": "いそ"
+            },
+            {
+              "text": "ぐというわけではない。"
+            }
+          ]
         },
         {
           "id": "l12-g04-ja-vi-10",
@@ -2496,7 +3155,23 @@
           "hint": "〜わけではない・〜というわけではない",
           "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "だけが"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "いわけではない。"
+            }
+          ]
         },
         {
           "id": "l12-g04-order-01",
@@ -3121,7 +3796,23 @@
           "hint": "〜というものではない・〜というものでもない",
           "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "すれば"
+            },
+            {
+              "text": "報",
+              "reading": "むく"
+            },
+            {
+              "text": "われるというものではない。"
+            }
+          ]
         },
         {
           "id": "l12-g05-ja-vi-02",
@@ -3133,7 +3824,23 @@
           "hint": "〜というものではない・〜というものでもない",
           "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "便利",
+              "reading": "べんり"
+            },
+            {
+              "text": "なら"
+            },
+            {
+              "text": "使",
+              "reading": "つか"
+            },
+            {
+              "text": "いやすいというものでもない。"
+            }
+          ]
         },
         {
           "id": "l12-g05-ja-vi-03",
@@ -3145,7 +3852,23 @@
           "hint": "〜というものではない・〜というものでもない",
           "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "があれば"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "するというものではない。"
+            }
+          ]
         },
         {
           "id": "l12-g05-ja-vi-04",
@@ -3157,7 +3880,23 @@
           "hint": "〜というものではない・〜というものでもない",
           "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "いから"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "いというものでもない。"
+            }
+          ]
         },
         {
           "id": "l12-g05-ja-vi-05",
@@ -3169,7 +3908,23 @@
           "hint": "〜というものではない・〜というものでもない",
           "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しいほど"
+            },
+            {
+              "text": "偉",
+              "reading": "えら"
+            },
+            {
+              "text": "いというものではない。"
+            }
+          ]
         },
         {
           "id": "l12-g05-ja-vi-06",
@@ -3181,7 +3936,23 @@
           "hint": "〜というものではない・〜というものでもない",
           "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "笑",
+              "reading": "わら"
+            },
+            {
+              "text": "っていれば"
+            },
+            {
+              "text": "平気",
+              "reading": "へいき"
+            },
+            {
+              "text": "というものでもない。"
+            }
+          ]
         },
         {
           "id": "l12-g05-ja-vi-07",
@@ -3193,7 +3964,30 @@
           "hint": "〜というものではない・〜というものでもない",
           "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "規則",
+              "reading": "きそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "れば"
+            },
+            {
+              "text": "十分",
+              "reading": "じゅうぶん"
+            },
+            {
+              "text": "というものではない。"
+            }
+          ]
         },
         {
           "id": "l12-g05-ja-vi-08",
@@ -3205,7 +3999,23 @@
           "hint": "〜というものではない・〜というものでもない",
           "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "有名",
+              "reading": "ゆうめい"
+            },
+            {
+              "text": "なら"
+            },
+            {
+              "text": "信頼",
+              "reading": "しんらい"
+            },
+            {
+              "text": "できるというものでもない。"
+            }
+          ]
         },
         {
           "id": "l12-g05-ja-vi-09",
@@ -3217,7 +4027,23 @@
           "hint": "〜というものではない・〜というものでもない",
           "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "解決",
+              "reading": "かいけつ"
+            },
+            {
+              "text": "するというものではない。"
+            }
+          ]
         },
         {
           "id": "l12-g05-ja-vi-10",
@@ -3229,7 +4055,30 @@
           "hint": "〜というものではない・〜というものでもない",
           "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
           "origin": "authored",
-          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "多",
+              "reading": "おお"
+            },
+            {
+              "text": "ければ"
+            },
+            {
+              "text": "誤",
+              "reading": "あやま"
+            },
+            {
+              "text": "りというものでもない。"
+            }
+          ]
         },
         {
           "id": "l12-g05-order-01",

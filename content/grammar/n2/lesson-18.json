@@ -243,7 +243,30 @@
           "hint": "〜がたい",
           "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "主張",
+              "reading": "しゅちょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "理解",
+              "reading": "りかい"
+            },
+            {
+              "text": "しがたい。"
+            }
+          ]
         },
         {
           "id": "l18-g01-ja-vi-02",
@@ -255,7 +278,23 @@
           "hint": "〜がたい",
           "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "裏切",
+              "reading": "うらぎ"
+            },
+            {
+              "text": "りは"
+            },
+            {
+              "text": "許",
+              "reading": "ゆる"
+            },
+            {
+              "text": "しがたい。"
+            }
+          ]
         },
         {
           "id": "l18-g01-ja-vi-03",
@@ -267,7 +306,26 @@
           "hint": "〜がたい",
           "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "光景",
+              "reading": "こうけい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れがたい。"
+            }
+          ]
         },
         {
           "id": "l18-g01-ja-vi-04",
@@ -279,7 +337,26 @@
           "hint": "〜がたい",
           "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "数字",
+              "reading": "すうじ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "信",
+              "reading": "しん"
+            },
+            {
+              "text": "じがたい。"
+            }
+          ]
         },
         {
           "id": "l18-g01-ja-vi-05",
@@ -291,7 +368,23 @@
           "hint": "〜がたい",
           "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "不正",
+              "reading": "ふせい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "見逃",
+              "reading": "みのが"
+            },
+            {
+              "text": "しがたい。"
+            }
+          ]
         },
         {
           "id": "l18-g01-ja-vi-06",
@@ -303,7 +396,33 @@
           "hint": "〜がたい",
           "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "提案",
+              "reading": "ていあん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "け"
+            },
+            {
+              "text": "入",
+              "reading": "い"
+            },
+            {
+              "text": "れがたい。"
+            }
+          ]
         },
         {
           "id": "l18-g01-ja-vi-07",
@@ -315,7 +434,26 @@
           "hint": "〜がたい",
           "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "結論",
+              "reading": "けつろん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "納得",
+              "reading": "なっとく"
+            },
+            {
+              "text": "しがたい。"
+            }
+          ]
         },
         {
           "id": "l18-g01-ja-vi-08",
@@ -327,7 +465,23 @@
           "hint": "〜がたい",
           "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "侮辱",
+              "reading": "ぶじょく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "耐",
+              "reading": "た"
+            },
+            {
+              "text": "えがたい。"
+            }
+          ]
         },
         {
           "id": "l18-g01-ja-vi-09",
@@ -339,7 +493,33 @@
           "hint": "〜がたい",
           "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "扱",
+              "reading": "あつか"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "方",
+              "reading": "かた"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "認",
+              "reading": "みと"
+            },
+            {
+              "text": "めがたい。"
+            }
+          ]
         },
         {
           "id": "l18-g01-ja-vi-10",
@@ -351,7 +531,26 @@
           "hint": "〜がたい",
           "explanation": "Câu dùng がたい: khó mà… (đánh giá/cảm xúc).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "条件",
+              "reading": "じょうけん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じがたい。"
+            }
+          ]
         },
         {
           "id": "l18-g01-order-01",
@@ -965,7 +1164,23 @@
           "hint": "〜わけにはいかない",
           "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今日",
+              "reading": "きょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "むわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l18-g02-ja-vi-02",
@@ -977,7 +1192,23 @@
           "hint": "〜わけにはいかない",
           "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "無視",
+              "reading": "むし"
+            },
+            {
+              "text": "するわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l18-g02-ja-vi-03",
@@ -989,7 +1220,23 @@
           "hint": "〜わけにはいかない",
           "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "規則",
+              "reading": "きそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "破",
+              "reading": "やぶ"
+            },
+            {
+              "text": "るわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l18-g02-ja-vi-04",
@@ -1001,7 +1248,16 @@
           "hint": "〜わけにはいかない",
           "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "返事",
+              "reading": "へんじ"
+            },
+            {
+              "text": "をしないわけにもいかない。"
+            }
+          ]
         },
         {
           "id": "l18-g02-ja-vi-05",
@@ -1013,7 +1269,23 @@
           "hint": "〜わけにはいかない",
           "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "心配",
+              "reading": "しんぱい"
+            },
+            {
+              "text": "をかけるわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l18-g02-ja-vi-06",
@@ -1025,7 +1297,37 @@
           "hint": "〜わけにはいかない",
           "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "途中",
+              "reading": "とちゅう"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "放",
+              "reading": "ほう"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "すわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l18-g02-ja-vi-07",
@@ -1037,7 +1339,23 @@
           "hint": "〜わけにはいかない",
           "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "失礼",
+              "reading": "しつれい"
+            },
+            {
+              "text": "なことを"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "うわけにもいかない。"
+            }
+          ]
         },
         {
           "id": "l18-g02-ja-vi-08",
@@ -1049,7 +1367,23 @@
           "hint": "〜わけにはいかない",
           "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "証拠",
+              "reading": "しょうこ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "隠",
+              "reading": "かく"
+            },
+            {
+              "text": "すわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l18-g02-ja-vi-09",
@@ -1061,7 +1395,27 @@
           "hint": "〜わけにはいかない",
           "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "人",
+              "reading": "にん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "めるわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l18-g02-ja-vi-10",
@@ -1073,7 +1427,16 @@
           "hint": "〜わけにはいかない",
           "explanation": "Câu dùng わけにはいかない／わけにもいかない: không thể… vì lý do đạo đức/nghĩa vụ.",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "感謝",
+              "reading": "かんしゃ"
+            },
+            {
+              "text": "しないわけにもいかない。"
+            }
+          ]
         },
         {
           "id": "l18-g02-order-01",
@@ -1699,7 +2062,23 @@
           "hint": "〜かねる",
           "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "詳細",
+              "reading": "しょうさい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "しかねます。"
+            }
+          ]
         },
         {
           "id": "l18-g03-ja-vi-02",
@@ -1711,7 +2090,16 @@
           "hint": "〜かねる",
           "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "即答",
+              "reading": "そくとう"
+            },
+            {
+              "text": "はいたしかねます。"
+            }
+          ]
         },
         {
           "id": "l18-g03-ja-vi-03",
@@ -1723,7 +2111,26 @@
           "hint": "〜かねる",
           "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ご"
+            },
+            {
+              "text": "期待",
+              "reading": "きたい"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "添",
+              "reading": "そ"
+            },
+            {
+              "text": "えかねます。"
+            }
+          ]
         },
         {
           "id": "l18-g03-ja-vi-04",
@@ -1735,7 +2142,26 @@
           "hint": "〜かねる",
           "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "下",
+              "reading": "くだ"
+            },
+            {
+              "text": "しかねます。"
+            }
+          ]
         },
         {
           "id": "l18-g03-ja-vi-05",
@@ -1747,7 +2173,27 @@
           "hint": "〜かねる",
           "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "個人",
+              "reading": "こじん"
+            },
+            {
+              "text": "情報",
+              "reading": "じょうほう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "教",
+              "reading": "おし"
+            },
+            {
+              "text": "えかねます。"
+            }
+          ]
         },
         {
           "id": "l18-g03-ja-vi-06",
@@ -1759,7 +2205,30 @@
           "hint": "〜かねる",
           "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無理",
+              "reading": "むり"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "要求",
+              "reading": "ようきゅう"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じかねる。"
+            }
+          ]
         },
         {
           "id": "l18-g03-ja-vi-07",
@@ -1771,7 +2240,30 @@
           "hint": "〜かねる",
           "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今",
+              "reading": "いま"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "状況",
+              "reading": "じょうきょう"
+            },
+            {
+              "text": "では"
+            },
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "しかねます。"
+            }
+          ]
         },
         {
           "id": "l18-g03-ja-vi-08",
@@ -1783,7 +2275,19 @@
           "hint": "〜かねる",
           "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "お"
+            },
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "はいたしかねます。"
+            }
+          ]
         },
         {
           "id": "l18-g03-ja-vi-09",
@@ -1795,7 +2299,26 @@
           "hint": "〜かねる",
           "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "案",
+              "reading": "あん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "採用",
+              "reading": "さいよう"
+            },
+            {
+              "text": "しかねます。"
+            }
+          ]
         },
         {
           "id": "l18-g03-ja-vi-10",
@@ -1807,7 +2330,23 @@
           "hint": "〜かねる",
           "explanation": "Câu dùng かねる: khó lòng/không thể… (lịch sự).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "負",
+              "reading": "お"
+            },
+            {
+              "text": "いかねます。"
+            }
+          ]
         },
         {
           "id": "l18-g03-order-01",
@@ -2437,7 +2976,30 @@
           "hint": "〜ようがない",
           "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "けを"
+            },
+            {
+              "text": "求",
+              "reading": "もと"
+            },
+            {
+              "text": "めようがない"
+            },
+            {
+              "text": "状況",
+              "reading": "じょうきょう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l18-g04-ja-vi-02",
@@ -2449,7 +3011,26 @@
           "hint": "〜ようがない",
           "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "傷",
+              "reading": "きず"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "治",
+              "reading": "なお"
+            },
+            {
+              "text": "しようがない。"
+            }
+          ]
         },
         {
           "id": "l18-g04-ja-vi-03",
@@ -2461,7 +3042,23 @@
           "hint": "〜ようがない",
           "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "理由",
+              "reading": "りゆう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "きようがない。"
+            }
+          ]
         },
         {
           "id": "l18-g04-ja-vi-04",
@@ -2473,7 +3070,23 @@
           "hint": "〜ようがない",
           "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "誤",
+              "reading": "あやま"
+            },
+            {
+              "text": "りを"
+            },
+            {
+              "text": "正",
+              "reading": "ただ"
+            },
+            {
+              "text": "しようもない。"
+            }
+          ]
         },
         {
           "id": "l18-g04-ja-vi-05",
@@ -2485,7 +3098,23 @@
           "hint": "〜ようがない",
           "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "逃",
+              "reading": "に"
+            },
+            {
+              "text": "げようがないほど"
+            },
+            {
+              "text": "囲",
+              "reading": "かこ"
+            },
+            {
+              "text": "まれた。"
+            }
+          ]
         },
         {
           "id": "l18-g04-ja-vi-06",
@@ -2497,7 +3126,23 @@
           "hint": "〜ようがない",
           "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "比較",
+              "reading": "ひかく"
+            },
+            {
+              "text": "しようがないほど"
+            },
+            {
+              "text": "違",
+              "reading": "ちが"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l18-g04-ja-vi-07",
@@ -2509,7 +3154,23 @@
           "hint": "〜ようがない",
           "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "弁解",
+              "reading": "べんかい"
+            },
+            {
+              "text": "しようがない"
+            },
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l18-g04-ja-vi-08",
@@ -2521,7 +3182,30 @@
           "hint": "〜ようがない",
           "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "情報",
+              "reading": "じょうほう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "足",
+              "reading": "た"
+            },
+            {
+              "text": "りず"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "しようがない。"
+            }
+          ]
         },
         {
           "id": "l18-g04-ja-vi-09",
@@ -2533,7 +3217,23 @@
           "hint": "〜ようがない",
           "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "修理",
+              "reading": "しゅうり"
+            },
+            {
+              "text": "しようがない"
+            },
+            {
+              "text": "状態",
+              "reading": "じょうたい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l18-g04-ja-vi-10",
@@ -2545,7 +3245,23 @@
           "hint": "〜ようがない",
           "explanation": "Câu dùng ようがない／ようもない: không còn cách nào để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "慰",
+              "reading": "なぐさ"
+            },
+            {
+              "text": "めようもないほど"
+            },
+            {
+              "text": "悲",
+              "reading": "かな"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l18-g04-order-01",
@@ -3174,7 +3890,30 @@
           "hint": "〜どころではない",
           "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今夜",
+              "reading": "こんや"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "残業",
+              "reading": "ざんぎょう"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "寝",
+              "reading": "ね"
+            },
+            {
+              "text": "るどころではない。"
+            }
+          ]
         },
         {
           "id": "l18-g05-ja-vi-02",
@@ -3186,7 +3925,27 @@
           "hint": "〜どころではない",
           "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "不足",
+              "reading": "ふそく"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "余裕",
+              "reading": "よゆう"
+            },
+            {
+              "text": "どころではない。"
+            }
+          ]
         },
         {
           "id": "l18-g05-ja-vi-03",
@@ -3198,7 +3957,30 @@
           "hint": "〜どころではない",
           "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "火事",
+              "reading": "かじ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "悠長",
+              "reading": "ゆうちょう"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "どころではない。"
+            }
+          ]
         },
         {
           "id": "l18-g05-ja-vi-04",
@@ -3210,7 +3992,23 @@
           "hint": "〜どころではない",
           "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "赤字",
+              "reading": "あかじ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "投資",
+              "reading": "とうし"
+            },
+            {
+              "text": "どころではない。"
+            }
+          ]
         },
         {
           "id": "l18-g05-ja-vi-05",
@@ -3222,7 +4020,16 @@
           "hint": "〜どころではない",
           "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "渋滞",
+              "reading": "じゅうたい"
+            },
+            {
+              "text": "でのんびりどころではない。"
+            }
+          ]
         },
         {
           "id": "l18-g05-ja-vi-06",
@@ -3234,7 +4041,27 @@
           "hint": "〜どころではない",
           "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "苦情",
+              "reading": "くじょう"
+            },
+            {
+              "text": "対応",
+              "reading": "たいおう"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "休憩",
+              "reading": "きゅうけい"
+            },
+            {
+              "text": "どころではない。"
+            }
+          ]
         },
         {
           "id": "l18-g05-ja-vi-07",
@@ -3246,7 +4073,23 @@
           "hint": "〜どころではない",
           "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "台風",
+              "reading": "たいふう"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "外出",
+              "reading": "がいしゅつ"
+            },
+            {
+              "text": "どころではない。"
+            }
+          ]
         },
         {
           "id": "l18-g05-ja-vi-08",
@@ -3258,7 +4101,30 @@
           "hint": "〜どころではない",
           "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "引",
+              "reading": "ひ"
+            },
+            {
+              "text": "っ"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "しで"
+            },
+            {
+              "text": "掃除",
+              "reading": "そうじ"
+            },
+            {
+              "text": "どころではない。"
+            }
+          ]
         },
         {
           "id": "l18-g05-ja-vi-09",
@@ -3270,7 +4136,27 @@
           "hint": "〜どころではない",
           "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "納品",
+              "reading": "のうひん"
+            },
+            {
+              "text": "前",
+              "reading": "まえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "冗談",
+              "reading": "じょうだん"
+            },
+            {
+              "text": "どころではない。"
+            }
+          ]
         },
         {
           "id": "l18-g05-ja-vi-10",
@@ -3282,7 +4168,23 @@
           "hint": "〜どころではない",
           "explanation": "Câu dùng どころではない: đâu phải lúc/tâm trạng để…",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "看病",
+              "reading": "かんびょう"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "のことはどころではない。"
+            }
+          ]
         },
         {
           "id": "l18-g05-order-01",
@@ -3915,7 +4817,37 @@
           "hint": "〜得る／〜得ない",
           "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "誰",
+              "reading": "だれ"
+            },
+            {
+              "text": "にでも"
+            },
+            {
+              "text": "起",
+              "reading": "お"
+            },
+            {
+              "text": "こり"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l18-g06-ja-vi-02",
@@ -3927,7 +4859,33 @@
           "hint": "〜得る／〜得ない",
           "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "では"
+            },
+            {
+              "text": "納得",
+              "reading": "なっとく"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l18-g06-ja-vi-03",
@@ -3939,7 +4897,27 @@
           "hint": "〜得る／〜得ない",
           "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "誤",
+              "reading": "あやま"
+            },
+            {
+              "text": "作動",
+              "reading": "さどう"
+            },
+            {
+              "text": "もあり"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l18-g06-ja-vi-04",
@@ -3951,7 +4929,37 @@
           "hint": "〜得る／〜得ない",
           "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "勝利",
+              "reading": "しょうり"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "十分",
+              "reading": "じゅうぶん"
+            },
+            {
+              "text": "あり"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l18-g06-ja-vi-05",
@@ -3963,7 +4971,33 @@
           "hint": "〜得る／〜得ない",
           "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "そのような"
+            },
+            {
+              "text": "要求",
+              "reading": "ようきゅう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "認",
+              "reading": "みと"
+            },
+            {
+              "text": "め"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l18-g06-ja-vi-06",
@@ -3975,7 +5009,37 @@
           "hint": "〜得る／〜得ない",
           "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "最悪",
+              "reading": "さいあく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "事態",
+              "reading": "じたい"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "起",
+              "reading": "お"
+            },
+            {
+              "text": "こり"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l18-g06-ja-vi-07",
@@ -3987,7 +5051,26 @@
           "hint": "〜得る／〜得ない",
           "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "データ"
+            },
+            {
+              "text": "改",
+              "reading": "かい"
+            },
+            {
+              "text": "ざんはあり"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l18-g06-ja-vi-08",
@@ -3999,7 +5082,33 @@
           "hint": "〜得る／〜得ない",
           "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "仮説",
+              "reading": "かせつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "検証",
+              "reading": "けんしょう"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l18-g06-ja-vi-09",
@@ -4011,7 +5120,41 @@
           "hint": "〜得る／〜得ない",
           "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "全面",
+              "reading": "ぜんめん"
+            },
+            {
+              "text": "拒否",
+              "reading": "きょひ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "避",
+              "reading": "さ"
+            },
+            {
+              "text": "け"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "る"
+            },
+            {
+              "text": "選択",
+              "reading": "せんたく"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l18-g06-ja-vi-10",
@@ -4023,7 +5166,33 @@
           "hint": "〜得る／〜得ない",
           "explanation": "Câu dùng 得る／得ない: có thể / không thể xảy ra (khách quan).",
           "origin": "authored",
-          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 18 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "結論",
+              "reading": "けつろん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "導",
+              "reading": "みちび"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l18-g06-order-01",

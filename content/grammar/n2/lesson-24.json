@@ -242,7 +242,23 @@
           "hint": "〜（よ）うではないか",
           "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "真相",
+              "reading": "しんそう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "明",
+              "reading": "あき"
+            },
+            {
+              "text": "らかにしようではないか。"
+            }
+          ]
         },
         {
           "id": "l24-g01-ja-vi-02",
@@ -254,7 +270,16 @@
           "hint": "〜（よ）うではないか",
           "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "地域",
+              "reading": "ちいき"
+            },
+            {
+              "text": "のためにボランティアしようじゃないか。"
+            }
+          ]
         },
         {
           "id": "l24-g01-ja-vi-03",
@@ -266,7 +291,23 @@
           "hint": "〜（よ）うではないか",
           "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無駄",
+              "reading": "むだ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "争",
+              "reading": "あらそ"
+            },
+            {
+              "text": "いはやめようではないか。"
+            }
+          ]
         },
         {
           "id": "l24-g01-ja-vi-04",
@@ -278,7 +319,23 @@
           "hint": "〜（よ）うではないか",
           "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しいルールを"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "ろうじゃないか。"
+            }
+          ]
         },
         {
           "id": "l24-g01-ja-vi-05",
@@ -290,7 +347,34 @@
           "hint": "〜（よ）うではないか",
           "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今日",
+              "reading": "きょう"
+            },
+            {
+              "text": "中",
+              "reading": "ちゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "結論",
+              "reading": "けつろん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "そうではないか。"
+            }
+          ]
         },
         {
           "id": "l24-g01-ja-vi-06",
@@ -302,7 +386,26 @@
           "hint": "〜（よ）うではないか",
           "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "お"
+            },
+            {
+              "text": "互",
+              "reading": "たが"
+            },
+            {
+              "text": "いを"
+            },
+            {
+              "text": "尊重",
+              "reading": "そんちょう"
+            },
+            {
+              "text": "しようじゃないか。"
+            }
+          ]
         },
         {
           "id": "l24-g01-ja-vi-07",
@@ -314,7 +417,23 @@
           "hint": "〜（よ）うではないか",
           "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見直",
+              "reading": "みなお"
+            },
+            {
+              "text": "そうではないか。"
+            }
+          ]
         },
         {
           "id": "l24-g01-ja-vi-08",
@@ -326,7 +445,23 @@
           "hint": "〜（よ）うではないか",
           "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "笑顔",
+              "reading": "えがお"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "挨拶",
+              "reading": "あいさつ"
+            },
+            {
+              "text": "しようじゃないか。"
+            }
+          ]
         },
         {
           "id": "l24-g01-ja-vi-09",
@@ -338,7 +473,37 @@
           "hint": "〜（よ）うではないか",
           "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "力",
+              "reading": "ちから"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "合",
+              "reading": "あ"
+            },
+            {
+              "text": "わせて"
+            },
+            {
+              "text": "勝",
+              "reading": "か"
+            },
+            {
+              "text": "ち"
+            },
+            {
+              "text": "残",
+              "reading": "のこ"
+            },
+            {
+              "text": "ろうではないか。"
+            }
+          ]
         },
         {
           "id": "l24-g01-ja-vi-10",
@@ -350,7 +515,26 @@
           "hint": "〜（よ）うではないか",
           "explanation": "Câu kêu gọi chung: V（よ）う＋ではないか／じゃないか — hãy cùng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "まずは"
+            },
+            {
+              "text": "現状",
+              "reading": "げんじょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "把握",
+              "reading": "はあく"
+            },
+            {
+              "text": "しようじゃないか。"
+            }
+          ]
         },
         {
           "id": "l24-g01-order-01",
@@ -982,7 +1166,27 @@
           "hint": "〜ことだ",
           "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "管理",
+              "reading": "かんり"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "怠",
+              "reading": "おこた"
+            },
+            {
+              "text": "らないことだ。"
+            }
+          ]
         },
         {
           "id": "l24-g02-ja-vi-02",
@@ -994,7 +1198,41 @@
           "hint": "〜ことだ",
           "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "困",
+              "reading": "こま"
+            },
+            {
+              "text": "ったときは"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "人",
+              "reading": "にん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "抱",
+              "reading": "かか"
+            },
+            {
+              "text": "え"
+            },
+            {
+              "text": "込",
+              "reading": "こ"
+            },
+            {
+              "text": "まないことだ。"
+            }
+          ]
         },
         {
           "id": "l24-g02-ja-vi-03",
@@ -1006,7 +1244,37 @@
           "hint": "〜ことだ",
           "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "発言",
+              "reading": "はつげん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "前",
+              "reading": "まえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "要点",
+              "reading": "ようてん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "整理",
+              "reading": "せいり"
+            },
+            {
+              "text": "することだ。"
+            }
+          ]
         },
         {
           "id": "l24-g02-ja-vi-04",
@@ -1018,7 +1286,19 @@
           "hint": "〜ことだ",
           "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ミスしたらすぐに"
+            },
+            {
+              "text": "謝",
+              "reading": "あやま"
+            },
+            {
+              "text": "ることだ。"
+            }
+          ]
         },
         {
           "id": "l24-g02-ja-vi-05",
@@ -1030,7 +1310,23 @@
           "hint": "〜ことだ",
           "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "節約",
+              "reading": "せつやく"
+            },
+            {
+              "text": "したければ"
+            },
+            {
+              "text": "無駄遣",
+              "reading": "むだづか"
+            },
+            {
+              "text": "いをやめることだ。"
+            }
+          ]
         },
         {
           "id": "l24-g02-ja-vi-06",
@@ -1042,7 +1338,48 @@
           "hint": "〜ことだ",
           "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "良",
+              "reading": "よ"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "人間",
+              "reading": "にんげん"
+            },
+            {
+              "text": "関係",
+              "reading": "かんけい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "築",
+              "reading": "きず"
+            },
+            {
+              "text": "きたければ"
+            },
+            {
+              "text": "挨拶",
+              "reading": "あいさつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "欠",
+              "reading": "か"
+            },
+            {
+              "text": "かさないことだ。"
+            }
+          ]
         },
         {
           "id": "l24-g02-ja-vi-07",
@@ -1054,7 +1391,23 @@
           "hint": "〜ことだ",
           "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安全",
+              "reading": "あんぜん"
+            },
+            {
+              "text": "のためにはヘルメットを"
+            },
+            {
+              "text": "着用",
+              "reading": "ちゃくよう"
+            },
+            {
+              "text": "することだ。"
+            }
+          ]
         },
         {
           "id": "l24-g02-ja-vi-08",
@@ -1066,7 +1419,34 @@
           "hint": "〜ことだ",
           "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "成果",
+              "reading": "せいか"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "すには"
+            },
+            {
+              "text": "優先",
+              "reading": "ゆうせん"
+            },
+            {
+              "text": "順位",
+              "reading": "じゅんい"
+            },
+            {
+              "text": "をつけることだ。"
+            }
+          ]
         },
         {
           "id": "l24-g02-ja-vi-09",
@@ -1078,7 +1458,23 @@
           "hint": "〜ことだ",
           "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "眠",
+              "reading": "ねむ"
+            },
+            {
+              "text": "れないときはカフェインを"
+            },
+            {
+              "text": "控",
+              "reading": "ひか"
+            },
+            {
+              "text": "えることだ。"
+            }
+          ]
         },
         {
           "id": "l24-g02-ja-vi-10",
@@ -1090,7 +1486,30 @@
           "hint": "〜ことだ",
           "explanation": "Câu khuyên thực tế: Vる／Vない＋ことだ — nên / đừng…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "誤解",
+              "reading": "ごかい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "避",
+              "reading": "さ"
+            },
+            {
+              "text": "けるにはメールで"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "することだ。"
+            }
+          ]
         },
         {
           "id": "l24-g02-order-01",
@@ -1744,7 +2163,30 @@
           "hint": "〜ものだ／〜ものではない",
           "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "困",
+              "reading": "こま"
+            },
+            {
+              "text": "っている"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見捨",
+              "reading": "みす"
+            },
+            {
+              "text": "てるものではない。"
+            }
+          ]
         },
         {
           "id": "l24-g03-ja-vi-02",
@@ -1756,7 +2198,37 @@
           "hint": "〜ものだ／〜ものではない",
           "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "食事",
+              "reading": "しょくじ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "前",
+              "reading": "まえ"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "手",
+              "reading": "て"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "洗",
+              "reading": "あら"
+            },
+            {
+              "text": "うものだ。"
+            }
+          ]
         },
         {
           "id": "l24-g03-ja-vi-03",
@@ -1768,7 +2240,23 @@
           "hint": "〜ものだ／〜ものではない",
           "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "他人",
+              "reading": "たにん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "秘密",
+              "reading": "ひみつ"
+            },
+            {
+              "text": "をばらすものではない。"
+            }
+          ]
         },
         {
           "id": "l24-g03-ja-vi-04",
@@ -1780,7 +2268,38 @@
           "hint": "〜ものだ／〜ものではない",
           "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "公共",
+              "reading": "こうきょう"
+            },
+            {
+              "text": "交通",
+              "reading": "こうつう"
+            },
+            {
+              "text": "では"
+            },
+            {
+              "text": "優先",
+              "reading": "ゆうせん"
+            },
+            {
+              "text": "席",
+              "reading": "せき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "譲",
+              "reading": "ゆず"
+            },
+            {
+              "text": "るものだ。"
+            }
+          ]
         },
         {
           "id": "l24-g03-ja-vi-05",
@@ -1792,7 +2311,23 @@
           "hint": "〜ものだ／〜ものではない",
           "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "をついて"
+            },
+            {
+              "text": "逃",
+              "reading": "のが"
+            },
+            {
+              "text": "れようとするものではない。"
+            }
+          ]
         },
         {
           "id": "l24-g03-ja-vi-06",
@@ -1804,7 +2339,37 @@
           "hint": "〜ものだ／〜ものではない",
           "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "感謝",
+              "reading": "かんしゃ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "気持",
+              "reading": "きも"
+            },
+            {
+              "text": "ちは"
+            },
+            {
+              "text": "言葉",
+              "reading": "ことば"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "伝",
+              "reading": "つた"
+            },
+            {
+              "text": "えるものだ。"
+            }
+          ]
         },
         {
           "id": "l24-g03-ja-vi-07",
@@ -1816,7 +2381,37 @@
           "hint": "〜ものだ／〜ものではない",
           "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "公共",
+              "reading": "こうきょう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "場",
+              "reading": "ば"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "大声",
+              "reading": "おおごえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "騒",
+              "reading": "さわ"
+            },
+            {
+              "text": "ぐものではない。"
+            }
+          ]
         },
         {
           "id": "l24-g03-ja-vi-08",
@@ -1828,7 +2423,30 @@
           "hint": "〜ものだ／〜ものではない",
           "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "借",
+              "reading": "か"
+            },
+            {
+              "text": "りたお"
+            },
+            {
+              "text": "金",
+              "reading": "かね"
+            },
+            {
+              "text": "はきちんと"
+            },
+            {
+              "text": "返",
+              "reading": "かえ"
+            },
+            {
+              "text": "すものだ。"
+            }
+          ]
         },
         {
           "id": "l24-g03-ja-vi-09",
@@ -1840,7 +2458,37 @@
           "hint": "〜ものだ／〜ものではない",
           "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "相手",
+              "reading": "あいて"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "最後",
+              "reading": "さいご"
+            },
+            {
+              "text": "まで"
+            },
+            {
+              "text": "遮",
+              "reading": "さえぎ"
+            },
+            {
+              "text": "るものではない。"
+            }
+          ]
         },
         {
           "id": "l24-g03-ja-vi-10",
@@ -1852,7 +2500,26 @@
           "hint": "〜ものだ／〜ものではない",
           "explanation": "Câu khuyên đạo lý: Vる＋ものだ／ものではない — nên / không nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ルールは"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "遊",
+              "reading": "あそ"
+            },
+            {
+              "text": "ぶものだ。"
+            }
+          ]
         },
         {
           "id": "l24-g03-order-01",
@@ -2462,7 +3129,16 @@
           "hint": "〜ことはない",
           "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "心配",
+              "reading": "しんぱい"
+            },
+            {
+              "text": "しすぎることはない。"
+            }
+          ]
         },
         {
           "id": "l24-g04-ja-vi-02",
@@ -2474,7 +3150,34 @@
           "hint": "〜ことはない",
           "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "人",
+              "reading": "にん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "抱",
+              "reading": "かか"
+            },
+            {
+              "text": "え"
+            },
+            {
+              "text": "込",
+              "reading": "こ"
+            },
+            {
+              "text": "むことはない。"
+            }
+          ]
         },
         {
           "id": "l24-g04-ja-vi-03",
@@ -2486,7 +3189,23 @@
           "hint": "〜ことはない",
           "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "完璧",
+              "reading": "かんぺき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "目指",
+              "reading": "めざ"
+            },
+            {
+              "text": "しすぎることはない。"
+            }
+          ]
         },
         {
           "id": "l24-g04-ja-vi-04",
@@ -2498,7 +3217,20 @@
           "hint": "〜ことはない",
           "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今更",
+              "reading": "いまさら"
+            },
+            {
+              "text": "後悔",
+              "reading": "こうかい"
+            },
+            {
+              "text": "することはない。"
+            }
+          ]
         },
         {
           "id": "l24-g04-ja-vi-05",
@@ -2510,7 +3242,19 @@
           "hint": "〜ことはない",
           "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "わざわざ"
+            },
+            {
+              "text": "出向",
+              "reading": "でむ"
+            },
+            {
+              "text": "くことはない。"
+            }
+          ]
         },
         {
           "id": "l24-g04-ja-vi-06",
@@ -2522,7 +3266,30 @@
           "hint": "〜ことはない",
           "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "細",
+              "reading": "こま"
+            },
+            {
+              "text": "かい"
+            },
+            {
+              "text": "点",
+              "reading": "てん"
+            },
+            {
+              "text": "まで"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "にすることはない。"
+            }
+          ]
         },
         {
           "id": "l24-g04-ja-vi-07",
@@ -2534,7 +3301,23 @@
           "hint": "〜ことはない",
           "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無理",
+              "reading": "むり"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "笑",
+              "reading": "わら"
+            },
+            {
+              "text": "うことはない。"
+            }
+          ]
         },
         {
           "id": "l24-g04-ja-vi-08",
@@ -2546,7 +3329,20 @@
           "hint": "〜ことはない",
           "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "全部",
+              "reading": "ぜんぶ"
+            },
+            {
+              "text": "覚",
+              "reading": "おぼ"
+            },
+            {
+              "text": "えようとすることはない。"
+            }
+          ]
         },
         {
           "id": "l24-g04-ja-vi-09",
@@ -2558,7 +3354,19 @@
           "hint": "〜ことはない",
           "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "そんなに"
+            },
+            {
+              "text": "急",
+              "reading": "いそ"
+            },
+            {
+              "text": "ぐことはない。"
+            }
+          ]
         },
         {
           "id": "l24-g04-ja-vi-10",
@@ -2570,7 +3378,16 @@
           "hint": "〜ことはない",
           "explanation": "Câu trấn an/khuyên: Vる＋ことはない — không cần / chẳng việc gì phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "遠慮",
+              "reading": "えんりょ"
+            },
+            {
+              "text": "しすぎることはない。"
+            }
+          ]
         },
         {
           "id": "l24-g04-order-01",
@@ -3215,7 +4032,23 @@
           "hint": "〜まい／〜（よ）うか〜まいか",
           "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "二度",
+              "reading": "にど"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "はすまい。"
+            }
+          ]
         },
         {
           "id": "l24-g05-ja-vi-02",
@@ -3227,7 +4060,27 @@
           "hint": "〜まい／〜（よ）うか〜まいか",
           "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "告白",
+              "reading": "こくはく"
+            },
+            {
+              "text": "しようかするまいか"
+            },
+            {
+              "text": "昨夜",
+              "reading": "さくや"
+            },
+            {
+              "text": "悩",
+              "reading": "なや"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l24-g05-ja-vi-03",
@@ -3239,7 +4092,23 @@
           "hint": "〜まい／〜（よ）うか〜まいか",
           "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "にはもう"
+            },
+            {
+              "text": "頼",
+              "reading": "たの"
+            },
+            {
+              "text": "むまい。"
+            }
+          ]
         },
         {
           "id": "l24-g05-ja-vi-04",
@@ -3251,7 +4120,37 @@
           "hint": "〜まい／〜（よ）うか〜まいか",
           "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "残",
+              "reading": "のこ"
+            },
+            {
+              "text": "るか"
+            },
+            {
+              "text": "残",
+              "reading": "のこ"
+            },
+            {
+              "text": "るまいか"
+            },
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l24-g05-ja-vi-05",
@@ -3263,7 +4162,44 @@
           "hint": "〜まい／〜（よ）うか〜まいか",
           "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "同",
+              "reading": "おな"
+            },
+            {
+              "text": "じ"
+            },
+            {
+              "text": "過",
+              "reading": "あやま"
+            },
+            {
+              "text": "ちを"
+            },
+            {
+              "text": "繰",
+              "reading": "く"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "返",
+              "reading": "かえ"
+            },
+            {
+              "text": "すまいと"
+            },
+            {
+              "text": "誓",
+              "reading": "ちか"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l24-g05-ja-vi-06",
@@ -3275,7 +4211,37 @@
           "hint": "〜まい／〜（よ）うか〜まいか",
           "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "text": "するか"
+            },
+            {
+              "text": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "text": "すまいか"
+            },
+            {
+              "text": "直前",
+              "reading": "ちょくぜん"
+            },
+            {
+              "text": "まで"
+            },
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l24-g05-ja-vi-07",
@@ -3287,7 +4253,30 @@
           "hint": "〜まい／〜（よ）うか〜まいか",
           "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "二度",
+              "reading": "にど"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "文句",
+              "reading": "もんく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "うまい。"
+            }
+          ]
         },
         {
           "id": "l24-g05-ja-vi-08",
@@ -3299,7 +4288,37 @@
           "hint": "〜まい／〜（よ）うか〜まいか",
           "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "くか"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "くまいか"
+            },
+            {
+              "text": "朝",
+              "reading": "あさ"
+            },
+            {
+              "text": "までに"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "める。"
+            }
+          ]
         },
         {
           "id": "l24-g05-ja-vi-09",
@@ -3311,7 +4330,30 @@
           "hint": "〜まい／〜（よ）うか〜まいか",
           "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "弱",
+              "reading": "よわ"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "負",
+              "reading": "ま"
+            },
+            {
+              "text": "けるまい。"
+            }
+          ]
         },
         {
           "id": "l24-g05-ja-vi-10",
@@ -3323,7 +4365,38 @@
           "hint": "〜まい／〜（よ）うか〜まいか",
           "explanation": "Câu ý chí/do dự: 〜まい — quyết không…; （よ）うかまいか — liệu có… hay không.",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "断",
+              "reading": "ことわ"
+            },
+            {
+              "text": "るか"
+            },
+            {
+              "text": "断",
+              "reading": "ことわ"
+            },
+            {
+              "text": "るまいか"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "晩",
+              "reading": "ばん"
+            },
+            {
+              "text": "考",
+              "reading": "かんが"
+            },
+            {
+              "text": "える。"
+            }
+          ]
         },
         {
           "id": "l24-g05-order-01",
@@ -3963,7 +5036,30 @@
           "hint": "〜ものか",
           "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "誰",
+              "reading": "だれ"
+            },
+            {
+              "text": "がそんな"
+            },
+            {
+              "text": "条件",
+              "reading": "じょうけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "飲",
+              "reading": "の"
+            },
+            {
+              "text": "むものか。"
+            }
+          ]
         },
         {
           "id": "l24-g06-ja-vi-02",
@@ -3975,7 +5071,30 @@
           "hint": "〜ものか",
           "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "こんな"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "月給",
+              "reading": "げっきゅう"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "働",
+              "reading": "はたら"
+            },
+            {
+              "text": "くもんか。"
+            }
+          ]
         },
         {
           "id": "l24-g06-ja-vi-03",
@@ -3987,7 +5106,16 @@
           "hint": "〜ものか",
           "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "負",
+              "reading": "ま"
+            },
+            {
+              "text": "けてたまるものか。"
+            }
+          ]
         },
         {
           "id": "l24-g06-ja-vi-04",
@@ -3999,7 +5127,26 @@
           "hint": "〜ものか",
           "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "もう"
+            },
+            {
+              "text": "二度",
+              "reading": "にど"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "謝",
+              "reading": "あやま"
+            },
+            {
+              "text": "るもんか。"
+            }
+          ]
         },
         {
           "id": "l24-g06-ja-vi-05",
@@ -4011,7 +5158,26 @@
           "hint": "〜ものか",
           "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "こんな"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "納得",
+              "reading": "なっとく"
+            },
+            {
+              "text": "できるものか。"
+            }
+          ]
         },
         {
           "id": "l24-g06-ja-vi-06",
@@ -4023,7 +5189,23 @@
           "hint": "〜ものか",
           "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "弱",
+              "reading": "よわ"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "者",
+              "reading": "もの"
+            },
+            {
+              "text": "いじめをするものか。"
+            }
+          ]
         },
         {
           "id": "l24-g06-ja-vi-07",
@@ -4035,7 +5217,30 @@
           "hint": "〜ものか",
           "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "破",
+              "reading": "やぶ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "逃",
+              "reading": "に"
+            },
+            {
+              "text": "げるもんか。"
+            }
+          ]
         },
         {
           "id": "l24-g06-ja-vi-08",
@@ -4047,7 +5252,19 @@
           "hint": "〜ものか",
           "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "こんな"
+            },
+            {
+              "text": "難問",
+              "reading": "なんもん"
+            },
+            {
+              "text": "にひるむものか。"
+            }
+          ]
         },
         {
           "id": "l24-g06-ja-vi-09",
@@ -4059,7 +5276,23 @@
           "hint": "〜ものか",
           "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "いなりになるもんか。"
+            }
+          ]
         },
         {
           "id": "l24-g06-ja-vi-10",
@@ -4071,7 +5304,23 @@
           "hint": "〜ものか",
           "explanation": "Câu phủ định mạnh: 普通形＋ものか／もんか — làm gì có / tuyệt đối không…",
           "origin": "authored",
-          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 24 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "現状",
+              "reading": "げんじょう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "甘",
+              "reading": "あま"
+            },
+            {
+              "text": "んじるものか。"
+            }
+          ]
         },
         {
           "id": "l24-g06-order-01",

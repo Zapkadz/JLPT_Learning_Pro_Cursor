@@ -258,7 +258,37 @@
           "hint": "V／N ＋ につれて／にしたがって",
           "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "季節",
+              "reading": "きせつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "むにつれて"
+            },
+            {
+              "text": "花",
+              "reading": "はな"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "咲",
+              "reading": "さ"
+            },
+            {
+              "text": "く。"
+            }
+          ]
         },
         {
           "id": "l09-g01-ja-vi-02",
@@ -270,7 +300,37 @@
           "hint": "V／N ＋ につれて／にしたがって",
           "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "積",
+              "reading": "つ"
+            },
+            {
+              "text": "むにしたがって"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "速",
+              "reading": "はや"
+            },
+            {
+              "text": "くなる。"
+            }
+          ]
         },
         {
           "id": "l09-g01-ja-vi-03",
@@ -282,7 +342,30 @@
           "hint": "V／N ＋ につれて／にしたがって",
           "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "がたつにつれて"
+            },
+            {
+              "text": "痛",
+              "reading": "いた"
+            },
+            {
+              "text": "みが"
+            },
+            {
+              "text": "引",
+              "reading": "ひ"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l09-g01-ja-vi-04",
@@ -294,7 +377,26 @@
           "hint": "V／N ＋ につれて／にしたがって",
           "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "マニュアルにしたがって"
+            },
+            {
+              "text": "組",
+              "reading": "く"
+            },
+            {
+              "text": "み"
+            },
+            {
+              "text": "立",
+              "reading": "た"
+            },
+            {
+              "text": "てる。"
+            }
+          ]
         },
         {
           "id": "l09-g01-ja-vi-05",
@@ -306,7 +408,37 @@
           "hint": "V／N ＋ につれて／にしたがって",
           "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "収入",
+              "reading": "しゅうにゅう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "えるにつれて"
+            },
+            {
+              "text": "支出",
+              "reading": "ししゅつ"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "える。"
+            }
+          ]
         },
         {
           "id": "l09-g01-ja-vi-06",
@@ -318,7 +450,37 @@
           "hint": "V／N ＋ につれて／にしたがって",
           "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "技術",
+              "reading": "ぎじゅつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "進歩",
+              "reading": "しんぽ"
+            },
+            {
+              "text": "するにしたがって"
+            },
+            {
+              "text": "生活",
+              "reading": "せいかつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "便利",
+              "reading": "べんり"
+            },
+            {
+              "text": "になる。"
+            }
+          ]
         },
         {
           "id": "l09-g01-ja-vi-07",
@@ -330,7 +492,23 @@
           "hint": "V／N ＋ につれて／にしたがって",
           "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "暗",
+              "reading": "くら"
+            },
+            {
+              "text": "くなるにつれて"
+            },
+            {
+              "text": "街灯",
+              "reading": "がいとう"
+            },
+            {
+              "text": "がつく。"
+            }
+          ]
         },
         {
           "id": "l09-g01-ja-vi-08",
@@ -342,7 +520,23 @@
           "hint": "V／N ＋ につれて／にしたがって",
           "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "指示",
+              "reading": "しじ"
+            },
+            {
+              "text": "にしたがって"
+            },
+            {
+              "text": "避難",
+              "reading": "ひなん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l09-g01-ja-vi-09",
@@ -354,7 +548,30 @@
           "hint": "V／N ＋ につれて／にしたがって",
           "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "慣",
+              "reading": "な"
+            },
+            {
+              "text": "れるにつれて"
+            },
+            {
+              "text": "緊張",
+              "reading": "きんちょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "解",
+              "reading": "と"
+            },
+            {
+              "text": "けた。"
+            }
+          ]
         },
         {
           "id": "l09-g01-ja-vi-10",
@@ -366,7 +583,37 @@
           "hint": "V／N ＋ につれて／にしたがって",
           "explanation": "Câu dùng につれて／にしたがって: càng A càng B, hoặc theo chỉ thị.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "需要",
+              "reading": "じゅよう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "まるにしたがって"
+            },
+            {
+              "text": "価格",
+              "reading": "かかく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がった。"
+            }
+          ]
         },
         {
           "id": "l09-g01-order-01",
@@ -1019,7 +1266,41 @@
           "hint": "N／V ＋ に伴って／とともに",
           "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "開発",
+              "reading": "かいはつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "伴",
+              "reading": "ともな"
+            },
+            {
+              "text": "う"
+            },
+            {
+              "text": "環境",
+              "reading": "かんきょう"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "指摘",
+              "reading": "してき"
+            },
+            {
+              "text": "された。"
+            }
+          ]
         },
         {
           "id": "l09-g02-ja-vi-02",
@@ -1031,7 +1312,37 @@
           "hint": "N／V ＋ に伴って／とともに",
           "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "地震",
+              "reading": "じしん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "伴",
+              "reading": "ともな"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "津波",
+              "reading": "つなみ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "心配",
+              "reading": "しんぱい"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l09-g02-ja-vi-03",
@@ -1043,7 +1354,30 @@
           "hint": "N／V ＋ に伴って／とともに",
           "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "先生",
+              "reading": "せんせい"
+            },
+            {
+              "text": "とともに"
+            },
+            {
+              "text": "研究",
+              "reading": "けんきゅう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l09-g02-ja-vi-04",
@@ -1055,7 +1389,41 @@
           "hint": "N／V ＋ に伴って／とともに",
           "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "円",
+              "reading": "えん"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "伴",
+              "reading": "ともな"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "輸入",
+              "reading": "ゆにゅう"
+            },
+            {
+              "text": "コストが"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がった。"
+            }
+          ]
         },
         {
           "id": "l09-g02-ja-vi-05",
@@ -1067,7 +1435,30 @@
           "hint": "N／V ＋ に伴って／とともに",
           "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "成長",
+              "reading": "せいちょう"
+            },
+            {
+              "text": "とともに"
+            },
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "える。"
+            }
+          ]
         },
         {
           "id": "l09-g02-ja-vi-06",
@@ -1079,7 +1470,45 @@
           "hint": "N／V ＋ に伴って／とともに",
           "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "閉店",
+              "reading": "へいてん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "伴",
+              "reading": "ともな"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "従業",
+              "reading": "じゅうぎょう"
+            },
+            {
+              "text": "員",
+              "reading": "いん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "配置",
+              "reading": "はいち"
+            },
+            {
+              "text": "転換",
+              "reading": "てんかん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l09-g02-ja-vi-07",
@@ -1091,7 +1520,23 @@
           "hint": "N／V ＋ に伴って／とともに",
           "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "とともにプロジェクトを"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "める。"
+            }
+          ]
         },
         {
           "id": "l09-g02-ja-vi-08",
@@ -1103,7 +1548,41 @@
           "hint": "N／V ＋ に伴って／とともに",
           "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "制度",
+              "reading": "せいど"
+            },
+            {
+              "text": "変更",
+              "reading": "へんこう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "伴",
+              "reading": "ともな"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "手続",
+              "reading": "てつづ"
+            },
+            {
+              "text": "きが"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "えた。"
+            }
+          ]
         },
         {
           "id": "l09-g02-ja-vi-09",
@@ -1115,7 +1594,30 @@
           "hint": "N／V ＋ に伴って／とともに",
           "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "夜",
+              "reading": "よる"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "更",
+              "reading": "ふ"
+            },
+            {
+              "text": "けるとともに"
+            },
+            {
+              "text": "寒",
+              "reading": "さむ"
+            },
+            {
+              "text": "くなった。"
+            }
+          ]
         },
         {
           "id": "l09-g02-ja-vi-10",
@@ -1127,7 +1629,30 @@
           "hint": "N／V ＋ に伴って／とともに",
           "explanation": "Câu dùng に伴って／とともに: cùng với A thì B, hoặc cùng với ai đó.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "留学",
+              "reading": "りゅうがく"
+            },
+            {
+              "text": "とともに"
+            },
+            {
+              "text": "視野",
+              "reading": "しや"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "広",
+              "reading": "ひろ"
+            },
+            {
+              "text": "がった。"
+            }
+          ]
         },
         {
           "id": "l09-g02-order-01",
@@ -1774,7 +2299,34 @@
           "hint": "N ＋ 次第だ／次第で",
           "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "勝敗",
+              "reading": "しょうはい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "運",
+              "reading": "うん"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "だと"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "われる。"
+            }
+          ]
         },
         {
           "id": "l09-g03-ja-vi-02",
@@ -1786,7 +2338,41 @@
           "hint": "N ＋ 次第だ／次第で",
           "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "返事",
+              "reading": "へんじ"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "次",
+              "reading": "つぎ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "予定",
+              "reading": "よてい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "める。"
+            }
+          ]
         },
         {
           "id": "l09-g03-ja-vi-03",
@@ -1798,7 +2384,34 @@
           "hint": "N ＋ 次第だ／次第で",
           "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "味",
+              "reading": "あじ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "火加減",
+              "reading": "ひかげん"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わる。"
+            }
+          ]
         },
         {
           "id": "l09-g03-ja-vi-04",
@@ -1810,7 +2423,34 @@
           "hint": "N ＋ 次第だ／次第で",
           "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "条件",
+              "reading": "じょうけん"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "結",
+              "reading": "むす"
+            },
+            {
+              "text": "べる。"
+            }
+          ]
         },
         {
           "id": "l09-g03-ja-vi-05",
@@ -1822,7 +2462,34 @@
           "hint": "N ＋ 次第だ／次第で",
           "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "売上",
+              "reading": "うりあげ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "宣伝",
+              "reading": "せんでん"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "伸",
+              "reading": "の"
+            },
+            {
+              "text": "びる。"
+            }
+          ]
         },
         {
           "id": "l09-g03-ja-vi-06",
@@ -1834,7 +2501,31 @@
           "hint": "N ＋ 次第だ／次第で",
           "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安全",
+              "reading": "あんぜん"
+            },
+            {
+              "text": "性",
+              "reading": "せい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "管理",
+              "reading": "かんり"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l09-g03-ja-vi-07",
@@ -1846,7 +2537,41 @@
           "hint": "N ＋ 次第だ／次第で",
           "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "行",
+              "reading": "ゆ"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "先",
+              "reading": "さき"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "気分",
+              "reading": "きぶん"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "める。"
+            }
+          ]
         },
         {
           "id": "l09-g03-ja-vi-08",
@@ -1858,7 +2583,42 @@
           "hint": "N ＋ 次第だ／次第で",
           "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "評価",
+              "reading": "ひょうか"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "提出",
+              "reading": "ていしゅつ"
+            },
+            {
+              "text": "物",
+              "reading": "ぶつ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "完成",
+              "reading": "かんせい"
+            },
+            {
+              "text": "度",
+              "reading": "ど"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "です。"
+            }
+          ]
         },
         {
           "id": "l09-g03-ja-vi-09",
@@ -1870,7 +2630,34 @@
           "hint": "N ＋ 次第だ／次第で",
           "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "参加",
+              "reading": "さんか"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "本人",
+              "reading": "ほんにん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "意思",
+              "reading": "いし"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l09-g03-ja-vi-10",
@@ -1882,7 +2669,41 @@
           "hint": "N ＋ 次第だ／次第で",
           "explanation": "Câu dùng 次第だ／次第で: kết quả tùy thuộc vào N (không phải 'ngay khi').",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "納期",
+              "reading": "のうき"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "工場",
+              "reading": "こうじょう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "都合",
+              "reading": "つごう"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "延",
+              "reading": "の"
+            },
+            {
+              "text": "びる。"
+            }
+          ]
         },
         {
           "id": "l09-g03-order-01",
@@ -2542,7 +3363,37 @@
           "hint": "N ＋ に応じて／に応じ",
           "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "状況",
+              "reading": "じょうきょう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "柔軟",
+              "reading": "じゅうなん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対応",
+              "reading": "たいおう"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l09-g04-ja-vi-02",
@@ -2554,7 +3405,30 @@
           "hint": "N ＋ に応じて／に応じ",
           "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "実力",
+              "reading": "じつりょく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じたクラス"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "けをする。"
+            }
+          ]
         },
         {
           "id": "l09-g04-ja-vi-03",
@@ -2566,7 +3440,41 @@
           "hint": "N ＋ に応じて／に応じ",
           "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "需要",
+              "reading": "じゅよう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "生産",
+              "reading": "せいさん"
+            },
+            {
+              "text": "量",
+              "reading": "りょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "調整",
+              "reading": "ちょうせい"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l09-g04-ja-vi-04",
@@ -2578,7 +3486,30 @@
           "hint": "N ＋ に応じて／に応じ",
           "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "季節",
+              "reading": "きせつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じたメニューを"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "す。"
+            }
+          ]
         },
         {
           "id": "l09-g04-ja-vi-05",
@@ -2590,7 +3521,37 @@
           "hint": "N ＋ に応じて／に応じ",
           "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "規模",
+              "reading": "きぼ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "設備",
+              "reading": "せつび"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "整",
+              "reading": "ととの"
+            },
+            {
+              "text": "える。"
+            }
+          ]
         },
         {
           "id": "l09-g04-ja-vi-06",
@@ -2602,7 +3563,41 @@
           "hint": "N ＋ に応じて／に応じ",
           "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "指導",
+              "reading": "しどう"
+            },
+            {
+              "text": "方法",
+              "reading": "ほうほう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "える。"
+            }
+          ]
         },
         {
           "id": "l09-g04-ja-vi-07",
@@ -2614,7 +3609,33 @@
           "hint": "N ＋ に応じて／に応じ",
           "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "リスクに"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じた"
+            },
+            {
+              "text": "保険",
+              "reading": "ほけん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "入",
+              "reading": "はい"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l09-g04-ja-vi-08",
@@ -2626,7 +3647,41 @@
           "hint": "N ＋ に応じて／に応じ",
           "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "成績",
+              "reading": "せいせき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "奨学",
+              "reading": "しょうがく"
+            },
+            {
+              "text": "金",
+              "reading": "きん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "支給",
+              "reading": "しきゅう"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l09-g04-ja-vi-09",
@@ -2638,7 +3693,37 @@
           "hint": "N ＋ に応じて／に応じ",
           "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "天候",
+              "reading": "てんこう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "服装",
+              "reading": "ふくそう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "選",
+              "reading": "えら"
+            },
+            {
+              "text": "ぶ。"
+            }
+          ]
         },
         {
           "id": "l09-g04-ja-vi-10",
@@ -2650,7 +3735,44 @@
           "hint": "N ＋ に応じて／に応じ",
           "explanation": "Câu dùng に応じて: xử lý tương ứng / tùy theo mức độ hoặc nhu cầu.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "目的",
+              "reading": "もくてき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "応",
+              "reading": "おう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "道具",
+              "reading": "どうぐ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "使",
+              "reading": "つか"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "ける。"
+            }
+          ]
         },
         {
           "id": "l09-g04-order-01",
@@ -3319,7 +4441,44 @@
           "hint": "V／N ＋ につけて／につけ",
           "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "笑顔",
+              "reading": "えがお"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "るにつけ"
+            },
+            {
+              "text": "元気",
+              "reading": "げんき"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l09-g05-ja-vi-02",
@@ -3331,7 +4490,51 @@
           "hint": "V／N ＋ につけて／につけ",
           "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "古",
+              "reading": "ふる"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "日記",
+              "reading": "にっき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "むにつけ"
+            },
+            {
+              "text": "当時",
+              "reading": "とうじ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "す。"
+            }
+          ]
         },
         {
           "id": "l09-g05-ja-vi-03",
@@ -3343,7 +4546,47 @@
           "hint": "V／N ＋ につけて／につけ",
           "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ニュースを"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "るにつけ"
+            },
+            {
+              "text": "世",
+              "reading": "よ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "中",
+              "reading": "なか"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "厳",
+              "reading": "きび"
+            },
+            {
+              "text": "しさを"
+            },
+            {
+              "text": "感",
+              "reading": "かん"
+            },
+            {
+              "text": "じる。"
+            }
+          ]
         },
         {
           "id": "l09-g05-ja-vi-04",
@@ -3355,7 +4598,47 @@
           "hint": "V／N ＋ につけて／につけ",
           "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "道",
+              "reading": "みち"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "とお"
+            },
+            {
+              "text": "るにつけ"
+            },
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "のことを"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "す。"
+            }
+          ]
         },
         {
           "id": "l09-g05-ja-vi-05",
@@ -3367,7 +4650,37 @@
           "hint": "V／N ＋ につけて／につけ",
           "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "するにつけ"
+            },
+            {
+              "text": "周囲",
+              "reading": "しゅうい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "支",
+              "reading": "ささ"
+            },
+            {
+              "text": "えに"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "づく。"
+            }
+          ]
         },
         {
           "id": "l09-g05-ja-vi-06",
@@ -3379,7 +4692,30 @@
           "hint": "V／N ＋ につけて／につけ",
           "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "冬",
+              "reading": "ふゆ"
+            },
+            {
+              "text": "になるにつけ"
+            },
+            {
+              "text": "関節",
+              "reading": "かんせつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "痛",
+              "reading": "いた"
+            },
+            {
+              "text": "む。"
+            }
+          ]
         },
         {
           "id": "l09-g05-ja-vi-07",
@@ -3391,7 +4727,37 @@
           "hint": "V／N ＋ につけて／につけ",
           "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "手紙",
+              "reading": "てがみ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "むにつけ"
+            },
+            {
+              "text": "安心",
+              "reading": "あんしん"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l09-g05-ja-vi-08",
@@ -3403,7 +4769,30 @@
           "hint": "V／N ＋ につけて／につけ",
           "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "につけ"
+            },
+            {
+              "text": "学",
+              "reading": "まな"
+            },
+            {
+              "text": "びがあると"
+            },
+            {
+              "text": "感",
+              "reading": "かん"
+            },
+            {
+              "text": "じる。"
+            }
+          ]
         },
         {
           "id": "l09-g05-ja-vi-09",
@@ -3415,7 +4804,44 @@
           "hint": "V／N ＋ につけて／につけ",
           "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "曲",
+              "reading": "きょく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "口",
+              "reading": "くち"
+            },
+            {
+              "text": "ずさむにつけ"
+            },
+            {
+              "text": "学生",
+              "reading": "がくせい"
+            },
+            {
+              "text": "時代",
+              "reading": "じだい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "蘇",
+              "reading": "よみがえ"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l09-g05-ja-vi-10",
@@ -3427,7 +4853,30 @@
           "hint": "V／N ＋ につけて／につけ",
           "explanation": "Câu dùng につけて／につけ: mỗi khi A thì cảm xúc/phản ứng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 9 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "につけ"
+            },
+            {
+              "text": "気分",
+              "reading": "きぶん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "沈",
+              "reading": "しず"
+            },
+            {
+              "text": "みがちだ。"
+            }
+          ]
         },
         {
           "id": "l09-g05-order-01",

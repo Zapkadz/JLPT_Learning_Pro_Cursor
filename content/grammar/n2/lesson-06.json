@@ -268,7 +268,41 @@
           "hint": "N ＋ に限らず",
           "explanation": "Câu dùng に限らず để nói không chỉ giới hạn ở phạm vi đã nêu.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "若者",
+              "reading": "わかもの"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らず"
+            },
+            {
+              "text": "高齢",
+              "reading": "こうれい"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "利用",
+              "reading": "りよう"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l06-g01-ja-vi-02",
@@ -280,7 +314,51 @@
           "hint": "N ＋ に限らず",
           "explanation": "Câu dùng に限らず để nói không chỉ giới hạn ở phạm vi đã nêu.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らず"
+            },
+            {
+              "text": "晴",
+              "reading": "は"
+            },
+            {
+              "text": "れの"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "混",
+              "reading": "こ"
+            },
+            {
+              "text": "む。"
+            }
+          ]
         },
         {
           "id": "l06-g01-ja-vi-03",
@@ -292,7 +370,41 @@
           "hint": "N ＋ に限らず",
           "explanation": "Câu dùng に限らず để nói không chỉ giới hạn ở phạm vi đã nêu.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "日本語",
+              "reading": "にほんご"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らず"
+            },
+            {
+              "text": "韓国",
+              "reading": "かんこく"
+            },
+            {
+              "text": "語",
+              "reading": "ご"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "勉強",
+              "reading": "べんきょう"
+            },
+            {
+              "text": "している。"
+            }
+          ]
         },
         {
           "id": "l06-g01-ja-vi-04",
@@ -304,7 +416,37 @@
           "hint": "N ＋ に限らず",
           "explanation": "Câu dùng に限らず để nói không chỉ giới hạn ở phạm vi đã nêu.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "都会",
+              "reading": "とかい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らず"
+            },
+            {
+              "text": "田舎",
+              "reading": "いなか"
+            },
+            {
+              "text": "でもネットが"
+            },
+            {
+              "text": "使",
+              "reading": "つか"
+            },
+            {
+              "text": "える。"
+            }
+          ]
         },
         {
           "id": "l06-g01-ja-vi-05",
@@ -316,7 +458,37 @@
           "hint": "N ＋ に限らず",
           "explanation": "Câu dùng に限らず để nói không chỉ giới hạn ở phạm vi đã nêu.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "平日",
+              "reading": "へいじつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らず"
+            },
+            {
+              "text": "土日",
+              "reading": "どにち"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "配達",
+              "reading": "はいたつ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l06-g01-ja-vi-06",
@@ -328,7 +500,41 @@
           "hint": "N ＋ に限らず",
           "explanation": "Câu dùng に限らず để nói không chỉ giới hạn ở phạm vi đã nêu.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "初心者",
+              "reading": "しょしんしゃ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らず"
+            },
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "歓迎",
+              "reading": "かんげい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l06-g01-ja-vi-07",
@@ -340,7 +546,37 @@
           "hint": "N ＋ に限らず",
           "explanation": "Câu dùng に限らず để nói không chỉ giới hạn ở phạm vi đã nêu.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "昼間",
+              "reading": "ひるま"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らず"
+            },
+            {
+              "text": "夜",
+              "reading": "よる"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "営業",
+              "reading": "えいぎょう"
+            },
+            {
+              "text": "している。"
+            }
+          ]
         },
         {
           "id": "l06-g01-ja-vi-08",
@@ -352,7 +588,45 @@
           "hint": "N ＋ に限らず",
           "explanation": "Câu dùng に限らず để nói không chỉ giới hạn ở phạm vi đã nêu.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "国内",
+              "reading": "こくない"
+            },
+            {
+              "text": "旅行",
+              "reading": "りょこう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らず"
+            },
+            {
+              "text": "海外",
+              "reading": "かいがい"
+            },
+            {
+              "text": "旅行",
+              "reading": "りょこう"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "えた。"
+            }
+          ]
         },
         {
           "id": "l06-g01-ja-vi-09",
@@ -364,7 +638,33 @@
           "hint": "N ＋ に限らず",
           "explanation": "Câu dùng に限らず để nói không chỉ giới hạn ở phạm vi đã nêu.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "スポーツに"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らず"
+            },
+            {
+              "text": "芸術",
+              "reading": "げいじゅつ"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "盛",
+              "reading": "さか"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l06-g01-ja-vi-10",
@@ -376,7 +676,40 @@
           "hint": "N ＋ に限らず",
           "explanation": "Câu dùng に限らず để nói không chỉ giới hạn ở phạm vi đã nêu.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "店",
+              "reading": "みせ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らず"
+            },
+            {
+              "text": "駅前",
+              "reading": "えきまえ"
+            },
+            {
+              "text": "はどこも"
+            },
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l06-g01-order-01",
@@ -1019,7 +1352,30 @@
           "hint": "N ＋ のみならず",
           "explanation": "Câu dùng のみならず (trang trọng) để nói không chỉ A mà còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "歌",
+              "reading": "うた"
+            },
+            {
+              "text": "のみならずダンスも"
+            },
+            {
+              "text": "得意",
+              "reading": "とくい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l06-g02-ja-vi-02",
@@ -1031,7 +1387,30 @@
           "hint": "N ＋ のみならず",
           "explanation": "Câu dùng のみならず (trang trọng) để nói không chỉ A mà còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安全",
+              "reading": "あんぜん"
+            },
+            {
+              "text": "のみならず"
+            },
+            {
+              "text": "環境",
+              "reading": "かんきょう"
+            },
+            {
+              "text": "にも"
+            },
+            {
+              "text": "配慮",
+              "reading": "はいりょ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l06-g02-ja-vi-03",
@@ -1043,7 +1422,30 @@
           "hint": "N ＋ のみならず",
           "explanation": "Câu dùng のみならず (trang trọng) để nói không chỉ A mà còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "のみならず"
+            },
+            {
+              "text": "資格",
+              "reading": "しかく"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "求",
+              "reading": "もと"
+            },
+            {
+              "text": "められている。"
+            }
+          ]
         },
         {
           "id": "l06-g02-ja-vi-04",
@@ -1055,7 +1457,34 @@
           "hint": "N ＋ のみならず",
           "explanation": "Câu dùng のみならず (trang trọng) để nói không chỉ A mà còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "昼間",
+              "reading": "ひるま"
+            },
+            {
+              "text": "のみならず"
+            },
+            {
+              "text": "夜間",
+              "reading": "やかん"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "対応",
+              "reading": "たいおう"
+            },
+            {
+              "text": "可能",
+              "reading": "かのう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l06-g02-ja-vi-05",
@@ -1067,7 +1496,30 @@
           "hint": "N ＋ のみならず",
           "explanation": "Câu dùng のみならず (trang trọng) để nói không chỉ A mà còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "紙",
+              "reading": "かみ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "のみならずデータも"
+            },
+            {
+              "text": "提出",
+              "reading": "ていしゅつ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l06-g02-ja-vi-06",
@@ -1079,7 +1531,27 @@
           "hint": "N ＋ のみならず",
           "explanation": "Câu dùng のみならず (trang trọng) để nói không chỉ A mà còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "国内",
+              "reading": "こくない"
+            },
+            {
+              "text": "のみならず"
+            },
+            {
+              "text": "海外",
+              "reading": "かいがい"
+            },
+            {
+              "text": "拠点",
+              "reading": "きょてん"
+            },
+            {
+              "text": "もある。"
+            }
+          ]
         },
         {
           "id": "l06-g02-ja-vi-07",
@@ -1091,7 +1563,23 @@
           "hint": "N ＋ のみならず",
           "explanation": "Câu dùng のみならず (trang trọng) để nói không chỉ A mà còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "性能",
+              "reading": "せいのう"
+            },
+            {
+              "text": "のみならずデザインも"
+            },
+            {
+              "text": "優",
+              "reading": "すぐ"
+            },
+            {
+              "text": "れている。"
+            }
+          ]
         },
         {
           "id": "l06-g02-ja-vi-08",
@@ -1103,7 +1591,34 @@
           "hint": "N ＋ のみならず",
           "explanation": "Câu dùng のみならず (trang trọng) để nói không chỉ A mà còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "教師",
+              "reading": "きょうし"
+            },
+            {
+              "text": "のみならず"
+            },
+            {
+              "text": "保護",
+              "reading": "ほご"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "協力",
+              "reading": "きょうりょく"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l06-g02-ja-vi-09",
@@ -1115,7 +1630,30 @@
           "hint": "N ＋ のみならず",
           "explanation": "Câu dùng のみならず (trang trọng) để nói không chỉ A mà còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "費用",
+              "reading": "ひよう"
+            },
+            {
+              "text": "のみならず"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l06-g02-ja-vi-10",
@@ -1127,7 +1665,30 @@
           "hint": "N ＋ のみならず",
           "explanation": "Câu dùng のみならず (trang trọng) để nói không chỉ A mà còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "日本語",
+              "reading": "にほんご"
+            },
+            {
+              "text": "のみならず"
+            },
+            {
+              "text": "文化",
+              "reading": "ぶんか"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "学",
+              "reading": "まな"
+            },
+            {
+              "text": "んでいる。"
+            }
+          ]
         },
         {
           "id": "l06-g02-order-01",
@@ -1763,7 +2324,37 @@
           "hint": "N／V ＋ ばかりか",
           "explanation": "Câu dùng ばかりか để nói không chỉ A mà thậm chí B (mức độ mạnh hơn).",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "文句",
+              "reading": "もんく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "うばかりか"
+            },
+            {
+              "text": "怒鳴",
+              "reading": "どな"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l06-g03-ja-vi-02",
@@ -1775,7 +2366,23 @@
           "hint": "N／V ＋ ばかりか",
           "explanation": "Câu dùng ばかりか để nói không chỉ A mà thậm chí B (mức độ mạnh hơn).",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "狭",
+              "reading": "せま"
+            },
+            {
+              "text": "いばかりか"
+            },
+            {
+              "text": "窓",
+              "reading": "まど"
+            },
+            {
+              "text": "もない。"
+            }
+          ]
         },
         {
           "id": "l06-g03-ja-vi-03",
@@ -1787,7 +2394,30 @@
           "hint": "N／V ＋ ばかりか",
           "explanation": "Câu dùng ばかりか để nói không chỉ A mà thậm chí B (mức độ mạnh hơn).",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "がないばかりか"
+            },
+            {
+              "text": "案内",
+              "reading": "あんない"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "不親切",
+              "reading": "ふしんせつ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l06-g03-ja-vi-04",
@@ -1799,7 +2429,30 @@
           "hint": "N／V ＋ ばかりか",
           "explanation": "Câu dùng ばかりか để nói không chỉ A mà thậm chí B (mức độ mạnh hơn).",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "破",
+              "reading": "やぶ"
+            },
+            {
+              "text": "ったばかりか"
+            },
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "までついた。"
+            }
+          ]
         },
         {
           "id": "l06-g03-ja-vi-05",
@@ -1811,7 +2464,23 @@
           "hint": "N／V ＋ ばかりか",
           "explanation": "Câu dùng ばかりか để nói không chỉ A mà thậm chí B (mức độ mạnh hơn).",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "がないばかりか"
+            },
+            {
+              "text": "予算",
+              "reading": "よさん"
+            },
+            {
+              "text": "もない。"
+            }
+          ]
         },
         {
           "id": "l06-g03-ja-vi-06",
@@ -1823,7 +2492,30 @@
           "hint": "N／V ＋ ばかりか",
           "explanation": "Câu dùng ばかりか để nói không chỉ A mà thậm chí B (mức độ mạnh hơn).",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "けないばかりか"
+            },
+            {
+              "text": "笑",
+              "reading": "わら"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l06-g03-ja-vi-07",
@@ -1835,7 +2527,34 @@
           "hint": "N／V ＋ ばかりか",
           "explanation": "Câu dùng ばかりか để nói không chỉ A mà thậm chí B (mức độ mạnh hơn).",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "道",
+              "reading": "みち"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "混",
+              "reading": "こ"
+            },
+            {
+              "text": "んでいるばかりか"
+            },
+            {
+              "text": "工事",
+              "reading": "こうじ"
+            },
+            {
+              "text": "中",
+              "reading": "ちゅう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l06-g03-ja-vi-08",
@@ -1847,7 +2566,30 @@
           "hint": "N／V ＋ ばかりか",
           "explanation": "Câu dùng ばかりか để nói không chỉ A mà thậm chí B (mức độ mạnh hơn).",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "味",
+              "reading": "あじ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "薄",
+              "reading": "うす"
+            },
+            {
+              "text": "いばかりか"
+            },
+            {
+              "text": "冷",
+              "reading": "さ"
+            },
+            {
+              "text": "めていた。"
+            }
+          ]
         },
         {
           "id": "l06-g03-ja-vi-09",
@@ -1859,7 +2601,30 @@
           "hint": "N／V ＋ ばかりか",
           "explanation": "Câu dùng ばかりか để nói không chỉ A mà thậm chí B (mức độ mạnh hơn).",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "がないばかりか"
+            },
+            {
+              "text": "電話",
+              "reading": "でんわ"
+            },
+            {
+              "text": "にも"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l06-g03-ja-vi-10",
@@ -1871,7 +2636,30 @@
           "hint": "N／V ＋ ばかりか",
           "explanation": "Câu dùng ばかりか để nói không chỉ A mà thậm chí B (mức độ mạnh hơn).",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "したばかりか"
+            },
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れた。"
+            }
+          ]
         },
         {
           "id": "l06-g03-order-01",
@@ -2528,7 +3316,30 @@
           "hint": "N ＋ はもとより",
           "explanation": "Câu dùng はもとより: A đương nhiên rồi, B cũng vậy / thậm chí hơn.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "漢字",
+              "reading": "かんじ"
+            },
+            {
+              "text": "はもとよりひらがなも"
+            },
+            {
+              "text": "書",
+              "reading": "か"
+            },
+            {
+              "text": "けない。"
+            }
+          ]
         },
         {
           "id": "l06-g04-ja-vi-02",
@@ -2540,7 +3351,30 @@
           "hint": "N ＋ はもとより",
           "explanation": "Câu dùng はもとより: A đương nhiên rồi, B cũng vậy / thậm chí hơn.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "費用",
+              "reading": "ひよう"
+            },
+            {
+              "text": "はもとより"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "足",
+              "reading": "た"
+            },
+            {
+              "text": "りない。"
+            }
+          ]
         },
         {
           "id": "l06-g04-ja-vi-03",
@@ -2552,7 +3386,34 @@
           "hint": "N ＋ はもとより",
           "explanation": "Câu dùng はもとより: A đương nhiên rồi, B cũng vậy / thậm chí hơn.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "初心者",
+              "reading": "しょしんしゃ"
+            },
+            {
+              "text": "はもとより"
+            },
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l06-g04-ja-vi-04",
@@ -2564,7 +3425,44 @@
           "hint": "N ＋ はもとより",
           "explanation": "Câu dùng はもとより: A đương nhiên rồi, B cũng vậy / thậm chí hơn.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "はもとより"
+            },
+            {
+              "text": "晴",
+              "reading": "は"
+            },
+            {
+              "text": "れの"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "滑",
+              "reading": "すべ"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l06-g04-ja-vi-05",
@@ -2576,7 +3474,37 @@
           "hint": "N ＋ はもとより",
           "explanation": "Câu dùng はもとより: A đương nhiên rồi, B cũng vậy / thậm chí hơn.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "国内",
+              "reading": "こくない"
+            },
+            {
+              "text": "はもとより"
+            },
+            {
+              "text": "海外",
+              "reading": "かいがい"
+            },
+            {
+              "text": "でも"
+            },
+            {
+              "text": "評価",
+              "reading": "ひょうか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l06-g04-ja-vi-06",
@@ -2588,7 +3516,30 @@
           "hint": "N ＋ はもとより",
           "explanation": "Câu dùng はもとより: A đương nhiên rồi, B cũng vậy / thậm chí hơn.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "味",
+              "reading": "あじ"
+            },
+            {
+              "text": "はもとより"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "た"
+            },
+            {
+              "text": "目",
+              "reading": "め"
+            },
+            {
+              "text": "もきれいだ。"
+            }
+          ]
         },
         {
           "id": "l06-g04-ja-vi-07",
@@ -2600,7 +3551,34 @@
           "hint": "N ＋ はもとより",
           "explanation": "Câu dùng はもとより: A đương nhiên rồi, B cũng vậy / thậm chí hơn.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "速度",
+              "reading": "そくど"
+            },
+            {
+              "text": "はもとより"
+            },
+            {
+              "text": "安定",
+              "reading": "あんてい"
+            },
+            {
+              "text": "性",
+              "reading": "せい"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "求",
+              "reading": "もと"
+            },
+            {
+              "text": "められる。"
+            }
+          ]
         },
         {
           "id": "l06-g04-ja-vi-08",
@@ -2612,7 +3590,30 @@
           "hint": "N ＋ はもとより",
           "explanation": "Câu dùng はもとより: A đương nhiên rồi, B cũng vậy / thậm chí hơn.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "昼間",
+              "reading": "ひるま"
+            },
+            {
+              "text": "はもとより"
+            },
+            {
+              "text": "夜間",
+              "reading": "やかん"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "警備",
+              "reading": "けいび"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l06-g04-ja-vi-09",
@@ -2624,7 +3625,38 @@
           "hint": "N ＋ はもとより",
           "explanation": "Câu dùng はもとより: A đương nhiên rồi, B cũng vậy / thậm chí hơn.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "大",
+              "reading": "だい"
+            },
+            {
+              "text": "企業",
+              "reading": "きぎょう"
+            },
+            {
+              "text": "はもとより"
+            },
+            {
+              "text": "中小",
+              "reading": "ちゅうしょう"
+            },
+            {
+              "text": "企業",
+              "reading": "きぎょう"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "導入",
+              "reading": "どうにゅう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l06-g04-ja-vi-10",
@@ -2636,7 +3668,34 @@
           "hint": "N ＋ はもとより",
           "explanation": "Câu dùng はもとより: A đương nhiên rồi, B cũng vậy / thậm chí hơn.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "はもとより"
+            },
+            {
+              "text": "本人",
+              "reading": "ほんにん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "一番",
+              "reading": "いちばん"
+            },
+            {
+              "text": "悩",
+              "reading": "なや"
+            },
+            {
+              "text": "んでいる。"
+            }
+          ]
         },
         {
           "id": "l06-g04-order-01",
@@ -3316,7 +4375,30 @@
           "hint": "N／A／V ＋ 上（に）",
           "explanation": "Câu dùng 上に để cộng dồn: đã A lại còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "狭",
+              "reading": "せま"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "暗",
+              "reading": "くら"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l06-g05-ja-vi-02",
@@ -3328,7 +4410,41 @@
           "hint": "N／A／V ＋ 上（に）",
           "explanation": "Câu dùng 上に để cộng dồn: đã A lại còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "豊富",
+              "reading": "ほうふ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "人望",
+              "reading": "じんぼう"
+            },
+            {
+              "text": "もある。"
+            }
+          ]
         },
         {
           "id": "l06-g05-ja-vi-03",
@@ -3340,7 +4456,37 @@
           "hint": "N／A／V ＋ 上（に）",
           "explanation": "Câu dùng 上に để cộng dồn: đã A lại còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "破",
+              "reading": "やぶ"
+            },
+            {
+              "text": "った"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "もしない。"
+            }
+          ]
         },
         {
           "id": "l06-g05-ja-vi-04",
@@ -3352,7 +4498,47 @@
           "hint": "N／A／V ＋ 上（に）",
           "explanation": "Câu dùng 上に để cộng dồn: đã A lại còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "店",
+              "reading": "みせ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "量",
+              "reading": "りょう"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "多",
+              "reading": "おお"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l06-g05-ja-vi-05",
@@ -3364,7 +4550,37 @@
           "hint": "N／A／V ＋ 上（に）",
           "explanation": "Câu dùng 上に để cộng dồn: đã A lại còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "長",
+              "reading": "なが"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かりにくい。"
+            }
+          ]
         },
         {
           "id": "l06-g05-ja-vi-06",
@@ -3376,7 +4592,44 @@
           "hint": "N／A／V ＋ 上（に）",
           "explanation": "Câu dùng 上に để cộng dồn: đã A lại còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れた。"
+            }
+          ]
         },
         {
           "id": "l06-g05-ja-vi-07",
@@ -3388,7 +4641,44 @@
           "hint": "N／A／V ＋ 上（に）",
           "explanation": "Câu dùng 上に để cộng dồn: đã A lại còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "物価",
+              "reading": "ぶっか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がった"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "給料",
+              "reading": "きゅうりょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わらない。"
+            }
+          ]
         },
         {
           "id": "l06-g05-ja-vi-08",
@@ -3400,7 +4690,37 @@
           "hint": "N／A／V ＋ 上（に）",
           "explanation": "Câu dùng 上に để cộng dồn: đã A lại còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "道",
+              "reading": "みち"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "った"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "電池",
+              "reading": "でんち"
+            },
+            {
+              "text": "がなくなった。"
+            }
+          ]
         },
         {
           "id": "l06-g05-ja-vi-09",
@@ -3412,7 +4732,37 @@
           "hint": "N／A／V ＋ 上（に）",
           "explanation": "Câu dùng 上に để cộng dồn: đã A lại còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "美",
+              "reading": "うつく"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "優",
+              "reading": "やさ"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l06-g05-ja-vi-10",
@@ -3424,7 +4774,44 @@
           "hint": "N／A／V ＋ 上（に）",
           "explanation": "Câu dùng 上に để cộng dồn: đã A lại còn B.",
           "origin": "authored",
-          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 6 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "長",
+              "reading": "なが"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "結論",
+              "reading": "けつろん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l06-g05-order-01",

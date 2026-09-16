@@ -243,7 +243,23 @@
           "hint": "N ＋ とは",
           "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "AIとは"
+            },
+            {
+              "text": "人工",
+              "reading": "じんこう"
+            },
+            {
+              "text": "知能",
+              "reading": "ちのう"
+            },
+            {
+              "text": "のことだ。"
+            }
+          ]
         },
         {
           "id": "l13-g01-ja-vi-02",
@@ -255,7 +271,34 @@
           "hint": "N ＋ とは",
           "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "方言",
+              "reading": "ほうげん"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "地域",
+              "reading": "ちいき"
+            },
+            {
+              "text": "特有",
+              "reading": "とくゆう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "言葉",
+              "reading": "ことば"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g01-ja-vi-03",
@@ -267,7 +310,37 @@
           "hint": "N ＋ とは",
           "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "予算",
+              "reading": "よさん"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "使",
+              "reading": "つか"
+            },
+            {
+              "text": "えるお"
+            },
+            {
+              "text": "金",
+              "reading": "かね"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g01-ja-vi-04",
@@ -279,7 +352,41 @@
           "hint": "N ＋ とは",
           "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "履歴",
+              "reading": "りれき"
+            },
+            {
+              "text": "書",
+              "reading": "しょ"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "職歴",
+              "reading": "しょくれき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "書",
+              "reading": "か"
+            },
+            {
+              "text": "く"
+            },
+            {
+              "text": "書類",
+              "reading": "しょるい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g01-ja-vi-05",
@@ -291,7 +398,34 @@
           "hint": "N ＋ とは",
           "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "残業",
+              "reading": "ざんぎょう"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "定時",
+              "reading": "ていじ"
+            },
+            {
+              "text": "後",
+              "reading": "ご"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "働",
+              "reading": "はたら"
+            },
+            {
+              "text": "くことだ。"
+            }
+          ]
         },
         {
           "id": "l13-g01-ja-vi-06",
@@ -303,7 +437,34 @@
           "hint": "N ＋ とは",
           "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "条約",
+              "reading": "じょうやく"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "国",
+              "reading": "くに"
+            },
+            {
+              "text": "同士",
+              "reading": "どうし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g01-ja-vi-07",
@@ -315,7 +476,37 @@
           "hint": "N ＋ とは",
           "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "栄養",
+              "reading": "えいよう"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "体",
+              "reading": "からだ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "成分",
+              "reading": "せいぶん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g01-ja-vi-08",
@@ -327,7 +518,37 @@
           "hint": "N ＋ とは",
           "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "選挙",
+              "reading": "せんきょ"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "代表",
+              "reading": "だいひょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "選",
+              "reading": "えら"
+            },
+            {
+              "text": "ぶ"
+            },
+            {
+              "text": "制度",
+              "reading": "せいど"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g01-ja-vi-09",
@@ -339,7 +560,44 @@
           "hint": "N ＋ とは",
           "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "習慣",
+              "reading": "しゅうかん"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "繰",
+              "reading": "く"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "返",
+              "reading": "かえ"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "行",
+              "reading": "おこな"
+            },
+            {
+              "text": "う"
+            },
+            {
+              "text": "行動",
+              "reading": "こうどう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g01-ja-vi-10",
@@ -351,7 +609,37 @@
           "hint": "N ＋ とは",
           "explanation": "Câu dùng とは để định nghĩa hoặc giải thích khái niệm.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "偏見",
+              "reading": "へんけん"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "根拠",
+              "reading": "こんきょ"
+            },
+            {
+              "text": "のない"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "込",
+              "reading": "こ"
+            },
+            {
+              "text": "みだ。"
+            }
+          ]
         },
         {
           "id": "l13-g01-order-01",
@@ -1002,7 +1290,30 @@
           "hint": "N ＋ といえば",
           "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "秋",
+              "reading": "あき"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "紅葉",
+              "reading": "こうよう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "美",
+              "reading": "うつく"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l13-g02-ja-vi-02",
@@ -1014,7 +1325,30 @@
           "hint": "N ＋ といえば",
           "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "東京",
+              "reading": "とうきょう"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "便利",
+              "reading": "べんり"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g02-ja-vi-03",
@@ -1026,7 +1360,37 @@
           "hint": "N ＋ といえば",
           "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "頃",
+              "reading": "ころ"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "外",
+              "reading": "そと"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "遊",
+              "reading": "あそ"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l13-g02-ja-vi-04",
@@ -1038,7 +1402,30 @@
           "hint": "N ＋ といえば",
           "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "健康",
+              "reading": "けんこう"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "睡眠",
+              "reading": "すいみん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "大切",
+              "reading": "たいせつ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g02-ja-vi-05",
@@ -1050,7 +1437,34 @@
           "hint": "N ＋ といえば",
           "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "夏",
+              "reading": "なつ"
+            },
+            {
+              "text": "祭",
+              "reading": "まつ"
+            },
+            {
+              "text": "りといえば"
+            },
+            {
+              "text": "浴衣",
+              "reading": "ゆかた"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "着",
+              "reading": "き"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l13-g02-ja-vi-06",
@@ -1062,7 +1476,20 @@
           "hint": "N ＋ といえば",
           "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "誕生",
+              "reading": "たんじょう"
+            },
+            {
+              "text": "日",
+              "reading": "び"
+            },
+            {
+              "text": "といえばケーキだ。"
+            }
+          ]
         },
         {
           "id": "l13-g02-ja-vi-07",
@@ -1074,7 +1501,44 @@
           "hint": "N ＋ といえば",
           "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "家",
+              "reading": "いえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "本",
+              "reading": "ほん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "む。"
+            }
+          ]
         },
         {
           "id": "l13-g02-ja-vi-08",
@@ -1086,7 +1550,23 @@
           "hint": "N ＋ といえば",
           "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "のストレスといえば"
+            },
+            {
+              "text": "残業",
+              "reading": "ざんぎょう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g02-ja-vi-09",
@@ -1098,7 +1578,30 @@
           "hint": "N ＋ といえば",
           "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "旅行",
+              "reading": "りょこう"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "楽",
+              "reading": "たの"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l13-g02-ja-vi-10",
@@ -1110,7 +1613,30 @@
           "hint": "N ＋ といえば",
           "explanation": "Câu dùng といえば: nhắc chủ đề rồi liên tưởng điều tiêu biểu.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "勉強",
+              "reading": "べんきょう"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "辞書",
+              "reading": "じしょ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g02-order-01",
@@ -1762,7 +2288,30 @@
           "hint": "〜というと／といえば／といったら",
           "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "休日",
+              "reading": "きゅうじつ"
+            },
+            {
+              "text": "というと"
+            },
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "過",
+              "reading": "す"
+            },
+            {
+              "text": "ごす。"
+            }
+          ]
         },
         {
           "id": "l13-g03-ja-vi-02",
@@ -1774,7 +2323,23 @@
           "hint": "〜というと／といえば／といったら",
           "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "運動",
+              "reading": "うんどう"
+            },
+            {
+              "text": "といえばジョギングが"
+            },
+            {
+              "text": "好",
+              "reading": "す"
+            },
+            {
+              "text": "きだ。"
+            }
+          ]
         },
         {
           "id": "l13-g03-ja-vi-03",
@@ -1786,7 +2351,34 @@
           "hint": "〜というと／といえば／といったら",
           "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "料理",
+              "reading": "りょうり"
+            },
+            {
+              "text": "といったら"
+            },
+            {
+              "text": "本格",
+              "reading": "ほんかく"
+            },
+            {
+              "text": "的",
+              "reading": "てき"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g03-ja-vi-04",
@@ -1798,7 +2390,23 @@
           "hint": "〜というと／といえば／といったら",
           "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "冬",
+              "reading": "ふゆ"
+            },
+            {
+              "text": "というとこたつが"
+            },
+            {
+              "text": "恋",
+              "reading": "こい"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l13-g03-ja-vi-05",
@@ -1810,7 +2418,27 @@
           "hint": "〜というと／といえば／といったら",
           "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "通勤",
+              "reading": "つうきん"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "満員",
+              "reading": "まんいん"
+            },
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g03-ja-vi-06",
@@ -1822,7 +2450,30 @@
           "hint": "〜というと／といえば／といったら",
           "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "といったら"
+            },
+            {
+              "text": "学",
+              "reading": "まな"
+            },
+            {
+              "text": "びの"
+            },
+            {
+              "text": "機会",
+              "reading": "きかい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g03-ja-vi-07",
@@ -1834,7 +2485,34 @@
           "hint": "〜というと／といえば／といったら",
           "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "春",
+              "reading": "はる"
+            },
+            {
+              "text": "というと"
+            },
+            {
+              "text": "花粉",
+              "reading": "かふん"
+            },
+            {
+              "text": "症",
+              "reading": "しょう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "注意",
+              "reading": "ちゅうい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g03-ja-vi-08",
@@ -1846,7 +2524,30 @@
           "hint": "〜というと／といえば／といったら",
           "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "といえば"
+            },
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g03-ja-vi-09",
@@ -1858,7 +2559,30 @@
           "hint": "〜というと／といえば／といったら",
           "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "優",
+              "reading": "やさ"
+            },
+            {
+              "text": "しさといったら"
+            },
+            {
+              "text": "有名",
+              "reading": "ゆうめい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g03-ja-vi-10",
@@ -1870,7 +2594,30 @@
           "hint": "〜というと／といえば／といったら",
           "explanation": "Câu nêu chủ đề bằng というと・といえば・といったら rồi liên tưởng.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "旅行",
+              "reading": "りょこう"
+            },
+            {
+              "text": "というと"
+            },
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "大切",
+              "reading": "たいせつ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g03-order-01",
@@ -2516,7 +3263,30 @@
           "hint": "N ＋ （のこと）となると",
           "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "趣味",
+              "reading": "しゅみ"
+            },
+            {
+              "text": "のこととなると"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "長",
+              "reading": "なが"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l13-g04-ja-vi-02",
@@ -2528,7 +3298,23 @@
           "hint": "N ＋ （のこと）となると",
           "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安全",
+              "reading": "あんぜん"
+            },
+            {
+              "text": "のこととなると"
+            },
+            {
+              "text": "妥協",
+              "reading": "だきょう"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l13-g04-ja-vi-03",
@@ -2540,7 +3326,30 @@
           "hint": "N ＋ （のこと）となると",
           "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "試合",
+              "reading": "しあい"
+            },
+            {
+              "text": "となると"
+            },
+            {
+              "text": "急",
+              "reading": "きゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "強",
+              "reading": "つよ"
+            },
+            {
+              "text": "くなる。"
+            }
+          ]
         },
         {
           "id": "l13-g04-ja-vi-04",
@@ -2552,7 +3361,30 @@
           "hint": "N ＋ （のこと）となると",
           "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "将来",
+              "reading": "しょうらい"
+            },
+            {
+              "text": "のこととなると"
+            },
+            {
+              "text": "悩",
+              "reading": "なや"
+            },
+            {
+              "text": "みが"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "える。"
+            }
+          ]
         },
         {
           "id": "l13-g04-ja-vi-05",
@@ -2564,7 +3396,23 @@
           "hint": "N ＋ （のこと）となると",
           "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "料理",
+              "reading": "りょうり"
+            },
+            {
+              "text": "のこととなると"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "がかかる。"
+            }
+          ]
         },
         {
           "id": "l13-g04-ja-vi-06",
@@ -2576,7 +3424,30 @@
           "hint": "N ＋ （のこと）となると",
           "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "となると"
+            },
+            {
+              "text": "書類",
+              "reading": "しょるい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "える。"
+            }
+          ]
         },
         {
           "id": "l13-g04-ja-vi-07",
@@ -2588,7 +3459,23 @@
           "hint": "N ＋ （のこと）となると",
           "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "のこととなると"
+            },
+            {
+              "text": "優先",
+              "reading": "ゆうせん"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l13-g04-ja-vi-08",
@@ -2600,7 +3487,23 @@
           "hint": "N ＋ （のこと）となると",
           "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "品質",
+              "reading": "ひんしつ"
+            },
+            {
+              "text": "のこととなると"
+            },
+            {
+              "text": "妥協",
+              "reading": "だきょう"
+            },
+            {
+              "text": "しない。"
+            }
+          ]
         },
         {
           "id": "l13-g04-ja-vi-09",
@@ -2612,7 +3515,30 @@
           "hint": "N ＋ （のこと）となると",
           "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "通勤",
+              "reading": "つうきん"
+            },
+            {
+              "text": "となると"
+            },
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "混",
+              "reading": "こ"
+            },
+            {
+              "text": "む。"
+            }
+          ]
         },
         {
           "id": "l13-g04-ja-vi-10",
@@ -2624,7 +3550,30 @@
           "hint": "N ＋ （のこと）となると",
           "explanation": "Câu dùng （のこと）となると: cứ đụng đến lĩnh vực đó thì thái độ đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "のこととなると"
+            },
+            {
+              "text": "態度",
+              "reading": "たいど"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わる。"
+            }
+          ]
         },
         {
           "id": "l13-g04-order-01",
@@ -3253,7 +4202,30 @@
           "hint": "N ＋ といったら",
           "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "優",
+              "reading": "やさ"
+            },
+            {
+              "text": "しさといったら"
+            },
+            {
+              "text": "有名",
+              "reading": "ゆうめい"
+            },
+            {
+              "text": "だよ。"
+            }
+          ]
         },
         {
           "id": "l13-g05-ja-vi-02",
@@ -3265,7 +4237,33 @@
           "hint": "N ＋ といったら",
           "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "店",
+              "reading": "みせ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "さといったら"
+            },
+            {
+              "text": "驚",
+              "reading": "おどろ"
+            },
+            {
+              "text": "きだ。"
+            }
+          ]
         },
         {
           "id": "l13-g05-ja-vi-03",
@@ -3277,7 +4275,23 @@
           "hint": "N ＋ といったら",
           "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "渋滞",
+              "reading": "じゅうたい"
+            },
+            {
+              "text": "のひどさといったら"
+            },
+            {
+              "text": "困",
+              "reading": "こま"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l13-g05-ja-vi-04",
@@ -3289,7 +4303,30 @@
           "hint": "N ＋ といったら",
           "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "娘",
+              "reading": "むすめ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "成長",
+              "reading": "せいちょう"
+            },
+            {
+              "text": "といったら"
+            },
+            {
+              "text": "早",
+              "reading": "はや"
+            },
+            {
+              "text": "いものだ。"
+            }
+          ]
         },
         {
           "id": "l13-g05-ja-vi-05",
@@ -3301,7 +4338,16 @@
           "hint": "N ＋ といったら",
           "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "夜景",
+              "reading": "やけい"
+            },
+            {
+              "text": "のきれいさといったらない。"
+            }
+          ]
         },
         {
           "id": "l13-g05-ja-vi-06",
@@ -3313,7 +4359,34 @@
           "hint": "N ＋ といったら",
           "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "といったら"
+            },
+            {
+              "text": "日常",
+              "reading": "にちじょう"
+            },
+            {
+              "text": "茶飯事",
+              "reading": "さはんじ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g05-ja-vi-07",
@@ -3325,7 +4398,33 @@
           "hint": "N ＋ といったら",
           "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "香",
+              "reading": "かお"
+            },
+            {
+              "text": "りの"
+            },
+            {
+              "text": "強",
+              "reading": "つよ"
+            },
+            {
+              "text": "さといったら"
+            },
+            {
+              "text": "独特",
+              "reading": "どくとく"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g05-ja-vi-08",
@@ -3337,7 +4436,30 @@
           "hint": "N ＋ といったら",
           "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "夏休",
+              "reading": "なつやす"
+            },
+            {
+              "text": "みの"
+            },
+            {
+              "text": "短",
+              "reading": "みじか"
+            },
+            {
+              "text": "さといったら"
+            },
+            {
+              "text": "残念",
+              "reading": "ざんねん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l13-g05-ja-vi-09",
@@ -3349,7 +4471,27 @@
           "hint": "N ＋ といったら",
           "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "記憶",
+              "reading": "きおく"
+            },
+            {
+              "text": "力",
+              "reading": "りょく"
+            },
+            {
+              "text": "といったらすごい。"
+            }
+          ]
         },
         {
           "id": "l13-g05-ja-vi-10",
@@ -3361,7 +4503,30 @@
           "hint": "N ＋ といったら",
           "explanation": "Câu dùng といったら để nhấn mức độ hoặc cảm thán khi nhắc chủ đề.",
           "origin": "authored",
-          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 13 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "朝",
+              "reading": "あさ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "混雑",
+              "reading": "こんざつ"
+            },
+            {
+              "text": "といったら"
+            },
+            {
+              "text": "避",
+              "reading": "さ"
+            },
+            {
+              "text": "けたい。"
+            }
+          ]
         },
         {
           "id": "l13-g05-order-01",

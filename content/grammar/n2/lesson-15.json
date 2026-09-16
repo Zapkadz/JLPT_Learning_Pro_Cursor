@@ -262,7 +262,27 @@
           "hint": "〜としたら／となると",
           "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "明日",
+              "reading": "あした"
+            },
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みだとしたら"
+            },
+            {
+              "text": "何",
+              "reading": "なに"
+            },
+            {
+              "text": "をするつもりか。"
+            }
+          ]
         },
         {
           "id": "l15-g01-ja-vi-02",
@@ -274,7 +294,30 @@
           "hint": "〜としたら／となると",
           "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "するとすれば"
+            },
+            {
+              "text": "条件",
+              "reading": "じょうけん"
+            },
+            {
+              "text": "があるはずだ。"
+            }
+          ]
         },
         {
           "id": "l15-g01-ja-vi-03",
@@ -286,7 +329,33 @@
           "hint": "〜としたら／となると",
           "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "数字",
+              "reading": "すうじ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "正",
+              "reading": "ただ"
+            },
+            {
+              "text": "しいとすると"
+            },
+            {
+              "text": "計算",
+              "reading": "けいさん"
+            },
+            {
+              "text": "ミスだ。"
+            }
+          ]
         },
         {
           "id": "l15-g01-ja-vi-04",
@@ -298,7 +367,34 @@
           "hint": "〜としたら／となると",
           "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "解雇",
+              "reading": "かいこ"
+            },
+            {
+              "text": "となったら"
+            },
+            {
+              "text": "生活",
+              "reading": "せいかつ"
+            },
+            {
+              "text": "設計",
+              "reading": "せっけい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見直",
+              "reading": "みなお"
+            },
+            {
+              "text": "す。"
+            }
+          ]
         },
         {
           "id": "l15-g01-ja-vi-05",
@@ -310,7 +406,38 @@
           "hint": "〜としたら／となると",
           "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "破棄",
+              "reading": "はき"
+            },
+            {
+              "text": "となれば"
+            },
+            {
+              "text": "損害",
+              "reading": "そんがい"
+            },
+            {
+              "text": "賠償",
+              "reading": "ばいしょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "発生",
+              "reading": "はっせい"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l15-g01-ja-vi-06",
@@ -322,7 +449,30 @@
           "hint": "〜としたら／となると",
           "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一人暮",
+              "reading": "ひとりぐ"
+            },
+            {
+              "text": "らしとなると"
+            },
+            {
+              "text": "家賃",
+              "reading": "やちん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "重",
+              "reading": "おも"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l15-g01-ja-vi-07",
@@ -334,7 +484,37 @@
           "hint": "〜としたら／となると",
           "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雪",
+              "reading": "ゆき"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "積",
+              "reading": "つ"
+            },
+            {
+              "text": "もったとしたら"
+            },
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "遅",
+              "reading": "おく"
+            },
+            {
+              "text": "れる。"
+            }
+          ]
         },
         {
           "id": "l15-g01-ja-vi-08",
@@ -346,7 +526,41 @@
           "hint": "〜としたら／となると",
           "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "上司",
+              "reading": "じょうし"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "来",
+              "reading": "く"
+            },
+            {
+              "text": "るとすれば"
+            },
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "室",
+              "reading": "しつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "空",
+              "reading": "あ"
+            },
+            {
+              "text": "ける。"
+            }
+          ]
         },
         {
           "id": "l15-g01-ja-vi-09",
@@ -358,7 +572,30 @@
           "hint": "〜としたら／となると",
           "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "値上",
+              "reading": "ねあ"
+            },
+            {
+              "text": "げとなると"
+            },
+            {
+              "text": "客",
+              "reading": "きゃく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "減",
+              "reading": "へ"
+            },
+            {
+              "text": "るだろう。"
+            }
+          ]
         },
         {
           "id": "l15-g01-ja-vi-10",
@@ -370,7 +607,37 @@
           "hint": "〜としたら／となると",
           "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "転勤",
+              "reading": "てんきん"
+            },
+            {
+              "text": "となれば"
+            },
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l15-g01-order-01",
@@ -1011,7 +1278,34 @@
           "hint": "〜ものなら",
           "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "会",
+              "reading": "あ"
+            },
+            {
+              "text": "えるものなら"
+            },
+            {
+              "text": "直接",
+              "reading": "ちょくせつ"
+            },
+            {
+              "text": "会",
+              "reading": "あ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "謝",
+              "reading": "あやま"
+            },
+            {
+              "text": "りたい。"
+            }
+          ]
         },
         {
           "id": "l15-g02-ja-vi-02",
@@ -1023,7 +1317,38 @@
           "hint": "〜ものなら",
           "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "戻",
+              "reading": "もど"
+            },
+            {
+              "text": "れるものなら"
+            },
+            {
+              "text": "十",
+              "reading": "じゅう"
+            },
+            {
+              "text": "年",
+              "reading": "ねん"
+            },
+            {
+              "text": "前",
+              "reading": "まえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "戻",
+              "reading": "もど"
+            },
+            {
+              "text": "りたい。"
+            }
+          ]
         },
         {
           "id": "l15-g02-ja-vi-03",
@@ -1035,7 +1360,30 @@
           "hint": "〜ものなら",
           "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "直",
+              "reading": "なお"
+            },
+            {
+              "text": "せるものなら"
+            },
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "直",
+              "reading": "なお"
+            },
+            {
+              "text": "してみる。"
+            }
+          ]
         },
         {
           "id": "l15-g02-ja-vi-04",
@@ -1047,7 +1395,30 @@
           "hint": "〜ものなら",
           "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "めるものなら"
+            },
+            {
+              "text": "今日",
+              "reading": "きょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みたい。"
+            }
+          ]
         },
         {
           "id": "l15-g02-ja-vi-05",
@@ -1059,7 +1430,30 @@
           "hint": "〜ものなら",
           "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "えるものなら"
+            },
+            {
+              "text": "本音",
+              "reading": "ほんね"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "いたい。"
+            }
+          ]
         },
         {
           "id": "l15-g02-ja-vi-06",
@@ -1071,7 +1465,30 @@
           "hint": "〜ものなら",
           "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "えられるものなら"
+            },
+            {
+              "text": "運命",
+              "reading": "うんめい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "えたい。"
+            }
+          ]
         },
         {
           "id": "l15-g02-ja-vi-07",
@@ -1083,7 +1500,27 @@
           "hint": "〜ものなら",
           "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "帰",
+              "reading": "かえ"
+            },
+            {
+              "text": "れるものなら"
+            },
+            {
+              "text": "今夜",
+              "reading": "こんや"
+            },
+            {
+              "text": "帰",
+              "reading": "かえ"
+            },
+            {
+              "text": "りたい。"
+            }
+          ]
         },
         {
           "id": "l15-g02-ja-vi-08",
@@ -1095,7 +1532,30 @@
           "hint": "〜ものなら",
           "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れられるものなら"
+            },
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れたい。"
+            }
+          ]
         },
         {
           "id": "l15-g02-ja-vi-09",
@@ -1107,7 +1567,30 @@
           "hint": "〜ものなら",
           "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "けられるものなら"
+            },
+            {
+              "text": "全力",
+              "reading": "ぜんりょく"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "けたい。"
+            }
+          ]
         },
         {
           "id": "l15-g02-ja-vi-10",
@@ -1119,7 +1602,33 @@
           "hint": "〜ものなら",
           "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "やり"
+            },
+            {
+              "text": "直",
+              "reading": "なお"
+            },
+            {
+              "text": "せるものなら"
+            },
+            {
+              "text": "試験",
+              "reading": "しけん"
+            },
+            {
+              "text": "をやり"
+            },
+            {
+              "text": "直",
+              "reading": "なお"
+            },
+            {
+              "text": "したい。"
+            }
+          ]
         },
         {
           "id": "l15-g02-order-01",
@@ -1760,7 +2269,30 @@
           "hint": "〜（よ）うものなら",
           "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "口答",
+              "reading": "くちごた"
+            },
+            {
+              "text": "えしようものなら"
+            },
+            {
+              "text": "余計",
+              "reading": "よけい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "怒",
+              "reading": "おこ"
+            },
+            {
+              "text": "られる。"
+            }
+          ]
         },
         {
           "id": "l15-g03-ja-vi-02",
@@ -1772,7 +2304,37 @@
           "hint": "〜（よ）うものなら",
           "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "秘密",
+              "reading": "ひみつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "そうものなら"
+            },
+            {
+              "text": "信頼",
+              "reading": "しんらい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "失",
+              "reading": "うしな"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l15-g03-ja-vi-03",
@@ -1784,7 +2346,34 @@
           "hint": "〜（よ）うものなら",
           "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "規則",
+              "reading": "きそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "破",
+              "reading": "やぶ"
+            },
+            {
+              "text": "ろうものなら"
+            },
+            {
+              "text": "出場",
+              "reading": "しゅつじょう"
+            },
+            {
+              "text": "停止",
+              "reading": "ていし"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l15-g03-ja-vi-04",
@@ -1796,7 +2385,30 @@
           "hint": "〜（よ）うものなら",
           "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "上司",
+              "reading": "じょうし"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "逆",
+              "reading": "さか"
+            },
+            {
+              "text": "らおうものなら"
+            },
+            {
+              "text": "昇進",
+              "reading": "しょうしん"
+            },
+            {
+              "text": "はない。"
+            }
+          ]
         },
         {
           "id": "l15-g03-ja-vi-05",
@@ -1808,7 +2420,37 @@
           "hint": "〜（よ）うものなら",
           "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "破",
+              "reading": "やぶ"
+            },
+            {
+              "text": "ろうものなら"
+            },
+            {
+              "text": "二度",
+              "reading": "にど"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "頼",
+              "reading": "たの"
+            },
+            {
+              "text": "めない。"
+            }
+          ]
         },
         {
           "id": "l15-g03-ja-vi-06",
@@ -1820,7 +2462,23 @@
           "hint": "〜（よ）うものなら",
           "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "しようものなら"
+            },
+            {
+              "text": "開始",
+              "reading": "かいし"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l15-g03-ja-vi-07",
@@ -1832,7 +2490,37 @@
           "hint": "〜（よ）うものなら",
           "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "文句",
+              "reading": "もんく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "おうものなら"
+            },
+            {
+              "text": "場",
+              "reading": "ば"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "凍",
+              "reading": "こお"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l15-g03-ja-vi-08",
@@ -1844,7 +2532,26 @@
           "hint": "〜（よ）うものなら",
           "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "サボろうものなら"
+            },
+            {
+              "text": "評価",
+              "reading": "ひょうか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "下",
+              "reading": "さ"
+            },
+            {
+              "text": "がる。"
+            }
+          ]
         },
         {
           "id": "l15-g03-ja-vi-09",
@@ -1856,7 +2563,30 @@
           "hint": "〜（よ）うものなら",
           "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無視",
+              "reading": "むし"
+            },
+            {
+              "text": "しようものなら"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "拡大",
+              "reading": "かくだい"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l15-g03-ja-vi-10",
@@ -1868,7 +2598,16 @@
           "hint": "〜（よ）うものなら",
           "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "をつこうものならすぐばれる。"
+            }
+          ]
         },
         {
           "id": "l15-g03-order-01",
@@ -2497,7 +3236,30 @@
           "hint": "〜ないことには",
           "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "かないことには"
+            },
+            {
+              "text": "納得",
+              "reading": "なっとく"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l15-g04-ja-vi-02",
@@ -2509,7 +3271,37 @@
           "hint": "〜ないことには",
           "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "実地",
+              "reading": "じっち"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "ないことには"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "難",
+              "reading": "むずか"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l15-g04-ja-vi-03",
@@ -2521,7 +3313,23 @@
           "hint": "〜ないことには",
           "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "同意",
+              "reading": "どうい"
+            },
+            {
+              "text": "がないことには"
+            },
+            {
+              "text": "公開",
+              "reading": "こうかい"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l15-g04-ja-vi-04",
@@ -2533,7 +3341,30 @@
           "hint": "〜ないことには",
           "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "整",
+              "reading": "ととの"
+            },
+            {
+              "text": "えないことには"
+            },
+            {
+              "text": "出発",
+              "reading": "しゅっぱつ"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l15-g04-ja-vi-05",
@@ -2545,7 +3376,23 @@
           "hint": "〜ないことには",
           "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "しないことには"
+            },
+            {
+              "text": "発送",
+              "reading": "はっそう"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l15-g04-ja-vi-06",
@@ -2557,7 +3404,30 @@
           "hint": "〜ないことには",
           "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "がないことには"
+            },
+            {
+              "text": "指導",
+              "reading": "しどう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "無理",
+              "reading": "むり"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l15-g04-ja-vi-07",
@@ -2569,7 +3439,30 @@
           "hint": "〜ないことには",
           "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "材料",
+              "reading": "ざいりょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "揃",
+              "reading": "そろ"
+            },
+            {
+              "text": "わないことには"
+            },
+            {
+              "text": "作",
+              "reading": "つく"
+            },
+            {
+              "text": "れない。"
+            }
+          ]
         },
         {
           "id": "l15-g04-ja-vi-08",
@@ -2581,7 +3474,37 @@
           "hint": "〜ないことには",
           "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "本人",
+              "reading": "ほんにん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "会",
+              "reading": "あ"
+            },
+            {
+              "text": "わないことには"
+            },
+            {
+              "text": "真相",
+              "reading": "しんそう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "からない。"
+            }
+          ]
         },
         {
           "id": "l15-g04-ja-vi-09",
@@ -2593,7 +3516,30 @@
           "hint": "〜ないことには",
           "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "検査",
+              "reading": "けんさ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "けないことには"
+            },
+            {
+              "text": "診断",
+              "reading": "しんだん"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l15-g04-ja-vi-10",
@@ -2605,7 +3551,30 @@
           "hint": "〜ないことには",
           "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "予算",
+              "reading": "よさん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "まらないことには"
+            },
+            {
+              "text": "発注",
+              "reading": "はっちゅう"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l15-g04-order-01",
@@ -3246,7 +4215,37 @@
           "hint": "〜を抜きにしては",
           "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "助言",
+              "reading": "じょげん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "きにしては"
+            },
+            {
+              "text": "決断",
+              "reading": "けつだん"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l15-g05-ja-vi-02",
@@ -3258,7 +4257,44 @@
           "hint": "〜を抜きにしては",
           "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "宣伝",
+              "reading": "せんでん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "きにしては"
+            },
+            {
+              "text": "売",
+              "reading": "う"
+            },
+            {
+              "text": "れ"
+            },
+            {
+              "text": "行",
+              "reading": "ゆ"
+            },
+            {
+              "text": "きが"
+            },
+            {
+              "text": "伸",
+              "reading": "の"
+            },
+            {
+              "text": "びない。"
+            }
+          ]
         },
         {
           "id": "l15-g05-ja-vi-03",
@@ -3270,7 +4306,37 @@
           "hint": "〜を抜きにしては",
           "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "きにしては"
+            },
+            {
+              "text": "上達",
+              "reading": "じょうたつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "望",
+              "reading": "のぞ"
+            },
+            {
+              "text": "めない。"
+            }
+          ]
         },
         {
           "id": "l15-g05-ja-vi-04",
@@ -3282,7 +4348,37 @@
           "hint": "〜を抜きにしては",
           "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "地元",
+              "reading": "じもと"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "協力",
+              "reading": "きょうりょく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "きにしては"
+            },
+            {
+              "text": "開催",
+              "reading": "かいさい"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l15-g05-ja-vi-05",
@@ -3294,7 +4390,37 @@
           "hint": "〜を抜きにしては",
           "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "基礎",
+              "reading": "きそ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "きにしては"
+            },
+            {
+              "text": "応用",
+              "reading": "おうよう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "難",
+              "reading": "むずか"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l15-g05-ja-vi-06",
@@ -3306,7 +4432,30 @@
           "hint": "〜を抜きにしては",
           "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "睡眠",
+              "reading": "すいみん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "きにしては"
+            },
+            {
+              "text": "集中",
+              "reading": "しゅうちゅう"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l15-g05-ja-vi-07",
@@ -3318,7 +4467,37 @@
           "hint": "〜を抜きにしては",
           "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "法律",
+              "reading": "ほうりつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "きにしては"
+            },
+            {
+              "text": "取引",
+              "reading": "とりひき"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "められない。"
+            }
+          ]
         },
         {
           "id": "l15-g05-ja-vi-08",
@@ -3330,7 +4509,37 @@
           "hint": "〜を抜きにしては",
           "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "文化",
+              "reading": "ぶんか"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "きにしては"
+            },
+            {
+              "text": "習慣",
+              "reading": "しゅうかん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "語",
+              "reading": "かた"
+            },
+            {
+              "text": "れない。"
+            }
+          ]
         },
         {
           "id": "l15-g05-ja-vi-09",
@@ -3342,7 +4551,37 @@
           "hint": "〜を抜きにしては",
           "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "きにしては"
+            },
+            {
+              "text": "本番",
+              "reading": "ほんばん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "怖",
+              "reading": "こわ"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l15-g05-ja-vi-10",
@@ -3354,7 +4593,44 @@
           "hint": "〜を抜きにしては",
           "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "予算",
+              "reading": "よさん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "きにしては"
+            },
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "机上",
+              "reading": "きじょう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "空論",
+              "reading": "くうろん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l15-g05-order-01",
@@ -4005,7 +5281,34 @@
           "hint": "〜としても／にしても／にしろ",
           "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "不",
+              "reading": "ふ"
+            },
+            {
+              "text": "合格",
+              "reading": "ごうかく"
+            },
+            {
+              "text": "だったとしても"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "無駄",
+              "reading": "むだ"
+            },
+            {
+              "text": "じゃない。"
+            }
+          ]
         },
         {
           "id": "l15-g06-ja-vi-02",
@@ -4017,7 +5320,37 @@
           "hint": "〜としても／にしても／にしろ",
           "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "いにしても"
+            },
+            {
+              "text": "長",
+              "reading": "なが"
+            },
+            {
+              "text": "く"
+            },
+            {
+              "text": "使",
+              "reading": "つか"
+            },
+            {
+              "text": "えるなら"
+            },
+            {
+              "text": "得",
+              "reading": "とく"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l15-g06-ja-vi-03",
@@ -4029,7 +5362,37 @@
           "hint": "〜としても／にしても／にしろ",
           "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "くにせよ"
+            },
+            {
+              "text": "残",
+              "reading": "のこ"
+            },
+            {
+              "text": "るにせよ"
+            },
+            {
+              "text": "早",
+              "reading": "はや"
+            },
+            {
+              "text": "く"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "めろ。"
+            }
+          ]
         },
         {
           "id": "l15-g06-ja-vi-04",
@@ -4041,7 +5404,37 @@
           "hint": "〜としても／にしても／にしろ",
           "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "来",
+              "reading": "こ"
+            },
+            {
+              "text": "ないとしても"
+            },
+            {
+              "text": "予定",
+              "reading": "よてい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "えない。"
+            }
+          ]
         },
         {
           "id": "l15-g06-ja-vi-05",
@@ -4053,7 +5446,23 @@
           "hint": "〜としても／にしても／にしろ",
           "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子",
+              "reading": "こ"
+            },
+            {
+              "text": "どもにしてもルールは"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "らせる。"
+            }
+          ]
         },
         {
           "id": "l15-g06-ja-vi-06",
@@ -4065,7 +5474,37 @@
           "hint": "〜としても／にしても／にしろ",
           "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "いとしても"
+            },
+            {
+              "text": "品質",
+              "reading": "ひんしつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "ければ"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "わない。"
+            }
+          ]
         },
         {
           "id": "l15-g06-ja-vi-07",
@@ -4077,7 +5516,27 @@
           "hint": "〜としても／にしても／にしろ",
           "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "にしても"
+            },
+            {
+              "text": "条件",
+              "reading": "じょうけん"
+            },
+            {
+              "text": "付",
+              "reading": "つ"
+            },
+            {
+              "text": "きだ。"
+            }
+          ]
         },
         {
           "id": "l15-g06-ja-vi-08",
@@ -4089,7 +5548,30 @@
           "hint": "〜としても／にしても／にしろ",
           "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "負",
+              "reading": "ま"
+            },
+            {
+              "text": "けたにせよ"
+            },
+            {
+              "text": "学",
+              "reading": "まな"
+            },
+            {
+              "text": "べば"
+            },
+            {
+              "text": "前進",
+              "reading": "ぜんしん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l15-g06-ja-vi-09",
@@ -4101,7 +5583,23 @@
           "hint": "〜としても／にしても／にしろ",
           "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しいにしても"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "だけはくれ。"
+            }
+          ]
         },
         {
           "id": "l15-g06-ja-vi-10",
@@ -4113,7 +5611,30 @@
           "hint": "〜としても／にしても／にしろ",
           "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "にせよ"
+            },
+            {
+              "text": "過程",
+              "reading": "かてい"
+            },
+            {
+              "text": "にせよ"
+            },
+            {
+              "text": "誠実",
+              "reading": "せいじつ"
+            },
+            {
+              "text": "であれ。"
+            }
+          ]
         },
         {
           "id": "l15-g06-order-01",

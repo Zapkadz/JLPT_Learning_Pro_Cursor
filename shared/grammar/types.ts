@@ -6,6 +6,10 @@ export const modeLabels: Record<Mode, string> = {
   "ja-vi": "Nhật → Việt",
   order: "Sắp xếp câu",
 };
+const rubyTokenSchema = z.object({
+  text: z.string(),
+  reading: z.string().optional(),
+});
 const base = {
   id: z.string(),
   prompt: z.string().min(1),
@@ -17,7 +21,12 @@ const base = {
 };
 export const exerciseSchema = z.discriminatedUnion("mode", [
   z.object({ ...base, mode: z.literal("vi-ja") }),
-  z.object({ ...base, mode: z.literal("ja-vi") }),
+  z.object({
+    ...base,
+    mode: z.literal("ja-vi"),
+    /** Structured furigana for the Japanese prompt; must join to `prompt`. ADR-009. */
+    promptRuby: z.array(rubyTokenSchema).optional(),
+  }),
   z.object({
     ...base,
     mode: z.literal("order"),
@@ -30,7 +39,17 @@ export type Exercise = z.infer<typeof exerciseSchema>;
 export type PublicExercise = Pick<Exercise, "id" | "mode" | "prompt"> & {
   tokens?: { id: string; text: string }[];
   starIndex?: number;
+  promptRuby?: { text: string; reading?: string }[];
 };
+
+/** Enforce ADR-009: promptRuby texts concatenate to prompt when present. */
+export function assertPromptRuby(q: Exercise): void {
+  if (q.mode !== "ja-vi" || !q.promptRuby) return;
+  const joined = q.promptRuby.map((t) => t.text).join("");
+  if (joined !== q.prompt) {
+    throw new Error(`${q.id}: promptRuby≠prompt (${joined} vs ${q.prompt})`);
+  }
+}
 export const patternSchema = z.object({
   id: z.string(),
   title: z.string(),

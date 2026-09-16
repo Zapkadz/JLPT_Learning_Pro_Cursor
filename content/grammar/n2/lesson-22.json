@@ -247,7 +247,23 @@
           "hint": "〜とみえる",
           "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "失望",
+              "reading": "しつぼう"
+            },
+            {
+              "text": "しているとみえる。"
+            }
+          ]
         },
         {
           "id": "l22-g01-ja-vi-02",
@@ -259,7 +275,23 @@
           "hint": "〜とみえる",
           "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "風邪",
+              "reading": "かぜ"
+            },
+            {
+              "text": "だとみえて"
+            },
+            {
+              "text": "咳",
+              "reading": "せき"
+            },
+            {
+              "text": "をしている。"
+            }
+          ]
         },
         {
           "id": "l22-g01-ja-vi-03",
@@ -271,7 +303,23 @@
           "hint": "〜とみえる",
           "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "試験",
+              "reading": "しけん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "難",
+              "reading": "むずか"
+            },
+            {
+              "text": "しかったとみえる。"
+            }
+          ]
         },
         {
           "id": "l22-g01-ja-vi-04",
@@ -283,7 +331,30 @@
           "hint": "〜とみえる",
           "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "怒",
+              "reading": "おこ"
+            },
+            {
+              "text": "っているとみえて"
+            },
+            {
+              "text": "黙",
+              "reading": "だま"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "込",
+              "reading": "こ"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l22-g01-ja-vi-05",
@@ -295,7 +366,23 @@
           "hint": "〜とみえる",
           "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "旅先",
+              "reading": "たびさき"
+            },
+            {
+              "text": "から"
+            },
+            {
+              "text": "戻",
+              "reading": "もど"
+            },
+            {
+              "text": "ったとみえる。"
+            }
+          ]
         },
         {
           "id": "l22-g01-ja-vi-06",
@@ -307,7 +394,30 @@
           "hint": "〜とみえる",
           "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "足",
+              "reading": "た"
+            },
+            {
+              "text": "りないとみえて"
+            },
+            {
+              "text": "補充",
+              "reading": "ほじゅう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "頼",
+              "reading": "たの"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l22-g01-ja-vi-07",
@@ -319,7 +429,23 @@
           "hint": "〜とみえる",
           "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "したとみえて"
+            },
+            {
+              "text": "喜",
+              "reading": "よろこ"
+            },
+            {
+              "text": "んでいる。"
+            }
+          ]
         },
         {
           "id": "l22-g01-ja-vi-08",
@@ -331,7 +457,30 @@
           "hint": "〜とみえる",
           "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "っているとみえて"
+            },
+            {
+              "text": "立",
+              "reading": "た"
+            },
+            {
+              "text": "ち"
+            },
+            {
+              "text": "止",
+              "reading": "ど"
+            },
+            {
+              "text": "まった。"
+            }
+          ]
         },
         {
           "id": "l22-g01-ja-vi-09",
@@ -343,7 +492,23 @@
           "hint": "〜とみえる",
           "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れたとみえる。"
+            }
+          ]
         },
         {
           "id": "l22-g01-ja-vi-10",
@@ -355,7 +520,23 @@
           "hint": "〜とみえる",
           "explanation": "Câu とみえる／と見えて: suy đoán từ dấu hiệu — có vẻ như….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "疲弊",
+              "reading": "ひへい"
+            },
+            {
+              "text": "したとみえて"
+            },
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "んでいる。"
+            }
+          ]
         },
         {
           "id": "l22-g01-order-01",
@@ -981,7 +1162,30 @@
           "hint": "〜かねない",
           "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "起",
+              "reading": "お"
+            },
+            {
+              "text": "こしかねない"
+            },
+            {
+              "text": "運転",
+              "reading": "うんてん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l22-g02-ja-vi-02",
@@ -993,7 +1197,30 @@
           "hint": "〜かねない",
           "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "破",
+              "reading": "やぶ"
+            },
+            {
+              "text": "りかねない"
+            },
+            {
+              "text": "態度",
+              "reading": "たいど"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l22-g02-ja-vi-03",
@@ -1005,7 +1232,27 @@
           "hint": "〜かねない",
           "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "情報",
+              "reading": "じょうほう"
+            },
+            {
+              "text": "漏洩",
+              "reading": "ろうせつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "招",
+              "reading": "まね"
+            },
+            {
+              "text": "きかねない。"
+            }
+          ]
         },
         {
           "id": "l22-g02-ja-vi-04",
@@ -1017,7 +1264,37 @@
           "hint": "〜かねない",
           "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "崩",
+              "reading": "くず"
+            },
+            {
+              "text": "しかねない"
+            },
+            {
+              "text": "働",
+              "reading": "はたら"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "方",
+              "reading": "かた"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l22-g02-ja-vi-05",
@@ -1029,7 +1306,27 @@
           "hint": "〜かねない",
           "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "対立",
+              "reading": "たいりつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "深刻",
+              "reading": "しんこく"
+            },
+            {
+              "text": "化",
+              "reading": "か"
+            },
+            {
+              "text": "しかねない。"
+            }
+          ]
         },
         {
           "id": "l22-g02-ja-vi-06",
@@ -1041,7 +1338,30 @@
           "hint": "〜かねない",
           "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "誤解",
+              "reading": "ごかい"
+            },
+            {
+              "text": "されかねない"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "方",
+              "reading": "かた"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l22-g02-ja-vi-07",
@@ -1053,7 +1373,16 @@
           "hint": "〜かねない",
           "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "予算",
+              "reading": "よさん"
+            },
+            {
+              "text": "オーバーになりかねない。"
+            }
+          ]
         },
         {
           "id": "l22-g02-ja-vi-08",
@@ -1065,7 +1394,23 @@
           "hint": "〜かねない",
           "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "信頼",
+              "reading": "しんらい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "損",
+              "reading": "そこ"
+            },
+            {
+              "text": "ないかねない。"
+            }
+          ]
         },
         {
           "id": "l22-g02-ja-vi-09",
@@ -1077,7 +1422,23 @@
           "hint": "〜かねない",
           "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "常習",
+              "reading": "じょうしゅう"
+            },
+            {
+              "text": "になりかねない。"
+            }
+          ]
         },
         {
           "id": "l22-g02-ja-vi-10",
@@ -1089,7 +1450,30 @@
           "hint": "〜かねない",
           "explanation": "Câu Vます＋かねない: có nguy cơ / e rằng sẽ (điều xấu).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "大",
+              "reading": "おお"
+            },
+            {
+              "text": "きな"
+            },
+            {
+              "text": "損失",
+              "reading": "そんしつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "招",
+              "reading": "まね"
+            },
+            {
+              "text": "きかねない。"
+            }
+          ]
         },
         {
           "id": "l22-g02-order-01",
@@ -1703,7 +2087,23 @@
           "hint": "〜おそれがある",
           "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "台風",
+              "reading": "たいふう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "接近",
+              "reading": "せっきん"
+            },
+            {
+              "text": "するおそれがある。"
+            }
+          ]
         },
         {
           "id": "l22-g03-ja-vi-02",
@@ -1715,7 +2115,23 @@
           "hint": "〜おそれがある",
           "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "健康",
+              "reading": "けんこう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "害",
+              "reading": "がい"
+            },
+            {
+              "text": "するおそれがある。"
+            }
+          ]
         },
         {
           "id": "l22-g03-ja-vi-03",
@@ -1727,7 +2143,20 @@
           "hint": "〜おそれがある",
           "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "誤",
+              "reading": "あやま"
+            },
+            {
+              "text": "作動",
+              "reading": "さどう"
+            },
+            {
+              "text": "のおそれがある。"
+            }
+          ]
         },
         {
           "id": "l22-g03-ja-vi-04",
@@ -1739,7 +2168,23 @@
           "hint": "〜おそれがある",
           "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "環境",
+              "reading": "かんきょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "汚染",
+              "reading": "おせん"
+            },
+            {
+              "text": "されるおそれがある。"
+            }
+          ]
         },
         {
           "id": "l22-g03-ja-vi-05",
@@ -1751,7 +2196,23 @@
           "hint": "〜おそれがある",
           "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "倒産",
+              "reading": "とうさん"
+            },
+            {
+              "text": "のおそれがある"
+            },
+            {
+              "text": "企業",
+              "reading": "きぎょう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l22-g03-ja-vi-06",
@@ -1763,7 +2224,31 @@
           "hint": "〜おそれがある",
           "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "二",
+              "reading": "に"
+            },
+            {
+              "text": "次",
+              "reading": "じ"
+            },
+            {
+              "text": "被害",
+              "reading": "ひがい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "発生",
+              "reading": "はっせい"
+            },
+            {
+              "text": "するおそれがある。"
+            }
+          ]
         },
         {
           "id": "l22-g03-ja-vi-07",
@@ -1775,7 +2260,23 @@
           "hint": "〜おそれがある",
           "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "供給",
+              "reading": "きょうきゅう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "滞",
+              "reading": "とどこお"
+            },
+            {
+              "text": "るおそれがある。"
+            }
+          ]
         },
         {
           "id": "l22-g03-ja-vi-08",
@@ -1787,7 +2288,23 @@
           "hint": "〜おそれがある",
           "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "法的",
+              "reading": "ほうてき"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "争",
+              "reading": "あらそ"
+            },
+            {
+              "text": "いのおそれがある。"
+            }
+          ]
         },
         {
           "id": "l22-g03-ja-vi-09",
@@ -1799,7 +2316,23 @@
           "hint": "〜おそれがある",
           "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "記録",
+              "reading": "きろく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "改",
+              "reading": "かい"
+            },
+            {
+              "text": "ざんされるおそれがある。"
+            }
+          ]
         },
         {
           "id": "l22-g03-ja-vi-10",
@@ -1811,7 +2344,20 @@
           "hint": "〜おそれがある",
           "explanation": "Câu おそれがある: có nguy cơ / e rằng (điều xấu) sẽ xảy ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "交通",
+              "reading": "こうつう"
+            },
+            {
+              "text": "麻痺",
+              "reading": "まひ"
+            },
+            {
+              "text": "のおそれがある。"
+            }
+          ]
         },
         {
           "id": "l22-g03-order-01",
@@ -2440,7 +2986,23 @@
           "hint": "〜まい／ではあるまいか",
           "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "二度",
+              "reading": "にど"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "頼",
+              "reading": "たの"
+            },
+            {
+              "text": "むまい。"
+            }
+          ]
         },
         {
           "id": "l22-g04-ja-vi-02",
@@ -2452,7 +3014,23 @@
           "hint": "〜まい／ではあるまいか",
           "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "づくまい。"
+            }
+          ]
         },
         {
           "id": "l22-g04-ja-vi-03",
@@ -2464,7 +3042,19 @@
           "hint": "〜まい／ではあるまいか",
           "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "これは"
+            },
+            {
+              "text": "過労",
+              "reading": "かろう"
+            },
+            {
+              "text": "ではあるまいか。"
+            }
+          ]
         },
         {
           "id": "l22-g04-ja-vi-04",
@@ -2476,7 +3066,30 @@
           "hint": "〜まい／ではあるまいか",
           "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "秘密",
+              "reading": "ひみつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "漏",
+              "reading": "も"
+            },
+            {
+              "text": "らすまいと"
+            },
+            {
+              "text": "誓",
+              "reading": "ちか"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l22-g04-ja-vi-05",
@@ -2488,7 +3101,23 @@
           "hint": "〜まい／ではあるまいか",
           "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "状況",
+              "reading": "じょうきょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "深刻",
+              "reading": "しんこく"
+            },
+            {
+              "text": "ではあるまいか。"
+            }
+          ]
         },
         {
           "id": "l22-g04-ja-vi-06",
@@ -2500,7 +3129,23 @@
           "hint": "〜まい／ではあるまいか",
           "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "二度",
+              "reading": "にど"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "はつくまい。"
+            }
+          ]
         },
         {
           "id": "l22-g04-ja-vi-07",
@@ -2512,7 +3157,23 @@
           "hint": "〜まい／ではあるまいか",
           "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かるまい。"
+            }
+          ]
         },
         {
           "id": "l22-g04-ja-vi-08",
@@ -2524,7 +3185,19 @@
           "hint": "〜まい／ではあるまいか",
           "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "これは"
+            },
+            {
+              "text": "警告",
+              "reading": "けいこく"
+            },
+            {
+              "text": "ではあるまいか。"
+            }
+          ]
         },
         {
           "id": "l22-g04-ja-vi-09",
@@ -2536,7 +3209,16 @@
           "hint": "〜まい／ではあるまいか",
           "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "後悔",
+              "reading": "こうかい"
+            },
+            {
+              "text": "するようなことはするまい。"
+            }
+          ]
         },
         {
           "id": "l22-g04-ja-vi-10",
@@ -2548,7 +3230,27 @@
           "hint": "〜まい／ではあるまいか",
           "explanation": "Câu まい: quyết/sẽ không…. ではあるまいか: chẳng phải… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "提案",
+              "reading": "ていあん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "時期",
+              "reading": "じき"
+            },
+            {
+              "text": "尚早",
+              "reading": "しょうそう"
+            },
+            {
+              "text": "ではあるまいか。"
+            }
+          ]
         },
         {
           "id": "l22-g04-order-01",
@@ -3187,7 +3889,37 @@
           "hint": "〜に違いない／に相違ない",
           "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "犯人",
+              "reading": "はんにん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "内部",
+              "reading": "ないぶ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "者",
+              "reading": "もの"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "違",
+              "reading": "ちが"
+            },
+            {
+              "text": "いない。"
+            }
+          ]
         },
         {
           "id": "l22-g05-ja-vi-02",
@@ -3199,7 +3931,33 @@
           "hint": "〜に違いない／に相違ない",
           "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "誤",
+              "reading": "あやま"
+            },
+            {
+              "text": "りに"
+            },
+            {
+              "text": "相違",
+              "reading": "そうい"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l22-g05-ja-vi-03",
@@ -3211,7 +3969,30 @@
           "hint": "〜に違いない／に相違ない",
           "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "はすでに"
+            },
+            {
+              "text": "帰宅",
+              "reading": "きたく"
+            },
+            {
+              "text": "したに"
+            },
+            {
+              "text": "違",
+              "reading": "ちが"
+            },
+            {
+              "text": "いない。"
+            }
+          ]
         },
         {
           "id": "l22-g05-ja-vi-04",
@@ -3223,7 +4004,30 @@
           "hint": "〜に違いない／に相違ない",
           "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "原因",
+              "reading": "げんいん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "配線",
+              "reading": "はいせん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "相違",
+              "reading": "そうい"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l22-g05-ja-vi-05",
@@ -3235,7 +4039,30 @@
           "hint": "〜に違いない／に相違ない",
           "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "合格",
+              "reading": "ごうかく"
+            },
+            {
+              "text": "するに"
+            },
+            {
+              "text": "違",
+              "reading": "ちが"
+            },
+            {
+              "text": "いない。"
+            }
+          ]
         },
         {
           "id": "l22-g05-ja-vi-06",
@@ -3247,7 +4074,26 @@
           "hint": "〜に違いない／に相違ない",
           "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "これは"
+            },
+            {
+              "text": "誤報",
+              "reading": "ごほう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "相違",
+              "reading": "そうい"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l22-g05-ja-vi-07",
@@ -3259,7 +4105,37 @@
           "hint": "〜に違いない／に相違ない",
           "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "事実",
+              "reading": "じじつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "違",
+              "reading": "ちが"
+            },
+            {
+              "text": "いない。"
+            }
+          ]
         },
         {
           "id": "l22-g05-ja-vi-08",
@@ -3271,7 +4147,30 @@
           "hint": "〜に違いない／に相違ない",
           "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "明白",
+              "reading": "めいはく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "相違",
+              "reading": "そうい"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l22-g05-ja-vi-09",
@@ -3283,7 +4182,30 @@
           "hint": "〜に違いない／に相違ない",
           "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "荷物",
+              "reading": "にもつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "届",
+              "reading": "とど"
+            },
+            {
+              "text": "いているに"
+            },
+            {
+              "text": "違",
+              "reading": "ちが"
+            },
+            {
+              "text": "いない。"
+            }
+          ]
         },
         {
           "id": "l22-g05-ja-vi-10",
@@ -3295,7 +4217,30 @@
           "hint": "〜に違いない／に相違ない",
           "explanation": "Câu に違いない／に相違ない: chắc chắn là… (suy đoán mạnh).",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "意図",
+              "reading": "いと"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "明",
+              "reading": "あき"
+            },
+            {
+              "text": "らかであるに"
+            },
+            {
+              "text": "相違",
+              "reading": "そうい"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l22-g05-order-01",
@@ -3923,7 +4868,23 @@
           "hint": "〜にきまっている",
           "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "優勝",
+              "reading": "ゆうしょう"
+            },
+            {
+              "text": "するにきまっている。"
+            }
+          ]
         },
         {
           "id": "l22-g06-ja-vi-02",
@@ -3935,7 +4896,33 @@
           "hint": "〜にきまっている",
           "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "店",
+              "reading": "みせ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "混",
+              "reading": "こ"
+            },
+            {
+              "text": "むに"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "まっている。"
+            }
+          ]
         },
         {
           "id": "l22-g06-ja-vi-03",
@@ -3947,7 +4934,23 @@
           "hint": "〜にきまっている",
           "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "試験",
+              "reading": "しけん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "難",
+              "reading": "むずか"
+            },
+            {
+              "text": "しいにきまっている。"
+            }
+          ]
         },
         {
           "id": "l22-g06-ja-vi-04",
@@ -3959,7 +4962,37 @@
           "hint": "〜にきまっている",
           "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "訳",
+              "reading": "わけ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "通用",
+              "reading": "つうよう"
+            },
+            {
+              "text": "しないに"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "まっている。"
+            }
+          ]
         },
         {
           "id": "l22-g06-ja-vi-05",
@@ -3971,7 +5004,23 @@
           "hint": "〜にきまっている",
           "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "値段",
+              "reading": "ねだん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がるにきまっている。"
+            }
+          ]
         },
         {
           "id": "l22-g06-ja-vi-06",
@@ -3983,7 +5032,37 @@
           "hint": "〜にきまっている",
           "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "提案",
+              "reading": "ていあん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "通",
+              "reading": "とお"
+            },
+            {
+              "text": "るに"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "まっている。"
+            }
+          ]
         },
         {
           "id": "l22-g06-ja-vi-07",
@@ -3995,7 +5074,23 @@
           "hint": "〜にきまっている",
           "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今夜",
+              "reading": "こんや"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "眠",
+              "reading": "ねむ"
+            },
+            {
+              "text": "れないにきまっている。"
+            }
+          ]
         },
         {
           "id": "l22-g06-ja-vi-08",
@@ -4007,7 +5102,33 @@
           "hint": "〜にきまっている",
           "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "映画",
+              "reading": "えいが"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "面白",
+              "reading": "おもしろ"
+            },
+            {
+              "text": "いに"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "まっている。"
+            }
+          ]
         },
         {
           "id": "l22-g06-ja-vi-09",
@@ -4019,7 +5140,23 @@
           "hint": "〜にきまっている",
           "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "文句",
+              "reading": "もんく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "るにきまっている。"
+            }
+          ]
         },
         {
           "id": "l22-g06-ja-vi-10",
@@ -4031,7 +5168,30 @@
           "hint": "〜にきまっている",
           "explanation": "Câu にきまっている／に決まっている: nhất định / chắc chắn là….",
           "origin": "authored",
-          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 22 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "するに"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "まっている。"
+            }
+          ]
         },
         {
           "id": "l22-g06-order-01",

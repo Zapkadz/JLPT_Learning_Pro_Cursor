@@ -253,7 +253,30 @@
           "hint": "Nの ＋ 最中（だ／に）",
           "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "食事",
+              "reading": "しょくじ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "電話",
+              "reading": "でんわ"
+            },
+            {
+              "text": "がかかってきた。"
+            }
+          ]
         },
         {
           "id": "l02-g01-ja-vi-02",
@@ -265,7 +288,37 @@
           "hint": "Nの ＋ 最中（だ／に）",
           "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "今",
+              "reading": "いま"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "作業",
+              "reading": "さぎょう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l02-g01-ja-vi-03",
@@ -277,7 +330,37 @@
           "hint": "Vている ＋ 最中（だ／に）",
           "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "討論",
+              "reading": "とうろん"
+            },
+            {
+              "text": "している"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "対立",
+              "reading": "たいりつ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l02-g01-ja-vi-04",
@@ -289,7 +372,30 @@
           "hint": "Nの ＋ 最中（だ／に）",
           "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "撮影",
+              "reading": "さつえい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "動",
+              "reading": "うご"
+            },
+            {
+              "text": "かないでください。"
+            }
+          ]
         },
         {
           "id": "l02-g01-ja-vi-05",
@@ -301,7 +407,30 @@
           "hint": "Nの ＋ 最中（だ／に）",
           "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "面接",
+              "reading": "めんせつ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "緊張",
+              "reading": "きんちょう"
+            },
+            {
+              "text": "してしまった。"
+            }
+          ]
         },
         {
           "id": "l02-g01-ja-vi-06",
@@ -313,7 +442,37 @@
           "hint": "Nの ＋ 最中（だ／に）",
           "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今",
+              "reading": "いま"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "引",
+              "reading": "ひ"
+            },
+            {
+              "text": "っ"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "しの"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "です。"
+            }
+          ]
         },
         {
           "id": "l02-g01-ja-vi-07",
@@ -325,7 +484,30 @@
           "hint": "Vている ＋ 最中（だ／に）",
           "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "運転",
+              "reading": "うんてん"
+            },
+            {
+              "text": "している"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "眠",
+              "reading": "ねむ"
+            },
+            {
+              "text": "くなった。"
+            }
+          ]
         },
         {
           "id": "l02-g01-ja-vi-08",
@@ -337,7 +519,44 @@
           "hint": "Nの ＋ 最中（だ／に）",
           "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "式",
+              "reading": "しき"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "泣",
+              "reading": "な"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l02-g01-ja-vi-09",
@@ -349,7 +568,30 @@
           "hint": "Vている ＋ 最中（だ／に）",
           "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "修理",
+              "reading": "しゅうり"
+            },
+            {
+              "text": "している"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "だから、"
+            },
+            {
+              "text": "触",
+              "reading": "ふ"
+            },
+            {
+              "text": "れないで。"
+            }
+          ]
         },
         {
           "id": "l02-g01-ja-vi-10",
@@ -361,7 +603,37 @@
           "hint": "Nの ＋ 最中（だ／に）",
           "explanation": "Câu dùng 最中 để nhấn mạnh đang đúng giữa một hành động/sự kiện. Giữ đúng thời điểm và hành động kèm theo.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "試合",
+              "reading": "しあい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "応援",
+              "reading": "おうえん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "けよう。"
+            }
+          ]
         },
         {
           "id": "l02-g01-order-01",
@@ -980,7 +1252,30 @@
           "hint": "Vる／Vない／Aい ＋ うちに",
           "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "冷",
+              "reading": "さ"
+            },
+            {
+              "text": "めないうちにどうぞ"
+            },
+            {
+              "text": "召",
+              "reading": "め"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がってください。"
+            }
+          ]
         },
         {
           "id": "l02-g02-ja-vi-02",
@@ -992,7 +1287,30 @@
           "hint": "Vる／Vない／Aい ＋ うちに",
           "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "元気",
+              "reading": "げんき"
+            },
+            {
+              "text": "なうちに"
+            },
+            {
+              "text": "運動",
+              "reading": "うんどう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "けたい。"
+            }
+          ]
         },
         {
           "id": "l02-g02-ja-vi-03",
@@ -1004,7 +1322,37 @@
           "hint": "Vる／Vない／Aい ＋ うちに",
           "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "暗",
+              "reading": "くら"
+            },
+            {
+              "text": "くならないうちに"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "物",
+              "reading": "もの"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "済",
+              "reading": "す"
+            },
+            {
+              "text": "ませよう。"
+            }
+          ]
         },
         {
           "id": "l02-g02-ja-vi-04",
@@ -1016,7 +1364,23 @@
           "hint": "Nの ＋ うちに",
           "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "のうちにピアノを"
+            },
+            {
+              "text": "習",
+              "reading": "なら"
+            },
+            {
+              "text": "わせた。"
+            }
+          ]
         },
         {
           "id": "l02-g02-ja-vi-05",
@@ -1028,7 +1392,23 @@
           "hint": "Vる／Vない／Aい ＋ うちに",
           "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "らないうちに"
+            },
+            {
+              "text": "春",
+              "reading": "はる"
+            },
+            {
+              "text": "になっていた。"
+            }
+          ]
         },
         {
           "id": "l02-g02-ja-vi-06",
@@ -1040,7 +1420,23 @@
           "hint": "Vる／Vない／Aい ＋ うちに",
           "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "働",
+              "reading": "はたら"
+            },
+            {
+              "text": "けるうちに"
+            },
+            {
+              "text": "貯金",
+              "reading": "ちょきん"
+            },
+            {
+              "text": "しておこう。"
+            }
+          ]
         },
         {
           "id": "l02-g02-ja-vi-07",
@@ -1052,7 +1448,30 @@
           "hint": "Vる／Vない／Aい ＋ うちに",
           "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れないうちに"
+            },
+            {
+              "text": "礼状",
+              "reading": "れいじょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "書",
+              "reading": "か"
+            },
+            {
+              "text": "きます。"
+            }
+          ]
         },
         {
           "id": "l02-g02-ja-vi-08",
@@ -1064,7 +1483,23 @@
           "hint": "Vる／Vない／Aい ＋ うちに",
           "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "若",
+              "reading": "わか"
+            },
+            {
+              "text": "いうちにもっと"
+            },
+            {
+              "text": "勉強",
+              "reading": "べんきょう"
+            },
+            {
+              "text": "すればよかった。"
+            }
+          ]
         },
         {
           "id": "l02-g02-ja-vi-09",
@@ -1076,7 +1511,37 @@
           "hint": "Vる／Vない／Aい ＋ うちに",
           "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "来",
+              "reading": "こ"
+            },
+            {
+              "text": "ないうちに"
+            },
+            {
+              "text": "切符",
+              "reading": "きっぷ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "おう。"
+            }
+          ]
         },
         {
           "id": "l02-g02-ja-vi-10",
@@ -1088,7 +1553,30 @@
           "hint": "Vる／Vない／Aい ＋ うちに",
           "explanation": "Câu dùng うちに để nói tranh thủ / trong lúc còn trạng thái đó. Giữ đúng điều kiện thời gian và hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "暇",
+              "reading": "ひま"
+            },
+            {
+              "text": "なうちに"
+            },
+            {
+              "text": "部屋",
+              "reading": "へや"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "掃除",
+              "reading": "そうじ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l02-g02-order-01",
@@ -1735,7 +2223,34 @@
           "hint": "Vる ＋ ばかりだ／一方だ",
           "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "失業",
+              "reading": "しつぎょう"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "える"
+            },
+            {
+              "text": "一方",
+              "reading": "いっぽう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l02-g03-ja-vi-02",
@@ -1747,7 +2262,30 @@
           "hint": "Vる ＋ ばかりだ／一方だ",
           "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "成績",
+              "reading": "せいせき"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "下",
+              "reading": "さ"
+            },
+            {
+              "text": "がるばかりだ。"
+            }
+          ]
         },
         {
           "id": "l02-g03-ja-vi-03",
@@ -1759,7 +2297,34 @@
           "hint": "Vる ＋ ばかりだ／一方だ",
           "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "円",
+              "reading": "えん"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "む"
+            },
+            {
+              "text": "一方",
+              "reading": "いっぽう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l02-g03-ja-vi-04",
@@ -1771,7 +2336,30 @@
           "hint": "Vる ＋ ばかりだ／一方だ",
           "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "待",
+              "reading": "ま"
+            },
+            {
+              "text": "ち"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "長",
+              "reading": "なが"
+            },
+            {
+              "text": "くなるばかりだ。"
+            }
+          ]
         },
         {
           "id": "l02-g03-ja-vi-05",
@@ -1783,7 +2371,34 @@
           "hint": "Vる ＋ ばかりだ／一方だ",
           "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "高齢",
+              "reading": "こうれい"
+            },
+            {
+              "text": "化",
+              "reading": "か"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "む"
+            },
+            {
+              "text": "一方",
+              "reading": "いっぽう"
+            },
+            {
+              "text": "である。"
+            }
+          ]
         },
         {
           "id": "l02-g03-ja-vi-06",
@@ -1795,7 +2410,30 @@
           "hint": "Vる ＋ ばかりだ／一方だ",
           "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "への"
+            },
+            {
+              "text": "不信",
+              "reading": "ふしん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "深",
+              "reading": "ふか"
+            },
+            {
+              "text": "まるばかりだ。"
+            }
+          ]
         },
         {
           "id": "l02-g03-ja-vi-07",
@@ -1807,7 +2445,30 @@
           "hint": "Vる ＋ ばかりだ／一方だ",
           "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "売上",
+              "reading": "うりあ"
+            },
+            {
+              "text": "げは"
+            },
+            {
+              "text": "落",
+              "reading": "お"
+            },
+            {
+              "text": "ちる"
+            },
+            {
+              "text": "一方",
+              "reading": "いっぽう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l02-g03-ja-vi-08",
@@ -1819,7 +2480,16 @@
           "hint": "Vる ＋ ばかりだ／一方だ",
           "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "騒音",
+              "reading": "そうおん"
+            },
+            {
+              "text": "はひどくなるばかりだ。"
+            }
+          ]
         },
         {
           "id": "l02-g03-ja-vi-09",
@@ -1831,7 +2501,30 @@
           "hint": "Vる ＋ ばかりだ／一方だ",
           "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "要求",
+              "reading": "ようきゅう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "厳",
+              "reading": "きび"
+            },
+            {
+              "text": "しくなる"
+            },
+            {
+              "text": "一方",
+              "reading": "いっぽう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l02-g03-ja-vi-10",
@@ -1843,7 +2536,30 @@
           "hint": "Vる ＋ ばかりだ／一方だ",
           "explanation": "Câu dùng ばかりだ／一方だ để nói xu hướng một chiều (càng lúc càng…). Giữ đúng hướng thay đổi.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "悪化",
+              "reading": "あっか"
+            },
+            {
+              "text": "するばかりだった。"
+            }
+          ]
         },
         {
           "id": "l02-g03-order-01",
@@ -2468,7 +3184,19 @@
           "hint": "V（よ）うとしている／した",
           "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "バスが"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ようとしている。"
+            }
+          ]
         },
         {
           "id": "l02-g04-ja-vi-02",
@@ -2480,7 +3208,30 @@
           "hint": "V（よ）うとしている／した",
           "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "しようとしたが、"
+            },
+            {
+              "text": "言葉",
+              "reading": "ことば"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "なかった。"
+            }
+          ]
         },
         {
           "id": "l02-g04-ja-vi-03",
@@ -2492,7 +3243,16 @@
           "hint": "V（よ）うとしている／した",
           "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "がやもうとしている。"
+            }
+          ]
         },
         {
           "id": "l02-g04-ja-vi-04",
@@ -2504,7 +3264,30 @@
           "hint": "V（よ）うとしている／した",
           "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "部屋",
+              "reading": "へや"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ようとしている。"
+            }
+          ]
         },
         {
           "id": "l02-g04-ja-vi-05",
@@ -2516,7 +3299,23 @@
           "hint": "V（よ）うとしている／した",
           "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "寝",
+              "reading": "ね"
+            },
+            {
+              "text": "ようとしたとき、"
+            },
+            {
+              "text": "地震",
+              "reading": "じしん"
+            },
+            {
+              "text": "があった。"
+            }
+          ]
         },
         {
           "id": "l02-g04-ja-vi-06",
@@ -2528,7 +3327,30 @@
           "hint": "V（よ）うとしている／した",
           "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "時代",
+              "reading": "じだい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "まろうとしている。"
+            }
+          ]
         },
         {
           "id": "l02-g04-ja-vi-07",
@@ -2540,7 +3362,30 @@
           "hint": "V（よ）うとしている／した",
           "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "真実",
+              "reading": "しんじつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "そうとしている。"
+            }
+          ]
         },
         {
           "id": "l02-g04-ja-vi-08",
@@ -2552,7 +3397,26 @@
           "hint": "V（よ）うとしている／した",
           "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ドアを"
+            },
+            {
+              "text": "開",
+              "reading": "あ"
+            },
+            {
+              "text": "けようとしたら、"
+            },
+            {
+              "text": "鍵",
+              "reading": "かぎ"
+            },
+            {
+              "text": "がかかっていた。"
+            }
+          ]
         },
         {
           "id": "l02-g04-ja-vi-09",
@@ -2564,7 +3428,23 @@
           "hint": "V（よ）うとしている／した",
           "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雪",
+              "reading": "ゆき"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "積",
+              "reading": "つ"
+            },
+            {
+              "text": "もろうとしている。"
+            }
+          ]
         },
         {
           "id": "l02-g04-ja-vi-10",
@@ -2576,7 +3456,23 @@
           "hint": "V（よ）うとしている／した",
           "explanation": "Câu dùng （よ）うとしている／した để nói sắp làm hoặc định làm thì…. Giữ đúng khoảnh khắc hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わろうとしている。"
+            }
+          ]
         },
         {
           "id": "l02-g04-order-01",
@@ -3196,7 +4092,27 @@
           "hint": "Vます ＋ つつある",
           "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "社会",
+              "reading": "しゃかい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "多様",
+              "reading": "たよう"
+            },
+            {
+              "text": "化",
+              "reading": "か"
+            },
+            {
+              "text": "しつつある。"
+            }
+          ]
         },
         {
           "id": "l02-g05-ja-vi-02",
@@ -3208,7 +4124,37 @@
           "hint": "Vます ＋ つつある",
           "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "病状",
+              "reading": "びょうじょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "快方",
+              "reading": "かいほう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "かいつつある。"
+            }
+          ]
         },
         {
           "id": "l02-g05-ja-vi-03",
@@ -3220,7 +4166,30 @@
           "hint": "Vます ＋ つつある",
           "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "古",
+              "reading": "ふる"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "習慣",
+              "reading": "しゅうかん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "廃",
+              "reading": "すた"
+            },
+            {
+              "text": "れつつある。"
+            }
+          ]
         },
         {
           "id": "l02-g05-ja-vi-04",
@@ -3232,7 +4201,23 @@
           "hint": "Vます ＋ つつある",
           "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "議論",
+              "reading": "ぎろん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "決着",
+              "reading": "けっちゃく"
+            },
+            {
+              "text": "しつつある。"
+            }
+          ]
         },
         {
           "id": "l02-g05-ja-vi-05",
@@ -3244,7 +4229,34 @@
           "hint": "Vます ＋ つつある",
           "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "気候",
+              "reading": "きこう"
+            },
+            {
+              "text": "変動",
+              "reading": "へんどう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "影響",
+              "reading": "えいきょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "現",
+              "reading": "あらわ"
+            },
+            {
+              "text": "れつつある。"
+            }
+          ]
         },
         {
           "id": "l02-g05-ja-vi-06",
@@ -3256,7 +4268,34 @@
           "hint": "Vます ＋ つつある",
           "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "若者",
+              "reading": "わかもの"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "価値",
+              "reading": "かち"
+            },
+            {
+              "text": "観",
+              "reading": "かん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "変化",
+              "reading": "へんか"
+            },
+            {
+              "text": "しつつある。"
+            }
+          ]
         },
         {
           "id": "l02-g05-ja-vi-07",
@@ -3268,7 +4307,23 @@
           "hint": "Vます ＋ つつある",
           "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "緊張",
+              "reading": "きんちょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "和",
+              "reading": "やわ"
+            },
+            {
+              "text": "らぎつつある。"
+            }
+          ]
         },
         {
           "id": "l02-g05-ja-vi-08",
@@ -3280,7 +4335,30 @@
           "hint": "Vます ＋ つつある",
           "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "制度",
+              "reading": "せいど"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "定着",
+              "reading": "ていちゃく"
+            },
+            {
+              "text": "しつつある。"
+            }
+          ]
         },
         {
           "id": "l02-g05-ja-vi-09",
@@ -3292,7 +4370,23 @@
           "hint": "Vます ＋ つつある",
           "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "格差",
+              "reading": "かくさ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "縮小",
+              "reading": "しゅくしょう"
+            },
+            {
+              "text": "しつつある。"
+            }
+          ]
         },
         {
           "id": "l02-g05-ja-vi-10",
@@ -3304,7 +4398,23 @@
           "hint": "Vます ＋ つつある",
           "explanation": "Câu dùng つつある để nói đang dần chuyển biến. Giữ đúng hướng thay đổi; phù hợp văn viết/tin tức.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "希望",
+              "reading": "きぼう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "えつつある。"
+            }
+          ]
         },
         {
           "id": "l02-g05-order-01",
@@ -3955,7 +5065,30 @@
           "hint": "Vます ＋ つつ",
           "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "はタバコを"
+            },
+            {
+              "text": "吸",
+              "reading": "す"
+            },
+            {
+              "text": "いつつ"
+            },
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l02-g06-ja-vi-02",
@@ -3967,7 +5100,30 @@
           "hint": "Vます ＋ つつ",
           "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "危険",
+              "reading": "きけん"
+            },
+            {
+              "text": "だと"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "りつつ"
+            },
+            {
+              "text": "登山",
+              "reading": "とざん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l02-g06-ja-vi-03",
@@ -3979,7 +5135,37 @@
           "hint": "Vます ＋ つつ",
           "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "涙",
+              "reading": "なみだ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "流",
+              "reading": "なが"
+            },
+            {
+              "text": "しつつ"
+            },
+            {
+              "text": "手紙",
+              "reading": "てがみ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l02-g06-ja-vi-04",
@@ -3991,7 +5177,30 @@
           "hint": "Vます ＋ つつ",
           "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "音楽",
+              "reading": "おんがく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "楽",
+              "reading": "たの"
+            },
+            {
+              "text": "しみつつ"
+            },
+            {
+              "text": "料理",
+              "reading": "りょうり"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l02-g06-ja-vi-05",
@@ -4003,7 +5212,30 @@
           "hint": "Vます ＋ つつ",
           "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "躊躇",
+              "reading": "ためら"
+            },
+            {
+              "text": "いつつも"
+            },
+            {
+              "text": "同意",
+              "reading": "どうい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l02-g06-ja-vi-06",
@@ -4015,7 +5247,30 @@
           "hint": "Vます ＋ つつ",
           "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "景色",
+              "reading": "けしき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "眺",
+              "reading": "なが"
+            },
+            {
+              "text": "めつつ"
+            },
+            {
+              "text": "歩",
+              "reading": "ある"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l02-g06-ja-vi-07",
@@ -4027,7 +5282,30 @@
           "hint": "Vます ＋ つつ",
           "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "しつつ"
+            },
+            {
+              "text": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l02-g06-ja-vi-08",
@@ -4039,7 +5317,30 @@
           "hint": "Vます ＋ つつ",
           "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "悩",
+              "reading": "なや"
+            },
+            {
+              "text": "みつつ"
+            },
+            {
+              "text": "決断",
+              "reading": "けつだん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l02-g06-ja-vi-09",
@@ -4051,7 +5352,34 @@
           "hint": "Vます ＋ つつ",
           "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子",
+              "reading": "こ"
+            },
+            {
+              "text": "どもを"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "守",
+              "reading": "もり"
+            },
+            {
+              "text": "しつつ"
+            },
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "をした。"
+            }
+          ]
         },
         {
           "id": "l02-g06-ja-vi-10",
@@ -4063,7 +5391,37 @@
           "hint": "Vます ＋ つつ",
           "explanation": "Câu dùng つつ (không có ある) để nối hai hành động đồng thời / nền. Giữ đúng chủ ngữ và cặp hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 2 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "微笑",
+              "reading": "ほほえ"
+            },
+            {
+              "text": "みつつ"
+            },
+            {
+              "text": "部屋",
+              "reading": "へや"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "た。"
+            }
+          ]
         },
         {
           "id": "l02-g06-order-01",

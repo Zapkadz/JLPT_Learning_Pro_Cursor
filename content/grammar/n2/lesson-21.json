@@ -242,7 +242,23 @@
           "hint": "〜くらい／ぐらい",
           "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "えなくなるくらい"
+            },
+            {
+              "text": "遠",
+              "reading": "とお"
+            },
+            {
+              "text": "かった。"
+            }
+          ]
         },
         {
           "id": "l21-g01-ja-vi-02",
@@ -254,7 +270,27 @@
           "hint": "〜くらい／ぐらい",
           "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "ぐらい"
+            },
+            {
+              "text": "待",
+              "reading": "ま"
+            },
+            {
+              "text": "てますか。"
+            }
+          ]
         },
         {
           "id": "l21-g01-ja-vi-03",
@@ -266,7 +302,30 @@
           "hint": "〜くらい／ぐらい",
           "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "住所",
+              "reading": "じゅうしょ"
+            },
+            {
+              "text": "ぐらいは"
+            },
+            {
+              "text": "覚",
+              "reading": "おぼ"
+            },
+            {
+              "text": "えている。"
+            }
+          ]
         },
         {
           "id": "l21-g01-ja-vi-04",
@@ -278,7 +337,23 @@
           "hint": "〜くらい／ぐらい",
           "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "倒",
+              "reading": "たお"
+            },
+            {
+              "text": "れそうなくらい"
+            },
+            {
+              "text": "眠",
+              "reading": "ねむ"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l21-g01-ja-vi-05",
@@ -290,7 +365,24 @@
           "hint": "〜くらい／ぐらい",
           "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "五",
+              "reading": "ご"
+            },
+            {
+              "text": "百",
+              "reading": "ひゃく"
+            },
+            {
+              "text": "円",
+              "reading": "えん"
+            },
+            {
+              "text": "ぐらいしかない。"
+            }
+          ]
         },
         {
           "id": "l21-g01-ja-vi-06",
@@ -302,7 +394,23 @@
           "hint": "〜くらい／ぐらい",
           "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "謝",
+              "reading": "あやま"
+            },
+            {
+              "text": "るくらいの"
+            },
+            {
+              "text": "余裕",
+              "reading": "よゆう"
+            },
+            {
+              "text": "はある。"
+            }
+          ]
         },
         {
           "id": "l21-g01-ja-vi-07",
@@ -314,7 +422,27 @@
           "hint": "〜くらい／ぐらい",
           "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れられないくらい"
+            },
+            {
+              "text": "印象",
+              "reading": "いんしょう"
+            },
+            {
+              "text": "的",
+              "reading": "てき"
+            },
+            {
+              "text": "だった。"
+            }
+          ]
         },
         {
           "id": "l21-g01-ja-vi-08",
@@ -326,7 +454,23 @@
           "hint": "〜くらい／ぐらい",
           "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "十分",
+              "reading": "じゅうぶん"
+            },
+            {
+              "text": "ぐらい"
+            },
+            {
+              "text": "休憩",
+              "reading": "きゅうけい"
+            },
+            {
+              "text": "しよう。"
+            }
+          ]
         },
         {
           "id": "l21-g01-ja-vi-09",
@@ -338,7 +482,30 @@
           "hint": "〜くらい／ぐらい",
           "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "番",
+              "reading": "ばん"
+            },
+            {
+              "text": "ぐらいは"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かる。"
+            }
+          ]
         },
         {
           "id": "l21-g01-ja-vi-10",
@@ -350,7 +517,23 @@
           "hint": "〜くらい／ぐらい",
           "explanation": "Câu くらい／ぐらい: mức độ, ước lượng, hoặc 'ít ra cũng…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "泣",
+              "reading": "な"
+            },
+            {
+              "text": "けてくるくらい"
+            },
+            {
+              "text": "感動",
+              "reading": "かんどう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l21-g01-order-01",
@@ -971,7 +1154,30 @@
           "hint": "〜など／なんか／なんて",
           "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "書類",
+              "reading": "しょるい"
+            },
+            {
+              "text": "などを"
+            },
+            {
+              "text": "机",
+              "reading": "つくえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "置",
+              "reading": "お"
+            },
+            {
+              "text": "いてください。"
+            }
+          ]
         },
         {
           "id": "l21-g02-ja-vi-02",
@@ -983,7 +1189,30 @@
           "hint": "〜など／なんか／なんて",
           "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "訳",
+              "reading": "わけ"
+            },
+            {
+              "text": "なんかを"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "きたくない。"
+            }
+          ]
         },
         {
           "id": "l21-g02-ja-vi-03",
@@ -995,7 +1224,30 @@
           "hint": "〜など／なんか／なんて",
           "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "をつくなんて"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "わなかった。"
+            }
+          ]
         },
         {
           "id": "l21-g02-ja-vi-04",
@@ -1007,7 +1259,30 @@
           "hint": "〜など／なんか／なんて",
           "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "果物",
+              "reading": "くだもの"
+            },
+            {
+              "text": "などを"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "帰",
+              "reading": "かえ"
+            },
+            {
+              "text": "ろう。"
+            }
+          ]
         },
         {
           "id": "l21-g02-ja-vi-05",
@@ -1019,7 +1294,30 @@
           "hint": "〜など／なんか／なんて",
           "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "趣味",
+              "reading": "しゅみ"
+            },
+            {
+              "text": "なんかより"
+            },
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "大事",
+              "reading": "だいじ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l21-g02-ja-vi-06",
@@ -1031,7 +1329,23 @@
           "hint": "〜など／なんか／なんて",
           "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "するなんてあり"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l21-g02-ja-vi-07",
@@ -1043,7 +1357,23 @@
           "hint": "〜など／なんか／なんて",
           "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "名刺",
+              "reading": "めいし"
+            },
+            {
+              "text": "などを"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れないでください。"
+            }
+          ]
         },
         {
           "id": "l21-g02-ja-vi-08",
@@ -1055,7 +1385,30 @@
           "hint": "〜など／なんか／なんて",
           "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "泣",
+              "reading": "な"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "言",
+              "reading": "ごと"
+            },
+            {
+              "text": "なんかを"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "うな。"
+            }
+          ]
         },
         {
           "id": "l21-g02-ja-vi-09",
@@ -1067,7 +1420,30 @@
           "hint": "〜など／なんか／なんて",
           "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "怒",
+              "reading": "おこ"
+            },
+            {
+              "text": "るなんて"
+            },
+            {
+              "text": "珍",
+              "reading": "めずら"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l21-g02-ja-vi-10",
@@ -1079,7 +1455,27 @@
           "hint": "〜など／なんか／なんて",
           "explanation": "Câu など／なんか／なんて: liệt kê nhẹ hoặc hạ thấp / cảm thán.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "掃除",
+              "reading": "そうじ"
+            },
+            {
+              "text": "道具",
+              "reading": "どうぐ"
+            },
+            {
+              "text": "などを"
+            },
+            {
+              "text": "片付",
+              "reading": "かたづ"
+            },
+            {
+              "text": "ける。"
+            }
+          ]
         },
         {
           "id": "l21-g02-order-01",
@@ -1723,7 +2119,30 @@
           "hint": "〜まで／までして／てまで",
           "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "徹夜",
+              "reading": "てつや"
+            },
+            {
+              "text": "してまで"
+            },
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "仕上",
+              "reading": "しあ"
+            },
+            {
+              "text": "げた。"
+            }
+          ]
         },
         {
           "id": "l21-g03-ja-vi-02",
@@ -1735,7 +2154,23 @@
           "hint": "〜まで／までして／てまで",
           "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "までついた。"
+            }
+          ]
         },
         {
           "id": "l21-g03-ja-vi-03",
@@ -1747,7 +2182,30 @@
           "hint": "〜まで／までして／てまで",
           "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "命",
+              "reading": "いのち"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "危険",
+              "reading": "きけん"
+            },
+            {
+              "text": "にさらしてまで"
+            },
+            {
+              "text": "救助",
+              "reading": "きゅうじょ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l21-g03-ja-vi-04",
@@ -1759,7 +2217,30 @@
           "hint": "〜まで／までして／てまで",
           "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "借金",
+              "reading": "しゃっきん"
+            },
+            {
+              "text": "をしてまでブランド"
+            },
+            {
+              "text": "品",
+              "reading": "ひん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "うな。"
+            }
+          ]
         },
         {
           "id": "l21-g03-ja-vi-05",
@@ -1771,7 +2252,30 @@
           "hint": "〜まで／までして／てまで",
           "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "夜中",
+              "reading": "やちゅう"
+            },
+            {
+              "text": "まで"
+            },
+            {
+              "text": "議論",
+              "reading": "ぎろん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l21-g03-ja-vi-06",
@@ -1783,7 +2287,30 @@
           "hint": "〜まで／までして／てまで",
           "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "泣",
+              "reading": "な"
+            },
+            {
+              "text": "いてまで"
+            },
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "はない。"
+            }
+          ]
         },
         {
           "id": "l21-g03-ja-vi-07",
@@ -1795,7 +2322,23 @@
           "hint": "〜まで／までして／てまで",
           "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "退職",
+              "reading": "たいしょく"
+            },
+            {
+              "text": "してまで"
+            },
+            {
+              "text": "独立",
+              "reading": "どくりつ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l21-g03-ja-vi-08",
@@ -1807,7 +2350,30 @@
           "hint": "〜まで／までして／てまで",
           "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "規則",
+              "reading": "きそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "破",
+              "reading": "やぶ"
+            },
+            {
+              "text": "ってまで"
+            },
+            {
+              "text": "参加",
+              "reading": "さんか"
+            },
+            {
+              "text": "したいのか。"
+            }
+          ]
         },
         {
           "id": "l21-g03-ja-vi-09",
@@ -1819,7 +2385,30 @@
           "hint": "〜まで／までして／てまで",
           "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "朝",
+              "reading": "あさ"
+            },
+            {
+              "text": "まで"
+            },
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "けた。"
+            }
+          ]
         },
         {
           "id": "l21-g03-ja-vi-10",
@@ -1831,7 +2420,30 @@
           "hint": "〜まで／までして／てまで",
           "explanation": "Câu まで／までして／てまで: nhấn cực điểm 'thậm chí đến mức…'.",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "貯金",
+              "reading": "ちょきん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "崩",
+              "reading": "くず"
+            },
+            {
+              "text": "してまで"
+            },
+            {
+              "text": "援助",
+              "reading": "えんじょ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l21-g03-order-01",
@@ -2457,7 +3069,27 @@
           "hint": "〜として〜ない",
           "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "人",
+              "reading": "にん"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "しなかった。"
+            }
+          ]
         },
         {
           "id": "l21-g04-ja-vi-02",
@@ -2469,7 +3101,34 @@
           "hint": "〜として〜ない",
           "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "日",
+              "reading": "にち"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "暇",
+              "reading": "ひま"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "がない。"
+            }
+          ]
         },
         {
           "id": "l21-g04-ja-vi-03",
@@ -2481,7 +3140,34 @@
           "hint": "〜として〜ない",
           "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "度",
+              "reading": "ど"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "文句",
+              "reading": "もんく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "わない。"
+            }
+          ]
         },
         {
           "id": "l21-g04-ja-vi-04",
@@ -2493,7 +3179,27 @@
           "hint": "〜として〜ない",
           "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "人",
+              "reading": "にん"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "逃",
+              "reading": "に"
+            },
+            {
+              "text": "げなかった。"
+            }
+          ]
         },
         {
           "id": "l21-g04-ja-vi-05",
@@ -2505,7 +3211,23 @@
           "hint": "〜として〜ない",
           "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一夜",
+              "reading": "いちや"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "静",
+              "reading": "しず"
+            },
+            {
+              "text": "かではなかった。"
+            }
+          ]
         },
         {
           "id": "l21-g04-ja-vi-06",
@@ -2517,7 +3239,27 @@
           "hint": "〜として〜ない",
           "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "度",
+              "reading": "ど"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "はつかない。"
+            }
+          ]
         },
         {
           "id": "l21-g04-ja-vi-07",
@@ -2529,7 +3271,34 @@
           "hint": "〜として〜ない",
           "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "人",
+              "reading": "にん"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "責",
+              "reading": "せ"
+            },
+            {
+              "text": "めない。"
+            }
+          ]
         },
         {
           "id": "l21-g04-ja-vi-08",
@@ -2541,7 +3310,34 @@
           "hint": "〜として〜ない",
           "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "日",
+              "reading": "にち"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "欠",
+              "reading": "か"
+            },
+            {
+              "text": "かさない。"
+            }
+          ]
         },
         {
           "id": "l21-g04-ja-vi-09",
@@ -2553,7 +3349,34 @@
           "hint": "〜として〜ない",
           "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "度",
+              "reading": "ど"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "破",
+              "reading": "やぶ"
+            },
+            {
+              "text": "らない。"
+            }
+          ]
         },
         {
           "id": "l21-g04-ja-vi-10",
@@ -2565,7 +3388,34 @@
           "hint": "〜として〜ない",
           "explanation": "Câu として＋否定: không một (người/ngày/lần) nào….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "人",
+              "reading": "にん"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "疑問",
+              "reading": "ぎもん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "持",
+              "reading": "も"
+            },
+            {
+              "text": "たなかった。"
+            }
+          ]
         },
         {
           "id": "l21-g04-order-01",
@@ -3198,7 +4048,23 @@
           "hint": "〜さえ",
           "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "初心者",
+              "reading": "しょしんしゃ"
+            },
+            {
+              "text": "でさえ"
+            },
+            {
+              "text": "操作",
+              "reading": "そうさ"
+            },
+            {
+              "text": "できる。"
+            }
+          ]
         },
         {
           "id": "l21-g05-ja-vi-02",
@@ -3210,7 +4076,23 @@
           "hint": "〜さえ",
           "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "声",
+              "reading": "こえ"
+            },
+            {
+              "text": "さえ"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "せなかった。"
+            }
+          ]
         },
         {
           "id": "l21-g05-ja-vi-03",
@@ -3222,7 +4104,23 @@
           "hint": "〜さえ",
           "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "しさえすれば"
+            },
+            {
+              "text": "上達",
+              "reading": "じょうたつ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l21-g05-ja-vi-04",
@@ -3234,7 +4132,34 @@
           "hint": "〜さえ",
           "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "専門",
+              "reading": "せんもん"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "でさえ"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l21-g05-ja-vi-05",
@@ -3246,7 +4171,23 @@
           "hint": "〜さえ",
           "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一言",
+              "reading": "ひとこと"
+            },
+            {
+              "text": "さえ"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "えなかった。"
+            }
+          ]
         },
         {
           "id": "l21-g05-ja-vi-06",
@@ -3258,7 +4199,30 @@
           "hint": "〜さえ",
           "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "天気",
+              "reading": "てんき"
+            },
+            {
+              "text": "さえ"
+            },
+            {
+              "text": "良",
+              "reading": "よ"
+            },
+            {
+              "text": "ければ"
+            },
+            {
+              "text": "出発",
+              "reading": "しゅっぱつ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l21-g05-ja-vi-07",
@@ -3270,7 +4234,30 @@
           "hint": "〜さえ",
           "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "でさえ"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "っている"
+            },
+            {
+              "text": "事実",
+              "reading": "じじつ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l21-g05-ja-vi-08",
@@ -3282,7 +4269,23 @@
           "hint": "〜さえ",
           "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "呼吸",
+              "reading": "こきゅう"
+            },
+            {
+              "text": "さえ"
+            },
+            {
+              "text": "苦",
+              "reading": "くる"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l21-g05-ja-vi-09",
@@ -3294,7 +4297,23 @@
           "hint": "〜さえ",
           "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "しさえすれば"
+            },
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "かる。"
+            }
+          ]
         },
         {
           "id": "l21-g05-ja-vi-10",
@@ -3306,7 +4325,23 @@
           "hint": "〜さえ",
           "explanation": "Câu さえ／でさえ: ngay cả… cũng…; さえすれば = chỉ cần….",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "社長",
+              "reading": "しゃちょう"
+            },
+            {
+              "text": "でさえ"
+            },
+            {
+              "text": "例外",
+              "reading": "れいがい"
+            },
+            {
+              "text": "ではない。"
+            }
+          ]
         },
         {
           "id": "l21-g05-order-01",
@@ -3943,7 +4978,30 @@
           "hint": "〜てでも",
           "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "徹夜",
+              "reading": "てつや"
+            },
+            {
+              "text": "してでも"
+            },
+            {
+              "text": "論文",
+              "reading": "ろんぶん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "書",
+              "reading": "か"
+            },
+            {
+              "text": "く。"
+            }
+          ]
         },
         {
           "id": "l21-g06-ja-vi-02",
@@ -3955,7 +5013,30 @@
           "hint": "〜てでも",
           "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "借金",
+              "reading": "しゃっきん"
+            },
+            {
+              "text": "してでも"
+            },
+            {
+              "text": "家",
+              "reading": "いえ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l21-g06-ja-vi-03",
@@ -3967,7 +5048,30 @@
           "hint": "〜てでも",
           "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "走",
+              "reading": "はし"
+            },
+            {
+              "text": "ってでも"
+            },
+            {
+              "text": "会場",
+              "reading": "かいじょう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "着",
+              "reading": "つ"
+            },
+            {
+              "text": "く。"
+            }
+          ]
         },
         {
           "id": "l21-g06-ja-vi-04",
@@ -3979,7 +5083,23 @@
           "hint": "〜てでも",
           "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "休職",
+              "reading": "きゅうしょく"
+            },
+            {
+              "text": "してでも"
+            },
+            {
+              "text": "介護",
+              "reading": "かいご"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l21-g06-ja-vi-05",
@@ -3991,7 +5111,30 @@
           "hint": "〜てでも",
           "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "謝",
+              "reading": "あやま"
+            },
+            {
+              "text": "ってでも"
+            },
+            {
+              "text": "協力",
+              "reading": "きょうりょく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l21-g06-ja-vi-06",
@@ -4003,7 +5146,30 @@
           "hint": "〜てでも",
           "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "遠回",
+              "reading": "とおまわ"
+            },
+            {
+              "text": "りしてでも"
+            },
+            {
+              "text": "安全",
+              "reading": "あんぜん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "選",
+              "reading": "えら"
+            },
+            {
+              "text": "ぶ。"
+            }
+          ]
         },
         {
           "id": "l21-g06-ja-vi-07",
@@ -4015,7 +5181,34 @@
           "hint": "〜てでも",
           "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "節約",
+              "reading": "せつやく"
+            },
+            {
+              "text": "してでも"
+            },
+            {
+              "text": "留学",
+              "reading": "りゅうがく"
+            },
+            {
+              "text": "費用",
+              "reading": "ひよう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "貯",
+              "reading": "た"
+            },
+            {
+              "text": "める。"
+            }
+          ]
         },
         {
           "id": "l21-g06-ja-vi-08",
@@ -4027,7 +5220,44 @@
           "hint": "〜てでも",
           "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無理",
+              "reading": "むり"
+            },
+            {
+              "text": "してでも"
+            },
+            {
+              "text": "締",
+              "reading": "し"
+            },
+            {
+              "text": "め"
+            },
+            {
+              "text": "切",
+              "reading": "き"
+            },
+            {
+              "text": "りに"
+            },
+            {
+              "text": "間",
+              "reading": "ま"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "合",
+              "reading": "あ"
+            },
+            {
+              "text": "わせる。"
+            }
+          ]
         },
         {
           "id": "l21-g06-ja-vi-09",
@@ -4039,7 +5269,30 @@
           "hint": "〜てでも",
           "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "対立",
+              "reading": "たいりつ"
+            },
+            {
+              "text": "してでも"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "とお"
+            },
+            {
+              "text": "す。"
+            }
+          ]
         },
         {
           "id": "l21-g06-ja-vi-10",
@@ -4051,7 +5304,34 @@
           "hint": "〜てでも",
           "explanation": "Câu Vて＋でも: dù phải… cũng (quyết tâm đạt mục tiêu).",
           "origin": "authored",
-          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 21 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "夜行",
+              "reading": "やこう"
+            },
+            {
+              "text": "列車",
+              "reading": "れっしゃ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "乗",
+              "reading": "の"
+            },
+            {
+              "text": "ってでも"
+            },
+            {
+              "text": "帰",
+              "reading": "かえ"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l21-g06-order-01",

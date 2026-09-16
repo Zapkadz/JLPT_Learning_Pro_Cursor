@@ -247,7 +247,23 @@
           "hint": "N ＋ をもとに（して）",
           "explanation": "Câu dùng をもとに để nói dựa trên chất liệu/nguồn gốc để tạo ra điều gì.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "実話",
+              "reading": "じつわ"
+            },
+            {
+              "text": "をもとにドラマが"
+            },
+            {
+              "text": "作",
+              "reading": "つく"
+            },
+            {
+              "text": "られた。"
+            }
+          ]
         },
         {
           "id": "l08-g01-ja-vi-02",
@@ -259,7 +275,41 @@
           "hint": "N ＋ をもとに（して）",
           "explanation": "Câu dùng をもとに để nói dựa trên chất liệu/nguồn gốc để tạo ra điều gì.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "記録",
+              "reading": "きろく"
+            },
+            {
+              "text": "をもとに"
+            },
+            {
+              "text": "議事",
+              "reading": "ぎじ"
+            },
+            {
+              "text": "録",
+              "reading": "ろく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "作成",
+              "reading": "さくせい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g01-ja-vi-03",
@@ -271,7 +321,37 @@
           "hint": "N ＋ をもとに（して）",
           "explanation": "Câu dùng をもとに để nói dựa trên chất liệu/nguồn gốc để tạo ra điều gì.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "面接",
+              "reading": "めんせつ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "をもとに"
+            },
+            {
+              "text": "採用",
+              "reading": "さいよう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "める。"
+            }
+          ]
         },
         {
           "id": "l08-g01-ja-vi-04",
@@ -283,7 +363,30 @@
           "hint": "N ＋ をもとに（して）",
           "explanation": "Câu dùng をもとに để nói dựa trên chất liệu/nguồn gốc để tạo ra điều gì.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "現場",
+              "reading": "げんば"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "声",
+              "reading": "こえ"
+            },
+            {
+              "text": "をもとにマニュアルを"
+            },
+            {
+              "text": "改訂",
+              "reading": "かいてい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g01-ja-vi-05",
@@ -295,7 +398,34 @@
           "hint": "N ＋ をもとに（して）",
           "explanation": "Câu dùng をもとに để nói dựa trên chất liệu/nguồn gốc để tạo ra điều gì.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "歴史",
+              "reading": "れきし"
+            },
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "をもとに"
+            },
+            {
+              "text": "展示",
+              "reading": "てんじ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "企画",
+              "reading": "きかく"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g01-ja-vi-06",
@@ -307,7 +437,37 @@
           "hint": "N ＋ をもとに（して）",
           "explanation": "Câu dùng をもとに để nói dựa trên chất liệu/nguồn gốc để tạo ra điều gì.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "をもとに"
+            },
+            {
+              "text": "次",
+              "reading": "つぎ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "立",
+              "reading": "た"
+            },
+            {
+              "text": "てた。"
+            }
+          ]
         },
         {
           "id": "l08-g01-ja-vi-07",
@@ -319,7 +479,30 @@
           "hint": "N ＋ をもとに（して）",
           "explanation": "Câu dùng をもとに để nói dựa trên chất liệu/nguồn gốc để tạo ra điều gì.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "地図",
+              "reading": "ちず"
+            },
+            {
+              "text": "をもとに"
+            },
+            {
+              "text": "避難",
+              "reading": "ひなん"
+            },
+            {
+              "text": "ルートを"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g01-ja-vi-08",
@@ -331,7 +514,30 @@
           "hint": "N ＋ をもとに（して）",
           "explanation": "Câu dùng をもとに để nói dựa trên chất liệu/nguồn gốc để tạo ra điều gì.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "顧客",
+              "reading": "こきゃく"
+            },
+            {
+              "text": "データをもとに"
+            },
+            {
+              "text": "販促",
+              "reading": "はんそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "行",
+              "reading": "おこな"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l08-g01-ja-vi-09",
@@ -343,7 +549,41 @@
           "hint": "N ＋ をもとに（して）",
           "explanation": "Câu dùng をもとに để nói dựa trên chất liệu/nguồn gốc để tạo ra điều gì.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "昔話",
+              "reading": "むかしばなし"
+            },
+            {
+              "text": "をもとに"
+            },
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けの"
+            },
+            {
+              "text": "絵本",
+              "reading": "えほん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g01-ja-vi-10",
@@ -355,7 +595,34 @@
           "hint": "N ＋ をもとに（して）",
           "explanation": "Câu dùng をもとに để nói dựa trên chất liệu/nguồn gốc để tạo ra điều gì.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "実験",
+              "reading": "じっけん"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "をもとに"
+            },
+            {
+              "text": "仮説",
+              "reading": "かせつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "修正",
+              "reading": "しゅうせい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g01-order-01",
@@ -1014,7 +1281,38 @@
           "hint": "N ＋ に基づいて／に基づく",
           "explanation": "Câu dùng に基づいて để nói căn cứ theo luật, dữ liệu, sự thật…",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "科学",
+              "reading": "かがく"
+            },
+            {
+              "text": "的",
+              "reading": "てき"
+            },
+            {
+              "text": "根拠",
+              "reading": "こんきょ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づいて"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l08-g02-ja-vi-02",
@@ -1026,7 +1324,33 @@
           "hint": "N ＋ に基づいて／に基づく",
           "explanation": "Câu dùng に基づいて để nói căn cứ theo luật, dữ liệu, sự thật…",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ガイドラインに"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づき"
+            },
+            {
+              "text": "運用",
+              "reading": "うんよう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めた。"
+            }
+          ]
         },
         {
           "id": "l08-g02-ja-vi-03",
@@ -1038,7 +1362,37 @@
           "hint": "N ＋ に基づいて／に基づく",
           "explanation": "Câu dùng に基づいて để nói căn cứ theo luật, dữ liệu, sự thật…",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "過去",
+              "reading": "かこ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "事例",
+              "reading": "じれい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づく"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l08-g02-ja-vi-04",
@@ -1050,7 +1404,37 @@
           "hint": "N ＋ に基づいて／に基づく",
           "explanation": "Câu dùng に基づいて để nói căn cứ theo luật, dữ liệu, sự thật…",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "憲法",
+              "reading": "けんぽう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づいて"
+            },
+            {
+              "text": "権利",
+              "reading": "けんり"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "られる。"
+            }
+          ]
         },
         {
           "id": "l08-g02-ja-vi-05",
@@ -1062,7 +1446,37 @@
           "hint": "N ＋ に基づいて／に基づく",
           "explanation": "Câu dùng に基づいて để nói căn cứ theo luật, dữ liệu, sự thật…",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "統計",
+              "reading": "とうけい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づいて"
+            },
+            {
+              "text": "政策",
+              "reading": "せいさく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見直",
+              "reading": "みなお"
+            },
+            {
+              "text": "す。"
+            }
+          ]
         },
         {
           "id": "l08-g02-ja-vi-06",
@@ -1074,7 +1488,41 @@
           "hint": "N ＋ に基づいて／に基づく",
           "explanation": "Câu dùng に基づいて để nói căn cứ theo luật, dữ liệu, sự thật…",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "診断",
+              "reading": "しんだん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づいて"
+            },
+            {
+              "text": "治療",
+              "reading": "ちりょう"
+            },
+            {
+              "text": "方針",
+              "reading": "ほうしん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "めた。"
+            }
+          ]
         },
         {
           "id": "l08-g02-ja-vi-07",
@@ -1086,7 +1534,48 @@
           "hint": "N ＋ に基づいて／に基づく",
           "explanation": "Câu dùng に基づいて để nói căn cứ theo luật, dữ liệu, sự thật…",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "規約",
+              "reading": "きやく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づき"
+            },
+            {
+              "text": "会員",
+              "reading": "かいいん"
+            },
+            {
+              "text": "資格",
+              "reading": "しかく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "取",
+              "reading": "と"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "消",
+              "reading": "け"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g02-ja-vi-08",
@@ -1098,7 +1587,37 @@
           "hint": "N ＋ に基づいて／に基づく",
           "explanation": "Câu dùng に基づいて để nói căn cứ theo luật, dữ liệu, sự thật…",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "実験",
+              "reading": "じっけん"
+            },
+            {
+              "text": "データに"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づく"
+            },
+            {
+              "text": "結論",
+              "reading": "けつろん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g02-ja-vi-09",
@@ -1110,7 +1629,34 @@
           "hint": "N ＋ に基づいて／に基づく",
           "explanation": "Câu dùng に基づいて để nói căn cứ theo luật, dữ liệu, sự thật…",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "国際",
+              "reading": "こくさい"
+            },
+            {
+              "text": "基準",
+              "reading": "きじゅん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づいて"
+            },
+            {
+              "text": "検査",
+              "reading": "けんさ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l08-g02-ja-vi-10",
@@ -1122,7 +1668,37 @@
           "hint": "N ＋ に基づいて／に基づく",
           "explanation": "Câu dùng に基づいて để nói căn cứ theo luật, dữ liệu, sự thật…",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "合意",
+              "reading": "ごうい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づいて"
+            },
+            {
+              "text": "協力",
+              "reading": "きょうりょく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "ける。"
+            }
+          ]
         },
         {
           "id": "l08-g02-order-01",
@@ -1795,7 +2371,37 @@
           "hint": "N ＋ に沿って／に沿い",
           "explanation": "Câu dùng に沿って để nói đi dọc theo hoặc hành động theo kế hoạch/ý muốn.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "川",
+              "reading": "かわ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "沿",
+              "reading": "そ"
+            },
+            {
+              "text": "いに"
+            },
+            {
+              "text": "桜",
+              "reading": "さくら"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "並",
+              "reading": "なら"
+            },
+            {
+              "text": "んでいる。"
+            }
+          ]
         },
         {
           "id": "l08-g03-ja-vi-02",
@@ -1807,7 +2413,26 @@
           "hint": "N ＋ に沿って／に沿い",
           "explanation": "Câu dùng に沿って để nói đi dọc theo hoặc hành động theo kế hoạch/ý muốn.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "マニュアルに"
+            },
+            {
+              "text": "沿",
+              "reading": "そ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "操作",
+              "reading": "そうさ"
+            },
+            {
+              "text": "してください。"
+            }
+          ]
         },
         {
           "id": "l08-g03-ja-vi-03",
@@ -1819,7 +2444,37 @@
           "hint": "N ＋ に沿って／に沿い",
           "explanation": "Câu dùng に沿って để nói đi dọc theo hoặc hành động theo kế hoạch/ý muốn.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "政府",
+              "reading": "せいふ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "方針",
+              "reading": "ほうしん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "沿",
+              "reading": "そ"
+            },
+            {
+              "text": "った"
+            },
+            {
+              "text": "改革",
+              "reading": "かいかく"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l08-g03-ja-vi-04",
@@ -1831,7 +2486,41 @@
           "hint": "N ＋ に沿って／に沿い",
           "explanation": "Câu dùng に沿って để nói đi dọc theo hoặc hành động theo kế hoạch/ý muốn.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "海岸",
+              "reading": "かいがん"
+            },
+            {
+              "text": "線",
+              "reading": "せん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "沿",
+              "reading": "そ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "道路",
+              "reading": "どうろ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "いている。"
+            }
+          ]
         },
         {
           "id": "l08-g03-ja-vi-05",
@@ -1843,7 +2532,37 @@
           "hint": "N ＋ に沿って／に沿い",
           "explanation": "Câu dùng に沿って để nói đi dọc theo hoặc hành động theo kế hoạch/ý muốn.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "沿",
+              "reading": "そ"
+            },
+            {
+              "text": "わない"
+            },
+            {
+              "text": "変更",
+              "reading": "へんこう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "認",
+              "reading": "みと"
+            },
+            {
+              "text": "めない。"
+            }
+          ]
         },
         {
           "id": "l08-g03-ja-vi-06",
@@ -1855,7 +2574,34 @@
           "hint": "N ＋ に沿って／に沿い",
           "explanation": "Câu dùng に沿って để nói đi dọc theo hoặc hành động theo kế hoạch/ý muốn.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "利用",
+              "reading": "りよう"
+            },
+            {
+              "text": "規約",
+              "reading": "きやく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "沿",
+              "reading": "そ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "対応",
+              "reading": "たいおう"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l08-g03-ja-vi-07",
@@ -1867,7 +2613,37 @@
           "hint": "N ＋ に沿って／に沿い",
           "explanation": "Câu dùng に沿って để nói đi dọc theo hoặc hành động theo kế hoạch/ý muốn.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "壁",
+              "reading": "かべ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "沿",
+              "reading": "そ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "家具",
+              "reading": "かぐ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "配置",
+              "reading": "はいち"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g03-ja-vi-08",
@@ -1879,7 +2655,48 @@
           "hint": "N ＋ に沿って／に沿い",
           "explanation": "Câu dùng に沿って để nói đi dọc theo hoặc hành động theo kế hoạch/ý muốn.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "教育",
+              "reading": "きょういく"
+            },
+            {
+              "text": "方針",
+              "reading": "ほうしん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "沿",
+              "reading": "そ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "授業",
+              "reading": "じゅぎょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "組",
+              "reading": "く"
+            },
+            {
+              "text": "み"
+            },
+            {
+              "text": "立",
+              "reading": "た"
+            },
+            {
+              "text": "てる。"
+            }
+          ]
         },
         {
           "id": "l08-g03-ja-vi-09",
@@ -1891,7 +2708,34 @@
           "hint": "N ＋ に沿って／に沿い",
           "explanation": "Câu dùng に沿って để nói đi dọc theo hoặc hành động theo kế hoạch/ý muốn.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "川",
+              "reading": "かわ"
+            },
+            {
+              "text": "沿",
+              "reading": "ぞ"
+            },
+            {
+              "text": "いに"
+            },
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "歩道",
+              "reading": "ほどう"
+            },
+            {
+              "text": "ができた。"
+            }
+          ]
         },
         {
           "id": "l08-g03-ja-vi-10",
@@ -1903,7 +2747,47 @@
           "hint": "N ＋ に沿って／に沿い",
           "explanation": "Câu dùng に沿って để nói đi dọc theo hoặc hành động theo kế hoạch/ý muốn.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "お"
+            },
+            {
+              "text": "客様",
+              "reading": "きゃくさま"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "意向",
+              "reading": "いこう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "沿",
+              "reading": "そ"
+            },
+            {
+              "text": "う"
+            },
+            {
+              "text": "形",
+              "reading": "かたち"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "めます。"
+            }
+          ]
         },
         {
           "id": "l08-g03-order-01",
@@ -2556,7 +3440,41 @@
           "hint": "N ＋ のもとで／のもとに",
           "explanation": "Câu dùng のもとで／のもとに để nói dưới điều kiện/sự hướng dẫn hoặc nhờ vào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "民主",
+              "reading": "みんしゅ"
+            },
+            {
+              "text": "的",
+              "reading": "てき"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "環境",
+              "reading": "かんきょう"
+            },
+            {
+              "text": "のもとで"
+            },
+            {
+              "text": "議論",
+              "reading": "ぎろん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l08-g04-ja-vi-02",
@@ -2568,7 +3486,41 @@
           "hint": "N ＋ のもとで／のもとに",
           "explanation": "Câu dùng のもとで／のもとに để nói dưới điều kiện/sự hướng dẫn hoặc nhờ vào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "専門",
+              "reading": "せんもん"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "助言",
+              "reading": "じょげん"
+            },
+            {
+              "text": "のもとに"
+            },
+            {
+              "text": "方針",
+              "reading": "ほうしん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "えた。"
+            }
+          ]
         },
         {
           "id": "l08-g04-ja-vi-03",
@@ -2580,7 +3532,34 @@
           "hint": "N ＋ のもとで／のもとに",
           "explanation": "Câu dùng のもとで／のもとに để nói dưới điều kiện/sự hướng dẫn hoặc nhờ vào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "夜間",
+              "reading": "やかん"
+            },
+            {
+              "text": "照明",
+              "reading": "しょうめい"
+            },
+            {
+              "text": "のもとで"
+            },
+            {
+              "text": "工事",
+              "reading": "こうじ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l08-g04-ja-vi-04",
@@ -2592,7 +3571,37 @@
           "hint": "N ＋ のもとで／のもとに",
           "explanation": "Câu dùng のもとで／のもとに để nói dưới điều kiện/sự hướng dẫn hoặc nhờ vào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "規則",
+              "reading": "きそく"
+            },
+            {
+              "text": "のもとで"
+            },
+            {
+              "text": "運用",
+              "reading": "うんよう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "開始",
+              "reading": "かいし"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g04-ja-vi-05",
@@ -2604,7 +3613,30 @@
           "hint": "N ＋ のもとで／のもとに",
           "explanation": "Câu dùng のもとで／のもとに để nói dưới điều kiện/sự hướng dẫn hoặc nhờ vào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "医師",
+              "reading": "いし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "監督",
+              "reading": "かんとく"
+            },
+            {
+              "text": "のもとでリハビリを"
+            },
+            {
+              "text": "行",
+              "reading": "おこな"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l08-g04-ja-vi-06",
@@ -2616,7 +3648,34 @@
           "hint": "N ＋ のもとで／のもとに",
           "explanation": "Câu dùng のもとで／のもとに để nói dưới điều kiện/sự hướng dẫn hoặc nhờ vào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "条件",
+              "reading": "じょうけん"
+            },
+            {
+              "text": "のもとに"
+            },
+            {
+              "text": "取引",
+              "reading": "とりひき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "ける。"
+            }
+          ]
         },
         {
           "id": "l08-g04-ja-vi-07",
@@ -2628,7 +3687,37 @@
           "hint": "N ＋ のもとで／のもとに",
           "explanation": "Câu dùng のもとで／のもとに để nói dưới điều kiện/sự hướng dẫn hoặc nhờ vào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "厳",
+              "reading": "きび"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "暑",
+              "reading": "あつ"
+            },
+            {
+              "text": "さのもとでも"
+            },
+            {
+              "text": "訓練",
+              "reading": "くんれん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "欠",
+              "reading": "か"
+            },
+            {
+              "text": "かさない。"
+            }
+          ]
         },
         {
           "id": "l08-g04-ja-vi-08",
@@ -2640,7 +3729,30 @@
           "hint": "N ＋ のもとで／のもとに",
           "explanation": "Câu dùng のもとで／のもとに để nói dưới điều kiện/sự hướng dẫn hoặc nhờ vào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "国連",
+              "reading": "こくれん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "枠組",
+              "reading": "わくぐ"
+            },
+            {
+              "text": "みのもとに"
+            },
+            {
+              "text": "協力",
+              "reading": "きょうりょく"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g04-ja-vi-09",
@@ -2652,7 +3764,30 @@
           "hint": "N ＋ のもとで／のもとに",
           "explanation": "Câu dùng のもとで／のもとに để nói dưới điều kiện/sự hướng dẫn hoặc nhờ vào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "保護",
+              "reading": "ほご"
+            },
+            {
+              "text": "のもとで"
+            },
+            {
+              "text": "安心",
+              "reading": "あんしん"
+            },
+            {
+              "text": "している。"
+            }
+          ]
         },
         {
           "id": "l08-g04-ja-vi-10",
@@ -2664,7 +3799,41 @@
           "hint": "N ＋ のもとで／のもとに",
           "explanation": "Câu dùng のもとで／のもとに để nói dưới điều kiện/sự hướng dẫn hoặc nhờ vào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "公正",
+              "reading": "こうせい"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "審査",
+              "reading": "しんさ"
+            },
+            {
+              "text": "のもとで"
+            },
+            {
+              "text": "受賞",
+              "reading": "じゅしょう"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "まった。"
+            }
+          ]
         },
         {
           "id": "l08-g04-order-01",
@@ -3301,7 +4470,34 @@
           "hint": "N ＋ 向けだ／向けの",
           "explanation": "Câu dùng 向け để nói sản phẩm/nội dung dành cho đối tượng nào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "初心者",
+              "reading": "しょしんしゃ"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けに"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "丁寧",
+              "reading": "ていねい"
+            },
+            {
+              "text": "にした。"
+            }
+          ]
         },
         {
           "id": "l08-g05-ja-vi-02",
@@ -3313,7 +4509,38 @@
           "hint": "N ＋ 向けだ／向けの",
           "explanation": "Câu dùng 向け để nói sản phẩm/nội dung dành cho đối tượng nào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "海外",
+              "reading": "かいがい"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けに"
+            },
+            {
+              "text": "英語",
+              "reading": "えいご"
+            },
+            {
+              "text": "版",
+              "reading": "ばん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "用意",
+              "reading": "ようい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g05-ja-vi-03",
@@ -3325,7 +4552,41 @@
           "hint": "N ＋ 向けだ／向けの",
           "explanation": "Câu dùng 向け để nói sản phẩm/nội dung dành cho đối tượng nào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けだから"
+            },
+            {
+              "text": "漢字",
+              "reading": "かんじ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "振",
+              "reading": "ふ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "仮名",
+              "reading": "かめい"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l08-g05-ja-vi-04",
@@ -3337,7 +4598,33 @@
           "hint": "N ＋ 向けだ／向けの",
           "explanation": "Câu dùng 向け để nói sản phẩm/nội dung dành cho đối tượng nào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ビジネス"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けの"
+            },
+            {
+              "text": "機能",
+              "reading": "きのう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "充実",
+              "reading": "じゅうじつ"
+            },
+            {
+              "text": "している。"
+            }
+          ]
         },
         {
           "id": "l08-g05-ja-vi-05",
@@ -3349,7 +4636,42 @@
           "hint": "N ＋ 向けだ／向けの",
           "explanation": "Câu dùng 向け để nói sản phẩm/nội dung dành cho đối tượng nào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "観光",
+              "reading": "かんこう"
+            },
+            {
+              "text": "客",
+              "reading": "きゃく"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けの"
+            },
+            {
+              "text": "案内",
+              "reading": "あんない"
+            },
+            {
+              "text": "所",
+              "reading": "しょ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "えた。"
+            }
+          ]
         },
         {
           "id": "l08-g05-ja-vi-06",
@@ -3361,7 +4683,34 @@
           "hint": "N ＋ 向けだ／向けの",
           "explanation": "Câu dùng 向け để nói sản phẩm/nội dung dành cho đối tượng nào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "受験生",
+              "reading": "じゅけんせい"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けの"
+            },
+            {
+              "text": "模試",
+              "reading": "もし"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "実施",
+              "reading": "じっし"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l08-g05-ja-vi-07",
@@ -3373,7 +4722,38 @@
           "hint": "N ＋ 向けだ／向けの",
           "explanation": "Câu dùng 向け để nói sản phẩm/nội dung dành cho đối tượng nào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "高齢",
+              "reading": "こうれい"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けに"
+            },
+            {
+              "text": "文字",
+              "reading": "もじ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "大",
+              "reading": "おお"
+            },
+            {
+              "text": "きくした。"
+            }
+          ]
         },
         {
           "id": "l08-g05-ja-vi-08",
@@ -3385,7 +4765,27 @@
           "hint": "N ＋ 向けだ／向けの",
           "explanation": "Câu dùng 向け để nói sản phẩm/nội dung dành cho đối tượng nào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "学生",
+              "reading": "がくせい"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けの"
+            },
+            {
+              "text": "割引",
+              "reading": "わりびき"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l08-g05-ja-vi-09",
@@ -3397,7 +4797,41 @@
           "hint": "N ＋ 向けだ／向けの",
           "explanation": "Câu dùng 向け để nói sản phẩm/nội dung dành cho đối tượng nào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "家庭",
+              "reading": "かてい"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けに"
+            },
+            {
+              "text": "使",
+              "reading": "つか"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "方",
+              "reading": "かた"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "簡単",
+              "reading": "かんたん"
+            },
+            {
+              "text": "にした。"
+            }
+          ]
         },
         {
           "id": "l08-g05-ja-vi-10",
@@ -3409,7 +4843,38 @@
           "hint": "N ＋ 向けだ／向けの",
           "explanation": "Câu dùng 向け để nói sản phẩm/nội dung dành cho đối tượng nào.",
           "origin": "authored",
-          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 8 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "専門",
+              "reading": "せんもん"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けの"
+            },
+            {
+              "text": "詳細",
+              "reading": "しょうさい"
+            },
+            {
+              "text": "データを"
+            },
+            {
+              "text": "公開",
+              "reading": "こうかい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l08-g05-order-01",

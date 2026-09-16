@@ -6,11 +6,11 @@ Module design history remains in `docs/grammar-n2/PLAN.md` (do not treat that fi
 
 ## Current Goal
 
-Grammar N2 per Master Requirement. **N2-FULL-ACC automated evidence DONE** on `feat/n2-full-acc` (commit/PR pending). Scale **26/141/4230** on `main`. Teacher independent review still PENDING. Next optional: **N2-L01-FURI-001** (needs decision).
+Grammar N2 per Master Requirement. **N2-L01-FURI-001 DONE** (policy B: optional JA→VI furigana, all 26 lessons) on `feat/n2-l01-furi-001`; commit/PR pending. Teacher independent review still PENDING.
 
 ## Current Milestone
 
-**Phase 1+ Grammar N2** — content batches + automated full-course acceptance evidence; teacher review / furigana still open.
+**Phase 1+ Grammar N2** — content scale + FULL-ACC automated evidence on `main`; furigana policy B implemented on feature branch.
 
 ## Status legend
 
@@ -45,7 +45,7 @@ Implementation of N2-* coding tasks requires **explicit user approval**. Until t
 | N2-ARCH-001 | Multi-lesson content loader (no parallel stack) | DONE | N2-MAP-002 | Unpublished → 404; published from JSON; L1 regression 13/13 |
 | N2-ARCH-002 | Additive metadata (variants/source/origin) via Zod | DONE | N2-ARCH-001 | Optional fields; public DTO strips answers/origin; L1 JSON still parses |
 | N2-L01-GOLD-001 | Lesson 1 theory/examples golden template | DONE | N2-MAP-002, N2-ARCH-002 | 3 examples/group + variants/urls; rev 4; no practice overlap |
-| N2-L01-FURI-001 | Close furigana gaps (scope needs product decision for JA→VI practice) | TODO | Decision + N2-L01-GOLD-001 | Policy applied; raw JA stays clean |
+| N2-L01-FURI-001 | Close furigana gaps (JA→VI optional structured ruby, all 26 lessons) | DONE | Decision B + N2-L01-GOLD-001 | ADR-009; promptRuby on 1410 ja-vi; toggle on practice; raw JA clean |
 | N2-L01-GOLD-002 | Lesson 1 exercise bank QA (10/10/10 substantive + origin) | DONE | N2-L01-GOLD-001 | Validators pass; hints not full answers; rev 5 |
 | N2-L01-UX-001 | Remove Lesson-1 hardcoding; statuses from API/manifest | DONE | N2-ARCH-001 | CTA/back-link from published lesson + pattern lesson metadata; no `lesson-01` in Grammar UI |
 | N2-L01-PROG-001 | Align progress semantics without resetting user data | DONE | N2-L01-UX-001 | No double XP; denominator = 141; ADR-008 |

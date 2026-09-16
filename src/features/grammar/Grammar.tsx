@@ -392,12 +392,14 @@ function ExerciseCard({
   sessionId,
   initial,
   onResult,
+  reading,
 }: {
   q: PublicExercise;
   number: number;
   sessionId: string;
   initial?: ResponseState;
   onResult: (id: string, r: ResponseState) => void;
+  reading: boolean;
 }) {
   const key = "grammar-draft:" + sessionId + ":" + q.id;
   const [answer, setAnswer] = useState<string | string[]>(() => {
@@ -525,7 +527,22 @@ function ExerciseCard({
         </small>
       </div>
       <p className="grammar-prompt" lang={q.mode === "ja-vi" ? "ja" : "vi"}>
-        {q.prompt}
+        {q.mode === "ja-vi" && q.promptRuby && q.promptRuby.length > 0 ? (
+          <span className={reading ? "ruby-visible" : "ruby-hidden"}>
+            {q.promptRuby.map((t, i) =>
+              t.reading ? (
+                <ruby key={i}>
+                  {t.text}
+                  <rt>{t.reading}</rt>
+                </ruby>
+              ) : (
+                <span key={i}>{t.text}</span>
+              ),
+            )}
+          </span>
+        ) : (
+          q.prompt
+        )}
       </p>
       {q.mode === "order" ? (
         <>
@@ -708,6 +725,9 @@ export function GrammarExercises() {
     [error, setError] = useState(""),
     [busy, setBusy] = useState(false),
     [notice, setNotice] = useState("");
+  const [reading, setReading] = useState(
+    () => localStorage.getItem("kotoba-grammar-reading") === "true",
+  );
   const detail = useData<PatternDetail>("/grammar/patterns/" + patternId);
   useEffect(() => {
     let active = true;
@@ -734,6 +754,9 @@ export function GrammarExercises() {
   const checked = Object.values(session.responses).filter(
     (r) => r.result && r.result !== "revealed",
   ).length;
+  const hasJaViRuby = session.questions.some(
+    (q) => q.mode === "ja-vi" && q.promptRuby && q.promptRuby.length > 0,
+  );
   return (
     <div className="grammar-page">
       <Link className="back-link" to={"/grammar/n2/patterns/" + patternId}>
@@ -757,6 +780,21 @@ export function GrammarExercises() {
             : "Tiến độ được lưu theo tài khoản"}
         </span>
       </div>
+      {hasJaViRuby && (
+        <div className="grammar-actions">
+          <button
+            type="button"
+            className="btn secondary"
+            aria-pressed={reading}
+            onClick={() => {
+              setReading(!reading);
+              localStorage.setItem("kotoba-grammar-reading", String(!reading));
+            }}
+          >
+            {reading ? "Ẩn" : "Hiện"} furigana
+          </button>
+        </div>
+      )}
       <div className="grammar-tabs" role="tablist" aria-label="Dạng bài tập">
         {modes.map((m) => (
           <button
@@ -805,6 +843,7 @@ export function GrammarExercises() {
                 number={i + 1}
                 sessionId={session.id}
                 initial={session.responses[q.id]}
+                reading={reading}
                 onResult={(id, r) =>
                   setSession((s) =>
                     s

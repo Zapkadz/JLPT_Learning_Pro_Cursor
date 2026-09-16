@@ -44,7 +44,7 @@ Machine-readable counts: `docs/grammar-n2/FULL-ACCEPTANCE-EVIDENCE.json`.
 ## Explicitly still open
 
 1. **Independent teacher review** of language quality / nuance across 141 groups.  
-2. **N2-L01-FURI-001** — furigana policy for JA→VI practice (product decision).  
+2. **N2-L01-FURI-001** — **DONE** (ADR-009 policy B; optional JA→VI `promptRuby`; agent readings).  
 3. Manual responsive UI spot-check (desktop/tablet/mobile) beyond existing e2e.  
 
 ## Safety
