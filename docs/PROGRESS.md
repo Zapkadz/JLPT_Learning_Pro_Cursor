@@ -270,7 +270,7 @@ Re-verified against repository (no app code changes):
 
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
 - Independent teacher review of N2 content (language QA; not claimed by N2-FULL-ACC).  
-- N2-FULL-ACC commit / PR on `feat/n2-full-acc` — awaiting user.
+- N2-FULL-ACC commit / PR — **PR #13 open** (https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/13).
 
 ## Known Issues
 

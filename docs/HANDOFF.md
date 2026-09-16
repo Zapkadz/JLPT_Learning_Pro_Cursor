@@ -11,12 +11,13 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/n2-full-acc` — N2-FULL-ACC evidence (uncommitted).
+`feat/n2-full-acc` @ `981a9d2` — PR #13 open.
 
 ## Latest Relevant Commit
 
-`main` / `origin/main`: `1d229f6` — Merge PR #12 (Lessons 21–26).  
-This branch: acceptance script + report; **not committed** (per user).
+`feat/n2-full-acc` @ `981a9d2` — N2-FULL-ACC evidence.  
+PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/13  
+`main` still at `1d229f6` until merge.
 
 ## Current Objective
 
@@ -51,7 +52,7 @@ N2-FULL-ACC automated portion complete; commit/PR pending user. Teacher review +
 | `npm run build` | **OK** |
 | `npm run test:e2e` | **2/2** |
 | Teacher independent review | **PENDING** |
-| Commit / PR | **Not done** |
+| Commit / PR | **#13 open** |
 
 ## Known Blockers
 
