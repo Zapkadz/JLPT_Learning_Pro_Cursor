@@ -259,7 +259,7 @@ Re-verified against repository (no app code changes):
 
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
 - Full-course teacher acceptance (**N2-FULL-ACC** — §73; content scale met but `agent_reviewed` only).  
-- N2-L21-BATCH commit / PR on `feat/n2-l21-batch` — awaiting user.
+- N2-L21-BATCH commit / PR — **PR #12 open** (https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/12).
 
 ## Known Issues
 
