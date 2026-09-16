@@ -245,8 +245,8 @@ Re-verified against repository (no app code changes):
 
 - Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
 - Lessons 21–26 content import (**N2-L21-BATCH** — needs approval).  
-- N2-L16-BATCH commit / PR on `feat/n2-l16-batch` — awaiting user.  
-- PR #10 (L11) merge to `main` — retry if still open (GitHub API was flaky).
+- N2-L16-BATCH commit / PR — **PR #11 open** (https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/11).  
+- PR #10 (L11) — **merged**.
 
 ## Known Issues
 
