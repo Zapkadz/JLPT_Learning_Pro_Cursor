@@ -1,0 +1,3627 @@
+{
+  "id": "lesson-12",
+  "titleJa": "強い否定・部分否定",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 12. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L11-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l12-g01",
+      "title": "〜わけがない",
+      "meaning": "Không đời nào… / chẳng lẽ… được",
+      "variants": [
+        "わけがない",
+        "わけない"
+      ],
+      "structures": [
+        "V／いA／なA／N の ＋ わけがない",
+        "V／いA／なA／N の ＋ わけはない"
+      ],
+      "explanation": "Phủ định mạnh: không có lý do/cơ sở để A đúng; khẳng định A là không thể.",
+      "usage": "Phản bác, tự tin phủ nhận: không đời nào anh ấy nói dối…",
+      "cautions": [
+        "わけがない mạnh hơn はずがない đôi khi mang cảm xúc phản đối.",
+        "Khác わけではない (không hẳn là… — phủ định một phần)."
+      ],
+      "contrast": "わけがない ≈ không đời nào. Khác わけではない (không phải là…).",
+      "examples": [
+        {
+          "ja": "彼が嘘をつくわけがない。",
+          "reading": "かれがうそをつくわけがない。",
+          "vi": "Không đời nào anh ấy nói dối.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "をつくわけがない。"
+            }
+          ]
+        },
+        {
+          "ja": "この値段で買えるわけがない。",
+          "reading": "このねだんでかえるわけがない。",
+          "vi": "Không đời nào mua được với giá này.",
+          "ruby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "値段",
+              "reading": "ねだん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "えるわけがない。"
+            }
+          ]
+        },
+        {
+          "ja": "初心者に解けるわけがない。",
+          "reading": "しょしんしゃにとけるわけがない。",
+          "vi": "Không đời nào người mới giải được.",
+          "ruby": [
+            {
+              "text": "初心者",
+              "reading": "しょしんしゃ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "解",
+              "reading": "と"
+            },
+            {
+              "text": "けるわけがない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 69,
+        "printedPage": 56,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-wakeganai-cha-co-ly-do-gi-khong-ly-nao-lam-sao-ma/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l12-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Không đời nào cô ấy quên hẹn.",
+          "answers": [
+            "彼女が約束を忘れるわけがない。"
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Không đời nào bài này dễ vậy.",
+          "answers": [
+            "この問題が簡単なわけがない。"
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Không đời nào anh ấy bỏ cuộc.",
+          "answers": [
+            "彼が諦めるわけがない。"
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Không đời nào miễn phí hoàn toàn.",
+          "answers": [
+            "完全に無料なわけがない。"
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Không đời nào một ngày xong.",
+          "answers": [
+            "一日で終わるわけがない。"
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Không đời nào trẻ hiểu hết.",
+          "answers": [
+            "子供に全部分かるわけがない。"
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Không đời nào máy hỏng vô cớ.",
+          "answers": [
+            "機械が理由なく壊れるわけがない。"
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Không đời nào điểm tuyệt đối dễ vậy.",
+          "answers": [
+            "満点が簡単に取れるわけがない。"
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Không đời nào trời lạnh giữa hè.",
+          "answers": [
+            "真夏に寒いわけがない。"
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Không đời nào bí mật lộ ra dễ vậy.",
+          "answers": [
+            "秘密が簡単に漏れるわけがない。"
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼が裏切るわけがない。",
+          "answers": [
+            "Không đời nào anh ấy phản bội."
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "今から間に合うわけがない。",
+          "answers": [
+            "Không đời nào kịp từ giờ."
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "そんな都合のいい話があるわけがない。",
+          "answers": [
+            "Không đời nào có chuyện thuận tiện thế."
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "経験ゼロで成功するわけがない。",
+          "answers": [
+            "Không đời nào thành công với zero kinh nghiệm."
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "この布陣で勝つわけがない。",
+          "answers": [
+            "Không đời nào thắng với đội hình này."
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "誰も知らないわけがない。",
+          "answers": [
+            "Không đời nào chẳng ai biết."
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "努力なしで上達するわけがない。",
+          "answers": [
+            "Không đời nào tiến bộ mà không nỗ lực."
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "この量を一人で運ぶわけがない。",
+          "answers": [
+            "Không đời nào một người bê hết lượng này."
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "急に態度が変わるわけがない。",
+          "answers": [
+            "Không đời nào thái độ đổi đột ngột vô cớ."
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "無料で高級品が手に入るわけがない。",
+          "answers": [
+            "Không đời nào có đồ cao cấp miễn phí."
+          ],
+          "hint": "〜わけがない",
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-order-01",
+          "mode": "order",
+          "prompt": "Anh ấy không đời nào nói dối được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼が"
+            },
+            {
+              "id": "1",
+              "text": "嘘を言う"
+            },
+            {
+              "id": "2",
+              "text": "わけが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜わけがない",
+          "answers": [
+            "彼が嘘を言うわけがない。"
+          ],
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-order-02",
+          "mode": "order",
+          "prompt": "Không đời nào mua nổi với giá đó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その値段では"
+            },
+            {
+              "id": "1",
+              "text": "買える"
+            },
+            {
+              "id": "2",
+              "text": "わけが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜わけがない",
+          "answers": [
+            "その値段では買えるわけがない。"
+          ],
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-order-03",
+          "mode": "order",
+          "prompt": "Người mới thì không đời nào giải nổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "初心者には"
+            },
+            {
+              "id": "1",
+              "text": "解ける"
+            },
+            {
+              "id": "2",
+              "text": "わけが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜わけがない",
+          "answers": [
+            "初心者には解けるわけがない。"
+          ],
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-order-04",
+          "mode": "order",
+          "prompt": "Không đời nào cô ấy quên hẹn (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼女が"
+            },
+            {
+              "id": "1",
+              "text": "忘れる"
+            },
+            {
+              "id": "2",
+              "text": "わけが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜わけがない",
+          "answers": [
+            "彼女が忘れるわけがない。"
+          ],
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-order-05",
+          "mode": "order",
+          "prompt": "Không đời nào anh ấy bỏ cuộc (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼が"
+            },
+            {
+              "id": "1",
+              "text": "諦める"
+            },
+            {
+              "id": "2",
+              "text": "わけが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜わけがない",
+          "answers": [
+            "彼が諦めるわけがない。"
+          ],
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-order-06",
+          "mode": "order",
+          "prompt": "Không đời nào một ngày xong (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一日で"
+            },
+            {
+              "id": "1",
+              "text": "終わる"
+            },
+            {
+              "id": "2",
+              "text": "わけが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜わけがない",
+          "answers": [
+            "一日で終わるわけがない。"
+          ],
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-order-07",
+          "mode": "order",
+          "prompt": "Không đời nào kịp từ giờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "今から"
+            },
+            {
+              "id": "1",
+              "text": "間に合う"
+            },
+            {
+              "id": "2",
+              "text": "わけが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜わけがない",
+          "answers": [
+            "今から間に合うわけがない。"
+          ],
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-order-08",
+          "mode": "order",
+          "prompt": "Không đời nào phản bội.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼が"
+            },
+            {
+              "id": "1",
+              "text": "裏切る"
+            },
+            {
+              "id": "2",
+              "text": "わけが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜わけがない",
+          "answers": [
+            "彼が裏切るわけがない。"
+          ],
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-order-09",
+          "mode": "order",
+          "prompt": "Không đời nào tiến bộ không nỗ lực.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力なしで"
+            },
+            {
+              "id": "1",
+              "text": "上達する"
+            },
+            {
+              "id": "2",
+              "text": "わけが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜わけがない",
+          "answers": [
+            "努力なしで上達するわけがない。"
+          ],
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g01-order-10",
+          "mode": "order",
+          "prompt": "Không đời nào chẳng ai biết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "誰も"
+            },
+            {
+              "id": "1",
+              "text": "知らない"
+            },
+            {
+              "id": "2",
+              "text": "わけが"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜わけがない",
+          "answers": [
+            "誰も知らないわけがない。"
+          ],
+          "explanation": "Câu dùng わけがない để phủ định mạnh: không có lý do để A đúng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l12-g02",
+      "title": "〜どころではない・〜どころか",
+      "meaning": "Đâu phải lúc… / chứ đừng nói đến…",
+      "variants": [
+        "どころではない",
+        "どころではなく",
+        "どころか"
+      ],
+      "structures": [
+        "N／Vる ＋ どころではない",
+        "N／Vる ＋ どころか"
+      ],
+      "explanation": "どころではない: hoàn toàn không phải tình trạng để làm A. どころか: không chỉ không A mà thậm chí ngược lại/B nặng hơn.",
+      "usage": "Từ chối/nhấn mạnh mức độ: bận đến mức đâu phải đi chơi; chứ đừng nói đến giúp, còn làm phiền…",
+      "cautions": [
+        "どころではない ≠ ところだ (đúng lúc).",
+        "どころか thường theo sau kết quả bất ngờ hoặc mức độ mạnh hơn."
+      ],
+      "contrast": "どころではない ≈ đâu phải lúc. どころか ≈ chứ đừng nói; khác わけがない.",
+      "examples": [
+        {
+          "ja": "忙しくて旅行どころではない。",
+          "reading": "いそがしくてりょこうどころではない。",
+          "vi": "Bận đến mức đâu phải lúc đi du lịch.",
+          "ruby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しくて"
+            },
+            {
+              "text": "旅行",
+              "reading": "りょこう"
+            },
+            {
+              "text": "どころではない。"
+            }
+          ]
+        },
+        {
+          "ja": "助かるどころか迷惑をかけた。",
+          "reading": "たすかるどころかめいわくをかけた。",
+          "vi": "Chứ đừng nói giúp được, còn gây phiền.",
+          "ruby": [
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "かるどころか"
+            },
+            {
+              "text": "迷惑",
+              "reading": "めいわく"
+            },
+            {
+              "text": "をかけた。"
+            }
+          ]
+        },
+        {
+          "ja": "休みどころか残業続きだ。",
+          "reading": "やすみどころかざんぎょうつづきだ。",
+          "vi": "Chứ đừng nói nghỉ, toàn làm thêm.",
+          "ruby": [
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みどころか"
+            },
+            {
+              "text": "残業",
+              "reading": "ざんぎょう"
+            },
+            {
+              "text": "続きだ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 69,
+        "printedPage": 56,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-dokoro-de-wa-nai-dokoro-de-wa-naku-khong-phai-la-luc-khong-co-tho/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-dokoro-ka-khong-nhung-ma-nguoc-lai-ngay-ca-cung-khong-noi-chi-den-khong-phai-chi-ma-con-hon-the/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l12-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Đâu phải lúc xem phim, đang ôn thi.",
+          "answers": [
+            "試験勉強中で映画どころではない。"
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Đâu phải lúc ăn ngoài, túi hết tiền.",
+          "answers": [
+            "お金がなく外食どころではない。"
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Chứ đừng nói khen, còn bị mắng.",
+          "answers": [
+            "褒めるどころか叱られた。"
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Chứ đừng nói tiến bộ, còn kém hơn.",
+          "answers": [
+            "上達どころか下手になった。"
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đâu phải lúc vui chơi, có việc gấp.",
+          "answers": [
+            "急ぎの用事で遊びどころではない。"
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Chứ đừng nói cảm ơn, còn giận.",
+          "answers": [
+            "感謝どころか怒っている。"
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Đâu phải lúc ngủ muộn, mai họp sớm.",
+          "answers": [
+            "朝早い会議で夜更かしどころではない。"
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Chứ đừng nói dư, còn thiếu.",
+          "answers": [
+            "余裕どころか足りない。"
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Đâu phải lúc mua sắm, đang tiết kiệm.",
+          "answers": [
+            "節約中で買い物どころではない。"
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chứ đừng nói sạch, còn bẩn hơn.",
+          "answers": [
+            "きれいどころか汚くなった。"
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "風邪で外出どころではない。",
+          "answers": [
+            "Cảm nên đâu phải lúc ra ngoài."
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "手伝うどころか邪魔をした。",
+          "answers": [
+            "Chứ đừng nói giúp, còn làm vướng."
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "笑うどころか泣き出した。",
+          "answers": [
+            "Chứ đừng nói cười, còn khóc òa."
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "貯金どころではない出費だ。",
+          "answers": [
+            "Khoản chi đâu phải lúc để dành."
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "楽になるどころか忙しくなった。",
+          "answers": [
+            "Chứ đừng nói nhàn, còn bận hơn."
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "説明どころではない騒ぎだ。",
+          "answers": [
+            "Ồn ào đến mức đâu phải lúc giải thích."
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "優勝どころか予選落ちだ。",
+          "answers": [
+            "Chứ đừng nói vô địch, còn trượt vòng loại."
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "読書どころではない疲れ方だ。",
+          "answers": [
+            "Mệt đến mức đâu phải lúc đọc sách."
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "解決どころか悪化した。",
+          "answers": [
+            "Chứ đừng nói giải quyết, còn tệ hơn."
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "観光どころではない日程だ。",
+          "answers": [
+            "Lịch trình đâu phải lúc tham quan."
+          ],
+          "hint": "〜どころではない・〜どころか",
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…).",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-order-01",
+          "mode": "order",
+          "prompt": "Đâu phải lúc đi du lịch vì bận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忙しくて"
+            },
+            {
+              "id": "1",
+              "text": "観光"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜どころではない・〜どころか",
+          "answers": [
+            "忙しくて観光どころではない。"
+          ],
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-order-02",
+          "mode": "order",
+          "prompt": "Chứ đừng nói giúp còn gây phiền.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "役立つ"
+            },
+            {
+              "id": "1",
+              "text": "どころか"
+            },
+            {
+              "id": "2",
+              "text": "迷惑に"
+            },
+            {
+              "id": "3",
+              "text": "なった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜どころではない・〜どころか",
+          "answers": [
+            "役立つどころか迷惑になった。"
+          ],
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-order-03",
+          "mode": "order",
+          "prompt": "Chứ đừng nói nghỉ toàn làm thêm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "休み"
+            },
+            {
+              "id": "1",
+              "text": "どころか"
+            },
+            {
+              "id": "2",
+              "text": "残業が"
+            },
+            {
+              "id": "3",
+              "text": "続く。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜どころではない・〜どころか",
+          "answers": [
+            "休みどころか残業が続く。"
+          ],
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-order-04",
+          "mode": "order",
+          "prompt": "Đâu phải lúc xem phim vì ôn thi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "勉強中で"
+            },
+            {
+              "id": "1",
+              "text": "映画"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜どころではない・〜どころか",
+          "answers": [
+            "勉強中で映画どころではない。"
+          ],
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-order-05",
+          "mode": "order",
+          "prompt": "Chứ đừng nói khen còn bị mắng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "褒める"
+            },
+            {
+              "id": "1",
+              "text": "どころか"
+            },
+            {
+              "id": "2",
+              "text": "叱られ"
+            },
+            {
+              "id": "3",
+              "text": "た。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜どころではない・〜どころか",
+          "answers": [
+            "褒めるどころか叱られた。"
+          ],
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-order-06",
+          "mode": "order",
+          "prompt": "Đâu phải lúc chơi vì việc gấp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "用事で"
+            },
+            {
+              "id": "1",
+              "text": "遊び"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜どころではない・〜どころか",
+          "answers": [
+            "用事で遊びどころではない。"
+          ],
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-order-07",
+          "mode": "order",
+          "prompt": "Chứ đừng nói dư còn thiếu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "余裕"
+            },
+            {
+              "id": "1",
+              "text": "どころか"
+            },
+            {
+              "id": "2",
+              "text": "不足が"
+            },
+            {
+              "id": "3",
+              "text": "目立つ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜どころではない・〜どころか",
+          "answers": [
+            "余裕どころか不足が目立つ。"
+          ],
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-order-08",
+          "mode": "order",
+          "prompt": "Đâu phải lúc ra ngoài vì cảm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "風邪で"
+            },
+            {
+              "id": "1",
+              "text": "外出"
+            },
+            {
+              "id": "2",
+              "text": "どころでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜どころではない・〜どころか",
+          "answers": [
+            "風邪で外出どころではない。"
+          ],
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-order-09",
+          "mode": "order",
+          "prompt": "Chứ đừng nói cười còn khóc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "笑う"
+            },
+            {
+              "id": "1",
+              "text": "どころか"
+            },
+            {
+              "id": "2",
+              "text": "泣き出"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜どころではない・〜どころか",
+          "answers": [
+            "笑うどころか泣き出した。"
+          ],
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g02-order-10",
+          "mode": "order",
+          "prompt": "Chứ đừng nói giải quyết còn tệ hơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "解決"
+            },
+            {
+              "id": "1",
+              "text": "どころか"
+            },
+            {
+              "id": "2",
+              "text": "悪化"
+            },
+            {
+              "id": "3",
+              "text": "した。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜どころではない・〜どころか",
+          "answers": [
+            "解決どころか悪化した。"
+          ],
+          "explanation": "Câu dùng どころではない (đâu phải lúc) hoặc どころか (chứ đừng nói…). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l12-g03",
+      "title": "〜ものか",
+      "meaning": "Làm gì có… / sao lại… chứ",
+      "variants": [
+        "ものか",
+        "もんか",
+        "ものですか"
+      ],
+      "structures": [
+        "Vる／いA／なA語幹 ＋ ものか／もんか"
+      ],
+      "explanation": "Phủ định cảm xúc mạnh, phản kháng: tuyệt đối không làm/không chấp nhận A.",
+      "usage": "Phản đối gay gắt, lời thề phủ định: làm gì có chịu thua; sao lại xin lỗi chứ.",
+      "cautions": [
+        "もんか thân mật hơn ものか; sắc thái mạnh, dễ nghe khiếm nhã.",
+        "Khác わけがない (lý luận 'không có lý'); ものか thiên cảm xúc phản kháng."
+      ],
+      "contrast": "ものか ≈ làm gì có/sao lại. Gần わけがない; khác わけではない.",
+      "examples": [
+        {
+          "ja": "二度と行くものか。",
+          "reading": "にどといくものか。",
+          "vi": "Làm gì có đi lại lần nữa.",
+          "ruby": [
+            {
+              "text": "二度",
+              "reading": "にど"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "くものか。"
+            }
+          ]
+        },
+        {
+          "ja": "負けるものか。",
+          "reading": "まけるものか。",
+          "vi": "Làm gì có chịu thua.",
+          "ruby": [
+            {
+              "text": "負",
+              "reading": "ま"
+            },
+            {
+              "text": "けるものか。"
+            }
+          ]
+        },
+        {
+          "ja": "そんなことに賛成できるものか。",
+          "reading": "そんなことにさんせいできるものか。",
+          "vi": "Sao lại tán thành chuyện đó chứ.",
+          "ruby": [
+            {
+              "text": "そんなことに"
+            },
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "できるものか。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 69,
+        "printedPage": 56,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-monoka-monka-monodesuka-khong-doi-nao-nhat-dinh-khong/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l12-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Làm gì có chịu xin lỗi.",
+          "answers": [
+            "謝るものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Làm gì có tin lời đó.",
+          "answers": [
+            "そんな話を信じるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Sao lại bỏ cuộc giữa chừng chứ.",
+          "answers": [
+            "途中でやめるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Làm gì có nói với kẻ đó.",
+          "answers": [
+            "あいつに話すものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Sao lại sợ chuyện nhỏ chứ.",
+          "answers": [
+            "こんなことで怖がるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Làm gì có để người khác quyết.",
+          "answers": [
+            "他人に決めさせるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Sao lại ăn đồ đó chứ.",
+          "answers": [
+            "あんなものを食べるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Làm gì có quên ơn.",
+          "answers": [
+            "恩を忘れるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Sao lại im lặng chịu đựng chứ.",
+          "answers": [
+            "黙って耐えるものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Làm gì có đi cùng lần nữa.",
+          "answers": [
+            "もう一緒に行くものか。"
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "二度と頼むものか。",
+          "answers": [
+            "Làm gì có nhờ lần nữa."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "負けるもんか。",
+          "answers": [
+            "Làm gì có thua (thân mật)."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "彼の言うことを聞くものか。",
+          "answers": [
+            "Sao lại nghe lời anh ấy chứ."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "安いから買うものか。",
+          "answers": [
+            "Rẻ thì đã sao, làm gì có mua."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "そんな条件を飲むものか。",
+          "answers": [
+            "Sao lại chấp nhận điều kiện đó chứ."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "泣いて見せるものか。",
+          "answers": [
+            "Làm gì có khóc cho xem."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "今更謝られても許すものか。",
+          "answers": [
+            "Giờ có xin lỗi cũng làm gì có tha."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "一人で全部やるものか。",
+          "answers": [
+            "Sao lại một mình làm hết chứ."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "秘密を漏らすものか。",
+          "answers": [
+            "Làm gì có lộ bí mật."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "そんな場所に住むものか。",
+          "answers": [
+            "Sao lại ở chỗ như vậy chứ."
+          ],
+          "hint": "〜ものか",
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-order-01",
+          "mode": "order",
+          "prompt": "Đời nào đi lại lần nữa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "二度と"
+            },
+            {
+              "id": "1",
+              "text": "戻る"
+            },
+            {
+              "id": "2",
+              "text": "ものか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜ものか",
+          "answers": [
+            "二度と戻るものか。"
+          ],
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-order-02",
+          "mode": "order",
+          "prompt": "Đời nào chịu thua.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "絶対に"
+            },
+            {
+              "id": "1",
+              "text": "負ける"
+            },
+            {
+              "id": "2",
+              "text": "ものか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜ものか",
+          "answers": [
+            "絶対に負けるものか。"
+          ],
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-order-03",
+          "mode": "order",
+          "prompt": "Sao mà tán thành chuyện đó được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "その案に"
+            },
+            {
+              "id": "1",
+              "text": "賛成できる"
+            },
+            {
+              "id": "2",
+              "text": "ものか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜ものか",
+          "answers": [
+            "その案に賛成できるものか。"
+          ],
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-order-04",
+          "mode": "order",
+          "prompt": "Làm gì có chịu xin lỗi (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "決して"
+            },
+            {
+              "id": "1",
+              "text": "謝る"
+            },
+            {
+              "id": "2",
+              "text": "ものか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜ものか",
+          "answers": [
+            "決して謝るものか。"
+          ],
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-order-05",
+          "mode": "order",
+          "prompt": "Làm gì có tin lời đó (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "そんな話を"
+            },
+            {
+              "id": "1",
+              "text": "信じる"
+            },
+            {
+              "id": "2",
+              "text": "ものか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜ものか",
+          "answers": [
+            "そんな話を信じるものか。"
+          ],
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-order-06",
+          "mode": "order",
+          "prompt": "Sao lại bỏ cuộc giữa chừng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "途中で"
+            },
+            {
+              "id": "1",
+              "text": "やめる"
+            },
+            {
+              "id": "2",
+              "text": "ものか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜ものか",
+          "answers": [
+            "途中でやめるものか。"
+          ],
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-order-07",
+          "mode": "order",
+          "prompt": "Làm gì có nhờ lần nữa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "二度と"
+            },
+            {
+              "id": "1",
+              "text": "頼む"
+            },
+            {
+              "id": "2",
+              "text": "ものか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜ものか",
+          "answers": [
+            "二度と頼むものか。"
+          ],
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-order-08",
+          "mode": "order",
+          "prompt": "Sao lại nghe lời anh ấy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼の言うことを"
+            },
+            {
+              "id": "1",
+              "text": "聞く"
+            },
+            {
+              "id": "2",
+              "text": "ものか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜ものか",
+          "answers": [
+            "彼の言うことを聞くものか。"
+          ],
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-order-09",
+          "mode": "order",
+          "prompt": "Làm gì có lộ bí mật.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "秘密を"
+            },
+            {
+              "id": "1",
+              "text": "漏らす"
+            },
+            {
+              "id": "2",
+              "text": "ものか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜ものか",
+          "answers": [
+            "秘密を漏らすものか。"
+          ],
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g03-order-10",
+          "mode": "order",
+          "prompt": "Sao lại chấp nhận điều kiện đó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "そんな条件を"
+            },
+            {
+              "id": "1",
+              "text": "飲む"
+            },
+            {
+              "id": "2",
+              "text": "ものか"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜ものか",
+          "answers": [
+            "そんな条件を飲むものか。"
+          ],
+          "explanation": "Câu dùng ものか／もんか để phủ định cảm xúc mạnh, phản kháng. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l12-g04",
+      "title": "〜わけではない・〜というわけではない",
+      "meaning": "Không phải là… / không hẳn là…",
+      "variants": [
+        "わけではない",
+        "というわけではない",
+        "というわけでもない"
+      ],
+      "structures": [
+        "V／いA／なA／N の ＋ わけではない",
+        "〜というわけではない"
+      ],
+      "explanation": "Phủ định một phần hoặc làm mềm khẳng định: không hoàn toàn đúng rằng A; tránh hiểu nhầm tuyệt đối.",
+      "usage": "Giải thích, đính chính: không phải là ghét; không hẳn là không thích…",
+      "cautions": [
+        "Khác わけがない (phủ định mạnh tuyệt đối).",
+        "というわけではない thường đính chính suy luận của đối phương."
+      ],
+      "contrast": "わけではない ≈ không phải/không hẳn. Khác わけがない; gần というものではない.",
+      "examples": [
+        {
+          "ja": "行きたくないわけではない。",
+          "reading": "いきたくないわけではない。",
+          "vi": "Không phải là không muốn đi.",
+          "ruby": [
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "きたくないわけではない。"
+            }
+          ]
+        },
+        {
+          "ja": "高いというわけではない。",
+          "reading": "たかいというわけではない。",
+          "vi": "Không hẳn là đắt.",
+          "ruby": [
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "いというわけではない。"
+            }
+          ]
+        },
+        {
+          "ja": "彼が悪いわけではない。",
+          "reading": "かれがわるいわけではない。",
+          "vi": "Không phải anh ấy sai.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "いわけではない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 69,
+        "printedPage": 56,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-wakedehanai-khong-han-la-khong-co-nghia-la/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-to-iu-wake-dewa-nai-to-iu-wake-demo-nai/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l12-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Không phải là ghét công việc.",
+          "answers": [
+            "仕事が嫌いなわけではない。"
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Không hẳn là không quan tâm.",
+          "answers": [
+            "関心がないというわけではない。"
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Không phải lúc nào cũng đúng.",
+          "answers": [
+            "いつも正しいわけではない。"
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Không hẳn là từ chối lời mời.",
+          "answers": [
+            "招待を断るというわけではない。"
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Không phải không hiểu.",
+          "answers": [
+            "分からないわけではない。"
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Không hẳn là phản đối kế hoạch.",
+          "answers": [
+            "計画に反対だというわけではない。"
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Không phải chỉ vì tiền.",
+          "answers": [
+            "お金だけのわけではない。"
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Không hẳn là hết hy vọng.",
+          "answers": [
+            "絶望したというわけではない。"
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Không phải mọi người đều đồng ý.",
+          "answers": [
+            "全員が賛成なわけではない。"
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Không hẳn là bỏ cuộc.",
+          "answers": [
+            "諦めたというわけではない。"
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "忙しいわけではないが余裕もない。",
+          "answers": [
+            "Không phải bận nhưng cũng chẳng dư sức."
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "嫌いなわけではないが得意でもない。",
+          "answers": [
+            "Không phải ghét nhưng cũng chẳng giỏi."
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "無理だというわけではない。",
+          "answers": [
+            "Không hẳn là không làm nổi."
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "嘘をついたわけではない。",
+          "answers": [
+            "Không phải đã nói dối."
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "簡単だというわけではない。",
+          "answers": [
+            "Không hẳn là dễ."
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "無視したわけではない。",
+          "answers": [
+            "Không phải cố tình bỏ qua."
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "満足したというわけではない。",
+          "answers": [
+            "Không hẳn là đã thỏa mãn."
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "責任がないわけではない。",
+          "answers": [
+            "Không phải là không có trách nhiệm."
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "急ぐというわけではない。",
+          "answers": [
+            "Không hẳn là đang vội."
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "彼だけが悪いわけではない。",
+          "answers": [
+            "Không phải chỉ mỗi anh ấy sai."
+          ],
+          "hint": "〜わけではない・〜というわけではない",
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-order-01",
+          "mode": "order",
+          "prompt": "Chẳng phải là không muốn đi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "行きたくない"
+            },
+            {
+              "id": "1",
+              "text": "わけでは"
+            },
+            {
+              "id": "2",
+              "text": "ないが"
+            },
+            {
+              "id": "3",
+              "text": "都合が悪い。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜わけではない・〜というわけではない",
+          "answers": [
+            "行きたくないわけではないが都合が悪い。"
+          ],
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-order-02",
+          "mode": "order",
+          "prompt": "Chẳng hẳn là đắt đâu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "高い"
+            },
+            {
+              "id": "1",
+              "text": "というわけでは"
+            },
+            {
+              "id": "2",
+              "text": "ないが"
+            },
+            {
+              "id": "3",
+              "text": "安いとも言えない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜わけではない・〜というわけではない",
+          "answers": [
+            "高いというわけではないが安いとも言えない。"
+          ],
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-order-03",
+          "mode": "order",
+          "prompt": "Chẳng phải anh ấy có lỗi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼が悪い"
+            },
+            {
+              "id": "1",
+              "text": "わけでは"
+            },
+            {
+              "id": "2",
+              "text": "ないと思う"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜わけではない・〜というわけではない",
+          "answers": [
+            "彼が悪いわけではないと思う。"
+          ],
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-order-04",
+          "mode": "order",
+          "prompt": "Không phải ghét công việc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "仕事が嫌いな"
+            },
+            {
+              "id": "1",
+              "text": "わけでは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜わけではない・〜というわけではない",
+          "answers": [
+            "仕事が嫌いなわけではない。"
+          ],
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-order-05",
+          "mode": "order",
+          "prompt": "Không hẳn là không quan tâm (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "関心がない"
+            },
+            {
+              "id": "1",
+              "text": "というわけでは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜わけではない・〜というわけではない",
+          "answers": [
+            "関心がないというわけではない。"
+          ],
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-order-06",
+          "mode": "order",
+          "prompt": "Không phải không hiểu (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "分からない"
+            },
+            {
+              "id": "1",
+              "text": "わけでは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜わけではない・〜というわけではない",
+          "answers": [
+            "分からないわけではない。"
+          ],
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-order-07",
+          "mode": "order",
+          "prompt": "Không phải chỉ vì tiền (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "お金だけの"
+            },
+            {
+              "id": "1",
+              "text": "わけでは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜わけではない・〜というわけではない",
+          "answers": [
+            "お金だけのわけではない。"
+          ],
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-order-08",
+          "mode": "order",
+          "prompt": "Không hẳn là bỏ cuộc (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "諦めた"
+            },
+            {
+              "id": "1",
+              "text": "というわけでは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜わけではない・〜というわけではない",
+          "answers": [
+            "諦めたというわけではない。"
+          ],
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-order-09",
+          "mode": "order",
+          "prompt": "Không phải đã nói dối.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "嘘をついた"
+            },
+            {
+              "id": "1",
+              "text": "わけでは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜わけではない・〜というわけではない",
+          "answers": [
+            "嘘をついたわけではない。"
+          ],
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g04-order-10",
+          "mode": "order",
+          "prompt": "Không phải chỉ mỗi anh ấy sai.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼だけが悪い"
+            },
+            {
+              "id": "1",
+              "text": "わけでは"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜わけではない・〜というわけではない",
+          "answers": [
+            "彼だけが悪いわけではない。"
+          ],
+          "explanation": "Câu dùng わけではない／というわけではない: phủ định một phần, làm mềm ý. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l12-g05",
+      "title": "〜というものではない・〜というものでもない",
+      "meaning": "Không phải cứ… là… / cũng chẳng phải là…",
+      "variants": [
+        "というものではない",
+        "というものでもない"
+      ],
+      "structures": [
+        "〜というものではない",
+        "〜というものでもない"
+      ],
+      "explanation": "Phủ định cách hiểu tuyệt đối/công thức hóa: không thể nói cứ A thì luôn đúng; というものでもない làm mềm hơn.",
+      "usage": "Nhận xét, khuyên: tiền nhiều không phải cứ hạnh phúc; cũng chẳng phải là không cần…",
+      "cautions": [
+        "というものではない phủ định quy tắc chung; khác phủ định một sự việc cụ thể.",
+        "というものでもない thường 'cũng chẳng đến mức… / cũng không hẳn…'."
+      ],
+      "contrast": "というものではない ≈ không phải cứ. Gần わけではない; khác わけがない.",
+      "examples": [
+        {
+          "ja": "お金があれば幸せというものではない。",
+          "reading": "おかねがあればしあわせというものではない。",
+          "vi": "Không phải cứ có tiền là hạnh phúc.",
+          "ruby": [
+            {
+              "text": "お金",
+              "reading": "おかね"
+            },
+            {
+              "text": "があれば"
+            },
+            {
+              "text": "幸",
+              "reading": "しあわ"
+            },
+            {
+              "text": "せというものではない。"
+            }
+          ]
+        },
+        {
+          "ja": "練習すれば必ず上達するというものでもない。",
+          "reading": "れんしゅうすればかならずじょうたつするというものでもない。",
+          "vi": "Cũng chẳng phải cứ luyện là chắc tiến bộ.",
+          "ruby": [
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "すれば"
+            },
+            {
+              "text": "必",
+              "reading": "かなら"
+            },
+            {
+              "text": "ず"
+            },
+            {
+              "text": "上達",
+              "reading": "じょうたつ"
+            },
+            {
+              "text": "するというものでもない。"
+            }
+          ]
+        },
+        {
+          "ja": "若いから無理がないというものではない。",
+          "reading": "わかいからむりがないというものではない。",
+          "vi": "Không phải cứ trẻ là không quá sức.",
+          "ruby": [
+            {
+              "text": "若",
+              "reading": "わか"
+            },
+            {
+              "text": "いから"
+            },
+            {
+              "text": "無理",
+              "reading": "むり"
+            },
+            {
+              "text": "がないというものではない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 69,
+        "printedPage": 56,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-to-iu-mono-de-wa-nai-to-iu-mono-de-mo-nai/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l12-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Không phải cứ đắt là chất lượng tốt.",
+          "answers": [
+            "高ければ品質がいいというものではない。"
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Cũng chẳng phải cứ im là đồng ý.",
+          "answers": [
+            "黙っていれば賛成というものでもない。"
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Không phải cứ nhiều bạn là vui.",
+          "answers": [
+            "友人が多ければ楽しいというものではない。"
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Cũng chẳng phải cứ điểm cao là giỏi.",
+          "answers": [
+            "点数が高いから優秀というものでもない。"
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Không phải cứ nhanh là tốt.",
+          "answers": [
+            "速ければいいというものではない。"
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Cũng chẳng phải cứ thất bại là hết.",
+          "answers": [
+            "失敗したら終わりというものでもない。"
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Không phải cứ tuổi cao là khôn.",
+          "answers": [
+            "年齢が高ければ賢いというものではない。"
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Cũng chẳng phải cứ miễn phí là lợi.",
+          "answers": [
+            "無料なら得だというものでもない。"
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Không phải cứ nói thẳng là đúng.",
+          "answers": [
+            "率直なら正しいというものではない。"
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Cũng chẳng phải cứ nghỉ là hết mệt.",
+          "answers": [
+            "休めば疲れが取れるというものでもない。"
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "努力すれば報われるというものではない。",
+          "answers": [
+            "Không phải cứ nỗ lực là được đền đáp."
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "便利なら使いやすいというものでもない。",
+          "answers": [
+            "Cũng chẳng phải cứ tiện là dễ dùng."
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "経験があれば成功するというものではない。",
+          "answers": [
+            "Không phải cứ có kinh nghiệm là thành công."
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "安いから悪いというものでもない。",
+          "answers": [
+            "Cũng chẳng phải cứ rẻ là kém."
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "忙しいほど偉いというものではない。",
+          "answers": [
+            "Không phải cứ càng bận càng giỏi/đáng nể."
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "笑っていれば平気というものでもない。",
+          "answers": [
+            "Cũng chẳng phải cứ cười là không sao."
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "規則を守れば十分というものではない。",
+          "answers": [
+            "Không phải cứ giữ quy tắc là đủ."
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "有名なら信頼できるというものでもない。",
+          "answers": [
+            "Cũng chẳng phải cứ nổi tiếng là đáng tin."
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "時間が解決するというものではない。",
+          "answers": [
+            "Không phải cứ thời gian sẽ giải quyết."
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "反対が多ければ誤りというものでもない。",
+          "answers": [
+            "Cũng chẳng phải cứ nhiều người phản đối là sai."
+          ],
+          "hint": "〜というものではない・〜というものでもない",
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-order-01",
+          "mode": "order",
+          "prompt": "Cứ có tiền chưa chắc đã hạnh phúc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "金があれば"
+            },
+            {
+              "id": "1",
+              "text": "幸せ"
+            },
+            {
+              "id": "2",
+              "text": "というものでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜というものではない・〜というものでもない",
+          "answers": [
+            "金があれば幸せというものではない。"
+          ],
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-order-02",
+          "mode": "order",
+          "prompt": "Cứ luyện chưa chắc đã tiến bộ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "練習すれば"
+            },
+            {
+              "id": "1",
+              "text": "上達する"
+            },
+            {
+              "id": "2",
+              "text": "というものでも"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜というものではない・〜というものでもない",
+          "answers": [
+            "練習すれば上達するというものでもない。"
+          ],
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-order-03",
+          "mode": "order",
+          "prompt": "Cứ trẻ chưa chắc là không quá sức.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "若いからと"
+            },
+            {
+              "id": "1",
+              "text": "無理がない"
+            },
+            {
+              "id": "2",
+              "text": "というものでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜というものではない・〜というものでもない",
+          "answers": [
+            "若いからと無理がないというものではない。"
+          ],
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-order-04",
+          "mode": "order",
+          "prompt": "Không phải cứ đắt là chất lượng tốt (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "高ければ"
+            },
+            {
+              "id": "1",
+              "text": "品質がいい"
+            },
+            {
+              "id": "2",
+              "text": "というものでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜というものではない・〜というものでもない",
+          "answers": [
+            "高ければ品質がいいというものではない。"
+          ],
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-order-05",
+          "mode": "order",
+          "prompt": "Cũng chẳng phải cứ im là đồng ý (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "黙っていれば"
+            },
+            {
+              "id": "1",
+              "text": "賛成"
+            },
+            {
+              "id": "2",
+              "text": "というものでも"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜というものではない・〜というものでもない",
+          "answers": [
+            "黙っていれば賛成というものでもない。"
+          ],
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-order-06",
+          "mode": "order",
+          "prompt": "Không phải cứ nhanh là tốt (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "速ければ"
+            },
+            {
+              "id": "1",
+              "text": "いい"
+            },
+            {
+              "id": "2",
+              "text": "というものでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜というものではない・〜というものでもない",
+          "answers": [
+            "速ければいいというものではない。"
+          ],
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-order-07",
+          "mode": "order",
+          "prompt": "Không phải cứ nỗ lực là được đền đáp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力すれば"
+            },
+            {
+              "id": "1",
+              "text": "報われる"
+            },
+            {
+              "id": "2",
+              "text": "というものでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜というものではない・〜というものでもない",
+          "answers": [
+            "努力すれば報われるというものではない。"
+          ],
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-order-08",
+          "mode": "order",
+          "prompt": "Cũng chẳng phải cứ rẻ là kém.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "安いから"
+            },
+            {
+              "id": "1",
+              "text": "悪い"
+            },
+            {
+              "id": "2",
+              "text": "というものでも"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜というものではない・〜というものでもない",
+          "answers": [
+            "安いから悪いというものでもない。"
+          ],
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-order-09",
+          "mode": "order",
+          "prompt": "Không phải cứ thời gian sẽ giải quyết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "時間が"
+            },
+            {
+              "id": "1",
+              "text": "解決する"
+            },
+            {
+              "id": "2",
+              "text": "というものでは"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜というものではない・〜というものでもない",
+          "answers": [
+            "時間が解決するというものではない。"
+          ],
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l12-g05-order-10",
+          "mode": "order",
+          "prompt": "Cũng chẳng phải cứ nổi tiếng là đáng tin.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "有名なら"
+            },
+            {
+              "id": "1",
+              "text": "信頼できる"
+            },
+            {
+              "id": "2",
+              "text": "というものでも"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜というものではない・〜というものでもない",
+          "answers": [
+            "有名なら信頼できるというものでもない。"
+          ],
+          "explanation": "Câu dùng というものではない／でもない: phủ định cách hiểu tuyệt đối 'cứ A thì B'. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 12 authored (N2-L11-BATCH)"
+        }
+      ]
+    }
+  ]
+}

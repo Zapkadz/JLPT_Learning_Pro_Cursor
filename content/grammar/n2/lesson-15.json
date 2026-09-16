@@ -1,0 +1,4511 @@
+{
+  "id": "lesson-15",
+  "titleJa": "仮定・たとえ",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 15. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L11-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l15-g01",
+      "title": "〜としたら・〜とすれば・〜とすると・〜となったら・〜となれば・〜となると",
+      "meaning": "Nếu giả sử… / nếu đến mức… thì…",
+      "variants": [
+        "としたら",
+        "とすれば",
+        "とすると",
+        "となったら",
+        "となれば",
+        "となると"
+      ],
+      "structures": [
+        "普通形 ＋ としたら／とすれば／とすると",
+        "普通形 ＋ となったら／となれば／となると"
+      ],
+      "explanation": "としたら・とすれば・とすると giả định giả sử; となったら・となれば・となると nhấn mạnh khi tình huống trở thành thực tế thì…",
+      "usage": "Giả định kết quả, lập kế hoạch, cảnh báo nếu xảy ra trường hợp đó.",
+      "cautions": [
+        "としたら／とすれば gần nhau; とすると thường dẫn đến suy luận.",
+        "となると／となれば mang sắc thái 'đến lúc đó thì…' mạnh hơn giả định thuần."
+      ],
+      "contrast": "としたら ≈ nếu giả sử. となると ≈ nếu đến mức đó. Khác ば／たら thông thường (ít 'giả sử' hơn).",
+      "examples": [
+        {
+          "ja": "明日雨だとしたら試合は中止だ。",
+          "reading": "あしたあめだとしたらしあいはちゅうしだ。",
+          "vi": "Nếu giả sử ngày mai mưa thì trận đấu hủy.",
+          "ruby": [
+            {
+              "text": "明日",
+              "reading": "あした"
+            },
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "だとしたら"
+            },
+            {
+              "text": "試合",
+              "reading": "しあい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "中止",
+              "reading": "ちゅうし"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "彼が来るとすれば午後になるだろう。",
+          "reading": "かれがくるとすればごごになるだろう。",
+          "vi": "Nếu anh ấy đến thì chắc phải chiều.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "来",
+              "reading": "く"
+            },
+            {
+              "text": "るとすれば"
+            },
+            {
+              "text": "午後",
+              "reading": "ごご"
+            },
+            {
+              "text": "になるだろう。"
+            }
+          ]
+        },
+        {
+          "ja": "海外勤務となると準備が大変だ。",
+          "reading": "かいがいきんむとなるとじゅんびがたいへんだ。",
+          "vi": "Nếu đến mức công tác nước ngoài thì chuẩn bị rất vất vả.",
+          "ruby": [
+            {
+              "text": "海外",
+              "reading": "かいがい"
+            },
+            {
+              "text": "勤務",
+              "reading": "きんむ"
+            },
+            {
+              "text": "となると"
+            },
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "大変",
+              "reading": "たいへん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 81,
+        "printedPage": 68,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-to-shitara-to-sureba-gia-su-neu/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-to-naru-to-neu-ma-cu-the-den-luc-thi-trong-truong-hop-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l15-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nếu giả sử anh ấy vắng thì họp sẽ trễ.",
+          "answers": [
+            "彼が欠席だとしたら会議は遅れる。"
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nếu giá tăng thì phải đổi kế hoạch.",
+          "answers": [
+            "値段が上がるとすれば計画を変える。"
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nếu đúng là vậy thì vấn đề nghiêm trọng.",
+          "answers": [
+            "それが事実だとすると問題は深刻だ。"
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nếu phải chuyển nhà thì phí rất lớn.",
+          "answers": [
+            "引っ越しとなったら費用が大きい。"
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nếu thi đậu thì tôi sẽ báo ngay.",
+          "answers": [
+            "合格となればすぐに連絡する。"
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nếu đến mức làm đêm thì sức khỏe lo.",
+          "answers": [
+            "夜勤となると健康が心配だ。"
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nếu mưa to thì hủy picnic.",
+          "answers": [
+            "大雨だとしたらピクニックは中止だ。"
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nếu cô ấy từ chối thì phải tìm người khác.",
+          "answers": [
+            "彼女が断るとすれば別の人を探す。"
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nếu ngân sách cắt thì dự án dừng.",
+          "answers": [
+            "予算が削られるとなると事業は止まる。"
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nếu phải đi công tác xa thì cần chuẩn bị sớm.",
+          "answers": [
+            "遠方出張となれば早めに準備する。"
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "明日休みだとしたら何をするつもりか。",
+          "answers": [
+            "Nếu giả sử ngày mai nghỉ thì định làm gì?"
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "彼が賛成するとすれば条件があるはずだ。",
+          "answers": [
+            "Nếu anh ấy tán thành thì chắc có điều kiện."
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "この数字が正しいとすると計算ミスだ。",
+          "answers": [
+            "Nếu con số này đúng thì là lỗi tính."
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "解雇となったら生活設計を見直す。",
+          "answers": [
+            "Nếu đến mức bị sa thải thì xem lại kế hoạch sống."
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "契約破棄となれば損害賠償が発生する。",
+          "answers": [
+            "Nếu hủy hợp đồng thì phát sinh bồi thường."
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "一人暮らしとなると家賃が重い。",
+          "answers": [
+            "Nếu đến mức sống một mình thì tiền thuê nặng."
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "雪が積もったとしたら電車は遅れる。",
+          "answers": [
+            "Nếu giả sử tuyết dày thì tàu sẽ trễ."
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "上司が来るとすれば会議室を空ける。",
+          "answers": [
+            "Nếu sếp đến thì để trống phòng họp."
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "値上げとなると客が減るだろう。",
+          "answers": [
+            "Nếu tăng giá thì khách sẽ giảm."
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "転勤となれば家族と相談が必要だ。",
+          "answers": [
+            "Nếu điều động thì cần bàn với gia đình."
+          ],
+          "hint": "〜としたら／となると",
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-order-01",
+          "mode": "order",
+          "prompt": "Nếu mưa trận đấu hủy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨だとしたら"
+            },
+            {
+              "id": "1",
+              "text": "試合は"
+            },
+            {
+              "id": "2",
+              "text": "中止に"
+            },
+            {
+              "id": "3",
+              "text": "なる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としたら／となると",
+          "answers": [
+            "雨だとしたら試合は中止になる。"
+          ],
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-order-02",
+          "mode": "order",
+          "prompt": "Nếu anh ấy đến chắc chiều.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼が来るとすれば"
+            },
+            {
+              "id": "1",
+              "text": "午後に"
+            },
+            {
+              "id": "2",
+              "text": "なる"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としたら／となると",
+          "answers": [
+            "彼が来るとすれば午後になるだろうのだ。"
+          ],
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-order-03",
+          "mode": "order",
+          "prompt": "Công tác nước ngoài thì chuẩn bị vất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "海外勤務となると"
+            },
+            {
+              "id": "1",
+              "text": "準備が"
+            },
+            {
+              "id": "2",
+              "text": "大変"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としたら／となると",
+          "answers": [
+            "海外勤務となると準備が大変だのだ。"
+          ],
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-order-04",
+          "mode": "order",
+          "prompt": "Nếu vắng họp trễ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "欠席だとしたら"
+            },
+            {
+              "id": "1",
+              "text": "会議が"
+            },
+            {
+              "id": "2",
+              "text": "遅れる"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としたら／となると",
+          "answers": [
+            "欠席だとしたら会議が遅れるだろう。"
+          ],
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-order-05",
+          "mode": "order",
+          "prompt": "Nếu giá tăng đổi kế hoạch.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "上がるとすれば"
+            },
+            {
+              "id": "1",
+              "text": "計画を"
+            },
+            {
+              "id": "2",
+              "text": "変える"
+            },
+            {
+              "id": "3",
+              "text": "必要がある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としたら／となると",
+          "answers": [
+            "上がるとすれば計画を変える必要がある。"
+          ],
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-order-06",
+          "mode": "order",
+          "prompt": "Nếu cắt ngân sách dự án dừng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "予算削減となると"
+            },
+            {
+              "id": "1",
+              "text": "事業は"
+            },
+            {
+              "id": "2",
+              "text": "止まる"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としたら／となると",
+          "answers": [
+            "予算削減となると事業は止まるだろう。"
+          ],
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-order-07",
+          "mode": "order",
+          "prompt": "Nếu đậu báo ngay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "合格となれば"
+            },
+            {
+              "id": "1",
+              "text": "すぐに"
+            },
+            {
+              "id": "2",
+              "text": "連絡"
+            },
+            {
+              "id": "3",
+              "text": "する。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としたら／となると",
+          "answers": [
+            "合格となればすぐに連絡する。"
+          ],
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-order-08",
+          "mode": "order",
+          "prompt": "Nếu chuyển nhà phí lớn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "引っ越しとなったら"
+            },
+            {
+              "id": "1",
+              "text": "費用が"
+            },
+            {
+              "id": "2",
+              "text": "大きい"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としたら／となると",
+          "answers": [
+            "引っ越しとなったら費用が大きいだろう。"
+          ],
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-order-09",
+          "mode": "order",
+          "prompt": "Nếu làm đêm lo sức khỏe.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "夜勤となると"
+            },
+            {
+              "id": "1",
+              "text": "健康が"
+            },
+            {
+              "id": "2",
+              "text": "心配"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としたら／となると",
+          "answers": [
+            "夜勤となると健康が心配だ。"
+          ],
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g01-order-10",
+          "mode": "order",
+          "prompt": "Nếu từ chối tìm người khác.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "断るとすれば"
+            },
+            {
+              "id": "1",
+              "text": "別の人を"
+            },
+            {
+              "id": "2",
+              "text": "探す"
+            },
+            {
+              "id": "3",
+              "text": "しかない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としたら／となると",
+          "answers": [
+            "断るとすれば別の人を探すしかない。"
+          ],
+          "explanation": "Câu giả định: としたら／とすれば／とすると hoặc となったら／となれば／となると. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l15-g02",
+      "title": "〜ものなら",
+      "meaning": "Nếu có thể… thì… (ước muốn khó thực hiện)",
+      "variants": [
+        "ものなら"
+      ],
+      "structures": [
+        "Vる ＋ ものなら"
+      ],
+      "explanation": "Diễn đạt 'nếu (có thể) làm được thì…'; thường kèm ước muốn hoặc hành động khó.",
+      "usage": "Ước muốn mạnh, giả định khả năng hiếm: nếu được thì muốn…",
+      "cautions": [
+        "Thường đi với động từ khả năng hoặc hành động khó thực hiện.",
+        "Khác （よ）うものなら (nếu lỡ… thì hậu quả xấu)."
+      ],
+      "contrast": "ものなら ≈ nếu có thể thì…. Không nhầm với うものなら (cảnh báo).",
+      "examples": [
+        {
+          "ja": "行けるものなら今すぐ行きたい。",
+          "reading": "いけるものならいますぐいきたい。",
+          "vi": "Nếu có thể đi thì muốn đi ngay.",
+          "ruby": [
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "けるものなら"
+            },
+            {
+              "text": "今",
+              "reading": "いま"
+            },
+            {
+              "text": "すぐ"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "きたい。"
+            }
+          ]
+        },
+        {
+          "ja": "戻れるものなら学生時代に戻りたい。",
+          "reading": "もどれるものならがくせいじだいにもどりたい。",
+          "vi": "Nếu quay lại được thì muốn về thời sinh viên.",
+          "ruby": [
+            {
+              "text": "戻",
+              "reading": "もど"
+            },
+            {
+              "text": "れるものなら"
+            },
+            {
+              "text": "学生",
+              "reading": "がくせい"
+            },
+            {
+              "text": "時代",
+              "reading": "じだい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "戻",
+              "reading": "もど"
+            },
+            {
+              "text": "りたい。"
+            }
+          ]
+        },
+        {
+          "ja": "やり直せるものなら最初からやり直したい。",
+          "reading": "やりなおせるものならさいしょからやりなおしたい。",
+          "vi": "Nếu làm lại được thì muốn làm lại từ đầu.",
+          "ruby": [
+            {
+              "text": "やり直",
+              "reading": "やりなお"
+            },
+            {
+              "text": "せるものなら"
+            },
+            {
+              "text": "最初",
+              "reading": "さいしょ"
+            },
+            {
+              "text": "から"
+            },
+            {
+              "text": "やり直",
+              "reading": "やりなお"
+            },
+            {
+              "text": "したい。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 81,
+        "printedPage": 68,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-mono-nara-neu-nhu-neu-co-the-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l15-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nếu gặp được thì muốn hỏi ý kiến.",
+          "answers": [
+            "会えるものなら意見を聞きたい。"
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nếu sửa được thì muốn sửa ngay.",
+          "answers": [
+            "直せるものなら今すぐ直したい。"
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nếu nghỉ được thì muốn nghỉ một tuần.",
+          "answers": [
+            "休めるものなら一週間休みたい。"
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nếu nói được thì muốn nói hết.",
+          "answers": [
+            "言えるものなら全部言いたい。"
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nếu về được thì muốn về quê.",
+          "answers": [
+            "帰れるものなら故郷に帰りたい。"
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nếu đổi được thì muốn đổi công việc.",
+          "answers": [
+            "変えられるものなら仕事を変えたい。"
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nếu bay được thì muốn bay đi nước ngoài.",
+          "answers": [
+            "飛べるものなら海外へ飛びたい。"
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nếu quên được thì muốn quên chuyện đó.",
+          "answers": [
+            "忘れられるものならあの事を忘れたい。"
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nếu giúp được thì muốn giúp anh ấy.",
+          "answers": [
+            "助けられるものなら彼を助けたい。"
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nếu mua được thì muốn mua nhà.",
+          "answers": [
+            "買えるものなら家を買いたい。"
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "会えるものなら直接会って謝りたい。",
+          "answers": [
+            "Nếu gặp được thì muốn gặp trực tiếp xin lỗi."
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "戻れるものなら十年前に戻りたい。",
+          "answers": [
+            "Nếu quay lại được thì muốn về mười năm trước."
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "直せるものなら自分で直してみる。",
+          "answers": [
+            "Nếu sửa được thì thử tự sửa."
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "休めるものなら今日は休みたい。",
+          "answers": [
+            "Nếu nghỉ được thì hôm nay muốn nghỉ."
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "言えるものなら本音を言いたい。",
+          "answers": [
+            "Nếu nói được thì muốn nói thật lòng."
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "変えられるものなら運命を変えたい。",
+          "answers": [
+            "Nếu đổi được thì muốn đổi số phận."
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "帰れるものなら今夜帰りたい。",
+          "answers": [
+            "Nếu về được thì muốn về tối nay."
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "忘れられるものなら失敗を忘れたい。",
+          "answers": [
+            "Nếu quên được thì muốn quên thất bại."
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "助けられるものなら全力で助けたい。",
+          "answers": [
+            "Nếu giúp được thì muốn giúp hết sức."
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "やり直せるものなら試験をやり直したい。",
+          "answers": [
+            "Nếu làm lại được thì muốn thi lại."
+          ],
+          "hint": "〜ものなら",
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó).",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-order-01",
+          "mode": "order",
+          "prompt": "Nếu đi được muốn đi ngay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "行けるものなら"
+            },
+            {
+              "id": "1",
+              "text": "今すぐ"
+            },
+            {
+              "id": "2",
+              "text": "行き"
+            },
+            {
+              "id": "3",
+              "text": "たい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものなら",
+          "answers": [
+            "行けるものなら今すぐ行きたいのだ。"
+          ],
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-order-02",
+          "mode": "order",
+          "prompt": "Nếu về thời sinh viên được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "戻れるものなら"
+            },
+            {
+              "id": "1",
+              "text": "学生時代に"
+            },
+            {
+              "id": "2",
+              "text": "戻り"
+            },
+            {
+              "id": "3",
+              "text": "たい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものなら",
+          "answers": [
+            "戻れるものなら学生時代に戻りたいのだ。"
+          ],
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-order-03",
+          "mode": "order",
+          "prompt": "Nếu làm lại từ đầu được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "やり直せるものなら"
+            },
+            {
+              "id": "1",
+              "text": "最初から"
+            },
+            {
+              "id": "2",
+              "text": "やり直し"
+            },
+            {
+              "id": "3",
+              "text": "たい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものなら",
+          "answers": [
+            "やり直せるものなら最初からやり直したいのだ。"
+          ],
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-order-04",
+          "mode": "order",
+          "prompt": "Nếu gặp được muốn hỏi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会えるものなら"
+            },
+            {
+              "id": "1",
+              "text": "意見を"
+            },
+            {
+              "id": "2",
+              "text": "聞き"
+            },
+            {
+              "id": "3",
+              "text": "たい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものなら",
+          "answers": [
+            "会えるものなら意見を聞きたい。"
+          ],
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-order-05",
+          "mode": "order",
+          "prompt": "Nếu sửa được sửa ngay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "直せるものなら"
+            },
+            {
+              "id": "1",
+              "text": "今すぐ"
+            },
+            {
+              "id": "2",
+              "text": "直し"
+            },
+            {
+              "id": "3",
+              "text": "たい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものなら",
+          "answers": [
+            "直せるものなら今すぐ直したい。"
+          ],
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-order-06",
+          "mode": "order",
+          "prompt": "Nếu nghỉ được một tuần.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "休めるものなら"
+            },
+            {
+              "id": "1",
+              "text": "一週間"
+            },
+            {
+              "id": "2",
+              "text": "休み"
+            },
+            {
+              "id": "3",
+              "text": "たい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものなら",
+          "answers": [
+            "休めるものなら一週間休みたい。"
+          ],
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-order-07",
+          "mode": "order",
+          "prompt": "Nếu nói được nói hết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "言えるものなら"
+            },
+            {
+              "id": "1",
+              "text": "全部"
+            },
+            {
+              "id": "2",
+              "text": "言い"
+            },
+            {
+              "id": "3",
+              "text": "たい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものなら",
+          "answers": [
+            "言えるものなら全部言いたい。"
+          ],
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-order-08",
+          "mode": "order",
+          "prompt": "Nếu về quê được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "帰れるものなら"
+            },
+            {
+              "id": "1",
+              "text": "故郷に"
+            },
+            {
+              "id": "2",
+              "text": "帰り"
+            },
+            {
+              "id": "3",
+              "text": "たい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものなら",
+          "answers": [
+            "帰れるものなら故郷に帰りたい。"
+          ],
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-order-09",
+          "mode": "order",
+          "prompt": "Nếu đổi việc được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "変えられるものなら"
+            },
+            {
+              "id": "1",
+              "text": "仕事を"
+            },
+            {
+              "id": "2",
+              "text": "変え"
+            },
+            {
+              "id": "3",
+              "text": "たい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものなら",
+          "answers": [
+            "変えられるものなら仕事を変えたい。"
+          ],
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g02-order-10",
+          "mode": "order",
+          "prompt": "Nếu mua nhà được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "買えるものなら"
+            },
+            {
+              "id": "1",
+              "text": "家を"
+            },
+            {
+              "id": "2",
+              "text": "買い"
+            },
+            {
+              "id": "3",
+              "text": "たい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものなら",
+          "answers": [
+            "買えるものなら家を買いたい。"
+          ],
+          "explanation": "Câu dùng ものなら: nếu có thể (làm) thì… (thường là ước muốn khó). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l15-g03",
+      "title": "〜（よ）うものなら",
+      "meaning": "Nếu lỡ… thì… (hậu quả xấu)",
+      "variants": [
+        "うものなら",
+        "ようものなら"
+      ],
+      "structures": [
+        "V（よ）う ＋ ものなら"
+      ],
+      "explanation": "Giả định 'nếu (lỡ) làm…' rồi dẫn đến kết quả tiêu cực, cảnh báo hoặc lo sợ.",
+      "usage": "Cảnh báo: nếu dám/lỡ làm A thì B (xấu) sẽ xảy ra.",
+      "cautions": [
+        "Luôn dùng thể ý chí （よ）う, không dùng dạng khả năng như ものなら thường.",
+        "Hậu quả thường tiêu cực hoặc nghiêm trọng."
+      ],
+      "contrast": "（よ）うものなら ≈ nếu lỡ…. Khác ものなら (ước muốn nếu có thể).",
+      "examples": [
+        {
+          "ja": "文句を言おうものならすぐ怒られる。",
+          "reading": "もんくをいおうものならすぐおこられる。",
+          "vi": "Nếu lỡ phàn nàn thì bị mắng ngay.",
+          "ruby": [
+            {
+              "text": "文句",
+              "reading": "もんく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "おうものなら"
+            },
+            {
+              "text": "すぐ"
+            },
+            {
+              "text": "怒",
+              "reading": "おこ"
+            },
+            {
+              "text": "られる。"
+            }
+          ]
+        },
+        {
+          "ja": "遅刻しようものなら減点される。",
+          "reading": "ちこくしようものならげんてんされる。",
+          "vi": "Nếu lỡ đến muộn thì bị trừ điểm.",
+          "ruby": [
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "しようものなら"
+            },
+            {
+              "text": "減点",
+              "reading": "げんてん"
+            },
+            {
+              "text": "される。"
+            }
+          ]
+        },
+        {
+          "ja": "彼に逆らおうものなら後が怖い。",
+          "reading": "かれにさからおうものならあとがこわい。",
+          "vi": "Nếu lỡ chống lại anh ấy thì về sau đáng sợ.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "逆",
+              "reading": "さから"
+            },
+            {
+              "text": "らおうものなら"
+            },
+            {
+              "text": "後",
+              "reading": "あと"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "怖",
+              "reading": "こわ"
+            },
+            {
+              "text": "い。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 81,
+        "printedPage": 68,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-mono-nara-neu-lo-neu-lo-chang-may-neu-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l15-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nếu lỡ trễ hạn thì bị phạt nặng.",
+          "answers": [
+            "期限に遅れようものなら厳しく罰せられる。"
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nếu lỡ nói dối thì mất lòng tin.",
+          "answers": [
+            "嘘をつこうものなら信用を失う。"
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nếu lỡ bỏ họp thì bị nhắc nhở.",
+          "answers": [
+            "会議を欠席しようものなら注意される。"
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nếu lỡ phản đối thì bầu không khí căng.",
+          "answers": [
+            "反対しようものなら空気が険しくなる。"
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nếu lỡ quên khóa thì không vào được.",
+          "answers": [
+            "鍵を忘れようものなら入れなくなる。"
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nếu lỡ làm ồn thì hàng xóm phàn nàn.",
+          "answers": [
+            "騒ごうものなら近所から苦情が来る。"
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nếu lỡ từ chối thì quan hệ xấu đi.",
+          "answers": [
+            "断ろうものなら関係が悪化する。"
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nếu lỡ tiết lộ thì bị kỷ luật.",
+          "answers": [
+            "漏らそうものなら処分される。"
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nếu lỡ bỏ cuộc giữa chừng thì mất cơ hội.",
+          "answers": [
+            "途中でやめようものなら機会を失う。"
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nếu lỡ cười nhạo thì bị ghét.",
+          "answers": [
+            "笑おうものなら嫌われる。"
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "口答えしようものなら余計に怒られる。",
+          "answers": [
+            "Nếu lỡ cãi lại thì bị mắng thêm."
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "秘密を話そうものなら信頼を失う。",
+          "answers": [
+            "Nếu lỡ nói bí mật thì mất niềm tin."
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "規則を破ろうものなら出場停止だ。",
+          "answers": [
+            "Nếu lỡ phá luật thì bị cấm thi đấu."
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "上司に逆らおうものなら昇進はない。",
+          "answers": [
+            "Nếu lỡ chống sếp thì không thăng chức."
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "約束を破ろうものなら二度と頼めない。",
+          "answers": [
+            "Nếu lỡ thất hẹn thì không nhờ được nữa."
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "遅刻しようものなら開始できない。",
+          "answers": [
+            "Nếu lỡ muộn thì không thể bắt đầu."
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "文句を言おうものなら場が凍る。",
+          "answers": [
+            "Nếu lỡ phàn nàn thì không khí đóng băng."
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "サボろうものなら評価が下がる。",
+          "answers": [
+            "Nếu lỡ lười thì điểm đánh giá giảm."
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "無視しようものなら問題が拡大する。",
+          "answers": [
+            "Nếu lỡ bỏ qua thì vấn đề lan rộng."
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "嘘をつこうものならすぐばれる。",
+          "answers": [
+            "Nếu lỡ nói dối thì lộ ngay."
+          ],
+          "hint": "〜（よ）うものなら",
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-order-01",
+          "mode": "order",
+          "prompt": "Nếu lỡ phàn nàn bị mắng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "言おうものなら"
+            },
+            {
+              "id": "1",
+              "text": "すぐ"
+            },
+            {
+              "id": "2",
+              "text": "怒ら"
+            },
+            {
+              "id": "3",
+              "text": "れる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うものなら",
+          "answers": [
+            "言おうものならすぐ怒られる。"
+          ],
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-order-02",
+          "mode": "order",
+          "prompt": "Nếu lỡ muộn bị trừ điểm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "遅刻しようものなら"
+            },
+            {
+              "id": "1",
+              "text": "減点"
+            },
+            {
+              "id": "2",
+              "text": "され"
+            },
+            {
+              "id": "3",
+              "text": "る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うものなら",
+          "answers": [
+            "遅刻しようものなら減点されるのだ。"
+          ],
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-order-03",
+          "mode": "order",
+          "prompt": "Nếu lỡ chống lại đáng sợ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "逆らおうものなら"
+            },
+            {
+              "id": "1",
+              "text": "後が"
+            },
+            {
+              "id": "2",
+              "text": "怖い"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うものなら",
+          "answers": [
+            "逆らおうものなら後が怖いだろう。"
+          ],
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-order-04",
+          "mode": "order",
+          "prompt": "Nếu lỡ trễ hạn bị phạt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "遅れようものなら"
+            },
+            {
+              "id": "1",
+              "text": "厳しく"
+            },
+            {
+              "id": "2",
+              "text": "罰せ"
+            },
+            {
+              "id": "3",
+              "text": "られる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うものなら",
+          "answers": [
+            "遅れようものなら厳しく罰せられる。"
+          ],
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-order-05",
+          "mode": "order",
+          "prompt": "Nếu lỡ nói dối mất tin.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "嘘をつこうものなら"
+            },
+            {
+              "id": "1",
+              "text": "信用を"
+            },
+            {
+              "id": "2",
+              "text": "失う"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うものなら",
+          "answers": [
+            "嘘をつこうものなら信用を失うだろう。"
+          ],
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-order-06",
+          "mode": "order",
+          "prompt": "Nếu lỡ bỏ họp bị nhắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "欠席しようものなら"
+            },
+            {
+              "id": "1",
+              "text": "注意"
+            },
+            {
+              "id": "2",
+              "text": "され"
+            },
+            {
+              "id": "3",
+              "text": "る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うものなら",
+          "answers": [
+            "欠席しようものなら注意される。"
+          ],
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-order-07",
+          "mode": "order",
+          "prompt": "Nếu lỡ quên khóa không vào.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忘れようものなら"
+            },
+            {
+              "id": "1",
+              "text": "入れなく"
+            },
+            {
+              "id": "2",
+              "text": "なる"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うものなら",
+          "answers": [
+            "忘れようものなら入れなくなるだろう。"
+          ],
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-order-08",
+          "mode": "order",
+          "prompt": "Nếu lỡ làm ồn bị phàn nàn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "騒ごうものなら"
+            },
+            {
+              "id": "1",
+              "text": "苦情が"
+            },
+            {
+              "id": "2",
+              "text": "来る"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うものなら",
+          "answers": [
+            "騒ごうものなら苦情が来るだろう。"
+          ],
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-order-09",
+          "mode": "order",
+          "prompt": "Nếu lỡ tiết lộ bị kỷ luật.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "漏らそうものなら"
+            },
+            {
+              "id": "1",
+              "text": "処分"
+            },
+            {
+              "id": "2",
+              "text": "され"
+            },
+            {
+              "id": "3",
+              "text": "る。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うものなら",
+          "answers": [
+            "漏らそうものなら処分される。"
+          ],
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g03-order-10",
+          "mode": "order",
+          "prompt": "Nếu lỡ cười nhạo bị ghét.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "笑おうものなら"
+            },
+            {
+              "id": "1",
+              "text": "嫌わ"
+            },
+            {
+              "id": "2",
+              "text": "れる"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜（よ）うものなら",
+          "answers": [
+            "笑おうものなら嫌われるだろう。"
+          ],
+          "explanation": "Câu dùng （よ）うものなら: nếu lỡ… thì hậu quả xấu. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l15-g04",
+      "title": "〜ないことには",
+      "meaning": "Nếu không… thì không thể… / chưa… thì chưa…",
+      "variants": [
+        "ないことには"
+      ],
+      "structures": [
+        "Vない ＋ ことには ＋ Vない／難しいなど"
+      ],
+      "explanation": "Thiếu điều kiện A thì không thể đạt B; nhấn mạnh A là điều kiện tiên quyết.",
+      "usage": "Nêu điều kiện bắt buộc: không có A thì không làm được B.",
+      "cautions": [
+        "Vế sau thường phủ định hoặc ý 'khó/không thể'.",
+        "Khác なければ (điều kiện chung); ないことには nhấn mạnh 'thiếu thì không xong'."
+      ],
+      "contrast": "ないことには ≈ nếu không… thì không thể…. Gần なければ…ない.",
+      "examples": [
+        {
+          "ja": "実物を見ないことには決められない。",
+          "reading": "じつぶつをみないことにはきめられない。",
+          "vi": "Nếu không xem hàng thật thì không quyết được.",
+          "ruby": [
+            {
+              "text": "実物",
+              "reading": "じつぶつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "ないことには"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "められない。"
+            }
+          ]
+        },
+        {
+          "ja": "許可がないことには始められない。",
+          "reading": "きょかがいないことにははじめられない。",
+          "vi": "Nếu không có phép thì không thể bắt đầu.",
+          "ruby": [
+            {
+              "text": "許可",
+              "reading": "きょか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "ないことには"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "められない。"
+            }
+          ]
+        },
+        {
+          "ja": "データを確認しないことには報告できない。",
+          "reading": "データをかくにんしないことにはほうこくできない。",
+          "vi": "Nếu không kiểm tra dữ liệu thì không báo cáo được.",
+          "ruby": [
+            {
+              "text": "データを"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "しないことには"
+            },
+            {
+              "text": "報告",
+              "reading": "ほうこく"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 81,
+        "printedPage": 68,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-nai-koto-ni-wa-neu-khong-thi-khong-the-chua-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l15-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nếu không thử thì không biết hợp không.",
+          "answers": [
+            "試さないことには合うか分からない。"
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nếu không họp thì không quyết được.",
+          "answers": [
+            "会議を開かないことには決められない。"
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nếu không có vốn thì không mở cửa hàng.",
+          "answers": [
+            "資金がないことには店を開けない。"
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nếu không luyện thì không tiến bộ.",
+          "answers": [
+            "練習しないことには上達しない。"
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nếu không đọc hợp đồng thì không ký.",
+          "answers": [
+            "契約書を読まないことにはサインできない。"
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nếu không có bằng chứng thì không buộc tội.",
+          "answers": [
+            "証拠がないことには告発できない。"
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nếu không sửa lỗi thì không xuất bản.",
+          "answers": [
+            "誤りを直さないことには出版できない。"
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nếu không hỏi ý thì không tiến hành.",
+          "answers": [
+            "意見を聞かないことには進められない。"
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nếu không nghỉ thì không hồi phục.",
+          "answers": [
+            "休まないことには回復しない。"
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nếu không có chìa thì không mở cửa.",
+          "answers": [
+            "鍵がないことにはドアが開かない。"
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "説明を聞かないことには納得できない。",
+          "answers": [
+            "Nếu không nghe giải thích thì không thuyết phục được."
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "実地を見ないことには判断が難しい。",
+          "answers": [
+            "Nếu không xem thực địa thì khó phán đoán."
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "同意がないことには公開できない。",
+          "answers": [
+            "Nếu không có đồng ý thì không công khai được."
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "準備を整えないことには出発できない。",
+          "answers": [
+            "Nếu không chuẩn bị xong thì không xuất phát được."
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "確認しないことには発送できない。",
+          "answers": [
+            "Nếu không xác nhận thì không gửi hàng được."
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "経験がないことには指導は無理だ。",
+          "answers": [
+            "Nếu không có kinh nghiệm thì hướng dẫn là vô lý."
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "材料が揃わないことには作れない。",
+          "answers": [
+            "Nếu nguyên liệu chưa đủ thì không làm được."
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "本人に会わないことには真相は分からない。",
+          "answers": [
+            "Nếu không gặp chính người đó thì không rõ sự thật."
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "検査を受けないことには診断できない。",
+          "answers": [
+            "Nếu không khám thì không chẩn đoán được."
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "予算が決まらないことには発注できない。",
+          "answers": [
+            "Nếu ngân sách chưa chốt thì không đặt hàng được."
+          ],
+          "hint": "〜ないことには",
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-order-01",
+          "mode": "order",
+          "prompt": "Không xem hàng thật không quyết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "見ないことには"
+            },
+            {
+              "id": "1",
+              "text": "決め"
+            },
+            {
+              "id": "2",
+              "text": "られ"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないことには",
+          "answers": [
+            "見ないことには決められない。"
+          ],
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-order-02",
+          "mode": "order",
+          "prompt": "Không có phép không bắt đầu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "許可がないことには"
+            },
+            {
+              "id": "1",
+              "text": "始め"
+            },
+            {
+              "id": "2",
+              "text": "られ"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないことには",
+          "answers": [
+            "許可がないことには始められないのだ。"
+          ],
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-order-03",
+          "mode": "order",
+          "prompt": "Không kiểm tra không báo cáo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "確認しないことには"
+            },
+            {
+              "id": "1",
+              "text": "報告"
+            },
+            {
+              "id": "2",
+              "text": "でき"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないことには",
+          "answers": [
+            "確認しないことには報告できない。"
+          ],
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-order-04",
+          "mode": "order",
+          "prompt": "Không thử không biết hợp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "試さないことには"
+            },
+            {
+              "id": "1",
+              "text": "合うか"
+            },
+            {
+              "id": "2",
+              "text": "分から"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないことには",
+          "answers": [
+            "試さないことには合うか分からない。"
+          ],
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-order-05",
+          "mode": "order",
+          "prompt": "Không họp không quyết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "開かないことには"
+            },
+            {
+              "id": "1",
+              "text": "決め"
+            },
+            {
+              "id": "2",
+              "text": "られ"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないことには",
+          "answers": [
+            "開かないことには決められない。"
+          ],
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-order-06",
+          "mode": "order",
+          "prompt": "Không có vốn không mở tiệm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "資金がないことには"
+            },
+            {
+              "id": "1",
+              "text": "店を"
+            },
+            {
+              "id": "2",
+              "text": "開け"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないことには",
+          "answers": [
+            "資金がないことには店を開けない。"
+          ],
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-order-07",
+          "mode": "order",
+          "prompt": "Không luyện không tiến.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "練習しないことには"
+            },
+            {
+              "id": "1",
+              "text": "上達"
+            },
+            {
+              "id": "2",
+              "text": "し"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないことには",
+          "answers": [
+            "練習しないことには上達しない。"
+          ],
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-order-08",
+          "mode": "order",
+          "prompt": "Không đọc hợp đồng không ký.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "読まないことには"
+            },
+            {
+              "id": "1",
+              "text": "サイン"
+            },
+            {
+              "id": "2",
+              "text": "でき"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないことには",
+          "answers": [
+            "読まないことにはサインできない。"
+          ],
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-order-09",
+          "mode": "order",
+          "prompt": "Không nghỉ không hồi phục.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "休まないことには"
+            },
+            {
+              "id": "1",
+              "text": "回復"
+            },
+            {
+              "id": "2",
+              "text": "し"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないことには",
+          "answers": [
+            "休まないことには回復しない。"
+          ],
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g04-order-10",
+          "mode": "order",
+          "prompt": "Không có chìa không mở cửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "鍵がないことには"
+            },
+            {
+              "id": "1",
+              "text": "ドアが"
+            },
+            {
+              "id": "2",
+              "text": "開か"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ないことには",
+          "answers": [
+            "鍵がないことにはドアが開かない。"
+          ],
+          "explanation": "Câu dùng ないことには: nếu không A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l15-g05",
+      "title": "〜を抜きにしては",
+      "meaning": "Nếu thiếu… / nếu bỏ qua… thì không…",
+      "variants": [
+        "を抜きにしては",
+        "を抜きにして"
+      ],
+      "structures": [
+        "N ＋ を抜きにしては ＋ 〜ない／難しいなど"
+      ],
+      "explanation": "Không thể bàn/không thể thành công nếu thiếu yếu tố then chốt đó.",
+      "usage": "Nhấn mạnh vai trò không thể thiếu của người/việc/điều kiện.",
+      "cautions": [
+        "Vế sau thường phủ định hoặc ý 'khó khăn'.",
+        "を抜きにして (không は) còn dùng theo nghĩa 'bỏ qua… mà nói'."
+      ],
+      "contrast": "を抜きにしては ≈ nếu thiếu… thì không…. Khác なしでは (thiếu… thì).",
+      "examples": [
+        {
+          "ja": "彼の協力を抜きにしては成功しない。",
+          "reading": "かれのきょうりょくをぬきにしてはせいこうしない。",
+          "vi": "Nếu thiếu sự hợp tác của anh ấy thì không thành công.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "協力",
+              "reading": "きょうりょく"
+            },
+            {
+              "text": "を抜きにしては"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "しない。"
+            }
+          ]
+        },
+        {
+          "ja": "資金を抜きにしては事業は語れない。",
+          "reading": "しきんをぬきにしてはじぎょうはかたれない。",
+          "vi": "Nếu thiếu vốn thì không thể bàn về dự án.",
+          "ruby": [
+            {
+              "text": "資金",
+              "reading": "しきん"
+            },
+            {
+              "text": "を抜きにしては"
+            },
+            {
+              "text": "事業",
+              "reading": "じぎょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "語",
+              "reading": "かた"
+            },
+            {
+              "text": "れない。"
+            }
+          ]
+        },
+        {
+          "ja": "経験を抜きにしてはこの仕事は無理だ。",
+          "reading": "けいけんをぬきにしてはこのしごとはむりだ。",
+          "vi": "Nếu thiếu kinh nghiệm thì công việc này là vô lý.",
+          "ruby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "を抜きにしては"
+            },
+            {
+              "text": "この"
+            },
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "無理",
+              "reading": "むり"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 81,
+        "printedPage": 68,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-wo-nuki-ni-shite-nuki-ni-shite-wa-neu-khong-thi-khong-thi-neu-thieu-th/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l15-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nếu thiếu cô ấy thì đội không thắng.",
+          "answers": [
+            "彼女を抜きにしてはチームは勝てない。"
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Nếu thiếu dữ liệu thì phân tích khó.",
+          "answers": [
+            "データを抜きにしては分析が難しい。"
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nếu thiếu hỗ trợ gia đình thì không tiếp tục.",
+          "answers": [
+            "家族の支援を抜きにしては続けられない。"
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nếu thiếu công nghệ thì không cạnh tranh.",
+          "answers": [
+            "技術を抜きにしては競争できない。"
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nếu thiếu lòng tin thì quan hệ không bền.",
+          "answers": [
+            "信頼を抜きにしては関係が続かない。"
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nếu thiếu thời gian thì không hoàn thiện.",
+          "answers": [
+            "時間を抜きにしては完成しない。"
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nếu thiếu hướng dẫn thì người mới bối rối.",
+          "answers": [
+            "指導を抜きにしては新人は困る。"
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Nếu thiếu khách hàng thì cửa hàng không sống.",
+          "answers": [
+            "客を抜きにしては店は成り立たない。"
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nếu thiếu quy tắc thì tổ chức rối.",
+          "answers": [
+            "ルールを抜きにしては組織が乱れる。"
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Nếu thiếu sức khỏe thì không làm được.",
+          "answers": [
+            "健康を抜きにしては働けない。"
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼の助言を抜きにしては決断できない。",
+          "answers": [
+            "Nếu thiếu lời khuyên của anh ấy thì không quyết được."
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "宣伝を抜きにしては売れ行きが伸びない。",
+          "answers": [
+            "Nếu thiếu quảng cáo thì doanh số không tăng."
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "努力を抜きにしては上達は望めない。",
+          "answers": [
+            "Nếu thiếu nỗ lực thì không mong tiến bộ."
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "地元の協力を抜きにしては開催できない。",
+          "answers": [
+            "Nếu thiếu hợp tác địa phương thì không tổ chức được."
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "基礎を抜きにしては応用は難しい。",
+          "answers": [
+            "Nếu thiếu nền tảng thì ứng dụng khó."
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "睡眠を抜きにしては集中できない。",
+          "answers": [
+            "Nếu thiếu ngủ thì không tập trung được."
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "法律を抜きにしては取引は進められない。",
+          "answers": [
+            "Nếu thiếu luật thì giao dịch không tiến hành được."
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "文化を抜きにしては習慣は語れない。",
+          "answers": [
+            "Nếu thiếu văn hóa thì không bàn được tập quán."
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "練習を抜きにしては本番は怖い。",
+          "answers": [
+            "Nếu thiếu luyện tập thì buổi chính đáng sợ."
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "予算を抜きにしては計画は机上の空論だ。",
+          "answers": [
+            "Nếu thiếu ngân sách thì kế hoạch chỉ là lý thuyết."
+          ],
+          "hint": "〜を抜きにしては",
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-order-01",
+          "mode": "order",
+          "prompt": "Thiếu hợp tác anh ấy không thành.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "協力を抜きにしては"
+            },
+            {
+              "id": "1",
+              "text": "成功"
+            },
+            {
+              "id": "2",
+              "text": "し"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜を抜きにしては",
+          "answers": [
+            "協力を抜きにしては成功しない。"
+          ],
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-order-02",
+          "mode": "order",
+          "prompt": "Thiếu vốn không bàn dự án.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "資金を抜きにしては"
+            },
+            {
+              "id": "1",
+              "text": "事業は"
+            },
+            {
+              "id": "2",
+              "text": "語れ"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜を抜きにしては",
+          "answers": [
+            "資金を抜きにしては事業は語れないのだ。"
+          ],
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-order-03",
+          "mode": "order",
+          "prompt": "Thiếu kinh nghiệm việc này vô lý.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "経験を抜きにしては"
+            },
+            {
+              "id": "1",
+              "text": "この仕事は"
+            },
+            {
+              "id": "2",
+              "text": "無理"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜を抜きにしては",
+          "answers": [
+            "経験を抜きにしてはこの仕事は無理だのだ。"
+          ],
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-order-04",
+          "mode": "order",
+          "prompt": "Thiếu cô ấy đội không thắng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼女を抜きにしては"
+            },
+            {
+              "id": "1",
+              "text": "チームは"
+            },
+            {
+              "id": "2",
+              "text": "勝て"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜を抜きにしては",
+          "answers": [
+            "彼女を抜きにしてはチームは勝てない。"
+          ],
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-order-05",
+          "mode": "order",
+          "prompt": "Thiếu dữ liệu phân tích khó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "データを抜きにしては"
+            },
+            {
+              "id": "1",
+              "text": "分析が"
+            },
+            {
+              "id": "2",
+              "text": "難しい"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜を抜きにしては",
+          "answers": [
+            "データを抜きにしては分析が難しいだろう。"
+          ],
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-order-06",
+          "mode": "order",
+          "prompt": "Thiếu hỗ trợ gia đình không tiếp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "支援を抜きにしては"
+            },
+            {
+              "id": "1",
+              "text": "続け"
+            },
+            {
+              "id": "2",
+              "text": "られ"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜を抜きにしては",
+          "answers": [
+            "支援を抜きにしては続けられない。"
+          ],
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-order-07",
+          "mode": "order",
+          "prompt": "Thiếu công nghệ không cạnh tranh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "技術を抜きにしては"
+            },
+            {
+              "id": "1",
+              "text": "競争"
+            },
+            {
+              "id": "2",
+              "text": "でき"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜を抜きにしては",
+          "answers": [
+            "技術を抜きにしては競争できない。"
+          ],
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-order-08",
+          "mode": "order",
+          "prompt": "Thiếu lòng tin quan hệ không bền.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "信頼を抜きにしては"
+            },
+            {
+              "id": "1",
+              "text": "関係が"
+            },
+            {
+              "id": "2",
+              "text": "続か"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜を抜きにしては",
+          "answers": [
+            "信頼を抜きにしては関係が続かない。"
+          ],
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-order-09",
+          "mode": "order",
+          "prompt": "Thiếu sức khỏe không làm được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "健康を抜きにしては"
+            },
+            {
+              "id": "1",
+              "text": "働け"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜を抜きにしては",
+          "answers": [
+            "健康を抜きにしては働けないだろう。"
+          ],
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g05-order-10",
+          "mode": "order",
+          "prompt": "Thiếu khách hàng tiệm không sống.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "客を抜きにしては"
+            },
+            {
+              "id": "1",
+              "text": "店は"
+            },
+            {
+              "id": "2",
+              "text": "成り立た"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜を抜きにしては",
+          "answers": [
+            "客を抜きにしては店は成り立たない。"
+          ],
+          "explanation": "Câu dùng を抜きにしては: nếu thiếu A thì không thể B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l15-g06",
+      "title": "〜としても・〜にしても・〜にしろ・〜にせよ",
+      "meaning": "Dù là… / cho dù… thì…",
+      "variants": [
+        "としても",
+        "にしても",
+        "にしろ",
+        "にせよ"
+      ],
+      "structures": [
+        "普通形 ＋ としても",
+        "N／普通形 ＋ にしても",
+        "N／普通形 ＋ にしろ／にせよ"
+      ],
+      "explanation": "Nhượng bộ: chấp nhận giả định A nhưng kết luận B vẫn đúng hoặc vẫn phải làm.",
+      "usage": "Lập luận: dù A (có xảy ra) thì vẫn B; cũng dùng liệt kê dù A hay B.",
+      "cautions": [
+        "としても thường sau mệnh đề giả định; にしても／にしろ／にせよ linh hoạt hơn.",
+        "にしろ／にせよ sắc thái văn viết hoặc mạnh hơn にしても."
+      ],
+      "contrast": "としても／にしても ≈ dù…. にしろ／にせよ ≈ dù… (viết). Khác たとえ〜ても.",
+      "examples": [
+        {
+          "ja": "失敗したとしても諦めない。",
+          "reading": "しっぱいしたとしてもあきらめない。",
+          "vi": "Dù thất bại cũng không bỏ cuộc.",
+          "ruby": [
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "したとしても"
+            },
+            {
+              "text": "諦",
+              "reading": "あきら"
+            },
+            {
+              "text": "めない。"
+            }
+          ]
+        },
+        {
+          "ja": "高いにしても品質が良ければ買う。",
+          "reading": "たかいにしてもひんしつがよければかう。",
+          "vi": "Dù đắt, nếu chất lượng tốt thì mua.",
+          "ruby": [
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "いにしても"
+            },
+            {
+              "text": "品質",
+              "reading": "ひんしつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "良",
+              "reading": "よ"
+            },
+            {
+              "text": "ければ"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "う。"
+            }
+          ]
+        },
+        {
+          "ja": "勝つにしろ負けるにしろ礼を失うな。",
+          "reading": "かつにしろまけるにしろれいをうしなうな。",
+          "vi": "Dù thắng hay thua đừng mất lễ độ.",
+          "ruby": [
+            {
+              "text": "勝",
+              "reading": "か"
+            },
+            {
+              "text": "つにしろ"
+            },
+            {
+              "text": "負",
+              "reading": "ま"
+            },
+            {
+              "text": "けるにしろ"
+            },
+            {
+              "text": "礼",
+              "reading": "れい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "失",
+              "reading": "うしな"
+            },
+            {
+              "text": "うな。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 81,
+        "printedPage": 68,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-to-shite-mo-cho-du-cho-dau-dau-cho/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-shite-mo-ni-shite-mo-cho-du-lahaythi-cung/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-shiro-ni-shiro-ni-seyo-ni-seyo-du-la-hay-du-co/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l15-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Dù mưa cũng sẽ đến đúng giờ.",
+          "answers": [
+            "雨だとしても時間通りに来る。"
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Dù bận cũng hãy trả lời tin nhắn.",
+          "answers": [
+            "忙しいにしても返信はしてほしい。"
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Dù đồng ý hay không hãy nêu lý do.",
+          "answers": [
+            "賛成にしろ反対にしろ理由を述べよ。"
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Dù rẻ cũng phải kiểm tra kỹ.",
+          "answers": [
+            "安いにせよよく確認せよ。"
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Dù thành công cũng đừng chủ quan.",
+          "answers": [
+            "成功したとしても油断するな。"
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Dù muộn cũng hơn không làm.",
+          "answers": [
+            "遅くにしてもやらないよりましだ。"
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Dù anh ấy hay cô ấy đều có trách nhiệm (dịch).",
+          "answers": [
+            "彼にせよ彼女にせよ責任がある。"
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Dù khó cũng phải nộp đúng hạn.",
+          "answers": [
+            "難しいとしても期限は守る。"
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Dù ít tiền cũng tiết kiệm được.",
+          "answers": [
+            "少なくにしても節約はできる。"
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Dù thắng hay thua hãy bắt tay (dịch).",
+          "answers": [
+            "勝つにしろ負けるにしろ握手しよう。"
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "不合格だったとしても挑戦は無駄じゃない。",
+          "answers": [
+            "Dù không đậu, thử cũng không phí."
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "高いにしても長く使えるなら得だ。",
+          "answers": [
+            "Dù đắt, nếu dùng lâu thì đáng."
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "行くにせよ残るにせよ早く決めろ。",
+          "answers": [
+            "Dù đi hay ở hãy quyết sớm."
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "彼が来ないとしても予定は変えない。",
+          "answers": [
+            "Dù anh ấy không đến vẫn không đổi lịch."
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "子どもにしてもルールは守らせる。",
+          "answers": [
+            "Dù là trẻ cũng bắt tuân quy tắc."
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "安いとしても品質が悪ければ買わない。",
+          "answers": [
+            "Dù rẻ nếu kém chất lượng thì không mua."
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "賛成にしても条件付きだ。",
+          "answers": [
+            "Dù tán thành cũng có điều kiện."
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "負けたにせよ学べば前進だ。",
+          "answers": [
+            "Dù thua, nếu học được thì vẫn tiến."
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "忙しいにしても連絡だけはくれ。",
+          "answers": [
+            "Dù bận cũng chỉ cần liên lạc."
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "結果にせよ過程にせよ誠実であれ。",
+          "answers": [
+            "Dù kết quả hay quá trình hãy thành thật."
+          ],
+          "hint": "〜としても／にしても／にしろ",
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-order-01",
+          "mode": "order",
+          "prompt": "Dù thất bại không bỏ cuộc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失敗したとしても"
+            },
+            {
+              "id": "1",
+              "text": "諦め"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としても／にしても／にしろ",
+          "answers": [
+            "失敗したとしても諦めないだろう。"
+          ],
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-order-02",
+          "mode": "order",
+          "prompt": "Dù đắt chất lượng tốt thì mua.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "高いにしても"
+            },
+            {
+              "id": "1",
+              "text": "品質が良ければ"
+            },
+            {
+              "id": "2",
+              "text": "買う"
+            },
+            {
+              "id": "3",
+              "text": "つもりだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としても／にしても／にしろ",
+          "answers": [
+            "高いにしても品質が良ければ買うつもりだ。"
+          ],
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-order-03",
+          "mode": "order",
+          "prompt": "Dù thắng hay thua giữ lễ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "勝つにしろ"
+            },
+            {
+              "id": "1",
+              "text": "負けるにしろ"
+            },
+            {
+              "id": "2",
+              "text": "礼を"
+            },
+            {
+              "id": "3",
+              "text": "失うな。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜としても／にしても／にしろ",
+          "answers": [
+            "勝つにしろ負けるにしろ礼を失うなのだ。"
+          ],
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-order-04",
+          "mode": "order",
+          "prompt": "Dù mưa đến đúng giờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨だとしても"
+            },
+            {
+              "id": "1",
+              "text": "時間通りに"
+            },
+            {
+              "id": "2",
+              "text": "来る"
+            },
+            {
+              "id": "3",
+              "text": "つもりだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としても／にしても／にしろ",
+          "answers": [
+            "雨だとしても時間通りに来るつもりだ。"
+          ],
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-order-05",
+          "mode": "order",
+          "prompt": "Dù bận hãy trả lời.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忙しいにしても"
+            },
+            {
+              "id": "1",
+              "text": "返信は"
+            },
+            {
+              "id": "2",
+              "text": "して"
+            },
+            {
+              "id": "3",
+              "text": "ほしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としても／にしても／にしろ",
+          "answers": [
+            "忙しいにしても返信はしてほしい。"
+          ],
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-order-06",
+          "mode": "order",
+          "prompt": "Dù tán thành hay phản đối nêu lý do (sắp xếp).",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "賛成にしろ"
+            },
+            {
+              "id": "1",
+              "text": "反対にしろ"
+            },
+            {
+              "id": "2",
+              "text": "理由を"
+            },
+            {
+              "id": "3",
+              "text": "述べよ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜としても／にしても／にしろ",
+          "answers": [
+            "賛成にしろ反対にしろ理由を述べよ。"
+          ],
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-order-07",
+          "mode": "order",
+          "prompt": "Dù thành công đừng chủ quan.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "成功したとしても"
+            },
+            {
+              "id": "1",
+              "text": "油断"
+            },
+            {
+              "id": "2",
+              "text": "する"
+            },
+            {
+              "id": "3",
+              "text": "な。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としても／にしても／にしろ",
+          "answers": [
+            "成功したとしても油断するな。"
+          ],
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-order-08",
+          "mode": "order",
+          "prompt": "Dù khó nộp đúng hạn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "難しいとしても"
+            },
+            {
+              "id": "1",
+              "text": "期限は"
+            },
+            {
+              "id": "2",
+              "text": "守る"
+            },
+            {
+              "id": "3",
+              "text": "べきだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜としても／にしても／にしろ",
+          "answers": [
+            "難しいとしても期限は守るべきだ。"
+          ],
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-order-09",
+          "mode": "order",
+          "prompt": "Dù anh hay cô đều có trách nhiệm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼にせよ"
+            },
+            {
+              "id": "1",
+              "text": "彼女にせよ"
+            },
+            {
+              "id": "2",
+              "text": "責任が"
+            },
+            {
+              "id": "3",
+              "text": "ある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜としても／にしても／にしろ",
+          "answers": [
+            "彼にせよ彼女にせよ責任がある。"
+          ],
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        },
+        {
+          "id": "l15-g06-order-10",
+          "mode": "order",
+          "prompt": "Dù thắng hay thua bắt tay.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "勝つにしろ"
+            },
+            {
+              "id": "1",
+              "text": "負けるにしろ"
+            },
+            {
+              "id": "2",
+              "text": "握手"
+            },
+            {
+              "id": "3",
+              "text": "しよう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 1,
+          "hint": "〜としても／にしても／にしろ",
+          "answers": [
+            "勝つにしろ負けるにしろ握手しよう。"
+          ],
+          "explanation": "Câu nhượng bộ: としても／にしても／にしろ／にせよ — dù… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 15 authored (N2-L11-BATCH)"
+        }
+      ]
+    }
+  ]
+}
