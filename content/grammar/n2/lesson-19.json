@@ -1,0 +1,4463 @@
+{
+  "id": "lesson-19",
+  "titleJa": "評価・観点",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 19. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L16-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l19-g01",
+      "title": "〜わりに（は）",
+      "meaning": "So với… thì… / dù… nhưng (không tương xứng)",
+      "variants": [
+        "わりに",
+        "わりには"
+      ],
+      "structures": [
+        "N／普通形 ＋ わりに（は）",
+        "いAい ＋ わりに（は）",
+        "なAな／である ＋ わりに（は）"
+      ],
+      "explanation": "わりに（は）: đánh giá kết quả không tương xứng với mức độ/điều kiện đã nêu — thường tốt hơn hoặc kém hơn kỳ vọng.",
+      "usage": "Nhận xét: giá rẻ mà chất lượng tốt; trẻ mà chín chắn.",
+      "cautions": [
+        "Thường kèm đánh giá chủ quan sau わりに.",
+        "わりには nhấn mạnh hơn một chút so với わりに."
+      ],
+      "contrast": "わりに ≈ so với… thì…. Gần にしては nhưng thiên 'mức độ ↔ kết quả'.",
+      "examples": [
+        {
+          "ja": "値段のわりに味がいい。",
+          "reading": "ねだんのわりにあじがいい。",
+          "vi": "So với giá thì vị khá ngon.",
+          "ruby": [
+            {
+              "text": "値段",
+              "reading": "ねだん"
+            },
+            {
+              "text": "のわりに"
+            },
+            {
+              "text": "味",
+              "reading": "あじ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "いい。"
+            }
+          ]
+        },
+        {
+          "ja": "若いわりには落ち着いている。",
+          "reading": "わかいわりにはおちついている。",
+          "vi": "Dù còn trẻ mà khá điềm đạm.",
+          "ruby": [
+            {
+              "text": "若",
+              "reading": "わか"
+            },
+            {
+              "text": "いわりには"
+            },
+            {
+              "text": "落",
+              "reading": "お"
+            },
+            {
+              "text": "ち着いている。"
+            }
+          ]
+        },
+        {
+          "ja": "努力したわりに成果が出ない。",
+          "reading": "どりょくしたわりにせいかがでない。",
+          "vi": "Đã cố gắng mà kết quả chẳng ra.",
+          "ruby": [
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "したわりに"
+            },
+            {
+              "text": "成果",
+              "reading": "せいか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 99,
+        "printedPage": 86,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-warini-du-tuy-nhung-tuong-doi-so-voi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l19-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "So với tuổi thì trông trẻ.",
+          "answers": [
+            "年齢のわりに若く見える。"
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "So với lương thì công việc nặng.",
+          "answers": [
+            "給料のわりに仕事がきつい。"
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Học ít mà điểm cao.",
+          "answers": [
+            "勉強時間が短いわりに成績がいい。"
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Nhỏ mà chứa nhiều.",
+          "answers": [
+            "サイズが小さいわりに容量が多い。"
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đắt mà chất lượng kém.",
+          "answers": [
+            "高いわりに品質が低い。"
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Kinh nghiệm ít mà xử lý tốt.",
+          "answers": [
+            "経験が少ないわりにうまく対応する。"
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Quảng cáo hay mà thực tế tầm thường.",
+          "answers": [
+            "宣伝が派手なわりに中身は普通だ。"
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Mệt mà vẫn vui vẻ.",
+          "answers": [
+            "疲れているわりに明るく振る舞う。"
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Rẻ mà bền.",
+          "answers": [
+            "安いわりに長持ちする。"
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Cố nhiều mà tiến bộ chậm.",
+          "answers": [
+            "頑張ったわりに上達が遅い。"
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "この店は安いわりに美味しい。",
+          "answers": [
+            "Quán này rẻ mà ngon."
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "彼は忙しいわりに連絡をくれる。",
+          "answers": [
+            "Anh ấy bận mà vẫn liên lạc."
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "部屋は狭いわりに使いやすい。",
+          "answers": [
+            "Phòng hẹp mà dễ dùng."
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "練習不足のわりに上手だ。",
+          "answers": [
+            "Thiếu luyện tập mà vẫn giỏi."
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "この本は難しいわりに面白い。",
+          "answers": [
+            "Sách này khó mà thú vị."
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "彼女は新人のわりに仕事が速い。",
+          "answers": [
+            "Cô ấy mới mà làm việc nhanh."
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "雨のわりに客が多かった。",
+          "answers": [
+            "Dù mưa mà khách vẫn đông."
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "説明が短いわりに分かりやすい。",
+          "answers": [
+            "Giải thích ngắn mà dễ hiểu."
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "この服は高いわりにすぐ破れる。",
+          "answers": [
+            "Áo này đắt mà mau rách."
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "準備不足のわりに成功した。",
+          "answers": [
+            "Thiếu chuẩn bị mà vẫn thành công."
+          ],
+          "hint": "〜わりに（は）",
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-order-01",
+          "mode": "order",
+          "prompt": "So với giá thì khá ngon.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "値段のわりに"
+            },
+            {
+              "id": "1",
+              "text": "味は"
+            },
+            {
+              "id": "2",
+              "text": "悪くない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わりに（は）",
+          "answers": [
+            "値段のわりに味は悪くない。"
+          ],
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-order-02",
+          "mode": "order",
+          "prompt": "Trẻ mà khá điềm đạm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "若いわりには"
+            },
+            {
+              "id": "1",
+              "text": "とても"
+            },
+            {
+              "id": "2",
+              "text": "落ち着いている"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わりに（は）",
+          "answers": [
+            "若いわりにはとても落ち着いている。"
+          ],
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-order-03",
+          "mode": "order",
+          "prompt": "Cố mà kết quả kém.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力したわりに"
+            },
+            {
+              "id": "1",
+              "text": "成果が"
+            },
+            {
+              "id": "2",
+              "text": "少ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わりに（は）",
+          "answers": [
+            "努力したわりに成果が少ない。"
+          ],
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-order-04",
+          "mode": "order",
+          "prompt": "So với tuổi trông trẻ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "年齢のわりに"
+            },
+            {
+              "id": "1",
+              "text": "若く"
+            },
+            {
+              "id": "2",
+              "text": "見える"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わりに（は）",
+          "answers": [
+            "年齢のわりに若く見える。"
+          ],
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-order-05",
+          "mode": "order",
+          "prompt": "Lương thấp việc nặng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "給料のわりに"
+            },
+            {
+              "id": "1",
+              "text": "仕事が"
+            },
+            {
+              "id": "2",
+              "text": "きつい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わりに（は）",
+          "answers": [
+            "給料のわりに仕事がきつい。"
+          ],
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-order-06",
+          "mode": "order",
+          "prompt": "Rẻ mà dùng lâu được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "安いわりに"
+            },
+            {
+              "id": "1",
+              "text": "長持ち"
+            },
+            {
+              "id": "2",
+              "text": "する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わりに（は）",
+          "answers": [
+            "安いわりに長持ちする。"
+          ],
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-order-07",
+          "mode": "order",
+          "prompt": "Đắt mà chất kém.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "高いわりに"
+            },
+            {
+              "id": "1",
+              "text": "品質が"
+            },
+            {
+              "id": "2",
+              "text": "低い"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わりに（は）",
+          "answers": [
+            "高いわりに品質が低い。"
+          ],
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-order-08",
+          "mode": "order",
+          "prompt": "Hẹp mà dễ dùng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "部屋は狭いわりに"
+            },
+            {
+              "id": "1",
+              "text": "使い"
+            },
+            {
+              "id": "2",
+              "text": "やすい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わりに（は）",
+          "answers": [
+            "部屋は狭いわりに使いやすい。"
+          ],
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-order-09",
+          "mode": "order",
+          "prompt": "Bận mà vẫn liên lạc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忙しいわりに"
+            },
+            {
+              "id": "1",
+              "text": "連絡を"
+            },
+            {
+              "id": "2",
+              "text": "くれる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わりに（は）",
+          "answers": [
+            "忙しいわりに連絡をくれる。"
+          ],
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g01-order-10",
+          "mode": "order",
+          "prompt": "Rẻ mà vẫn ngon.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この店は安いわりに"
+            },
+            {
+              "id": "1",
+              "text": "美味"
+            },
+            {
+              "id": "2",
+              "text": "しい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜わりに（は）",
+          "answers": [
+            "この店は安いわりに美味しい。"
+          ],
+          "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l19-g02",
+      "title": "〜にしては",
+      "meaning": "Xét về tư cách/điều kiện… thì… (khác kỳ vọng)",
+      "variants": [
+        "にしては"
+      ],
+      "structures": [
+        "N ＋ にしては"
+      ],
+      "explanation": "にしては: lấy N làm chuẩn đánh giá; kết quả khác với mức người ta thường kỳ vọng từ N đó.",
+      "usage": "Nhận xét: với tư cách người mới thì giỏi; với giá này thì ổn.",
+      "cautions": [
+        "Thường sau danh từ (hoặc cụm danh từ hóa).",
+        "Gần わりに nhưng nhấn mạnh 'xét theo tư cách/điều kiện đã nêu'."
+      ],
+      "contrast": "にしては ≈ xét về… thì…. Khác としては (với tư cách… làm).",
+      "examples": [
+        {
+          "ja": "初心者にしては上手だ。",
+          "reading": "しょしんしゃにしてはじょうずだ。",
+          "vi": "Với tư cách người mới thì khá giỏi.",
+          "ruby": [
+            {
+              "text": "初心者",
+              "reading": "しょしんしゃ"
+            },
+            {
+              "text": "にしては"
+            },
+            {
+              "text": "上手",
+              "reading": "じょうず"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "この値段にしては品質が良い。",
+          "reading": "このねだんにしてはひんしつがよい。",
+          "vi": "Với mức giá này thì chất lượng tốt.",
+          "ruby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "値段",
+              "reading": "ねだん"
+            },
+            {
+              "text": "にしては"
+            },
+            {
+              "text": "品質",
+              "reading": "ひんしつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "良",
+              "reading": "よ"
+            },
+            {
+              "text": "い。"
+            }
+          ]
+        },
+        {
+          "ja": "冬にしては暖かい日だ。",
+          "reading": "ふゆにしてはあたたかいひだ。",
+          "vi": "Xét là mùa đông thì hôm nay ấm.",
+          "ruby": [
+            {
+              "text": "冬",
+              "reading": "ふゆ"
+            },
+            {
+              "text": "にしては"
+            },
+            {
+              "text": "暖",
+              "reading": "あたた"
+            },
+            {
+              "text": "かい"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 99,
+        "printedPage": 86,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-nishiteha-tuy-nhung-tuy-vay-ma/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l19-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Với người mới thì nói khá trôi.",
+          "answers": [
+            "新人にしては話し方がうまい。"
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Với trẻ em thì suy nghĩ chín.",
+          "answers": [
+            "子供にしては考えが深い。"
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Với số tiền ấy thì mua được nhiều.",
+          "answers": [
+            "その金額にしてはたくさん買える。"
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Với bài thi khó thì điểm cao.",
+          "answers": [
+            "難しい試験にしては点が高い。"
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Với lần đầu thì ít lỗi.",
+          "answers": [
+            "初めてにしてはミスが少ない。"
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Với nhà cũ thì sạch sẽ.",
+          "answers": [
+            "古い家にしてはきれいだ。"
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Với mùa hè thì mát.",
+          "answers": [
+            "夏にしては涼しい。"
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Với quy mô nhỏ thì lợi nhuận tốt.",
+          "answers": [
+            "小規模にしては利益が大きい。"
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Với tự học thì trình độ cao.",
+          "answers": [
+            "独学にしてはレベルが高い。"
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Với lời đồn thì bình thường.",
+          "answers": [
+            "噂にしては普通だった。"
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼はアマチュアにしては上手い。",
+          "answers": [
+            "Anh ấy nghiệp dư mà khá giỏi."
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "この店は駅前にしては安い。",
+          "answers": [
+            "Quán này ở trước ga mà rẻ."
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "彼女は忙しい人にしては丁寧だ。",
+          "answers": [
+            "Cô ấy là người bận mà vẫn chu đáo."
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "この車は中古にしては状態がいい。",
+          "answers": [
+            "Xe này cũ mà tình trạng tốt."
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "今日は月曜日にしては混んでいる。",
+          "answers": [
+            "Hôm nay là thứ Hai mà đông."
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "この問題は入門にしては難しい。",
+          "answers": [
+            "Bài này là nhập môn mà khó."
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "彼は大学生にしては社会経験が豊富だ。",
+          "answers": [
+            "Anh ấy là sinh viên mà nhiều kinh nghiệm xã hội."
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "この荷物は航空便にしては安い。",
+          "answers": [
+            "Hàng này gửi máy bay mà rẻ."
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "その説明は専門家にしては分かりにくい。",
+          "answers": [
+            "Lời giải thích ấy của chuyên gia mà khó hiểu."
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "この部屋はホテルにしては狭い。",
+          "answers": [
+            "Phòng này của khách sạn mà hẹp."
+          ],
+          "hint": "〜にしては",
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-order-01",
+          "mode": "order",
+          "prompt": "Người mới mà khá khéo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "初心者にしては"
+            },
+            {
+              "id": "1",
+              "text": "かなり"
+            },
+            {
+              "id": "2",
+              "text": "上手だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしては",
+          "answers": [
+            "初心者にしてはかなり上手だ。"
+          ],
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-order-02",
+          "mode": "order",
+          "prompt": "Giá này chất lượng ổn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この値段にしては"
+            },
+            {
+              "id": "1",
+              "text": "品質が"
+            },
+            {
+              "id": "2",
+              "text": "悪くない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしては",
+          "answers": [
+            "この値段にしては品質が悪くない。"
+          ],
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-order-03",
+          "mode": "order",
+          "prompt": "Mùa đông mà khá ấm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "冬にしては"
+            },
+            {
+              "id": "1",
+              "text": "温かい"
+            },
+            {
+              "id": "2",
+              "text": "一日だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしては",
+          "answers": [
+            "冬にしては温かい一日だ。"
+          ],
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-order-04",
+          "mode": "order",
+          "prompt": "Trẻ em mà suy nghĩ chín.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "子供にしては"
+            },
+            {
+              "id": "1",
+              "text": "考えが"
+            },
+            {
+              "id": "2",
+              "text": "深い"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしては",
+          "answers": [
+            "子供にしては考えが深い。"
+          ],
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-order-05",
+          "mode": "order",
+          "prompt": "Lần đầu mà ít lỗi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "初めてにしては"
+            },
+            {
+              "id": "1",
+              "text": "ミスが"
+            },
+            {
+              "id": "2",
+              "text": "少ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしては",
+          "answers": [
+            "初めてにしてはミスが少ない。"
+          ],
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-order-06",
+          "mode": "order",
+          "prompt": "Mùa hè mà mát.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "夏にしては"
+            },
+            {
+              "id": "1",
+              "text": "涼"
+            },
+            {
+              "id": "2",
+              "text": "しい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしては",
+          "answers": [
+            "夏にしては涼しい。"
+          ],
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-order-07",
+          "mode": "order",
+          "prompt": "Nhà cũ mà sạch.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "古い家にしては"
+            },
+            {
+              "id": "1",
+              "text": "きれい"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしては",
+          "answers": [
+            "古い家にしてはきれいだ。"
+          ],
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-order-08",
+          "mode": "order",
+          "prompt": "Tự học mà trình độ cao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "独学にしては"
+            },
+            {
+              "id": "1",
+              "text": "レベルが"
+            },
+            {
+              "id": "2",
+              "text": "高い"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしては",
+          "answers": [
+            "独学にしてはレベルが高い。"
+          ],
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-order-09",
+          "mode": "order",
+          "prompt": "Trước ga mà rẻ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "駅前にしては"
+            },
+            {
+              "id": "1",
+              "text": "安"
+            },
+            {
+              "id": "2",
+              "text": "い"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしては",
+          "answers": [
+            "駅前にしては安い。"
+          ],
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g02-order-10",
+          "mode": "order",
+          "prompt": "Xe cũ mà tình trạng tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "中古にしては"
+            },
+            {
+              "id": "1",
+              "text": "状態が"
+            },
+            {
+              "id": "2",
+              "text": "いい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしては",
+          "answers": [
+            "中古にしては状態がいい。"
+          ],
+          "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l19-g03",
+      "title": "〜だけ（のことは）ある",
+      "meaning": "Đúng là… nên… / quả xứng với…",
+      "variants": [
+        "だけあって",
+        "だけある",
+        "だけのことはある"
+      ],
+      "structures": [
+        "普通形 ＋ だけあって",
+        "普通形 ＋ だけある",
+        "普通形 ＋ だけのことはある"
+      ],
+      "explanation": "だけあって／だけある／だけのことはある: kết quả xứng với danh tiếng, nỗ lực, tư cách đã nêu — thường khen.",
+      "usage": "Khen ngợi: học nhiều nên giỏi; danh tiếng nên đáng giá.",
+      "cautions": [
+        "だけあって thường nối sang vế kết quả; だけのことはある hay đứng cuối câu khen.",
+        "Không dùng cho kết quả tiêu cực trái kỳ vọng (khi đó dùng わりに／にしては)."
+      ],
+      "contrast": "だけあって ≈ đúng là… nên…. Khác わりに (không tương xứng).",
+      "examples": [
+        {
+          "ja": "プロだけあって速い。",
+          "reading": "ぷろだけあってはやい。",
+          "vi": "Đúng là chuyên nghiệp nên nhanh.",
+          "ruby": [
+            {
+              "text": "プロ",
+              "reading": "ぷろ"
+            },
+            {
+              "text": "だけあって"
+            },
+            {
+              "text": "速",
+              "reading": "はや"
+            },
+            {
+              "text": "い。"
+            }
+          ]
+        },
+        {
+          "ja": "高いだけのことはある。",
+          "reading": "たかいだけのことはある。",
+          "vi": "Đắt thì cũng xứng đáng.",
+          "ruby": [
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "いだけのことはある。"
+            }
+          ]
+        },
+        {
+          "ja": "練習しただけあって上手になった。",
+          "reading": "れんしゅうしただけあってじょうずになった。",
+          "vi": "Đúng là đã luyện nên đã giỏi hơn.",
+          "ruby": [
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "しただけあって"
+            },
+            {
+              "text": "上手",
+              "reading": "じょうず"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "なった。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 99,
+        "printedPage": 86,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-dake-atte-dake-aru-dake-no-koto-wa-aru-dun/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l19-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Đúng là chuyên gia nên giải thích rõ.",
+          "answers": [
+            "専門家だけあって説明が分かりやすい。"
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Học lâu nên từ vựng phong phú.",
+          "answers": [
+            "長く勉強しただけあって語彙が豊富だ。"
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Giá cao thì cũng xứng.",
+          "answers": [
+            "値段が高いだけのことはある。"
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đúng là quán nổi tiếng nên đông.",
+          "answers": [
+            "有名店だけあっていつも混んでいる。"
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Tập chăm nên thể lực tốt.",
+          "answers": [
+            "よく鍛えただけあって体力がある。"
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Đúng là hàng Nhật nên bền.",
+          "answers": [
+            "日本製品だけあって丈夫だ。"
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Kinh nghiệm nhiều nên xử lý nhanh.",
+          "answers": [
+            "経験が多いだけあって対応が早い。"
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Thầy giỏi thì cũng xứng danh.",
+          "answers": [
+            "良い先生だけのことはある。"
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Đúng là mùa lễ hội nên vui.",
+          "answers": [
+            "祭りの時期だけあって賑やかだ。"
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chuẩn bị kỹ nên ít lỗi.",
+          "answers": [
+            "念入りに準備しただけあってミスが少ない。"
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼は元選手だけあって動きが軽い。",
+          "answers": [
+            "Anh ấy đúng là cựu vận động viên nên động tác nhẹ."
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "この包丁は高いだけのことはある。",
+          "answers": [
+            "Dao này đắt thì cũng xứng."
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "彼女は留学しただけあって発音がきれいだ。",
+          "answers": [
+            "Cô ấy đúng là đã du học nên phát âm đẹp."
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "老舗だけあって味が安定している。",
+          "answers": [
+            "Đúng là quán lâu đời nên vị ổn định."
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "努力しただけのことはある結果だ。",
+          "answers": [
+            "Kết quả xứng với công sức đã bỏ."
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "一流ホテルだけあってサービスが丁寧だ。",
+          "answers": [
+            "Đúng là khách sạn hạng nhất nên dịch vụ chu đáo."
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "彼は教師だけあって教え方が上手い。",
+          "answers": [
+            "Anh ấy đúng là giáo viên nên dạy khéo."
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "この地図は詳しいだけのことはある。",
+          "answers": [
+            "Bản đồ này chi tiết thì cũng xứng."
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "優勝しただけあって実力がある。",
+          "answers": [
+            "Đúng là vô địch nên có thực lực."
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "高級ブランドだけあってデザインが洗練されている。",
+          "answers": [
+            "Đúng là thương hiệu cao cấp nên thiết kế tinh tế."
+          ],
+          "hint": "〜だけ（のことは）ある",
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-order-01",
+          "mode": "order",
+          "prompt": "Chuyên nghiệp nên rất nhanh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "プロだけあって"
+            },
+            {
+              "id": "1",
+              "text": "スピードが"
+            },
+            {
+              "id": "2",
+              "text": "速い"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけ（のことは）ある",
+          "answers": [
+            "プロだけあってスピードが速い。"
+          ],
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-order-02",
+          "mode": "order",
+          "prompt": "Đắt thì quả cũng xứng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "値段が高い"
+            },
+            {
+              "id": "1",
+              "text": "だけのことは"
+            },
+            {
+              "id": "2",
+              "text": "ある"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけ（のことは）ある",
+          "answers": [
+            "値段が高いだけのことはある。"
+          ],
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-order-03",
+          "mode": "order",
+          "prompt": "Luyện nên tiến bộ rõ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "練習しただけあって"
+            },
+            {
+              "id": "1",
+              "text": "上達"
+            },
+            {
+              "id": "2",
+              "text": "した"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけ（のことは）ある",
+          "answers": [
+            "練習しただけあって上達した。"
+          ],
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-order-04",
+          "mode": "order",
+          "prompt": "Chuyên gia nên dễ hiểu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "専門家だけあって"
+            },
+            {
+              "id": "1",
+              "text": "説明が"
+            },
+            {
+              "id": "2",
+              "text": "分かりやすい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけ（のことは）ある",
+          "answers": [
+            "専門家だけあって説明が分かりやすい。"
+          ],
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-order-05",
+          "mode": "order",
+          "prompt": "Quán nổi tiếng nên đông.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "有名店だけあって"
+            },
+            {
+              "id": "1",
+              "text": "いつも"
+            },
+            {
+              "id": "2",
+              "text": "混んでいる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけ（のことは）ある",
+          "answers": [
+            "有名店だけあっていつも混んでいる。"
+          ],
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-order-06",
+          "mode": "order",
+          "prompt": "Hàng Nhật nên bền.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "日本製品だけあって"
+            },
+            {
+              "id": "1",
+              "text": "丈夫"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけ（のことは）ある",
+          "answers": [
+            "日本製品だけあって丈夫だ。"
+          ],
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-order-07",
+          "mode": "order",
+          "prompt": "Tập chăm nên khỏe.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "よく鍛えただけあって"
+            },
+            {
+              "id": "1",
+              "text": "体力が"
+            },
+            {
+              "id": "2",
+              "text": "ある"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけ（のことは）ある",
+          "answers": [
+            "よく鍛えただけあって体力がある。"
+          ],
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-order-08",
+          "mode": "order",
+          "prompt": "Kinh nghiệm nên xử lý nhanh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "経験が多いだけあって"
+            },
+            {
+              "id": "1",
+              "text": "対応が"
+            },
+            {
+              "id": "2",
+              "text": "早い"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけ（のことは）ある",
+          "answers": [
+            "経験が多いだけあって対応が早い。"
+          ],
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-order-09",
+          "mode": "order",
+          "prompt": "Khách sạn hạng nhất chu đáo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一流ホテルだけあって"
+            },
+            {
+              "id": "1",
+              "text": "サービスが"
+            },
+            {
+              "id": "2",
+              "text": "丁寧だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけ（のことは）ある",
+          "answers": [
+            "一流ホテルだけあってサービスが丁寧だ。"
+          ],
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g03-order-10",
+          "mode": "order",
+          "prompt": "Vô địch nên có thực lực.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "優勝しただけあって"
+            },
+            {
+              "id": "1",
+              "text": "実力が"
+            },
+            {
+              "id": "2",
+              "text": "ある"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけ（のことは）ある",
+          "answers": [
+            "優勝しただけあって実力がある。"
+          ],
+          "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l19-g04",
+      "title": "〜として",
+      "meaning": "Với tư cách… / trong vai trò…",
+      "variants": [
+        "として",
+        "としての"
+      ],
+      "structures": [
+        "N ＋ として",
+        "N ＋ としての ＋ N"
+      ],
+      "explanation": "として diễn đạt tư cách, vai trò, vị thế. としての bổ nghĩa danh từ sau: trách nhiệm với tư cách…",
+      "usage": "Giới thiệu vai trò: 代表として話す; 学生としての自覚.",
+      "cautions": [
+        "Không nhầm với として～ない (ngay cả một… cũng không) ở bài khác.",
+        "としての luôn theo sau bởi danh từ."
+      ],
+      "contrast": "として ≈ với tư cách…. Khác にとって (đối với…).",
+      "examples": [
+        {
+          "ja": "私は代表として発言した。",
+          "reading": "わたしはだいひょうとしてはつげんした。",
+          "vi": "Tôi phát biểu với tư cách đại diện.",
+          "ruby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "代表",
+              "reading": "だいひょう"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "発言",
+              "reading": "はつげん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        },
+        {
+          "ja": "彼は医者としての責任を果たした。",
+          "reading": "かれはいしゃとしてのせきにんをはたした。",
+          "vi": "Anh ấy đã làm tròn trách nhiệm với tư cách bác sĩ.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "医者",
+              "reading": "いしゃ"
+            },
+            {
+              "text": "としての"
+            },
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "果",
+              "reading": "は"
+            },
+            {
+              "text": "たした。"
+            }
+          ]
+        },
+        {
+          "ja": "贈り物として花を選んだ。",
+          "reading": "おくりものとしてはなをえらんだ。",
+          "vi": "Tôi chọn hoa làm quà tặng.",
+          "ruby": [
+            {
+              "text": "贈",
+              "reading": "おく"
+            },
+            {
+              "text": "り物として"
+            },
+            {
+              "text": "花",
+              "reading": "はな"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "選",
+              "reading": "えら"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 99,
+        "printedPage": 86,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-toshite-toshitemo-toshiteno/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l19-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Tôi tham dự với tư cách quan sát viên.",
+          "answers": [
+            "オブザーバーとして参加する。"
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy làm việc với tư cách biên dịch.",
+          "answers": [
+            "彼女は翻訳者として働いている。"
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy có nghĩa vụ với tư cách lãnh đạo.",
+          "answers": [
+            "彼にはリーダーとしての義務がある。"
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Tôi gửi thư với tư cách khách hàng.",
+          "answers": [
+            "顧客として手紙を送った。"
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đây là vấn đề với tư cách xã hội.",
+          "answers": [
+            "これは社会としての課題だ。"
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Anh ấy nổi tiếng với tư cách nhạc sĩ.",
+          "answers": [
+            "彼は音楽家として有名だ。"
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Tôi ký với tư cách người bảo lãnh.",
+          "answers": [
+            "保証人として署名した。"
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy phát biểu với tư cách mẹ.",
+          "answers": [
+            "母親として意見を述べた。"
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Đây là kinh nghiệm với tư cách sinh viên.",
+          "answers": [
+            "学生としての経験だ。"
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Họ hợp tác với tư cách đối tác.",
+          "answers": [
+            "彼らはパートナーとして協力している。"
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "彼は教師として尊敬されている。",
+          "answers": [
+            "Anh ấy được kính trọng với tư cách giáo viên."
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "私は個人として反対する。",
+          "answers": [
+            "Tôi phản đối với tư cách cá nhân."
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "この件は会社としての方針だ。",
+          "answers": [
+            "Việc này là phương châm của công ty."
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "彼女は友人として相談に乗った。",
+          "answers": [
+            "Cô ấy tư vấn với tư cách bạn."
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "彼は専門家として助言した。",
+          "answers": [
+            "Anh ấy góp ý với tư cách chuyên gia."
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "私は親としての責任を感じる。",
+          "answers": [
+            "Tôi cảm nhận trách nhiệm với tư cách cha mẹ."
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "この賞は激励として贈られる。",
+          "answers": [
+            "Giải thưởng này được tặng như sự khích lệ."
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "彼は証人として出廷した。",
+          "answers": [
+            "Anh ấy hầu tòa với tư cách nhân chứng."
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "これは記念としての写真だ。",
+          "answers": [
+            "Đây là tấm ảnh mang tính kỷ niệm."
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "彼女は志願者として登録した。",
+          "answers": [
+            "Cô ấy đăng ký với tư cách tình nguyện viên."
+          ],
+          "hint": "〜として",
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-order-01",
+          "mode": "order",
+          "prompt": "Phát biểu với tư cách đại diện.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "代表として"
+            },
+            {
+              "id": "1",
+              "text": "発言"
+            },
+            {
+              "id": "2",
+              "text": "した"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として",
+          "answers": [
+            "代表として発言した。"
+          ],
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-order-02",
+          "mode": "order",
+          "prompt": "Trách nhiệm với tư cách bác sĩ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "医者としての"
+            },
+            {
+              "id": "1",
+              "text": "責任を"
+            },
+            {
+              "id": "2",
+              "text": "果たした"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として",
+          "answers": [
+            "医者としての責任を果たした。"
+          ],
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-order-03",
+          "mode": "order",
+          "prompt": "Chọn hoa làm quà tặng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "プレゼントとして"
+            },
+            {
+              "id": "1",
+              "text": "花を"
+            },
+            {
+              "id": "2",
+              "text": "選んだ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として",
+          "answers": [
+            "プレゼントとして花を選んだ。"
+          ],
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-order-04",
+          "mode": "order",
+          "prompt": "Tham dự với tư cách quan sát.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "オブザーバーとして"
+            },
+            {
+              "id": "1",
+              "text": "参加"
+            },
+            {
+              "id": "2",
+              "text": "する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として",
+          "answers": [
+            "オブザーバーとして参加する。"
+          ],
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-order-05",
+          "mode": "order",
+          "prompt": "Làm việc với tư cách biên dịch.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "翻訳者として"
+            },
+            {
+              "id": "1",
+              "text": "働いて"
+            },
+            {
+              "id": "2",
+              "text": "いる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として",
+          "answers": [
+            "翻訳者として働いている。"
+          ],
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-order-06",
+          "mode": "order",
+          "prompt": "Nổi tiếng với tư cách nhạc sĩ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "音楽家として"
+            },
+            {
+              "id": "1",
+              "text": "有名"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として",
+          "answers": [
+            "音楽家として有名だ。"
+          ],
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-order-07",
+          "mode": "order",
+          "prompt": "Ký với tư cách bảo lãnh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "保証人として"
+            },
+            {
+              "id": "1",
+              "text": "署名"
+            },
+            {
+              "id": "2",
+              "text": "した"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として",
+          "answers": [
+            "保証人として署名した。"
+          ],
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-order-08",
+          "mode": "order",
+          "prompt": "Phát biểu với tư cách mẹ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "母親として"
+            },
+            {
+              "id": "1",
+              "text": "意見を"
+            },
+            {
+              "id": "2",
+              "text": "述べた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として",
+          "answers": [
+            "母親として意見を述べた。"
+          ],
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-order-09",
+          "mode": "order",
+          "prompt": "Phản đối với tư cách cá nhân.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "個人として"
+            },
+            {
+              "id": "1",
+              "text": "反対"
+            },
+            {
+              "id": "2",
+              "text": "する"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として",
+          "answers": [
+            "個人として反対する。"
+          ],
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g04-order-10",
+          "mode": "order",
+          "prompt": "Tư vấn với tư cách bạn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "友人として"
+            },
+            {
+              "id": "1",
+              "text": "相談に"
+            },
+            {
+              "id": "2",
+              "text": "乗った"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜として",
+          "answers": [
+            "友人として相談に乗った。"
+          ],
+          "explanation": "Câu dùng として／としての: với tư cách / trong vai trò… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l19-g05",
+      "title": "〜にとって",
+      "meaning": "Đối với… / với… thì…",
+      "variants": [
+        "にとって",
+        "にとっては"
+      ],
+      "structures": [
+        "N ＋ にとって",
+        "N ＋ にとっては"
+      ],
+      "explanation": "にとって đánh giá từ góc nhìn của đối tượng N: quan trọng/khó/có ích đối với ai đó.",
+      "usage": "Nêu giá trị chủ quan: 私にとって大切だ; 子供にとっては難しい.",
+      "cautions": [
+        "Không dùng cho hành động chủ thể 'làm với tư cách' — khi đó dùng として.",
+        "にとっては nhấn mạnh phạm vi đánh giá của N."
+      ],
+      "contrast": "にとって ≈ đối với…. Khác として (tư cách) và にすれば (nếu đứng ở vị trí…).",
+      "examples": [
+        {
+          "ja": "家族は私にとって大切だ。",
+          "reading": "かぞくはわたしにとってたいせつだ。",
+          "vi": "Gia đình đối với tôi rất quan trọng.",
+          "ruby": [
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "にとって"
+            },
+            {
+              "text": "大切",
+              "reading": "たいせつ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "この問題は初心者にとっては難しい。",
+          "reading": "このもんだいはしょしんしゃにとってはむずかしい。",
+          "vi": "Bài này đối với người mới thì khó.",
+          "ruby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "初心者",
+              "reading": "しょしんしゃ"
+            },
+            {
+              "text": "にとっては"
+            },
+            {
+              "text": "難",
+              "reading": "むずか"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
+        },
+        {
+          "ja": "お金より時間が彼にとって重要だ。",
+          "reading": "おかねよりじかんがかれにとってじゅうようだ。",
+          "vi": "Thời gian đối với anh ấy quan trọng hơn tiền.",
+          "ruby": [
+            {
+              "text": "お金",
+              "reading": "おかね"
+            },
+            {
+              "text": "より"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "にとって"
+            },
+            {
+              "text": "重要",
+              "reading": "じゅうよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 99,
+        "printedPage": 86,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-nitotte-doi-voi-theo-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l19-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Sức khỏe đối với ai cũng quý.",
+          "answers": [
+            "健康は誰にとっても大切だ。"
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Thất bại đối với tôi là bài học.",
+          "answers": [
+            "失敗は私にとって教訓だ。"
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Tiếng Nhật đối với cô ấy là công cụ.",
+          "answers": [
+            "日本語は彼女にとって道具だ。"
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Sự im lặng đối với anh ấy là câu trả lời.",
+          "answers": [
+            "沈黙は彼にとっては答えだ。"
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Công việc này đối với người mới nặng.",
+          "answers": [
+            "この仕事は新人にとっては負担だ。"
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Tự do đối với thanh niên rất quý.",
+          "answers": [
+            "自由は若者にとって貴重だ。"
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Máy tính đối với tôi không thể thiếu.",
+          "answers": [
+            "パソコンは私にとって不可欠だ。"
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Luật này đối với doanh nghiệp khắt khe.",
+          "answers": [
+            "この規制は企業にとっては厳しい。"
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Kỷ niệm đối với bà ấy quý giá.",
+          "answers": [
+            "思い出は彼女にとって宝物だ。"
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Áp lực đối với trẻ nhỏ có hại.",
+          "answers": [
+            "プレッシャーは子供にとっては有害だ。"
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "この経験は私にとって貴重だ。",
+          "answers": [
+            "Kinh nghiệm này đối với tôi rất quý."
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "安全は乗客にとって最優先だ。",
+          "answers": [
+            "An toàn đối với hành khách là ưu tiên hàng đầu."
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "この町は観光客にとっては便利だ。",
+          "answers": [
+            "Thị trấn này đối với khách du lịch thì tiện."
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "彼の助言は私たちにとって助かる。",
+          "answers": [
+            "Lời khuyên của anh ấy đối với chúng tôi rất hữu ích."
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "騒音は住民にとっては深刻な問題だ。",
+          "answers": [
+            "Tiếng ồn đối với cư dân là vấn đề nghiêm trọng."
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "この薬は患者にとって必要だ。",
+          "answers": [
+            "Thuốc này đối với bệnh nhân là cần thiết."
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "勝敗は選手にとって全てではない。",
+          "answers": [
+            "Thắng thua đối với vận động viên không phải tất cả."
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "プライバシーは現代人にとって重要だ。",
+          "answers": [
+            "Quyền riêng tư đối với người hiện đại rất quan trọng."
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "この規則は外国人にとっては分かりにくい。",
+          "answers": [
+            "Quy tắc này đối với người nước ngoài khó hiểu."
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "自然は子供にとって最高の教室だ。",
+          "answers": [
+            "Thiên nhiên đối với trẻ em là lớp học tuyệt vời."
+          ],
+          "hint": "〜にとって",
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-order-01",
+          "mode": "order",
+          "prompt": "Gia đình đối với tôi rất quý.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "家族は"
+            },
+            {
+              "id": "1",
+              "text": "私にとって"
+            },
+            {
+              "id": "2",
+              "text": "とても大切"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にとって",
+          "answers": [
+            "家族は私にとってとても大切だ。"
+          ],
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-order-02",
+          "mode": "order",
+          "prompt": "Bài này với người mới khá khó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この問題は"
+            },
+            {
+              "id": "1",
+              "text": "初心者にとっては"
+            },
+            {
+              "id": "2",
+              "text": "難しすぎる"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にとって",
+          "answers": [
+            "この問題は初心者にとっては難しすぎる。"
+          ],
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-order-03",
+          "mode": "order",
+          "prompt": "Thời gian với anh ấy quan trọng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "時間が"
+            },
+            {
+              "id": "1",
+              "text": "彼にとって"
+            },
+            {
+              "id": "2",
+              "text": "重要"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にとって",
+          "answers": [
+            "時間が彼にとって重要だ。"
+          ],
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-order-04",
+          "mode": "order",
+          "prompt": "Thất bại với tôi là bài học.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失敗は"
+            },
+            {
+              "id": "1",
+              "text": "私にとって"
+            },
+            {
+              "id": "2",
+              "text": "教訓"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にとって",
+          "answers": [
+            "失敗は私にとって教訓だ。"
+          ],
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-order-05",
+          "mode": "order",
+          "prompt": "Máy tính với tôi không thiếu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "パソコンは"
+            },
+            {
+              "id": "1",
+              "text": "私にとって"
+            },
+            {
+              "id": "2",
+              "text": "不可欠"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にとって",
+          "answers": [
+            "パソコンは私にとって不可欠だ。"
+          ],
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-order-06",
+          "mode": "order",
+          "prompt": "Việc này với người mới nặng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この仕事は"
+            },
+            {
+              "id": "1",
+              "text": "新人にとっては"
+            },
+            {
+              "id": "2",
+              "text": "負担"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にとって",
+          "answers": [
+            "この仕事は新人にとっては負担だ。"
+          ],
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-order-07",
+          "mode": "order",
+          "prompt": "Kỷ niệm với cô ấy quý.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "思い出は"
+            },
+            {
+              "id": "1",
+              "text": "彼女にとって"
+            },
+            {
+              "id": "2",
+              "text": "宝物"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にとって",
+          "answers": [
+            "思い出は彼女にとって宝物だ。"
+          ],
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-order-08",
+          "mode": "order",
+          "prompt": "An toàn với hành khách ưu tiên.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "安全は"
+            },
+            {
+              "id": "1",
+              "text": "乗客にとって"
+            },
+            {
+              "id": "2",
+              "text": "最優先"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にとって",
+          "answers": [
+            "安全は乗客にとって最優先だ。"
+          ],
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-order-09",
+          "mode": "order",
+          "prompt": "Thuốc này với bệnh nhân cần.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "この薬は"
+            },
+            {
+              "id": "1",
+              "text": "患者にとって"
+            },
+            {
+              "id": "2",
+              "text": "必要"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にとって",
+          "answers": [
+            "この薬は患者にとって必要だ。"
+          ],
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g05-order-10",
+          "mode": "order",
+          "prompt": "Quyền riêng tư rất quan trọng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "プライバシーは"
+            },
+            {
+              "id": "1",
+              "text": "現代人にとって"
+            },
+            {
+              "id": "2",
+              "text": "重要"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にとって",
+          "answers": [
+            "プライバシーは現代人にとって重要だ。"
+          ],
+          "explanation": "Câu dùng にとって／にとっては: đối với… thì… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l19-g06",
+      "title": "〜にしたら・〜にすれば・〜にしてみれば・〜にしても",
+      "meaning": "Nếu đứng ở vị trí… / xét từ phía… / ngay cả với…",
+      "variants": [
+        "にしたら",
+        "にすれば",
+        "にしてみれば",
+        "にしても"
+      ],
+      "structures": [
+        "N ＋ にしたら／にすれば／にしてみれば",
+        "N ＋ にしても"
+      ],
+      "explanation": "にしたら・にすれば・にしてみれば: đánh giá từ lập trường của N. にしても: ngay cả xét từ phía N / dù là N thì cũng…",
+      "usage": "Thấu hiểu góc nhìn: 親にしたら心配だ; 彼にしても無理はない.",
+      "cautions": [
+        "にしたら／にすれば／にしてみれば gần nghĩa; chọn theo thói quen.",
+        "にしても cũng có nghĩa 'dù… đi nữa' ở bài khác — ở đây chủ yếu góc nhìn/đánh giá."
+      ],
+      "contrast": "にしたら ≈ nếu đứng ở vị trí…. にしても ≈ ngay cả với…. Khác にとって (đối với, ít 'đứng vào vị trí').",
+      "examples": [
+        {
+          "ja": "親にしたら心配な話だ。",
+          "reading": "おやにしたらしんぱいなはなしだ。",
+          "vi": "Nếu đứng ở vị trí bố mẹ thì đây là chuyện đáng lo.",
+          "ruby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "にしたら"
+            },
+            {
+              "text": "心配",
+              "reading": "しんぱい"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "彼にしてみれば当然の要求だ。",
+          "reading": "かれにしてみればとうぜんのようきゅうだ。",
+          "vi": "Xét từ phía anh ấy thì đây là yêu cầu đương nhiên.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "にしてみれば"
+            },
+            {
+              "text": "当然",
+              "reading": "とうぜん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "要求",
+              "reading": "ようきゅう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
+        },
+        {
+          "ja": "私にしても納得できない。",
+          "reading": "わたしにしてもなっとくできない。",
+          "vi": "Ngay cả với tôi cũng không thể tâm phục.",
+          "ruby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "にしても"
+            },
+            {
+              "text": "納得",
+              "reading": "なっとく"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 99,
+        "printedPage": 86,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-shitara-ni-sureba-ni-shite-mo-doi-voi-trong-truong-hop-dung-tren-l/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l19-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nếu đứng ở vị trí học sinh thì bài khó.",
+          "answers": [
+            "生徒にしたら難しい問題だ。"
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Xét từ phía khách thì giá cao.",
+          "answers": [
+            "客にすれば値段が高い。"
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Từ phía nhân viên thì giờ làm dài.",
+          "answers": [
+            "社員にしてみれば勤務時間が長い。"
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Ngay cả với chuyên gia cũng khó.",
+          "answers": [
+            "専門家にしても難しい。"
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nếu đứng ở vị trí nạn nhân thì tức.",
+          "answers": [
+            "被害者にしたら腹立たしい。"
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Xét từ phía công ty thì hợp lý.",
+          "answers": [
+            "会社にすれば妥当な判断だ。"
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Từ phía trẻ em thì quy tắc khó.",
+          "answers": [
+            "子供にしてみればルールが厳しい。"
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Ngay cả với tôi cũng bất ngờ.",
+          "answers": [
+            "私にしても意外だった。"
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Nếu đứng ở vị trí hàng xóm thì ồn.",
+          "answers": [
+            "近所の人にしたらうるさい。"
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Xét từ phía người mua thì rủi ro.",
+          "answers": [
+            "買い手にすればリスクがある。"
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "初心者にしたら説明が足りない。",
+          "answers": [
+            "Nếu đứng ở vị trí người mới thì giải thích còn thiếu."
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "利用者にすれば手続きが複雑だ。",
+          "answers": [
+            "Xét từ phía người dùng thì thủ tục phức tạp."
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "選手にしてみれば厳しい日程だ。",
+          "answers": [
+            "Từ phía vận động viên thì lịch trình khắc nghiệt."
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "親にしても賛成しかねる。",
+          "answers": [
+            "Ngay cả bố mẹ cũng khó lòng tán thành."
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "店員にしたら理不尽な客だ。",
+          "answers": [
+            "Nếu đứng ở vị trí nhân viên thì khách vô lý."
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "市民にすれば透明性が必要だ。",
+          "answers": [
+            "Xét từ phía người dân thì cần minh bạch."
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "患者にしてみれば待ち時間が長い。",
+          "answers": [
+            "Từ phía bệnh nhân thì thời gian chờ dài."
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "彼にしても断りにくかっただろう。",
+          "answers": [
+            "Ngay cả với anh ấy chắc cũng khó từ chối."
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "外国人にしたら案内が不足だ。",
+          "answers": [
+            "Nếu đứng ở vị trí người nước ngoài thì hướng dẫn thiếu."
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "投資家にすれば魅力的な案件だ。",
+          "answers": [
+            "Xét từ phía nhà đầu tư thì vụ này hấp dẫn."
+          ],
+          "hint": "〜にしたら／にしても",
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-order-01",
+          "mode": "order",
+          "prompt": "Bố mẹ thì rất đáng lo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "親にしたら"
+            },
+            {
+              "id": "1",
+              "text": "大いに"
+            },
+            {
+              "id": "2",
+              "text": "心配だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしたら／にしても",
+          "answers": [
+            "親にしたら大いに心配だ。"
+          ],
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-order-02",
+          "mode": "order",
+          "prompt": "Từ phía anh ấy cũng hợp lý.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼にしてみれば"
+            },
+            {
+              "id": "1",
+              "text": "妥当な"
+            },
+            {
+              "id": "2",
+              "text": "要求だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしたら／にしても",
+          "answers": [
+            "彼にしてみれば妥当な要求だ。"
+          ],
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-order-03",
+          "mode": "order",
+          "prompt": "Ngay cả tôi cũng khó phục.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "私にしても"
+            },
+            {
+              "id": "1",
+              "text": "納得し"
+            },
+            {
+              "id": "2",
+              "text": "にくい"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしたら／にしても",
+          "answers": [
+            "私にしても納得しにくい。"
+          ],
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-order-04",
+          "mode": "order",
+          "prompt": "Học sinh thì bài khó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "生徒にしたら"
+            },
+            {
+              "id": "1",
+              "text": "難しい"
+            },
+            {
+              "id": "2",
+              "text": "問題だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしたら／にしても",
+          "answers": [
+            "生徒にしたら難しい問題だ。"
+          ],
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-order-05",
+          "mode": "order",
+          "prompt": "Khách thì giá cao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "客にすれば"
+            },
+            {
+              "id": "1",
+              "text": "値段が"
+            },
+            {
+              "id": "2",
+              "text": "高い"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしたら／にしても",
+          "answers": [
+            "客にすれば値段が高い。"
+          ],
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-order-06",
+          "mode": "order",
+          "prompt": "Nhân viên thì giờ dài.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "社員にしてみれば"
+            },
+            {
+              "id": "1",
+              "text": "勤務時間が"
+            },
+            {
+              "id": "2",
+              "text": "長い"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしたら／にしても",
+          "answers": [
+            "社員にしてみれば勤務時間が長い。"
+          ],
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-order-07",
+          "mode": "order",
+          "prompt": "Chuyên gia cũng khó.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "専門家にしても"
+            },
+            {
+              "id": "1",
+              "text": "難し"
+            },
+            {
+              "id": "2",
+              "text": "い"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしたら／にしても",
+          "answers": [
+            "専門家にしても難しい。"
+          ],
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-order-08",
+          "mode": "order",
+          "prompt": "Công ty thì hợp lý.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会社にすれば"
+            },
+            {
+              "id": "1",
+              "text": "妥当な"
+            },
+            {
+              "id": "2",
+              "text": "判断だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしたら／にしても",
+          "answers": [
+            "会社にすれば妥当な判断だ。"
+          ],
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-order-09",
+          "mode": "order",
+          "prompt": "Tôi cũng bất ngờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "私にしても"
+            },
+            {
+              "id": "1",
+              "text": "意外"
+            },
+            {
+              "id": "2",
+              "text": "だった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしたら／にしても",
+          "answers": [
+            "私にしても意外だった。"
+          ],
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l19-g06-order-10",
+          "mode": "order",
+          "prompt": "Người mua thì rủi ro.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "買い手にすれば"
+            },
+            {
+              "id": "1",
+              "text": "リスクが"
+            },
+            {
+              "id": "2",
+              "text": "ある"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜にしたら／にしても",
+          "answers": [
+            "買い手にすればリスクがある。"
+          ],
+          "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với… Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+        }
+      ]
+    }
+  ]
+}

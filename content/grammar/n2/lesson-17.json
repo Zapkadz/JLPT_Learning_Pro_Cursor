@@ -1,0 +1,3729 @@
+{
+  "id": "lesson-17",
+  "titleJa": "理由（2）",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 17. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L16-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l17-g01",
+      "title": "〜ことだし",
+      "meaning": "Vả lại… / vì (đã)… nên… (thêm lý do để quyết định)",
+      "variants": [
+        "ことだし",
+        "ことですし"
+      ],
+      "structures": [
+        "普通形 ＋ ことだし"
+      ],
+      "explanation": "ことだし nêu một lý do (thường thêm vào các lý do khác) để dẫn đến đề xuất hoặc quyết định tự nhiên.",
+      "usage": "Đề xuất hành động: trời lạnh, vả lại muộn rồi nên về đi…",
+      "cautions": [
+        "Thường kèm kết luận kiểu đề xuất/khuyên (〜たらどう／〜しよう).",
+        "Không dùng như から đơn thuần cho mọi lý do trang trọng."
+      ],
+      "contrast": "ことだし ≈ vả lại/vì thế nên…. Khác し (liệt kê) ở chỗ nghiêng về lý do quyết định.",
+      "examples": [
+        {
+          "ja": "疲れたことだし、今日は早く寝よう。",
+          "reading": "つかれたことだし、きょうははやくねよう。",
+          "vi": "Vả lại mệt rồi, hôm nay ngủ sớm thôi.",
+          "ruby": [
+            {
+              "text": "疲",
+              "reading": "つか"
+            },
+            {
+              "text": "れたことだし、"
+            },
+            {
+              "text": "今日",
+              "reading": "きょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "早",
+              "reading": "はや"
+            },
+            {
+              "text": "く"
+            },
+            {
+              "text": "寝",
+              "reading": "ね"
+            },
+            {
+              "text": "よう。"
+            }
+          ]
+        },
+        {
+          "ja": "雨も降ってきたことだし、帰ろうか。",
+          "reading": "あめもふってきたことだし、かえろうか。",
+          "vi": "Vả lại mưa cũng bắt đầu rồi, về thôi nhé?",
+          "ruby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "降",
+              "reading": "ふ"
+            },
+            {
+              "text": "ってきたことだし、"
+            },
+            {
+              "text": "帰",
+              "reading": "かえ"
+            },
+            {
+              "text": "ろうか。"
+            }
+          ]
+        },
+        {
+          "ja": "明日は休みのことだし、夜更かししてもいい。",
+          "reading": "あしたはやすみのことだし、よふかししてもいい。",
+          "vi": "Mai đã nghỉ rồi, thức khuya cũng được.",
+          "ruby": [
+            {
+              "text": "明日",
+              "reading": "あした"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みのことだし、"
+            },
+            {
+              "text": "夜更かし",
+              "reading": "よふかし"
+            },
+            {
+              "text": "してもいい。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 91,
+        "printedPage": 78,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-koto-dashi-vi-boi-vi-nen/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l17-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Vả lại lạnh rồi, vào quán đi.",
+          "answers": [
+            "寒いことだし、店に入ろう。"
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Vả lại hết việc rồi, về sớm được.",
+          "answers": [
+            "仕事が終わったことだし、早退していい。"
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Vả lại cuối tuần rồi, đi chơi thôi.",
+          "answers": [
+            "週末のことだし、遊びに行こう。"
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Vả lại tối rồi, mai bàn tiếp.",
+          "answers": [
+            "遅いことだし、続きは明日にしよう。"
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Vả lại anh ấy bận, nhờ người khác.",
+          "answers": [
+            "彼が忙しいことだし、別の人に頼もう。"
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Vả lại điểm tốt rồi, nghỉ ngơi đi.",
+          "answers": [
+            "成績が良いことだし、少し休もう。"
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Vả lại trời quang, phơi đồ đi.",
+          "answers": [
+            "晴れたことだし、洗濯ものを干そう。"
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Vả lại còn thời gian, kiểm tra lại.",
+          "answers": [
+            "時間があることだし、もう一度確認しよう。"
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Vả lại đông quá, đổi chỗ đi.",
+          "answers": [
+            "混んでいることだし、別の店にしよう。"
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Vả lại mệt rồi, taxi về thôi.",
+          "answers": [
+            "疲れたことだし、タクシーで帰ろう。"
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "静かになったことだし、勉強を始めよう。",
+          "answers": [
+            "Vả lại yên rồi, bắt đầu học thôi."
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "お金が貯まったことだし、旅行しよう。",
+          "answers": [
+            "Vả lại có tiền rồi, đi du lịch thôi."
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "準備も整ったことだし、出発しよう。",
+          "answers": [
+            "Vả lại chuẩn bị xong, xuất phát thôi."
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "子どもも寝たことだし、映画を見よう。",
+          "answers": [
+            "Vả lại con ngủ rồi, xem phim thôi."
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "期限も近いことだし、急ごう。",
+          "answers": [
+            "Vả lại sát hạn rồi, nhanh lên."
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "天気も悪いことだし、外出はやめよう。",
+          "answers": [
+            "Vả lại thời tiết xấu, thôi đừng ra ngoài."
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "約束の時間のことだし、もう行こう。",
+          "answers": [
+            "Vả lại đến giờ hẹn rồi, đi thôi."
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "資料も揃ったことだし、提出しよう。",
+          "answers": [
+            "Vả lại tài liệu đủ rồi, nộp thôi."
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "お腹も空いたことだし、食事にしよう。",
+          "answers": [
+            "Vả lại đói rồi, ăn thôi."
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "試験も終わったことだし、祝おう。",
+          "answers": [
+            "Vả lại thi xong rồi, ăn mừng thôi."
+          ],
+          "hint": "〜ことだし",
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-order-01",
+          "mode": "order",
+          "prompt": "Mệt rồi ngủ sớm thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "疲れたことだし"
+            },
+            {
+              "id": "1",
+              "text": "今日は"
+            },
+            {
+              "id": "2",
+              "text": "早く"
+            },
+            {
+              "id": "3",
+              "text": "寝よう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだし",
+          "answers": [
+            "疲れたことだし今日は早く寝よう。"
+          ],
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-order-02",
+          "mode": "order",
+          "prompt": "Mưa rồi về thôi nhé.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨も降ってきたことだし"
+            },
+            {
+              "id": "1",
+              "text": "もう"
+            },
+            {
+              "id": "2",
+              "text": "帰ろう"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだし",
+          "answers": [
+            "雨も降ってきたことだしもう帰ろうか。"
+          ],
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-order-03",
+          "mode": "order",
+          "prompt": "Mai nghỉ thức khuya được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "休みのことだし"
+            },
+            {
+              "id": "1",
+              "text": "夜更かしして"
+            },
+            {
+              "id": "2",
+              "text": "も"
+            },
+            {
+              "id": "3",
+              "text": "いい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだし",
+          "answers": [
+            "休みのことだし夜更かししてもいい。"
+          ],
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-order-04",
+          "mode": "order",
+          "prompt": "Lạnh rồi vào quán đi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "寒いことだし"
+            },
+            {
+              "id": "1",
+              "text": "店に"
+            },
+            {
+              "id": "2",
+              "text": "入ろう"
+            },
+            {
+              "id": "3",
+              "text": "よ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだし",
+          "answers": [
+            "寒いことだし店に入ろうよ。"
+          ],
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-order-05",
+          "mode": "order",
+          "prompt": "Hết việc về sớm được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "仕事が終わったことだし"
+            },
+            {
+              "id": "1",
+              "text": "早退して"
+            },
+            {
+              "id": "2",
+              "text": "も"
+            },
+            {
+              "id": "3",
+              "text": "いい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだし",
+          "answers": [
+            "仕事が終わったことだし早退してもいい。"
+          ],
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-order-06",
+          "mode": "order",
+          "prompt": "Cuối tuần đi chơi thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "週末のことだし"
+            },
+            {
+              "id": "1",
+              "text": "遊びに"
+            },
+            {
+              "id": "2",
+              "text": "行こう"
+            },
+            {
+              "id": "3",
+              "text": "よ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだし",
+          "answers": [
+            "週末のことだし遊びに行こうよ。"
+          ],
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-order-07",
+          "mode": "order",
+          "prompt": "Tối rồi mai bàn tiếp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "遅いことだし"
+            },
+            {
+              "id": "1",
+              "text": "続きは"
+            },
+            {
+              "id": "2",
+              "text": "明日に"
+            },
+            {
+              "id": "3",
+              "text": "しよう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだし",
+          "answers": [
+            "遅いことだし続きは明日にしよう。"
+          ],
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-order-08",
+          "mode": "order",
+          "prompt": "Còn thời gian kiểm lại.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "時間があることだし"
+            },
+            {
+              "id": "1",
+              "text": "もう一度"
+            },
+            {
+              "id": "2",
+              "text": "確認"
+            },
+            {
+              "id": "3",
+              "text": "しよう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだし",
+          "answers": [
+            "時間があることだしもう一度確認しよう。"
+          ],
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-order-09",
+          "mode": "order",
+          "prompt": "Đông quá đổi chỗ đi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "混んでいることだし"
+            },
+            {
+              "id": "1",
+              "text": "別の店に"
+            },
+            {
+              "id": "2",
+              "text": "しよう"
+            },
+            {
+              "id": "3",
+              "text": "か。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだし",
+          "answers": [
+            "混んでいることだし別の店にしようか。"
+          ],
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g01-order-10",
+          "mode": "order",
+          "prompt": "Yên rồi bắt đầu học.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "静かになったことだし"
+            },
+            {
+              "id": "1",
+              "text": "勉強を"
+            },
+            {
+              "id": "2",
+              "text": "始めよう"
+            },
+            {
+              "id": "3",
+              "text": "よ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ことだし",
+          "answers": [
+            "静かになったことだし勉強を始めようよ。"
+          ],
+          "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l17-g02",
+      "title": "〜のことだから",
+      "meaning": "Vì là (tính cách/thói quen của)… nên chắc…",
+      "variants": [
+        "のことだから"
+      ],
+      "structures": [
+        "N ＋ のことだから"
+      ],
+      "explanation": "のことだから dựa trên hiểu biết về tính cách/thói quen của ai đó để suy đoán hành động hoặc kết quả tự nhiên.",
+      "usage": "Đoán: anh ấy vốn cẩn thận nên chắc không quên…",
+      "cautions": [
+        "N thường là người (hoặc nhóm người) đã biết rõ.",
+        "Khác ことだから thông thường; cần の trước こと."
+      ],
+      "contrast": "のことだから ≈ vì là kiểu người đó nên…. Khác ものだから (biện hộ bản thân).",
+      "examples": [
+        {
+          "ja": "慎重な彼のことだから、よく調べたはずだ。",
+          "reading": "しんちょうなかれのことだから、よくしらべたはずだ。",
+          "vi": "Vì anh ấy vốn thận trọng nên chắc đã tra kỹ.",
+          "ruby": [
+            {
+              "text": "慎重",
+              "reading": "しんちょう"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "のことだから、"
+            },
+            {
+              "text": "よく"
+            },
+            {
+              "text": "調",
+              "reading": "しら"
+            },
+            {
+              "text": "べたはずだ。"
+            }
+          ]
+        },
+        {
+          "ja": "優しい彼女のことだから、手伝ってくれるだろう。",
+          "reading": "やさしいかのじょのことだから、てつだってくれるだろう。",
+          "vi": "Vì cô ấy vốn tốt bụng nên sẽ giúp thôi.",
+          "ruby": [
+            {
+              "text": "優",
+              "reading": "やさ"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "のことだから、"
+            },
+            {
+              "text": "手伝",
+              "reading": "てつだ"
+            },
+            {
+              "text": "ってくれるだろう。"
+            }
+          ]
+        },
+        {
+          "ja": "時間に厳しい部長のことだから、遅れは許さない。",
+          "reading": "じかんにきびしいぶちょうのことだから、おくれはゆるさない。",
+          "vi": "Vì trưởng phòng vốn khắt khe giờ giấc nên không tha muộn.",
+          "ruby": [
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "厳",
+              "reading": "きび"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "部長",
+              "reading": "ぶちょう"
+            },
+            {
+              "text": "のことだから、"
+            },
+            {
+              "text": "遅",
+              "reading": "おく"
+            },
+            {
+              "text": "れは"
+            },
+            {
+              "text": "許",
+              "reading": "ゆる"
+            },
+            {
+              "text": "さない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 91,
+        "printedPage": 78,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-no-koto-dakara-nhu-anh-ta-co-ta-thi-gi-chu-thi-vi-lanen/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l17-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Vì anh ấy chăm chỉ nên sẽ luyện thêm.",
+          "answers": [
+            "勤勉な彼のことだから、さらに練習するだろう。"
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Vì cô ấy đãng trí nên hay quên chìa khóa.",
+          "answers": [
+            "忘れっぽい彼女のことだから、鍵を忘れがちだ。"
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Vì sếp nóng tính nên đừng làm trễ.",
+          "answers": [
+            "短気な上司のことだから、遅らせるな。"
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Vì bạn trung thực nên sẽ nói thẳng.",
+          "answers": [
+            "正直な友のことだから、はっきり言うはずだ。"
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Vì mẹ lo xa nên đã chuẩn bị sẵn.",
+          "answers": [
+            "用心深い母のことだから、もう準備済みだ。"
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Vì thầy nghiêm nên không bỏ qua lỗi.",
+          "answers": [
+            "厳しい先生のことだから、ミスは見逃さない。"
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Vì em hay ngủ nướng nên gọi sớm.",
+          "answers": [
+            "朝に弱い弟のことだから、早めに起こそう。"
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Vì đồng nghiệp tỉ mỉ nên báo cáo đẹp.",
+          "answers": [
+            "几帳面な同僚のことだから、報告はきれいだ。"
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Vì anh ấy keo nên không mời ăn.",
+          "answers": [
+            "けちな彼のことだから、奢ってはくれない。"
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Vì cô ấy lạc quan nên sớm đứng dậy.",
+          "answers": [
+            "前向きな彼女のことだから、すぐに立ち直る。"
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "元気な子どものことだから、すぐ外で遊びたがる。",
+          "answers": [
+            "Vì trẻ vốn khỏe nên muốn ra ngoài chơi ngay."
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "慎重な田中さんのことだから、契約はよく読むはずだ。",
+          "answers": [
+            "Vì anh Tanaka thận trọng nên chắc đọc kỹ hợp đồng."
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "世話好きな隣のことだから、助けに来るだろう。",
+          "answers": [
+            "Vì hàng xóm thích giúp nên sẽ tới giúp."
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "負けず嫌いな彼のことだから、再挑戦する。",
+          "answers": [
+            "Vì anh ấy không chịu thua nên sẽ thử lại."
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "心配性の母のことだから、何度も電話する。",
+          "answers": [
+            "Vì mẹ hay lo nên gọi nhiều lần."
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "経験豊富な彼のことだから、うまく対応するだろう。",
+          "answers": [
+            "Vì anh ấy giàu kinh nghiệm nên xử lý tốt."
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "口が堅い彼女のことだから、秘密は守る。",
+          "answers": [
+            "Vì cô ấy kín miệng nên giữ bí mật."
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "完璧主義の上司のことだから、修正が多い。",
+          "answers": [
+            "Vì sếp cầu toàn nên sửa nhiều."
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "スポーツ好きな弟のことだから、週末は練習だ。",
+          "answers": [
+            "Vì em thích thể thao nên cuối tuần tập."
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "面倒見の良い先輩のことだから、相談に乗ってくれる。",
+          "answers": [
+            "Vì senpai tốt bụng nên sẽ lắng nghe."
+          ],
+          "hint": "〜のことだから",
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-order-01",
+          "mode": "order",
+          "prompt": "Anh thận trọng chắc đã tra kỹ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "慎重な彼のことだから"
+            },
+            {
+              "id": "1",
+              "text": "よく調べた"
+            },
+            {
+              "id": "2",
+              "text": "はず"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜のことだから",
+          "answers": [
+            "慎重な彼のことだからよく調べたはずだ。"
+          ],
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-order-02",
+          "mode": "order",
+          "prompt": "Cô tốt bụng sẽ giúp thôi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "優しい彼女のことだから"
+            },
+            {
+              "id": "1",
+              "text": "手伝って"
+            },
+            {
+              "id": "2",
+              "text": "くれる"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜のことだから",
+          "answers": [
+            "優しい彼女のことだから手伝ってくれるだろう。"
+          ],
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-order-03",
+          "mode": "order",
+          "prompt": "Trưởng phòng khắt khe không tha muộn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "厳しい部長のことだから"
+            },
+            {
+              "id": "1",
+              "text": "遅れは"
+            },
+            {
+              "id": "2",
+              "text": "許さ"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜のことだから",
+          "answers": [
+            "厳しい部長のことだから遅れは許さない。"
+          ],
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-order-04",
+          "mode": "order",
+          "prompt": "Anh chăm sẽ luyện thêm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "勤勉な彼のことだから"
+            },
+            {
+              "id": "1",
+              "text": "さらに"
+            },
+            {
+              "id": "2",
+              "text": "練習する"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜のことだから",
+          "answers": [
+            "勤勉な彼のことだからさらに練習するだろう。"
+          ],
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-order-05",
+          "mode": "order",
+          "prompt": "Cô đãng trí hay quên chìa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忘れっぽい彼女のことだから"
+            },
+            {
+              "id": "1",
+              "text": "鍵を"
+            },
+            {
+              "id": "2",
+              "text": "忘れ"
+            },
+            {
+              "id": "3",
+              "text": "がちだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜のことだから",
+          "answers": [
+            "忘れっぽい彼女のことだから鍵を忘れがちだ。"
+          ],
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-order-06",
+          "mode": "order",
+          "prompt": "Bạn trung thực nói thẳng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "正直な友のことだから"
+            },
+            {
+              "id": "1",
+              "text": "はっきり"
+            },
+            {
+              "id": "2",
+              "text": "言う"
+            },
+            {
+              "id": "3",
+              "text": "はずだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜のことだから",
+          "answers": [
+            "正直な友のことだからはっきり言うはずだ。"
+          ],
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-order-07",
+          "mode": "order",
+          "prompt": "Mẹ lo xa đã chuẩn bị sẵn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "用心深い母のことだから"
+            },
+            {
+              "id": "1",
+              "text": "もう"
+            },
+            {
+              "id": "2",
+              "text": "準備済み"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜のことだから",
+          "answers": [
+            "用心深い母のことだからもう準備済みだ。"
+          ],
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-order-08",
+          "mode": "order",
+          "prompt": "Thầy nghiêm không bỏ qua lỗi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "厳しい先生のことだから"
+            },
+            {
+              "id": "1",
+              "text": "ミスは"
+            },
+            {
+              "id": "2",
+              "text": "見逃さ"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜のことだから",
+          "answers": [
+            "厳しい先生のことだからミスは見逃さない。"
+          ],
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-order-09",
+          "mode": "order",
+          "prompt": "Đồng nghiệp tỉ mỉ báo cáo đẹp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "几帳面な同僚のことだから"
+            },
+            {
+              "id": "1",
+              "text": "報告は"
+            },
+            {
+              "id": "2",
+              "text": "きれい"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜のことだから",
+          "answers": [
+            "几帳面な同僚のことだから報告はきれいだ。"
+          ],
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g02-order-10",
+          "mode": "order",
+          "prompt": "Cô lạc quan sớm đứng dậy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "前向きな彼女のことだから"
+            },
+            {
+              "id": "1",
+              "text": "すぐに"
+            },
+            {
+              "id": "2",
+              "text": "立ち直る"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜のことだから",
+          "answers": [
+            "前向きな彼女のことだからすぐに立ち直るだろう。"
+          ],
+          "explanation": "Câu suy đoán theo tính cách: Nのことだから. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l17-g03",
+      "title": "〜だけに",
+      "meaning": "Chính vì… nên… (kết quả tương xứng / càng…)",
+      "variants": [
+        "だけに"
+      ],
+      "structures": [
+        "N／普通形 ＋ だけに"
+      ],
+      "explanation": "だけに nhấn mạnh vì đúng là A nên kết quả B hợp lý hoặc cảm xúc mạnh hơn (vui hơn, thất vọng hơn…).",
+      "usage": "Nhấn mạnh tương quan nguyên nhân–kết quả: kỳ vọng cao nên vui/thất vọng lớn.",
+      "cautions": [
+        "Kết quả thường tương xứng với mức độ của lý do.",
+        "Khác だけあって (đáng với danh tiếng) — gần nhưng sắc thái hơi khác."
+      ],
+      "contrast": "だけに ≈ chính vì…. Gần だけあって; khác ばかりに (thường kết quả xấu).",
+      "examples": [
+        {
+          "ja": "期待していただけに、がっかりした。",
+          "reading": "きたいしていただけに、がっかりした。",
+          "vi": "Chính vì đã kỳ vọng nên thất vọng.",
+          "ruby": [
+            {
+              "text": "期待",
+              "reading": "きたい"
+            },
+            {
+              "text": "していただけに、"
+            },
+            {
+              "text": "がっかりした。"
+            }
+          ]
+        },
+        {
+          "ja": "初めての海外だけに緊張する。",
+          "reading": "はじめてのかいがいだけにきんちょうする。",
+          "vi": "Chính vì lần đầu ra nước ngoài nên căng thẳng.",
+          "ruby": [
+            {
+              "text": "初",
+              "reading": "はじ"
+            },
+            {
+              "text": "めての"
+            },
+            {
+              "text": "海外",
+              "reading": "かいがい"
+            },
+            {
+              "text": "だけに"
+            },
+            {
+              "text": "緊張",
+              "reading": "きんちょう"
+            },
+            {
+              "text": "する。"
+            }
+          ]
+        },
+        {
+          "ja": "努力しただけに合格が嬉しい。",
+          "reading": "どりょくしただけにごうかくがうれしい。",
+          "vi": "Chính vì đã cố gắng nên việc đậu càng vui.",
+          "ruby": [
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "しただけに"
+            },
+            {
+              "text": "合格",
+              "reading": "ごうかく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "嬉",
+              "reading": "うれ"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 91,
+        "printedPage": 78,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-dake-ni-vi-nen-chinh-vi-nen-chinh-vi-nen-lai-cang-hon/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l17-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Chính vì giá cao nên chất lượng tốt.",
+          "answers": [
+            "値段が高いだけに品質が良い。"
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Chính vì khó nên khi xong càng thấy vui.",
+          "answers": [
+            "難しいだけに解けて嬉しい。"
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Chính vì tin tưởng nên bị phản bội càng đau.",
+          "answers": [
+            "信頼していただけに裏切られて辛い。"
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Chính vì trẻ nên học nhanh.",
+          "answers": [
+            "若いだけに吸収が早い。"
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Chính vì kinh nghiệm ít nên lo.",
+          "answers": [
+            "経験が少ないだけに不安だ。"
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Chính vì chuẩn bị kỹ nên tự tin.",
+          "answers": [
+            "準備が万全なだけに自信がある。"
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Chính vì xa nên càng nhớ nhà.",
+          "answers": [
+            "遠いだけに故郷が恋しい。"
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Chính vì nổi tiếng nên bị soi nhiều.",
+          "answers": [
+            "有名なだけに注目されやすい。"
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Chính vì trách nhiệm nặng nên áp lực lớn.",
+          "answers": [
+            "責任が重いだけにプレッシャーが大きい。"
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chính vì chờ lâu nên càng xúc động.",
+          "answers": [
+            "長く待っただけに感動も大きい。"
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "練習しただけに試合で力を出せた。",
+          "answers": [
+            "Chính vì đã luyện nên thi đấu phát huy được."
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "高価なだけに壊れてショックだ。",
+          "answers": [
+            "Chính vì đắt nên hỏng càng sốc."
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "親しいだけに本音が言える。",
+          "answers": [
+            "Chính vì thân nên nói thật được."
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "初めてだけに勝って嬉しい。",
+          "answers": [
+            "Chính vì lần đầu nên thắng càng vui."
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "忙しいだけに休みが貴重だ。",
+          "answers": [
+            "Chính vì bận nên ngày nghỉ quý."
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "期待が大きいだけに結果が気になる。",
+          "answers": [
+            "Chính vì kỳ vọng lớn nên quan tâm kết quả."
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "専門だけに説明が詳しい。",
+          "answers": [
+            "Chính vì chuyên môn nên giải thích kỹ."
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "狭いだけに家賃は安い。",
+          "answers": [
+            "Chính vì hẹp nên tiền thuê rẻ."
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "真剣なだけに失敗が悔しい。",
+          "answers": [
+            "Chính vì nghiêm túc nên thất bại càng tiếc."
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "経験者だけに判断が速い。",
+          "answers": [
+            "Chính vì người có kinh nghiệm nên phán đoán nhanh."
+          ],
+          "hint": "〜だけに",
+          "explanation": "Câu chính vì… nên…: だけに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-order-01",
+          "mode": "order",
+          "prompt": "Kỳ vọng nên thất vọng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "期待していただけに"
+            },
+            {
+              "id": "1",
+              "text": "がっかり"
+            },
+            {
+              "id": "2",
+              "text": "して"
+            },
+            {
+              "id": "3",
+              "text": "しまった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけに",
+          "answers": [
+            "期待していただけにがっかりしてしまった。"
+          ],
+          "explanation": "Câu chính vì… nên…: だけに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-order-02",
+          "mode": "order",
+          "prompt": "Lần đầu ra ngoài nên căng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "初めての海外だけに"
+            },
+            {
+              "id": "1",
+              "text": "緊張"
+            },
+            {
+              "id": "2",
+              "text": "して"
+            },
+            {
+              "id": "3",
+              "text": "いる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけに",
+          "answers": [
+            "初めての海外だけに緊張している。"
+          ],
+          "explanation": "Câu chính vì… nên…: だけに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-order-03",
+          "mode": "order",
+          "prompt": "Cố gắng nên đậu càng vui.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力しただけに"
+            },
+            {
+              "id": "1",
+              "text": "合格が"
+            },
+            {
+              "id": "2",
+              "text": "嬉しい"
+            },
+            {
+              "id": "3",
+              "text": "のだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけに",
+          "answers": [
+            "努力しただけに合格が嬉しいのだ。"
+          ],
+          "explanation": "Câu chính vì… nên…: だけに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-order-04",
+          "mode": "order",
+          "prompt": "Giá cao nên chất lượng tốt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "高いだけに"
+            },
+            {
+              "id": "1",
+              "text": "品質が"
+            },
+            {
+              "id": "2",
+              "text": "良い"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけに",
+          "answers": [
+            "高いだけに品質が良いらしい。"
+          ],
+          "explanation": "Câu chính vì… nên…: だけに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-order-05",
+          "mode": "order",
+          "prompt": "Khó nên giải được càng vui.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "難しいだけに"
+            },
+            {
+              "id": "1",
+              "text": "解けて"
+            },
+            {
+              "id": "2",
+              "text": "嬉しい"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけに",
+          "answers": [
+            "難しいだけに解けて嬉しいそうだ。"
+          ],
+          "explanation": "Câu chính vì… nên…: だけに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-order-06",
+          "mode": "order",
+          "prompt": "Trẻ nên học nhanh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "若いだけに"
+            },
+            {
+              "id": "1",
+              "text": "吸収が"
+            },
+            {
+              "id": "2",
+              "text": "早い"
+            },
+            {
+              "id": "3",
+              "text": "ものだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけに",
+          "answers": [
+            "若いだけに吸収が早いものだ。"
+          ],
+          "explanation": "Câu chính vì… nên…: だけに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-order-07",
+          "mode": "order",
+          "prompt": "Ít kinh nghiệm nên lo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "経験が少ないだけに"
+            },
+            {
+              "id": "1",
+              "text": "不安"
+            },
+            {
+              "id": "2",
+              "text": "な"
+            },
+            {
+              "id": "3",
+              "text": "のだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけに",
+          "answers": [
+            "経験が少ないだけに不安なのだ。"
+          ],
+          "explanation": "Câu chính vì… nên…: だけに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-order-08",
+          "mode": "order",
+          "prompt": "Xa nên càng nhớ nhà.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "遠いだけに"
+            },
+            {
+              "id": "1",
+              "text": "故郷が"
+            },
+            {
+              "id": "2",
+              "text": "恋しい"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけに",
+          "answers": [
+            "遠いだけに故郷が恋しいらしい。"
+          ],
+          "explanation": "Câu chính vì… nên…: だけに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-order-09",
+          "mode": "order",
+          "prompt": "Nổi tiếng nên bị soi nhiều.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "有名なだけに"
+            },
+            {
+              "id": "1",
+              "text": "注目され"
+            },
+            {
+              "id": "2",
+              "text": "やすい"
+            },
+            {
+              "id": "3",
+              "text": "ようだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけに",
+          "answers": [
+            "有名なだけに注目されやすいようだ。"
+          ],
+          "explanation": "Câu chính vì… nên…: だけに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g03-order-10",
+          "mode": "order",
+          "prompt": "Chờ lâu nên càng xúc động.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "長く待っただけに"
+            },
+            {
+              "id": "1",
+              "text": "感動も"
+            },
+            {
+              "id": "2",
+              "text": "大きい"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜だけに",
+          "answers": [
+            "長く待っただけに感動も大きいだろう。"
+          ],
+          "explanation": "Câu chính vì… nên…: だけに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l17-g04",
+      "title": "〜ばかりに",
+      "meaning": "Chỉ vì… / chính vì… (thường dẫn đến kết quả xấu)",
+      "variants": [
+        "ばかりに"
+      ],
+      "structures": [
+        "普通形 ＋ ばかりに"
+      ],
+      "explanation": "ばかりに diễn đạt chính vì một việc nhỏ/một lý do mà dẫn đến hậu quả đáng tiếc.",
+      "usage": "Than thở, giải thích nguyên nhân gây ra kết quả xấu ngoài ý muốn.",
+      "cautions": [
+        "Hậu quả hầu như tiêu cực; ít dùng cho kết quả tốt.",
+        "Khác ばかりでなく (không chỉ…) — cấu trúc khác hẳn."
+      ],
+      "contrast": "ばかりに ≈ chỉ vì… (xấu). Khác だけに (có thể tốt/xấu tương xứng).",
+      "examples": [
+        {
+          "ja": "一言言ったばかりに嫌われた。",
+          "reading": "ひとこといったばかりにきらわれた。",
+          "vi": "Chỉ vì nói một câu mà bị ghét.",
+          "ruby": [
+            {
+              "text": "一言",
+              "reading": "ひとこと"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "ったばかりに"
+            },
+            {
+              "text": "嫌",
+              "reading": "きら"
+            },
+            {
+              "text": "われた。"
+            }
+          ]
+        },
+        {
+          "ja": "油断したばかりに失敗した。",
+          "reading": "ゆだんしたばかりにしっぱいした。",
+          "vi": "Chỉ vì chủ quan mà thất bại.",
+          "ruby": [
+            {
+              "text": "油断",
+              "reading": "ゆだん"
+            },
+            {
+              "text": "したばかりに"
+            },
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        },
+        {
+          "ja": "正直に話したばかりに損をした。",
+          "reading": "しょうじきにはなしたばかりにそんをした。",
+          "vi": "Chính vì nói thẳng mà bị thiệt.",
+          "ruby": [
+            {
+              "text": "正直",
+              "reading": "しょうじき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "したばかりに"
+            },
+            {
+              "text": "損",
+              "reading": "そん"
+            },
+            {
+              "text": "をした。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 91,
+        "printedPage": 78,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-bakari-ni-chi-tai-chi-vi-chinh-vi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l17-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì tin lời đồn mà lo lắng.",
+          "answers": [
+            "噂を信じたばかりに不安になった。"
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì quên dù mà bị ướt.",
+          "answers": [
+            "傘を忘れたばかりに濡れてしまった。"
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì vội mà làm sai.",
+          "answers": [
+            "急いだばかりにミスをした。"
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Chính vì giúp đỡ mà bị lợi dụng.",
+          "answers": [
+            "親切にしたばかりに利用された。"
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì mở miệng mà lộ bí mật.",
+          "answers": [
+            "口を滑らせたばかりに秘密が漏れた。"
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì ngủ quên mà lỡ tàu.",
+          "answers": [
+            "寝坊したばかりに電車に乗り遅れた。"
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Chính vì tham rẻ mà mua phải hàng kém.",
+          "answers": [
+            "安さに釣られたばかりに粗悪品を買った。"
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì không hỏi mà hiểu nhầm.",
+          "answers": [
+            "確認しなかったばかりに誤解した。"
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Chính vì khoe khoang mà bị ghét.",
+          "answers": [
+            "自慢したばかりに嫌われた。"
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Chỉ vì đường tắt mà lạc.",
+          "answers": [
+            "近道をしたばかりに迷ってしまった。"
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "嘘をついたばかりに信用を失った。",
+          "answers": [
+            "Chỉ vì nói dối mà mất uy tín."
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "無理をしたばかりに体調を崩した。",
+          "answers": [
+            "Chỉ vì cố quá mà đổ bệnh."
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "値段だけ見たばかりに失敗した。",
+          "answers": [
+            "Chỉ vì chỉ nhìn giá mà thất bại."
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "連絡を怠ったばかりに怒られた。",
+          "answers": [
+            "Chỉ vì lười liên lạc mà bị mắng."
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "小さな油断をしたばかりに事故になった。",
+          "answers": [
+            "Chỉ vì chủ quan nhỏ mà thành tai nạn."
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "欲張ったばかりに両方失った。",
+          "answers": [
+            "Chỉ vì tham mà mất cả hai."
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "約束を破ったばかりに信頼を損ねた。",
+          "answers": [
+            "Chỉ vì phá hẹn mà tổn hại lòng tin."
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "笑ったばかりに怒らせてしまった。",
+          "answers": [
+            "Chỉ vì cười mà làm người ta giận."
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "安請け合いしたばかりに苦労した。",
+          "answers": [
+            "Chỉ vì nhận bừa mà khổ sở."
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "夜更かししたばかりに朝起きれない。",
+          "answers": [
+            "Chỉ vì thức khuya mà sáng không dậy nổi."
+          ],
+          "hint": "〜ばかりに",
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-order-01",
+          "mode": "order",
+          "prompt": "Chỉ vì một câu bị ghét.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一言言ったばかりに"
+            },
+            {
+              "id": "1",
+              "text": "嫌われて"
+            },
+            {
+              "id": "2",
+              "text": "しまった"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ばかりに",
+          "answers": [
+            "一言言ったばかりに嫌われてしまったらしい。"
+          ],
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-order-02",
+          "mode": "order",
+          "prompt": "Chỉ vì chủ quan thất bại.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "油断したばかりに"
+            },
+            {
+              "id": "1",
+              "text": "失敗"
+            },
+            {
+              "id": "2",
+              "text": "して"
+            },
+            {
+              "id": "3",
+              "text": "しまった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ばかりに",
+          "answers": [
+            "油断したばかりに失敗してしまった。"
+          ],
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-order-03",
+          "mode": "order",
+          "prompt": "Nói thẳng nên bị thiệt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "正直に話したばかりに"
+            },
+            {
+              "id": "1",
+              "text": "損を"
+            },
+            {
+              "id": "2",
+              "text": "して"
+            },
+            {
+              "id": "3",
+              "text": "しまった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ばかりに",
+          "answers": [
+            "正直に話したばかりに損をしてしまった。"
+          ],
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-order-04",
+          "mode": "order",
+          "prompt": "Tin đồn nên lo lắng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "噂を信じたばかりに"
+            },
+            {
+              "id": "1",
+              "text": "不安に"
+            },
+            {
+              "id": "2",
+              "text": "なった"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ばかりに",
+          "answers": [
+            "噂を信じたばかりに不安になったそうだ。"
+          ],
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-order-05",
+          "mode": "order",
+          "prompt": "Quên dù nên bị ướt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "傘を忘れたばかりに"
+            },
+            {
+              "id": "1",
+              "text": "濡れて"
+            },
+            {
+              "id": "2",
+              "text": "しまった"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ばかりに",
+          "answers": [
+            "傘を忘れたばかりに濡れてしまったらしい。"
+          ],
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-order-06",
+          "mode": "order",
+          "prompt": "Vội nên làm sai.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "急いだばかりに"
+            },
+            {
+              "id": "1",
+              "text": "ミスを"
+            },
+            {
+              "id": "2",
+              "text": "した"
+            },
+            {
+              "id": "3",
+              "text": "ようだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ばかりに",
+          "answers": [
+            "急いだばかりにミスをしたようだ。"
+          ],
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-order-07",
+          "mode": "order",
+          "prompt": "Giúp đỡ nên bị lợi dụng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "親切にしたばかりに"
+            },
+            {
+              "id": "1",
+              "text": "利用"
+            },
+            {
+              "id": "2",
+              "text": "された"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ばかりに",
+          "answers": [
+            "親切にしたばかりに利用されたそうだ。"
+          ],
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-order-08",
+          "mode": "order",
+          "prompt": "Ngủ quên nên lỡ tàu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "寝坊したばかりに"
+            },
+            {
+              "id": "1",
+              "text": "電車に"
+            },
+            {
+              "id": "2",
+              "text": "乗り遅れた"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ばかりに",
+          "answers": [
+            "寝坊したばかりに電車に乗り遅れたらしい。"
+          ],
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-order-09",
+          "mode": "order",
+          "prompt": "Không hỏi nên hiểu nhầm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "確認しなかったばかりに"
+            },
+            {
+              "id": "1",
+              "text": "誤解"
+            },
+            {
+              "id": "2",
+              "text": "して"
+            },
+            {
+              "id": "3",
+              "text": "しまった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ばかりに",
+          "answers": [
+            "確認しなかったばかりに誤解してしまった。"
+          ],
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g04-order-10",
+          "mode": "order",
+          "prompt": "Đường tắt nên lạc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "近道をしたばかりに"
+            },
+            {
+              "id": "1",
+              "text": "迷って"
+            },
+            {
+              "id": "2",
+              "text": "しまった"
+            },
+            {
+              "id": "3",
+              "text": "ようだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ばかりに",
+          "answers": [
+            "近道をしたばかりに迷ってしまったようだ。"
+          ],
+          "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l17-g05",
+      "title": "〜からには・〜以上（は）・上は",
+      "meaning": "Đã… thì phải… / một khi đã… thì nhất định…",
+      "variants": [
+        "からには",
+        "以上は",
+        "以上",
+        "上は"
+      ],
+      "structures": [
+        "Vた／普通形 ＋ からには",
+        "Vた／普通形 ＋ 以上（は）",
+        "Vた／普通形 ＋ 上は"
+      ],
+      "explanation": "からには・以上（は）・上は diễn đạt một khi đã chọn/đã ở vị thế đó thì phải làm cho trọn hoặc chịu trách nhiệm.",
+      "usage": "Quyết tâm, trách nhiệm: đã nhận thì làm đến cùng; đã biết thì phải nói.",
+      "cautions": [
+        "Kết luận thường là nghĩa vụ, quyết tâm hoặc điều tất yếu.",
+        "上は hơi văn viết; からには／以上は phổ biến hơn."
+      ],
+      "contrast": "からには／以上は／上は ≈ đã… thì phải…. Khác から (lý do thường).",
+      "examples": [
+        {
+          "ja": "引き受けたからには最後までやる。",
+          "reading": "ひきうけたからにはさいごまでやる。",
+          "vi": "Đã nhận thì làm đến cùng.",
+          "ruby": [
+            {
+              "text": "引",
+              "reading": "ひ"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "けたからには"
+            },
+            {
+              "text": "最後",
+              "reading": "さいご"
+            },
+            {
+              "text": "までやる。"
+            }
+          ]
+        },
+        {
+          "ja": "学生である以上、勉強すべきだ。",
+          "reading": "がくせいであるいじょう、べんきょうすべきだ。",
+          "vi": "Đã là sinh viên thì phải học.",
+          "ruby": [
+            {
+              "text": "学生",
+              "reading": "がくせい"
+            },
+            {
+              "text": "である以上、"
+            },
+            {
+              "text": "勉強",
+              "reading": "べんきょう"
+            },
+            {
+              "text": "すべきだ。"
+            }
+          ]
+        },
+        {
+          "ja": "約束した上は守らなければならない。",
+          "reading": "やくそくしたうえはまもらなければならない。",
+          "vi": "Đã hứa thì phải giữ lời.",
+          "ruby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "した上は"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "らなければならない。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 91,
+        "printedPage": 78,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-kara-ni-wa-mot-khi-da-thi-se-boi-vi-nen/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ijou-mot-khi-da-vi-la-da-thi-nhat-dinh/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l17-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Đã bắt đầu thì đừng bỏ giữa chừng.",
+          "answers": [
+            "始めたからには途中でやめない。"
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Đã biết sự thật thì phải nói.",
+          "answers": [
+            "事実を知った以上は言うべきだ。"
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Đã vào đội thì tuân thủ luật.",
+          "answers": [
+            "チームに入った上はルールを守れ。"
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Đã thi thì nhằm điểm cao.",
+          "answers": [
+            "受験するからには高得点を目指す。"
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Đã là lãnh đạo thì chịu trách nhiệm.",
+          "answers": [
+            "リーダーである以上は責任を取れ。"
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Đã ký thì thực hiện hợp đồng.",
+          "answers": [
+            "署名した上は契約を履行せよ。"
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Đã đến đây thì cố hết sức.",
+          "answers": [
+            "ここまで来たからには全力を尽くす。"
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Đã chọn nghề này thì chịu cực.",
+          "answers": [
+            "この道を選んだ以上は苦労を覚悟しろ。"
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Đã nghe thì đừng làm ngơ.",
+          "answers": [
+            "聞いた上は無視するな。"
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Đã tuyên bố thì làm cho được.",
+          "answers": [
+            "宣言したからには成し遂げろ。"
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "日本に来たからには日本語を学ぶ。",
+          "answers": [
+            "Đã sang Nhật thì học tiếng Nhật."
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "プロである以上は妥協しない。",
+          "answers": [
+            "Đã là chuyên nghiệp thì không thỏa hiệp."
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "始めた上は完成させる。",
+          "answers": [
+            "Đã bắt đầu thì hoàn thành."
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "参加したからには最後まで残る。",
+          "answers": [
+            "Đã tham gia thì ở đến cuối."
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "親である以上は子どもを守る。",
+          "answers": [
+            "Đã là cha mẹ thì bảo vệ con."
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "決めた上は迷わず進む。",
+          "answers": [
+            "Đã quyết thì tiến không do dự."
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "挑戦するからには成功を狙う。",
+          "answers": [
+            "Đã thử thách thì nhắm thành công."
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "公務員である以上は公正であれ。",
+          "answers": [
+            "Đã là công chức thì phải công bằng."
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "引き受けた上は逃げられない。",
+          "answers": [
+            "Đã nhận thì không trốn được."
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "発言したからには責任を持つ。",
+          "answers": [
+            "Đã phát ngôn thì chịu trách nhiệm."
+          ],
+          "hint": "〜からには／以上は／上は",
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-order-01",
+          "mode": "order",
+          "prompt": "Đã nhận làm đến cùng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "引き受けたからには"
+            },
+            {
+              "id": "1",
+              "text": "最後まで"
+            },
+            {
+              "id": "2",
+              "text": "やる"
+            },
+            {
+              "id": "3",
+              "text": "つもりだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜からには／以上は／上は",
+          "answers": [
+            "引き受けたからには最後までやるつもりだ。"
+          ],
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-order-02",
+          "mode": "order",
+          "prompt": "Đã là sinh viên phải học.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "学生である以上"
+            },
+            {
+              "id": "1",
+              "text": "勉強"
+            },
+            {
+              "id": "2",
+              "text": "すべき"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜からには／以上は／上は",
+          "answers": [
+            "学生である以上勉強すべきだ。"
+          ],
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-order-03",
+          "mode": "order",
+          "prompt": "Đã hứa phải giữ lời.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "約束した上は"
+            },
+            {
+              "id": "1",
+              "text": "守らなければ"
+            },
+            {
+              "id": "2",
+              "text": "なら"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜からには／以上は／上は",
+          "answers": [
+            "約束した上は守らなければならないのだ。"
+          ],
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-order-04",
+          "mode": "order",
+          "prompt": "Đã bắt đầu đừng bỏ dở.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "始めたからには"
+            },
+            {
+              "id": "1",
+              "text": "途中で"
+            },
+            {
+              "id": "2",
+              "text": "やめ"
+            },
+            {
+              "id": "3",
+              "text": "ない。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜からには／以上は／上は",
+          "answers": [
+            "始めたからには途中でやめない。"
+          ],
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-order-05",
+          "mode": "order",
+          "prompt": "Đã biết thì phải nói.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "知った以上は"
+            },
+            {
+              "id": "1",
+              "text": "言う"
+            },
+            {
+              "id": "2",
+              "text": "べき"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜からには／以上は／上は",
+          "answers": [
+            "知った以上は言うべきだ。"
+          ],
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-order-06",
+          "mode": "order",
+          "prompt": "Đã vào đội tuân luật.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "入った上は"
+            },
+            {
+              "id": "1",
+              "text": "ルールを"
+            },
+            {
+              "id": "2",
+              "text": "守れ"
+            },
+            {
+              "id": "3",
+              "text": "よ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜からには／以上は／上は",
+          "answers": [
+            "入った上はルールを守れよ。"
+          ],
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-order-07",
+          "mode": "order",
+          "prompt": "Đã thi nhắm điểm cao.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "受験するからには"
+            },
+            {
+              "id": "1",
+              "text": "高得点を"
+            },
+            {
+              "id": "2",
+              "text": "目指す"
+            },
+            {
+              "id": "3",
+              "text": "つもりだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜からには／以上は／上は",
+          "answers": [
+            "受験するからには高得点を目指すつもりだ。"
+          ],
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-order-08",
+          "mode": "order",
+          "prompt": "Đã là lãnh đạo chịu trách nhiệm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "リーダーである以上は"
+            },
+            {
+              "id": "1",
+              "text": "責任を"
+            },
+            {
+              "id": "2",
+              "text": "取れ"
+            },
+            {
+              "id": "3",
+              "text": "よ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜からには／以上は／上は",
+          "answers": [
+            "リーダーである以上は責任を取れよ。"
+          ],
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-order-09",
+          "mode": "order",
+          "prompt": "Đã đến đây cố hết sức.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ここまで来たからには"
+            },
+            {
+              "id": "1",
+              "text": "全力を"
+            },
+            {
+              "id": "2",
+              "text": "尽くす"
+            },
+            {
+              "id": "3",
+              "text": "つもりだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜からには／以上は／上は",
+          "answers": [
+            "ここまで来たからには全力を尽くすつもりだ。"
+          ],
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l17-g05-order-10",
+          "mode": "order",
+          "prompt": "Đã tuyên bố làm cho được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "宣言したからには"
+            },
+            {
+              "id": "1",
+              "text": "成し遂げ"
+            },
+            {
+              "id": "2",
+              "text": "ろ"
+            },
+            {
+              "id": "3",
+              "text": "よ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜からには／以上は／上は",
+          "answers": [
+            "宣言したからには成し遂げろよ。"
+          ],
+          "explanation": "Câu đã… thì phải…: からには／以上（は）／上は. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+        }
+      ]
+    }
+  ]
+}

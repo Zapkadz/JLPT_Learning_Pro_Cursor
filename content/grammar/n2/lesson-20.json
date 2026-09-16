@@ -1,0 +1,4516 @@
+{
+  "id": "lesson-20",
+  "titleJa": "結果",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 20. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L16-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập.",
+  "patterns": [
+    {
+      "id": "l20-g01",
+      "title": "〜たところ",
+      "meaning": "Khi (làm) xong thì… / vừa… thì kết quả là…",
+      "variants": [
+        "たところ"
+      ],
+      "structures": [
+        "Vた ＋ ところ"
+      ],
+      "explanation": "Nêu kết quả thực tế ngay sau khi thử/làm A: vừa làm A thì phát hiện/được B.",
+      "usage": "Báo cáo kết quả thử, gọi điện, hỏi thăm: làm thử thì thấy…",
+      "cautions": [
+        "Khác ところだ (đúng lúc đang…); たところ nhấn kết quả sau hành động hoàn thành.",
+        "Thường kèm kết quả bất ngờ hoặc thông tin mới nhận được."
+      ],
+      "contrast": "たところ ≈ vừa làm thì kết quả là. Khác たら (giả định/điều kiện) và ところだった (suýt).",
+      "examples": [
+        {
+          "ja": "問い合わせたところ在庫がないと言われた。",
+          "reading": "といあわせたところざいこがないといわれた。",
+          "vi": "Hỏi thử thì được bảo là hết hàng.",
+          "ruby": [
+            {
+              "text": "問",
+              "reading": "と"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "合",
+              "reading": "あ"
+            },
+            {
+              "text": "わせたところ"
+            },
+            {
+              "text": "在庫",
+              "reading": "ざいこ"
+            },
+            {
+              "text": "がないと"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "われた。"
+            }
+          ]
+        },
+        {
+          "ja": "窓を開けたところ涼しい風が入ってきた。",
+          "reading": "まどをあけたところすずしいかぜがはいってきた。",
+          "vi": "Vừa mở cửa sổ thì gió mát tràn vào.",
+          "ruby": [
+            {
+              "text": "窓",
+              "reading": "まど"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "開",
+              "reading": "あ"
+            },
+            {
+              "text": "けたところ"
+            },
+            {
+              "text": "涼",
+              "reading": "すず"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "風",
+              "reading": "かぜ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "入",
+              "reading": "はい"
+            },
+            {
+              "text": "ってきた。"
+            }
+          ]
+        },
+        {
+          "ja": "先生に相談したところ賛成してくれた。",
+          "reading": "せんせいにそうだんしたところさんせいしてくれた。",
+          "vi": "Vừa bàn với thầy thì thầy tán thành.",
+          "ruby": [
+            {
+              "text": "先生",
+              "reading": "せんせい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "したところ"
+            },
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "してくれた。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 103,
+        "printedPage": 90,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-tatokoro-khi-lam-gi-xong-thi-ket-qua-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l20-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Gọi thử thì máy bận.",
+          "answers": [
+            "電話したところ話し中だった。"
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Đọc kỹ thì thấy lỗi đánh máy.",
+          "answers": [
+            "よく読んだところ誤字を見つけた。"
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Mở hộp thì có thư bên trong.",
+          "answers": [
+            "箱を開けたところ手紙が入っていた。"
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Hỏi cửa hàng thì còn chỗ trống.",
+          "answers": [
+            "店に聞いたところ空きがあると言われた。"
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Thử mặc thì hơi chật.",
+          "answers": [
+            "着てみたところ少し小さかった。"
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Kiểm tra lại thì số liệu khớp.",
+          "answers": [
+            "再確認したところ数字が一致した。"
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Gửi mail thì nhận được trả lời ngay.",
+          "answers": [
+            "メールしたところすぐに返事が来た。"
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tìm trên mạng thì có thông tin cũ.",
+          "answers": [
+            "検索したところ古い情報が出た。"
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Gặp trực tiếp thì anh ấy xin lỗi.",
+          "answers": [
+            "直接会ったところ彼は謝った。"
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Đo nhiệt độ thì sốt cao.",
+          "answers": [
+            "熱を測ったところ高熱だった。"
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "申請したところ許可が下りた。",
+          "answers": [
+            "Nộp đơn thì được cấp phép."
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "冷蔵庫を開けたところ牛乳が切れていた。",
+          "answers": [
+            "Mở tủ lạnh thì hết sữa."
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "調べたところ原因は配線だった。",
+          "answers": [
+            "Điều tra thì nguyên nhân là dây điện."
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "近所に聞いたところ彼は出張中だ。",
+          "answers": [
+            "Hỏi hàng xóm thì anh ấy đang công tác."
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "試食したところ思ったより辛かった。",
+          "answers": [
+            "Nếm thử thì cay hơn tưởng."
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "予約を確認したところ翌日だった。",
+          "answers": [
+            "Xác nhận đặt chỗ thì là ngày hôm sau."
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "書類を見直したところ署名が抜けていた。",
+          "answers": [
+            "Xem lại giấy tờ thì thiếu chữ ký."
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "駅員に尋ねたところ次の電車は満席だ。",
+          "answers": [
+            "Hỏi nhân viên ga thì tàu sau hết chỗ."
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "録音を聞いたところ雑音が多かった。",
+          "answers": [
+            "Nghe bản ghi thì nhiễu nhiều."
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "図書館で探したところ貸出中だった。",
+          "answers": [
+            "Tìm ở thư viện thì đang được mượn."
+          ],
+          "hint": "〜たところ",
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-order-01",
+          "mode": "order",
+          "prompt": "Hỏi kho thì hết hàng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "在庫を聞いたところ"
+            },
+            {
+              "id": "1",
+              "text": "品切れだと"
+            },
+            {
+              "id": "2",
+              "text": "知らされた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たところ",
+          "answers": [
+            "在庫を聞いたところ品切れだと知らされた。"
+          ],
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-order-02",
+          "mode": "order",
+          "prompt": "Mở cửa có gió lạnh.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ドアを開けたところ"
+            },
+            {
+              "id": "1",
+              "text": "冷たい風が"
+            },
+            {
+              "id": "2",
+              "text": "入ってきた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たところ",
+          "answers": [
+            "ドアを開けたところ冷たい風が入ってきた。"
+          ],
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-order-03",
+          "mode": "order",
+          "prompt": "Bàn với sếp được đồng ý.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "上司に相談したところ"
+            },
+            {
+              "id": "1",
+              "text": "了承して"
+            },
+            {
+              "id": "2",
+              "text": "もらえた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たところ",
+          "answers": [
+            "上司に相談したところ了承してもらえた。"
+          ],
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-order-04",
+          "mode": "order",
+          "prompt": "Gọi thì máy bận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "電話したところ"
+            },
+            {
+              "id": "1",
+              "text": "話し中だと"
+            },
+            {
+              "id": "2",
+              "text": "分かった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たところ",
+          "answers": [
+            "電話したところ話し中だと分かった。"
+          ],
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-order-05",
+          "mode": "order",
+          "prompt": "Đọc kỹ thấy lỗi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "よく読んだところ"
+            },
+            {
+              "id": "1",
+              "text": "誤字が"
+            },
+            {
+              "id": "2",
+              "text": "見つかった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たところ",
+          "answers": [
+            "よく読んだところ誤字が見つかった。"
+          ],
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-order-06",
+          "mode": "order",
+          "prompt": "Mở hộp có thư.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "箱を開けたところ"
+            },
+            {
+              "id": "1",
+              "text": "手紙が"
+            },
+            {
+              "id": "2",
+              "text": "出てきた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たところ",
+          "answers": [
+            "箱を開けたところ手紙が出てきた。"
+          ],
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-order-07",
+          "mode": "order",
+          "prompt": "Nộp đơn được phép.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "申請したところ"
+            },
+            {
+              "id": "1",
+              "text": "許可が"
+            },
+            {
+              "id": "2",
+              "text": "出た"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たところ",
+          "answers": [
+            "申請したところ許可が出た。"
+          ],
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-order-08",
+          "mode": "order",
+          "prompt": "Mở tủ hết sữa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "冷蔵庫を開けたところ"
+            },
+            {
+              "id": "1",
+              "text": "牛乳が"
+            },
+            {
+              "id": "2",
+              "text": "なかった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たところ",
+          "answers": [
+            "冷蔵庫を開けたところ牛乳がなかった。"
+          ],
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-order-09",
+          "mode": "order",
+          "prompt": "Điều tra ra dây điện.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "調べたところ"
+            },
+            {
+              "id": "1",
+              "text": "原因は"
+            },
+            {
+              "id": "2",
+              "text": "配線だった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たところ",
+          "answers": [
+            "調べたところ原因は配線だった。"
+          ],
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g01-order-10",
+          "mode": "order",
+          "prompt": "Xác nhận là ngày sau.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "予約を確認したところ"
+            },
+            {
+              "id": "1",
+              "text": "翌日だと"
+            },
+            {
+              "id": "2",
+              "text": "分かった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜たところ",
+          "answers": [
+            "予約を確認したところ翌日だと分かった。"
+          ],
+          "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l20-g02",
+      "title": "〜きり",
+      "meaning": "Từ đó (không…) / chỉ… mãi",
+      "variants": [
+        "きり",
+        "っきり"
+      ],
+      "structures": [
+        "Vた ＋ きり（っきり）",
+        "N ＋ きり"
+      ],
+      "explanation": "たきり: sau hành động đó tình trạng không đổi (thường tiêu cực). Nきり: chỉ có N / chỉ đến mức đó.",
+      "usage": "Kể chuyện: đi rồi không về; nói một câu rồi im; chỉ một lần.",
+      "cautions": [
+        "っきり là biến thể khẩu ngữ của きり.",
+        "Phân biệt nghĩa 'từ đó không…' với nghĩa 'chỉ…' tùy ngữ cảnh."
+      ],
+      "contrast": "たきり ≈ từ đó không… nữa. Khác たまま (giữ nguyên trạng thái) và だけ (chỉ).",
+      "examples": [
+        {
+          "ja": "彼は出かけたきり戻ってこない。",
+          "reading": "かれはでかけたきりもどってこない。",
+          "vi": "Anh ấy đi ra ngoài rồi không về.",
+          "ruby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "かけたきり"
+            },
+            {
+              "text": "戻",
+              "reading": "もど"
+            },
+            {
+              "text": "ってこない。"
+            }
+          ]
+        },
+        {
+          "ja": "一言挨拶したきり黙っている。",
+          "reading": "ひとことあいさつしたきりだまっている。",
+          "vi": "Chỉ chào một câu rồi im.",
+          "ruby": [
+            {
+              "text": "一言",
+              "reading": "ひとこと"
+            },
+            {
+              "text": "挨拶",
+              "reading": "あいさつ"
+            },
+            {
+              "text": "したきり"
+            },
+            {
+              "text": "黙",
+              "reading": "だま"
+            },
+            {
+              "text": "っている。"
+            }
+          ]
+        },
+        {
+          "ja": "二人きりで話したい。",
+          "reading": "ふたりきりではなしたい。",
+          "vi": "Muốn nói chuyện chỉ hai người.",
+          "ruby": [
+            {
+              "text": "二人",
+              "reading": "ふたり"
+            },
+            {
+              "text": "きりで"
+            },
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "したい。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 103,
+        "printedPage": 90,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-kiri-mai-sau-do-tu-do-ve-sau-cu-the-ma/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l20-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Cô ấy về quê rồi không liên lạc.",
+          "answers": [
+            "彼女は帰省したきり連絡がない。"
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Đọc thư xong rồi không trả lời.",
+          "answers": [
+            "手紙を読んだきり返事を出さない。"
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nằm xuống rồi không dậy nữa.",
+          "answers": [
+            "横になったきり起き上がらない。"
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Gặp lần đó rồi không gặp lại.",
+          "answers": [
+            "あの時会ったきり再会していない。"
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Chỉ còn một tuần nữa.",
+          "answers": [
+            "あと一週間きりだ。"
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Nói xong rồi bỏ đi luôn.",
+          "answers": [
+            "言い終わったきり出て行った。"
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Mượn sách rồi không trả.",
+          "answers": [
+            "本を借りたきり返していない。"
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Chỉ mình tôi ở văn phòng.",
+          "answers": [
+            "オフィスは私きりだ。"
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Uống thuốc rồi ngủ luôn.",
+          "answers": [
+            "薬を飲んだきり眠ってしまった。"
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Gửi mail rồi im thin thít.",
+          "answers": [
+            "メールを送ったきり音沙汰がない。"
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "子供は学校へ行ったきり帰ってこない。",
+          "answers": [
+            "Đứa trẻ đi học rồi không về."
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "彼は就職したきり地元に戻らない。",
+          "answers": [
+            "Anh ấy đi làm rồi không về quê."
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "一口食べたきり箸を置いた。",
+          "answers": [
+            "Chỉ ăn một miếng rồi đặt đũa xuống."
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "約束したきり守らない。",
+          "answers": [
+            "Hứa rồi không giữ lời."
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "三人きりで旅行する。",
+          "answers": [
+            "Đi du lịch chỉ ba người."
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "窓を開けたきり閉め忘れた。",
+          "answers": [
+            "Mở cửa sổ rồi quên đóng."
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "一度失敗したきり挑戦しない。",
+          "answers": [
+            "Thất bại một lần rồi không thử nữa."
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "現金は千円きりしかない。",
+          "answers": [
+            "Tiền mặt chỉ còn đúng nghìn yên."
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "彼女は泣いたきり何も言わない。",
+          "answers": [
+            "Cô ấy khóc rồi không nói gì."
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "荷物を預けたきり受け取っていない。",
+          "answers": [
+            "Gửi hành lý rồi chưa nhận lại."
+          ],
+          "hint": "〜きり",
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-order-01",
+          "mode": "order",
+          "prompt": "Ra phố rồi không về nhà.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "街へ出たきり"
+            },
+            {
+              "id": "1",
+              "text": "家に"
+            },
+            {
+              "id": "2",
+              "text": "帰らない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜きり",
+          "answers": [
+            "街へ出たきり家に帰らない。"
+          ],
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-order-02",
+          "mode": "order",
+          "prompt": "Nói một câu rồi im lặng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一言言ったきり"
+            },
+            {
+              "id": "1",
+              "text": "黙り込んで"
+            },
+            {
+              "id": "2",
+              "text": "しまった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜きり",
+          "answers": [
+            "一言言ったきり黙り込んでしまった。"
+          ],
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-order-03",
+          "mode": "order",
+          "prompt": "Muốn bàn chỉ hai người.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "二人きりで"
+            },
+            {
+              "id": "1",
+              "text": "相談したいと"
+            },
+            {
+              "id": "2",
+              "text": "思う"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜きり",
+          "answers": [
+            "二人きりで相談したいと思う。"
+          ],
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-order-04",
+          "mode": "order",
+          "prompt": "Về quê rồi mất liên lạc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "帰省したきり"
+            },
+            {
+              "id": "1",
+              "text": "連絡が"
+            },
+            {
+              "id": "2",
+              "text": "途絶えた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜きり",
+          "answers": [
+            "帰省したきり連絡が途絶えた。"
+          ],
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-order-05",
+          "mode": "order",
+          "prompt": "Đọc thư không trả lời.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "手紙を読んだきり"
+            },
+            {
+              "id": "1",
+              "text": "返事を"
+            },
+            {
+              "id": "2",
+              "text": "書かない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜きり",
+          "answers": [
+            "手紙を読んだきり返事を書かない。"
+          ],
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-order-06",
+          "mode": "order",
+          "prompt": "Nằm rồi không dậy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "横になったきり"
+            },
+            {
+              "id": "1",
+              "text": "起きようと"
+            },
+            {
+              "id": "2",
+              "text": "しない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜きり",
+          "answers": [
+            "横になったきり起きようとしない。"
+          ],
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-order-07",
+          "mode": "order",
+          "prompt": "Đi học rồi không về.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "学校へ行ったきり"
+            },
+            {
+              "id": "1",
+              "text": "戻って"
+            },
+            {
+              "id": "2",
+              "text": "こない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜きり",
+          "answers": [
+            "学校へ行ったきり戻ってこない。"
+          ],
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-order-08",
+          "mode": "order",
+          "prompt": "Ăn một miếng đặt đũa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "一口食べたきり"
+            },
+            {
+              "id": "1",
+              "text": "箸を"
+            },
+            {
+              "id": "2",
+              "text": "置いた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜きり",
+          "answers": [
+            "一口食べたきり箸を置いた。"
+          ],
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-order-09",
+          "mode": "order",
+          "prompt": "Đi làm không về quê.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "就職したきり"
+            },
+            {
+              "id": "1",
+              "text": "地元に"
+            },
+            {
+              "id": "2",
+              "text": "戻らない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜きり",
+          "answers": [
+            "就職したきり地元に戻らない。"
+          ],
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g02-order-10",
+          "mode": "order",
+          "prompt": "Gửi mail rồi im.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "メールを送ったきり"
+            },
+            {
+              "id": "1",
+              "text": "返事が"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜きり",
+          "answers": [
+            "メールを送ったきり返事がない。"
+          ],
+          "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N). Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l20-g03",
+      "title": "〜あげく",
+      "meaning": "Sau cùng (sau thời gian dài) thì… (thường kết quả xấu)",
+      "variants": [
+        "あげく",
+        "あげくに"
+      ],
+      "structures": [
+        "Vた ＋ あげく（に）",
+        "Nの ＋ あげく（に）"
+      ],
+      "explanation": "Sau quá trình dài mệt mỏi/lo lắng, cuối cùng dẫn đến kết quả thường không mong muốn.",
+      "usage": "Phàn nàn, kể hậu quả: tranh cãi mãi rồi…; suy nghĩ mãi rồi…",
+      "cautions": [
+        "Kết quả sau あげく thường tiêu cực hoặc bất tiện.",
+        "あげくに nhấn mạnh hơn một chút; cả hai đều phổ biến."
+      ],
+      "contrast": "あげく ≈ cuối cùng (sau khổ sở) thì…. Gần 末に nhưng あげく thiên kết quả xấu hơn.",
+      "examples": [
+        {
+          "ja": "議論したあげく結論が出なかった。",
+          "reading": "ぎろんしたあげくけつろんがでなかった。",
+          "vi": "Bàn luận mãi cuối cùng không ra kết luận.",
+          "ruby": [
+            {
+              "text": "議論",
+              "reading": "ぎろん"
+            },
+            {
+              "text": "したあげく"
+            },
+            {
+              "text": "結論",
+              "reading": "けつろん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "なかった。"
+            }
+          ]
+        },
+        {
+          "ja": "迷いのあげく申し込みをやめた。",
+          "reading": "まよいのあげくもうしこみをやめた。",
+          "vi": "Do dự mãi cuối cùng thôi đăng ký.",
+          "ruby": [
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "いのあげく"
+            },
+            {
+              "text": "申",
+              "reading": "もう"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "込",
+              "reading": "こ"
+            },
+            {
+              "text": "みを"
+            },
+            {
+              "text": "やめた。"
+            }
+          ]
+        },
+        {
+          "ja": "待たされたあげく受付はもう閉まっていた。",
+          "reading": "またされたあげくうけつけはもうしまっていた。",
+          "vi": "Bị bắt đợi mãi cuối cùng quầy đã đóng.",
+          "ruby": [
+            {
+              "text": "待",
+              "reading": "ま"
+            },
+            {
+              "text": "たされたあげく"
+            },
+            {
+              "text": "受付",
+              "reading": "うけつけ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "もう"
+            },
+            {
+              "text": "閉",
+              "reading": "し"
+            },
+            {
+              "text": "まっていた。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 103,
+        "printedPage": 90,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ageku-sau-mot-thoi-gian-dai-thi-sau-khi-da-thi-cuoi-cung-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l20-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Cãi nhau mãi cuối cùng chia tay.",
+          "answers": [
+            "喧嘩したあげく別れた。"
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tìm mãi cuối cùng bỏ cuộc.",
+          "answers": [
+            "探したあげく諦めた。"
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Suy nghĩ mãi cuối cùng từ chối.",
+          "answers": [
+            "考えたあげく断った。"
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Chờ lâu cuối cùng bị hủy.",
+          "answers": [
+            "長い待ちのあげく中止になった。"
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Mua sắm mãi cuối cùng hết tiền.",
+          "answers": [
+            "買い物したあげく金がなくなった。"
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Giải thích mãi cuối cùng bị hiểu nhầm.",
+          "answers": [
+            "説明したあげく誤解された。"
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Đàm phán mãi cuối cùng đổ vỡ.",
+          "answers": [
+            "交渉したあげく決裂した。"
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Lo lắng mãi cuối cùng mất ngủ.",
+          "answers": [
+            "心配したあげく眠れなかった。"
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Làm thêm mãi cuối cùng bệnh.",
+          "answers": [
+            "残業したあげく病気になった。"
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "So sánh mãi cuối cùng không mua.",
+          "answers": [
+            "比較したあげく買わなかった。"
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "文句を言ったあげく何も変わらない。",
+          "answers": [
+            "Phàn nàn mãi cuối cùng chẳng đổi gì."
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "行列に並んだあげく売り切れた。",
+          "answers": [
+            "Xếp hàng mãi cuối cùng hết hàng."
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "何度も確認したあげくミスがあった。",
+          "answers": [
+            "Kiểm nhiều lần cuối cùng vẫn có lỗi."
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "借金のあげく家を失った。",
+          "answers": [
+            "Nợ nần cuối cùng mất nhà."
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "残業続きのあげく辞表を出した。",
+          "answers": [
+            "Làm thêm liên tục cuối cùng nộp đơn nghỉ."
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "迷ったあげくどちらも選ばなかった。",
+          "answers": [
+            "Do dự mãi cuối cùng không chọn bên nào."
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "抗議したあげく無視された。",
+          "answers": [
+            "Phản đối mãi cuối cùng bị bỏ qua."
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "修理したあげくまた壊れた。",
+          "answers": [
+            "Sửa mãi cuối cùng lại hỏng."
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "相談したあげく自分で決めた。",
+          "answers": [
+            "Bàn mãi cuối cùng tự quyết."
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "遅刻したあげく試験を受けられなかった。",
+          "answers": [
+            "Đến muộn cuối cùng không thi được."
+          ],
+          "hint": "〜あげく",
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-order-01",
+          "mode": "order",
+          "prompt": "Họp mãi không quyết được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議したあげく"
+            },
+            {
+              "id": "1",
+              "text": "決められず"
+            },
+            {
+              "id": "2",
+              "text": "終わった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あげく",
+          "answers": [
+            "会議したあげく決められず終わった。"
+          ],
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-order-02",
+          "mode": "order",
+          "prompt": "Do dự rồi thôi dự thi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "迷いのあげく"
+            },
+            {
+              "id": "1",
+              "text": "受験を"
+            },
+            {
+              "id": "2",
+              "text": "取りやめた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あげく",
+          "answers": [
+            "迷いのあげく受験を取りやめた。"
+          ],
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-order-03",
+          "mode": "order",
+          "prompt": "Đợi lâu cửa đã đóng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "長く待ったあげく"
+            },
+            {
+              "id": "1",
+              "text": "窓口は"
+            },
+            {
+              "id": "2",
+              "text": "閉まっていた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あげく",
+          "answers": [
+            "長く待ったあげく窓口は閉まっていた。"
+          ],
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-order-04",
+          "mode": "order",
+          "prompt": "Cãi rồi đường ai nấy đi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "喧嘩したあげく"
+            },
+            {
+              "id": "1",
+              "text": "縁を"
+            },
+            {
+              "id": "2",
+              "text": "切った"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あげく",
+          "answers": [
+            "喧嘩したあげく縁を切った。"
+          ],
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-order-05",
+          "mode": "order",
+          "prompt": "Tìm mãi rồi bỏ cuộc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "探しまわったあげく"
+            },
+            {
+              "id": "1",
+              "text": "諦めるしか"
+            },
+            {
+              "id": "2",
+              "text": "なかった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あげく",
+          "answers": [
+            "探しまわったあげく諦めるしかなかった。"
+          ],
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-order-06",
+          "mode": "order",
+          "prompt": "Suy nghĩ rồi từ chối lời mời.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "考えたあげく"
+            },
+            {
+              "id": "1",
+              "text": "誘いを"
+            },
+            {
+              "id": "2",
+              "text": "断った"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あげく",
+          "answers": [
+            "考えたあげく誘いを断った。"
+          ],
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-order-07",
+          "mode": "order",
+          "prompt": "Xếp hàng rồi hết sạch.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "並んだあげく"
+            },
+            {
+              "id": "1",
+              "text": "完売だと"
+            },
+            {
+              "id": "2",
+              "text": "知った"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あげく",
+          "answers": [
+            "並んだあげく完売だと知った。"
+          ],
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-order-08",
+          "mode": "order",
+          "prompt": "Nợ nần mất nhà.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "借金のあげく"
+            },
+            {
+              "id": "1",
+              "text": "家まで"
+            },
+            {
+              "id": "2",
+              "text": "失った"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あげく",
+          "answers": [
+            "借金のあげく家まで失った。"
+          ],
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-order-09",
+          "mode": "order",
+          "prompt": "Phàn nàn chẳng đổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "文句を言ったあげく"
+            },
+            {
+              "id": "1",
+              "text": "状況は"
+            },
+            {
+              "id": "2",
+              "text": "変わらない"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あげく",
+          "answers": [
+            "文句を言ったあげく状況は変わらない。"
+          ],
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g03-order-10",
+          "mode": "order",
+          "prompt": "Đàm phán rồi đổ vỡ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "交渉したあげく"
+            },
+            {
+              "id": "1",
+              "text": "話が"
+            },
+            {
+              "id": "2",
+              "text": "決裂した"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あげく",
+          "answers": [
+            "交渉したあげく話が決裂した。"
+          ],
+          "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l20-g04",
+      "title": "〜末（に）",
+      "meaning": "Cuối cùng sau khi… / sau nhiều… thì…",
+      "variants": [
+        "末に",
+        "末の"
+      ],
+      "structures": [
+        "Nの ＋ 末（に）",
+        "Vた ＋ 末（に）"
+      ],
+      "explanation": "Sau quá trình dài suy nghĩ/cố gắng/thảo luận, đi đến kết quả cuối cùng (trung lập hoặc tích cực hơn あげく).",
+      "usage": "Quyết định trang trọng: sau cân nhắc; sau đàm phán; sau cố gắng.",
+      "cautions": [
+        "末に thường trang trọng hơn hội thoại thân mật.",
+        "Kết quả có thể tốt hoặc xấu; không thiên tiêu cực như あげく."
+      ],
+      "contrast": "末に ≈ sau cùng (sau quá trình). あげく nghiêng kết quả xấu; 末に trung lập hơn.",
+      "examples": [
+        {
+          "ja": "検討の末に方針を変更した。",
+          "reading": "けんとうのすえにほうしんをへんこうした。",
+          "vi": "Sau khi xem xét, cuối cùng đổi phương châm.",
+          "ruby": [
+            {
+              "text": "検討",
+              "reading": "けんとう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "方針",
+              "reading": "ほうしん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "変更",
+              "reading": "へんこう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        },
+        {
+          "ja": "苦労した末に合格できた。",
+          "reading": "くろうしたすえにごうかくできた。",
+          "vi": "Sau bao vất vả cuối cùng đậu.",
+          "ruby": [
+            {
+              "text": "苦労",
+              "reading": "くろう"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "合格",
+              "reading": "ごうかく"
+            },
+            {
+              "text": "できた。"
+            }
+          ]
+        },
+        {
+          "ja": "話し合いの末合意に達した。",
+          "reading": "はなしあいのすえごういにたっした。",
+          "vi": "Sau thảo luận cuối cùng đạt thỏa thuận.",
+          "ruby": [
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "合",
+              "reading": "あ"
+            },
+            {
+              "text": "いの"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "合意",
+              "reading": "ごうい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "達",
+              "reading": "たっ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 103,
+        "printedPage": 90,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-sue-ni-sau-khi-sau-rat-nhieu-sau-mot-hoi-thi-ket-qua-la-quyet-dinh-cuoi-cung-la/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l20-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Sau cân nhắc quyết định nghỉ việc.",
+          "answers": [
+            "熟考の末に退職を決めた。"
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Sau cố gắng hoàn thành báo cáo.",
+          "answers": [
+            "努力の末に報告書を仕上げた。"
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Sau đàm phán ký hợp đồng.",
+          "answers": [
+            "交渉の末に契約を結んだ。"
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Sau chờ đợi nhận được thư.",
+          "answers": [
+            "長い待ちの末に手紙が届いた。"
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Sau nghiên cứu công bố kết quả.",
+          "answers": [
+            "研究の末に成果を発表した。"
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Sau suy nghĩ chọn ngành này.",
+          "answers": [
+            "悩んだ末にこの道を選んだ。"
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Sau tranh luận thống nhất ý kiến.",
+          "answers": [
+            "議論の末に意見がまとまった。"
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Sau thử nghiệm tìm ra nguyên nhân.",
+          "answers": [
+            "実験の末に原因が分かった。"
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Sau điều trị khỏi bệnh.",
+          "answers": [
+            "治療の末に病気が治った。"
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Sau tìm kiếm gặp lại bạn cũ.",
+          "answers": [
+            "捜索の末に旧友と再会した。"
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "審査の末に採用が決まった。",
+          "answers": [
+            "Sau thẩm định cuối cùng được tuyển."
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "失敗を重ねた末に成功した。",
+          "answers": [
+            "Sau nhiều thất bại cuối cùng thành công."
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "相談の末に延期することにした。",
+          "answers": [
+            "Sau bàn bạc quyết định hoãn."
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "旅の末に目的地へ着いた。",
+          "answers": [
+            "Sau chuyến đi cuối cùng tới đích."
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "計算の末に答えが出た。",
+          "answers": [
+            "Sau tính toán ra được đáp án."
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "投票の末に案が可決された。",
+          "answers": [
+            "Sau bỏ phiếu đề án được thông qua."
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "練習の末に完璧に弾けた。",
+          "answers": [
+            "Sau luyện tập chơi được hoàn hảo."
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "調査の末に真相が明らかになった。",
+          "answers": [
+            "Sau điều tra sự thật sáng tỏ."
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "選択の末に留学を選んだ。",
+          "answers": [
+            "Sau lựa chọn quyết định du học."
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "忍耐の末に報われた。",
+          "answers": [
+            "Sau kiên nhẫn cuối cùng được đền đáp."
+          ],
+          "hint": "〜末（に）",
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-order-01",
+          "mode": "order",
+          "prompt": "Xem xét rồi đổi kế hoạch.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "検討の末に"
+            },
+            {
+              "id": "1",
+              "text": "計画を"
+            },
+            {
+              "id": "2",
+              "text": "見直した"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜末（に）",
+          "answers": [
+            "検討の末に計画を見直した。"
+          ],
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-order-02",
+          "mode": "order",
+          "prompt": "Vất vả rồi đạt mục tiêu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "苦労した末に"
+            },
+            {
+              "id": "1",
+              "text": "目標を"
+            },
+            {
+              "id": "2",
+              "text": "達成した"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜末（に）",
+          "answers": [
+            "苦労した末に目標を達成した。"
+          ],
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-order-03",
+          "mode": "order",
+          "prompt": "Thảo luận rồi thống nhất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "話し合いの末に"
+            },
+            {
+              "id": "1",
+              "text": "意見が"
+            },
+            {
+              "id": "2",
+              "text": "一致した"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜末（に）",
+          "answers": [
+            "話し合いの末に意見が一致した。"
+          ],
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-order-04",
+          "mode": "order",
+          "prompt": "Cân nhắc kỹ rồi xin nghỉ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "熟考の末に"
+            },
+            {
+              "id": "1",
+              "text": "退職願を"
+            },
+            {
+              "id": "2",
+              "text": "出した"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜末（に）",
+          "answers": [
+            "熟考の末に退職願を出した。"
+          ],
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-order-05",
+          "mode": "order",
+          "prompt": "Cố gắng rồi hoàn tất báo cáo.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力の末に"
+            },
+            {
+              "id": "1",
+              "text": "レポートを"
+            },
+            {
+              "id": "2",
+              "text": "完成させた"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜末（に）",
+          "answers": [
+            "努力の末にレポートを完成させた。"
+          ],
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-order-06",
+          "mode": "order",
+          "prompt": "Đàm phán rồi ký kết.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "交渉の末に"
+            },
+            {
+              "id": "1",
+              "text": "契約書に"
+            },
+            {
+              "id": "2",
+              "text": "サインした"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜末（に）",
+          "answers": [
+            "交渉の末に契約書にサインした。"
+          ],
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-order-07",
+          "mode": "order",
+          "prompt": "Thẩm định rồi được tuyển.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "審査の末に"
+            },
+            {
+              "id": "1",
+              "text": "採用が"
+            },
+            {
+              "id": "2",
+              "text": "決まった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜末（に）",
+          "answers": [
+            "審査の末に採用が決まった。"
+          ],
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-order-08",
+          "mode": "order",
+          "prompt": "Thất bại nhiều rồi thành công.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失敗を重ねた末に"
+            },
+            {
+              "id": "1",
+              "text": "成果を"
+            },
+            {
+              "id": "2",
+              "text": "得た"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜末（に）",
+          "answers": [
+            "失敗を重ねた末に成果を得た。"
+          ],
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-order-09",
+          "mode": "order",
+          "prompt": "Bàn rồi quyết định hoãn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "相談の末に"
+            },
+            {
+              "id": "1",
+              "text": "延期する"
+            },
+            {
+              "id": "2",
+              "text": "ことにした"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜末（に）",
+          "answers": [
+            "相談の末に延期することにした。"
+          ],
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g04-order-10",
+          "mode": "order",
+          "prompt": "Điều tra rồi ra sự thật.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "調査の末に"
+            },
+            {
+              "id": "1",
+              "text": "真相が"
+            },
+            {
+              "id": "2",
+              "text": "明らかになった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜末（に）",
+          "answers": [
+            "調査の末に真相が明らかになった。"
+          ],
+          "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l20-g05",
+      "title": "〜ところだった",
+      "meaning": "Suýt nữa thì…",
+      "variants": [
+        "ところだった"
+      ],
+      "structures": [
+        "Vる／Vそうになる ＋ ところだった"
+      ],
+      "explanation": "Diễn đạt suýt xảy ra điều gì (thường xấu) nhưng cuối cùng tránh được.",
+      "usage": "Kể lại may mắn: suýt muộn; suýt quên; suýt gặp tai nạn.",
+      "cautions": [
+        "Thường dùng quá khứ ところだった vì sự việc đã không xảy ra.",
+        "Hay kèm もう少しで／危うく để nhấn 'suýt'."
+      ],
+      "contrast": "ところだった ≈ suýt nữa thì. Khác たところ (kết quả thực) và ところだ (đúng lúc).",
+      "examples": [
+        {
+          "ja": "もう少しで電車に乗り遅れるところだった。",
+          "reading": "もうすこしででんしゃにのりおくれるところだった。",
+          "vi": "Suýt nữa thì lỡ tàu.",
+          "ruby": [
+            {
+              "text": "もう少しで"
+            },
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "乗",
+              "reading": "の"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "遅",
+              "reading": "おく"
+            },
+            {
+              "text": "れるところだった。"
+            }
+          ]
+        },
+        {
+          "ja": "危うく秘密を話すところだった。",
+          "reading": "あやうくひみつをはなすところだった。",
+          "vi": "Suýt nữa thì nói lộ bí mật.",
+          "ruby": [
+            {
+              "text": "危",
+              "reading": "あや"
+            },
+            {
+              "text": "うく"
+            },
+            {
+              "text": "秘密",
+              "reading": "ひみつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "すところだった。"
+            }
+          ]
+        },
+        {
+          "ja": "財布を忘れるところだった。",
+          "reading": "さいふをわすれるところだった。",
+          "vi": "Suýt nữa thì quên ví.",
+          "ruby": [
+            {
+              "text": "財布",
+              "reading": "さいふ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れるところだった。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 103,
+        "printedPage": 90,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-tokorodatta-suyt-nua-thi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l20-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Suýt nữa thì ngã cầu thang.",
+          "answers": [
+            "階段から落ちるところだった。"
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Suýt nữa thì gửi nhầm mail.",
+          "answers": [
+            "メールを間違えて送るところだった。"
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Suýt nữa thì gọi nhầm tên.",
+          "answers": [
+            "名前を呼び間違えるところだった。"
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Suýt nữa thì va xe đạp.",
+          "answers": [
+            "自転車とぶつかるところだった。"
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Suýt nữa thì quên khóa cửa.",
+          "answers": [
+            "鍵をかけ忘れるところだった。"
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Suýt nữa thì nói thừa.",
+          "answers": [
+            "余計なことを言うところだった。"
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Suýt nữa thì bỏ lỡ deadline.",
+          "answers": [
+            "締め切りに間に合わないところだった。"
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Suýt nữa thì làm đổ cà phê.",
+          "answers": [
+            "コーヒーをこぼすところだった。"
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Suýt nữa thì chọn sai đường.",
+          "answers": [
+            "道を間違えるところだった。"
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Suýt nữa thì khóc trước mọi người.",
+          "answers": [
+            "人前で泣くところだった。"
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "危うく大事な書類を捨てるところだった。",
+          "answers": [
+            "Suýt nữa thì vứt giấy tờ quan trọng."
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "もう少しで約束をすっぽかすところだった。",
+          "answers": [
+            "Suýt nữa thì bỏ bê cuộc hẹn."
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "事故に遭うところだった。",
+          "answers": [
+            "Suýt nữa thì gặp tai nạn."
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "面接に遅れるところだった。",
+          "answers": [
+            "Suýt nữa thì muộn phỏng vấn."
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "火を消し忘れるところだった。",
+          "answers": [
+            "Suýt nữa thì quên tắt bếp."
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "値段を見誤るところだった。",
+          "answers": [
+            "Suýt nữa thì nhìn nhầm giá."
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "本音を漏らすところだった。",
+          "answers": [
+            "Suýt nữa thì lộ ý thật."
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "階段を踏み外すところだった。",
+          "answers": [
+            "Suýt nữa thì hụt bậc thang."
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "友人を怒らせるところだった。",
+          "answers": [
+            "Suýt nữa thì làm bạn giận."
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "データを消すところだった。",
+          "answers": [
+            "Suýt nữa thì xóa dữ liệu."
+          ],
+          "hint": "〜ところだった",
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-order-01",
+          "mode": "order",
+          "prompt": "Suýt lỡ chuyến bus.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "バスに"
+            },
+            {
+              "id": "1",
+              "text": "乗り遅れる"
+            },
+            {
+              "id": "2",
+              "text": "ところだった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ところだった",
+          "answers": [
+            "バスに乗り遅れるところだった。"
+          ],
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-order-02",
+          "mode": "order",
+          "prompt": "Suýt nói lộ bí mật.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "うっかり秘密を"
+            },
+            {
+              "id": "1",
+              "text": "口にする"
+            },
+            {
+              "id": "2",
+              "text": "ところだった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ところだった",
+          "answers": [
+            "うっかり秘密を口にするところだった。"
+          ],
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-order-03",
+          "mode": "order",
+          "prompt": "Suýt bỏ quên ví.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "財布を"
+            },
+            {
+              "id": "1",
+              "text": "置き忘れる"
+            },
+            {
+              "id": "2",
+              "text": "ところだった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ところだった",
+          "answers": [
+            "財布を置き忘れるところだった。"
+          ],
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-order-04",
+          "mode": "order",
+          "prompt": "Suýt ngã cầu thang.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "階段から"
+            },
+            {
+              "id": "1",
+              "text": "転落する"
+            },
+            {
+              "id": "2",
+              "text": "ところだった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ところだった",
+          "answers": [
+            "階段から転落するところだった。"
+          ],
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-order-05",
+          "mode": "order",
+          "prompt": "Suýt gửi nhầm mail.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "宛先を"
+            },
+            {
+              "id": "1",
+              "text": "間違える"
+            },
+            {
+              "id": "2",
+              "text": "ところだった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ところだった",
+          "answers": [
+            "宛先を間違えるところだった。"
+          ],
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-order-06",
+          "mode": "order",
+          "prompt": "Suýt va xe đạp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "自転車と"
+            },
+            {
+              "id": "1",
+              "text": "接触する"
+            },
+            {
+              "id": "2",
+              "text": "ところだった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ところだった",
+          "answers": [
+            "自転車と接触するところだった。"
+          ],
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-order-07",
+          "mode": "order",
+          "prompt": "Suýt vứt giấy tờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "重要書類を"
+            },
+            {
+              "id": "1",
+              "text": "捨てる"
+            },
+            {
+              "id": "2",
+              "text": "ところだった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ところだった",
+          "answers": [
+            "重要書類を捨てるところだった。"
+          ],
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-order-08",
+          "mode": "order",
+          "prompt": "Suýt muộn phỏng vấn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "面接に"
+            },
+            {
+              "id": "1",
+              "text": "遅れる"
+            },
+            {
+              "id": "2",
+              "text": "ところだった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ところだった",
+          "answers": [
+            "面接に遅れるところだった。"
+          ],
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-order-09",
+          "mode": "order",
+          "prompt": "Suýt quên tắt bếp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ガスを"
+            },
+            {
+              "id": "1",
+              "text": "消し忘れる"
+            },
+            {
+              "id": "2",
+              "text": "ところだった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ところだった",
+          "answers": [
+            "ガスを消し忘れるところだった。"
+          ],
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g05-order-10",
+          "mode": "order",
+          "prompt": "Suýt xóa dữ liệu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "データを"
+            },
+            {
+              "id": "1",
+              "text": "消去する"
+            },
+            {
+              "id": "2",
+              "text": "ところだった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ところだった",
+          "answers": [
+            "データを消去するところだった。"
+          ],
+          "explanation": "Câu ところだった: suýt xảy ra A nhưng không. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l20-g06",
+      "title": "〜ずじまいだ",
+      "meaning": "Cuối cùng không (làm được)… / đành không…",
+      "variants": [
+        "ずじまい",
+        "ずじまいだ"
+      ],
+      "structures": [
+        "Vず ＋ じまいだ"
+      ],
+      "explanation": "Dự định làm nhưng vì lý do nào đó cuối cùng không làm được; mang tiếc nuối.",
+      "usage": "Kể lại việc bỏ lỡ: không kịp gặp; không kịp nói; không kịp đọc.",
+      "cautions": [
+        "ず là thể phủ định cổ: 行かずじまい ← 行かない.",
+        "Thường kết thúc bằng だ／だった; thể hiện kết cục đã định."
+      ],
+      "contrast": "ずじまいだ ≈ cuối cùng không làm được. Khác ないまま (vẫn chưa) và 損ねる (suýt lỡ).",
+      "examples": [
+        {
+          "ja": "結局彼には会えずじまいだった。",
+          "reading": "けっきょくかれにはあえずじまいだった。",
+          "vi": "Cuối cùng đành không gặp được anh ấy.",
+          "ruby": [
+            {
+              "text": "結局",
+              "reading": "けっきょく"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "会",
+              "reading": "あ"
+            },
+            {
+              "text": "えずじまいだった。"
+            }
+          ]
+        },
+        {
+          "ja": "忙しくて本が読めずじまいだ。",
+          "reading": "いそがしくてほんがよめずじまいだ。",
+          "vi": "Bận quá cuối cùng không đọc được sách.",
+          "ruby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しくて"
+            },
+            {
+              "text": "本",
+              "reading": "ほん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "めずじまいだ。"
+            }
+          ]
+        },
+        {
+          "ja": "お礼を言わずじまいで帰ってしまった。",
+          "reading": "おれいをいわずじまいでかえってしまった。",
+          "vi": "Về luôn mà đành không kịp cảm ơn.",
+          "ruby": [
+            {
+              "text": "お"
+            },
+            {
+              "text": "礼",
+              "reading": "れい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "わずじまいで"
+            },
+            {
+              "text": "帰",
+              "reading": "かえ"
+            },
+            {
+              "text": "ってしまった。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 103,
+        "printedPage": 90,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-zu-jimai-rot-cuoc-la-da-khong-kip-chua-kip/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l20-g06-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Cuối cùng không kịp hỏi.",
+          "answers": [
+            "結局聞けずじまいだった。"
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Không kịp gửi quà.",
+          "answers": [
+            "贈り物を渡せずじまいだ。"
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Không kịp xem triển lãm.",
+          "answers": [
+            "展覧会を見ずじまいだった。"
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Không kịp báo cáo với sếp.",
+          "answers": [
+            "上司に報告せずじまいだ。"
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Không kịp trả tiền vay.",
+          "answers": [
+            "借金を返せずじまいだった。"
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Không kịp thử món đó.",
+          "answers": [
+            "その料理を食べずじまいだ。"
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Không kịp chào tạm biệt.",
+          "answers": [
+            "別れの挨拶をせずじまいだった。"
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Không kịp sửa lỗi.",
+          "answers": [
+            "ミスを直せずじまいだ。"
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Không kịp gọi điện cho mẹ.",
+          "answers": [
+            "母に電話せずじまいだった。"
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Không kịp viết nhật ký.",
+          "answers": [
+            "日記を書かずじまいだ。"
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "旅行中に写真を撮らずじまいだった。",
+          "answers": [
+            "Trong chuyến đi đành không chụp ảnh."
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "質問したかったが聞けずじまいだ。",
+          "answers": [
+            "Muốn hỏi nhưng cuối cùng không hỏi được."
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "約束の時間に間に合わずじまいだった。",
+          "answers": [
+            "Đành không kịp giờ hẹn."
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "欲しかった本を買わずじまいだ。",
+          "answers": [
+            "Cuối cùng không mua được sách muốn."
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "彼の話を最後まで聞かずじまいだった。",
+          "answers": [
+            "Đành không nghe hết lời anh ấy."
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "掃除をせずじまいで出かけた。",
+          "answers": [
+            "Ra ngoài mà đành chưa dọn."
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "説明書を読まずじまいで組み立てた。",
+          "answers": [
+            "Lắp mà đành không đọc hướng dẫn."
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "感謝を伝えずじまいだった。",
+          "answers": [
+            "Cuối cùng không kịp bày tỏ biết ơn."
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "資料に目を通さずじまいだ。",
+          "answers": [
+            "Đành không kịp xem tài liệu."
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "会場に寄らずじまいで帰った。",
+          "answers": [
+            "Về luôn mà đành không ghé hội trường."
+          ],
+          "hint": "〜ずじまいだ",
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-order-01",
+          "mode": "order",
+          "prompt": "Đành không gặp được cô ấy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "彼女には"
+            },
+            {
+              "id": "1",
+              "text": "会えずじまい"
+            },
+            {
+              "id": "2",
+              "text": "だった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ずじまいだ",
+          "answers": [
+            "彼女には会えずじまいだった。"
+          ],
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-order-02",
+          "mode": "order",
+          "prompt": "Bận quá không đọc hết sách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "忙しくて本を"
+            },
+            {
+              "id": "1",
+              "text": "読み終えずじまい"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ずじまいだ",
+          "answers": [
+            "忙しくて本を読み終えずじまいだ。"
+          ],
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-order-03",
+          "mode": "order",
+          "prompt": "Không kịp cảm ơn đã về.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "お礼を言わずじまいで"
+            },
+            {
+              "id": "1",
+              "text": "その場を"
+            },
+            {
+              "id": "2",
+              "text": "去った"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ずじまいだ",
+          "answers": [
+            "お礼を言わずじまいでその場を去った。"
+          ],
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-order-04",
+          "mode": "order",
+          "prompt": "Rốt cuộc không kịp hỏi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "大事なことを"
+            },
+            {
+              "id": "1",
+              "text": "聞けずじまい"
+            },
+            {
+              "id": "2",
+              "text": "だった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ずじまいだ",
+          "answers": [
+            "大事なことを聞けずじまいだった。"
+          ],
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-order-05",
+          "mode": "order",
+          "prompt": "Đành không trao được quà.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "贈り物さえ"
+            },
+            {
+              "id": "1",
+              "text": "渡せずじまい"
+            },
+            {
+              "id": "2",
+              "text": "だった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ずじまいだ",
+          "answers": [
+            "贈り物さえ渡せずじまいだった。"
+          ],
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-order-06",
+          "mode": "order",
+          "prompt": "Đành bỏ lỡ triển lãm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "展覧会へ"
+            },
+            {
+              "id": "1",
+              "text": "行けずじまい"
+            },
+            {
+              "id": "2",
+              "text": "だった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ずじまいだ",
+          "answers": [
+            "展覧会へ行けずじまいだった。"
+          ],
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-order-07",
+          "mode": "order",
+          "prompt": "Trong chuyến đi không kịp chụp.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "旅先で写真を"
+            },
+            {
+              "id": "1",
+              "text": "撮らずじまい"
+            },
+            {
+              "id": "2",
+              "text": "だった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ずじまいだ",
+          "answers": [
+            "旅先で写真を撮らずじまいだった。"
+          ],
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-order-08",
+          "mode": "order",
+          "prompt": "Đành trễ giờ hẹn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "約束の時間に"
+            },
+            {
+              "id": "1",
+              "text": "間に合わずじまい"
+            },
+            {
+              "id": "2",
+              "text": "だった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ずじまいだ",
+          "answers": [
+            "約束の時間に間に合わずじまいだった。"
+          ],
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-order-09",
+          "mode": "order",
+          "prompt": "Đành không mua nổi sách.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "欲しい本を"
+            },
+            {
+              "id": "1",
+              "text": "買わずじまい"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ずじまいだ",
+          "answers": [
+            "欲しい本を買わずじまいだ。"
+          ],
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l20-g06-order-10",
+          "mode": "order",
+          "prompt": "Đành không kịp cảm ơn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "感謝の気持ちを"
+            },
+            {
+              "id": "1",
+              "text": "伝えずじまい"
+            },
+            {
+              "id": "2",
+              "text": "だった"
+            },
+            {
+              "id": "3",
+              "text": "。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ずじまいだ",
+          "answers": [
+            "感謝の気持ちを伝えずじまいだった。"
+          ],
+          "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+        }
+      ]
+    }
+  ]
+}

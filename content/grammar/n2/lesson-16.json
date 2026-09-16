@@ -1,0 +1,3693 @@
+{
+  "id": "lesson-16",
+  "titleJa": "理由（1）",
+  "revision": 1,
+  "provenance": "Giải thích đối chiếu PDF theo inventory Lesson 16. Ví dụ học và câu luyện do trợ lý biên soạn (N2-L16-BATCH); agent_reviewed, chưa có giáo viên kiểm duyệt độc lập. Nguồn TNĐG gắn theo inventory.",
+  "patterns": [
+    {
+      "id": "l16-g01",
+      "title": "〜によって",
+      "meaning": "Do… / nhờ… / tùy theo… / bằng…",
+      "variants": [
+        "によって",
+        "により",
+        "による"
+      ],
+      "structures": [
+        "N ＋ によって／により",
+        "N ＋ による ＋ N"
+      ],
+      "explanation": "によって・により diễn đạt nguyên nhân, phương tiện, hoặc 'tùy theo'; による修飾 danh từ (〜による影響).",
+      "usage": "Nêu lý do/cách thức trang trọng; cũng dùng 'tùy người/tùy trường hợp'.",
+      "cautions": [
+        "により thiên văn viết hơn によって.",
+        "による luôn đứng trước danh từ; không kết câu như によってだ."
+      ],
+      "contrast": "によって ≈ do/nhờ/tùy. Khác おかげで (ơn) và せいで (tại) về sắc thái.",
+      "examples": [
+        {
+          "ja": "地震によって橋が壊れた。",
+          "reading": "じしんによってはしがこわれた。",
+          "vi": "Do động đất, cầu bị hỏng.",
+          "ruby": [
+            {
+              "text": "地震",
+              "reading": "じしん"
+            },
+            {
+              "text": "によって"
+            },
+            {
+              "text": "橋",
+              "reading": "はし"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "壊",
+              "reading": "こわ"
+            },
+            {
+              "text": "れた。"
+            }
+          ]
+        },
+        {
+          "ja": "人によって考え方が違う。",
+          "reading": "ひとによってかんがえかたがちがう。",
+          "vi": "Tùy người mà cách nghĩ khác nhau.",
+          "ruby": [
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "によって"
+            },
+            {
+              "text": "考え方",
+              "reading": "かんがえかた"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "違",
+              "reading": "ちが"
+            },
+            {
+              "text": "う。"
+            }
+          ]
+        },
+        {
+          "ja": "ネットによる情報収集が増えた。",
+          "reading": "ねっとによるじょうほうしゅうしゅうがふえた。",
+          "vi": "Thu thập thông tin bằng mạng tăng lên.",
+          "ruby": [
+            {
+              "text": "ネットによる"
+            },
+            {
+              "text": "情報",
+              "reading": "じょうほう"
+            },
+            {
+              "text": "収集",
+              "reading": "しゅうしゅう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "えた。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 87,
+        "printedPage": 74,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-niyotte/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l16-g01-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Do bão, tàu bị hủy.",
+          "answers": [
+            "台風によって電車が運休した。"
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tùy mùa mà giá thay đổi.",
+          "answers": [
+            "季節によって値段が変わる。"
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nhờ nỗ lực, anh ấy đậu.",
+          "answers": [
+            "努力により彼は合格した。"
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Ảnh hưởng do cháy rừng rất lớn.",
+          "answers": [
+            "山火事による被害は大きい。"
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Tùy quốc gia mà luật khác.",
+          "answers": [
+            "国によって法律が異なる。"
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Do tai nạn giao thông đường tắc.",
+          "answers": [
+            "事故によって道路が渋滞した。"
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Bằng thí nghiệm xác nhận được giả thuyết.",
+          "answers": [
+            "実験により仮説が確認された。"
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tùy cách nói mà ấn tượng đổi.",
+          "answers": [
+            "言い方によって印象が変わる。"
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Thiệt hại do mưa lớn lan rộng.",
+          "answers": [
+            "大雨による損害が広がった。"
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Do chính sách mới quy tắc đổi.",
+          "answers": [
+            "新制度によって規則が変わった。"
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "火災によって建物が全焼した。",
+          "answers": [
+            "Do cháy, tòa nhà cháy sạch."
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "方法によって結果が大きく違う。",
+          "answers": [
+            "Tùy phương pháp kết quả khác nhiều."
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "調査により事実が明らかになった。",
+          "answers": [
+            "Nhờ điều tra sự thật lộ rõ."
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "ウイルスによる感染が拡大した。",
+          "answers": [
+            "Lây nhiễm do virus lan rộng."
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "年齢によって料金が分かれる。",
+          "answers": [
+            "Tùy tuổi phí khác nhau."
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "騒音によって眠れなかった。",
+          "answers": [
+            "Do tiếng ồn không ngủ được."
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "話し合いにより解決した。",
+          "answers": [
+            "Nhờ bàn bạc đã giải quyết."
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "地域による差が大きい。",
+          "answers": [
+            "Chênh lệch theo vùng lớn."
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "技術によって作業が楽になった。",
+          "answers": [
+            "Nhờ kỹ thuật việc dễ hơn."
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "天候により予定が延期された。",
+          "answers": [
+            "Do thời tiết lịch bị hoãn."
+          ],
+          "hint": "〜によって／により／による",
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-order-01",
+          "mode": "order",
+          "prompt": "Do động đất cầu hỏng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "地震によって"
+            },
+            {
+              "id": "1",
+              "text": "橋が"
+            },
+            {
+              "id": "2",
+              "text": "壊れた"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜によって／により／による",
+          "answers": [
+            "地震によって橋が壊れたそうだ。"
+          ],
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-order-02",
+          "mode": "order",
+          "prompt": "Tùy người cách nghĩ khác.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "人によって"
+            },
+            {
+              "id": "1",
+              "text": "考え方が"
+            },
+            {
+              "id": "2",
+              "text": "違う"
+            },
+            {
+              "id": "3",
+              "text": "ものだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜によって／により／による",
+          "answers": [
+            "人によって考え方が違うものだ。"
+          ],
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-order-03",
+          "mode": "order",
+          "prompt": "Thu thập bằng mạng tăng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "ネットによる"
+            },
+            {
+              "id": "1",
+              "text": "情報収集が"
+            },
+            {
+              "id": "2",
+              "text": "増えた"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜によって／により／による",
+          "answers": [
+            "ネットによる情報収集が増えたらしい。"
+          ],
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-order-04",
+          "mode": "order",
+          "prompt": "Do bão tàu hủy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "台風によって"
+            },
+            {
+              "id": "1",
+              "text": "電車が"
+            },
+            {
+              "id": "2",
+              "text": "運休した"
+            },
+            {
+              "id": "3",
+              "text": "ようだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜によって／により／による",
+          "answers": [
+            "台風によって電車が運休したようだ。"
+          ],
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-order-05",
+          "mode": "order",
+          "prompt": "Tùy mùa giá đổi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "季節によって"
+            },
+            {
+              "id": "1",
+              "text": "値段が"
+            },
+            {
+              "id": "2",
+              "text": "変わる"
+            },
+            {
+              "id": "3",
+              "text": "ことがある。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜によって／により／による",
+          "answers": [
+            "季節によって値段が変わることがある。"
+          ],
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-order-06",
+          "mode": "order",
+          "prompt": "Nhờ nỗ lực đậu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "努力により"
+            },
+            {
+              "id": "1",
+              "text": "彼は"
+            },
+            {
+              "id": "2",
+              "text": "合格した"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜によって／により／による",
+          "answers": [
+            "努力により彼は合格したらしい。"
+          ],
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-order-07",
+          "mode": "order",
+          "prompt": "Thiệt hại cháy rừng lớn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "山火事による"
+            },
+            {
+              "id": "1",
+              "text": "被害は"
+            },
+            {
+              "id": "2",
+              "text": "大きい"
+            },
+            {
+              "id": "3",
+              "text": "だろう。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜によって／により／による",
+          "answers": [
+            "山火事による被害は大きいだろう。"
+          ],
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-order-08",
+          "mode": "order",
+          "prompt": "Tùy nước luật khác.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "国によって"
+            },
+            {
+              "id": "1",
+              "text": "法律が"
+            },
+            {
+              "id": "2",
+              "text": "異なる"
+            },
+            {
+              "id": "3",
+              "text": "はずだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜によって／により／による",
+          "answers": [
+            "国によって法律が異なるはずだ。"
+          ],
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-order-09",
+          "mode": "order",
+          "prompt": "Do tai nạn đường tắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "事故によって"
+            },
+            {
+              "id": "1",
+              "text": "道路が"
+            },
+            {
+              "id": "2",
+              "text": "渋滞した"
+            },
+            {
+              "id": "3",
+              "text": "ようだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜によって／により／による",
+          "answers": [
+            "事故によって道路が渋滞したようだ。"
+          ],
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g01-order-10",
+          "mode": "order",
+          "prompt": "Bằng thí nghiệm xác nhận.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "実験により"
+            },
+            {
+              "id": "1",
+              "text": "仮説が"
+            },
+            {
+              "id": "2",
+              "text": "確認された"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜によって／により／による",
+          "answers": [
+            "実験により仮説が確認されたそうだ。"
+          ],
+          "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l16-g02",
+      "title": "〜ものだから・〜もので・〜もの",
+      "meaning": "Vì… mà… (lý do chủ quan, biện hộ nhẹ)",
+      "variants": [
+        "ものだから",
+        "もので",
+        "もの"
+      ],
+      "structures": [
+        "普通形 ＋ ものだから／もので",
+        "普通形 ＋ もの（終助詞的）"
+      ],
+      "explanation": "ものだから・もので nêu lý do cá nhân, thường giải thích/biện hộ; もの ở cuối câu nhấn mạnh lý do kiểu trẻ con/thân mật.",
+      "usage": "Xin lỗi, giải thích vì sao mình làm vậy; hội thoại hàng ngày.",
+      "cautions": [
+        "Không dùng cho lý do khách quan trang trọng (dùng ため／ので).",
+        "ものだから thường trước kết quả; もの kết thúc câu giải thích."
+      ],
+      "contrast": "ものだから ≈ vì (biện hộ). Khác から／ので (trung lập hơn).",
+      "examples": [
+        {
+          "ja": "道が混んでいたものだから遅刻した。",
+          "reading": "みちがこんでいたものだからちこくした。",
+          "vi": "Vì đường tắc nên tôi đến muộn.",
+          "ruby": [
+            {
+              "text": "道",
+              "reading": "みち"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "混",
+              "reading": "こ"
+            },
+            {
+              "text": "んでいたものだから"
+            },
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "した。"
+            }
+          ]
+        },
+        {
+          "ja": "初めてなもので緊張しています。",
+          "reading": "はじめてなものできんちょうしています。",
+          "vi": "Vì lần đầu nên đang căng thẳng.",
+          "ruby": [
+            {
+              "text": "初",
+              "reading": "はじ"
+            },
+            {
+              "text": "めてなもので"
+            },
+            {
+              "text": "緊張",
+              "reading": "きんちょう"
+            },
+            {
+              "text": "しています。"
+            }
+          ]
+        },
+        {
+          "ja": "知らなかったんだもの。",
+          "reading": "しらなかったんだもの。",
+          "vi": "Tại mình không biết mà.",
+          "ruby": [
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "らなかったんだもの。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 87,
+        "printedPage": 74,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-n2-monodakara-monode-vi-tai-vi/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l16-g02-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Vì mưa to nên taxi về.",
+          "answers": [
+            "雨が強かったものだからタクシーで帰った。"
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Vì mệt nên về sớm.",
+          "answers": [
+            "疲れていたもので早退した。"
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Tại quên mất mà.",
+          "answers": [
+            "忘れていたんだもの。"
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Vì đông quá nên xếp hàng lâu.",
+          "answers": [
+            "混雑していたものだから長く並んだ。"
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Vì lần đầu gặp nên ngại.",
+          "answers": [
+            "初対面なもので少し遠慮した。"
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Vì điện thoại hết pin nên không gọi.",
+          "answers": [
+            "電池が切れていたものだから電話できなかった。"
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Vì say xe nên không ăn.",
+          "answers": [
+            "乗り物酔いしたもんで何も食べなかった。"
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tại sợ hỏng nên không đụng.",
+          "answers": [
+            "壊しそうで怖かったんだもの。"
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Vì hết chỗ nên đứng.",
+          "answers": [
+            "席がなかったものだから立っていた。"
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Vì tối rồi nên về trước.",
+          "answers": [
+            "もう遅いもので先に帰ります。"
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "急用が入ったものだから欠席した。",
+          "answers": [
+            "Vì có việc gấp nên vắng."
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "慣れていないもんで時間がかかった。",
+          "answers": [
+            "Vì chưa quen nên mất thời gian."
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "仕方ないんだもの。",
+          "answers": [
+            "Tại chẳng còn cách nào mà."
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "風邪気味なものだから安静にしている。",
+          "answers": [
+            "Vì hơi cảm nên đang nghỉ."
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "初めての経験なもので戸惑った。",
+          "answers": [
+            "Vì trải nghiệm lần đầu nên bối rối."
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "連絡が遅れたものだから誤解された。",
+          "answers": [
+            "Vì liên lạc chậm nên bị hiểu nhầm."
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "眠かったもんで聞き逃した。",
+          "answers": [
+            "Vì buồn ngủ nên nghe sót."
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "知らなかったんだもの、責めないで。",
+          "answers": [
+            "Tại không biết mà, đừng trách."
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "道に迷ったものだから遅れた。",
+          "answers": [
+            "Vì lạc đường nên muộn."
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "子どもが熱を出したもんで休んだ。",
+          "answers": [
+            "Vì con sốt nên nghỉ."
+          ],
+          "hint": "〜ものだから／もので／もの",
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-order-01",
+          "mode": "order",
+          "prompt": "Vì đường tắc đến muộn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "混んでいたものだから"
+            },
+            {
+              "id": "1",
+              "text": "遅刻"
+            },
+            {
+              "id": "2",
+              "text": "して"
+            },
+            {
+              "id": "3",
+              "text": "しまった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだから／もので／もの",
+          "answers": [
+            "混んでいたものだから遅刻してしまった。"
+          ],
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-order-02",
+          "mode": "order",
+          "prompt": "Vì lần đầu đang căng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "初めてなもので"
+            },
+            {
+              "id": "1",
+              "text": "緊張"
+            },
+            {
+              "id": "2",
+              "text": "して"
+            },
+            {
+              "id": "3",
+              "text": "いる。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだから／もので／もの",
+          "answers": [
+            "初めてなもので緊張している。"
+          ],
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-order-03",
+          "mode": "order",
+          "prompt": "Tại không biết mà.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "知らなかったんだ"
+            },
+            {
+              "id": "1",
+              "text": "もの"
+            },
+            {
+              "id": "2",
+              "text": "だ"
+            },
+            {
+              "id": "3",
+              "text": "よ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだから／もので／もの",
+          "answers": [
+            "知らなかったんだものだよ。"
+          ],
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-order-04",
+          "mode": "order",
+          "prompt": "Vì mưa to về taxi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨が強かったものだから"
+            },
+            {
+              "id": "1",
+              "text": "タクシーで"
+            },
+            {
+              "id": "2",
+              "text": "帰った"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだから／もので／もの",
+          "answers": [
+            "雨が強かったものだからタクシーで帰ったらしい。"
+          ],
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-order-05",
+          "mode": "order",
+          "prompt": "Vì mệt về sớm.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "疲れていたもので"
+            },
+            {
+              "id": "1",
+              "text": "早退"
+            },
+            {
+              "id": "2",
+              "text": "した"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだから／もので／もの",
+          "answers": [
+            "疲れていたもので早退したそうだ。"
+          ],
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-order-06",
+          "mode": "order",
+          "prompt": "Vì đông xếp hàng lâu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "混雑していたものだから"
+            },
+            {
+              "id": "1",
+              "text": "長く"
+            },
+            {
+              "id": "2",
+              "text": "並んだ"
+            },
+            {
+              "id": "3",
+              "text": "ようだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだから／もので／もの",
+          "answers": [
+            "混雑していたものだから長く並んだようだ。"
+          ],
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-order-07",
+          "mode": "order",
+          "prompt": "Vì hết pin không gọi.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "電池切れだったものだから"
+            },
+            {
+              "id": "1",
+              "text": "電話でき"
+            },
+            {
+              "id": "2",
+              "text": "なかった"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだから／もので／もの",
+          "answers": [
+            "電池切れだったものだから電話できなかったそうだ。"
+          ],
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-order-08",
+          "mode": "order",
+          "prompt": "Vì hết chỗ phải đứng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "席がなかったものだから"
+            },
+            {
+              "id": "1",
+              "text": "立って"
+            },
+            {
+              "id": "2",
+              "text": "いた"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだから／もので／もの",
+          "answers": [
+            "席がなかったものだから立っていたらしい。"
+          ],
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-order-09",
+          "mode": "order",
+          "prompt": "Vì tối về trước.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "もう遅いもので"
+            },
+            {
+              "id": "1",
+              "text": "先に"
+            },
+            {
+              "id": "2",
+              "text": "帰り"
+            },
+            {
+              "id": "3",
+              "text": "ます。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだから／もので／もの",
+          "answers": [
+            "もう遅いもので先に帰ります。"
+          ],
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g02-order-10",
+          "mode": "order",
+          "prompt": "Vì việc gấp nên vắng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "急用が入ったものだから"
+            },
+            {
+              "id": "1",
+              "text": "欠席"
+            },
+            {
+              "id": "2",
+              "text": "した"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜ものだから／もので／もの",
+          "answers": [
+            "急用が入ったものだから欠席したらしい。"
+          ],
+          "explanation": "Câu lý do chủ quan: ものだから／もので／もの. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l16-g03",
+      "title": "〜おかげだ／〜せいだ",
+      "meaning": "Nhờ… (tốt) / tại… (xấu)",
+      "variants": [
+        "おかげだ",
+        "おかげで",
+        "せいだ",
+        "せいで"
+      ],
+      "structures": [
+        "Nの／普通形 ＋ おかげだ／おかげで",
+        "Nの／普通形 ＋ せいだ／せいで"
+      ],
+      "explanation": "おかげだ・おかげで nhấn mạnh kết quả tốt nhờ ai/cái gì; せいだ・せいで đổ lỗi kết quả xấu.",
+      "usage": "Cảm ơn, khen; hoặc trách móc nguyên nhân xấu.",
+      "cautions": [
+        "おかげで đôi khi dùng mỉa (kết quả xấu) — ngữ cảnh quyết định.",
+        "せいで hầu như chỉ kết quả tiêu cực; tránh dùng khi cảm ơn."
+      ],
+      "contrast": "おかげ ≈ nhờ (tích cực). せい ≈ tại (tiêu cực). Khác によって (trung lập hơn).",
+      "examples": [
+        {
+          "ja": "先生のおかげで合格できた。",
+          "reading": "せんせいのおかげでごうかくできた。",
+          "vi": "Nhờ thầy cô mà đậu được.",
+          "ruby": [
+            {
+              "text": "先生",
+              "reading": "せんせい"
+            },
+            {
+              "text": "のおかげで"
+            },
+            {
+              "text": "合格",
+              "reading": "ごうかく"
+            },
+            {
+              "text": "できた。"
+            }
+          ]
+        },
+        {
+          "ja": "雨のせいで試合が中止になった。",
+          "reading": "あめのせいでしあいがちゅうしになった。",
+          "vi": "Tại mưa nên trận đấu bị hủy.",
+          "ruby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "のせいで"
+            },
+            {
+              "text": "試合",
+              "reading": "しあい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "中止",
+              "reading": "ちゅうし"
+            },
+            {
+              "text": "になった。"
+            }
+          ]
+        },
+        {
+          "ja": "成功したのは仲間のおかげだ。",
+          "reading": "せいこうしたのはなかまのおかげだ。",
+          "vi": "Thành công là nhờ đồng đội.",
+          "ruby": [
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "したのは"
+            },
+            {
+              "text": "仲間",
+              "reading": "なかま"
+            },
+            {
+              "text": "のおかげだ。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 87,
+        "printedPage": 74,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-okagesamade-nho-vao-nho-co/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n3-seide-seika-seida-do-boi-tai/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l16-g03-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Nhờ lời khuyên mà quyết định được.",
+          "answers": [
+            "助言のおかげで決断できた。"
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Tại ùn tắc nên họp muộn.",
+          "answers": [
+            "渋滞のせいで会議に遅れた。"
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Nhờ luyện tập điểm tăng.",
+          "answers": [
+            "練習のおかげで点数が上がった。"
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Tại mất ngủ nên tập trung kém.",
+          "answers": [
+            "不眠のせいで集中できない。"
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Nhờ hỗ trợ dự án xong đúng hạn.",
+          "answers": [
+            "支援のおかげで期限内に終わった。"
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Tại ồn ào không nghe rõ.",
+          "answers": [
+            "騒音のせいでよく聞こえない。"
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Nhờ thuốc cảm đỡ hơn.",
+          "answers": [
+            "薬のおかげで風邪が治りかけた。"
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Tại bất cẩn làm hỏng máy.",
+          "answers": [
+            "不注意のせいで機械を壊した。"
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Thắng là nhờ cả đội.",
+          "answers": [
+            "勝てたのはチームのおかげだ。"
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Trễ là tại xe buýt.",
+          "answers": [
+            "遅れたのはバスのせいだ。"
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "家族のおかげで頑張れた。",
+          "answers": [
+            "Nhờ gia đình mà cố gắng được."
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "事故のせいで道が塞がった。",
+          "answers": [
+            "Tại tai nạn đường bị chặn."
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "先輩のおかげで仕事が早く終わった。",
+          "answers": [
+            "Nhờ senpai việc xong sớm."
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "風邪のせいで声が出ない。",
+          "answers": [
+            "Tại cảm không ra tiếng."
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "協力のおかげで目標を達成した。",
+          "answers": [
+            "Nhờ hợp tác đạt mục tiêu."
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "油断のせいでミスした。",
+          "answers": [
+            "Tại chủ quan nên sai."
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "晴れたのは風のおかげだ。",
+          "answers": [
+            "Trời quang là nhờ gió."
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "失敗したのは準備不足のせいだ。",
+          "answers": [
+            "Thất bại là tại thiếu chuẩn bị."
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "辞書のおかげで意味が分かった。",
+          "answers": [
+            "Nhờ từ điển hiểu nghĩa."
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "遅刻したのは目覚ましのせいだ。",
+          "answers": [
+            "Muộn là tại đồng hồ báo thức."
+          ],
+          "hint": "〜おかげだ／せいだ",
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-order-01",
+          "mode": "order",
+          "prompt": "Nhờ thầy cô đậu được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "先生のおかげで"
+            },
+            {
+              "id": "1",
+              "text": "合格"
+            },
+            {
+              "id": "2",
+              "text": "できた"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おかげだ／せいだ",
+          "answers": [
+            "先生のおかげで合格できたそうだ。"
+          ],
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-order-02",
+          "mode": "order",
+          "prompt": "Tại mưa trận hủy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "雨のせいで"
+            },
+            {
+              "id": "1",
+              "text": "試合が"
+            },
+            {
+              "id": "2",
+              "text": "中止に"
+            },
+            {
+              "id": "3",
+              "text": "なった。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おかげだ／せいだ",
+          "answers": [
+            "雨のせいで試合が中止になったのだ。"
+          ],
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-order-03",
+          "mode": "order",
+          "prompt": "Thành công nhờ đồng đội.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "成功したのは"
+            },
+            {
+              "id": "1",
+              "text": "仲間の"
+            },
+            {
+              "id": "2",
+              "text": "おかげ"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜おかげだ／せいだ",
+          "answers": [
+            "成功したのは仲間のおかげだのだ。"
+          ],
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-order-04",
+          "mode": "order",
+          "prompt": "Nhờ lời khuyên quyết được.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "助言のおかげで"
+            },
+            {
+              "id": "1",
+              "text": "決断"
+            },
+            {
+              "id": "2",
+              "text": "できた"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おかげだ／せいだ",
+          "answers": [
+            "助言のおかげで決断できたらしい。"
+          ],
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-order-05",
+          "mode": "order",
+          "prompt": "Tại ùn tắc họp muộn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "渋滞のせいで"
+            },
+            {
+              "id": "1",
+              "text": "会議に"
+            },
+            {
+              "id": "2",
+              "text": "遅れた"
+            },
+            {
+              "id": "3",
+              "text": "ようだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おかげだ／せいだ",
+          "answers": [
+            "渋滞のせいで会議に遅れたようだ。"
+          ],
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-order-06",
+          "mode": "order",
+          "prompt": "Luyện tập giúp điểm tăng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "練習のおかげで"
+            },
+            {
+              "id": "1",
+              "text": "点数が"
+            },
+            {
+              "id": "2",
+              "text": "上がった"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おかげだ／せいだ",
+          "answers": [
+            "練習のおかげで点数が上がったそうだ。"
+          ],
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-order-07",
+          "mode": "order",
+          "prompt": "Mất ngủ khiến kém tập trung.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "不眠のせいで"
+            },
+            {
+              "id": "1",
+              "text": "集中でき"
+            },
+            {
+              "id": "2",
+              "text": "ない"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おかげだ／せいだ",
+          "answers": [
+            "不眠のせいで集中できないらしい。"
+          ],
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-order-08",
+          "mode": "order",
+          "prompt": "Hỗ trợ giúp xong đúng hạn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "支援のおかげで"
+            },
+            {
+              "id": "1",
+              "text": "期限内に"
+            },
+            {
+              "id": "2",
+              "text": "終わった"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜おかげだ／せいだ",
+          "answers": [
+            "支援のおかげで期限内に終わったそうだ。"
+          ],
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-order-09",
+          "mode": "order",
+          "prompt": "Thắng nhờ công cả đội.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "勝てたのは"
+            },
+            {
+              "id": "1",
+              "text": "チームの"
+            },
+            {
+              "id": "2",
+              "text": "おかげ"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜おかげだ／せいだ",
+          "answers": [
+            "勝てたのはチームのおかげだ。"
+          ],
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g03-order-10",
+          "mode": "order",
+          "prompt": "Muộn là do xe buýt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "遅れたのは"
+            },
+            {
+              "id": "1",
+              "text": "バスの"
+            },
+            {
+              "id": "2",
+              "text": "せい"
+            },
+            {
+              "id": "3",
+              "text": "だ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 2,
+          "hint": "〜おかげだ／せいだ",
+          "answers": [
+            "遅れたのはバスのせいだ。"
+          ],
+          "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l16-g04",
+      "title": "〜あまり・あまりの〜に",
+      "meaning": "Vì quá… / vì mức độ… quá mức nên…",
+      "variants": [
+        "あまり",
+        "あまりに",
+        "あまりの"
+      ],
+      "structures": [
+        "Vる／いAい／Nの ＋ あまり（に）",
+        "あまりの ＋ N ＋ に"
+      ],
+      "explanation": "あまり diễn đạt vì mức độ cảm xúc/trạng thái quá cao nên có kết quả (thường ngoài ý muốn); あまりのNに nhấn mạnh 'vì mức N quá…'.",
+      "usage": "Giải thích hành động/kết quả do cảm xúc hoặc tình huống quá mức.",
+      "cautions": [
+        "Thường kết quả tiêu cực hoặc không kiểm soát được.",
+        "あまりの〜に bắt buộc có danh từ sau あまりの."
+      ],
+      "contrast": "あまり ≈ vì quá…. Khác すぎて (quá mức thuần túy) về sắc thái lý do cảm xúc.",
+      "examples": [
+        {
+          "ja": "喜びのあまり泣いてしまった。",
+          "reading": "よろこびのあまりないてしまった。",
+          "vi": "Vì vui quá nên khóc mất.",
+          "ruby": [
+            {
+              "text": "喜",
+              "reading": "よろこ"
+            },
+            {
+              "text": "びのあまり"
+            },
+            {
+              "text": "泣",
+              "reading": "な"
+            },
+            {
+              "text": "いてしまった。"
+            }
+          ]
+        },
+        {
+          "ja": "驚きのあまり声も出なかった。",
+          "reading": "おどろきのあまりこえもでなかった。",
+          "vi": "Vì ngạc nhiên quá đến mức không ra tiếng.",
+          "ruby": [
+            {
+              "text": "驚",
+              "reading": "おどろ"
+            },
+            {
+              "text": "きのあまり"
+            },
+            {
+              "text": "声",
+              "reading": "こえ"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "なかった。"
+            }
+          ]
+        },
+        {
+          "ja": "あまりの暑さに倒れた。",
+          "reading": "あまりのあつさにたおれた。",
+          "vi": "Vì nóng quá mức nên ngã.",
+          "ruby": [
+            {
+              "text": "あまりの"
+            },
+            {
+              "text": "暑",
+              "reading": "あつ"
+            },
+            {
+              "text": "さに"
+            },
+            {
+              "text": "倒",
+              "reading": "たお"
+            },
+            {
+              "text": "れた。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 87,
+        "printedPage": 74,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-amari-vi-qua-vi-rat/",
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-amari-no-ni-qua-den-noi-nen/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l16-g04-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Vì lo quá không ngủ được.",
+          "answers": [
+            "心配のあまり眠れなかった。"
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Vì tức quá nói lớn.",
+          "answers": [
+            "怒りのあまり大声を出した。"
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Vì vui quá ôm lấy bạn.",
+          "answers": [
+            "嬉しさのあまり友人を抱きしめた。"
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Vì thất vọng quá im lặng.",
+          "answers": [
+            "失望のあまり黙り込んだ。"
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Vì mệt quá ngồi phệt xuống.",
+          "answers": [
+            "疲労のあまり座り込んだ。"
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Vì nóng quá mức mất nước.",
+          "answers": [
+            "あまりの暑さに脱水した。"
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Vì đông quá mức lối vào tắc.",
+          "answers": [
+            "あまりの混雑に入口が塞がった。"
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Vì sợ quá chân cứng.",
+          "answers": [
+            "恐怖のあまり足が動かなかった。"
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Vì cảm động quá chảy nước mắt.",
+          "answers": [
+            "感動のあまり涙が出た。"
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Vì ồn quá mức đau đầu.",
+          "answers": [
+            "あまりの騒音に頭が痛くなった。"
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "緊張のあまり手が震えた。",
+          "answers": [
+            "Vì căng thẳng quá tay run."
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "悲しみのあまり食欲がない。",
+          "answers": [
+            "Vì buồn quá không muốn ăn."
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "喜びのあまり飛び上がった。",
+          "answers": [
+            "Vì vui quá nhảy dựng."
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "驚きのあまり立ち尽くした。",
+          "answers": [
+            "Vì ngạc nhiên quá đứng sững."
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "忙しさのあまり食事を抜いた。",
+          "answers": [
+            "Vì bận quá bỏ bữa."
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "あまりの寒さに震えた。",
+          "answers": [
+            "Vì lạnh quá mức mà run."
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "あまりの高さに足がすくんだ。",
+          "answers": [
+            "Vì cao quá mức chân mềm."
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "期待のあまり眠れなかった。",
+          "answers": [
+            "Vì kỳ vọng quá không ngủ được."
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "悔しさのあまり拳を握った。",
+          "answers": [
+            "Vì tức quá nắm chặt tay."
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "あまりの安さに驚いた。",
+          "answers": [
+            "Vì rẻ quá mức mà ngạc nhiên."
+          ],
+          "hint": "〜あまり／あまりの〜に",
+          "explanation": "Câu vì quá mức: あまり／あまりのNに.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-order-01",
+          "mode": "order",
+          "prompt": "Vì vui quá khóc mất.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "喜びのあまり"
+            },
+            {
+              "id": "1",
+              "text": "泣いて"
+            },
+            {
+              "id": "2",
+              "text": "しまった"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あまり／あまりの〜に",
+          "answers": [
+            "喜びのあまり泣いてしまったらしい。"
+          ],
+          "explanation": "Câu vì quá mức: あまり／あまりのNに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-order-02",
+          "mode": "order",
+          "prompt": "Vì ngạc nhiên không ra tiếng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "驚きのあまり"
+            },
+            {
+              "id": "1",
+              "text": "声も"
+            },
+            {
+              "id": "2",
+              "text": "出なかった"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あまり／あまりの〜に",
+          "answers": [
+            "驚きのあまり声も出なかったそうだ。"
+          ],
+          "explanation": "Câu vì quá mức: あまり／あまりのNに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-order-03",
+          "mode": "order",
+          "prompt": "Vì nóng quá mức ngã.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "あまりの暑さに"
+            },
+            {
+              "id": "1",
+              "text": "倒れて"
+            },
+            {
+              "id": "2",
+              "text": "しまった"
+            },
+            {
+              "id": "3",
+              "text": "ようだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あまり／あまりの〜に",
+          "answers": [
+            "あまりの暑さに倒れてしまったようだ。"
+          ],
+          "explanation": "Câu vì quá mức: あまり／あまりのNに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-order-04",
+          "mode": "order",
+          "prompt": "Vì lo quá không ngủ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "心配のあまり"
+            },
+            {
+              "id": "1",
+              "text": "眠れ"
+            },
+            {
+              "id": "2",
+              "text": "なかった"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あまり／あまりの〜に",
+          "answers": [
+            "心配のあまり眠れなかったらしい。"
+          ],
+          "explanation": "Câu vì quá mức: あまり／あまりのNに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-order-05",
+          "mode": "order",
+          "prompt": "Tức quá nên nói lớn.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "怒りのあまり"
+            },
+            {
+              "id": "1",
+              "text": "大声を"
+            },
+            {
+              "id": "2",
+              "text": "出した"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あまり／あまりの〜に",
+          "answers": [
+            "怒りのあまり大声を出したそうだ。"
+          ],
+          "explanation": "Câu vì quá mức: あまり／あまりのNに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-order-06",
+          "mode": "order",
+          "prompt": "Thất vọng quá nên im lặng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "失望のあまり"
+            },
+            {
+              "id": "1",
+              "text": "黙り"
+            },
+            {
+              "id": "2",
+              "text": "込んだ"
+            },
+            {
+              "id": "3",
+              "text": "ようだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あまり／あまりの〜に",
+          "answers": [
+            "失望のあまり黙り込んだようだ。"
+          ],
+          "explanation": "Câu vì quá mức: あまり／あまりのNに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-order-07",
+          "mode": "order",
+          "prompt": "Đông quá mức nên lối tắc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "あまりの混雑に"
+            },
+            {
+              "id": "1",
+              "text": "入口が"
+            },
+            {
+              "id": "2",
+              "text": "塞がった"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あまり／あまりの〜に",
+          "answers": [
+            "あまりの混雑に入口が塞がったそうだ。"
+          ],
+          "explanation": "Câu vì quá mức: あまり／あまりのNに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-order-08",
+          "mode": "order",
+          "prompt": "Sợ quá nên chân cứng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "恐怖のあまり"
+            },
+            {
+              "id": "1",
+              "text": "足が"
+            },
+            {
+              "id": "2",
+              "text": "動かなかった"
+            },
+            {
+              "id": "3",
+              "text": "らしい。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あまり／あまりの〜に",
+          "answers": [
+            "恐怖のあまり足が動かなかったらしい。"
+          ],
+          "explanation": "Câu vì quá mức: あまり／あまりのNに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-order-09",
+          "mode": "order",
+          "prompt": "Cảm động quá nên khóc.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "感動のあまり"
+            },
+            {
+              "id": "1",
+              "text": "涙が"
+            },
+            {
+              "id": "2",
+              "text": "出た"
+            },
+            {
+              "id": "3",
+              "text": "そうだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あまり／あまりの〜に",
+          "answers": [
+            "感動のあまり涙が出たそうだ。"
+          ],
+          "explanation": "Câu vì quá mức: あまり／あまりのNに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g04-order-10",
+          "mode": "order",
+          "prompt": "Ồn quá mức nên đau đầu.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "あまりの騒音に"
+            },
+            {
+              "id": "1",
+              "text": "頭が"
+            },
+            {
+              "id": "2",
+              "text": "痛くなった"
+            },
+            {
+              "id": "3",
+              "text": "ようだ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜あまり／あまりの〜に",
+          "answers": [
+            "あまりの騒音に頭が痛くなったようだ。"
+          ],
+          "explanation": "Câu vì quá mức: あまり／あまりのNに. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        }
+      ]
+    },
+    {
+      "id": "l16-g05",
+      "title": "〜につき",
+      "meaning": "Do… / vì… (thông báo trang trọng, biển báo)",
+      "variants": [
+        "につき"
+      ],
+      "structures": [
+        "N ＋ につき"
+      ],
+      "explanation": "つき nêu lý do ngắn gọn trên biển báo, thông báo công cộng: vì lý do X nên…",
+      "usage": "Thông báo cửa hàng, công ty, giao thông: tạm đóng, thay đổi lịch…",
+      "cautions": [
+        "Chủ yếu văn viết/thông báo; ít dùng hội thoại thân mật.",
+        "Thường sau danh từ; không kết hợp tự do như ので."
+      ],
+      "contrast": "につき ≈ vì (thông báo). Khác ため／ので (hội thoại/viết linh hoạt hơn).",
+      "examples": [
+        {
+          "ja": "工事中につき通行止めです。",
+          "reading": "こうじちゅうにつきつうこうどめです。",
+          "vi": "Do đang thi công nên cấm đi lại.",
+          "ruby": [
+            {
+              "text": "工事",
+              "reading": "こうじ"
+            },
+            {
+              "text": "中",
+              "reading": "ちゅう"
+            },
+            {
+              "text": "につき"
+            },
+            {
+              "text": "通行",
+              "reading": "つうこう"
+            },
+            {
+              "text": "止",
+              "reading": "ど"
+            },
+            {
+              "text": "めです。"
+            }
+          ]
+        },
+        {
+          "ja": "本日定休日につき休業します。",
+          "reading": "ほんじつていきゅうびにつききゅうぎょうします。",
+          "vi": "Do hôm nay nghỉ định kỳ nên tạm đóng cửa.",
+          "ruby": [
+            {
+              "text": "本日",
+              "reading": "ほんじつ"
+            },
+            {
+              "text": "定休日",
+              "reading": "ていきゅうび"
+            },
+            {
+              "text": "につき"
+            },
+            {
+              "text": "休業",
+              "reading": "きゅうぎょう"
+            },
+            {
+              "text": "します。"
+            }
+          ]
+        },
+        {
+          "ja": "諸事情につき中止といたします。",
+          "reading": "しょじじょうにつきちゅうしといたします。",
+          "vi": "Do nhiều lý do nên quyết định hủy.",
+          "ruby": [
+            {
+              "text": "諸事情",
+              "reading": "しょじじょう"
+            },
+            {
+              "text": "につき"
+            },
+            {
+              "text": "中止",
+              "reading": "ちゅうし"
+            },
+            {
+              "text": "といたします。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pdfPage": 87,
+        "printedPage": 74,
+        "urls": [
+          "https://www.tiengnhatdongian.com/ngu-phap-n2-ni-tsuki-vi-nen-do/"
+        ]
+      },
+      "reviewStatus": "agent_reviewed",
+      "revision": 1,
+      "exercises": [
+        {
+          "id": "l16-g05-vi-ja-01",
+          "mode": "vi-ja",
+          "prompt": "Do bảo trì nên tạm dừng dịch vụ.",
+          "answers": [
+            "メンテナンスにつきサービスを停止します。"
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-vi-ja-02",
+          "mode": "vi-ja",
+          "prompt": "Do hết hàng nên không bán.",
+          "answers": [
+            "売切れにつき販売できません。"
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-vi-ja-03",
+          "mode": "vi-ja",
+          "prompt": "Do mưa lớn nên hủy sự kiện.",
+          "answers": [
+            "大雨につきイベントは中止です。"
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-vi-ja-04",
+          "mode": "vi-ja",
+          "prompt": "Do họp nên phòng bận.",
+          "answers": [
+            "会議につきこの部屋は使用中です。"
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-vi-ja-05",
+          "mode": "vi-ja",
+          "prompt": "Do kiểm tra nên thang máy dừng.",
+          "answers": [
+            "点検につきエレベーターは停止中です。"
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-vi-ja-06",
+          "mode": "vi-ja",
+          "prompt": "Do sửa chữa nên lối đi đổi.",
+          "answers": [
+            "改修につき通路を変更します。"
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-vi-ja-07",
+          "mode": "vi-ja",
+          "prompt": "Do hết chỗ nên hết nhận đặt.",
+          "answers": [
+            "満席につき予約受付を終了します。"
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-vi-ja-08",
+          "mode": "vi-ja",
+          "prompt": "Do nghỉ lễ nên đóng cửa.",
+          "answers": [
+            "祝日につき本日は休業です。"
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-vi-ja-09",
+          "mode": "vi-ja",
+          "prompt": "Do sự cố hệ thống nên chậm trễ.",
+          "answers": [
+            "システム障害につき遅延が発生しています。"
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-vi-ja-10",
+          "mode": "vi-ja",
+          "prompt": "Do đang chuẩn bị nên xin chờ.",
+          "answers": [
+            "準備中につき少々お待ちください。"
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-ja-vi-01",
+          "mode": "ja-vi",
+          "prompt": "改装中につきしばらくお休みします。",
+          "answers": [
+            "Do đang cải tạo nên tạm nghỉ."
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-ja-vi-02",
+          "mode": "ja-vi",
+          "prompt": "悪天候につき運休します。",
+          "answers": [
+            "Do thời tiết xấu nên tạm dừng chạy."
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-ja-vi-03",
+          "mode": "ja-vi",
+          "prompt": "社内事情につき採用を見送ります。",
+          "answers": [
+            "Do tình hình công ty nên hoãn tuyển."
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-ja-vi-04",
+          "mode": "ja-vi",
+          "prompt": "停電につき営業を中断します。",
+          "answers": [
+            "Do mất điện nên tạm ngừng bán."
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-ja-vi-05",
+          "mode": "ja-vi",
+          "prompt": "混雑につき入場を制限します。",
+          "answers": [
+            "Do đông nên hạn chế vào."
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-ja-vi-06",
+          "mode": "ja-vi",
+          "prompt": "故障につき修理中です。",
+          "answers": [
+            "Do hỏng nên đang sửa."
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-ja-vi-07",
+          "mode": "ja-vi",
+          "prompt": "年末年始につき営業時間が変わります。",
+          "answers": [
+            "Do cuối/đầu năm giờ bán đổi."
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-ja-vi-08",
+          "mode": "ja-vi",
+          "prompt": "雨天につき屋内で実施します。",
+          "answers": [
+            "Do mưa nên tổ chức trong nhà."
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-ja-vi-09",
+          "mode": "ja-vi",
+          "prompt": "在庫僅少につきお一人様一点まで。",
+          "answers": [
+            "Do tồn kho ít, mỗi người một món."
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-ja-vi-10",
+          "mode": "ja-vi",
+          "prompt": "清掃につき一時ご利用いただけません。",
+          "answers": [
+            "Do dọn vệ sinh nên tạm thời không dùng được."
+          ],
+          "hint": "〜につき",
+          "explanation": "Câu lý do thông báo: Nにつき.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-order-01",
+          "mode": "order",
+          "prompt": "Do thi công cấm đi lại.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "工事中につき"
+            },
+            {
+              "id": "1",
+              "text": "通行止めに"
+            },
+            {
+              "id": "2",
+              "text": "なって"
+            },
+            {
+              "id": "3",
+              "text": "います。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜につき",
+          "answers": [
+            "工事中につき通行止めになっています。"
+          ],
+          "explanation": "Câu lý do thông báo: Nにつき. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-order-02",
+          "mode": "order",
+          "prompt": "Do nghỉ định kỳ đóng cửa.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "定休日につき"
+            },
+            {
+              "id": "1",
+              "text": "休業"
+            },
+            {
+              "id": "2",
+              "text": "いたし"
+            },
+            {
+              "id": "3",
+              "text": "ます。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜につき",
+          "answers": [
+            "定休日につき休業いたします。"
+          ],
+          "explanation": "Câu lý do thông báo: Nにつき. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-order-03",
+          "mode": "order",
+          "prompt": "Do nhiều lý do hủy.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "諸事情につき"
+            },
+            {
+              "id": "1",
+              "text": "中止と"
+            },
+            {
+              "id": "2",
+              "text": "させて"
+            },
+            {
+              "id": "3",
+              "text": "いただきます。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜につき",
+          "answers": [
+            "諸事情につき中止とさせていただきます。"
+          ],
+          "explanation": "Câu lý do thông báo: Nにつき. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-order-04",
+          "mode": "order",
+          "prompt": "Do bảo trì dừng dịch vụ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "メンテナンスにつき"
+            },
+            {
+              "id": "1",
+              "text": "サービスを"
+            },
+            {
+              "id": "2",
+              "text": "停止"
+            },
+            {
+              "id": "3",
+              "text": "します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜につき",
+          "answers": [
+            "メンテナンスにつきサービスを停止します。"
+          ],
+          "explanation": "Câu lý do thông báo: Nにつき. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-order-05",
+          "mode": "order",
+          "prompt": "Do hết hàng không bán.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "売切れにつき"
+            },
+            {
+              "id": "1",
+              "text": "販売は"
+            },
+            {
+              "id": "2",
+              "text": "でき"
+            },
+            {
+              "id": "3",
+              "text": "ません。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜につき",
+          "answers": [
+            "売切れにつき販売はできません。"
+          ],
+          "explanation": "Câu lý do thông báo: Nにつき. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-order-06",
+          "mode": "order",
+          "prompt": "Do mưa lớn hủy sự kiện.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "大雨につき"
+            },
+            {
+              "id": "1",
+              "text": "イベントは"
+            },
+            {
+              "id": "2",
+              "text": "中止と"
+            },
+            {
+              "id": "3",
+              "text": "します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜につき",
+          "answers": [
+            "大雨につきイベントは中止とします。"
+          ],
+          "explanation": "Câu lý do thông báo: Nにつき. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-order-07",
+          "mode": "order",
+          "prompt": "Do họp phòng đang dùng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "会議につき"
+            },
+            {
+              "id": "1",
+              "text": "この部屋は"
+            },
+            {
+              "id": "2",
+              "text": "使用中"
+            },
+            {
+              "id": "3",
+              "text": "です。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜につき",
+          "answers": [
+            "会議につきこの部屋は使用中です。"
+          ],
+          "explanation": "Câu lý do thông báo: Nにつき. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-order-08",
+          "mode": "order",
+          "prompt": "Do kiểm tra thang máy dừng.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "点検につき"
+            },
+            {
+              "id": "1",
+              "text": "エレベーターは"
+            },
+            {
+              "id": "2",
+              "text": "停止中"
+            },
+            {
+              "id": "3",
+              "text": "です。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜につき",
+          "answers": [
+            "点検につきエレベーターは停止中です。"
+          ],
+          "explanation": "Câu lý do thông báo: Nにつき. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-order-09",
+          "mode": "order",
+          "prompt": "Do hết chỗ hết nhận đặt.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "満席につき"
+            },
+            {
+              "id": "1",
+              "text": "予約受付を"
+            },
+            {
+              "id": "2",
+              "text": "終了"
+            },
+            {
+              "id": "3",
+              "text": "します。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜につき",
+          "answers": [
+            "満席につき予約受付を終了します。"
+          ],
+          "explanation": "Câu lý do thông báo: Nにつき. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        },
+        {
+          "id": "l16-g05-order-10",
+          "mode": "order",
+          "prompt": "Do đang chuẩn bị xin chờ.",
+          "tokens": [
+            {
+              "id": "0",
+              "text": "準備中につき"
+            },
+            {
+              "id": "1",
+              "text": "少々お待ち"
+            },
+            {
+              "id": "2",
+              "text": "ください"
+            },
+            {
+              "id": "3",
+              "text": "ませ。"
+            }
+          ],
+          "acceptedOrders": [
+            [
+              "0",
+              "1",
+              "2",
+              "3"
+            ]
+          ],
+          "starIndex": 0,
+          "hint": "〜につき",
+          "answers": [
+            "準備中につき少々お待ちくださいませ。"
+          ],
+          "explanation": "Câu lý do thông báo: Nにつき. Ghép bốn mảnh theo đúng cấu trúc.",
+          "origin": "authored",
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+        }
+      ]
+    }
+  ]
+}
