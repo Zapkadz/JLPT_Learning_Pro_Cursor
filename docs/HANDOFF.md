@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-16 (N2-L11-BATCH on `feat/n2-l11-batch`)
+2026-09-16 (N2-L11-BATCH PR #10)
 
 ## Project
 
@@ -11,36 +11,35 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/n2-l11-batch` — N2-L11-BATCH Lessons 11–15 content (uncommitted).
+`feat/n2-l11-batch` @ `7cefe8f` — PR #10 open.
 
 ## Latest Relevant Commit
 
-`main` / `origin/main`: `63cc9c8` — Merge PR #9 (Lessons 6–10).  
-This branch: L11–15 authored; **not committed** (per user).
+`feat/n2-l11-batch` @ `7cefe8f` — Lessons 11–15.  
+PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/10  
+`main` still at `63cc9c8` until merge.
 
 ## Current Objective
 
-**N2-L11-BATCH** — Lessons 11–15 authored, published in content, tests green. Awaiting user commit / PR.
+**N2-L11-BATCH** — PR #10 open. After merge → **N2-L16-BATCH** (needs approval).
 
 ## Current Phase
 
-**Phase 1+** — Lessons 1–15 published in content (on this branch). L16–26 unpublished.
+**Phase 1+** — Lessons 1–15 on feature branch / PR. L16–26 unpublished.
 
 ## Current Task
 
-N2-L11-BATCH — **implementation complete**; verification **15/15**; commit pending user request.
+Await merge of PR #10; then start **N2-L16-BATCH** only with approval.
 
 ## Last Completed Work
 
-- Merged PR #9 into `main`.  
 - Authored Lessons 11–15: 27 groups × 30 = **810** exercises (+ 3 examples/group).  
-- Generators: `scripts/gen-n2-l11-batch.mjs`, `scripts/n2-batch/lesson11.mjs`…`lesson15.mjs`.  
-- Manifest published L11–15; inventory `imported` / `agent_reviewed` for 27 IDs.  
-- Tests: 15 lessons / 77 patterns / 2310 exercises; DoD L2–15; unpublished = lesson-16.
+- Commit `7cefe8f`; PR #10 opened.  
+- Tests: 15 lessons / 77 patterns / 2310 exercises; `npm test` 15/15.
 
 ## Current State
 
-- Published lessons: **15** (L1–L15) on this branch.  
+- Published lessons: **15** (L1–L15) on PR branch.  
 - Published groups: **77** / target 141.  
 - Published exercises: **2310** / target 4230.  
 - Furigana JA→VI practice policy still open (**N2-L01-FURI-001**).
@@ -49,11 +48,9 @@ N2-L11-BATCH — **implementation complete**; verification **15/15**; commit pen
 
 | Check | State |
 |-------|--------|
-| `node scripts/gen-n2-l11-batch.mjs` | **OK** |
-| `node scripts/fix-overlaps.mjs` | **OK** |
 | `npm test` | **15/15 pass** |
-| `npm run build` | **OK** |
-| Commit / PR | **Not done** (awaiting user) |
+| Commit | `7cefe8f` |
+| PR | **#10 open** |
 
 ## Known Blockers
 
@@ -62,8 +59,8 @@ N2-L11-BATCH — **implementation complete**; verification **15/15**; commit pen
 
 ## Exact Next Action
 
-1. Commit + PR for `feat/n2-l11-batch` (shipping).  
-2. After merge: start **N2-L16-BATCH** only with user approval.  
+1. Merge PR #10 when ready.  
+2. Start **N2-L16-BATCH** (Lessons 16–20) only with user approval.  
 3. Do **not** import Lessons 16–26 until approved. FURI-001 still needs product decision.
 
 ## Files To Read Before Continuing
