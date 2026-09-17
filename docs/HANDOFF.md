@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-17 (KAI-004 DONE → next: KAI-005)
+2026-09-17 (KAI-005 DONE → next: KAI-006)
 
 ## Current Branch
 
@@ -18,22 +18,18 @@ Data + media foundation.
 
 ## Current Task
 
-**KAI-005** — schema/migration, shared Zod contracts, revision model, repository (additive; no behaviour break for existing modules).
+**KAI-006** — private storage adapter; quota and asset lifecycle.
+
+## Last Completed Work
+
+KAI-005: migration `kaiwa-001`, Zod contracts, repository, `/api/kaiwa` skeleton; tests 21/21.
 
 ## Exact Next Action
 
-Implement KAI-005 per `docs/kaiwa/TASKS.md` + PLAN §6: `shared/kaiwa` schemas, `server/modules/kaiwa/migration.sql`, mount-safe module init, tests for owner/FK/revision immutability/conflict.
-
-## Files To Read
-
-1. `docs/kaiwa/PLAN.md` §6–7
-2. `docs/kaiwa/TASKS.md` (KAI-005)
-3. `docs/kaiwa/evidence/KAI-001-integration-audit.md`
-4. `server/modules/grammar/migration.sql` (pattern)
-5. ADR-012, ADR-013, ADR-015
+Implement KAI-006 per TASKS: private filesystem storage outside web root, server-generated keys, quota reservation, auth’d GET/HEAD/Range.
 
 ## Safety
 
-- Additive migrations only.
+- Do not store media in SQLite blobs.
+- Do not commit user media.
 - Do not stage unrelated grammar dirty files.
-- Autonomous commit/push/continue after VERIFY.

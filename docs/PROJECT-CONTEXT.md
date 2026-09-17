@@ -85,7 +85,7 @@ Explicitly not full JLPT curriculum: starter bank remains a small authored set; 
 | `data/` | Local SQLite (gitignored) |
 | `.cursor/rules/` | Agent workflow + memory + Karpathy guidelines |
 
-**Planned (not present in tree yet):** `src/features/kaiwa/`, `shared/kaiwa/`, `server/modules/kaiwa/`, `server/workers/kaiwa/`, `server/modules/kaiwa/providers/`.
+**Planned (partially present after KAI-005):** `src/features/kaiwa/` (UI not yet), `shared/kaiwa/` (**exists**), `server/modules/kaiwa/` (**exists** — migration + repository + routes), `server/workers/kaiwa/` (not yet), `server/modules/kaiwa/providers/` (not yet).
 
 Ignored / do not treat as source: `node_modules/`, `dist/`, `tmp/`, `data/`.
 

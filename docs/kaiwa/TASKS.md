@@ -4,7 +4,7 @@ Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION
 
 Ngày cập nhật: 17/09/2026. Mốc A: chưa bắt đầu. Mốc B: chưa bắt đầu. Module hiện chưa có tính năng được nghiệm thu.
 
-KAI-001–004 DONE (audit, capture, scoring map, UX spec). Next: **KAI-005** (schema/contracts).
+KAI-001–005 DONE. Next: **KAI-006** (private storage adapter / quota).
 
 ## Cách đọc
 
@@ -38,7 +38,7 @@ KAI-003 cần bắt đầu sớm cùng giai đoạn nghiên cứu capture. Đây
 
 | ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
 | --- | --- | --- | --- | --- |
-| KAI-005 · M · Backend | Schema/migration, shared Zod contracts, revision model và repository | KAI-001 | Migration chạy trên DB mới/cũ không mất dữ liệu; owner/FK/unique constraints; attempt giữ đúng revision; kiểm thử conflict khi sửa cùng lúc | TODO |
+| KAI-005 · M · Backend | Schema/migration, shared Zod contracts, revision model và repository | KAI-001 | Migration chạy trên DB mới/cũ không mất dữ liệu; owner/FK/unique constraints; attempt giữ đúng revision; kiểm thử conflict khi sửa cùng lúc | DONE |
 | KAI-006 · M · Backend | Private storage adapter; quota và lifecycle asset | KAI-005 | File ngoài public root, storage key do server sinh; quota có reservation chống hai upload vượt hạn; rollback giải phóng reservation; GET/HEAD/Range có auth | TODO |
 | KAI-007 · L · Backend/Operations | Durable job queue bằng DB, worker riêng, lease/retry/cancel/progress | KAI-005, KAI-006 | Kill worker rồi restart nhận lại job; không publish output hai lần; timeout giải phóng tài nguyên; payload có version; job chết có lỗi đọc được | TODO |
 | KAI-008 · M · Backend/Security | Upload nhị phân theo chunk, checksum, status/resume/cancel | KAI-006 | Chunk lặp cùng hash an toàn, khác hash conflict; thiếu chunk không complete; quota, expiry, ownership đúng; JSON limit 2 MB hiện tại không bị nới toàn cục | TODO |
