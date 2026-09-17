@@ -11,7 +11,8 @@
     "test:e2e": "playwright test",
     "format": "prettier --write src server shared tests *.json *.md",
     "format:check": "prettier --check src server shared tests *.json *.md",
-    "backup": "tsx server/backup.ts"
+    "backup": "tsx server/backup.ts",
+    "kaiwa:capture-spike": "node scripts/kaiwa/run-capture-spike.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^11.9.0",

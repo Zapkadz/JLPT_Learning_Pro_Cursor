@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-17 (KAI-001 DONE → next: KAI-002)
+2026-09-17 (KAI-002 DONE → next: KAI-003)
 
 ## Project
 
@@ -11,63 +11,60 @@ Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/kaiwa-memory` (Kaiwa docs + KAI-001 audit; no Kaiwa app runtime yet).
+`feat/kaiwa-memory`
 
 ## Latest Relevant Commit
 
-See `git log -1` after push. Prior: `8391ada` KAI-MEM-001.
+See `git log -1` after push.
 
 ## Current Objective
 
-**Kaiwa Studio** — Gate A → Gate B (full-video continuous dubbing first).
+**Kaiwa Studio** — Gate A → Gate B.
 
 ## Current Phase
 
-Design / risk validation — capture spike.
+Design / risk validation — Japanese scoring spike.
 
 ## Current Task
 
-**KAI-002** — continuous capture spike (codec, mic, video clock, latency, 10‑minute drift, EOF/device/background).
+**KAI-003** — Japanese scoring provider capability spike (no fake scores; document UNAVAILABLE if no credentials).
+
+**Also READY:** KAI-004 (UX wireflows; depends KAI-001+002).
 
 ## Last Completed Work
 
-- KAI-MEM-001: root memory + autonomous workflow (`8391ada`).
-- **KAI-001 DONE:** integration audit + ADR-015 pilot/privacy/integration boundaries. Evidence: `docs/kaiwa/evidence/KAI-001-integration-audit.md`. No app behaviour change; no Kaiwa feature directories created.
+- KAI-MEM-001, KAI-001 (ADR-015), **KAI-002** (ADR-016; MediaRecorder+video clock; 10‑min drift PASS in synthetic Chromium lab).
 
 ## Current State
 
-- Kaiwa application code: **not started**.
-- Gate A / Gate B: not started.
-- Grammar N2: 26/141/4230 on `main`; teacher review PENDING.
-- Local unrelated dirty may remain: grammar lesson `revision` bumps + `tests/grammar/grammar.test.ts` — do not mix into Kaiwa commits.
+- Kaiwa product UI/API still **not shipped**.
+- Capture stack decision locked (ADR-016).
+- Scoring provider **not** locked (must not assume Azure prosody for JA intonation).
 
 ## Verification State
 
 | Check | State |
 |-------|--------|
-| KAI-001 audit | DONE (read-only survey + docs) |
-| Kaiwa app tests | N/A |
+| Capture spike 20s/120s/600s | PASS (≤100 ms drift) |
+| `npm run kaiwa:capture-spike` | Available |
 
 ## Known Blockers
 
-- None for KAI-002 spike start (browser/device work; no external API required).
-- OD-002 (scoring provider) open — does not block KAI-002; KAI-003 can proceed in parallel when staffing allows.
+- Live ja-JP provider samples need credentials — if missing, KAI-003 records gap and continues with capability map / fallback design (does not block KAI-004 or later foundation tasks that do not need scoring).
 
 ## Exact Next Action
 
-Execute **KAI-002** per `docs/kaiwa/TASKS.md` + `IMPLEMENTATION-RULES.md`: build capture harness, measure head/mid/tail sync on ~10‑minute video, record codec/browser findings into ADR; do not use chunk count as timeline.
+Execute **KAI-003** per TASKS: capability map for ja-JP, allowed/forbidden conclusions, fallback, benchmark outline; no fabricated scores.
 
-## Files To Read Before Continuing
+## Files To Read
 
-1. `docs/kaiwa/PLAN.md` (§8 sync / state machine)
-2. `docs/kaiwa/TASKS.md` (KAI-002 acceptance)
-3. `docs/kaiwa/IMPLEMENTATION-RULES.md`
-4. `docs/kaiwa/evidence/KAI-001-integration-audit.md`
-5. `docs/DECISIONS.md` (ADR-010–015)
+1. `docs/kaiwa/PLAN.md` §10
+2. `docs/kaiwa/TASKS.md` (KAI-003)
+3. `docs/kaiwa/evidence/kai-002/REPORT.md`
+4. `docs/DECISIONS.md` ADR-014, ADR-016
 
 ## Safety Notes
 
+- Do not commit audio blobs or API secrets.
 - Do not start KAI-035 before Gate B.
-- Do not commit user recordings / large media.
-- Do not stage unrelated grammar dirty files.
-- Autonomous commit/push/continue after VERIFY PASS.
+- Do not mix unrelated grammar dirty files into Kaiwa commits.

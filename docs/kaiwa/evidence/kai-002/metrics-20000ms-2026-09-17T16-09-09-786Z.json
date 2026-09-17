@@ -1,0 +1,89 @@
+﻿{
+    "task":  "KAI-002",
+    "startedAt":  "2026-09-17T16:08:49.108Z",
+    "finishedAt":  "2026-09-17T16:09:09.605Z",
+    "userAgent":  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+    "mimeType":  "audio/webm;codecs=opus",
+    "mimeSupported":  [
+                          {
+                              "m":  "audio/webm;codecs=opus",
+                              "ok":  true
+                          },
+                          {
+                              "m":  "audio/webm",
+                              "ok":  true
+                          },
+                          {
+                              "m":  "audio/mp4",
+                              "ok":  true
+                          },
+                          {
+                              "m":  "audio/ogg;codecs=opus",
+                              "ok":  false
+                          }
+                      ],
+    "durationMs":  20000,
+    "timesliceMs":  1000,
+    "markers":  [
+                    {
+                        "label":  "head",
+                        "perfNow":  591.5999999940395,
+                        "videoTimeSec":  0.104346,
+                        "mappedSec":  0.10754599998807907,
+                        "driftMs":  -3.199999988079072,
+                        "chunkCount":  0
+                    },
+                    {
+                        "label":  "mid",
+                        "perfNow":  10594.40000000596,
+                        "videoTimeSec":  10.099402,
+                        "mappedSec":  10.110346,
+                        "driftMs":  -10.944000000000287,
+                        "chunkCount":  9
+                    },
+                    {
+                        "label":  "tail_before_stop",
+                        "perfNow":  20592.69999998808,
+                        "videoTimeSec":  20.098839,
+                        "mappedSec":  20.10864599998212,
+                        "driftMs":  -9.806999982117759,
+                        "chunkCount":  19
+                    },
+                    {
+                        "label":  "tail_after_stop",
+                        "perfNow":  20598.40000000596,
+                        "videoTimeSec":  20.098839,
+                        "mappedSec":  20.114346,
+                        "driftMs":  -15.506999999999493,
+                        "chunkCount":  19
+                    }
+                ],
+    "events":  [
+                   {
+                       "type":  "recorder_start",
+                       "state":  "recording"
+                   },
+                   {
+                       "type":  "recorder_stop"
+                   }
+               ],
+    "clocks":  {
+                   "t0Perf":  588.4000000059605,
+                   "t0Video":  0.104346,
+                   "timeOrigin":  1789661328996.8
+               },
+    "summary":  {
+                    "chunkCount":  19,
+                    "totalChunkBytes":  301842,
+                    "headDriftMs":  -3.199999988079072,
+                    "midDriftMs":  -10.944000000000287,
+                    "tailDriftMs":  -9.806999982117759,
+                    "expectedChunksApprox":  20,
+                    "driftTargetMs":  100,
+                    "midPass":  true,
+                    "tailPass":  true,
+                    "note":  "Drift compares video.currentTime vs perf-mapped timeline; chunkCount is diagnostic only."
+                },
+    "chunkCount":  20,
+    "note":  "Full chunk arrays omitted from git; re-run harness to regenerate."
+}

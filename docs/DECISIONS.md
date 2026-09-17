@@ -480,3 +480,38 @@ Do not raise global `express.json` limit for video. Do not serve Kaiwa files fro
 ### Related Files
 
 `docs/kaiwa/evidence/KAI-001-integration-audit.md`, `docs/kaiwa/PLAN.md`, `server/app.ts`, `server/backup.ts`
+
+---
+
+## ADR-016 — Kaiwa continuous capture stack (MediaRecorder + video clock)
+
+Date: 2026-09-17
+Status: Accepted (KAI-002 spike; Chromium lab evidence; 10‑minute metrics to be attached in evidence folder)
+
+### Context
+
+Gate A needs continuous full-video dubbing without per-sentence auto-stop. PLAN §8 forbids using MediaRecorder chunk counts as the timeline. KAI-002 required a harness and head/mid/tail drift evidence.
+
+### Decision
+
+1. **Capture:** Use browser **`MediaRecorder`** on the **raw microphone** track (not the mixed lesson audio). Prefer MIME **`audio/webm;codecs=opus`** when `isTypeSupported`.
+2. **Clock:** Source of truth is lesson/proxy **`video.currentTime`**, mapped with **`performance.now()`** (monotonic) from a recorded `t0Perf`/`t0Video`. Persist offsets, sample-rate/codec metadata, and interruption events. **Never** derive media time from chunk index or `timeslice`.
+3. **Journaling:** `timeslice` chunks may be used for upload/resume buffering only; a chunk is not proof of a playable standalone media file (KAI-019/020 must remux/validate).
+4. **AudioWorklet PCM journal:** Not adopted for pilot unless MediaRecorder crash-recovery proves insufficient.
+5. **Pilot claim:** Desktop Chromium/Edge first (ADR-015). Other browsers need KAI-004 matrix before promising recording support.
+
+### Reason
+
+Lab harness on Chromium showed Opus/WebM available and head/mid/tail drift within ≈100 ms on a 20 s synthetic run using the video/perf mapping. Matches PLAN continuous-dubbing UX and keeps raw mic separate for assessment (ADR-012).
+
+### Consequences
+
+Studio implementation (KAI-017–020) must follow this clock contract. Drift regressions need harness re-run. 10‑minute and real-mic matrices remain operational follow-ups recorded in `docs/kaiwa/evidence/kai-002/`.
+
+### Do Not
+
+Do not stitch per-sentence recordings to fake continuity. Do not treat ASR timestamps as the capture clock. Do not commit user recordings to git.
+
+### Related Files
+
+`docs/kaiwa/evidence/kai-002/`, `scripts/kaiwa/run-capture-spike.mjs`, `docs/kaiwa/PLAN.md` §8

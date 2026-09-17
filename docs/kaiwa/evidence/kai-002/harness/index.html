@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <title>Kaiwa KAI-002 Capture Spike Harness</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 52rem;
+        margin: 1.5rem auto;
+        padding: 0 1rem;
+        line-height: 1.45;
+      }
+      video,
+      canvas {
+        width: 100%;
+        max-width: 480px;
+        background: #111;
+        display: block;
+      }
+      pre {
+        background: #f4f4f5;
+        padding: 0.75rem;
+        overflow: auto;
+        font-size: 12px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 0.75rem 0;
+      }
+      button {
+        min-height: 44px;
+        padding: 0.4rem 0.9rem;
+      }
+      .ok {
+        color: #067647;
+      }
+      .bad {
+        color: #b42318;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>KAI-002 Capture Spike</h1>
+    <p>
+      Timeline chuẩn = <code>video.currentTime</code> +
+      <code>performance.now()</code> monotonic mapping. Không dùng số chunk làm
+      đồng hồ.
+    </p>
+    <div class="row">
+      <label
+        >Duration ms
+        <input id="durationMs" type="number" value="30000" min="3000" step="1000"
+      /></label>
+      <label
+        >Timeslice ms
+        <input id="timesliceMs" type="number" value="1000" min="100" step="100"
+      /></label>
+      <button id="run" type="button">Run spike</button>
+      <button id="interrupt" type="button" disabled>Simulate interrupt</button>
+    </div>
+    <video id="player" playsinline muted></video>
+    <canvas id="paint" width="640" height="360" hidden></canvas>
+    <pre id="out">Idle.</pre>
+    <script type="module">
+      const out = document.getElementById("out");
+      const player = document.getElementById("player");
+      const paint = document.getElementById("paint");
+      const ctx = paint.getContext("2d");
+      const params = new URLSearchParams(location.search);
+      if (params.get("durationMs"))
+        document.getElementById("durationMs").value = params.get("durationMs");
+      if (params.get("timesliceMs"))
+        document.getElementById("timesliceMs").value = params.get("timesliceMs");
+      if (params.get("autorun") === "1") {
+        queueMicrotask(() => document.getElementById("run").click());
+      }
+
+      const mimeCandidates = [
+        "audio/webm;codecs=opus",
+        "audio/webm",
+        "audio/mp4",
+        "audio/ogg;codecs=opus",
+      ];
+
+      function pickMime() {
+        if (typeof MediaRecorder === "undefined") return null;
+        return mimeCandidates.find((m) => MediaRecorder.isTypeSupported(m)) || "";
+      }
+
+      function log(obj) {
+        out.textContent =
+          typeof obj === "string" ? obj : JSON.stringify(obj, null, 2);
+      }
+
+      function makeSyntheticStream(durationMs) {
+        const audioCtx = new AudioContext();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        gain.gain.value = 0.08;
+        osc.frequency.value = 440;
+        osc.connect(gain);
+        const dest = audioCtx.createMediaStreamDestination();
+        gain.connect(dest);
+        osc.start();
+
+        let raf = 0;
+        const start = performance.now();
+        const draw = () => {
+          const t = (performance.now() - start) / 1000;
+          ctx.fillStyle = "#102a43";
+          ctx.fillRect(0, 0, paint.width, paint.height);
+          ctx.fillStyle = "#f0f4f8";
+          ctx.font = "48px sans-serif";
+          ctx.fillText(t.toFixed(3) + "s", 40, 100);
+          const flash = Math.floor(t) % 2 === 0;
+          ctx.fillStyle = flash ? "#2bb0ed" : "#d64545";
+          ctx.fillRect(40, 140, 200, 80);
+          raf = requestAnimationFrame(draw);
+        };
+        draw();
+        const videoStream = paint.captureStream(30);
+        const combined = new MediaStream([
+          ...videoStream.getVideoTracks(),
+          ...dest.stream.getAudioTracks(),
+        ]);
+        return {
+          stream: combined,
+          micStream: dest.stream,
+          audioCtx,
+          osc,
+          stopVisual: () => cancelAnimationFrame(raf),
+          durationMs,
+        };
+      }
+
+      let activeRecorder = null;
+
+      document.getElementById("interrupt").onclick = () => {
+        if (!activeRecorder) return;
+        activeRecorder.stream.getTracks().forEach((t) => t.stop());
+      };
+
+      document.getElementById("run").onclick = async () => {
+        const durationMs = Number(document.getElementById("durationMs").value);
+        const timesliceMs = Number(document.getElementById("timesliceMs").value);
+        const mimeType = pickMime();
+        const report = {
+          task: "KAI-002",
+          startedAt: new Date().toISOString(),
+          userAgent: navigator.userAgent,
+          mimeType,
+          mimeSupported: mimeCandidates.map((m) => ({
+            m,
+            ok: typeof MediaRecorder !== "undefined" && MediaRecorder.isTypeSupported(m),
+          })),
+          durationMs,
+          timesliceMs,
+          chunks: [],
+          markers: [],
+          events: [],
+          clocks: {},
+        };
+
+        if (mimeType === null) {
+          report.error = "MediaRecorder unavailable";
+          window.__KAIWA_SPIKE__ = report;
+          log(report);
+          return;
+        }
+
+        const synth = makeSyntheticStream(durationMs);
+        player.srcObject = synth.stream;
+        await player.play();
+
+        const mic =
+          params.get("realMic") === "1"
+            ? await navigator.mediaDevices.getUserMedia({
+                audio: true,
+                video: false,
+              })
+            : synth.micStream;
+
+        const recorder = new MediaRecorder(
+          mic,
+          mimeType ? { mimeType } : undefined,
+        );
+        activeRecorder = recorder;
+        document.getElementById("interrupt").disabled = false;
+
+        const t0Perf = performance.now();
+        const t0Video = player.currentTime;
+        report.clocks = {
+          t0Perf,
+          t0Video,
+          timeOrigin: performance.timeOrigin,
+        };
+
+        const mark = (label) => {
+          const perfNow = performance.now();
+          const videoTimeSec = player.currentTime;
+          const mappedSec = (perfNow - t0Perf) / 1000 + t0Video;
+          report.markers.push({
+            label,
+            perfNow,
+            videoTimeSec,
+            mappedSec,
+            driftMs: (videoTimeSec - mappedSec) * 1000,
+            chunkCount: report.chunks.length,
+          });
+        };
+
+        recorder.ondataavailable = (ev) => {
+          report.chunks.push({
+            seq: report.chunks.length,
+            size: ev.data?.size || 0,
+            // Intentionally NOT used as timeline clock:
+            wallPerf: performance.now(),
+            videoTimeSec: player.currentTime,
+          });
+        };
+        recorder.onerror = (ev) =>
+          report.events.push({ type: "recorder_error", message: String(ev.error || ev) });
+        recorder.onstop = () => report.events.push({ type: "recorder_stop" });
+
+        recorder.start(timesliceMs);
+        report.events.push({ type: "recorder_start", state: recorder.state });
+        mark("head");
+
+        const midAt = durationMs / 2;
+        const midTimer = setTimeout(() => mark("mid"), midAt);
+
+        const visibility = () =>
+          report.events.push({
+            type: "visibility",
+            state: document.visibilityState,
+            perfNow: performance.now(),
+            videoTimeSec: player.currentTime,
+          });
+        document.addEventListener("visibilitychange", visibility);
+
+        await new Promise((resolve) => {
+          const endTimer = setTimeout(() => {
+            mark("tail_before_stop");
+            try {
+              if (recorder.state !== "inactive") recorder.stop();
+            } catch (e) {
+              report.events.push({ type: "stop_error", message: String(e) });
+            }
+            resolve();
+          }, durationMs);
+          recorder.addEventListener(
+            "stop",
+            () => {
+              clearTimeout(endTimer);
+              resolve();
+            },
+            { once: true },
+          );
+        });
+
+        clearTimeout(midTimer);
+        document.removeEventListener("visibilitychange", visibility);
+        mark("tail_after_stop");
+
+        // EOF observation: synthetic stream ends by stopping tracks
+        synth.stream.getTracks().forEach((t) => t.stop());
+        mic.getTracks().forEach((t) => t.stop());
+        synth.osc.stop();
+        await synth.audioCtx.close().catch(() => {});
+        synth.stopVisual();
+        player.srcObject = null;
+        activeRecorder = null;
+        document.getElementById("interrupt").disabled = true;
+
+        const head = report.markers.find((m) => m.label === "head");
+        const mid = report.markers.find((m) => m.label === "mid");
+        const tail = report.markers.find((m) => m.label === "tail_before_stop");
+        report.summary = {
+          chunkCount: report.chunks.length,
+          totalChunkBytes: report.chunks.reduce((a, c) => a + c.size, 0),
+          headDriftMs: head?.driftMs ?? null,
+          midDriftMs: mid?.driftMs ?? null,
+          tailDriftMs: tail?.driftMs ?? null,
+          // Prove chunk count is not the clock: expected chunks ≈ duration/timeslice
+          expectedChunksApprox: Math.floor(durationMs / timesliceMs),
+          driftTargetMs: 100,
+          midPass:
+            mid != null && Math.abs(mid.driftMs) <= 100,
+          tailPass:
+            tail != null && Math.abs(tail.driftMs) <= 100,
+          note: "Drift compares video.currentTime vs perf-mapped timeline; chunkCount is diagnostic only.",
+        };
+        report.finishedAt = new Date().toISOString();
+        window.__KAIWA_SPIKE__ = report;
+        log(report);
+      };
+
+      window.__KAIWA_SPIKE_READY__ = true;
+    </script>
+  </body>
+</html>

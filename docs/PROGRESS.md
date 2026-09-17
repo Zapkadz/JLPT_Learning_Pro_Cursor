@@ -8,9 +8,9 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** planning docs complete (DOC-001 / DOC-002 / DOC-003). **KAI-001 DONE** (integration audit + ADR-015). **Application implementation not started** (no feature runtime). Gate A not started. Gate B not started. **No Kaiwa feature accepted.** Documentation/audit ≠ product implementation.
-- Git: **AVAILABLE** — work on `feat/kaiwa-memory`; next task **KAI-002**.
-- Local unrelated WIP (not part of Kaiwa commits): grammar lesson `revision` bumps + `tests/grammar/grammar.test.ts` may be dirty in the working tree.
+- **Kaiwa Studio:** DOC-001–003 + **KAI-001 DONE** + **KAI-002 DONE** (capture spike ADR-016; 10‑min synthetic drift PASS). Still **no shipped Kaiwa product feature**. Gate A/B not accepted. Next: KAI-003.
+- Git: work on `feat/kaiwa-memory`.
+- Local unrelated WIP: grammar lesson `revision` bumps + `tests/grammar/grammar.test.ts` may be dirty — keep out of Kaiwa commits.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -227,6 +227,12 @@ Re-verified against repository (no app code changes):
 
 - Mapped Lesson 1 groups to Tiếng Nhật Đơn Giản URLs in `inventory.json`.
 
+### KAI-002 (2026-09-17) — DONE (spike / ADR)
+
+Continuous capture harness + Chromium lab metrics (20s / 120s / **600s**). Drift ≤100 ms head/mid/tail on synthetic video/mic.
+Evidence: `docs/kaiwa/evidence/kai-002/`. ADR-016: MediaRecorder + Opus/WebM + video/perf clock.
+No product UI/API shipped; no user media committed.
+
 ### KAI-001 (2026-09-17) — DONE (audit / ADR only)
 
 Integration survey of auth, nav, stats, backup, middleware, migrations, media gaps.
@@ -252,6 +258,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-17 | KAI-002 capture spike 20s/120s/600s | drift ≤100 ms PASS; ADR-016 | `docs/kaiwa/evidence/kai-002/` |
 | 2026-09-17 | KAI-001 integration audit + ADR-015 | docs evidence; no app code | `docs/kaiwa/evidence/KAI-001-integration-audit.md` |
 | 2026-09-17 | KAI-MEM-001 memory/rules integration | docs consistency audit + `git diff --check` | `feat/kaiwa-memory` `8391ada` |
 | 2026-09-16 | N2-L01-FURI-001 JA→VI promptRuby (ADR-009) | **16/16 pass**; build OK; merged PR #14 | `7b1e324` |
@@ -281,7 +288,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 ## Known Incomplete Work
 
-- Kaiwa application implementation from **KAI-002** onward (capture spike next). KAI-001 audit only.
+- Kaiwa foundation/product tasks from **KAI-003** / **KAI-004** / **KAI-005+**. Capture stack spiked (KAI-002).
 - Independent teacher review of N2 content / furigana readings (language QA).
 - Possible local grammar content `revision` bump still uncommitted (separate from Kaiwa).
 
