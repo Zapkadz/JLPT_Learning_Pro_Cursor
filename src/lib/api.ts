@@ -45,6 +45,11 @@ export function useData<T = any>(path: string) {
   const [error, setError] = useState("");
   const [version, reload] = useState(0);
   useEffect(() => {
+    if (!path) {
+      setData(null);
+      setError("");
+      return;
+    }
     const controller = new AbortController();
     setError("");
     setData(null);

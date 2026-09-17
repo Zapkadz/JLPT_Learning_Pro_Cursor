@@ -253,10 +253,37 @@ export function createKaiwaRepository(db: Database.Database) {
     const row = db
       .prepare("SELECT * FROM kaiwa_attempts WHERE id=? AND owner_id=?")
       .get(attemptId, ownerId) as
-      | { id: string; revision_id: string; project_id: string }
+      | {
+          id: string;
+          revision_id: string;
+          project_id: string;
+          record_state: string;
+          created_at: string;
+        }
       | undefined;
     if (!row) fail(404, "Không tìm thấy bản thu trong tài khoản của bạn.");
-    return row;
+    const revision = getRevision(row.revision_id);
+    const project = ownProject(row.project_id, ownerId);
+    const payload = JSON.parse(revision.payload || '{"segments":[]}') as {
+      segments: unknown[];
+    };
+    const segments = Array.isArray(payload.segments) ? payload.segments : [];
+    return {
+      ...row,
+      projectTitle: project.title,
+      proxyAssetId: project.proxy_asset_id,
+      revision: {
+        id: revision.id,
+        version: revision.version,
+        state: revision.state,
+        payload: { segments },
+      },
+      assessableReady: segments.length > 0,
+      assessableMessage:
+        segments.length > 0
+          ? null
+          : "Chưa có lời thoại — vẫn thu được, nhưng chưa đủ chuẩn để chấm phát âm.",
+    };
   }
 
   return {

@@ -252,6 +252,11 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-016 (2026-09-18) — DONE
+
+Prep screen (seek sync + help toggles); `start-practice` publishes and pins immutable revision; empty transcript still startable with honesty copy; studio shell shows snapshot.
+Evidence: `docs/kaiwa/evidence/kai-016/REPORT.md`. Verify: `npm test` **50/50**; build OK.
+
 ### KAI-014 (2026-09-18) — DONE
 
 Segment tokens + readingStale; Hepburn romaji exceptions; independent furigana/romaji/VI toggles (romaji default off); manual overrides persist.
@@ -318,6 +323,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-016 prep + snapshot | **50/50** npm test; build OK | `docs/kaiwa/evidence/kai-016/REPORT.md` |
 | 2026-09-18 | KAI-014 reading/romaji layers | **48/48** npm test; build OK | `docs/kaiwa/evidence/kai-014/REPORT.md` |
 | 2026-09-17 | KAI-013 SRT/VTT + editor | **42/42** npm test; build OK | `docs/kaiwa/evidence/kai-013/REPORT.md` |
 | 2026-09-17 | KAI-012 fixtures + vertical slice | **38/38** npm test | `docs/kaiwa/evidence/kai-012/REPORT.md` |
@@ -360,7 +366,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 ## Known Incomplete Work
 
-- Kaiwa **KAI-016+** (prep / studio). KAI-015 ASR deferred without credentials. Live scoring verify still needs credentials.
+- Kaiwa **KAI-017+** (mic / recorder). KAI-015 ASR deferred without credentials.
 - KAI-010 ffmpeg normalize / thumbnail binary still deferred until `FFMPEG_PATH` (passthrough proxy OK for UI).
 - Independent teacher review of N2 content / furigana readings (language QA).
 - Possible local grammar content `revision` bump still uncommitted (separate from Kaiwa).

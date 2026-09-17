@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import { Mic2, Upload } from "lucide-react";
 import { ApiError, api, dateTime, post, useData } from "../../lib/api";
 import { ErrorState, Loading, PageHead, Status } from "../../components/ui";
@@ -349,10 +349,13 @@ export function KaiwaProject() {
       ) : null}
 
       <div className="panel kaiwa-hub-actions">
-        <p>Soạn lời thoại (SRT/VTT hoặc nhập tay), rồi vào phòng thu ở các bước sau.</p>
+        <p>Soạn lời thoại, xem lại trên màn chuẩn bị, rồi bắt đầu lần thu (snapshot bất biến).</p>
         <div className="kaiwa-actions">
           <Link className="btn" to={`/kaiwa/projects/${data.id}/edit`}>
             Soạn phụ đề
+          </Link>
+          <Link className="btn" to={`/kaiwa/projects/${data.id}/prep`}>
+            Chuẩn bị học
           </Link>
           <Link className="btn secondary" to="/kaiwa/new">
             Tải video khác
@@ -849,6 +852,302 @@ export function KaiwaEdit() {
           </li>
         ))}
       </ol>
+    </div>
+  );
+}
+
+type AttemptDetail = {
+  id: string;
+  project_id: string;
+  revision_id: string;
+  projectTitle: string;
+  proxyAssetId: string | null;
+  assessableReady: boolean;
+  assessableMessage: string | null;
+  revision: {
+    id: string;
+    version: number;
+    state: string;
+    payload: { segments: KaiwaSegment[] };
+  };
+};
+
+export function KaiwaPrep() {
+  const { user } = useAuth();
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const { data: project, error: projectError, reload } = useData<ProjectRow>(
+    id ? `/kaiwa/projects/${id}` : "",
+  );
+  const [revision, setRevision] = useState<RevisionView | null>(null);
+  const [prefs, setPrefs] = useState<HelpPrefs>(() =>
+    loadHelpPrefs(user?.id || "anon"),
+  );
+  const [message, setMessage] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [activeIdx, setActiveIdx] = useState(0);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (user?.id) setPrefs(loadHelpPrefs(user.id));
+  }, [user?.id]);
+
+  useEffect(() => {
+    if (!id) return;
+    let cancelled = false;
+    (async () => {
+      try {
+        const data = await api<{
+          revisionId: string;
+          version: number;
+          state: string;
+          payload: { segments: KaiwaSegment[] };
+        }>(`/kaiwa/projects/${id}/active-revision`);
+        if (!cancelled) {
+          setRevision({
+            revisionId: data.revisionId,
+            version: data.version,
+            state: data.state,
+            payload: data.payload,
+          });
+        }
+      } catch (e) {
+        if (!cancelled)
+          setMessage(e instanceof Error ? e.message : "Lỗi tải lời thoại.");
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [id]);
+
+  function togglePref(key: keyof HelpPrefs) {
+    setPrefs((p) => {
+      const next = { ...p, [key]: !p[key] };
+      if (user?.id) saveHelpPrefs(user.id, next);
+      return next;
+    });
+  }
+
+  const segments = revision?.payload.segments || [];
+  const playbackUrl = project?.proxy_asset_id
+    ? `/api/kaiwa/assets/${project.proxy_asset_id}/content`
+    : null;
+
+  async function startPractice() {
+    if (!id || !revision) return;
+    setBusy(true);
+    setMessage("");
+    try {
+      const attempt = await post<AttemptDetail>(
+        `/kaiwa/projects/${id}/start-practice`,
+        {
+          publish: true,
+          expectedRevisionVersion: revision.version,
+        },
+      );
+      navigate(`/kaiwa/projects/${id}/studio?attempt=${attempt.id}`, {
+        replace: true,
+      });
+    } catch (e) {
+      setMessage(e instanceof Error ? e.message : "Không bắt đầu được lần thu.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  if (!id) return <ErrorState message="Thiếu mã dự án." />;
+  if (projectError) return <ErrorState message={projectError} retry={reload} />;
+  if (!project || !revision) return <Loading />;
+
+  return (
+    <div className="kaiwa-page">
+      <PageHead
+        title={`Chuẩn bị · ${project.title}`}
+        description="Xem lời thoại đồng bộ với video. Ba lớp trợ giúp độc lập."
+      >
+        <Link className="btn secondary" to={`/kaiwa/projects/${id}`}>
+          Về dự án
+        </Link>
+      </PageHead>
+
+      <div className="kaiwa-toggles" role="group" aria-label="Lớp trợ giúp">
+        <button
+          type="button"
+          className={prefs.furigana ? "btn" : "btn secondary"}
+          onClick={() => togglePref("furigana")}
+        >
+          Furigana {prefs.furigana ? "bật" : "tắt"}
+        </button>
+        <button
+          type="button"
+          className={prefs.romaji ? "btn" : "btn secondary"}
+          onClick={() => togglePref("romaji")}
+        >
+          Romaji {prefs.romaji ? "bật" : "tắt"}
+        </button>
+        <button
+          type="button"
+          className={prefs.vi ? "btn" : "btn secondary"}
+          onClick={() => togglePref("vi")}
+        >
+          Việt {prefs.vi ? "bật" : "tắt"}
+        </button>
+      </div>
+
+      {playbackUrl && (
+        <div className="panel kaiwa-player">
+          <video
+            ref={videoRef}
+            controls
+            playsInline
+            preload="metadata"
+            src={playbackUrl}
+          />
+        </div>
+      )}
+
+      {segments.length === 0 ? (
+        <div className="panel">
+          <Status tone="info">
+            Chưa có lời thoại — vẫn thu được, nhưng chưa đủ chuẩn để chấm phát âm.
+          </Status>
+          <Link className="btn secondary" to={`/kaiwa/projects/${id}/edit`}>
+            Thêm phụ đề
+          </Link>
+        </div>
+      ) : (
+        <ol className="kaiwa-segments kaiwa-prep-list">
+          {segments.map((seg, index) => (
+            <li
+              key={seg.id}
+              className={
+                index === activeIdx ? "kaiwa-seg kaiwa-seg-active" : "kaiwa-seg"
+              }
+            >
+              <button
+                type="button"
+                className="kaiwa-seg-hit"
+                onClick={() => {
+                  setActiveIdx(index);
+                  if (videoRef.current)
+                    videoRef.current.currentTime = seg.startMs / 1000;
+                }}
+              >
+                <span className="kaiwa-seg-time">{msToInput(seg.startMs)}</span>
+                <span
+                  className={`kaiwa-ruby-preview ${prefs.furigana ? "ruby-on" : "ruby-off"}`}
+                  lang="ja"
+                >
+                  {(seg.tokens?.length
+                    ? seg.tokens
+                    : [{ surface: seg.ja }]
+                  ).map((t, ti) =>
+                    t.reading && prefs.furigana ? (
+                      <ruby key={ti}>
+                        {t.surface}
+                        <rt>{t.reading}</rt>
+                      </ruby>
+                    ) : (
+                      <span key={ti}>{t.surface}</span>
+                    ),
+                  )}
+                </span>
+                {prefs.romaji && (
+                  <span className="kaiwa-romaji">
+                    {seg.tokens?.map((t) => t.romaji).filter(Boolean).join(" ") ||
+                      "—"}
+                  </span>
+                )}
+                {prefs.vi && seg.vi ? <span>{seg.vi}</span> : null}
+              </button>
+            </li>
+          ))}
+        </ol>
+      )}
+
+      {message && <Status>{message}</Status>}
+      <div className="kaiwa-actions">
+        <button
+          type="button"
+          className="btn"
+          disabled={busy}
+          onClick={() => void startPractice()}
+        >
+          {busy ? "Đang tạo lần thu…" : "Chốt & bắt đầu luyện"}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+export function KaiwaStudio() {
+  const { id } = useParams();
+  const attemptId = new URLSearchParams(useLocation().search).get("attempt");
+  const { data, error, reload } = useData<AttemptDetail>(
+    attemptId ? `/kaiwa/attempts/${attemptId}` : "",
+  );
+
+  if (!id) return <ErrorState message="Thiếu mã dự án." />;
+  if (!attemptId)
+    return (
+      <ErrorState
+        message="Thiếu lần thu. Hãy bắt đầu từ màn chuẩn bị."
+        retry={() => {
+          window.location.href = `/kaiwa/projects/${id}/prep`;
+        }}
+      />
+    );
+  if (error) return <ErrorState message={error} retry={reload} />;
+  if (!data) return <Loading />;
+
+  const segs = data.revision.payload.segments;
+  const playbackUrl = data.proxyAssetId
+    ? `/api/kaiwa/assets/${data.proxyAssetId}/content`
+    : null;
+
+  return (
+    <div className="kaiwa-page">
+      <PageHead
+        title={`Phòng thu · ${data.projectTitle}`}
+        description={`Snapshot revision v${data.revision.version} (${data.revision.state}) — bất biến với lần thu này.`}
+      >
+        <Link className="btn secondary" to={`/kaiwa/projects/${id}/prep`}>
+          Về chuẩn bị
+        </Link>
+      </PageHead>
+
+      {!data.assessableReady && data.assessableMessage && (
+        <Status tone="info">{data.assessableMessage}</Status>
+      )}
+
+      {playbackUrl && (
+        <div className="panel kaiwa-player">
+          <video controls playsInline preload="metadata" src={playbackUrl} />
+        </div>
+      )}
+
+      <div className="panel">
+        <p>
+          Lời thoại ghim cho lần thu: <strong>{segs.length}</strong> đoạn · revision{" "}
+          <code>{data.revision_id.slice(0, 8)}</code>
+        </p>
+        <p className="kaiwa-privacy-note">
+          Máy thu liên tục (countdown / MediaRecorder) sẽ nối ở KAI-017–018. Hiện tại
+          snapshot đã sẵn sàng và không đổi khi bạn sửa nháp sau này.
+        </p>
+        <ol className="kaiwa-segments">
+          {segs.map((seg) => (
+            <li key={seg.id} className="kaiwa-seg">
+              <small>
+                {msToInput(seg.startMs)} → {msToInput(seg.endMs)}
+              </small>
+              <div lang="ja">{seg.ja}</div>
+              {seg.vi ? <div>{seg.vi}</div> : null}
+            </li>
+          ))}
+        </ol>
+      </div>
     </div>
   );
 }

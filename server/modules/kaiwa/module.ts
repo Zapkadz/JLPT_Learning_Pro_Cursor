@@ -143,6 +143,32 @@ export function kaiwaModule(
     res.status(201).json(attempt);
   });
 
+  /** Prep → optional publish → create attempt with immutable revision pin. */
+  router.post("/projects/:id/start-practice", (req, res) => {
+    const ownerId = res.locals.user.id as string;
+    const projectId = String(req.params.id);
+    const body = z
+      .object({
+        publish: z.boolean().optional(),
+        expectedRevisionVersion: z.number().int().nonnegative().optional(),
+      })
+      .parse(req.body ?? {});
+    const project = repo.ownProject(projectId, ownerId);
+    if (!project.active_revision_id) {
+      throw new KaiwaError(400, "Dự án chưa có lời thoại.");
+    }
+    let revision = repo.getRevision(project.active_revision_id);
+    if (body.publish !== false && revision.state === "draft") {
+      const version = body.expectedRevisionVersion ?? revision.version;
+      revision = repo.publishRevision(ownerId, projectId, {
+        expectedRevisionVersion: version,
+      });
+    }
+    const attemptRow = repo.createAttempt(ownerId, projectId);
+    const attempt = repo.getAttempt(ownerId, (attemptRow as { id: string }).id);
+    res.status(201).json(attempt);
+  });
+
   router.post("/projects/:id/prepare-media", async (req, res, next) => {
     try {
       const ownerId = res.locals.user.id as string;
