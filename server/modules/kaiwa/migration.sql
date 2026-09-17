@@ -68,6 +68,7 @@ CREATE TABLE IF NOT EXISTS kaiwa_jobs(
   progress_json TEXT NOT NULL DEFAULT '{}',
   error_code TEXT,
   error_message TEXT,
+  result_json TEXT,
   created_at TEXT NOT NULL,
   updated_at TEXT NOT NULL,
   UNIQUE(owner_id, idempotency_key)

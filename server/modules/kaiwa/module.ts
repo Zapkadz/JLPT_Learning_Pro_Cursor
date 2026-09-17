@@ -5,6 +5,7 @@ import { z } from "zod";
 import { createKaiwaRepository, KaiwaError } from "./repository";
 import { loadKaiwaConfig, type KaiwaConfig } from "./config";
 import { createAssetService } from "./assets";
+import { createJobService } from "./jobs";
 
 export { KaiwaError };
 
@@ -50,6 +51,7 @@ export function kaiwaModule(
   const config = loadKaiwaConfig(configOverrides);
   const repo = createKaiwaRepository(db);
   const assets = createAssetService(db, config);
+  const jobService = createJobService(db);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -199,6 +201,33 @@ export function kaiwaModule(
 
   router.head("/assets/:id/content", sendAssetContent);
   router.get("/assets/:id/content", sendAssetContent);
+
+  router.post("/jobs", (req, res) => {
+    const body = z
+      .object({
+        kind: z.string().trim().min(1).max(64),
+        payload: z.unknown().optional(),
+        payloadVersion: z.number().int().positive().optional(),
+        idempotencyKey: z.string().trim().min(1).max(120).optional(),
+      })
+      .parse(req.body);
+    const job = jobService.enqueue({
+      ownerId: res.locals.user.id,
+      kind: body.kind,
+      payload: body.payload ?? {},
+      payloadVersion: body.payloadVersion,
+      idempotencyKey: body.idempotencyKey,
+    });
+    res.status(201).json(job);
+  });
+
+  router.get("/jobs/:id", (req, res) => {
+    res.json(jobService.ownJob(res.locals.user.id, String(req.params.id)));
+  });
+
+  router.post("/jobs/:id/cancel", (req, res) => {
+    res.json(jobService.cancel(res.locals.user.id, String(req.params.id)));
+  });
 
   return router;
 }
