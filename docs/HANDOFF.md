@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-033 docs packaged; device evidence BLOCKED)
+2026-09-18 (KAI-015 stub DONE; KAI-033 device BLOCKED)
 
 ## Current Branch
 
@@ -10,24 +10,24 @@
 
 ## Current Task
 
-**KAI-033** — Gate A acceptance. Docs/preflight ready; **waiting on human Chrome/Edge runs**.
+**KAI-033** — waiting on human Desktop Chrome/Edge Gate A checklist.
 
 ## Exact Next Action
 
-1. Operator: `npm run kaiwa:gate-a-preflight`
-2. Fill `docs/kaiwa/evidence/kai-033/CHECKLIST.md` on Desktop Chrome + Edge (mic full flow)
-3. Optional parallel (no credentials): start **KAI-015** `not_configured` capability UI/API stub
+Fill `docs/kaiwa/evidence/kai-033/CHECKLIST.md` on real devices. No further automated Gate A code without device evidence. Optional: propose Gate B / live ASR when credentials exist.
 
-## Last Completed (this turn)
+## Last Completed
 
-Gate A packaging: CHECKLIST, USAGE-GATE-A, RELEASE-NOTES, preflight script, review scoring honesty banner.
+**KAI-015 stub** — speech capability `not_configured` + 503 auto routes + edit banner. Evidence: `docs/kaiwa/evidence/kai-015/REPORT.md`. Verify: **72/72**.
+
+**KAI-033 packaging** — checklist/USAGE/preflight (device still open).
 
 ## Blockers
 
-- Real-device Gate A sign-off (cannot be completed by agent alone).
+- Gate A device sign-off (human).
+- Live ASR/translate needs credentials + verified adapter (KAI-015 remainder / Gate B).
 
 ## Safety
 
 - Do not stage grammar dirty files.
-- Do not commit user media / large derived outputs.
-- Do not mark Gate A ACCEPTED without filled checklist.
+- Do not mark Gate A ACCEPTED without checklist.

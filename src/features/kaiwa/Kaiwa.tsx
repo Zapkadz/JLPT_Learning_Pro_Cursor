@@ -503,6 +503,10 @@ export function KaiwaEdit() {
   const { id } = useParams();
   const { data: project, error: projectError, reload: reloadProject } =
     useData<ProjectRow>(id ? `/kaiwa/projects/${id}` : "");
+  const { data: speechCap } = useData<{
+    transcription: { status: string; messageVi: string };
+    translation: { status: string; messageVi: string };
+  }>("/kaiwa/capabilities/speech");
   const [revision, setRevision] = useState<RevisionView | null>(null);
   const [segments, setSegments] = useState<KaiwaSegment[]>([]);
   const [loadError, setLoadError] = useState("");
@@ -733,6 +737,13 @@ export function KaiwaEdit() {
           Về dự án
         </Link>
       </PageHead>
+
+      {speechCap?.transcription.status === "not_configured" && (
+        <Status tone="info">
+          {speechCap.transcription.messageVi}{" "}
+          {speechCap.translation.messageVi}
+        </Status>
+      )}
 
       {playbackUrl && (
         <div className="panel kaiwa-player">

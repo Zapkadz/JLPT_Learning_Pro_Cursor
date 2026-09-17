@@ -14,6 +14,7 @@ import { createFinalizeTakeService } from "./finalizeTake";
 import { createExportService } from "./exportMp4";
 import { listActivityHistory } from "./activity";
 import { createOpsService, redactForLog } from "./ops";
+import { resolveSpeechCapability } from "./speechCapability";
 
 export { KaiwaError };
 
@@ -101,6 +102,28 @@ export function kaiwaModule(
   router.get("/history", (req, res) => {
     const limit = Number(req.query.limit) || 50;
     res.json(listActivityHistory(db, res.locals.user.id, limit));
+  });
+
+  router.get("/capabilities/speech", (_req, res) => {
+    res.json(resolveSpeechCapability());
+  });
+
+  router.post("/projects/:id/transcriptions", (_req, res) => {
+    const cap = resolveSpeechCapability();
+    res.status(503).json({
+      error: cap.transcription.messageVi,
+      code: "speech_not_configured",
+      status: cap.transcription.status,
+    });
+  });
+
+  router.post("/projects/:id/translations", (_req, res) => {
+    const cap = resolveSpeechCapability();
+    res.status(503).json({
+      error: cap.translation.messageVi,
+      code: "speech_not_configured",
+      status: cap.translation.status,
+    });
   });
 
   router.post("/projects", (req, res) => {

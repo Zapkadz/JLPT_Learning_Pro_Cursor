@@ -4,7 +4,7 @@ Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION
 
 Ngày cập nhật: 18/09/2026. Mốc A: **chờ evidence thiết bị (KAI-033)**. Mốc B: chưa bắt đầu.
 
-KAI-001–014, KAI-016–022, KAI-030a, KAI-031–032 DONE. KAI-033 docs/preflight packaged; **device rows PENDING**. KAI-015 / KAI-030b deferred.
+KAI-001–016, KAI-016–022, KAI-030a, KAI-031–032 DONE; KAI-015 stub DONE (live deferred). KAI-033 docs ready / **device PENDING**.
 
 ## Cách đọc
 
@@ -53,7 +53,7 @@ KAI-003 cần bắt đầu sớm cùng giai đoạn nghiên cứu capture. Đây
 | --- | --- | --- | --- | --- |
 | KAI-013 · M · Backend/Frontend | Parser SRT/VTT và editor transcript nhập tay; timeline split/merge | KAI-005, KAI-011 | BOM/CRLF/Unicode/markup/time lỗi được kiểm tra; dữ liệu không làm chạy HTML; không nhận end≤start hoặc ngoài duration; overlap được đánh dấu và xử lý rõ | DONE |
 | KAI-014 · M · Japanese/Frontend | Furigana, romaji và dịch Việt chỉnh tay; token model và trợ giúp độc lập | KAI-013 | Reading/romaji có test ngoại lệ; override không mất sau reload; đổi câu Nhật làm lớp phụ thuộc cần review; desktop/mobile ruby không tràn; romaji mặc định tắt | DONE |
-| KAI-015 · L · Backend/Speech | Adapter ASR/dịch tự động, job và review workflow; capability/credential UI | KAI-007, KAI-013, KAI-003 | Có đường nhập tay khi chưa cấu hình; kết quả tự động là draft; không đè bản chỉnh mới hơn; lỗi/timeout/quota không mất dữ liệu; test live có ghi provider/version/cost khi được cấu hình | TODO |
+| KAI-015 · L · Backend/Speech | Adapter ASR/dịch tự động, job và review workflow; capability/credential UI | KAI-007, KAI-013, KAI-003 | Có đường nhập tay khi chưa cấu hình; kết quả tự động là draft; không đè bản chỉnh mới hơn; lỗi/timeout/quota không mất dữ liệu; test live có ghi provider/version/cost khi được cấu hình | DONE (not_configured stub); live adapter TODO |
 | KAI-016 · M · Frontend/QA | Màn hình chuẩn bị học, transcript đồng bộ, publish revision cho lần thu | KAI-014 | Click câu tua video đúng; ba lớp trợ giúp độc lập; session dùng snapshot bất biến; video không transcript vẫn thu được và thông báo chưa đủ chuẩn chấm | DONE |
 
 KAI-015 có thể hoàn tất sau mốc A nếu provider chưa sẵn sàng; vẫn bắt buộc cho mục tiêu tự động hóa ở B. Không để nó chặn lồng tiếng với phụ đề nhập tay.
@@ -116,6 +116,7 @@ Task tiếp theo: Human fill CHECKLIST → Gate A ACCEPTED; parallel: KAI-015 st
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-015 capability not_configured stub (live ASR deferred) | `npm test` **72/72**; build OK; `docs/kaiwa/evidence/kai-015/REPORT.md` | KAI-033 device / Gate B prep |
 | 18/09/2026 | KAI-033 checklist + USAGE + release notes + preflight script + scoring honesty UI | `npm run kaiwa:gate-a-preflight`; device rows still empty | Human device Gate A |
 | 18/09/2026 | KAI-032 cross-account/security suite + a11y checklist | `npm test` **70/70**; build OK; `docs/kaiwa/evidence/kai-032/REPORT.md` | KAI-033 Gate A devices |
 | 18/09/2026 | KAI-031 soft-delete+GC, media backup+manifest, redact/ops snapshot | `npm test` **68/68**; build OK; `docs/kaiwa/evidence/kai-031/REPORT.md` | KAI-032 security QA |

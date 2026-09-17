@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** KAI-001–014, KAI-016–022, KAI-030a, KAI-031–032 DONE. Gate A **pending device evidence (KAI-033)**. KAI-015 / KAI-030b deferred.
+- **Kaiwa Studio:** KAI-001–022 (015 stub), KAI-030a, KAI-031–032 DONE; KAI-033 docs packaged / **device PENDING**. Gate A **not accepted**. Live ASR + KAI-030b deferred.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -252,6 +252,10 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-015 stub (2026-09-18) — DONE (live deferred)
+
+Speech capability API `not_configured`; transcription/translation POST → 503; edit UI banner; manual path unchanged. Evidence: `docs/kaiwa/evidence/kai-015/REPORT.md`. Verify: **72/72**.
+
 ### KAI-033 packaging (2026-09-18) — PARTIAL (device BLOCKED)
 
 Gate A checklist, USAGE-GATE-A, release/rollback notes, `npm run kaiwa:gate-a-preflight` (70/70 + build), review scoring honesty banner. **Gate A not accepted** until CHECKLIST device rows PASS.
@@ -367,6 +371,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-015 speech not_configured stub | **72/72** npm test; build OK | `docs/kaiwa/evidence/kai-015/REPORT.md` |
 | 2026-09-18 | KAI-033 Gate A docs + preflight | preflight OK (70/70 + build); device PENDING | `docs/kaiwa/evidence/kai-033/` |
 | 2026-09-18 | KAI-032 security / ownership QA | **70/70** npm test; build OK | `docs/kaiwa/evidence/kai-032/REPORT.md` |
 | 2026-09-18 | KAI-031 backup/soft-delete/GC | **68/68** npm test; build OK | `docs/kaiwa/evidence/kai-031/REPORT.md` |
