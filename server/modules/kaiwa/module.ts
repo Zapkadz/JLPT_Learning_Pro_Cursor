@@ -15,6 +15,7 @@ import { createExportService } from "./exportMp4";
 import { listActivityHistory } from "./activity";
 import { createOpsService, redactForLog } from "./ops";
 import { resolveSpeechCapability } from "./speechCapability";
+import { createAudioQualityService } from "./audioQualityService";
 
 export { KaiwaError };
 
@@ -86,6 +87,7 @@ export function kaiwaModule(
   const finalizeTake = createFinalizeTakeService(db, assets, attemptChunks);
   const exports = createExportService(db, assets, jobService);
   const ops = createOpsService(db, assets, jobService, config);
+  const audioQuality = createAudioQualityService(db, assets);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -304,6 +306,29 @@ export function kaiwaModule(
     res.json(
       repo.patchAttemptMix(res.locals.user.id, String(req.params.id), body),
     );
+  });
+
+  router.post("/attempts/:id/audio-quality", (req, res) => {
+    const report = audioQuality.checkAttempt(
+      res.locals.user.id,
+      String(req.params.id),
+    );
+    res.json(report);
+  });
+
+  router.get("/attempts/:id/audio-quality", (req, res) => {
+    const stored = audioQuality.getStored(
+      res.locals.user.id,
+      String(req.params.id),
+    );
+    if (!stored) {
+      res.status(404).json({
+        error: "Chưa có kết quả kiểm tra chất lượng cho bản thu này.",
+        code: "quality_not_run",
+      });
+      return;
+    }
+    res.json(stored);
   });
 
   router.post("/attempts/:id/exports", (req, res) => {

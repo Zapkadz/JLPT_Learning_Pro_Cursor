@@ -1336,6 +1336,8 @@ export function KaiwaReview() {
   const [rerecording, setRerecording] = useState(false);
   const [exporting, setExporting] = useState(false);
   const [exportHref, setExportHref] = useState<string | null>(null);
+  const [qualityNote, setQualityNote] = useState("");
+  const [checkingQuality, setCheckingQuality] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const syncing = useRef(false);
@@ -1428,6 +1430,28 @@ export function KaiwaReview() {
       setSaveNote(e instanceof Error ? e.message : "Xuất thất bại.");
     } finally {
       setExporting(false);
+    }
+  }
+
+  async function runQualityCheck() {
+    if (!attemptId) return;
+    setCheckingQuality(true);
+    setQualityNote("");
+    try {
+      const report = await post<{
+        verdict: string;
+        messageVi: string;
+        pronunciationScore: null;
+      }>(`/kaiwa/attempts/${attemptId}/audio-quality`, {});
+      setQualityNote(
+        `${report.verdict}: ${report.messageVi} (điểm phát âm: ${report.pronunciationScore === null ? "không có" : report.pronunciationScore})`,
+      );
+    } catch (e) {
+      setQualityNote(
+        e instanceof Error ? e.message : "Kiểm tra chất lượng thất bại.",
+      );
+    } finally {
+      setCheckingQuality(false);
     }
   }
 
@@ -1575,6 +1599,14 @@ export function KaiwaReview() {
           <button
             type="button"
             className="btn secondary"
+            disabled={checkingQuality || !finalized}
+            onClick={() => void runQualityCheck()}
+          >
+            {checkingQuality ? "Đang kiểm…" : "Kiểm tra chất lượng thu"}
+          </button>
+          <button
+            type="button"
+            className="btn secondary"
             disabled={rerecording}
             onClick={() => void startNewAttempt()}
           >
@@ -1596,6 +1628,7 @@ export function KaiwaReview() {
             </a>
           </p>
         )}
+        {qualityNote && <Status tone="info">{qualityNote}</Status>}
         {saveNote && <Status tone="info">{saveNote}</Status>}
       </div>
     </div>

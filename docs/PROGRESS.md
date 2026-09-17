@@ -252,6 +252,10 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-024 (2026-09-18) — DONE (provisional)
+
+PCM silence/clipping quality gate; WebM unavailable without decode; no pronunciation score invention; export independent. Evidence: `docs/kaiwa/evidence/kai-024/REPORT.md`. Verify: **76/76**.
+
 ### KAI-015 stub (2026-09-18) — DONE (live deferred)
 
 Speech capability API `not_configured`; transcription/translation POST → 503; edit UI banner; manual path unchanged. Evidence: `docs/kaiwa/evidence/kai-015/REPORT.md`. Verify: **72/72**.
@@ -371,6 +375,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-024 audio quality gate | **76/76** npm test; build OK | `docs/kaiwa/evidence/kai-024/REPORT.md` |
 | 2026-09-18 | KAI-015 speech not_configured stub | **72/72** npm test; build OK | `docs/kaiwa/evidence/kai-015/REPORT.md` |
 | 2026-09-18 | KAI-033 Gate A docs + preflight | preflight OK (70/70 + build); device PENDING | `docs/kaiwa/evidence/kai-033/` |
 | 2026-09-18 | KAI-032 security / ownership QA | **70/70** npm test; build OK | `docs/kaiwa/evidence/kai-032/REPORT.md` |
