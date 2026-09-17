@@ -14,6 +14,13 @@ import {
   parseSubtitles,
   splitSegment,
 } from "../../../shared/kaiwa/subtitles";
+import {
+  markReadingStaleOnJaChange,
+  readingToRomaji,
+  tokensWithRomaji,
+} from "../../../shared/kaiwa/romaji";
+import type { KaiwaRubyToken, KaiwaSegment } from "../../../shared/kaiwa/types";
+import { useAuth } from "../../App";
 import "./kaiwa.css";
 
 type ProjectRow = {
@@ -360,8 +367,24 @@ type RevisionView = {
   revisionId: string;
   version: number;
   state: string;
-  payload: { segments: import("../../../shared/kaiwa/types").KaiwaSegment[] };
+  payload: { segments: KaiwaSegment[] };
 };
+
+type HelpPrefs = { furigana: boolean; romaji: boolean; vi: boolean };
+
+function loadHelpPrefs(userId: string): HelpPrefs {
+  try {
+    const raw = localStorage.getItem(`kaiwa-help:${userId}`);
+    if (!raw) return { furigana: true, romaji: false, vi: true };
+    return { furigana: true, romaji: false, vi: true, ...JSON.parse(raw) };
+  } catch {
+    return { furigana: true, romaji: false, vi: true };
+  }
+}
+
+function saveHelpPrefs(userId: string, prefs: HelpPrefs) {
+  localStorage.setItem(`kaiwa-help:${userId}`, JSON.stringify(prefs));
+}
 
 function msToInput(ms: number) {
   const s = Math.floor(ms / 1000);
@@ -385,22 +408,36 @@ function inputToMs(value: string): number | null {
 }
 
 export function KaiwaEdit() {
+  const { user } = useAuth();
   const { id } = useParams();
   const { data: project, error: projectError, reload: reloadProject } =
     useData<ProjectRow>(id ? `/kaiwa/projects/${id}` : "");
   const [revision, setRevision] = useState<RevisionView | null>(null);
-  const [segments, setSegments] = useState<
-    import("../../../shared/kaiwa/types").KaiwaSegment[]
-  >([]);
+  const [segments, setSegments] = useState<KaiwaSegment[]>([]);
   const [loadError, setLoadError] = useState("");
   const [message, setMessage] = useState("");
   const [issues, setIssues] = useState<string[]>([]);
   const [saving, setSaving] = useState(false);
+  const [prefs, setPrefs] = useState<HelpPrefs>(() =>
+    loadHelpPrefs(user?.id || "anon"),
+  );
   const videoRef = useRef<HTMLVideoElement>(null);
   const overlapSet = useMemo(
     () => new Set(findOverlaps(segments)),
     [segments],
   );
+
+  useEffect(() => {
+    if (user?.id) setPrefs(loadHelpPrefs(user.id));
+  }, [user?.id]);
+
+  function togglePref(key: keyof HelpPrefs) {
+    setPrefs((p) => {
+      const next = { ...p, [key]: !p[key] };
+      if (user?.id) saveHelpPrefs(user.id, next);
+      return next;
+    });
+  }
 
   const playbackUrl = project?.proxy_asset_id
     ? `/api/kaiwa/assets/${project.proxy_asset_id}/content`
@@ -446,12 +483,48 @@ export function KaiwaEdit() {
     }
   }
 
-  function updateSeg(
-    index: number,
-    patch: Partial<import("../../../shared/kaiwa/types").KaiwaSegment>,
-  ) {
+  function updateSeg(index: number, patch: Partial<KaiwaSegment>) {
     setSegments((prev) =>
-      prev.map((s, i) => (i === index ? { ...s, ...patch } : s)),
+      prev.map((s, i) => {
+        if (i !== index) return s;
+        let next = { ...s, ...patch };
+        if (patch.ja != null && patch.ja !== s.ja) {
+          const stale = markReadingStaleOnJaChange(s.ja, patch.ja, s.tokens);
+          next = {
+            ...next,
+            tokens: stale.tokens,
+            readingStale: stale.readingStale || next.readingStale,
+          };
+        }
+        return next;
+      }),
+    );
+  }
+
+  function setTokenLine(index: number, kind: "reading" | "romaji", value: string) {
+    setSegments((prev) =>
+      prev.map((s, i) => {
+        if (i !== index) return s;
+        const surface = s.ja || "·";
+        const reading =
+          kind === "reading"
+            ? value
+            : s.tokens?.[0]?.reading || value;
+        const token: KaiwaRubyToken = {
+          surface,
+          reading,
+          romaji:
+            kind === "romaji"
+              ? value
+              : readingToRomaji(reading, { surface }),
+          manual: true,
+        };
+        return {
+          ...s,
+          tokens: tokensWithRomaji([token]),
+          readingStale: false,
+        };
+      }),
     );
   }
 
@@ -583,6 +656,29 @@ export function KaiwaEdit() {
       )}
 
       <div className="panel kaiwa-upload">
+        <div className="kaiwa-toggles" role="group" aria-label="Lớp trợ giúp">
+          <button
+            type="button"
+            className={prefs.furigana ? "btn" : "btn secondary"}
+            onClick={() => togglePref("furigana")}
+          >
+            Furigana {prefs.furigana ? "bật" : "tắt"}
+          </button>
+          <button
+            type="button"
+            className={prefs.romaji ? "btn" : "btn secondary"}
+            onClick={() => togglePref("romaji")}
+          >
+            Romaji {prefs.romaji ? "bật" : "tắt"}
+          </button>
+          <button
+            type="button"
+            className={prefs.vi ? "btn" : "btn secondary"}
+            onClick={() => togglePref("vi")}
+          >
+            Việt {prefs.vi ? "bật" : "tắt"}
+          </button>
+        </div>
         <label className="kaiwa-field">
           Nhập SRT / VTT
           <input
@@ -669,13 +765,61 @@ export function KaiwaEdit() {
               onChange={(e) => updateSeg(index, { ja: e.target.value })}
               lang="ja"
             />
-            <textarea
-              aria-label="Bản dịch Việt"
-              rows={2}
-              value={seg.vi || ""}
-              onChange={(e) => updateSeg(index, { vi: e.target.value })}
-              placeholder="Dịch Việt (tuỳ chọn)"
-            />
+            {seg.readingStale && (
+              <Status tone="info">
+                Câu Nhật đã đổi — hãy duyệt lại furigana/romaji.
+              </Status>
+            )}
+            <div
+              className={`kaiwa-ruby-preview ${prefs.furigana ? "ruby-on" : "ruby-off"}`}
+              lang="ja"
+            >
+              {(seg.tokens && seg.tokens.length > 0
+                ? seg.tokens
+                : [{ surface: seg.ja || "…" }]
+              ).map((t, ti) =>
+                t.reading && prefs.furigana ? (
+                  <ruby key={ti}>
+                    {t.surface}
+                    <rt>{t.reading}</rt>
+                  </ruby>
+                ) : (
+                  <span key={ti}>{t.surface}</span>
+                ),
+              )}
+            </div>
+            {prefs.romaji && (
+              <p className="kaiwa-romaji" lang="en">
+                {seg.tokens?.map((t) => t.romaji || "").filter(Boolean).join(" ") ||
+                  "— chưa có romaji —"}
+              </p>
+            )}
+            <label className="kaiwa-field">
+              Furigana (hiragana)
+              <input
+                value={seg.tokens?.[0]?.reading || ""}
+                onChange={(e) => setTokenLine(index, "reading", e.target.value)}
+                lang="ja"
+                placeholder="vd. がっこう"
+              />
+            </label>
+            <label className="kaiwa-field">
+              Romaji (Hepburn)
+              <input
+                value={seg.tokens?.[0]?.romaji || ""}
+                onChange={(e) => setTokenLine(index, "romaji", e.target.value)}
+                placeholder="vd. gakkou / wa"
+              />
+            </label>
+            {prefs.vi && (
+              <textarea
+                aria-label="Bản dịch Việt"
+                rows={2}
+                value={seg.vi || ""}
+                onChange={(e) => updateSeg(index, { vi: e.target.value })}
+                placeholder="Dịch Việt"
+              />
+            )}
             <div className="kaiwa-actions">
               <button
                 type="button"

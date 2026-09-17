@@ -172,3 +172,42 @@
   color: #8a3b32;
   font-size: 0.9rem;
 }
+
+.kaiwa-toggles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.kaiwa-ruby-preview {
+  font-size: 1.15rem;
+  line-height: 2;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.kaiwa-ruby-preview ruby {
+  ruby-align: center;
+  white-space: nowrap;
+}
+
+.kaiwa-ruby-preview.ruby-off rt {
+  display: none;
+}
+
+.kaiwa-romaji {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted, #6b655c);
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 720px) {
+  .kaiwa-dropzone {
+    padding: 1.25rem 0.85rem;
+  }
+
+  .kaiwa-ruby-preview {
+    font-size: 1.05rem;
+  }
+}

@@ -25,12 +25,22 @@ export const kaiwaAssessmentStatusSchema = z.enum([
   "failed",
 ]);
 
+export const kaiwaRubyTokenSchema = z.object({
+  surface: z.string().min(1).max(80),
+  reading: z.string().max(120).optional(),
+  romaji: z.string().max(120).optional(),
+  manual: z.boolean().optional(),
+});
+
 export const kaiwaSegmentSchema = z.object({
   id: z.string().min(1).max(64),
   startMs: z.number().int().nonnegative(),
   endMs: z.number().int().positive(),
   ja: z.string().max(4000),
   vi: z.string().max(4000).optional(),
+  tokens: z.array(kaiwaRubyTokenSchema).max(500).optional(),
+  /** True when JA changed and furigana/romaji need user review. */
+  readingStale: z.boolean().optional(),
   reviewState: z.enum(["draft", "reviewed"]).default("draft"),
   speakerLabel: z.string().max(120).nullable().optional(),
   assessable: z.boolean().default(true),
@@ -65,3 +75,4 @@ export const publishKaiwaRevisionSchema = z.object({
 
 export type KaiwaSegment = z.infer<typeof kaiwaSegmentSchema>;
 export type KaiwaRevisionPayload = z.infer<typeof kaiwaRevisionPayloadSchema>;
+export type KaiwaRubyToken = z.infer<typeof kaiwaRubyTokenSchema>;

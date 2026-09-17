@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-17 (KAI-013 DONE → next: KAI-014)
+2026-09-18 (KAI-014 DONE → next: KAI-016)
 
 ## Current Branch
 
@@ -10,15 +10,15 @@
 
 ## Current Task
 
-**KAI-014** — Furigana, romaji, Vietnamese translation layers (manual edit + independent toggles).
+**KAI-016** — Prep/learn screen: synced transcript, independent help layers, publish revision snapshot for takes.
 
 ## Exact Next Action
 
-Extend segment model / editor for reading+romaji+VI overrides; persist prefs (furigana on, romaji off); ruby layout; tests for exception readings.
+Add `/kaiwa/projects/:id/prep` (or hub prep section): click segment → seek; furigana/romaji/VI toggles; allow practice start without transcript with clear “chưa đủ chuẩn chấm” copy; attempt pins reviewed revision.
 
 ## Last Completed
 
-**KAI-013** — SRT/VTT parse/validate + `/kaiwa/projects/:id/edit`. Evidence: `docs/kaiwa/evidence/kai-013/REPORT.md`. Verify: `npm test` **42/42**, build OK.
+**KAI-014** — token model, Hepburn exceptions, editor toggles, stale-on-JA-change. Evidence: `docs/kaiwa/evidence/kai-014/REPORT.md`. Verify: `npm test` **48/48**, build OK.
 
 ## Safety
 
