@@ -4,7 +4,7 @@ Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION
 
 Ngày cập nhật: 17/09/2026. Mốc A: chưa bắt đầu. Mốc B: chưa bắt đầu. Module hiện chưa có tính năng được nghiệm thu.
 
-KAI-001–009 DONE. Next: **KAI-010** (proxy playback / timeline mapping).
+KAI-001–010 DONE. Next: **KAI-011** (UI upload / library / Range playback).
 
 ## Cách đọc
 
@@ -43,7 +43,7 @@ KAI-003 cần bắt đầu sớm cùng giai đoạn nghiên cứu capture. Đây
 | KAI-007 · L · Backend/Operations | Durable job queue bằng DB, worker riêng, lease/retry/cancel/progress | KAI-005, KAI-006 | Kill worker rồi restart nhận lại job; không publish output hai lần; timeout giải phóng tài nguyên; payload có version; job chết có lỗi đọc được | DONE |
 | KAI-008 · M · Backend/Security | Upload nhị phân theo chunk, checksum, status/resume/cancel | KAI-006 | Chunk lặp cùng hash an toàn, khác hash conflict; thiếu chunk không complete; quota, expiry, ownership đúng; JSON limit 2 MB hiện tại không bị nới toàn cục | DONE |
 | KAI-009 · M · Media | Probe file và kiểm tra format/codec/duration thật; reject tệp sai | KAI-007, KAI-008 | Tệp giả đuôi, file hỏng, quá dài, thiếu track được xử lý; thông báo phân biệt unsupported với corrupt; process có giới hạn CPU/RAM/time | DONE |
-| KAI-010 · L · Media | Pipeline proxy playback, reference audio, thumbnail và timeline mapping | KAI-009 | VFR/rotation/start offset được xử lý; proxy giữ nội dung và thời lượng trong dung sai đã chốt; asset source bất biến; output chỉ ready sau decode/probe thành công | TODO |
+| KAI-010 · L · Media | Pipeline proxy playback, reference audio, thumbnail và timeline mapping | KAI-009 | VFR/rotation/start offset được xử lý; proxy giữ nội dung và thời lượng trong dung sai đã chốt; asset source bất biến; output chỉ ready sau decode/probe thành công | DONE |
 | KAI-011 · M · Frontend/QA | UI upload và thư viện, trạng thái job, retry/hủy, playback có Range | KAI-004, KAI-008, KAI-010 | Tải một video thật tới xem được; reload thấy đúng trạng thái; không upload lại toàn bộ khi resume được; video riêng tư không lộ qua URL đoán được | TODO |
 | KAI-012 · S · Backend/QA | Bộ fixture media và integration tests cho vertical slice đầu tiên | KAI-011 | Có video ngắn/dài, dọc, im lặng, metadata lạ, hỏng; evidence upload → transcode → playback và restart giữa job; không commit media riêng tư vào repo | TODO |
 
@@ -105,28 +105,23 @@ KAI-030 có hai checklist: lịch sử ở A; thời gian nói/XP dựa trên ph
 
 ## 8. Checklist task đang làm
 
-Chưa có task code đang làm. Task tiếp theo: **KAI-001**.
-
-Khi bắt đầu một task, thêm mục theo mẫu:
-
 ```text
-Task: KAI-xxx — tên
+Task: KAI-011 — UI upload và thư viện, trạng thái job, retry/hủy, playback có Range
 Trạng thái: IN_PROGRESS
-Mục tiêu và phạm vi:
-Checklist con:
-Phụ thuộc đã đủ / còn thiếu:
-File dự kiến thay đổi:
-Quyết định kỹ thuật và lý do:
-Kiểm thử dự kiến:
-Kết quả và đường dẫn bằng chứng:
-Rủi ro còn lại:
-Task tiếp theo:
+Mục tiêu và phạm vi: Tải video thật tới xem được; reload đúng trạng thái; resume chunk; URL không đoán được
+Phụ thuộc đã đủ: KAI-004, KAI-008, KAI-010 DONE
+File dự kiến thay đổi: client Kaiwa upload/library routes + API hooks
+Kiểm thử dự kiến: unit/integration + manual Range playback smoke
+Kết quả và đường dẫn bằng chứng: (pending)
+Rủi ro còn lại: không có ffmpeg → passthrough proxy (KAI-010 evidence)
+Task tiếp theo: KAI-012
 ```
 
 ## 9. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 17/09/2026 | KAI-010 passthrough proxy + identity timeline; source immutable; probe gate | `npx tsx --test tests/kaiwa/*.test.ts` **17/17**; evidence `docs/kaiwa/evidence/kai-010/REPORT.md` | KAI-011 UI upload/library |
 | 17/09/2026 | Tạo plan/backlog/rules; xác định lồng tiếng liên tục là ưu tiên; tách gate A/B/C | Đọc stack/middleware/backup hiện tại và tài liệu media/pronunciation; chưa chạy hoặc triển khai module | KAI-001 rồi KAI-002; khởi động nghiên cứu KAI-003 sớm |
 
 ## 10. Điều kiện bên ngoài cần quản lý

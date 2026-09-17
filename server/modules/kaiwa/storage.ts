@@ -1,4 +1,5 @@
 import {
+  copyFileSync,
   createReadStream,
   existsSync,
   mkdirSync,
@@ -53,6 +54,15 @@ export class LocalMediaStorage {
     const tmp = join(dirname(dest), `.tmp-${randomUUID()}`);
     writeFileSync(tmp, data);
     renameSync(tmp, dest);
+  }
+
+  /** Copy under a new key without mutating the source object. */
+  copyFile(fromKey: string, toKey: string): void {
+    const src = this.resolvePath(fromKey);
+    const dest = this.resolvePath(toKey);
+    if (!existsSync(src)) throw new Error("missing_file");
+    mkdirSync(dirname(dest), { recursive: true });
+    copyFileSync(src, dest);
   }
 
   openRead(

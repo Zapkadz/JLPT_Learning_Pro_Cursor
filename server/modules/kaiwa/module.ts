@@ -8,6 +8,7 @@ import { createAssetService } from "./assets";
 import { createJobService } from "./jobs";
 import { createUploadService } from "./uploads";
 import { createProbeService } from "./probeService";
+import { createProxyService } from "./proxy";
 
 export { KaiwaError };
 
@@ -60,6 +61,7 @@ export function kaiwaModule(
   const jobService = createJobService(db);
   const uploads = createUploadService(db, assets, config);
   const probes = createProbeService(db, assets);
+  const proxies = createProxyService(db, assets);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -298,6 +300,18 @@ export function kaiwaModule(
         String(req.params.id),
       );
       res.status(out.result.ok ? 200 : 422).json(out);
+    } catch (e) {
+      next(e);
+    }
+  });
+
+  router.post("/assets/:id/prepare-playback", async (req, res, next) => {
+    try {
+      const out = await proxies.preparePlayback(
+        res.locals.user.id,
+        String(req.params.id),
+      );
+      res.status(201).json(out);
     } catch (e) {
       next(e);
     }
