@@ -1,7 +1,7 @@
 # AI Bootstrap Procedure
 
-This file is a **procedure**, not live project state.  
-Live state lives in `HANDOFF.md`, `PLAN.md`, and `PROGRESS.md`.
+This file is a **procedure**, not live project state.
+Live state lives in `HANDOFF.md`, `PLAN.md`, and `PROGRESS.md` (and module TASKS when named).
 
 Use when:
 
@@ -24,13 +24,12 @@ Use when:
 6. Read `docs/PLAN.md`.
 7. Read `docs/PROGRESS.md`.
 8. Read `docs/DECISIONS.md`.
-9. If the current objective involves Grammar N2, read:
-   - `docs/requirements/GRAMMAR-N2-MASTER-REQUIREMENT.md`
-   - `docs/grammar-n2/IMPLEMENTATION-RULES.md`
-   - skim `docs/grammar-n2/PROGRESS.md` for historical Lesson 1 evidence
+9. Read **active module** docs named in HANDOFF / PLAN:
+   - If Grammar N2: `docs/requirements/GRAMMAR-N2-MASTER-REQUIREMENT.md`, `docs/grammar-n2/IMPLEMENTATION-RULES.md` (historical progress as needed).
+   - If Kaiwa: `docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, `docs/kaiwa/IMPLEMENTATION-RULES.md`.
 10. Read source/tests named in HANDOFF “Files To Read” for the **current task only**.
 11. Compare docs ↔ git ↔ code for obvious contradictions.
-12. If contradictions exist: trust repository code + git for facts; mark docs stale; do not silently invent reconciliation.
+12. If contradictions exist: trust repository code + git for factual implementation; mark docs stale; do not silently invent reconciliation. Do not describe planned modules as shipped.
 
 ---
 
@@ -68,3 +67,4 @@ Then end with exactly:
 - Do **not** update PLAN/PROGRESS/HANDOFF during bootstrap unless the user asked you to fix stale memory **and** you verified facts.
 - Do **not** invent commit hashes, test passes, or content counts.
 - If a fact is missing: write `UNKNOWN` / `NOT VERIFIED` / `NEEDS VALIDATION`.
+- After bootstrap, follow autonomous commit/push/continue in `development-workflow.mdc` for approved PLAN/TASKS work.
