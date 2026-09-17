@@ -21,6 +21,7 @@ import {
 } from "../../../shared/kaiwa/romaji";
 import type { KaiwaRubyToken, KaiwaSegment } from "../../../shared/kaiwa/types";
 import { useAuth } from "../../App";
+import { MicPreflightPanel } from "./MicPreflightPanel";
 import "./kaiwa.css";
 
 type ProjectRow = {
@@ -1087,6 +1088,10 @@ export function KaiwaStudio() {
   const { data, error, reload } = useData<AttemptDetail>(
     attemptId ? `/kaiwa/attempts/${attemptId}` : "",
   );
+  const [micReady, setMicReady] = useState<{
+    deviceId: string;
+    label: string;
+  } | null>(null);
 
   if (!id) return <ErrorState message="Thiếu mã dự án." />;
   if (!attemptId)
@@ -1121,6 +1126,14 @@ export function KaiwaStudio() {
         <Status tone="info">{data.assessableMessage}</Status>
       )}
 
+      <MicPreflightPanel onReady={setMicReady} />
+
+      {micReady && (
+        <Status tone="success">
+          Micro sẵn sàng: {micReady.label}. Countdown / thu liên tục → KAI-018.
+        </Status>
+      )}
+
       {playbackUrl && (
         <div className="panel kaiwa-player">
           <video controls playsInline preload="metadata" src={playbackUrl} />
@@ -1133,8 +1146,8 @@ export function KaiwaStudio() {
           <code>{data.revision_id.slice(0, 8)}</code>
         </p>
         <p className="kaiwa-privacy-note">
-          Máy thu liên tục (countdown / MediaRecorder) sẽ nối ở KAI-017–018. Hiện tại
-          snapshot đã sẵn sàng và không đổi khi bạn sửa nháp sau này.
+          Máy thu liên tục (countdown / MediaRecorder) nối tiếp ở KAI-018. Snapshot đã
+          ghim và không đổi khi sửa nháp sau này.
         </p>
         <ol className="kaiwa-segments">
           {segs.map((seg) => (

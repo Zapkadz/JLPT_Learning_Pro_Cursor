@@ -4,7 +4,7 @@ Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION
 
 Ngày cập nhật: 17/09/2026. Mốc A: chưa bắt đầu. Mốc B: chưa bắt đầu. Module hiện chưa có tính năng được nghiệm thu.
 
-KAI-001–014, KAI-016 DONE. Next: **KAI-017** (mic preflight). KAI-015 ASR deferred.
+KAI-001–014, KAI-016–017 DONE. Next: **KAI-018** (continuous recorder). KAI-015 deferred.
 
 ## Cách đọc
 
@@ -62,8 +62,8 @@ KAI-015 có thể hoàn tất sau mốc A nếu provider chưa sẵn sàng; vẫ
 
 | ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
 | --- | --- | --- | --- | --- |
-| KAI-017 · M · Frontend/Media | Micro preflight: xin quyền, chọn thiết bị, meter, thử thu/nghe và capability check | KAI-002, KAI-004 | Permission denied/no device/device disconnect có đường xử lý; mic track dừng khi rời; meter không tự phát ra loa; không gửi thử mic tới provider ngoài | IN_PROGRESS |
-| KAI-018 · L · Frontend/Media | Recorder state machine, countdown và capture liên tục đồng bộ video | KAI-016, KAI-017 | Thu từ đầu tới EOF không dừng theo câu; khóa seek/rate; timestamp mapping đúng; dừng sớm/interruption phân biệt completed; chống double start/double finalize | TODO |
+| KAI-017 · M · Frontend/Media | Micro preflight: xin quyền, chọn thiết bị, meter, thử thu/nghe và capability check | KAI-002, KAI-004 | Permission denied/no device/device disconnect có đường xử lý; mic track dừng khi rời; meter không tự phát ra loa; không gửi thử mic tới provider ngoài | DONE |
+| KAI-018 · L · Frontend/Media | Recorder state machine, countdown và capture liên tục đồng bộ video | KAI-016, KAI-017 | Thu từ đầu tới EOF không dừng theo câu; khóa seek/rate; timestamp mapping đúng; dừng sớm/interruption phân biệt completed; chống double start/double finalize | IN_PROGRESS |
 | KAI-019 · L · Frontend/Backend | Journal chunk trong IndexedDB, upload nền/resume, giới hạn buffer và recover | KAI-002, KAI-008, KAI-018 | Test mất mạng/đóng tab/quota đầy; checksum/order đúng; biết phần nào server đã nhận; chỉ hứa recovery đã thử trên codec thực; dữ liệu không giải mã được không báo saved | TODO |
 | KAI-020 · L · Backend/Media | Finalize take, ghép/remux, kiểm tra decode/duration và lưu bản thu | KAI-007, KAI-019 | Idempotent finalize; thiếu chunk có lỗi; dữ liệu hợp lệ phát được đầu/giữa/cuối; thiếu tail sau interruption được ghi đúng; không trộn tiếng mẫu vào raw mic track | TODO |
 | KAI-021 · M · Frontend | Trang nghe lại, gain tiếng gốc/giọng mình, lịch sử take và chọn bản giữ | KAI-020 | Nghe toàn video đúng sync; cấu hình mix lưu được; thu lại không ghi đè take cũ; refresh quay lại đúng take; không có slider nhạc riêng nếu không có track riêng | TODO |
@@ -106,16 +106,18 @@ KAI-030 có hai checklist: lịch sử ở A; thời gian nói/XP dựa trên ph
 ## 8. Checklist task đang làm
 
 ```text
-Task: KAI-017 — Micro preflight (permission, device, meter, test clip)
+Task: KAI-018 — Recorder state machine + continuous capture
 Trạng thái: IN_PROGRESS
-Phụ thuộc: KAI-002, KAI-004 DONE
-Task tiếp theo: KAI-018
+Phụ thuộc: KAI-016, KAI-017 DONE
+Checklist: capture axis states; countdown; video clock; lock seek/rate; no per-sentence stop
+Task tiếp theo: KAI-019
 ```
 
 ## 9. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-017 mic preflight (local meter/test, no provider) | `npm test` **52/52**; build OK; `docs/kaiwa/evidence/kai-017/REPORT.md` | KAI-018 continuous recorder |
 | 18/09/2026 | KAI-016 prep screen + immutable start-practice snapshot | `npm test` **50/50**; build OK; `docs/kaiwa/evidence/kai-016/REPORT.md` | KAI-017 mic preflight |
 | 18/09/2026 | KAI-014 reading/romaji/VI layers + Hepburn exceptions | `npm test` **48/48**; build OK; `docs/kaiwa/evidence/kai-014/REPORT.md` | KAI-016 prep screen |
 | 17/09/2026 | KAI-013 SRT/VTT parser + edit UI split/merge | `npm test` **42/42**; build OK; `docs/kaiwa/evidence/kai-013/REPORT.md` | KAI-014 reading layers |
