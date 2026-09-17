@@ -296,7 +296,37 @@
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "面接",
+              "reading": "めんせつ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "は、"
+            },
+            {
+              "text": "受付",
+              "reading": "うけつけ"
+            },
+            {
+              "text": "でお"
+            },
+            {
+              "text": "待",
+              "reading": "ま"
+            },
+            {
+              "text": "ちください。"
+            }
+          ]
         },
         {
           "id": "sai-ja-vi-02",
@@ -308,7 +338,56 @@
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "会員",
+              "reading": "かいいん"
+            },
+            {
+              "text": "証",
+              "reading": "しょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "更新",
+              "reading": "こうしん"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "に、"
+            },
+            {
+              "text": "写真",
+              "reading": "しゃしん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "枚",
+              "reading": "まい"
+            },
+            {
+              "text": "提出",
+              "reading": "ていしゅつ"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "sai-ja-vi-03",
@@ -320,7 +399,44 @@
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "京都",
+              "reading": "きょうと"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "訪",
+              "reading": "おとず"
+            },
+            {
+              "text": "れた"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "に、"
+            },
+            {
+              "text": "恩師",
+              "reading": "おんし"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "会",
+              "reading": "あ"
+            },
+            {
+              "text": "いました。"
+            }
+          ]
         },
         {
           "id": "sai-ja-vi-04",
@@ -332,7 +448,37 @@
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "は、この"
+            },
+            {
+              "text": "番号",
+              "reading": "ばんごう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "電話",
+              "reading": "でんわ"
+            },
+            {
+              "text": "してください。"
+            }
+          ]
         },
         {
           "id": "sai-ja-vi-05",
@@ -344,7 +490,44 @@
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "に、"
+            },
+            {
+              "text": "料金",
+              "reading": "りょうきん"
+            },
+            {
+              "text": "について"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "けました。"
+            }
+          ]
         },
         {
           "id": "sai-ja-vi-06",
@@ -356,7 +539,33 @@
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "パソコンを"
+            },
+            {
+              "text": "処分",
+              "reading": "しょぶん"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "は、データを"
+            },
+            {
+              "text": "消去",
+              "reading": "しょうきょ"
+            },
+            {
+              "text": "してください。"
+            }
+          ]
         },
         {
           "id": "sai-ja-vi-07",
@@ -368,7 +577,30 @@
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "宿泊",
+              "reading": "しゅくはく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "には、パスポートをご"
+            },
+            {
+              "text": "用意",
+              "reading": "ようい"
+            },
+            {
+              "text": "ください。"
+            }
+          ]
         },
         {
           "id": "sai-ja-vi-08",
@@ -380,7 +612,58 @@
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "荷物",
+              "reading": "にもつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "け"
+            },
+            {
+              "text": "取",
+              "reading": "と"
+            },
+            {
+              "text": "る"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "に、"
+            },
+            {
+              "text": "伝票",
+              "reading": "でんぴょう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "番号",
+              "reading": "ばんごう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "sai-ja-vi-09",
@@ -392,7 +675,58 @@
           "hint": "Vる / Vた ＋ 際",
           "explanation": "Câu này dùng Vる / Vた ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "引",
+              "reading": "ひ"
+            },
+            {
+              "text": "っ"
+            },
+            {
+              "text": "越",
+              "reading": "こ"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "に、"
+            },
+            {
+              "text": "住所",
+              "reading": "じゅうしょ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "変更",
+              "reading": "へんこう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "届",
+              "reading": "とど"
+            },
+            {
+              "text": "け"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ました。"
+            }
+          ]
         },
         {
           "id": "sai-ja-vi-10",
@@ -404,7 +738,44 @@
           "hint": "Nの ＋ 際",
           "explanation": "Câu này dùng Nの ＋ 際 để nêu thời điểm trong cách diễn đạt trang trọng. Giữ đúng hành động và thông tin đi kèm khi dịch.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "緊急",
+              "reading": "きんきゅう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "は、"
+            },
+            {
+              "text": "係員",
+              "reading": "かかりいん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "指示",
+              "reading": "しじ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "従",
+              "reading": "したが"
+            },
+            {
+              "text": "ってください。"
+            }
+          ]
         },
         {
           "id": "sai-order-01",
@@ -1068,7 +1439,44 @@
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "新年",
+              "reading": "しんねん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "迎",
+              "reading": "むか"
+            },
+            {
+              "text": "えるにあたって、"
+            },
+            {
+              "text": "今年",
+              "reading": "ことし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "抱負",
+              "reading": "ほうふ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "述",
+              "reading": "の"
+            },
+            {
+              "text": "べました。"
+            }
+          ]
         },
         {
           "id": "saishite-ja-vi-02",
@@ -1080,7 +1488,48 @@
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "大会",
+              "reading": "たいかい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "開催",
+              "reading": "かいさい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "して、"
+            },
+            {
+              "text": "交通",
+              "reading": "こうつう"
+            },
+            {
+              "text": "規制",
+              "reading": "きせい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "行",
+              "reading": "おこな"
+            },
+            {
+              "text": "われます。"
+            }
+          ]
         },
         {
           "id": "saishite-ja-vi-03",
@@ -1092,7 +1541,37 @@
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "海外",
+              "reading": "かいがい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "移住",
+              "reading": "いじゅう"
+            },
+            {
+              "text": "するにあたって、"
+            },
+            {
+              "text": "税金",
+              "reading": "ぜいきん"
+            },
+            {
+              "text": "について"
+            },
+            {
+              "text": "調",
+              "reading": "しら"
+            },
+            {
+              "text": "べました。"
+            }
+          ]
         },
         {
           "id": "saishite-ja-vi-04",
@@ -1104,7 +1583,49 @@
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "創立",
+              "reading": "そうりつ"
+            },
+            {
+              "text": "記念",
+              "reading": "きねん"
+            },
+            {
+              "text": "日",
+              "reading": "び"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "して、"
+            },
+            {
+              "text": "記念",
+              "reading": "きねん"
+            },
+            {
+              "text": "誌",
+              "reading": "し"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "発行",
+              "reading": "はっこう"
+            },
+            {
+              "text": "しました。"
+            }
+          ]
         },
         {
           "id": "saishite-ja-vi-05",
@@ -1116,7 +1637,44 @@
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "制度",
+              "reading": "せいど"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "導入",
+              "reading": "どうにゅう"
+            },
+            {
+              "text": "するにあたって、"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "集",
+              "reading": "あつ"
+            },
+            {
+              "text": "めました。"
+            }
+          ]
         },
         {
           "id": "saishite-ja-vi-06",
@@ -1128,7 +1686,44 @@
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "退職",
+              "reading": "たいしょく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "して、"
+            },
+            {
+              "text": "同僚",
+              "reading": "どうりょう"
+            },
+            {
+              "text": "にお"
+            },
+            {
+              "text": "礼",
+              "reading": "れい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "伝",
+              "reading": "つた"
+            },
+            {
+              "text": "えました。"
+            }
+          ]
         },
         {
           "id": "saishite-ja-vi-07",
@@ -1140,7 +1735,41 @@
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "展覧",
+              "reading": "てんらん"
+            },
+            {
+              "text": "会",
+              "reading": "かい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "開",
+              "reading": "ひら"
+            },
+            {
+              "text": "くにあたって、"
+            },
+            {
+              "text": "作品",
+              "reading": "さくひん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "選",
+              "reading": "えら"
+            },
+            {
+              "text": "びました。"
+            }
+          ]
         },
         {
           "id": "saishite-ja-vi-08",
@@ -1152,7 +1781,48 @@
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "災害",
+              "reading": "さいがい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "して、"
+            },
+            {
+              "text": "住民",
+              "reading": "じゅうみん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "安全",
+              "reading": "あんぜん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "最",
+              "reading": "さい"
+            },
+            {
+              "text": "優先",
+              "reading": "ゆうせん"
+            },
+            {
+              "text": "されます。"
+            }
+          ]
         },
         {
           "id": "saishite-ja-vi-09",
@@ -1164,7 +1834,41 @@
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng にあたって để gắn hành động hoặc lời nói với một dịp quan trọng. Ở đây là sự chuẩn bị cho một khởi đầu; không chỉ một thời điểm sinh hoạt thường ngày.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "新居",
+              "reading": "しんきょ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "購入",
+              "reading": "こうにゅう"
+            },
+            {
+              "text": "するにあたって、"
+            },
+            {
+              "text": "専門",
+              "reading": "せんもん"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "しました。"
+            }
+          ]
         },
         {
           "id": "saishite-ja-vi-10",
@@ -1176,7 +1880,44 @@
           "hint": "N ＋ に際して / にあたって",
           "explanation": "Câu dùng に際して để gắn hành động hoặc lời nói với một dịp quan trọng. Chú ý sự kiện được nêu và hành động gắn với dịp ấy; không bắt buộc sự kiện mang nghĩa tích cực.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "受賞",
+              "reading": "じゅしょう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "際",
+              "reading": "さい"
+            },
+            {
+              "text": "して、"
+            },
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "への"
+            },
+            {
+              "text": "感謝",
+              "reading": "かんしゃ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "述",
+              "reading": "の"
+            },
+            {
+              "text": "べました。"
+            }
+          ]
         },
         {
           "id": "saishite-order-01",
@@ -1848,7 +2589,26 @@
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "スープを"
+            },
+            {
+              "text": "口",
+              "reading": "くち"
+            },
+            {
+              "text": "にしたとたんに、せきが"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ました。"
+            }
+          ]
         },
         {
           "id": "totan-ja-vi-02",
@@ -1860,7 +2620,37 @@
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "試合",
+              "reading": "しあい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "まったとたんに、"
+            },
+            {
+              "text": "照明",
+              "reading": "しょうめい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "消",
+              "reading": "き"
+            },
+            {
+              "text": "えました。"
+            }
+          ]
         },
         {
           "id": "totan-ja-vi-03",
@@ -1872,7 +2662,44 @@
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "降",
+              "reading": "お"
+            },
+            {
+              "text": "りたとたんに、"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れ"
+            },
+            {
+              "text": "物",
+              "reading": "もの"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "づきました。"
+            }
+          ]
         },
         {
           "id": "totan-ja-vi-04",
@@ -1884,7 +2711,33 @@
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "ふたを"
+            },
+            {
+              "text": "開",
+              "reading": "あ"
+            },
+            {
+              "text": "けたとたんに、"
+            },
+            {
+              "text": "強",
+              "reading": "つよ"
+            },
+            {
+              "text": "いにおいが"
+            },
+            {
+              "text": "広",
+              "reading": "ひろ"
+            },
+            {
+              "text": "がりました。"
+            }
+          ]
         },
         {
           "id": "totan-ja-vi-05",
@@ -1896,7 +2749,44 @@
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "顔",
+              "reading": "かお"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "たとたんに、"
+            },
+            {
+              "text": "緊張",
+              "reading": "きんちょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "解",
+              "reading": "と"
+            },
+            {
+              "text": "けました。"
+            }
+          ]
         },
         {
           "id": "totan-ja-vi-06",
@@ -1908,7 +2798,44 @@
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "坂",
+              "reading": "さか"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "下",
+              "reading": "くだ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めたとたんに、"
+            },
+            {
+              "text": "自転車",
+              "reading": "じてんしゃ"
+            },
+            {
+              "text": "のブレーキが"
+            },
+            {
+              "text": "壊",
+              "reading": "こわ"
+            },
+            {
+              "text": "れました。"
+            }
+          ]
         },
         {
           "id": "totan-ja-vi-07",
@@ -1920,7 +2847,51 @@
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "携帯",
+              "reading": "けいたい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "取",
+              "reading": "と"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "したとたんに、"
+            },
+            {
+              "text": "手",
+              "reading": "て"
+            },
+            {
+              "text": "から"
+            },
+            {
+              "text": "滑",
+              "reading": "すべ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "落",
+              "reading": "お"
+            },
+            {
+              "text": "ちました。"
+            }
+          ]
         },
         {
           "id": "totan-ja-vi-08",
@@ -1932,7 +2903,30 @@
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "窓",
+              "reading": "まど"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "閉",
+              "reading": "し"
+            },
+            {
+              "text": "めたとたんに、ガラスが"
+            },
+            {
+              "text": "割",
+              "reading": "わ"
+            },
+            {
+              "text": "れました。"
+            }
+          ]
         },
         {
           "id": "totan-ja-vi-09",
@@ -1944,7 +2938,37 @@
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "らせを"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "いたとたんに、"
+            },
+            {
+              "text": "涙",
+              "reading": "なみだ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ました。"
+            }
+          ]
         },
         {
           "id": "totan-ja-vi-10",
@@ -1956,7 +2980,51 @@
           "hint": "Vた ＋ とたん（に）",
           "explanation": "Vた ＋ とたん（に）: vế trước vừa hoàn tất thì kết quả bất ngờ ở vế sau xảy ra. Khi dịch cần giữ sắc thái đột ngột, không chỉ nói hai việc lần lượt diễn ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "重",
+              "reading": "おも"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "荷物",
+              "reading": "にもつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "下",
+              "reading": "お"
+            },
+            {
+              "text": "ろしたとたんに、"
+            },
+            {
+              "text": "腰",
+              "reading": "こし"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "痛",
+              "reading": "いた"
+            },
+            {
+              "text": "みを"
+            },
+            {
+              "text": "感",
+              "reading": "かん"
+            },
+            {
+              "text": "じました。"
+            }
+          ]
         },
         {
           "id": "totan-order-01",
@@ -2650,7 +3718,44 @@
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "猫",
+              "reading": "ねこ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "庭",
+              "reading": "にわ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "たかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "うと、すぐに"
+            },
+            {
+              "text": "戻",
+              "reading": "もど"
+            },
+            {
+              "text": "ってきました。"
+            }
+          ]
         },
         {
           "id": "omouto-ja-vi-02",
@@ -2662,7 +3767,44 @@
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "気温",
+              "reading": "きおん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がったかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "ったら、"
+            },
+            {
+              "text": "翌日",
+              "reading": "よくじつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "雪",
+              "reading": "ゆき"
+            },
+            {
+              "text": "になりました。"
+            }
+          ]
         },
         {
           "id": "omouto-ja-vi-03",
@@ -2674,7 +3816,58 @@
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "笑顔",
+              "reading": "えがお"
+            },
+            {
+              "text": "になったかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "うと、"
+            },
+            {
+              "text": "急",
+              "reading": "きゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "真剣",
+              "reading": "しんけん"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "顔",
+              "reading": "かお"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "戻",
+              "reading": "もど"
+            },
+            {
+              "text": "りました。"
+            }
+          ]
         },
         {
           "id": "omouto-ja-vi-04",
@@ -2686,7 +3879,40 @@
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "バスは"
+            },
+            {
+              "text": "止",
+              "reading": "と"
+            },
+            {
+              "text": "まったかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "うと、すぐに"
+            },
+            {
+              "text": "動",
+              "reading": "うご"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "しました。"
+            }
+          ]
         },
         {
           "id": "omouto-ja-vi-05",
@@ -2698,7 +3924,58 @@
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "波",
+              "reading": "なみ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "引",
+              "reading": "ひ"
+            },
+            {
+              "text": "いたかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "うと、"
+            },
+            {
+              "text": "次",
+              "reading": "つぎ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "波",
+              "reading": "なみ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "押",
+              "reading": "お"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "寄",
+              "reading": "よ"
+            },
+            {
+              "text": "せました。"
+            }
+          ]
         },
         {
           "id": "omouto-ja-vi-06",
@@ -2710,7 +3987,44 @@
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "弟",
+              "reading": "おとうと"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "本",
+              "reading": "ほん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "開",
+              "reading": "ひら"
+            },
+            {
+              "text": "いたかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "ったら、すぐに"
+            },
+            {
+              "text": "閉",
+              "reading": "と"
+            },
+            {
+              "text": "じてしまいました。"
+            }
+          ]
         },
         {
           "id": "omouto-ja-vi-07",
@@ -2722,7 +4036,44 @@
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "雲",
+              "reading": "くも"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "切",
+              "reading": "き"
+            },
+            {
+              "text": "れたかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "うと、また"
+            },
+            {
+              "text": "空",
+              "reading": "そら"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "覆",
+              "reading": "おお"
+            },
+            {
+              "text": "いました。"
+            }
+          ]
         },
         {
           "id": "omouto-ja-vi-08",
@@ -2734,7 +4085,44 @@
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "選手",
+              "reading": "せんしゅ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "倒",
+              "reading": "たお"
+            },
+            {
+              "text": "れたかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "うと、すぐに"
+            },
+            {
+              "text": "起",
+              "reading": "お"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がりました。"
+            }
+          ]
         },
         {
           "id": "omouto-ja-vi-09",
@@ -2746,7 +4134,51 @@
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "客",
+              "reading": "きゃく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "席",
+              "reading": "せき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "着",
+              "reading": "つ"
+            },
+            {
+              "text": "いたかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "うと、すぐに"
+            },
+            {
+              "text": "席",
+              "reading": "せき"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "離",
+              "reading": "はな"
+            },
+            {
+              "text": "れました。"
+            }
+          ]
         },
         {
           "id": "omouto-ja-vi-10",
@@ -2758,7 +4190,51 @@
           "hint": "Vた ＋（か）と思うと",
           "explanation": "Vた ＋（か）と思うと / 思ったら: người nói quan sát sự việc hoặc thay đổi tiếp theo xảy ra rất nhanh. Trong câu này không phải nghĩa phát hiện mình đã nghĩ nhầm.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "花火",
+              "reading": "はなび"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "光",
+              "reading": "ひか"
+            },
+            {
+              "text": "ったかと"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "うと、"
+            },
+            {
+              "text": "大",
+              "reading": "おお"
+            },
+            {
+              "text": "きな"
+            },
+            {
+              "text": "音",
+              "reading": "おと"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "響",
+              "reading": "ひび"
+            },
+            {
+              "text": "きました。"
+            }
+          ]
         },
         {
           "id": "omouto-order-01",
@@ -3435,7 +4911,37 @@
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "着",
+              "reading": "つ"
+            },
+            {
+              "text": "くか"
+            },
+            {
+              "text": "着",
+              "reading": "つ"
+            },
+            {
+              "text": "かないかのうちに、ホームが"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "でいっぱいになりました。"
+            }
+          ]
         },
         {
           "id": "kanai-ja-vi-02",
@@ -3447,7 +4953,44 @@
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わるか"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わらないかのうちに、"
+            },
+            {
+              "text": "拍手",
+              "reading": "はくしゅ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "起",
+              "reading": "お"
+            },
+            {
+              "text": "こりました。"
+            }
+          ]
         },
         {
           "id": "kanai-ja-vi-03",
@@ -3459,7 +5002,51 @@
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "椅子",
+              "reading": "いす"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "座",
+              "reading": "すわ"
+            },
+            {
+              "text": "るか"
+            },
+            {
+              "text": "座",
+              "reading": "すわ"
+            },
+            {
+              "text": "らないかのうちに、"
+            },
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めました。"
+            }
+          ]
         },
         {
           "id": "kanai-ja-vi-04",
@@ -3471,7 +5058,51 @@
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "信号",
+              "reading": "しんごう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わるか"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わらないかのうちに、"
+            },
+            {
+              "text": "車",
+              "reading": "くるま"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "動",
+              "reading": "うご"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "しました。"
+            }
+          ]
         },
         {
           "id": "kanai-ja-vi-05",
@@ -3483,7 +5114,51 @@
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "荷物",
+              "reading": "にもつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "届",
+              "reading": "とど"
+            },
+            {
+              "text": "くか"
+            },
+            {
+              "text": "届",
+              "reading": "とど"
+            },
+            {
+              "text": "かないかのうちに、"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "電話",
+              "reading": "でんわ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "来",
+              "reading": "き"
+            },
+            {
+              "text": "ました。"
+            }
+          ]
         },
         {
           "id": "kanai-ja-vi-06",
@@ -3495,7 +5170,51 @@
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "朝日",
+              "reading": "あさひ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "昇",
+              "reading": "のぼ"
+            },
+            {
+              "text": "るか"
+            },
+            {
+              "text": "昇",
+              "reading": "のぼ"
+            },
+            {
+              "text": "らないかのうちに、"
+            },
+            {
+              "text": "漁船",
+              "reading": "ぎょせん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "港",
+              "reading": "みなと"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ました。"
+            }
+          ]
         },
         {
           "id": "kanai-ja-vi-07",
@@ -3507,7 +5226,40 @@
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "チャイムが"
+            },
+            {
+              "text": "鳴",
+              "reading": "な"
+            },
+            {
+              "text": "るか"
+            },
+            {
+              "text": "鳴",
+              "reading": "な"
+            },
+            {
+              "text": "らないかのうちに、"
+            },
+            {
+              "text": "犬",
+              "reading": "いぬ"
+            },
+            {
+              "text": "がほえ"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めました。"
+            }
+          ]
         },
         {
           "id": "kanai-ja-vi-08",
@@ -3519,7 +5271,44 @@
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "試合",
+              "reading": "しあい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わるか"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わらないかのうちに、"
+            },
+            {
+              "text": "速報",
+              "reading": "そくほう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "流",
+              "reading": "なが"
+            },
+            {
+              "text": "れました。"
+            }
+          ]
         },
         {
           "id": "kanai-ja-vi-09",
@@ -3531,7 +5320,51 @@
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "店",
+              "reading": "みせ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "入",
+              "reading": "はい"
+            },
+            {
+              "text": "るか"
+            },
+            {
+              "text": "入",
+              "reading": "はい"
+            },
+            {
+              "text": "らないかのうちに、"
+            },
+            {
+              "text": "友人",
+              "reading": "ゆうじん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "声",
+              "reading": "こえ"
+            },
+            {
+              "text": "をかけられました。"
+            }
+          ]
         },
         {
           "id": "kanai-ja-vi-10",
@@ -3543,7 +5376,51 @@
           "hint": "Vる / Vた ＋ か ＋ Vない ＋ かのうちに",
           "explanation": "Lặp cùng động từ ở dạng khẳng định và phủ định trước かのうちに. Hai sự việc gần như đồng thời; bản dịch cần giữ sắc thái vừa mới hoặc chưa kịp, thay vì một khoảng chờ lâu.",
           "origin": "authored",
-          "sourceNote": "Lesson 1 pilot authored"
+          "sourceNote": "Lesson 1 pilot authored",
+          "promptRuby": [
+            {
+              "text": "合図",
+              "reading": "あいず"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "るか"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ないかのうちに、"
+            },
+            {
+              "text": "選手",
+              "reading": "せんしゅ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "飛",
+              "reading": "と"
+            },
+            {
+              "text": "び"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "しました。"
+            }
+          ]
         },
         {
           "id": "kanai-order-01",

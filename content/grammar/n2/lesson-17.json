@@ -255,7 +255,30 @@
           "hint": "〜ことだし",
           "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "静",
+              "reading": "しず"
+            },
+            {
+              "text": "かになったことだし、"
+            },
+            {
+              "text": "勉強",
+              "reading": "べんきょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めよう。"
+            }
+          ]
         },
         {
           "id": "l17-g01-ja-vi-02",
@@ -267,7 +290,33 @@
           "hint": "〜ことだし",
           "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "お"
+            },
+            {
+              "text": "金",
+              "reading": "かね"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "貯",
+              "reading": "た"
+            },
+            {
+              "text": "まったことだし、"
+            },
+            {
+              "text": "旅行",
+              "reading": "りょこう"
+            },
+            {
+              "text": "しよう。"
+            }
+          ]
         },
         {
           "id": "l17-g01-ja-vi-03",
@@ -279,7 +328,30 @@
           "hint": "〜ことだし",
           "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "整",
+              "reading": "ととの"
+            },
+            {
+              "text": "ったことだし、"
+            },
+            {
+              "text": "出発",
+              "reading": "しゅっぱつ"
+            },
+            {
+              "text": "しよう。"
+            }
+          ]
         },
         {
           "id": "l17-g01-ja-vi-04",
@@ -291,7 +363,37 @@
           "hint": "〜ことだし",
           "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子",
+              "reading": "こ"
+            },
+            {
+              "text": "どもも"
+            },
+            {
+              "text": "寝",
+              "reading": "ね"
+            },
+            {
+              "text": "たことだし、"
+            },
+            {
+              "text": "映画",
+              "reading": "えいが"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "よう。"
+            }
+          ]
         },
         {
           "id": "l17-g01-ja-vi-05",
@@ -303,7 +405,30 @@
           "hint": "〜ことだし",
           "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "期限",
+              "reading": "きげん"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "近",
+              "reading": "ちか"
+            },
+            {
+              "text": "いことだし、"
+            },
+            {
+              "text": "急",
+              "reading": "いそ"
+            },
+            {
+              "text": "ごう。"
+            }
+          ]
         },
         {
           "id": "l17-g01-ja-vi-06",
@@ -315,7 +440,30 @@
           "hint": "〜ことだし",
           "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "天気",
+              "reading": "てんき"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "いことだし、"
+            },
+            {
+              "text": "外出",
+              "reading": "がいしゅつ"
+            },
+            {
+              "text": "はやめよう。"
+            }
+          ]
         },
         {
           "id": "l17-g01-ja-vi-07",
@@ -327,7 +475,30 @@
           "hint": "〜ことだし",
           "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "のことだし、もう"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "こう。"
+            }
+          ]
         },
         {
           "id": "l17-g01-ja-vi-08",
@@ -339,7 +510,30 @@
           "hint": "〜ことだし",
           "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "揃",
+              "reading": "そろ"
+            },
+            {
+              "text": "ったことだし、"
+            },
+            {
+              "text": "提出",
+              "reading": "ていしゅつ"
+            },
+            {
+              "text": "しよう。"
+            }
+          ]
         },
         {
           "id": "l17-g01-ja-vi-09",
@@ -351,7 +545,33 @@
           "hint": "〜ことだし",
           "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "お"
+            },
+            {
+              "text": "腹",
+              "reading": "なか"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "空",
+              "reading": "あ"
+            },
+            {
+              "text": "いたことだし、"
+            },
+            {
+              "text": "食事",
+              "reading": "しょくじ"
+            },
+            {
+              "text": "にしよう。"
+            }
+          ]
         },
         {
           "id": "l17-g01-ja-vi-10",
@@ -363,7 +583,30 @@
           "hint": "〜ことだし",
           "explanation": "Câu thêm lý do để quyết định/đề xuất: ことだし.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "試験",
+              "reading": "しけん"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わったことだし、"
+            },
+            {
+              "text": "祝",
+              "reading": "いわ"
+            },
+            {
+              "text": "おう。"
+            }
+          ]
         },
         {
           "id": "l17-g01-order-01",
@@ -1017,7 +1260,37 @@
           "hint": "〜のことだから",
           "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "元気",
+              "reading": "げんき"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "子",
+              "reading": "こ"
+            },
+            {
+              "text": "どものことだから、すぐ"
+            },
+            {
+              "text": "外",
+              "reading": "そと"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "遊",
+              "reading": "あそ"
+            },
+            {
+              "text": "びたがる。"
+            }
+          ]
         },
         {
           "id": "l17-g02-ja-vi-02",
@@ -1029,7 +1302,37 @@
           "hint": "〜のことだから",
           "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "慎重",
+              "reading": "しんちょう"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "田中",
+              "reading": "たなか"
+            },
+            {
+              "text": "さんのことだから、"
+            },
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "はよく"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "むはずだ。"
+            }
+          ]
         },
         {
           "id": "l17-g02-ja-vi-03",
@@ -1041,7 +1344,41 @@
           "hint": "〜のことだから",
           "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "世話",
+              "reading": "せわ"
+            },
+            {
+              "text": "好",
+              "reading": "す"
+            },
+            {
+              "text": "きな"
+            },
+            {
+              "text": "隣",
+              "reading": "となり"
+            },
+            {
+              "text": "のことだから、"
+            },
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "けに"
+            },
+            {
+              "text": "来",
+              "reading": "く"
+            },
+            {
+              "text": "るだろう。"
+            }
+          ]
         },
         {
           "id": "l17-g02-ja-vi-04",
@@ -1053,7 +1390,41 @@
           "hint": "〜のことだから",
           "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "負",
+              "reading": "ま"
+            },
+            {
+              "text": "けず"
+            },
+            {
+              "text": "嫌",
+              "reading": "ぎら"
+            },
+            {
+              "text": "いな"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "のことだから、"
+            },
+            {
+              "text": "再",
+              "reading": "さい"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l17-g02-ja-vi-05",
@@ -1065,7 +1436,45 @@
           "hint": "〜のことだから",
           "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "心配",
+              "reading": "しんぱい"
+            },
+            {
+              "text": "性",
+              "reading": "せい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "母",
+              "reading": "はは"
+            },
+            {
+              "text": "のことだから、"
+            },
+            {
+              "text": "何",
+              "reading": "なん"
+            },
+            {
+              "text": "度",
+              "reading": "ど"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "電話",
+              "reading": "でんわ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l17-g02-ja-vi-06",
@@ -1077,7 +1486,34 @@
           "hint": "〜のことだから",
           "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "豊富",
+              "reading": "ほうふ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "のことだから、うまく"
+            },
+            {
+              "text": "対応",
+              "reading": "たいおう"
+            },
+            {
+              "text": "するだろう。"
+            }
+          ]
         },
         {
           "id": "l17-g02-ja-vi-07",
@@ -1089,7 +1525,44 @@
           "hint": "〜のことだから",
           "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "口",
+              "reading": "くち"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "堅",
+              "reading": "かた"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "のことだから、"
+            },
+            {
+              "text": "秘密",
+              "reading": "ひみつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l17-g02-ja-vi-08",
@@ -1101,7 +1574,41 @@
           "hint": "〜のことだから",
           "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "完璧",
+              "reading": "かんぺき"
+            },
+            {
+              "text": "主義",
+              "reading": "しゅぎ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "上司",
+              "reading": "じょうし"
+            },
+            {
+              "text": "のことだから、"
+            },
+            {
+              "text": "修正",
+              "reading": "しゅうせい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "多",
+              "reading": "おお"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l17-g02-ja-vi-09",
@@ -1113,7 +1620,40 @@
           "hint": "〜のことだから",
           "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "スポーツ"
+            },
+            {
+              "text": "好",
+              "reading": "す"
+            },
+            {
+              "text": "きな"
+            },
+            {
+              "text": "弟",
+              "reading": "おとうと"
+            },
+            {
+              "text": "のことだから、"
+            },
+            {
+              "text": "週末",
+              "reading": "しゅうまつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l17-g02-ja-vi-10",
@@ -1125,7 +1665,48 @@
           "hint": "〜のことだから",
           "explanation": "Câu suy đoán theo tính cách: Nのことだから.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "面倒",
+              "reading": "めんどう"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "良",
+              "reading": "よ"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "先輩",
+              "reading": "せんぱい"
+            },
+            {
+              "text": "のことだから、"
+            },
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "乗",
+              "reading": "の"
+            },
+            {
+              "text": "ってくれる。"
+            }
+          ]
         },
         {
           "id": "l17-g02-order-01",
@@ -1751,7 +2332,37 @@
           "hint": "〜だけに",
           "explanation": "Câu chính vì… nên…: だけに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "しただけに"
+            },
+            {
+              "text": "試合",
+              "reading": "しあい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "力",
+              "reading": "ちから"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "せた。"
+            }
+          ]
         },
         {
           "id": "l17-g03-ja-vi-02",
@@ -1763,7 +2374,23 @@
           "hint": "〜だけに",
           "explanation": "Câu chính vì… nên…: だけに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "高価",
+              "reading": "こうか"
+            },
+            {
+              "text": "なだけに"
+            },
+            {
+              "text": "壊",
+              "reading": "こわ"
+            },
+            {
+              "text": "れてショックだ。"
+            }
+          ]
         },
         {
           "id": "l17-g03-ja-vi-03",
@@ -1775,7 +2402,30 @@
           "hint": "〜だけに",
           "explanation": "Câu chính vì… nên…: だけに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "親",
+              "reading": "した"
+            },
+            {
+              "text": "しいだけに"
+            },
+            {
+              "text": "本音",
+              "reading": "ほんね"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "える。"
+            }
+          ]
         },
         {
           "id": "l17-g03-ja-vi-04",
@@ -1787,7 +2437,30 @@
           "hint": "〜だけに",
           "explanation": "Câu chính vì… nên…: だけに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "初",
+              "reading": "はじ"
+            },
+            {
+              "text": "めてだけに"
+            },
+            {
+              "text": "勝",
+              "reading": "か"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "嬉",
+              "reading": "うれ"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l17-g03-ja-vi-05",
@@ -1799,7 +2472,30 @@
           "hint": "〜だけに",
           "explanation": "Câu chính vì… nên…: だけに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しいだけに"
+            },
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みが"
+            },
+            {
+              "text": "貴重",
+              "reading": "きちょう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l17-g03-ja-vi-06",
@@ -1811,7 +2507,37 @@
           "hint": "〜だけに",
           "explanation": "Câu chính vì… nên…: だけに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "期待",
+              "reading": "きたい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "大",
+              "reading": "おお"
+            },
+            {
+              "text": "きいだけに"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "になる。"
+            }
+          ]
         },
         {
           "id": "l17-g03-ja-vi-07",
@@ -1823,7 +2549,30 @@
           "hint": "〜だけに",
           "explanation": "Câu chính vì… nên…: だけに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "専門",
+              "reading": "せんもん"
+            },
+            {
+              "text": "だけに"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "詳",
+              "reading": "くわ"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l17-g03-ja-vi-08",
@@ -1835,7 +2584,30 @@
           "hint": "〜だけに",
           "explanation": "Câu chính vì… nên…: だけに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "狭",
+              "reading": "せま"
+            },
+            {
+              "text": "いだけに"
+            },
+            {
+              "text": "家賃",
+              "reading": "やちん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l17-g03-ja-vi-09",
@@ -1847,7 +2619,30 @@
           "hint": "〜だけに",
           "explanation": "Câu chính vì… nên…: だけに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "真剣",
+              "reading": "しんけん"
+            },
+            {
+              "text": "なだけに"
+            },
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "悔",
+              "reading": "くや"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l17-g03-ja-vi-10",
@@ -1859,7 +2654,34 @@
           "hint": "〜だけに",
           "explanation": "Câu chính vì… nên…: だけに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "だけに"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "速",
+              "reading": "はや"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l17-g03-order-01",
@@ -2486,7 +3308,30 @@
           "hint": "〜ばかりに",
           "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "をついたばかりに"
+            },
+            {
+              "text": "信用",
+              "reading": "しんよう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "失",
+              "reading": "うしな"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l17-g04-ja-vi-02",
@@ -2498,7 +3343,30 @@
           "hint": "〜ばかりに",
           "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無理",
+              "reading": "むり"
+            },
+            {
+              "text": "をしたばかりに"
+            },
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "崩",
+              "reading": "くず"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l17-g04-ja-vi-03",
@@ -2510,7 +3378,30 @@
           "hint": "〜ばかりに",
           "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "値段",
+              "reading": "ねだん"
+            },
+            {
+              "text": "だけ"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "たばかりに"
+            },
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l17-g04-ja-vi-04",
@@ -2522,7 +3413,30 @@
           "hint": "〜ばかりに",
           "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "怠",
+              "reading": "おこた"
+            },
+            {
+              "text": "ったばかりに"
+            },
+            {
+              "text": "怒",
+              "reading": "おこ"
+            },
+            {
+              "text": "られた。"
+            }
+          ]
         },
         {
           "id": "l17-g04-ja-vi-05",
@@ -2534,7 +3448,30 @@
           "hint": "〜ばかりに",
           "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "小",
+              "reading": "ちい"
+            },
+            {
+              "text": "さな"
+            },
+            {
+              "text": "油断",
+              "reading": "ゆだん"
+            },
+            {
+              "text": "をしたばかりに"
+            },
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "になった。"
+            }
+          ]
         },
         {
           "id": "l17-g04-ja-vi-06",
@@ -2546,7 +3483,27 @@
           "hint": "〜ばかりに",
           "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "欲張",
+              "reading": "よくば"
+            },
+            {
+              "text": "ったばかりに"
+            },
+            {
+              "text": "両方",
+              "reading": "りょうほう"
+            },
+            {
+              "text": "失",
+              "reading": "うしな"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l17-g04-ja-vi-07",
@@ -2558,7 +3515,37 @@
           "hint": "〜ばかりに",
           "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "破",
+              "reading": "やぶ"
+            },
+            {
+              "text": "ったばかりに"
+            },
+            {
+              "text": "信頼",
+              "reading": "しんらい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "損",
+              "reading": "そこ"
+            },
+            {
+              "text": "ねた。"
+            }
+          ]
         },
         {
           "id": "l17-g04-ja-vi-08",
@@ -2570,7 +3557,23 @@
           "hint": "〜ばかりに",
           "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "笑",
+              "reading": "わら"
+            },
+            {
+              "text": "ったばかりに"
+            },
+            {
+              "text": "怒",
+              "reading": "おこ"
+            },
+            {
+              "text": "らせてしまった。"
+            }
+          ]
         },
         {
           "id": "l17-g04-ja-vi-09",
@@ -2582,7 +3585,30 @@
           "hint": "〜ばかりに",
           "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安請",
+              "reading": "やすう"
+            },
+            {
+              "text": "け"
+            },
+            {
+              "text": "合",
+              "reading": "あ"
+            },
+            {
+              "text": "いしたばかりに"
+            },
+            {
+              "text": "苦労",
+              "reading": "くろう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l17-g04-ja-vi-10",
@@ -2594,7 +3620,31 @@
           "hint": "〜ばかりに",
           "explanation": "Câu chỉ vì… nên kết quả xấu: ばかりに.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "夜",
+              "reading": "よる"
+            },
+            {
+              "text": "更",
+              "reading": "ふ"
+            },
+            {
+              "text": "かししたばかりに"
+            },
+            {
+              "text": "朝",
+              "reading": "あさ"
+            },
+            {
+              "text": "起",
+              "reading": "お"
+            },
+            {
+              "text": "きれない。"
+            }
+          ]
         },
         {
           "id": "l17-g04-order-01",
@@ -3223,7 +4273,37 @@
           "hint": "〜からには／以上は／上は",
           "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "日本",
+              "reading": "にっぽん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "来",
+              "reading": "き"
+            },
+            {
+              "text": "たからには"
+            },
+            {
+              "text": "日本語",
+              "reading": "にほんご"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "学",
+              "reading": "まな"
+            },
+            {
+              "text": "ぶ。"
+            }
+          ]
         },
         {
           "id": "l17-g05-ja-vi-02",
@@ -3235,7 +4315,26 @@
           "hint": "〜からには／以上は／上は",
           "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "プロである"
+            },
+            {
+              "text": "以上",
+              "reading": "いじょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "妥協",
+              "reading": "だきょう"
+            },
+            {
+              "text": "しない。"
+            }
+          ]
         },
         {
           "id": "l17-g05-ja-vi-03",
@@ -3247,7 +4346,30 @@
           "hint": "〜からには／以上は／上は",
           "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めた"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "完成",
+              "reading": "かんせい"
+            },
+            {
+              "text": "させる。"
+            }
+          ]
         },
         {
           "id": "l17-g05-ja-vi-04",
@@ -3259,7 +4381,30 @@
           "hint": "〜からには／以上は／上は",
           "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "参加",
+              "reading": "さんか"
+            },
+            {
+              "text": "したからには"
+            },
+            {
+              "text": "最後",
+              "reading": "さいご"
+            },
+            {
+              "text": "まで"
+            },
+            {
+              "text": "残",
+              "reading": "のこ"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l17-g05-ja-vi-05",
@@ -3271,7 +4416,37 @@
           "hint": "〜からには／以上は／上は",
           "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "である"
+            },
+            {
+              "text": "以上",
+              "reading": "いじょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "子",
+              "reading": "こ"
+            },
+            {
+              "text": "どもを"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l17-g05-ja-vi-06",
@@ -3283,7 +4458,37 @@
           "hint": "〜からには／以上は／上は",
           "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "めた"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "わず"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "む。"
+            }
+          ]
         },
         {
           "id": "l17-g05-ja-vi-07",
@@ -3295,7 +4500,30 @@
           "hint": "〜からには／以上は／上は",
           "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "するからには"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "狙",
+              "reading": "ねら"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l17-g05-ja-vi-08",
@@ -3307,7 +4535,30 @@
           "hint": "〜からには／以上は／上は",
           "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "公務員",
+              "reading": "こうむいん"
+            },
+            {
+              "text": "である"
+            },
+            {
+              "text": "以上",
+              "reading": "いじょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "公正",
+              "reading": "こうせい"
+            },
+            {
+              "text": "であれ。"
+            }
+          ]
         },
         {
           "id": "l17-g05-ja-vi-09",
@@ -3319,7 +4570,37 @@
           "hint": "〜からには／以上は／上は",
           "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "引",
+              "reading": "ひ"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "けた"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "逃",
+              "reading": "に"
+            },
+            {
+              "text": "げられない。"
+            }
+          ]
         },
         {
           "id": "l17-g05-ja-vi-10",
@@ -3331,7 +4612,30 @@
           "hint": "〜からには／以上は／上は",
           "explanation": "Câu đã… thì phải…: からには／以上（は）／上は.",
           "origin": "authored",
-          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 17 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "発言",
+              "reading": "はつげん"
+            },
+            {
+              "text": "したからには"
+            },
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "持",
+              "reading": "も"
+            },
+            {
+              "text": "つ。"
+            }
+          ]
         },
         {
           "id": "l17-g05-order-01",

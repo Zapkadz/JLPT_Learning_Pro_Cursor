@@ -268,7 +268,30 @@
           "hint": "〜たところ",
           "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "申請",
+              "reading": "しんせい"
+            },
+            {
+              "text": "したところ"
+            },
+            {
+              "text": "許可",
+              "reading": "きょか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "下",
+              "reading": "お"
+            },
+            {
+              "text": "りた。"
+            }
+          ]
         },
         {
           "id": "l20-g01-ja-vi-02",
@@ -280,7 +303,37 @@
           "hint": "〜たところ",
           "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "冷蔵庫",
+              "reading": "れいぞうこ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "開",
+              "reading": "あ"
+            },
+            {
+              "text": "けたところ"
+            },
+            {
+              "text": "牛乳",
+              "reading": "ぎゅうにゅう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "切",
+              "reading": "き"
+            },
+            {
+              "text": "れていた。"
+            }
+          ]
         },
         {
           "id": "l20-g01-ja-vi-03",
@@ -292,7 +345,30 @@
           "hint": "〜たところ",
           "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "調",
+              "reading": "しら"
+            },
+            {
+              "text": "べたところ"
+            },
+            {
+              "text": "原因",
+              "reading": "げんいん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "配線",
+              "reading": "はいせん"
+            },
+            {
+              "text": "だった。"
+            }
+          ]
         },
         {
           "id": "l20-g01-ja-vi-04",
@@ -304,7 +380,41 @@
           "hint": "〜たところ",
           "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "近所",
+              "reading": "きんじょ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "いたところ"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "出張",
+              "reading": "しゅっちょう"
+            },
+            {
+              "text": "中",
+              "reading": "ちゅう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l20-g01-ja-vi-05",
@@ -316,7 +426,30 @@
           "hint": "〜たところ",
           "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "試食",
+              "reading": "ししょく"
+            },
+            {
+              "text": "したところ"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "ったより"
+            },
+            {
+              "text": "辛",
+              "reading": "つら"
+            },
+            {
+              "text": "かった。"
+            }
+          ]
         },
         {
           "id": "l20-g01-ja-vi-06",
@@ -328,7 +461,30 @@
           "hint": "〜たところ",
           "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "予約",
+              "reading": "よやく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "したところ"
+            },
+            {
+              "text": "翌日",
+              "reading": "よくじつ"
+            },
+            {
+              "text": "だった。"
+            }
+          ]
         },
         {
           "id": "l20-g01-ja-vi-07",
@@ -340,7 +496,37 @@
           "hint": "〜たところ",
           "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "書類",
+              "reading": "しょるい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見直",
+              "reading": "みなお"
+            },
+            {
+              "text": "したところ"
+            },
+            {
+              "text": "署名",
+              "reading": "しょめい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "けていた。"
+            }
+          ]
         },
         {
           "id": "l20-g01-ja-vi-08",
@@ -352,7 +538,44 @@
           "hint": "〜たところ",
           "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "駅員",
+              "reading": "えきいん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "尋",
+              "reading": "たず"
+            },
+            {
+              "text": "ねたところ"
+            },
+            {
+              "text": "次",
+              "reading": "つぎ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "満席",
+              "reading": "まんせき"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l20-g01-ja-vi-09",
@@ -364,7 +587,37 @@
           "hint": "〜たところ",
           "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "録音",
+              "reading": "ろくおん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "いたところ"
+            },
+            {
+              "text": "雑音",
+              "reading": "ざつおん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "多",
+              "reading": "おお"
+            },
+            {
+              "text": "かった。"
+            }
+          ]
         },
         {
           "id": "l20-g01-ja-vi-10",
@@ -376,7 +629,34 @@
           "hint": "〜たところ",
           "explanation": "Câu kết quả: Vた＋ところ — vừa/làm xong A thì kết quả là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "図書館",
+              "reading": "としょかん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "探",
+              "reading": "さが"
+            },
+            {
+              "text": "したところ"
+            },
+            {
+              "text": "貸出",
+              "reading": "かしだし"
+            },
+            {
+              "text": "中",
+              "reading": "ちゅう"
+            },
+            {
+              "text": "だった。"
+            }
+          ]
         },
         {
           "id": "l20-g01-order-01",
@@ -1005,7 +1285,37 @@
           "hint": "〜きり",
           "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "学校",
+              "reading": "がっこう"
+            },
+            {
+              "text": "へ"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "ったきり"
+            },
+            {
+              "text": "帰",
+              "reading": "かえ"
+            },
+            {
+              "text": "ってこない。"
+            }
+          ]
         },
         {
           "id": "l20-g02-ja-vi-02",
@@ -1017,7 +1327,37 @@
           "hint": "〜きり",
           "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "就職",
+              "reading": "しゅうしょく"
+            },
+            {
+              "text": "したきり"
+            },
+            {
+              "text": "地元",
+              "reading": "じもと"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "戻",
+              "reading": "もど"
+            },
+            {
+              "text": "らない。"
+            }
+          ]
         },
         {
           "id": "l20-g02-ja-vi-03",
@@ -1029,7 +1369,38 @@
           "hint": "〜きり",
           "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "口",
+              "reading": "くち"
+            },
+            {
+              "text": "食",
+              "reading": "た"
+            },
+            {
+              "text": "べたきり"
+            },
+            {
+              "text": "箸",
+              "reading": "はし"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "置",
+              "reading": "お"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l20-g02-ja-vi-04",
@@ -1041,7 +1412,23 @@
           "hint": "〜きり",
           "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "したきり"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "らない。"
+            }
+          ]
         },
         {
           "id": "l20-g02-ja-vi-05",
@@ -1053,7 +1440,27 @@
           "hint": "〜きり",
           "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "三",
+              "reading": "さん"
+            },
+            {
+              "text": "人",
+              "reading": "にん"
+            },
+            {
+              "text": "きりで"
+            },
+            {
+              "text": "旅行",
+              "reading": "りょこう"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l20-g02-ja-vi-06",
@@ -1065,7 +1472,37 @@
           "hint": "〜きり",
           "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "窓",
+              "reading": "まど"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "開",
+              "reading": "あ"
+            },
+            {
+              "text": "けたきり"
+            },
+            {
+              "text": "閉",
+              "reading": "し"
+            },
+            {
+              "text": "め"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れた。"
+            }
+          ]
         },
         {
           "id": "l20-g02-ja-vi-07",
@@ -1077,7 +1514,27 @@
           "hint": "〜きり",
           "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一度",
+              "reading": "いちど"
+            },
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "したきり"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "しない。"
+            }
+          ]
         },
         {
           "id": "l20-g02-ja-vi-08",
@@ -1089,7 +1546,27 @@
           "hint": "〜きり",
           "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "現金",
+              "reading": "げんきん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "千",
+              "reading": "せん"
+            },
+            {
+              "text": "円",
+              "reading": "えん"
+            },
+            {
+              "text": "きりしかない。"
+            }
+          ]
         },
         {
           "id": "l20-g02-ja-vi-09",
@@ -1101,7 +1578,37 @@
           "hint": "〜きり",
           "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "泣",
+              "reading": "な"
+            },
+            {
+              "text": "いたきり"
+            },
+            {
+              "text": "何",
+              "reading": "なに"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "わない。"
+            }
+          ]
         },
         {
           "id": "l20-g02-ja-vi-10",
@@ -1113,7 +1620,37 @@
           "hint": "〜きり",
           "explanation": "Câu きり／っきり: từ đó không… hoặc chỉ (N).",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "荷物",
+              "reading": "にもつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "預",
+              "reading": "あづ"
+            },
+            {
+              "text": "けたきり"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "け"
+            },
+            {
+              "text": "取",
+              "reading": "と"
+            },
+            {
+              "text": "っていない。"
+            }
+          ]
         },
         {
           "id": "l20-g02-order-01",
@@ -1758,7 +2295,37 @@
           "hint": "〜あげく",
           "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "文句",
+              "reading": "もんく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "ったあげく"
+            },
+            {
+              "text": "何",
+              "reading": "なに"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わらない。"
+            }
+          ]
         },
         {
           "id": "l20-g03-ja-vi-02",
@@ -1770,7 +2337,37 @@
           "hint": "〜あげく",
           "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "行列",
+              "reading": "ぎょうれつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "並",
+              "reading": "なら"
+            },
+            {
+              "text": "んだあげく"
+            },
+            {
+              "text": "売",
+              "reading": "う"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "切",
+              "reading": "き"
+            },
+            {
+              "text": "れた。"
+            }
+          ]
         },
         {
           "id": "l20-g03-ja-vi-03",
@@ -1782,7 +2379,27 @@
           "hint": "〜あげく",
           "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "何",
+              "reading": "なん"
+            },
+            {
+              "text": "度",
+              "reading": "ど"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "したあげくミスがあった。"
+            }
+          ]
         },
         {
           "id": "l20-g03-ja-vi-04",
@@ -1794,7 +2411,30 @@
           "hint": "〜あげく",
           "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "借金",
+              "reading": "しゃっきん"
+            },
+            {
+              "text": "のあげく"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "失",
+              "reading": "うしな"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l20-g03-ja-vi-05",
@@ -1806,7 +2446,34 @@
           "hint": "〜あげく",
           "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "残業",
+              "reading": "ざんぎょう"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "きのあげく"
+            },
+            {
+              "text": "辞表",
+              "reading": "じひょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l20-g03-ja-vi-06",
@@ -1818,7 +2485,23 @@
           "hint": "〜あげく",
           "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "ったあげくどちらも"
+            },
+            {
+              "text": "選",
+              "reading": "えら"
+            },
+            {
+              "text": "ばなかった。"
+            }
+          ]
         },
         {
           "id": "l20-g03-ja-vi-07",
@@ -1830,7 +2513,23 @@
           "hint": "〜あげく",
           "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "抗議",
+              "reading": "こうぎ"
+            },
+            {
+              "text": "したあげく"
+            },
+            {
+              "text": "無視",
+              "reading": "むし"
+            },
+            {
+              "text": "された。"
+            }
+          ]
         },
         {
           "id": "l20-g03-ja-vi-08",
@@ -1842,7 +2541,23 @@
           "hint": "〜あげく",
           "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "修理",
+              "reading": "しゅうり"
+            },
+            {
+              "text": "したあげくまた"
+            },
+            {
+              "text": "壊",
+              "reading": "こわ"
+            },
+            {
+              "text": "れた。"
+            }
+          ]
         },
         {
           "id": "l20-g03-ja-vi-09",
@@ -1854,7 +2569,30 @@
           "hint": "〜あげく",
           "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "したあげく"
+            },
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "めた。"
+            }
+          ]
         },
         {
           "id": "l20-g03-ja-vi-10",
@@ -1866,7 +2604,30 @@
           "hint": "〜あげく",
           "explanation": "Câu あげく（に）: sau quá trình dài, cuối cùng (thường xấu) thì B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "したあげく"
+            },
+            {
+              "text": "試験",
+              "reading": "しけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "けられなかった。"
+            }
+          ]
         },
         {
           "id": "l20-g03-order-01",
@@ -2523,7 +3284,37 @@
           "hint": "〜末（に）",
           "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "審査",
+              "reading": "しんさ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "採用",
+              "reading": "さいよう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "まった。"
+            }
+          ]
         },
         {
           "id": "l20-g04-ja-vi-02",
@@ -2535,7 +3326,37 @@
           "hint": "〜末（に）",
           "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "重",
+              "reading": "かさ"
+            },
+            {
+              "text": "ねた"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l20-g04-ja-vi-03",
@@ -2547,7 +3368,30 @@
           "hint": "〜末（に）",
           "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "延期",
+              "reading": "えんき"
+            },
+            {
+              "text": "することにした。"
+            }
+          ]
         },
         {
           "id": "l20-g04-ja-vi-04",
@@ -2559,7 +3403,41 @@
           "hint": "〜末（に）",
           "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "旅",
+              "reading": "たび"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "目的",
+              "reading": "もくてき"
+            },
+            {
+              "text": "地",
+              "reading": "ち"
+            },
+            {
+              "text": "へ"
+            },
+            {
+              "text": "着",
+              "reading": "つ"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l20-g04-ja-vi-05",
@@ -2571,7 +3449,37 @@
           "hint": "〜末（に）",
           "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "計算",
+              "reading": "けいさん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "答",
+              "reading": "こた"
+            },
+            {
+              "text": "えが"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "た。"
+            }
+          ]
         },
         {
           "id": "l20-g04-ja-vi-06",
@@ -2583,7 +3491,37 @@
           "hint": "〜末（に）",
           "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "投票",
+              "reading": "とうひょう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "案",
+              "reading": "あん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "可決",
+              "reading": "かけつ"
+            },
+            {
+              "text": "された。"
+            }
+          ]
         },
         {
           "id": "l20-g04-ja-vi-07",
@@ -2595,7 +3533,37 @@
           "hint": "〜末（に）",
           "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "完璧",
+              "reading": "かんぺき"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "弾",
+              "reading": "ひ"
+            },
+            {
+              "text": "けた。"
+            }
+          ]
         },
         {
           "id": "l20-g04-ja-vi-08",
@@ -2607,7 +3575,37 @@
           "hint": "〜末（に）",
           "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "調査",
+              "reading": "ちょうさ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "真相",
+              "reading": "しんそう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "明",
+              "reading": "あき"
+            },
+            {
+              "text": "らかになった。"
+            }
+          ]
         },
         {
           "id": "l20-g04-ja-vi-09",
@@ -2619,7 +3617,37 @@
           "hint": "〜末（に）",
           "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "選択",
+              "reading": "せんたく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "留学",
+              "reading": "りゅうがく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "選",
+              "reading": "えら"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l20-g04-ja-vi-10",
@@ -2631,7 +3659,30 @@
           "hint": "〜末（に）",
           "explanation": "Câu 末（に）: sau quá trình dài, cuối cùng đạt kết quả B.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忍耐",
+              "reading": "にんたい"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "末",
+              "reading": "すえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "報",
+              "reading": "むく"
+            },
+            {
+              "text": "われた。"
+            }
+          ]
         },
         {
           "id": "l20-g04-order-01",
@@ -3264,7 +4315,37 @@
           "hint": "〜ところだった",
           "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "危",
+              "reading": "あや"
+            },
+            {
+              "text": "うく"
+            },
+            {
+              "text": "大事",
+              "reading": "だいじ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "書類",
+              "reading": "しょるい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "捨",
+              "reading": "す"
+            },
+            {
+              "text": "てるところだった。"
+            }
+          ]
         },
         {
           "id": "l20-g05-ja-vi-02",
@@ -3276,7 +4357,26 @@
           "hint": "〜ところだった",
           "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "もう"
+            },
+            {
+              "text": "少",
+              "reading": "すこ"
+            },
+            {
+              "text": "しで"
+            },
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "をすっぽかすところだった。"
+            }
+          ]
         },
         {
           "id": "l20-g05-ja-vi-03",
@@ -3288,7 +4388,23 @@
           "hint": "〜ところだった",
           "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "遭",
+              "reading": "あ"
+            },
+            {
+              "text": "うところだった。"
+            }
+          ]
         },
         {
           "id": "l20-g05-ja-vi-04",
@@ -3300,7 +4416,23 @@
           "hint": "〜ところだった",
           "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "面接",
+              "reading": "めんせつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "遅",
+              "reading": "おく"
+            },
+            {
+              "text": "れるところだった。"
+            }
+          ]
         },
         {
           "id": "l20-g05-ja-vi-05",
@@ -3312,7 +4444,30 @@
           "hint": "〜ところだった",
           "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "火",
+              "reading": "ひ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "消",
+              "reading": "け"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "忘",
+              "reading": "わす"
+            },
+            {
+              "text": "れるところだった。"
+            }
+          ]
         },
         {
           "id": "l20-g05-ja-vi-06",
@@ -3324,7 +4479,27 @@
           "hint": "〜ところだった",
           "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "値段",
+              "reading": "ねだん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "誤",
+              "reading": "あやま"
+            },
+            {
+              "text": "るところだった。"
+            }
+          ]
         },
         {
           "id": "l20-g05-ja-vi-07",
@@ -3336,7 +4511,23 @@
           "hint": "〜ところだった",
           "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "本音",
+              "reading": "ほんね"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "漏",
+              "reading": "も"
+            },
+            {
+              "text": "らすところだった。"
+            }
+          ]
         },
         {
           "id": "l20-g05-ja-vi-08",
@@ -3348,7 +4539,30 @@
           "hint": "〜ところだった",
           "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "階段",
+              "reading": "かいだん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "踏",
+              "reading": "ふ"
+            },
+            {
+              "text": "み"
+            },
+            {
+              "text": "外",
+              "reading": "はず"
+            },
+            {
+              "text": "すところだった。"
+            }
+          ]
         },
         {
           "id": "l20-g05-ja-vi-09",
@@ -3360,7 +4574,23 @@
           "hint": "〜ところだった",
           "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "友人",
+              "reading": "ゆうじん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "怒",
+              "reading": "おこ"
+            },
+            {
+              "text": "らせるところだった。"
+            }
+          ]
         },
         {
           "id": "l20-g05-ja-vi-10",
@@ -3372,7 +4602,19 @@
           "hint": "〜ところだった",
           "explanation": "Câu ところだった: suýt xảy ra A nhưng không.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "データを"
+            },
+            {
+              "text": "消",
+              "reading": "け"
+            },
+            {
+              "text": "すところだった。"
+            }
+          ]
         },
         {
           "id": "l20-g05-order-01",
@@ -4010,7 +5252,34 @@
           "hint": "〜ずじまいだ",
           "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "旅行",
+              "reading": "りょこう"
+            },
+            {
+              "text": "中",
+              "reading": "ちゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "写真",
+              "reading": "しゃしん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "撮",
+              "reading": "と"
+            },
+            {
+              "text": "らずじまいだった。"
+            }
+          ]
         },
         {
           "id": "l20-g06-ja-vi-02",
@@ -4022,7 +5291,23 @@
           "hint": "〜ずじまいだ",
           "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "質問",
+              "reading": "しつもん"
+            },
+            {
+              "text": "したかったが"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "けずじまいだ。"
+            }
+          ]
         },
         {
           "id": "l20-g06-ja-vi-03",
@@ -4034,7 +5319,37 @@
           "hint": "〜ずじまいだ",
           "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "間",
+              "reading": "ま"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "合",
+              "reading": "あ"
+            },
+            {
+              "text": "わずじまいだった。"
+            }
+          ]
         },
         {
           "id": "l20-g06-ja-vi-04",
@@ -4046,7 +5361,30 @@
           "hint": "〜ずじまいだ",
           "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "欲",
+              "reading": "ほ"
+            },
+            {
+              "text": "しかった"
+            },
+            {
+              "text": "本",
+              "reading": "ほん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "わずじまいだ。"
+            }
+          ]
         },
         {
           "id": "l20-g06-ja-vi-05",
@@ -4058,7 +5396,37 @@
           "hint": "〜ずじまいだ",
           "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "最後",
+              "reading": "さいご"
+            },
+            {
+              "text": "まで"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "かずじまいだった。"
+            }
+          ]
         },
         {
           "id": "l20-g06-ja-vi-06",
@@ -4070,7 +5438,23 @@
           "hint": "〜ずじまいだ",
           "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "掃除",
+              "reading": "そうじ"
+            },
+            {
+              "text": "をせずじまいで"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "かけた。"
+            }
+          ]
         },
         {
           "id": "l20-g06-ja-vi-07",
@@ -4082,7 +5466,41 @@
           "hint": "〜ずじまいだ",
           "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "書",
+              "reading": "しょ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "まずじまいで"
+            },
+            {
+              "text": "組",
+              "reading": "く"
+            },
+            {
+              "text": "み"
+            },
+            {
+              "text": "立",
+              "reading": "た"
+            },
+            {
+              "text": "てた。"
+            }
+          ]
         },
         {
           "id": "l20-g06-ja-vi-08",
@@ -4094,7 +5512,23 @@
           "hint": "〜ずじまいだ",
           "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "感謝",
+              "reading": "かんしゃ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "伝",
+              "reading": "つた"
+            },
+            {
+              "text": "えずじまいだった。"
+            }
+          ]
         },
         {
           "id": "l20-g06-ja-vi-09",
@@ -4106,7 +5540,30 @@
           "hint": "〜ずじまいだ",
           "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "資料",
+              "reading": "しりょう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "目",
+              "reading": "め"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "とお"
+            },
+            {
+              "text": "さずじまいだ。"
+            }
+          ]
         },
         {
           "id": "l20-g06-ja-vi-10",
@@ -4118,7 +5575,30 @@
           "hint": "〜ずじまいだ",
           "explanation": "Câu ずじまいだ: định làm nhưng cuối cùng không làm được.",
           "origin": "authored",
-          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 20 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "会場",
+              "reading": "かいじょう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "寄",
+              "reading": "よ"
+            },
+            {
+              "text": "らずじまいで"
+            },
+            {
+              "text": "帰",
+              "reading": "かえ"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l20-g06-order-01",

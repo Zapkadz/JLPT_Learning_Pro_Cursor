@@ -261,7 +261,34 @@
           "hint": "N ＋ に限り",
           "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "本日",
+              "reading": "ほんじつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "入場",
+              "reading": "にゅうじょう"
+            },
+            {
+              "text": "無料",
+              "reading": "むりょう"
+            },
+            {
+              "text": "です。"
+            }
+          ]
         },
         {
           "id": "l05-g01-ja-vi-02",
@@ -273,7 +300,23 @@
           "hint": "N ＋ に限り",
           "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "女性",
+              "reading": "じょせい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りサービスします。"
+            }
+          ]
         },
         {
           "id": "l05-g01-ja-vi-03",
@@ -285,7 +328,30 @@
           "hint": "N ＋ に限り",
           "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "平日",
+              "reading": "へいじつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りこの"
+            },
+            {
+              "text": "料金",
+              "reading": "りょうきん"
+            },
+            {
+              "text": "です。"
+            }
+          ]
         },
         {
           "id": "l05-g01-ja-vi-04",
@@ -297,7 +363,30 @@
           "hint": "N ＋ に限り",
           "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子",
+              "reading": "こ"
+            },
+            {
+              "text": "どもに"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "半額",
+              "reading": "はんがく"
+            },
+            {
+              "text": "になります。"
+            }
+          ]
         },
         {
           "id": "l05-g01-ja-vi-05",
@@ -309,7 +398,33 @@
           "hint": "N ＋ に限り",
           "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "オンライン"
+            },
+            {
+              "text": "申込",
+              "reading": "もうしこみ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "特典",
+              "reading": "とくてん"
+            },
+            {
+              "text": "があります。"
+            }
+          ]
         },
         {
           "id": "l05-g01-ja-vi-06",
@@ -321,7 +436,30 @@
           "hint": "N ＋ に限り",
           "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "初回",
+              "reading": "しょかい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "体験",
+              "reading": "たいけん"
+            },
+            {
+              "text": "できます。"
+            }
+          ]
         },
         {
           "id": "l05-g01-ja-vi-07",
@@ -333,7 +471,34 @@
           "hint": "N ＋ に限り",
           "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "現金",
+              "reading": "げんきん"
+            },
+            {
+              "text": "支払",
+              "reading": "しはら"
+            },
+            {
+              "text": "いに"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "割引",
+              "reading": "わりびき"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l05-g01-ja-vi-08",
@@ -345,7 +510,37 @@
           "hint": "N ＋ に限り",
           "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "招待客",
+              "reading": "しょうたいきゃく"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "裏口",
+              "reading": "うらぐち"
+            },
+            {
+              "text": "から"
+            },
+            {
+              "text": "入",
+              "reading": "い"
+            },
+            {
+              "text": "れます。"
+            }
+          ]
         },
         {
           "id": "l05-g01-ja-vi-09",
@@ -357,7 +552,44 @@
           "hint": "N ＋ に限り",
           "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "室内",
+              "reading": "しつない"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "行",
+              "reading": "おこな"
+            },
+            {
+              "text": "います。"
+            }
+          ]
         },
         {
           "id": "l05-g01-ja-vi-10",
@@ -369,7 +601,45 @@
           "hint": "N ＋ に限り",
           "explanation": "Câu dùng に限り để giới hạn đối tượng/thời điểm đặc biệt (thông báo, ưu đãi).",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "期間",
+              "reading": "きかん"
+            },
+            {
+              "text": "中",
+              "reading": "ちゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "再",
+              "reading": "さい"
+            },
+            {
+              "text": "入場",
+              "reading": "にゅうじょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "可能",
+              "reading": "かのう"
+            },
+            {
+              "text": "です。"
+            }
+          ]
         },
         {
           "id": "l05-g01-order-01",
@@ -1010,7 +1280,26 @@
           "hint": "Vる／Aい ＋ 限り（は）",
           "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ここにいる"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "心配",
+              "reading": "しんぱい"
+            },
+            {
+              "text": "はいらない。"
+            }
+          ]
         },
         {
           "id": "l05-g02-ja-vi-02",
@@ -1022,7 +1311,30 @@
           "hint": "Vる／Aい ＋ 限り（は）",
           "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "はついてくる。"
+            }
+          ]
         },
         {
           "id": "l05-g02-ja-vi-03",
@@ -1034,7 +1346,37 @@
           "hint": "Vる／Aい ＋ 限り（は）",
           "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "しない"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "めよう。"
+            }
+          ]
         },
         {
           "id": "l05-g02-ja-vi-04",
@@ -1046,7 +1388,37 @@
           "hint": "Vる／Aい ＋ 限り（は）",
           "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "健康",
+              "reading": "けんこう"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "好",
+              "reading": "す"
+            },
+            {
+              "text": "きな"
+            },
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "をしたい。"
+            }
+          ]
         },
         {
           "id": "l05-g02-ja-vi-05",
@@ -1058,7 +1430,37 @@
           "hint": "Vる／Aい ＋ 限り（は）",
           "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "資金",
+              "reading": "しきん"
+            },
+            {
+              "text": "がある"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "研究",
+              "reading": "けんきゅう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "ける。"
+            }
+          ]
         },
         {
           "id": "l05-g02-ja-vi-06",
@@ -1070,7 +1472,37 @@
           "hint": "Vる／Aい ＋ 限り（は）",
           "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "残",
+              "reading": "のこ"
+            },
+            {
+              "text": "っている"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "安心",
+              "reading": "あんしん"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l05-g02-ja-vi-07",
@@ -1082,7 +1514,44 @@
           "hint": "Vる／Aい ＋ 限り（は）",
           "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "有効",
+              "reading": "ゆうこう"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "る"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l05-g02-ja-vi-08",
@@ -1094,7 +1563,52 @@
           "hint": "Vる／Aい ＋ 限り（は）",
           "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "である"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "最終",
+              "reading": "さいしゅう"
+            },
+            {
+              "text": "決定",
+              "reading": "けってい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "がする。"
+            }
+          ]
         },
         {
           "id": "l05-g02-ja-vi-09",
@@ -1106,7 +1620,37 @@
           "hint": "Vる／Aい ＋ 限り（は）",
           "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "天候",
+              "reading": "てんこう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "くない"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "出発",
+              "reading": "しゅっぱつ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l05-g02-ja-vi-10",
@@ -1118,7 +1662,37 @@
           "hint": "Vる／Aい ＋ 限り（は）",
           "explanation": "Câu dùng 限り（は）: chừng nào còn điều kiện A thì B. Giữ đúng quan hệ điều kiện–kết quả.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "証拠",
+              "reading": "しょうこ"
+            },
+            {
+              "text": "がない"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "犯人",
+              "reading": "はんにん"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "えない。"
+            }
+          ]
         },
         {
           "id": "l05-g02-order-01",
@@ -1782,7 +2356,44 @@
           "hint": "Vる／Nの ＋ 限りでは",
           "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "る"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "来",
+              "reading": "き"
+            },
+            {
+              "text": "ていない。"
+            }
+          ]
         },
         {
           "id": "l05-g03-ja-vi-02",
@@ -1794,7 +2405,30 @@
           "hint": "Vる／Nの ＋ 限りでは",
           "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "在庫",
+              "reading": "ざいこ"
+            },
+            {
+              "text": "はある。"
+            }
+          ]
         },
         {
           "id": "l05-g03-ja-vi-03",
@@ -1806,7 +2440,41 @@
           "hint": "Vる／Nの ＋ 限りでは",
           "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "記録",
+              "reading": "きろく"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "欠席",
+              "reading": "けっせき"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "度",
+              "reading": "ど"
+            },
+            {
+              "text": "もない。"
+            }
+          ]
         },
         {
           "id": "l05-g03-ja-vi-04",
@@ -1818,7 +2486,37 @@
           "hint": "Vる／Nの ＋ 限りでは",
           "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "いた"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "解決",
+              "reading": "かいけつ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l05-g03-ja-vi-05",
@@ -1830,7 +2528,30 @@
           "hint": "Vる／Nの ＋ 限りでは",
           "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "た"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "異常",
+              "reading": "いじょう"
+            },
+            {
+              "text": "はない。"
+            }
+          ]
         },
         {
           "id": "l05-g03-ja-vi-06",
@@ -1842,7 +2563,37 @@
           "hint": "Vる／Nの ＋ 限りでは",
           "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "調",
+              "reading": "しら"
+            },
+            {
+              "text": "べた"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "同",
+              "reading": "おな"
+            },
+            {
+              "text": "じ"
+            },
+            {
+              "text": "事例",
+              "reading": "じれい"
+            },
+            {
+              "text": "はない。"
+            }
+          ]
         },
         {
           "id": "l05-g03-ja-vi-07",
@@ -1854,7 +2605,33 @@
           "hint": "Vる／Nの ＋ 限りでは",
           "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "データ"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "保留",
+              "reading": "ほりゅう"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l05-g03-ja-vi-08",
@@ -1866,7 +2643,44 @@
           "hint": "Vる／Nの ＋ 限りでは",
           "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "記憶",
+              "reading": "きおく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "昨日",
+              "reading": "きのう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "締",
+              "reading": "し"
+            },
+            {
+              "text": "め"
+            },
+            {
+              "text": "切",
+              "reading": "き"
+            },
+            {
+              "text": "りだった。"
+            }
+          ]
         },
         {
           "id": "l05-g03-ja-vi-09",
@@ -1878,7 +2692,33 @@
           "hint": "Vる／Nの ＋ 限りでは",
           "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ニュースの"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "被害",
+              "reading": "ひがい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "小",
+              "reading": "ちい"
+            },
+            {
+              "text": "さい。"
+            }
+          ]
         },
         {
           "id": "l05-g03-ja-vi-10",
@@ -1890,7 +2730,38 @@
           "hint": "Vる／Nの ＋ 限りでは",
           "explanation": "Câu dùng 限りでは: phán đoán trong phạm vi nhận thức/thông tin hiện có. Giữ sắc thái thận trọng.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今",
+              "reading": "こん"
+            },
+            {
+              "text": "把握",
+              "reading": "はあく"
+            },
+            {
+              "text": "している"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "全員",
+              "reading": "ぜんいん"
+            },
+            {
+              "text": "無事",
+              "reading": "ぶじ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l05-g03-order-01",
@@ -2545,7 +3416,37 @@
           "hint": "N ＋ に限って",
           "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しいときに"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "客",
+              "reading": "きゃく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "来",
+              "reading": "く"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l05-g04-ja-vi-02",
@@ -2557,7 +3458,30 @@
           "hint": "N ＋ に限って",
           "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "しない。"
+            }
+          ]
         },
         {
           "id": "l05-g04-ja-vi-03",
@@ -2569,7 +3493,44 @@
           "hint": "N ＋ に限って",
           "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みの"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "天気",
+              "reading": "てんき"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "崩",
+              "reading": "くず"
+            },
+            {
+              "text": "れる。"
+            }
+          ]
         },
         {
           "id": "l05-g04-ja-vi-04",
@@ -2581,7 +3542,30 @@
           "hint": "N ＋ に限って",
           "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "なときに"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "つからない。"
+            }
+          ]
         },
         {
           "id": "l05-g04-ja-vi-05",
@@ -2593,7 +3577,37 @@
           "hint": "N ＋ に限って",
           "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "道",
+              "reading": "みち"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "工事",
+              "reading": "こうじ"
+            },
+            {
+              "text": "中",
+              "reading": "ちゅう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l05-g04-ja-vi-06",
@@ -2605,7 +3619,45 @@
           "hint": "N ＋ に限って",
           "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "提出",
+              "reading": "ていしゅつ"
+            },
+            {
+              "text": "日",
+              "reading": "び"
+            },
+            {
+              "text": "前日",
+              "reading": "ぜんじつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "調子",
+              "reading": "ちょうし"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l05-g04-ja-vi-07",
@@ -2617,7 +3669,23 @@
           "hint": "N ＋ に限って",
           "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "ってそんなミスはしないはずだ。"
+            }
+          ]
         },
         {
           "id": "l05-g04-ja-vi-08",
@@ -2629,7 +3697,37 @@
           "hint": "N ＋ に限って",
           "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "写真",
+              "reading": "しゃしん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "撮",
+              "reading": "と"
+            },
+            {
+              "text": "るときに"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "笑顔",
+              "reading": "えがお"
+            },
+            {
+              "text": "になれない。"
+            }
+          ]
         },
         {
           "id": "l05-g04-ja-vi-09",
@@ -2641,7 +3739,30 @@
           "hint": "N ＋ に限って",
           "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今夜",
+              "reading": "こんや"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "残業",
+              "reading": "ざんぎょう"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l05-g04-ja-vi-10",
@@ -2653,7 +3774,51 @@
           "hint": "N ＋ に限って",
           "explanation": "Câu dùng に限って: đúng vào lúc/trường hợp… lại…, hoặc nhấn mạnh riêng đối tượng. Giữ sắc thái đặc biệt/nghịch lý.",
           "origin": "authored",
-          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 5 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "大切",
+              "reading": "たいせつ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "最中",
+              "reading": "さいちゅう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "って"
+            },
+            {
+              "text": "邪魔",
+              "reading": "じゃま"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "入",
+              "reading": "はい"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l05-g04-order-01",

@@ -266,7 +266,30 @@
           "hint": "N ＋ をはじめ（として）",
           "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "日本",
+              "reading": "にっぽん"
+            },
+            {
+              "text": "をはじめ、アジア"
+            },
+            {
+              "text": "各国",
+              "reading": "かっこく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "参加",
+              "reading": "さんか"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l04-g01-ja-vi-02",
@@ -278,7 +301,30 @@
           "hint": "N ＋ をはじめ（として）",
           "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "をはじめとして"
+            },
+            {
+              "text": "皆",
+              "reading": "みな"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l04-g01-ja-vi-03",
@@ -290,7 +336,30 @@
           "hint": "N ＋ をはじめ（として）",
           "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "パンをはじめとする"
+            },
+            {
+              "text": "小麦",
+              "reading": "こむぎ"
+            },
+            {
+              "text": "製品",
+              "reading": "せいひん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "値上",
+              "reading": "ねあ"
+            },
+            {
+              "text": "がりした。"
+            }
+          ]
         },
         {
           "id": "l04-g01-ja-vi-04",
@@ -302,7 +371,34 @@
           "hint": "N ＋ をはじめ（として）",
           "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "市長",
+              "reading": "しちょう"
+            },
+            {
+              "text": "をはじめ、"
+            },
+            {
+              "text": "関係",
+              "reading": "かんけい"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "集",
+              "reading": "あつ"
+            },
+            {
+              "text": "まった。"
+            }
+          ]
         },
         {
           "id": "l04-g01-ja-vi-05",
@@ -314,7 +410,34 @@
           "hint": "N ＋ をはじめ（として）",
           "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "音楽",
+              "reading": "おんがく"
+            },
+            {
+              "text": "をはじめ、"
+            },
+            {
+              "text": "芸術",
+              "reading": "げいじゅつ"
+            },
+            {
+              "text": "全般",
+              "reading": "ぜんぱん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "興味",
+              "reading": "きょうみ"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l04-g01-ja-vi-06",
@@ -326,7 +449,37 @@
           "hint": "N ＋ をはじめ（として）",
           "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子",
+              "reading": "こ"
+            },
+            {
+              "text": "どもをはじめ"
+            },
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "健康",
+              "reading": "けんこう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "一番",
+              "reading": "いちばん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l04-g01-ja-vi-07",
@@ -338,7 +491,54 @@
           "hint": "N ＋ をはじめ（として）",
           "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "店",
+              "reading": "みせ"
+            },
+            {
+              "text": "をはじめ、"
+            },
+            {
+              "text": "近所",
+              "reading": "きんじょ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "店",
+              "reading": "みせ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "早",
+              "reading": "はや"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "閉",
+              "reading": "し"
+            },
+            {
+              "text": "まる。"
+            }
+          ]
         },
         {
           "id": "l04-g01-ja-vi-08",
@@ -350,7 +550,34 @@
           "hint": "N ＋ をはじめ（として）",
           "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "部長",
+              "reading": "ぶちょう"
+            },
+            {
+              "text": "をはじめとして"
+            },
+            {
+              "text": "部署",
+              "reading": "ぶしょ"
+            },
+            {
+              "text": "全員",
+              "reading": "ぜんいん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "残業",
+              "reading": "ざんぎょう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l04-g01-ja-vi-09",
@@ -362,7 +589,30 @@
           "hint": "N ＋ をはじめ（として）",
           "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "魚",
+              "reading": "さかな"
+            },
+            {
+              "text": "をはじめ"
+            },
+            {
+              "text": "海産物",
+              "reading": "かいさんぶつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "豊富",
+              "reading": "ほうふ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l04-g01-ja-vi-10",
@@ -374,7 +624,34 @@
           "hint": "N ＋ をはじめ（として）",
           "explanation": "Câu dùng をはじめ（として） để nêu ví dụ tiêu biểu rồi hàm ý còn nhiều đối tượng cùng loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "留学生",
+              "reading": "りゅうがくせい"
+            },
+            {
+              "text": "をはじめ、"
+            },
+            {
+              "text": "外国",
+              "reading": "がいこく"
+            },
+            {
+              "text": "人",
+              "reading": "じん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "えている。"
+            }
+          ]
         },
         {
           "id": "l04-g01-order-01",
@@ -1011,7 +1288,30 @@
           "hint": "N ＋ からして",
           "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "た"
+            },
+            {
+              "text": "目",
+              "reading": "め"
+            },
+            {
+              "text": "からして"
+            },
+            {
+              "text": "怪",
+              "reading": "あや"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l04-g02-ja-vi-02",
@@ -1023,7 +1323,34 @@
           "hint": "N ＋ からして",
           "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "言葉",
+              "reading": "ことば"
+            },
+            {
+              "text": "遣",
+              "reading": "づか"
+            },
+            {
+              "text": "いからして"
+            },
+            {
+              "text": "教育",
+              "reading": "きょういく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "けている。"
+            }
+          ]
         },
         {
           "id": "l04-g02-ja-vi-03",
@@ -1035,7 +1362,26 @@
           "hint": "N ＋ からして",
           "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "味",
+              "reading": "あじ"
+            },
+            {
+              "text": "からして"
+            },
+            {
+              "text": "手作",
+              "reading": "てづく"
+            },
+            {
+              "text": "りではなさそうだ。"
+            }
+          ]
         },
         {
           "id": "l04-g02-ja-vi-04",
@@ -1047,7 +1393,30 @@
           "hint": "N ＋ からして",
           "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "歩",
+              "reading": "ある"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "方",
+              "reading": "かた"
+            },
+            {
+              "text": "からして"
+            },
+            {
+              "text": "急",
+              "reading": "いそ"
+            },
+            {
+              "text": "いでいるようだ。"
+            }
+          ]
         },
         {
           "id": "l04-g02-ja-vi-05",
@@ -1059,7 +1428,37 @@
           "hint": "N ＋ からして",
           "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "部屋",
+              "reading": "へや"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "様子",
+              "reading": "ようす"
+            },
+            {
+              "text": "からして"
+            },
+            {
+              "text": "昨夜",
+              "reading": "さくや"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しかったらしい。"
+            }
+          ]
         },
         {
           "id": "l04-g02-ja-vi-06",
@@ -1071,7 +1470,30 @@
           "hint": "N ＋ からして",
           "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "表情",
+              "reading": "ひょうじょう"
+            },
+            {
+              "text": "からして"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "したようだ。"
+            }
+          ]
         },
         {
           "id": "l04-g02-ja-vi-07",
@@ -1083,7 +1505,30 @@
           "hint": "N ＋ からして",
           "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "値段",
+              "reading": "ねだん"
+            },
+            {
+              "text": "からして"
+            },
+            {
+              "text": "学生",
+              "reading": "がくせい"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "すぎる。"
+            }
+          ]
         },
         {
           "id": "l04-g02-ja-vi-08",
@@ -1095,7 +1540,44 @@
           "hint": "N ＋ からして",
           "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "書",
+              "reading": "か"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "方",
+              "reading": "かた"
+            },
+            {
+              "text": "からして"
+            },
+            {
+              "text": "急",
+              "reading": "いそ"
+            },
+            {
+              "text": "いで"
+            },
+            {
+              "text": "書",
+              "reading": "か"
+            },
+            {
+              "text": "いた"
+            },
+            {
+              "text": "文章",
+              "reading": "ぶんしょう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l04-g02-ja-vi-09",
@@ -1107,7 +1589,30 @@
           "hint": "N ＋ からして",
           "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "からして"
+            },
+            {
+              "text": "初心者",
+              "reading": "しょしんしゃ"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "けだ。"
+            }
+          ]
         },
         {
           "id": "l04-g02-ja-vi-10",
@@ -1119,7 +1624,23 @@
           "hint": "N ＋ からして",
           "explanation": "Câu dùng からして: xét từ một điểm để suy ra đánh giá tổng thể. Giữ đúng chi tiết xuất phát và kết luận.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "対応",
+              "reading": "たいおう"
+            },
+            {
+              "text": "からしてクレームに"
+            },
+            {
+              "text": "慣",
+              "reading": "な"
+            },
+            {
+              "text": "れていない。"
+            }
+          ]
         },
         {
           "id": "l04-g02-order-01",
@@ -1770,7 +2291,34 @@
           "hint": "N ＋ にわたって／にわたり／にわたる",
           "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "試験",
+              "reading": "しけん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "三",
+              "reading": "さん"
+            },
+            {
+              "text": "日",
+              "reading": "にち"
+            },
+            {
+              "text": "にわたって"
+            },
+            {
+              "text": "実施",
+              "reading": "じっし"
+            },
+            {
+              "text": "される。"
+            }
+          ]
         },
         {
           "id": "l04-g03-ja-vi-02",
@@ -1782,7 +2330,34 @@
           "hint": "N ＋ にわたって／にわたり／にわたる",
           "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "数",
+              "reading": "すう"
+            },
+            {
+              "text": "週間",
+              "reading": "しゅうかん"
+            },
+            {
+              "text": "にわたる"
+            },
+            {
+              "text": "工事",
+              "reading": "こうじ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わった。"
+            }
+          ]
         },
         {
           "id": "l04-g03-ja-vi-03",
@@ -1794,7 +2369,37 @@
           "hint": "N ＋ にわたって／にわたり／にわたる",
           "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "全国",
+              "reading": "ぜんこく"
+            },
+            {
+              "text": "にわたって"
+            },
+            {
+              "text": "同",
+              "reading": "おな"
+            },
+            {
+              "text": "じ"
+            },
+            {
+              "text": "現象",
+              "reading": "げんしょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "られた。"
+            }
+          ]
         },
         {
           "id": "l04-g03-ja-vi-04",
@@ -1806,7 +2411,30 @@
           "hint": "N ＋ にわたって／にわたり／にわたる",
           "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "長年",
+              "reading": "ながねん"
+            },
+            {
+              "text": "にわたり"
+            },
+            {
+              "text": "研究",
+              "reading": "けんきゅう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "けてきた。"
+            }
+          ]
         },
         {
           "id": "l04-g03-ja-vi-05",
@@ -1818,7 +2446,37 @@
           "hint": "N ＋ にわたって／にわたり／にわたる",
           "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "広",
+              "reading": "ひろ"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "範囲",
+              "reading": "はんい"
+            },
+            {
+              "text": "にわたる"
+            },
+            {
+              "text": "停電",
+              "reading": "ていでん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "起",
+              "reading": "お"
+            },
+            {
+              "text": "きた。"
+            }
+          ]
         },
         {
           "id": "l04-g03-ja-vi-06",
@@ -1830,7 +2488,37 @@
           "hint": "N ＋ にわたって／にわたり／にわたる",
           "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "午前",
+              "reading": "ごぜん"
+            },
+            {
+              "text": "から"
+            },
+            {
+              "text": "午後",
+              "reading": "ごご"
+            },
+            {
+              "text": "にわたって"
+            },
+            {
+              "text": "行",
+              "reading": "おこな"
+            },
+            {
+              "text": "われた。"
+            }
+          ]
         },
         {
           "id": "l04-g03-ja-vi-07",
@@ -1842,7 +2530,37 @@
           "hint": "N ＋ にわたって／にわたり／にわたる",
           "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "数",
+              "reading": "すう"
+            },
+            {
+              "text": "カ"
+            },
+            {
+              "text": "国",
+              "reading": "こく"
+            },
+            {
+              "text": "にわたる"
+            },
+            {
+              "text": "協力",
+              "reading": "きょうりょく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l04-g03-ja-vi-08",
@@ -1854,7 +2572,30 @@
           "hint": "N ＋ にわたって／にわたり／にわたる",
           "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "長時間",
+              "reading": "ちょうじかん"
+            },
+            {
+              "text": "にわたる"
+            },
+            {
+              "text": "運転",
+              "reading": "うんてん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "危険",
+              "reading": "きけん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l04-g03-ja-vi-09",
@@ -1866,7 +2607,34 @@
           "hint": "N ＋ にわたって／にわたり／にわたる",
           "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "知識",
+              "reading": "ちしき"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "多",
+              "reading": "た"
+            },
+            {
+              "text": "分野",
+              "reading": "ぶんや"
+            },
+            {
+              "text": "にわたる。"
+            }
+          ]
         },
         {
           "id": "l04-g03-ja-vi-10",
@@ -1878,7 +2646,41 @@
           "hint": "N ＋ にわたって／にわたり／にわたる",
           "explanation": "Câu dùng にわたって／にわたり／にわたる để nói trải suốt phạm vi thời gian hoặc không gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "週間",
+              "reading": "しゅうかん"
+            },
+            {
+              "text": "にわたって"
+            },
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "降",
+              "reading": "ふ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l04-g03-order-01",
@@ -2534,7 +3336,37 @@
           "hint": "N ＋ を通じて／を通して",
           "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "つう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "話",
+              "reading": "はなし"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l04-g04-ja-vi-02",
@@ -2546,7 +3378,45 @@
           "hint": "N ＋ を通じて／を通して",
           "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "年",
+              "reading": "ねん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "つう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "観光",
+              "reading": "かんこう"
+            },
+            {
+              "text": "客",
+              "reading": "きゃく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "訪",
+              "reading": "おとず"
+            },
+            {
+              "text": "れる。"
+            }
+          ]
         },
         {
           "id": "l04-g04-ja-vi-03",
@@ -2558,7 +3428,40 @@
           "hint": "N ＋ を通じて／を通して",
           "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ラジオを"
+            },
+            {
+              "text": "通",
+              "reading": "とお"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "正",
+              "reading": "ただ"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "情報",
+              "reading": "じょうほう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "た。"
+            }
+          ]
         },
         {
           "id": "l04-g04-ja-vi-04",
@@ -2570,7 +3473,37 @@
           "hint": "N ＋ を通じて／を通して",
           "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "つう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "多",
+              "reading": "おお"
+            },
+            {
+              "text": "くを"
+            },
+            {
+              "text": "学",
+              "reading": "まな"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l04-g04-ja-vi-05",
@@ -2582,7 +3515,37 @@
           "hint": "N ＋ を通じて／を通して",
           "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "季節",
+              "reading": "きせつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "とお"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "花",
+              "reading": "はな"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "咲",
+              "reading": "さ"
+            },
+            {
+              "text": "く。"
+            }
+          ]
         },
         {
           "id": "l04-g04-ja-vi-06",
@@ -2594,7 +3557,30 @@
           "hint": "N ＋ を通じて／を通して",
           "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "代理人",
+              "reading": "だいりにん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "つう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "交渉",
+              "reading": "こうしょう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l04-g04-ja-vi-07",
@@ -2606,7 +3592,41 @@
           "hint": "N ＋ を通じて／を通して",
           "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "学生",
+              "reading": "がくせい"
+            },
+            {
+              "text": "時代",
+              "reading": "じだい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "とお"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "優秀",
+              "reading": "ゆうしゅう"
+            },
+            {
+              "text": "だった。"
+            }
+          ]
         },
         {
           "id": "l04-g04-ja-vi-08",
@@ -2618,7 +3638,37 @@
           "hint": "N ＋ を通じて／を通して",
           "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "映像",
+              "reading": "えいぞう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "つう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "現場",
+              "reading": "げんば"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "様子",
+              "reading": "ようす"
+            },
+            {
+              "text": "がわかった。"
+            }
+          ]
         },
         {
           "id": "l04-g04-ja-vi-09",
@@ -2630,7 +3680,37 @@
           "hint": "N ＋ を通じて／を通して",
           "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "週末",
+              "reading": "しゅうまつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "通",
+              "reading": "とお"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "降",
+              "reading": "ふ"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l04-g04-ja-vi-10",
@@ -2642,7 +3722,26 @@
           "hint": "N ＋ を通じて／を通して",
           "explanation": "Câu dùng を通じて／を通して: thông qua phương tiện hoặc trong suốt khoảng thời gian.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ボランティアを"
+            },
+            {
+              "text": "通",
+              "reading": "つう"
+            },
+            {
+              "text": "じて"
+            },
+            {
+              "text": "地域",
+              "reading": "ちいき"
+            },
+            {
+              "text": "とつながった。"
+            }
+          ]
         },
         {
           "id": "l04-g04-order-01",
@@ -3300,7 +4399,30 @@
           "hint": "Vる／Nの ＋ 限り",
           "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "る"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "はなさそうだ。"
+            }
+          ]
         },
         {
           "id": "l04-g05-ja-vi-02",
@@ -3312,7 +4434,30 @@
           "hint": "Vる／Nの ＋ 限り",
           "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "命",
+              "reading": "いのち"
+            },
+            {
+              "text": "ある"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "したい。"
+            }
+          ]
         },
         {
           "id": "l04-g05-ja-vi-03",
@@ -3324,7 +4469,37 @@
           "hint": "Vる／Nの ＋ 限り",
           "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "可能",
+              "reading": "かのう"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "早",
+              "reading": "はや"
+            },
+            {
+              "text": "く"
+            },
+            {
+              "text": "提出",
+              "reading": "ていしゅつ"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l04-g05-ja-vi-04",
@@ -3336,7 +4511,47 @@
           "hint": "Vる／Nの ＋ 限り",
           "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "情報",
+              "reading": "じょうほう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "正",
+              "reading": "ただ"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "方針",
+              "reading": "ほうしん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "えない。"
+            }
+          ]
         },
         {
           "id": "l04-g05-ja-vi-05",
@@ -3348,7 +4563,44 @@
           "hint": "Vる／Nの ＋ 限り",
           "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "る"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "欠席",
+              "reading": "けっせき"
+            },
+            {
+              "text": "していない。"
+            }
+          ]
         },
         {
           "id": "l04-g05-ja-vi-06",
@@ -3360,7 +4612,40 @@
           "hint": "Vる／Nの ＋ 限り",
           "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ルールが"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わる"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "対応",
+              "reading": "たいおう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l04-g05-ja-vi-07",
@@ -3372,7 +4657,30 @@
           "hint": "Vる／Nの ＋ 限り",
           "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "力",
+              "reading": "ちから"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "応援",
+              "reading": "おうえん"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l04-g05-ja-vi-08",
@@ -3384,7 +4692,30 @@
           "hint": "Vる／Nの ＋ 限り",
           "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "がない"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "しないでください。"
+            }
+          ]
         },
         {
           "id": "l04-g05-ja-vi-09",
@@ -3396,7 +4727,44 @@
           "hint": "Vる／Nの ＋ 限り",
           "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "天候",
+              "reading": "てんこう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "許",
+              "reading": "ゆる"
+            },
+            {
+              "text": "す"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "試合",
+              "reading": "しあい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "行",
+              "reading": "おこな"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l04-g05-ja-vi-10",
@@ -3408,7 +4776,37 @@
           "hint": "Vる／Nの ＋ 限り",
           "explanation": "Câu dùng 限り (nghĩa tổng quát): phạm vi điều kiện / hết mức. Giữ đúng giới hạn nêu ra.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "覚",
+              "reading": "おぼ"
+            },
+            {
+              "text": "えている"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "書",
+              "reading": "か"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "してみる。"
+            }
+          ]
         },
         {
           "id": "l04-g05-order-01",
@@ -4015,7 +5413,23 @@
           "hint": "Vる／Aい ＋ だけ",
           "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "欲",
+              "reading": "ほ"
+            },
+            {
+              "text": "しいだけ"
+            },
+            {
+              "text": "選",
+              "reading": "えら"
+            },
+            {
+              "text": "んでください。"
+            }
+          ]
         },
         {
           "id": "l04-g06-ja-vi-02",
@@ -4027,7 +5441,23 @@
           "hint": "Vる／Aい ＋ だけ",
           "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "えるだけ"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "ってみた。"
+            }
+          ]
         },
         {
           "id": "l04-g06-ja-vi-03",
@@ -4039,7 +5469,23 @@
           "hint": "Vる／Aい ＋ だけ",
           "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "節約",
+              "reading": "せつやく"
+            },
+            {
+              "text": "できるだけ"
+            },
+            {
+              "text": "節約",
+              "reading": "せつやく"
+            },
+            {
+              "text": "しよう。"
+            }
+          ]
         },
         {
           "id": "l04-g06-ja-vi-04",
@@ -4051,7 +5497,30 @@
           "hint": "Vる／Aい ＋ だけ",
           "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "走",
+              "reading": "はし"
+            },
+            {
+              "text": "れるだけ"
+            },
+            {
+              "text": "走",
+              "reading": "はし"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l04-g06-ja-vi-05",
@@ -4063,7 +5532,30 @@
           "hint": "Vる／Aい ＋ だけ",
           "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "考",
+              "reading": "かんが"
+            },
+            {
+              "text": "えられるだけ"
+            },
+            {
+              "text": "案",
+              "reading": "あん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l04-g06-ja-vi-06",
@@ -4075,7 +5567,23 @@
           "hint": "Vる／Aい ＋ だけ",
           "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "好",
+              "reading": "す"
+            },
+            {
+              "text": "きなだけ"
+            },
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "してかまわない。"
+            }
+          ]
         },
         {
           "id": "l04-g06-ja-vi-07",
@@ -4087,7 +5595,30 @@
           "hint": "Vる／Aい ＋ だけ",
           "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "持",
+              "reading": "も"
+            },
+            {
+              "text": "てるだけ"
+            },
+            {
+              "text": "荷物",
+              "reading": "にもつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "運",
+              "reading": "はこ"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l04-g06-ja-vi-08",
@@ -4099,7 +5630,19 @@
           "hint": "Vる／Aい ＋ だけ",
           "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "わかるだけ"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l04-g06-ja-vi-09",
@@ -4111,7 +5654,23 @@
           "hint": "Vる／Aい ＋ だけ",
           "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "があるだけ"
+            },
+            {
+              "text": "読書",
+              "reading": "どくしょ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l04-g06-ja-vi-10",
@@ -4123,7 +5682,30 @@
           "hint": "Vる／Aい ＋ だけ",
           "explanation": "Câu dùng だけ theo nghĩa mức độ: hết mức / thỏa thích. Không nhầm với 'chỉ mỗi' đơn thuần.",
           "origin": "authored",
-          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 4 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "なだけ"
+            },
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "整",
+              "reading": "ととの"
+            },
+            {
+              "text": "えた。"
+            }
+          ]
         },
         {
           "id": "l04-g06-order-01",

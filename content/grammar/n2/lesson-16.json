@@ -250,7 +250,30 @@
           "hint": "〜によって／により／による",
           "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "火災",
+              "reading": "かさい"
+            },
+            {
+              "text": "によって"
+            },
+            {
+              "text": "建物",
+              "reading": "たてもの"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "全焼",
+              "reading": "ぜんしょう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l16-g01-ja-vi-02",
@@ -262,7 +285,37 @@
           "hint": "〜によって／により／による",
           "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "方法",
+              "reading": "ほうほう"
+            },
+            {
+              "text": "によって"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "大",
+              "reading": "おお"
+            },
+            {
+              "text": "きく"
+            },
+            {
+              "text": "違",
+              "reading": "ちが"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l16-g01-ja-vi-03",
@@ -274,7 +327,30 @@
           "hint": "〜によって／により／による",
           "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "調査",
+              "reading": "ちょうさ"
+            },
+            {
+              "text": "により"
+            },
+            {
+              "text": "事実",
+              "reading": "じじつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "明",
+              "reading": "あき"
+            },
+            {
+              "text": "らかになった。"
+            }
+          ]
         },
         {
           "id": "l16-g01-ja-vi-04",
@@ -286,7 +362,26 @@
           "hint": "〜によって／により／による",
           "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "ウイルスによる"
+            },
+            {
+              "text": "感染",
+              "reading": "かんせん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "拡大",
+              "reading": "かくだい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l16-g01-ja-vi-05",
@@ -298,7 +393,30 @@
           "hint": "〜によって／により／による",
           "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "年齢",
+              "reading": "ねんれい"
+            },
+            {
+              "text": "によって"
+            },
+            {
+              "text": "料金",
+              "reading": "りょうきん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かれる。"
+            }
+          ]
         },
         {
           "id": "l16-g01-ja-vi-06",
@@ -310,7 +428,23 @@
           "hint": "〜によって／により／による",
           "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "騒音",
+              "reading": "そうおん"
+            },
+            {
+              "text": "によって"
+            },
+            {
+              "text": "眠",
+              "reading": "ねむ"
+            },
+            {
+              "text": "れなかった。"
+            }
+          ]
         },
         {
           "id": "l16-g01-ja-vi-07",
@@ -322,7 +456,30 @@
           "hint": "〜によって／により／による",
           "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "話",
+              "reading": "はな"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "合",
+              "reading": "あ"
+            },
+            {
+              "text": "いにより"
+            },
+            {
+              "text": "解決",
+              "reading": "かいけつ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l16-g01-ja-vi-08",
@@ -334,7 +491,30 @@
           "hint": "〜によって／により／による",
           "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "地域",
+              "reading": "ちいき"
+            },
+            {
+              "text": "による"
+            },
+            {
+              "text": "差",
+              "reading": "さ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "大",
+              "reading": "おお"
+            },
+            {
+              "text": "きい。"
+            }
+          ]
         },
         {
           "id": "l16-g01-ja-vi-09",
@@ -346,7 +526,30 @@
           "hint": "〜によって／により／による",
           "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "技術",
+              "reading": "ぎじゅつ"
+            },
+            {
+              "text": "によって"
+            },
+            {
+              "text": "作業",
+              "reading": "さぎょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "楽",
+              "reading": "らく"
+            },
+            {
+              "text": "になった。"
+            }
+          ]
         },
         {
           "id": "l16-g01-ja-vi-10",
@@ -358,7 +561,30 @@
           "hint": "〜によって／により／による",
           "explanation": "Câu nguyên nhân·phương tiện·tùy theo: によって／により／による.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "天候",
+              "reading": "てんこう"
+            },
+            {
+              "text": "により"
+            },
+            {
+              "text": "予定",
+              "reading": "よてい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "延期",
+              "reading": "えんき"
+            },
+            {
+              "text": "された。"
+            }
+          ]
         },
         {
           "id": "l16-g01-order-01",
@@ -977,7 +1203,30 @@
           "hint": "〜ものだから／もので／もの",
           "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "急用",
+              "reading": "きゅうよう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "入",
+              "reading": "はい"
+            },
+            {
+              "text": "ったものだから"
+            },
+            {
+              "text": "欠席",
+              "reading": "けっせき"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l16-g02-ja-vi-02",
@@ -989,7 +1238,23 @@
           "hint": "〜ものだから／もので／もの",
           "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "慣",
+              "reading": "な"
+            },
+            {
+              "text": "れていないもんで"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "がかかった。"
+            }
+          ]
         },
         {
           "id": "l16-g02-ja-vi-03",
@@ -1001,7 +1266,16 @@
           "hint": "〜ものだから／もので／もの",
           "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "仕方",
+              "reading": "しかた"
+            },
+            {
+              "text": "ないんだもの。"
+            }
+          ]
         },
         {
           "id": "l16-g02-ja-vi-04",
@@ -1013,7 +1287,27 @@
           "hint": "〜ものだから／もので／もの",
           "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "風邪",
+              "reading": "かぜ"
+            },
+            {
+              "text": "気味",
+              "reading": "ぎみ"
+            },
+            {
+              "text": "なものだから"
+            },
+            {
+              "text": "安静",
+              "reading": "あんせい"
+            },
+            {
+              "text": "にしている。"
+            }
+          ]
         },
         {
           "id": "l16-g02-ja-vi-05",
@@ -1025,7 +1319,30 @@
           "hint": "〜ものだから／もので／もの",
           "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "初",
+              "reading": "はじ"
+            },
+            {
+              "text": "めての"
+            },
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "なもので"
+            },
+            {
+              "text": "戸惑",
+              "reading": "とまど"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l16-g02-ja-vi-06",
@@ -1037,7 +1354,30 @@
           "hint": "〜ものだから／もので／もの",
           "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "遅",
+              "reading": "おく"
+            },
+            {
+              "text": "れたものだから"
+            },
+            {
+              "text": "誤解",
+              "reading": "ごかい"
+            },
+            {
+              "text": "された。"
+            }
+          ]
         },
         {
           "id": "l16-g02-ja-vi-07",
@@ -1049,7 +1389,30 @@
           "hint": "〜ものだから／もので／もの",
           "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "眠",
+              "reading": "ねむ"
+            },
+            {
+              "text": "かったもんで"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "逃",
+              "reading": "のが"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l16-g02-ja-vi-08",
@@ -1061,7 +1424,23 @@
           "hint": "〜ものだから／もので／もの",
           "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "らなかったんだもの、"
+            },
+            {
+              "text": "責",
+              "reading": "せ"
+            },
+            {
+              "text": "めないで。"
+            }
+          ]
         },
         {
           "id": "l16-g02-ja-vi-09",
@@ -1073,7 +1452,30 @@
           "hint": "〜ものだから／もので／もの",
           "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "道",
+              "reading": "みち"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "ったものだから"
+            },
+            {
+              "text": "遅",
+              "reading": "おく"
+            },
+            {
+              "text": "れた。"
+            }
+          ]
         },
         {
           "id": "l16-g02-ja-vi-10",
@@ -1085,7 +1487,37 @@
           "hint": "〜ものだから／もので／もの",
           "explanation": "Câu lý do chủ quan: ものだから／もので／もの.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子",
+              "reading": "こ"
+            },
+            {
+              "text": "どもが"
+            },
+            {
+              "text": "熱",
+              "reading": "ねつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "したもんで"
+            },
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l16-g02-order-01",
@@ -1713,7 +2145,23 @@
           "hint": "〜おかげだ／せいだ",
           "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "のおかげで"
+            },
+            {
+              "text": "頑張",
+              "reading": "がんば"
+            },
+            {
+              "text": "れた。"
+            }
+          ]
         },
         {
           "id": "l16-g03-ja-vi-02",
@@ -1725,7 +2173,30 @@
           "hint": "〜おかげだ／せいだ",
           "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "のせいで"
+            },
+            {
+              "text": "道",
+              "reading": "みち"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "塞",
+              "reading": "ふさ"
+            },
+            {
+              "text": "がった。"
+            }
+          ]
         },
         {
           "id": "l16-g03-ja-vi-03",
@@ -1737,7 +2208,37 @@
           "hint": "〜おかげだ／せいだ",
           "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "先輩",
+              "reading": "せんぱい"
+            },
+            {
+              "text": "のおかげで"
+            },
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "早",
+              "reading": "はや"
+            },
+            {
+              "text": "く"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わった。"
+            }
+          ]
         },
         {
           "id": "l16-g03-ja-vi-04",
@@ -1749,7 +2250,30 @@
           "hint": "〜おかげだ／せいだ",
           "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "風邪",
+              "reading": "かぜ"
+            },
+            {
+              "text": "のせいで"
+            },
+            {
+              "text": "声",
+              "reading": "こえ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l16-g03-ja-vi-05",
@@ -1761,7 +2285,30 @@
           "hint": "〜おかげだ／せいだ",
           "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "協力",
+              "reading": "きょうりょく"
+            },
+            {
+              "text": "のおかげで"
+            },
+            {
+              "text": "目標",
+              "reading": "もくひょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "達成",
+              "reading": "たっせい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l16-g03-ja-vi-06",
@@ -1773,7 +2320,16 @@
           "hint": "〜おかげだ／せいだ",
           "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "油断",
+              "reading": "ゆだん"
+            },
+            {
+              "text": "のせいでミスした。"
+            }
+          ]
         },
         {
           "id": "l16-g03-ja-vi-07",
@@ -1785,7 +2341,23 @@
           "hint": "〜おかげだ／せいだ",
           "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "晴",
+              "reading": "は"
+            },
+            {
+              "text": "れたのは"
+            },
+            {
+              "text": "風",
+              "reading": "かぜ"
+            },
+            {
+              "text": "のおかげだ。"
+            }
+          ]
         },
         {
           "id": "l16-g03-ja-vi-08",
@@ -1797,7 +2369,27 @@
           "hint": "〜おかげだ／せいだ",
           "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "失敗",
+              "reading": "しっぱい"
+            },
+            {
+              "text": "したのは"
+            },
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "不足",
+              "reading": "ふそく"
+            },
+            {
+              "text": "のせいだ。"
+            }
+          ]
         },
         {
           "id": "l16-g03-ja-vi-09",
@@ -1809,7 +2401,30 @@
           "hint": "〜おかげだ／せいだ",
           "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "辞書",
+              "reading": "じしょ"
+            },
+            {
+              "text": "のおかげで"
+            },
+            {
+              "text": "意味",
+              "reading": "いみ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かった。"
+            }
+          ]
         },
         {
           "id": "l16-g03-ja-vi-10",
@@ -1821,7 +2436,23 @@
           "hint": "〜おかげだ／せいだ",
           "explanation": "Câu nhờ (tốt) hoặc tại (xấu): おかげ／せい.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "したのは"
+            },
+            {
+              "text": "目覚",
+              "reading": "めざ"
+            },
+            {
+              "text": "ましのせいだ。"
+            }
+          ]
         },
         {
           "id": "l16-g03-order-01",
@@ -2451,7 +3082,30 @@
           "hint": "〜あまり／あまりの〜に",
           "explanation": "Câu vì quá mức: あまり／あまりのNに.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "緊張",
+              "reading": "きんちょう"
+            },
+            {
+              "text": "のあまり"
+            },
+            {
+              "text": "手",
+              "reading": "しゅ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "震",
+              "reading": "ふる"
+            },
+            {
+              "text": "えた。"
+            }
+          ]
         },
         {
           "id": "l16-g04-ja-vi-02",
@@ -2463,7 +3117,23 @@
           "hint": "〜あまり／あまりの〜に",
           "explanation": "Câu vì quá mức: あまり／あまりのNに.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "悲",
+              "reading": "かな"
+            },
+            {
+              "text": "しみのあまり"
+            },
+            {
+              "text": "食欲",
+              "reading": "しょくよく"
+            },
+            {
+              "text": "がない。"
+            }
+          ]
         },
         {
           "id": "l16-g04-ja-vi-03",
@@ -2475,7 +3145,30 @@
           "hint": "〜あまり／あまりの〜に",
           "explanation": "Câu vì quá mức: あまり／あまりのNに.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "喜",
+              "reading": "よろこ"
+            },
+            {
+              "text": "びのあまり"
+            },
+            {
+              "text": "飛",
+              "reading": "と"
+            },
+            {
+              "text": "び"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がった。"
+            }
+          ]
         },
         {
           "id": "l16-g04-ja-vi-04",
@@ -2487,7 +3180,30 @@
           "hint": "〜あまり／あまりの〜に",
           "explanation": "Câu vì quá mức: あまり／あまりのNに.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "驚",
+              "reading": "おどろ"
+            },
+            {
+              "text": "きのあまり"
+            },
+            {
+              "text": "立",
+              "reading": "た"
+            },
+            {
+              "text": "ち"
+            },
+            {
+              "text": "尽",
+              "reading": "つ"
+            },
+            {
+              "text": "くした。"
+            }
+          ]
         },
         {
           "id": "l16-g04-ja-vi-05",
@@ -2499,7 +3215,30 @@
           "hint": "〜あまり／あまりの〜に",
           "explanation": "Câu vì quá mức: あまり／あまりのNに.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しさのあまり"
+            },
+            {
+              "text": "食事",
+              "reading": "しょくじ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "抜",
+              "reading": "ぬ"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l16-g04-ja-vi-06",
@@ -2511,7 +3250,26 @@
           "hint": "〜あまり／あまりの〜に",
           "explanation": "Câu vì quá mức: あまり／あまりのNに.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "あまりの"
+            },
+            {
+              "text": "寒",
+              "reading": "さむ"
+            },
+            {
+              "text": "さに"
+            },
+            {
+              "text": "震",
+              "reading": "ふる"
+            },
+            {
+              "text": "えた。"
+            }
+          ]
         },
         {
           "id": "l16-g04-ja-vi-07",
@@ -2523,7 +3281,26 @@
           "hint": "〜あまり／あまりの〜に",
           "explanation": "Câu vì quá mức: あまり／あまりのNに.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "あまりの"
+            },
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "さに"
+            },
+            {
+              "text": "足",
+              "reading": "あし"
+            },
+            {
+              "text": "がすくんだ。"
+            }
+          ]
         },
         {
           "id": "l16-g04-ja-vi-08",
@@ -2535,7 +3312,23 @@
           "hint": "〜あまり／あまりの〜に",
           "explanation": "Câu vì quá mức: あまり／あまりのNに.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "期待",
+              "reading": "きたい"
+            },
+            {
+              "text": "のあまり"
+            },
+            {
+              "text": "眠",
+              "reading": "ねむ"
+            },
+            {
+              "text": "れなかった。"
+            }
+          ]
         },
         {
           "id": "l16-g04-ja-vi-09",
@@ -2547,7 +3340,30 @@
           "hint": "〜あまり／あまりの〜に",
           "explanation": "Câu vì quá mức: あまり／あまりのNに.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "悔",
+              "reading": "くや"
+            },
+            {
+              "text": "しさのあまり"
+            },
+            {
+              "text": "拳",
+              "reading": "けん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "握",
+              "reading": "にぎ"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l16-g04-ja-vi-10",
@@ -2559,7 +3375,26 @@
           "hint": "〜あまり／あまりの〜に",
           "explanation": "Câu vì quá mức: あまり／あまりのNに.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "あまりの"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "さに"
+            },
+            {
+              "text": "驚",
+              "reading": "おどろ"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l16-g04-order-01",
@@ -3187,7 +4022,27 @@
           "hint": "〜につき",
           "explanation": "Câu lý do thông báo: Nにつき.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "改装",
+              "reading": "かいそう"
+            },
+            {
+              "text": "中",
+              "reading": "ちゅう"
+            },
+            {
+              "text": "につきしばらくお"
+            },
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みします。"
+            }
+          ]
         },
         {
           "id": "l16-g05-ja-vi-02",
@@ -3199,7 +4054,23 @@
           "hint": "〜につき",
           "explanation": "Câu lý do thông báo: Nにつき.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "悪天候",
+              "reading": "あくてんこう"
+            },
+            {
+              "text": "につき"
+            },
+            {
+              "text": "運休",
+              "reading": "うんきゅう"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l16-g05-ja-vi-03",
@@ -3211,7 +4082,34 @@
           "hint": "〜につき",
           "explanation": "Câu lý do thông báo: Nにつき.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "社内",
+              "reading": "しゃない"
+            },
+            {
+              "text": "事情",
+              "reading": "じじょう"
+            },
+            {
+              "text": "につき"
+            },
+            {
+              "text": "採用",
+              "reading": "さいよう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見送",
+              "reading": "みおく"
+            },
+            {
+              "text": "ります。"
+            }
+          ]
         },
         {
           "id": "l16-g05-ja-vi-04",
@@ -3223,7 +4121,30 @@
           "hint": "〜につき",
           "explanation": "Câu lý do thông báo: Nにつき.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "停電",
+              "reading": "ていでん"
+            },
+            {
+              "text": "につき"
+            },
+            {
+              "text": "営業",
+              "reading": "えいぎょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "中断",
+              "reading": "ちゅうだん"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l16-g05-ja-vi-05",
@@ -3235,7 +4156,30 @@
           "hint": "〜につき",
           "explanation": "Câu lý do thông báo: Nにつき.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "混雑",
+              "reading": "こんざつ"
+            },
+            {
+              "text": "につき"
+            },
+            {
+              "text": "入場",
+              "reading": "にゅうじょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "制限",
+              "reading": "せいげん"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l16-g05-ja-vi-06",
@@ -3247,7 +4191,27 @@
           "hint": "〜につき",
           "explanation": "Câu lý do thông báo: Nにつき.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "故障",
+              "reading": "こしょう"
+            },
+            {
+              "text": "につき"
+            },
+            {
+              "text": "修理",
+              "reading": "しゅうり"
+            },
+            {
+              "text": "中",
+              "reading": "ちゅう"
+            },
+            {
+              "text": "です。"
+            }
+          ]
         },
         {
           "id": "l16-g05-ja-vi-07",
@@ -3259,7 +4223,34 @@
           "hint": "〜につき",
           "explanation": "Câu lý do thông báo: Nにつき.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "年末年始",
+              "reading": "ねんまつねんし"
+            },
+            {
+              "text": "につき"
+            },
+            {
+              "text": "営業",
+              "reading": "えいぎょう"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わります。"
+            }
+          ]
         },
         {
           "id": "l16-g05-ja-vi-08",
@@ -3271,7 +4262,30 @@
           "hint": "〜につき",
           "explanation": "Câu lý do thông báo: Nにつき.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨天",
+              "reading": "うてん"
+            },
+            {
+              "text": "につき"
+            },
+            {
+              "text": "屋内",
+              "reading": "おくない"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "実施",
+              "reading": "じっし"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l16-g05-ja-vi-09",
@@ -3283,7 +4297,43 @@
           "hint": "〜につき",
           "explanation": "Câu lý do thông báo: Nにつき.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "在庫",
+              "reading": "ざいこ"
+            },
+            {
+              "text": "僅少",
+              "reading": "きんしょう"
+            },
+            {
+              "text": "につきお"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "人",
+              "reading": "にん"
+            },
+            {
+              "text": "様",
+              "reading": "さま"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "点",
+              "reading": "てん"
+            },
+            {
+              "text": "まで。"
+            }
+          ]
         },
         {
           "id": "l16-g05-ja-vi-10",
@@ -3295,7 +4345,30 @@
           "hint": "〜につき",
           "explanation": "Câu lý do thông báo: Nにつき.",
           "origin": "authored",
-          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 16 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "清掃",
+              "reading": "せいそう"
+            },
+            {
+              "text": "につき"
+            },
+            {
+              "text": "一時",
+              "reading": "いちじ"
+            },
+            {
+              "text": "ご"
+            },
+            {
+              "text": "利用",
+              "reading": "りよう"
+            },
+            {
+              "text": "いただけません。"
+            }
+          ]
         },
         {
           "id": "l16-g05-order-01",

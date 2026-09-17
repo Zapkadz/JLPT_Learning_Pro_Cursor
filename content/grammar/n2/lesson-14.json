@@ -254,7 +254,34 @@
           "hint": "〜にもかかわらず",
           "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "不足",
+              "reading": "ふそく"
+            },
+            {
+              "text": "にもかかわらず"
+            },
+            {
+              "text": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l14-g01-ja-vi-02",
@@ -266,7 +293,30 @@
           "hint": "〜にもかかわらず",
           "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "高齢",
+              "reading": "こうれい"
+            },
+            {
+              "text": "にもかかわらず"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "現役",
+              "reading": "げんえき"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l14-g01-ja-vi-03",
@@ -278,7 +328,41 @@
           "hint": "〜にもかかわらず",
           "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "費用",
+              "reading": "ひよう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "いにもかかわらず"
+            },
+            {
+              "text": "参加",
+              "reading": "さんか"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "多",
+              "reading": "おお"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l14-g01-ja-vi-04",
@@ -290,7 +374,30 @@
           "hint": "〜にもかかわらず",
           "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "したにもかかわらず"
+            },
+            {
+              "text": "誤解",
+              "reading": "ごかい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "生",
+              "reading": "しょう"
+            },
+            {
+              "text": "じた。"
+            }
+          ]
         },
         {
           "id": "l14-g01-ja-vi-05",
@@ -302,7 +409,23 @@
           "hint": "〜にもかかわらず",
           "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "がなかったにもかかわらずレポートを"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l14-g01-ja-vi-06",
@@ -314,7 +437,27 @@
           "hint": "〜にもかかわらず",
           "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "不良",
+              "reading": "ふりょう"
+            },
+            {
+              "text": "にもかかわらず"
+            },
+            {
+              "text": "出勤",
+              "reading": "しゅっきん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l14-g01-ja-vi-07",
@@ -326,7 +469,27 @@
           "hint": "〜にもかかわらず",
           "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "があるにもかかわらず"
+            },
+            {
+              "text": "決定",
+              "reading": "けってい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l14-g01-ja-vi-08",
@@ -338,7 +501,37 @@
           "hint": "〜にもかかわらず",
           "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "降",
+              "reading": "ふ"
+            },
+            {
+              "text": "っているにもかかわらず"
+            },
+            {
+              "text": "試合",
+              "reading": "しあい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "続行",
+              "reading": "ぞっこう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l14-g01-ja-vi-09",
@@ -350,7 +543,27 @@
           "hint": "〜にもかかわらず",
           "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "豊富",
+              "reading": "ほうふ"
+            },
+            {
+              "text": "にもかかわらず"
+            },
+            {
+              "text": "慎重",
+              "reading": "しんちょう"
+            },
+            {
+              "text": "だった。"
+            }
+          ]
         },
         {
           "id": "l14-g01-ja-vi-10",
@@ -362,7 +575,30 @@
           "hint": "〜にもかかわらず",
           "explanation": "Câu dùng にもかかわらず: mặc dù A nhưng vẫn B (trang trọng).",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "したにもかかわらず"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "なかった。"
+            }
+          ]
         },
         {
           "id": "l14-g01-order-01",
@@ -1012,7 +1248,30 @@
           "hint": "〜ものの／〜とはいうものの",
           "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "したものの"
+            },
+            {
+              "text": "都合",
+              "reading": "つごう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "悪",
+              "reading": "わる"
+            },
+            {
+              "text": "くなった。"
+            }
+          ]
         },
         {
           "id": "l14-g02-ja-vi-02",
@@ -1024,7 +1283,30 @@
           "hint": "〜ものの／〜とはいうものの",
           "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "調",
+              "reading": "しら"
+            },
+            {
+              "text": "べたものの"
+            },
+            {
+              "text": "確証",
+              "reading": "かくしょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "られなかった。"
+            }
+          ]
         },
         {
           "id": "l14-g02-ja-vi-03",
@@ -1036,7 +1318,23 @@
           "hint": "〜ものの／〜とはいうものの",
           "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "開始",
+              "reading": "かいし"
+            },
+            {
+              "text": "したもののすぐに"
+            },
+            {
+              "text": "中断",
+              "reading": "ちゅうだん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l14-g02-ja-vi-04",
@@ -1048,7 +1346,37 @@
           "hint": "〜ものの／〜とはいうものの",
           "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "便利",
+              "reading": "べんり"
+            },
+            {
+              "text": "だとはいうものの"
+            },
+            {
+              "text": "使",
+              "reading": "つか"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "方",
+              "reading": "かた"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "複雑",
+              "reading": "ふくざつ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l14-g02-ja-vi-05",
@@ -1060,7 +1388,23 @@
           "hint": "〜ものの／〜とはいうものの",
           "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "合格",
+              "reading": "ごうかく"
+            },
+            {
+              "text": "したものの"
+            },
+            {
+              "text": "安心",
+              "reading": "あんしん"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l14-g02-ja-vi-06",
@@ -1072,7 +1416,30 @@
           "hint": "〜ものの／〜とはいうものの",
           "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "節約",
+              "reading": "せつやく"
+            },
+            {
+              "text": "したものの"
+            },
+            {
+              "text": "貯金",
+              "reading": "ちょきん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "えない。"
+            }
+          ]
         },
         {
           "id": "l14-g02-ja-vi-07",
@@ -1084,7 +1451,30 @@
           "hint": "〜ものの／〜とはいうものの",
           "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "助言",
+              "reading": "じょげん"
+            },
+            {
+              "text": "したものの"
+            },
+            {
+              "text": "相手",
+              "reading": "あいて"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "かない。"
+            }
+          ]
         },
         {
           "id": "l14-g02-ja-vi-08",
@@ -1096,7 +1486,34 @@
           "hint": "〜ものの／〜とはいうものの",
           "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無料",
+              "reading": "むりょう"
+            },
+            {
+              "text": "だとはいうものの"
+            },
+            {
+              "text": "別",
+              "reading": "べつ"
+            },
+            {
+              "text": "料金",
+              "reading": "りょうきん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l14-g02-ja-vi-09",
@@ -1108,7 +1525,30 @@
           "hint": "〜ものの／〜とはいうものの",
           "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "したものの"
+            },
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "中止",
+              "reading": "ちゅうし"
+            },
+            {
+              "text": "になった。"
+            }
+          ]
         },
         {
           "id": "l14-g02-ja-vi-10",
@@ -1120,7 +1560,34 @@
           "hint": "〜ものの／〜とはいうものの",
           "explanation": "Câu dùng ものの／とはいうものの: thừa nhận A nhưng thực tế là B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "豊富",
+              "reading": "ほうふ"
+            },
+            {
+              "text": "だとはいうものの"
+            },
+            {
+              "text": "初",
+              "reading": "はじ"
+            },
+            {
+              "text": "めての"
+            },
+            {
+              "text": "分野",
+              "reading": "ぶんや"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l14-g02-order-01",
@@ -1762,7 +2229,30 @@
           "hint": "〜ながら（も）",
           "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "残念",
+              "reading": "ざんねん"
+            },
+            {
+              "text": "ながら"
+            },
+            {
+              "text": "今回",
+              "reading": "こんかい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "欠席",
+              "reading": "けっせき"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l14-g03-ja-vi-02",
@@ -1774,7 +2264,34 @@
           "hint": "〜ながら（も）",
           "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "狭",
+              "reading": "せま"
+            },
+            {
+              "text": "いながらも"
+            },
+            {
+              "text": "工夫",
+              "reading": "くふう"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "快適",
+              "reading": "かいてき"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l14-g03-ja-vi-03",
@@ -1786,7 +2303,27 @@
           "hint": "〜ながら（も）",
           "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "疑",
+              "reading": "うたが"
+            },
+            {
+              "text": "いながらも"
+            },
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "書",
+              "reading": "しょ"
+            },
+            {
+              "text": "にサインした。"
+            }
+          ]
         },
         {
           "id": "l14-g03-ja-vi-04",
@@ -1798,7 +2335,23 @@
           "hint": "〜ながら（も）",
           "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "ながらよく"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "がつく。"
+            }
+          ]
         },
         {
           "id": "l14-g03-ja-vi-05",
@@ -1810,7 +2363,30 @@
           "hint": "〜ながら（も）",
           "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "申",
+              "reading": "もう"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "訳",
+              "reading": "わけ"
+            },
+            {
+              "text": "ないながらもお"
+            },
+            {
+              "text": "願",
+              "reading": "ねが"
+            },
+            {
+              "text": "いがある。"
+            }
+          ]
         },
         {
           "id": "l14-g03-ja-vi-06",
@@ -1822,7 +2398,30 @@
           "hint": "〜ながら（も）",
           "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "不便",
+              "reading": "ふべん"
+            },
+            {
+              "text": "ながらもこの"
+            },
+            {
+              "text": "町",
+              "reading": "まち"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "好",
+              "reading": "す"
+            },
+            {
+              "text": "きだ。"
+            }
+          ]
         },
         {
           "id": "l14-g03-ja-vi-07",
@@ -1834,7 +2433,30 @@
           "hint": "〜ながら（も）",
           "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "驚",
+              "reading": "おどろ"
+            },
+            {
+              "text": "きながらも"
+            },
+            {
+              "text": "冷静",
+              "reading": "れいせい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "対応",
+              "reading": "たいおう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l14-g03-ja-vi-08",
@@ -1846,7 +2468,30 @@
           "hint": "〜ながら（も）",
           "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "されながらも"
+            },
+            {
+              "text": "計画",
+              "reading": "けいかく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "めた。"
+            }
+          ]
         },
         {
           "id": "l14-g03-ja-vi-09",
@@ -1858,7 +2503,30 @@
           "hint": "〜ながら（も）",
           "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "初心者",
+              "reading": "しょしんしゃ"
+            },
+            {
+              "text": "ながらも"
+            },
+            {
+              "text": "大会",
+              "reading": "たいかい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "た。"
+            }
+          ]
         },
         {
           "id": "l14-g03-ja-vi-10",
@@ -1870,7 +2538,37 @@
           "hint": "〜ながら（も）",
           "explanation": "Câu dùng ながら（も） nhượng bộ: tuy A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "涙",
+              "reading": "なみだ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "流",
+              "reading": "なが"
+            },
+            {
+              "text": "しながらも"
+            },
+            {
+              "text": "前",
+              "reading": "まえ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "いた。"
+            }
+          ]
         },
         {
           "id": "l14-g03-order-01",
@@ -2497,7 +3195,37 @@
           "hint": "Vます ＋ つつ（も）",
           "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "危険",
+              "reading": "きけん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "認識",
+              "reading": "にんしき"
+            },
+            {
+              "text": "しつつも"
+            },
+            {
+              "text": "作業",
+              "reading": "さぎょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "けた。"
+            }
+          ]
         },
         {
           "id": "l14-g04-ja-vi-02",
@@ -2509,7 +3237,30 @@
           "hint": "Vます ＋ つつ（も）",
           "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "期待",
+              "reading": "きたい"
+            },
+            {
+              "text": "しつつも"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "待",
+              "reading": "ま"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l14-g04-ja-vi-03",
@@ -2521,7 +3272,37 @@
           "hint": "Vます ＋ つつ（も）",
           "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "反省",
+              "reading": "はんせい"
+            },
+            {
+              "text": "しつつも"
+            },
+            {
+              "text": "次",
+              "reading": "つぎ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "課題",
+              "reading": "かだい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "んだ。"
+            }
+          ]
         },
         {
           "id": "l14-g04-ja-vi-04",
@@ -2533,7 +3314,37 @@
           "hint": "Vます ＋ つつ（も）",
           "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "不満",
+              "reading": "ふまん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "感",
+              "reading": "かん"
+            },
+            {
+              "text": "じつつも"
+            },
+            {
+              "text": "指示",
+              "reading": "しじ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "従",
+              "reading": "したが"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l14-g04-ja-vi-05",
@@ -2545,7 +3356,30 @@
           "hint": "Vます ＋ つつ（も）",
           "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "悲",
+              "reading": "かな"
+            },
+            {
+              "text": "しみつつも"
+            },
+            {
+              "text": "笑顔",
+              "reading": "えがお"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "保",
+              "reading": "たも"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l14-g04-ja-vi-06",
@@ -2557,7 +3391,30 @@
           "hint": "Vます ＋ つつ（も）",
           "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "迷",
+              "reading": "まよ"
+            },
+            {
+              "text": "いつつも"
+            },
+            {
+              "text": "進路",
+              "reading": "しんろ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "めた。"
+            }
+          ]
         },
         {
           "id": "l14-g04-ja-vi-07",
@@ -2569,7 +3426,30 @@
           "hint": "Vます ＋ つつ（も）",
           "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "驚",
+              "reading": "おどろ"
+            },
+            {
+              "text": "きつつも"
+            },
+            {
+              "text": "冷静",
+              "reading": "れいせい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "記録",
+              "reading": "きろく"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l14-g04-ja-vi-08",
@@ -2581,7 +3461,37 @@
           "hint": "Vます ＋ つつ（も）",
           "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "申",
+              "reading": "もう"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "訳",
+              "reading": "わけ"
+            },
+            {
+              "text": "なく"
+            },
+            {
+              "text": "思",
+              "reading": "おも"
+            },
+            {
+              "text": "いつつも"
+            },
+            {
+              "text": "断",
+              "reading": "ことわ"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l14-g04-ja-vi-09",
@@ -2593,7 +3503,30 @@
           "hint": "Vます ＋ つつ（も）",
           "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "楽",
+              "reading": "たの"
+            },
+            {
+              "text": "しみつつも"
+            },
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "進",
+              "reading": "すす"
+            },
+            {
+              "text": "めた。"
+            }
+          ]
         },
         {
           "id": "l14-g04-ja-vi-10",
@@ -2605,7 +3538,23 @@
           "hint": "Vます ＋ つつ（も）",
           "explanation": "Câu dùng つつ（も） nhượng bộ văn viết: dù A nhưng B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "理解",
+              "reading": "りかい"
+            },
+            {
+              "text": "しつつもルールは"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "れなかった。"
+            }
+          ]
         },
         {
           "id": "l14-g04-order-01",
@@ -3238,7 +4187,27 @@
           "hint": "〜といっても",
           "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "いといっても"
+            },
+            {
+              "text": "予算",
+              "reading": "よさん"
+            },
+            {
+              "text": "内",
+              "reading": "ない"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l14-g05-ja-vi-02",
@@ -3250,7 +4219,31 @@
           "hint": "〜といっても",
           "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "遅",
+              "reading": "おそ"
+            },
+            {
+              "text": "いといっても"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "程度",
+              "reading": "ていど"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l14-g05-ja-vi-03",
@@ -3262,7 +4255,27 @@
           "hint": "〜といっても",
           "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "といっても"
+            },
+            {
+              "text": "条件",
+              "reading": "じょうけん"
+            },
+            {
+              "text": "付",
+              "reading": "つ"
+            },
+            {
+              "text": "きだ。"
+            }
+          ]
         },
         {
           "id": "l14-g05-ja-vi-04",
@@ -3274,7 +4287,23 @@
           "hint": "〜といっても",
           "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みといっても"
+            },
+            {
+              "text": "半日",
+              "reading": "はんにち"
+            },
+            {
+              "text": "しかない。"
+            }
+          ]
         },
         {
           "id": "l14-g05-ja-vi-05",
@@ -3286,7 +4315,23 @@
           "hint": "〜といっても",
           "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "といっても"
+            },
+            {
+              "text": "小",
+              "reading": "ちい"
+            },
+            {
+              "text": "さなことだ。"
+            }
+          ]
         },
         {
           "id": "l14-g05-ja-vi-06",
@@ -3298,7 +4343,27 @@
           "hint": "〜といっても",
           "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "といっても"
+            },
+            {
+              "text": "霧雨",
+              "reading": "きりさめ"
+            },
+            {
+              "text": "程度",
+              "reading": "ていど"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l14-g05-ja-vi-07",
@@ -3310,7 +4375,23 @@
           "hint": "〜といっても",
           "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しいといっても"
+            },
+            {
+              "text": "残業",
+              "reading": "ざんぎょう"
+            },
+            {
+              "text": "はない。"
+            }
+          ]
         },
         {
           "id": "l14-g05-ja-vi-08",
@@ -3322,7 +4403,23 @@
           "hint": "〜といっても",
           "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "変更",
+              "reading": "へんこう"
+            },
+            {
+              "text": "といっても"
+            },
+            {
+              "text": "日付",
+              "reading": "ひづけ"
+            },
+            {
+              "text": "だけだ。"
+            }
+          ]
         },
         {
           "id": "l14-g05-ja-vi-09",
@@ -3334,7 +4431,23 @@
           "hint": "〜といっても",
           "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "といっても"
+            },
+            {
+              "text": "少数",
+              "reading": "しょうすう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l14-g05-ja-vi-10",
@@ -3346,7 +4459,30 @@
           "hint": "〜といっても",
           "explanation": "Câu dùng といっても: nói là A nhưng thực tế mức độ thấp/khác.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "遠",
+              "reading": "とお"
+            },
+            {
+              "text": "いといっても"
+            },
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "十分",
+              "reading": "じゅうぶん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l14-g05-order-01",
@@ -3983,7 +5119,30 @@
           "hint": "〜からといって",
           "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "好",
+              "reading": "す"
+            },
+            {
+              "text": "きだからといって"
+            },
+            {
+              "text": "食",
+              "reading": "た"
+            },
+            {
+              "text": "べ"
+            },
+            {
+              "text": "過",
+              "reading": "す"
+            },
+            {
+              "text": "ぎてはいけない。"
+            }
+          ]
         },
         {
           "id": "l14-g06-ja-vi-02",
@@ -3995,7 +5154,30 @@
           "hint": "〜からといって",
           "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "暇",
+              "reading": "ひま"
+            },
+            {
+              "text": "だからといって"
+            },
+            {
+              "text": "無駄",
+              "reading": "むだ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "過",
+              "reading": "す"
+            },
+            {
+              "text": "ごしてはいけない。"
+            }
+          ]
         },
         {
           "id": "l14-g06-ja-vi-03",
@@ -4007,7 +5189,30 @@
           "hint": "〜からといって",
           "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "有名",
+              "reading": "ゆうめい"
+            },
+            {
+              "text": "だからといって"
+            },
+            {
+              "text": "信頼",
+              "reading": "しんらい"
+            },
+            {
+              "text": "できるとは"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らない。"
+            }
+          ]
         },
         {
           "id": "l14-g06-ja-vi-04",
@@ -4019,7 +5224,23 @@
           "hint": "〜からといって",
           "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "いからといって"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "いすぎてはいけない。"
+            }
+          ]
         },
         {
           "id": "l14-g06-ja-vi-05",
@@ -4031,7 +5252,30 @@
           "hint": "〜からといって",
           "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "怒",
+              "reading": "おこ"
+            },
+            {
+              "text": "ったからといって"
+            },
+            {
+              "text": "暴言",
+              "reading": "ぼうげん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "吐",
+              "reading": "は"
+            },
+            {
+              "text": "いてはいけない。"
+            }
+          ]
         },
         {
           "id": "l14-g06-ja-vi-06",
@@ -4043,7 +5287,23 @@
           "hint": "〜からといって",
           "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "便利",
+              "reading": "べんり"
+            },
+            {
+              "text": "だからといって"
+            },
+            {
+              "text": "依存",
+              "reading": "いぞん"
+            },
+            {
+              "text": "しすぎてはいけない。"
+            }
+          ]
         },
         {
           "id": "l14-g06-ja-vi-07",
@@ -4055,7 +5315,30 @@
           "hint": "〜からといって",
           "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "若",
+              "reading": "わか"
+            },
+            {
+              "text": "いからといって"
+            },
+            {
+              "text": "無理",
+              "reading": "むり"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "禁物",
+              "reading": "きんもつ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l14-g06-ja-vi-08",
@@ -4067,7 +5350,23 @@
           "hint": "〜からといって",
           "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "があるからといって"
+            },
+            {
+              "text": "慢心",
+              "reading": "まんしん"
+            },
+            {
+              "text": "してはいけない。"
+            }
+          ]
         },
         {
           "id": "l14-g06-ja-vi-09",
@@ -4079,7 +5378,37 @@
           "hint": "〜からといって",
           "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無料",
+              "reading": "むりょう"
+            },
+            {
+              "text": "だからといって"
+            },
+            {
+              "text": "品質",
+              "reading": "ひんしつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "低",
+              "reading": "ひく"
+            },
+            {
+              "text": "いとは"
+            },
+            {
+              "text": "限",
+              "reading": "かぎ"
+            },
+            {
+              "text": "らない。"
+            }
+          ]
         },
         {
           "id": "l14-g06-ja-vi-10",
@@ -4091,7 +5420,30 @@
           "hint": "〜からといって",
           "explanation": "Câu dùng からといって: chỉ vì A không có nghĩa / không được B.",
           "origin": "authored",
-          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)"
+          "sourceNote": "Lesson 14 authored (N2-L11-BATCH)",
+          "promptRuby": [
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しいからといって"
+            },
+            {
+              "text": "健康",
+              "reading": "けんこう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "犠牲",
+              "reading": "ぎせい"
+            },
+            {
+              "text": "にしてはいけない。"
+            }
+          ]
         },
         {
           "id": "l14-g06-order-01",

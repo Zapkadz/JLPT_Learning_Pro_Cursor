@@ -24,9 +24,10 @@ Rule: **never** write targets as completed counts.
 - **N2-L11-BATCH DONE** (2026-09-16) — Lessons 11–15 published (27×30 = 810); merged PR #10.  
 - **N2-L16-BATCH DONE** (2026-09-16) — Lessons 16–20 published (28×30 = 840); merged PR #11 (`80c6da9`).  
 - **N2-L21-BATCH DONE** (2026-09-16) — Lessons 21–26 published (36×30 = 1080); merged PR #12 (`1d229f6`).  
-- **N2-FULL-ACC DONE** (2026-09-16) — automated §73 evidence on `feat/n2-full-acc`; teacher review still PENDING.  
+- **N2-FULL-ACC DONE** (2026-09-16) — automated §73 evidence; merged PR #13 (`902e0f0`); teacher review still PENDING.  
+- **N2-L01-FURI-001 DONE** (2026-09-16) — ADR-009 policy B; `promptRuby` on 1410 ja-vi across 26 lessons; practice toggle; on `feat/n2-l01-furi-001` (commit pending).  
 - Persistent project memory files: **established** (MEM-001 DONE).  
-- Git: **AVAILABLE** — `main` @ PR #12 merge (`1d229f6`); work on `feat/n2-full-acc`.
+- Git: **AVAILABLE** — `main` @ PR #13 merge (`902e0f0`); work on `feat/n2-l01-furi-001`.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -81,6 +82,15 @@ Re-verified against repository (no app code changes):
 - Progress/SRS keyed by stable `pattern_id` strings; stats entity `grammar:{patternId}`.  
 - Scale gap: `content.ts` hardcodes `lesson-01.json`; UI hardcodes Bài 01 paths; SOURCE-MAPPING missing.  
 - Tests: `tests/grammar/grammar.test.ts` (3 cases); no Playwright grammar journey file.
+
+### N2-L01-FURI-001 (2026-09-16) — DONE (uncommitted)
+
+- Product decision **B**: optional JA→VI furigana via structured `promptRuby` + shared toggle (`kotoba-grammar-reading`); all 26 lessons.  
+- ADR-009 recorded.  
+- Schema/DTO/UI: `shared/grammar/types.ts`, `publicExercise`, practice screen toggle + ruby render.  
+- Content: `scripts/gen-n2-ja-vi-prompt-ruby.mjs` (Kuroshiro) filled **1410** ja-vi items; raw `prompt` unchanged.  
+- Verification: `npm test` **16/16** (new FURI validator); `npm run build` OK.  
+- Readings are agent-generated — not teacher-verified.
 
 ### N2-FULL-ACC (2026-09-16) — DONE (automated; teacher PENDING)
 
@@ -242,7 +252,8 @@ Re-verified against repository (no app code changes):
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
-| 2026-09-16 | N2-FULL-ACC automated §73 evidence | acceptance PASS; **15/15**; e2e **2/2**; build OK | `node scripts/n2-full-acceptance.mjs`; `npm test`; `npm run test:e2e`; `npm run build` |
+| 2026-09-16 | N2-L01-FURI-001 JA→VI promptRuby (ADR-009) | **16/16 pass**; build OK | `npm test`; `npm run build` on `feat/n2-l01-furi-001` |
+| 2026-09-16 | N2-FULL-ACC automated §73 evidence | acceptance PASS; **15/15**; e2e **2/2**; build OK | PR #13 merged `902e0f0` |
 | 2026-09-16 | N2-L21-BATCH Lessons 21–26 publish | **15/15 pass**; build OK | PR #12 merged `1d229f6` |
 | 2026-09-16 | N2-L16-BATCH Lessons 16–20 publish | **15/15 pass**; build OK | `npm test`; `npm run build` on `feat/n2-l16-batch` |
 | 2026-09-16 | N2-L11-BATCH Lessons 11–15 publish | **15/15 pass**; build OK | `npm test`; `npm run build` on `feat/n2-l11-batch` |
@@ -268,18 +279,17 @@ Re-verified against repository (no app code changes):
 
 ## Known Incomplete Work
 
-- Furigana on JA→VI practice (**N2-L01-FURI-001** — needs decision).  
-- Independent teacher review of N2 content (language QA; not claimed by N2-FULL-ACC).  
-- N2-FULL-ACC commit / PR — **PR #13 open** (https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/13).
+- Independent teacher review of N2 content / furigana readings (language QA).  
+- N2-L01-FURI-001 commit / PR — **PR #14 open** (https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/14).
 
 ## Known Issues
 
 - Dual trackers: `docs/grammar-n2/*` (history) vs root PLAN/PROGRESS (active).  
 - UX-CONTRACT cites `server/index.ts` for CRUD; implementation is `server/app.ts`.  
 - `premium-audit.json` stale `projectRoot` path.  
-- L2–26 learning examples may use simplified single-span ruby after overlap fixes in some regenerated paths — structured ruby preferred on re-author.
+- L2–26 learning examples may use simplified single-span ruby after overlap fixes in some regenerated paths — structured ruby preferred on re-author.  
+- JA→VI `promptRuby` readings from Kuroshiro are agent-generated; may need teacher correction.
 
 ## Blockers
 
-1. Furigana JA→VI policy decision blocks **N2-L01-FURI-001**.  
-2. Human teacher/reviewer required for true independent language verification.
+1. Human teacher/reviewer required for true independent language / reading verification.

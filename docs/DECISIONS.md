@@ -254,3 +254,38 @@ Do not switch the denominator to published-only without a product decision. Do n
 ### Related Files
 
 `server/modules/grammar/router.ts`, `server/app.ts` (`/api/stats`, `/api/export`), `src/features/grammar/Grammar.tsx`
+
+---
+
+## ADR-009 — JA→VI practice furigana (optional structured ruby)
+
+Date: 2026-09-16  
+Status: Accepted (N2-L01-FURI-001; product choice **B**, all 26 lessons)
+
+### Context
+
+Learning examples already use structured `ruby[]` + a furigana toggle. JA→VI practice prompts were plain Japanese only. Master Requirement §21 forbids embedding readings in raw JA (`日本(にほん)`). PLAN task N2-L01-FURI-001 needed a product decision.
+
+### Decision
+
+- **Policy B:** JA→VI practice may show furigana **optionally** via the same user toggle (`kotoba-grammar-reading`).
+- Store readings as optional `promptRuby` on `ja-vi` exercises (parallel to example `ruby`); `prompt` stays clean raw Japanese; `promptRuby[].text` must concatenate to `prompt`.
+- Apply across **all 26 published lessons** (not Lesson 1 only).
+- Public DTO may include `promptRuby` (not private). Answers / origin still stripped.
+- VI→JA and order modes do not gain prompt furigana in this task.
+
+### Reason
+
+Matches grammar-n2 PLAN (“Câu Nhật có furigana tùy chọn” for JA→VI) and Master §21 structured-data rule without forcing readings on every learner.
+
+### Consequences
+
+Content generators must emit `promptRuby` for new JA→VI items. Legacy sessions without `promptRuby` still render plain `prompt`.
+
+### Do Not
+
+Do not write furigana into `prompt` strings. Do not claim teacher-verified readings.
+
+### Related Files
+
+`shared/grammar/types.ts`, `server/modules/grammar/content.ts`, `src/features/grammar/Grammar.tsx`, `scripts/gen-n2-ja-vi-prompt-ruby.mjs`, `docs/PLAN.md` (N2-L01-FURI-001)

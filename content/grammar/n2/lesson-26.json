@@ -257,7 +257,41 @@
           "hint": "〜たいものだ／てほしいものだ",
           "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一生",
+              "reading": "いっしょう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "度",
+              "reading": "ど"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "富士山",
+              "reading": "ふじさん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "登",
+              "reading": "のぼ"
+            },
+            {
+              "text": "りたいものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g01-ja-vi-02",
@@ -269,7 +303,27 @@
           "hint": "〜たいものだ／てほしいものだ",
           "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "政治",
+              "reading": "せいじ"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "正直",
+              "reading": "しょうじき"
+            },
+            {
+              "text": "であってほしいものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g01-ja-vi-03",
@@ -281,7 +335,30 @@
           "hint": "〜たいものだ／てほしいものだ",
           "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "週末",
+              "reading": "しゅうまつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "過",
+              "reading": "す"
+            },
+            {
+              "text": "ごしたいものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g01-ja-vi-04",
@@ -293,7 +370,37 @@
           "hint": "〜たいものだ／てほしいものだ",
           "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "若者",
+              "reading": "わかもの"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "夢",
+              "reading": "ゆめ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "追",
+              "reading": "お"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "けてほしいものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g01-ja-vi-05",
@@ -305,7 +412,30 @@
           "hint": "〜たいものだ／てほしいものだ",
           "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "静",
+              "reading": "しず"
+            },
+            {
+              "text": "かな"
+            },
+            {
+              "text": "朝",
+              "reading": "あさ"
+            },
+            {
+              "text": "にコーヒーを"
+            },
+            {
+              "text": "味",
+              "reading": "あじ"
+            },
+            {
+              "text": "わいたいものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g01-ja-vi-06",
@@ -317,7 +447,30 @@
           "hint": "〜たいものだ／てほしいものだ",
           "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "隣人",
+              "reading": "りんじん"
+            },
+            {
+              "text": "にはもう"
+            },
+            {
+              "text": "少",
+              "reading": "すこ"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "静",
+              "reading": "しず"
+            },
+            {
+              "text": "かにしてほしいものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g01-ja-vi-07",
@@ -329,7 +482,41 @@
           "hint": "〜たいものだ／てほしいものだ",
           "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "定年",
+              "reading": "ていねん"
+            },
+            {
+              "text": "後",
+              "reading": "ご"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "趣味",
+              "reading": "しゅみ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "打",
+              "reading": "う"
+            },
+            {
+              "text": "ち"
+            },
+            {
+              "text": "込",
+              "reading": "こ"
+            },
+            {
+              "text": "みたいものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g01-ja-vi-08",
@@ -341,7 +528,37 @@
           "hint": "〜たいものだ／てほしいものだ",
           "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "生徒",
+              "reading": "せいと"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "頭",
+              "reading": "あたま"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "考",
+              "reading": "かんが"
+            },
+            {
+              "text": "えてほしいものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g01-ja-vi-09",
@@ -353,7 +570,33 @@
           "hint": "〜たいものだ／てほしいものだ",
           "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "いつか"
+            },
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "店",
+              "reading": "みせ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "持",
+              "reading": "も"
+            },
+            {
+              "text": "ちたいものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g01-ja-vi-10",
@@ -365,7 +608,37 @@
           "hint": "〜たいものだ／てほしいものだ",
           "explanation": "Câu ước nguyện: 〜たいものだ／てほしいものだ — thật muốn / mong…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "社会",
+              "reading": "しゃかい"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "弱者",
+              "reading": "じゃくしゃ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "優",
+              "reading": "やさ"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "制度",
+              "reading": "せいど"
+            },
+            {
+              "text": "であってほしいものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g01-order-01",
@@ -1032,7 +1305,30 @@
           "hint": "〜ものだ（回想・理想）",
           "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "夏休",
+              "reading": "なつやす"
+            },
+            {
+              "text": "みは"
+            },
+            {
+              "text": "海辺",
+              "reading": "うみべ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "泳",
+              "reading": "およ"
+            },
+            {
+              "text": "いだものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g02-ja-vi-02",
@@ -1044,7 +1340,37 @@
           "hint": "〜ものだ（回想・理想）",
           "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "子",
+              "reading": "こ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "成長",
+              "reading": "せいちょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見守",
+              "reading": "みまも"
+            },
+            {
+              "text": "るものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g02-ja-vi-03",
@@ -1056,7 +1382,34 @@
           "hint": "〜ものだ（回想・理想）",
           "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "祭",
+              "reading": "まつ"
+            },
+            {
+              "text": "りでは"
+            },
+            {
+              "text": "夜",
+              "reading": "よる"
+            },
+            {
+              "text": "遅",
+              "reading": "おそ"
+            },
+            {
+              "text": "くまで"
+            },
+            {
+              "text": "踊",
+              "reading": "おど"
+            },
+            {
+              "text": "ったものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g02-ja-vi-04",
@@ -1068,7 +1421,34 @@
           "hint": "〜ものだ（回想・理想）",
           "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "医者",
+              "reading": "いしゃ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "命",
+              "reading": "いのち"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "最",
+              "reading": "さい"
+            },
+            {
+              "text": "優先",
+              "reading": "ゆうせん"
+            },
+            {
+              "text": "するものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g02-ja-vi-05",
@@ -1080,7 +1460,37 @@
           "hint": "〜ものだ（回想・理想）",
           "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "図書館",
+              "reading": "としょかん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "過",
+              "reading": "す"
+            },
+            {
+              "text": "ごしたものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g02-ja-vi-06",
@@ -1092,7 +1502,30 @@
           "hint": "〜ものだ（回想・理想）",
           "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "報道",
+              "reading": "ほうどう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "事実",
+              "reading": "じじつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "基",
+              "reading": "もと"
+            },
+            {
+              "text": "づくものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g02-ja-vi-07",
@@ -1104,7 +1537,37 @@
           "hint": "〜ものだ（回想・理想）",
           "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "祖父",
+              "reading": "そふ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "庭",
+              "reading": "にわ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "野菜",
+              "reading": "やさい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "育",
+              "reading": "そだ"
+            },
+            {
+              "text": "てたものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g02-ja-vi-08",
@@ -1116,7 +1579,30 @@
           "hint": "〜ものだ（回想・理想）",
           "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "選手",
+              "reading": "せんしゅ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "最後",
+              "reading": "さいご"
+            },
+            {
+              "text": "まで"
+            },
+            {
+              "text": "諦",
+              "reading": "あきら"
+            },
+            {
+              "text": "めないものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g02-ja-vi-09",
@@ -1128,7 +1614,30 @@
           "hint": "〜ものだ（回想・理想）",
           "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "正月",
+              "reading": "しょうがつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "親戚",
+              "reading": "しんせき"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "集",
+              "reading": "あつ"
+            },
+            {
+              "text": "まったものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g02-ja-vi-10",
@@ -1140,7 +1649,30 @@
           "hint": "〜ものだ（回想・理想）",
           "explanation": "Câu hoài niệm/lý tưởng: たものだ／ものだ — từng… / lẽ ra nên…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "教師",
+              "reading": "きょうし"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "一人",
+              "reading": "ひとり"
+            },
+            {
+              "text": "ひとりを"
+            },
+            {
+              "text": "大切",
+              "reading": "たいせつ"
+            },
+            {
+              "text": "にするものだ。"
+            }
+          ]
         },
         {
           "id": "l26-g02-order-01",
@@ -1771,7 +2303,30 @@
           "hint": "〜ないもの（だろう）か",
           "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "何",
+              "reading": "なん"
+            },
+            {
+              "text": "とか"
+            },
+            {
+              "text": "間",
+              "reading": "ま"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "合",
+              "reading": "あ"
+            },
+            {
+              "text": "わせられないものか。"
+            }
+          ]
         },
         {
           "id": "l26-g03-ja-vi-02",
@@ -1783,7 +2338,23 @@
           "hint": "〜ないもの（だろう）か",
           "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "被害",
+              "reading": "ひがい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "最小限",
+              "reading": "さいしょうげん"
+            },
+            {
+              "text": "にできないものだろうか。"
+            }
+          ]
         },
         {
           "id": "l26-g03-ja-vi-03",
@@ -1795,7 +2366,26 @@
           "hint": "〜ないもの（だろう）か",
           "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "もっと"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かりやすく"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "できないものか。"
+            }
+          ]
         },
         {
           "id": "l26-g03-ja-vi-04",
@@ -1807,7 +2397,23 @@
           "hint": "〜ないもの（だろう）か",
           "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "両者",
+              "reading": "りょうしゃ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "をまとめられないものだろうか。"
+            }
+          ]
         },
         {
           "id": "l26-g03-ja-vi-05",
@@ -1819,7 +2425,26 @@
           "hint": "〜ないもの（だろう）か",
           "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "機械",
+              "reading": "きかい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "修理",
+              "reading": "しゅうり"
+            },
+            {
+              "text": "できないものか。"
+            }
+          ]
         },
         {
           "id": "l26-g03-ja-vi-06",
@@ -1831,7 +2456,23 @@
           "hint": "〜ないもの（だろう）か",
           "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "無駄",
+              "reading": "むだ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "省",
+              "reading": "はぶ"
+            },
+            {
+              "text": "けないものだろうか。"
+            }
+          ]
         },
         {
           "id": "l26-g03-ja-vi-07",
@@ -1843,7 +2484,30 @@
           "hint": "〜ないもの（だろう）か",
           "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "たちに"
+            },
+            {
+              "text": "希望",
+              "reading": "きぼう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "与",
+              "reading": "あた"
+            },
+            {
+              "text": "えられないものか。"
+            }
+          ]
         },
         {
           "id": "l26-g03-ja-vi-08",
@@ -1855,7 +2519,27 @@
           "hint": "〜ないもの（だろう）か",
           "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "交通",
+              "reading": "こうつう"
+            },
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "減",
+              "reading": "へ"
+            },
+            {
+              "text": "らせないものだろうか。"
+            }
+          ]
         },
         {
           "id": "l26-g03-ja-vi-09",
@@ -1867,7 +2551,26 @@
           "hint": "〜ないもの（だろう）か",
           "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "もっと"
+            },
+            {
+              "text": "早",
+              "reading": "はや"
+            },
+            {
+              "text": "く"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "らせられないものか。"
+            }
+          ]
         },
         {
           "id": "l26-g03-ja-vi-10",
@@ -1879,7 +2582,30 @@
           "hint": "〜ないもの（だろう）か",
           "explanation": "Câu mong cách làm: 〜ないものか／ものだろうか — không lẽ không… sao?",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "公正",
+              "reading": "こうせい"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "下",
+              "reading": "くだ"
+            },
+            {
+              "text": "せないものだろうか。"
+            }
+          ]
         },
         {
           "id": "l26-g03-order-01",
@@ -2524,7 +3250,30 @@
           "hint": "〜ものがある",
           "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "見習",
+              "reading": "みなら"
+            },
+            {
+              "text": "うべきものがある。"
+            }
+          ]
         },
         {
           "id": "l26-g04-ja-vi-02",
@@ -2536,7 +3285,26 @@
           "hint": "〜ものがある",
           "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "意見",
+              "reading": "いけん"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "一理",
+              "reading": "いちり"
+            },
+            {
+              "text": "あるものがある。"
+            }
+          ]
         },
         {
           "id": "l26-g04-ja-vi-03",
@@ -2548,7 +3316,26 @@
           "hint": "〜ものがある",
           "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "写真",
+              "reading": "しゃしん"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "悲",
+              "reading": "かな"
+            },
+            {
+              "text": "しいものがある。"
+            }
+          ]
         },
         {
           "id": "l26-g04-ja-vi-04",
@@ -2560,7 +3347,37 @@
           "hint": "〜ものがある",
           "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "上司",
+              "reading": "じょうし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "言葉",
+              "reading": "ことば"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "配慮",
+              "reading": "はいりょ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "足",
+              "reading": "た"
+            },
+            {
+              "text": "りないものがある。"
+            }
+          ]
         },
         {
           "id": "l26-g04-ja-vi-05",
@@ -2572,7 +3389,34 @@
           "hint": "〜ものがある",
           "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "作品",
+              "reading": "さくひん"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "独創",
+              "reading": "どくそう"
+            },
+            {
+              "text": "性",
+              "reading": "せい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "感",
+              "reading": "かん"
+            },
+            {
+              "text": "じるものがある。"
+            }
+          ]
         },
         {
           "id": "l26-g04-ja-vi-06",
@@ -2584,7 +3428,23 @@
           "hint": "〜ものがある",
           "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "曖昧",
+              "reading": "あいまい"
+            },
+            {
+              "text": "なものがある。"
+            }
+          ]
         },
         {
           "id": "l26-g04-ja-vi-07",
@@ -2596,7 +3456,34 @@
           "hint": "〜ものがある",
           "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "提案",
+              "reading": "ていあん"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "魅力",
+              "reading": "みりょく"
+            },
+            {
+              "text": "的",
+              "reading": "てき"
+            },
+            {
+              "text": "なものがある。"
+            }
+          ]
         },
         {
           "id": "l26-g04-ja-vi-08",
@@ -2608,7 +3495,23 @@
           "hint": "〜ものがある",
           "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "現状",
+              "reading": "げんじょう"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "改善",
+              "reading": "かいぜん"
+            },
+            {
+              "text": "すべきものがある。"
+            }
+          ]
         },
         {
           "id": "l26-g04-ja-vi-09",
@@ -2620,7 +3523,26 @@
           "hint": "〜ものがある",
           "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "光景",
+              "reading": "こうけい"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "息",
+              "reading": "いき"
+            },
+            {
+              "text": "をのむものがある。"
+            }
+          ]
         },
         {
           "id": "l26-g04-ja-vi-10",
@@ -2632,7 +3554,30 @@
           "hint": "〜ものがある",
           "explanation": "Câu cảm nhận: 〜ものがある — có điều gì đó…",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "批判",
+              "reading": "ひはん"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "耳",
+              "reading": "みみ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "傾",
+              "reading": "かたむ"
+            },
+            {
+              "text": "けるべきものがある。"
+            }
+          ]
         },
         {
           "id": "l26-g04-order-01",
@@ -3285,7 +4230,37 @@
           "hint": "〜ことだ（感嘆）",
           "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "長年",
+              "reading": "ながねん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "夢",
+              "reading": "ゆめ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "叶",
+              "reading": "かな"
+            },
+            {
+              "text": "うとは"
+            },
+            {
+              "text": "喜",
+              "reading": "よろこ"
+            },
+            {
+              "text": "ばしいことだ。"
+            }
+          ]
         },
         {
           "id": "l26-g05-ja-vi-02",
@@ -3297,7 +4272,37 @@
           "hint": "〜ことだ（感嘆）",
           "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "大切",
+              "reading": "たいせつ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "書類",
+              "reading": "しょるい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "紛失",
+              "reading": "ふんしつ"
+            },
+            {
+              "text": "するとは"
+            },
+            {
+              "text": "重大",
+              "reading": "じゅうだい"
+            },
+            {
+              "text": "なことだ。"
+            }
+          ]
         },
         {
           "id": "l26-g05-ja-vi-03",
@@ -3309,7 +4314,37 @@
           "hint": "〜ことだ（感嘆）",
           "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "見知",
+              "reading": "みし"
+            },
+            {
+              "text": "らぬ"
+            },
+            {
+              "text": "土地",
+              "reading": "とち"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "迷子",
+              "reading": "まいご"
+            },
+            {
+              "text": "になるとは"
+            },
+            {
+              "text": "不安",
+              "reading": "ふあん"
+            },
+            {
+              "text": "なことだ。"
+            }
+          ]
         },
         {
           "id": "l26-g05-ja-vi-04",
@@ -3321,7 +4356,30 @@
           "hint": "〜ことだ（感嘆）",
           "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "誠実",
+              "reading": "せいじつ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "生",
+              "reading": "い"
+            },
+            {
+              "text": "きるとは"
+            },
+            {
+              "text": "美",
+              "reading": "うつく"
+            },
+            {
+              "text": "しいことだ。"
+            }
+          ]
         },
         {
           "id": "l26-g05-ja-vi-05",
@@ -3333,7 +4391,37 @@
           "hint": "〜ことだ（感嘆）",
           "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "けを"
+            },
+            {
+              "text": "求",
+              "reading": "もと"
+            },
+            {
+              "text": "めずに"
+            },
+            {
+              "text": "我慢",
+              "reading": "がまん"
+            },
+            {
+              "text": "するとは"
+            },
+            {
+              "text": "辛",
+              "reading": "つら"
+            },
+            {
+              "text": "いことだ。"
+            }
+          ]
         },
         {
           "id": "l26-g05-ja-vi-06",
@@ -3345,7 +4433,30 @@
           "hint": "〜ことだ（感嘆）",
           "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "突然",
+              "reading": "とつぜん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "別",
+              "reading": "わか"
+            },
+            {
+              "text": "れは"
+            },
+            {
+              "text": "悲",
+              "reading": "かな"
+            },
+            {
+              "text": "しいことだ。"
+            }
+          ]
         },
         {
           "id": "l26-g05-ja-vi-07",
@@ -3357,7 +4468,30 @@
           "hint": "〜ことだ（感嘆）",
           "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "嘘",
+              "reading": "うそ"
+            },
+            {
+              "text": "をつき"
+            },
+            {
+              "text": "通",
+              "reading": "とお"
+            },
+            {
+              "text": "すとは"
+            },
+            {
+              "text": "恥",
+              "reading": "は"
+            },
+            {
+              "text": "ずかしいことだ。"
+            }
+          ]
         },
         {
           "id": "l26-g05-ja-vi-08",
@@ -3369,7 +4503,37 @@
           "hint": "〜ことだ（感嘆）",
           "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "困難",
+              "reading": "こんなん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "立",
+              "reading": "た"
+            },
+            {
+              "text": "ち"
+            },
+            {
+              "text": "向",
+              "reading": "む"
+            },
+            {
+              "text": "かうとは"
+            },
+            {
+              "text": "勇気",
+              "reading": "ゆうき"
+            },
+            {
+              "text": "あることだ。"
+            }
+          ]
         },
         {
           "id": "l26-g05-ja-vi-09",
@@ -3381,7 +4545,30 @@
           "hint": "〜ことだ（感嘆）",
           "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "小",
+              "reading": "ちい"
+            },
+            {
+              "text": "さな"
+            },
+            {
+              "text": "親切",
+              "reading": "しんせつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "尊",
+              "reading": "とうと"
+            },
+            {
+              "text": "いことだ。"
+            }
+          ]
         },
         {
           "id": "l26-g05-ja-vi-10",
@@ -3393,7 +4580,30 @@
           "hint": "〜ことだ（感嘆）",
           "explanation": "Câu cảm thán: 〜ことだ — thật là…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "健康",
+              "reading": "けんこう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "損",
+              "reading": "そこ"
+            },
+            {
+              "text": "なうとは"
+            },
+            {
+              "text": "愚",
+              "reading": "おろ"
+            },
+            {
+              "text": "かなことだ。"
+            }
+          ]
         },
         {
           "id": "l26-g05-order-01",
@@ -4021,7 +5231,27 @@
           "hint": "〜ことだろう／ことか",
           "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "被災",
+              "reading": "ひさい"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "はどれほど"
+            },
+            {
+              "text": "不安",
+              "reading": "ふあん"
+            },
+            {
+              "text": "だったことだろう。"
+            }
+          ]
         },
         {
           "id": "l26-g06-ja-vi-02",
@@ -4033,7 +5263,30 @@
           "hint": "〜ことだろう／ことか",
           "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "息子",
+              "reading": "むすこ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "はなんとうれしかったことか。"
+            }
+          ]
         },
         {
           "id": "l26-g06-ja-vi-03",
@@ -4045,7 +5298,30 @@
           "hint": "〜ことだろう／ことか",
           "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "長",
+              "reading": "なが"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "旅",
+              "reading": "たび"
+            },
+            {
+              "text": "はどんなに"
+            },
+            {
+              "text": "疲",
+              "reading": "つか"
+            },
+            {
+              "text": "れたことだろう。"
+            }
+          ]
         },
         {
           "id": "l26-g06-ja-vi-04",
@@ -4057,7 +5333,30 @@
           "hint": "〜ことだろう／ことか",
           "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "誤解",
+              "reading": "ごかい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "解",
+              "reading": "と"
+            },
+            {
+              "text": "くのにどれだけ"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "がかかったことか。"
+            }
+          ]
         },
         {
           "id": "l26-g06-ja-vi-05",
@@ -4069,7 +5368,30 @@
           "hint": "〜ことだろう／ことか",
           "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "初",
+              "reading": "はじ"
+            },
+            {
+              "text": "めての"
+            },
+            {
+              "text": "舞台",
+              "reading": "ぶたい"
+            },
+            {
+              "text": "はどれほど"
+            },
+            {
+              "text": "緊張",
+              "reading": "きんちょう"
+            },
+            {
+              "text": "したことだろう。"
+            }
+          ]
         },
         {
           "id": "l26-g06-ja-vi-06",
@@ -4081,7 +5403,30 @@
           "hint": "〜ことだろう／ことか",
           "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "友人",
+              "reading": "ゆうじん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "優",
+              "reading": "やさ"
+            },
+            {
+              "text": "しさにどれだけ"
+            },
+            {
+              "text": "救",
+              "reading": "すく"
+            },
+            {
+              "text": "われたことか。"
+            }
+          ]
         },
         {
           "id": "l26-g06-ja-vi-07",
@@ -4093,7 +5438,30 @@
           "hint": "〜ことだろう／ことか",
           "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "別",
+              "reading": "わか"
+            },
+            {
+              "text": "れの"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "はなんと"
+            },
+            {
+              "text": "悲",
+              "reading": "かな"
+            },
+            {
+              "text": "しかったことだろう。"
+            }
+          ]
         },
         {
           "id": "l26-g06-ja-vi-08",
@@ -4105,7 +5473,23 @@
           "hint": "〜ことだろう／ことか",
           "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "完成",
+              "reading": "かんせい"
+            },
+            {
+              "text": "までどれほど"
+            },
+            {
+              "text": "苦労",
+              "reading": "くろう"
+            },
+            {
+              "text": "したことか。"
+            }
+          ]
         },
         {
           "id": "l26-g06-ja-vi-09",
@@ -4117,7 +5501,30 @@
           "hint": "〜ことだろう／ことか",
           "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "らせを"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "いてどんなに"
+            },
+            {
+              "text": "驚",
+              "reading": "おどろ"
+            },
+            {
+              "text": "いたことだろう。"
+            }
+          ]
         },
         {
           "id": "l26-g06-ja-vi-10",
@@ -4129,7 +5536,44 @@
           "hint": "〜ことだろう／ことか",
           "explanation": "Câu cường điệu: 〜ことだろう／ことか — biết bao…!",
           "origin": "authored",
-          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 26 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "静",
+              "reading": "しず"
+            },
+            {
+              "text": "かな"
+            },
+            {
+              "text": "夜",
+              "reading": "よる"
+            },
+            {
+              "text": "はどれだけ"
+            },
+            {
+              "text": "心",
+              "reading": "こころ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "落",
+              "reading": "お"
+            },
+            {
+              "text": "ち"
+            },
+            {
+              "text": "着",
+              "reading": "つ"
+            },
+            {
+              "text": "いたことか。"
+            }
+          ]
         },
         {
           "id": "l26-g06-order-01",

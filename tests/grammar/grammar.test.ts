@@ -248,6 +248,55 @@ test("N2 additive metadata is optional and public DTO still strips private field
   ])
     assert.ok(!(key in dto), key);
   assert.deepEqual(Object.keys(dto).sort(), ["id", "mode", "prompt"]);
+  const jaVi = sample.exercises.find((q) => q.mode === "ja-vi");
+  assert.ok(jaVi);
+  const withRuby = patternSchema.parse({
+    ...JSON.parse(JSON.stringify(sample)),
+    exercises: sample.exercises.map((q) =>
+      q.mode === "ja-vi" && q.id === jaVi!.id
+        ? {
+            ...q,
+            promptRuby: [{ text: q.prompt }],
+          }
+        : q,
+    ),
+  });
+  const jaViDto = publicExercise(
+    withRuby.exercises.find((q) => q.id === jaVi!.id)!,
+  );
+  assert.ok("promptRuby" in jaViDto);
+  assert.equal(
+    jaViDto.promptRuby!.map((t) => t.text).join(""),
+    jaViDto.prompt,
+  );
+});
+
+test("N2 JA→VI practice has structured promptRuby (ADR-009 / FURI-001)", () => {
+  let jaVi = 0;
+  for (const entry of manifest.lessons) {
+    if (!entry.published) continue;
+    const l = getLesson(entry.id)!;
+    for (const p of l.patterns) {
+      for (const q of p.exercises) {
+        if (q.mode !== "ja-vi") continue;
+        jaVi++;
+        assert.ok(q.promptRuby && q.promptRuby.length >= 1, q.id);
+        assert.equal(
+          q.promptRuby!.map((t) => t.text).join(""),
+          q.prompt,
+          q.id,
+        );
+        assert.ok(
+          !/\([\u3040-\u309f\u30a0-\u30ff]+\)/.test(q.prompt),
+          q.id + " inline furigana in prompt",
+        );
+        const dto = publicExercise(q);
+        assert.ok(dto.promptRuby);
+        assert.ok(!("answers" in dto));
+      }
+    }
+  }
+  assert.equal(jaVi, 1410);
 });
 
 function normalizeQaText(s: string): string {

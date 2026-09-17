@@ -245,7 +245,30 @@
           "hint": "〜てしかたがない／しょうがない／たまらない",
           "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "寒",
+              "reading": "さむ"
+            },
+            {
+              "text": "くてたまらないので"
+            },
+            {
+              "text": "暖房",
+              "reading": "だんぼう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "入",
+              "reading": "い"
+            },
+            {
+              "text": "れた。"
+            }
+          ]
         },
         {
           "id": "l25-g01-ja-vi-02",
@@ -257,7 +280,37 @@
           "hint": "〜てしかたがない／しょうがない／たまらない",
           "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "羨",
+              "reading": "うらや"
+            },
+            {
+              "text": "ましくて"
+            },
+            {
+              "text": "仕方",
+              "reading": "しかた"
+            },
+            {
+              "text": "がない。"
+            }
+          ]
         },
         {
           "id": "l25-g01-ja-vi-03",
@@ -269,7 +322,30 @@
           "hint": "〜てしかたがない／しょうがない／たまらない",
           "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "休",
+              "reading": "やす"
+            },
+            {
+              "text": "みが"
+            },
+            {
+              "text": "待",
+              "reading": "ま"
+            },
+            {
+              "text": "ち"
+            },
+            {
+              "text": "遠",
+              "reading": "どお"
+            },
+            {
+              "text": "しくてしょうがない。"
+            }
+          ]
         },
         {
           "id": "l25-g01-ja-vi-04",
@@ -281,7 +357,33 @@
           "hint": "〜てしかたがない／しょうがない／たまらない",
           "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "曲",
+              "reading": "きょく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聴",
+              "reading": "き"
+            },
+            {
+              "text": "くと"
+            },
+            {
+              "text": "悲",
+              "reading": "かな"
+            },
+            {
+              "text": "しくてたまらない。"
+            }
+          ]
         },
         {
           "id": "l25-g01-ja-vi-05",
@@ -293,7 +395,30 @@
           "hint": "〜てしかたがない／しょうがない／たまらない",
           "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "喉",
+              "reading": "のど"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "渇",
+              "reading": "かわ"
+            },
+            {
+              "text": "いて"
+            },
+            {
+              "text": "仕方",
+              "reading": "しかた"
+            },
+            {
+              "text": "がない。"
+            }
+          ]
         },
         {
           "id": "l25-g01-ja-vi-06",
@@ -305,7 +430,23 @@
           "hint": "〜てしかたがない／しょうがない／たまらない",
           "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しいスマホが"
+            },
+            {
+              "text": "欲",
+              "reading": "ほ"
+            },
+            {
+              "text": "しくてしょうがない。"
+            }
+          ]
         },
         {
           "id": "l25-g01-ja-vi-07",
@@ -317,7 +458,20 @@
           "hint": "〜てしかたがない／しょうがない／たまらない",
           "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "虫",
+              "reading": "むし"
+            },
+            {
+              "text": "刺",
+              "reading": "さ"
+            },
+            {
+              "text": "されがかゆくてたまらない。"
+            }
+          ]
         },
         {
           "id": "l25-g01-ja-vi-08",
@@ -329,7 +483,37 @@
           "hint": "〜てしかたがない／しょうがない／たまらない",
           "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "長",
+              "reading": "なが"
+            },
+            {
+              "text": "くて"
+            },
+            {
+              "text": "退屈",
+              "reading": "たいくつ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "仕方",
+              "reading": "しかた"
+            },
+            {
+              "text": "がない。"
+            }
+          ]
         },
         {
           "id": "l25-g01-ja-vi-09",
@@ -341,7 +525,27 @@
           "hint": "〜てしかたがない／しょうがない／たまらない",
           "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "合格",
+              "reading": "ごうかく"
+            },
+            {
+              "text": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "になってしょうがない。"
+            }
+          ]
         },
         {
           "id": "l25-g01-ja-vi-10",
@@ -353,7 +557,30 @@
           "hint": "〜てしかたがない／しょうがない／たまらない",
           "explanation": "Câu cảm xúc mạnh: 〜てたまらない／仕方がない／しょうがない.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "孫",
+              "reading": "まご"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "顔",
+              "reading": "かお"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "たくてたまらない。"
+            }
+          ]
         },
         {
           "id": "l25-g01-order-01",
@@ -995,7 +1222,30 @@
           "hint": "〜てならない",
           "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "友人",
+              "reading": "ゆうじん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "安否",
+              "reading": "あんぴ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "になってならない。"
+            }
+          ]
         },
         {
           "id": "l25-g02-ja-vi-02",
@@ -1007,7 +1257,30 @@
           "hint": "〜てならない",
           "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "幼",
+              "reading": "おさな"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "日々",
+              "reading": "ひび"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "懐",
+              "reading": "なつ"
+            },
+            {
+              "text": "かしくてならない。"
+            }
+          ]
         },
         {
           "id": "l25-g02-ja-vi-03",
@@ -1019,7 +1292,23 @@
           "hint": "〜てならない",
           "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "不公平",
+              "reading": "ふこうへい"
+            },
+            {
+              "text": "さが"
+            },
+            {
+              "text": "許",
+              "reading": "ゆる"
+            },
+            {
+              "text": "せなくてならない。"
+            }
+          ]
         },
         {
           "id": "l25-g02-ja-vi-04",
@@ -1031,7 +1320,30 @@
           "hint": "〜てならない",
           "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "誇",
+              "reading": "ほこ"
+            },
+            {
+              "text": "らしくてならない。"
+            }
+          ]
         },
         {
           "id": "l25-g02-ja-vi-05",
@@ -1043,7 +1355,23 @@
           "hint": "〜てならない",
           "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "真相",
+              "reading": "しんそう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "りたくてならない。"
+            }
+          ]
         },
         {
           "id": "l25-g02-ja-vi-06",
@@ -1055,7 +1383,30 @@
           "hint": "〜てならない",
           "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "患者",
+              "reading": "かんじゃ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "容体",
+              "reading": "ようだい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "心配",
+              "reading": "しんぱい"
+            },
+            {
+              "text": "でならない。"
+            }
+          ]
         },
         {
           "id": "l25-g02-ja-vi-07",
@@ -1067,7 +1418,37 @@
           "hint": "〜てならない",
           "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "昔",
+              "reading": "むかし"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "写真",
+              "reading": "しゃしん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "ると"
+            },
+            {
+              "text": "寂",
+              "reading": "さび"
+            },
+            {
+              "text": "しくてならない。"
+            }
+          ]
         },
         {
           "id": "l25-g02-ja-vi-08",
@@ -1079,7 +1460,30 @@
           "hint": "〜てならない",
           "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "発言",
+              "reading": "はつげん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "後悔",
+              "reading": "こうかい"
+            },
+            {
+              "text": "されてならない。"
+            }
+          ]
         },
         {
           "id": "l25-g02-ja-vi-09",
@@ -1091,7 +1495,34 @@
           "hint": "〜てならない",
           "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "被災",
+              "reading": "ひさい"
+            },
+            {
+              "text": "地",
+              "reading": "ち"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "様子",
+              "reading": "ようす"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "気",
+              "reading": "き"
+            },
+            {
+              "text": "になってならない。"
+            }
+          ]
         },
         {
           "id": "l25-g02-ja-vi-10",
@@ -1103,7 +1534,26 @@
           "hint": "〜てならない",
           "explanation": "Câu cảm xúc tự nhiên: 〜てならない — cứ… không thôi.",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "あのメロディーが"
+            },
+            {
+              "text": "頭",
+              "reading": "あたま"
+            },
+            {
+              "text": "から"
+            },
+            {
+              "text": "離",
+              "reading": "はな"
+            },
+            {
+              "text": "れなくてならない。"
+            }
+          ]
         },
         {
           "id": "l25-g02-order-01",
@@ -1752,7 +2202,30 @@
           "hint": "〜ないではいられない／ずにはいられない",
           "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "冗談",
+              "reading": "じょうだん"
+            },
+            {
+              "text": "には"
+            },
+            {
+              "text": "笑",
+              "reading": "わら"
+            },
+            {
+              "text": "わないではいられない。"
+            }
+          ]
         },
         {
           "id": "l25-g03-ja-vi-02",
@@ -1764,7 +2237,23 @@
           "hint": "〜ないではいられない／ずにはいられない",
           "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "弱者",
+              "reading": "じゃくしゃ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "放",
+              "reading": "はな"
+            },
+            {
+              "text": "っておけずにはいられない。"
+            }
+          ]
         },
         {
           "id": "l25-g03-ja-vi-03",
@@ -1776,7 +2265,30 @@
           "hint": "〜ないではいられない／ずにはいられない",
           "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "真相",
+              "reading": "しんそう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "ると"
+            },
+            {
+              "text": "伝",
+              "reading": "つた"
+            },
+            {
+              "text": "えないではいられない。"
+            }
+          ]
         },
         {
           "id": "l25-g03-ja-vi-04",
@@ -1788,7 +2300,30 @@
           "hint": "〜ないではいられない／ずにはいられない",
           "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "猫",
+              "reading": "ねこ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "ると"
+            },
+            {
+              "text": "触",
+              "reading": "さわ"
+            },
+            {
+              "text": "らずにはいられない。"
+            }
+          ]
         },
         {
           "id": "l25-g03-ja-vi-05",
@@ -1800,7 +2335,37 @@
           "hint": "〜ないではいられない／ずにはいられない",
           "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "名作",
+              "reading": "めいさく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "むと"
+            },
+            {
+              "text": "考",
+              "reading": "かんが"
+            },
+            {
+              "text": "え"
+            },
+            {
+              "text": "込",
+              "reading": "こ"
+            },
+            {
+              "text": "まずにはいられない。"
+            }
+          ]
         },
         {
           "id": "l25-g03-ja-vi-06",
@@ -1812,7 +2377,23 @@
           "hint": "〜ないではいられない／ずにはいられない",
           "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "空腹",
+              "reading": "くうふく"
+            },
+            {
+              "text": "だと"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "わないではいられない。"
+            }
+          ]
         },
         {
           "id": "l25-g03-ja-vi-07",
@@ -1824,7 +2405,30 @@
           "hint": "〜ないではいられない／ずにはいられない",
           "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "不備",
+              "reading": "ふび"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "見",
+              "reading": "み"
+            },
+            {
+              "text": "つけると"
+            },
+            {
+              "text": "指摘",
+              "reading": "してき"
+            },
+            {
+              "text": "せずにはいられない。"
+            }
+          ]
         },
         {
           "id": "l25-g03-ja-vi-08",
@@ -1836,7 +2440,37 @@
           "hint": "〜ないではいられない／ずにはいられない",
           "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "旧友",
+              "reading": "きゅうゆう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "消息",
+              "reading": "しょうそく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "くと"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "せずにはいられない。"
+            }
+          ]
         },
         {
           "id": "l25-g03-ja-vi-09",
@@ -1848,7 +2482,33 @@
           "hint": "〜ないではいられない／ずにはいられない",
           "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "味",
+              "reading": "あじ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "知",
+              "reading": "し"
+            },
+            {
+              "text": "るとまた"
+            },
+            {
+              "text": "食",
+              "reading": "た"
+            },
+            {
+              "text": "べずにはいられない。"
+            }
+          ]
         },
         {
           "id": "l25-g03-ja-vi-10",
@@ -1860,7 +2520,30 @@
           "hint": "〜ないではいられない／ずにはいられない",
           "explanation": "Câu thôi thúc: không thể không… / không nhịn được phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "正義",
+              "reading": "せいぎ"
+            },
+            {
+              "text": "のために"
+            },
+            {
+              "text": "立",
+              "reading": "た"
+            },
+            {
+              "text": "ち"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がらずにはいられない。"
+            }
+          ]
         },
         {
           "id": "l25-g03-order-01",
@@ -2492,7 +3175,37 @@
           "hint": "〜ないわけに（は）いかない",
           "explanation": "Câu bổn phận: không thể không… / đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "大事",
+              "reading": "だいじ"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "日",
+              "reading": "ひ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "かないわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l25-g04-ja-vi-02",
@@ -2504,7 +3217,30 @@
           "hint": "〜ないわけに（は）いかない",
           "explanation": "Câu bổn phận: không thể không… / đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "証拠",
+              "reading": "しょうこ"
+            },
+            {
+              "text": "がある"
+            },
+            {
+              "text": "以上",
+              "reading": "いじょう"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "認",
+              "reading": "みと"
+            },
+            {
+              "text": "めないわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l25-g04-ja-vi-03",
@@ -2516,7 +3252,30 @@
           "hint": "〜ないわけに（は）いかない",
           "explanation": "Câu bổn phận: không thể không… / đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "同僚",
+              "reading": "どうりょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しいので"
+            },
+            {
+              "text": "代",
+              "reading": "か"
+            },
+            {
+              "text": "わらないわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l25-g04-ja-vi-04",
@@ -2528,7 +3287,30 @@
           "hint": "〜ないわけに（は）いかない",
           "explanation": "Câu bổn phận: không thể không… / đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "招待",
+              "reading": "しょうたい"
+            },
+            {
+              "text": "された"
+            },
+            {
+              "text": "以上",
+              "reading": "いじょう"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "出席",
+              "reading": "しゅっせき"
+            },
+            {
+              "text": "しないわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l25-g04-ja-vi-05",
@@ -2540,7 +3322,30 @@
           "hint": "〜ないわけに（は）いかない",
           "explanation": "Câu bổn phận: không thể không… / đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "約束",
+              "reading": "やくそく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "品",
+              "reading": "しな"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "渡",
+              "reading": "わた"
+            },
+            {
+              "text": "さないわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l25-g04-ja-vi-06",
@@ -2552,7 +3357,27 @@
           "hint": "〜ないわけに（は）いかない",
           "explanation": "Câu bổn phận: không thể không… / đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "被害",
+              "reading": "ひがい"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "しないわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l25-g04-ja-vi-07",
@@ -2564,7 +3389,23 @@
           "hint": "〜ないわけに（は）いかない",
           "explanation": "Câu bổn phận: không thể không… / đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "税金",
+              "reading": "ぜいきん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "払",
+              "reading": "はら"
+            },
+            {
+              "text": "わないわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l25-g04-ja-vi-08",
@@ -2576,7 +3417,23 @@
           "hint": "〜ないわけに（は）いかない",
           "explanation": "Câu bổn phận: không thể không… / đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子",
+              "reading": "こ"
+            },
+            {
+              "text": "どもの"
+            },
+            {
+              "text": "世話",
+              "reading": "せわ"
+            },
+            {
+              "text": "をしないわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l25-g04-ja-vi-09",
@@ -2588,7 +3445,37 @@
           "hint": "〜ないわけに（は）いかない",
           "explanation": "Câu bổn phận: không thể không… / đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "締",
+              "reading": "し"
+            },
+            {
+              "text": "め"
+            },
+            {
+              "text": "切",
+              "reading": "き"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "前",
+              "reading": "まえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "提出",
+              "reading": "ていしゅつ"
+            },
+            {
+              "text": "しないわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l25-g04-ja-vi-10",
@@ -2600,7 +3487,30 @@
           "hint": "〜ないわけに（は）いかない",
           "explanation": "Câu bổn phận: không thể không… / đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "恩",
+              "reading": "おん"
+            },
+            {
+              "text": "がある"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "無視",
+              "reading": "むし"
+            },
+            {
+              "text": "しないわけにはいかない。"
+            }
+          ]
         },
         {
           "id": "l25-g04-order-01",
@@ -3260,7 +4170,34 @@
           "hint": "〜ざるを得ない",
           "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "交通",
+              "reading": "こうつう"
+            },
+            {
+              "text": "渋滞",
+              "reading": "じゅうたい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "遅刻",
+              "reading": "ちこく"
+            },
+            {
+              "text": "せざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "なかった。"
+            }
+          ]
         },
         {
           "id": "l25-g05-ja-vi-02",
@@ -3272,7 +4209,41 @@
           "hint": "〜ざるを得ない",
           "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "資金",
+              "reading": "しきん"
+            },
+            {
+              "text": "難",
+              "reading": "なん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "事業",
+              "reading": "じぎょう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "縮小",
+              "reading": "しゅくしょう"
+            },
+            {
+              "text": "せざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l25-g05-ja-vi-03",
@@ -3284,7 +4255,34 @@
           "hint": "〜ざるを得ない",
           "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "規則",
+              "reading": "きそく"
+            },
+            {
+              "text": "違反",
+              "reading": "いはん"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "処分",
+              "reading": "しょぶん"
+            },
+            {
+              "text": "せざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l25-g05-ja-vi-04",
@@ -3296,7 +4294,41 @@
           "hint": "〜ざるを得ない",
           "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "天候",
+              "reading": "てんこう"
+            },
+            {
+              "text": "不良",
+              "reading": "ふりょう"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "離陸",
+              "reading": "りりく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "延期",
+              "reading": "えんき"
+            },
+            {
+              "text": "せざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l25-g05-ja-vi-05",
@@ -3308,7 +4340,40 @@
           "hint": "〜ざるを得ない",
           "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "データ"
+            },
+            {
+              "text": "不足",
+              "reading": "ふそく"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "結論",
+              "reading": "けつろん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "保留",
+              "reading": "ほりゅう"
+            },
+            {
+              "text": "せざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l25-g05-ja-vi-06",
@@ -3320,7 +4385,34 @@
           "hint": "〜ざるを得ない",
           "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "契約",
+              "reading": "けいやく"
+            },
+            {
+              "text": "上",
+              "reading": "じょう"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "支払",
+              "reading": "しはら"
+            },
+            {
+              "text": "わざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l25-g05-ja-vi-07",
@@ -3332,7 +4424,44 @@
           "hint": "〜ざるを得ない",
           "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "世論",
+              "reading": "せろん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "圧力",
+              "reading": "あつりょく"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "方針",
+              "reading": "ほうしん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "えざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l25-g05-ja-vi-08",
@@ -3344,7 +4473,37 @@
           "hint": "〜ざるを得ない",
           "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "故障",
+              "reading": "こしょう"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "車",
+              "reading": "くるま"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "修理",
+              "reading": "しゅうり"
+            },
+            {
+              "text": "せざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "なかった。"
+            }
+          ]
         },
         {
           "id": "l25-g05-ja-vi-09",
@@ -3356,7 +4515,37 @@
           "hint": "〜ざるを得ない",
           "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "事実",
+              "reading": "じじつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "前",
+              "reading": "まえ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "認",
+              "reading": "みと"
+            },
+            {
+              "text": "めざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l25-g05-ja-vi-10",
@@ -3368,7 +4557,37 @@
           "hint": "〜ざるを得ない",
           "explanation": "Câu bất đắc dĩ: 〜ざるを得ない — đành phải…",
           "origin": "authored",
-          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)"
+          "sourceNote": "Lesson 25 authored (N2-L21-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安全",
+              "reading": "あんぜん"
+            },
+            {
+              "text": "のため"
+            },
+            {
+              "text": "立",
+              "reading": "た"
+            },
+            {
+              "text": "ち"
+            },
+            {
+              "text": "退",
+              "reading": "の"
+            },
+            {
+              "text": "かざるを"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "ない。"
+            }
+          ]
         },
         {
           "id": "l25-g05-order-01",

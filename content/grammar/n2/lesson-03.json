@@ -254,7 +254,23 @@
           "hint": "Vて ＋ はじめて",
           "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "実際",
+              "reading": "じっさい"
+            },
+            {
+              "text": "にやってみてはじめて"
+            },
+            {
+              "text": "難",
+              "reading": "むずか"
+            },
+            {
+              "text": "しさがわかった。"
+            }
+          ]
         },
         {
           "id": "l03-g01-ja-vi-02",
@@ -266,7 +282,23 @@
           "hint": "Vて ＋ はじめて",
           "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "留学",
+              "reading": "りゅうがく"
+            },
+            {
+              "text": "してはじめて"
+            },
+            {
+              "text": "自立",
+              "reading": "じりつ"
+            },
+            {
+              "text": "できた。"
+            }
+          ]
         },
         {
           "id": "l03-g01-ja-vi-03",
@@ -278,7 +310,41 @@
           "hint": "Vて ＋ はじめて",
           "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "遭",
+              "reading": "あ"
+            },
+            {
+              "text": "ってはじめて"
+            },
+            {
+              "text": "安全",
+              "reading": "あんぜん"
+            },
+            {
+              "text": "運転",
+              "reading": "うんてん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "心",
+              "reading": "こころ"
+            },
+            {
+              "text": "がけるようになった。"
+            }
+          ]
         },
         {
           "id": "l03-g01-ja-vi-04",
@@ -290,7 +356,37 @@
           "hint": "Vて ＋ はじめて",
           "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "結婚",
+              "reading": "けっこん"
+            },
+            {
+              "text": "してはじめて"
+            },
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "重",
+              "reading": "おも"
+            },
+            {
+              "text": "さを"
+            },
+            {
+              "text": "感",
+              "reading": "かん"
+            },
+            {
+              "text": "じた。"
+            }
+          ]
         },
         {
           "id": "l03-g01-ja-vi-05",
@@ -302,7 +398,37 @@
           "hint": "Vて ＋ はじめて",
           "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "出会",
+              "reading": "であ"
+            },
+            {
+              "text": "ってはじめて"
+            },
+            {
+              "text": "人生",
+              "reading": "じんせい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わった。"
+            }
+          ]
         },
         {
           "id": "l03-g01-ja-vi-06",
@@ -314,7 +440,30 @@
           "hint": "Vて ＋ はじめて",
           "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "辞",
+              "reading": "や"
+            },
+            {
+              "text": "めてはじめて"
+            },
+            {
+              "text": "会社",
+              "reading": "かいしゃ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "良",
+              "reading": "よ"
+            },
+            {
+              "text": "さがわかった。"
+            }
+          ]
         },
         {
           "id": "l03-g01-ja-vi-07",
@@ -326,7 +475,37 @@
           "hint": "Vて ＋ はじめて",
           "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "text": "してはじめて"
+            },
+            {
+              "text": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "考",
+              "reading": "かんが"
+            },
+            {
+              "text": "えが"
+            },
+            {
+              "text": "整理",
+              "reading": "せいり"
+            },
+            {
+              "text": "できた。"
+            }
+          ]
         },
         {
           "id": "l03-g01-ja-vi-08",
@@ -338,7 +517,30 @@
           "hint": "Vて ＋ はじめて",
           "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "してはじめて"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "気持",
+              "reading": "きも"
+            },
+            {
+              "text": "ちがわかるようになる。"
+            }
+          ]
         },
         {
           "id": "l03-g01-ja-vi-09",
@@ -350,7 +552,30 @@
           "hint": "Vて ＋ はじめて",
           "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "試合",
+              "reading": "しあい"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "てみてはじめて"
+            },
+            {
+              "text": "実力",
+              "reading": "じつりょく"
+            },
+            {
+              "text": "がわかった。"
+            }
+          ]
         },
         {
           "id": "l03-g01-ja-vi-10",
@@ -362,7 +587,37 @@
           "hint": "Vて ＋ はじめて",
           "explanation": "Câu dùng てはじめて: chỉ sau khi trải qua A mới B. Giữ đúng trải nghiệm và kết quả nhận thức/hành động.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "夜勤",
+              "reading": "やきん"
+            },
+            {
+              "text": "をしてはじめて"
+            },
+            {
+              "text": "昼間",
+              "reading": "ひるま"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "楽",
+              "reading": "らく"
+            },
+            {
+              "text": "さがわかった。"
+            }
+          ]
         },
         {
           "id": "l03-g01-order-01",
@@ -1019,7 +1274,44 @@
           "hint": "Vた／Nの ＋ 上（で）",
           "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "事実",
+              "reading": "じじつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "確",
+              "reading": "たし"
+            },
+            {
+              "text": "かめた"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "記事",
+              "reading": "きじ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "書",
+              "reading": "か"
+            },
+            {
+              "text": "く。"
+            }
+          ]
         },
         {
           "id": "l03-g02-ja-vi-02",
@@ -1031,7 +1323,33 @@
           "hint": "Vた／Nの ＋ 上（で）",
           "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "データ"
+            },
+            {
+              "text": "上",
+              "reading": "じょう"
+            },
+            {
+              "text": "では"
+            },
+            {
+              "text": "売上",
+              "reading": "うりあ"
+            },
+            {
+              "text": "げが"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "えている。"
+            }
+          ]
         },
         {
           "id": "l03-g02-ja-vi-03",
@@ -1043,7 +1361,34 @@
           "hint": "Vた／Nの ＋ 上（で）",
           "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "十分",
+              "reading": "じゅうぶん"
+            },
+            {
+              "text": "検討",
+              "reading": "けんとう"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l03-g02-ja-vi-04",
@@ -1055,7 +1400,44 @@
           "hint": "Vた／Nの ＋ 上（で）",
           "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "同意",
+              "reading": "どうい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "得",
+              "reading": "え"
+            },
+            {
+              "text": "た"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "留学",
+              "reading": "りゅうがく"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l03-g02-ja-vi-05",
@@ -1067,7 +1449,30 @@
           "hint": "Vた／Nの ＋ 上（で）",
           "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "計算",
+              "reading": "けいさん"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "では"
+            },
+            {
+              "text": "黒字",
+              "reading": "くろじ"
+            },
+            {
+              "text": "になるはずだ。"
+            }
+          ]
         },
         {
           "id": "l03-g02-ja-vi-06",
@@ -1079,7 +1484,37 @@
           "hint": "Vた／Nの ＋ 上（で）",
           "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "いた"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "判断",
+              "reading": "はんだん"
+            },
+            {
+              "text": "してください。"
+            }
+          ]
         },
         {
           "id": "l03-g02-ja-vi-07",
@@ -1091,7 +1526,30 @@
           "hint": "Vた／Nの ＋ 上（で）",
           "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "規則",
+              "reading": "きそく"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "では"
+            },
+            {
+              "text": "禁止",
+              "reading": "きんし"
+            },
+            {
+              "text": "されている。"
+            }
+          ]
         },
         {
           "id": "l03-g02-ja-vi-08",
@@ -1103,7 +1561,33 @@
           "hint": "Vた／Nの ＋ 上（で）",
           "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "試"
+            },
+            {
+              "text": "着",
+              "reading": "ちゃく"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "ったほうがいい。"
+            }
+          ]
         },
         {
           "id": "l03-g02-ja-vi-09",
@@ -1115,7 +1599,37 @@
           "hint": "Vた／Nの ＋ 上（で）",
           "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "調査",
+              "reading": "ちょうさ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "判明",
+              "reading": "はんめい"
+            },
+            {
+              "text": "した"
+            },
+            {
+              "text": "事実",
+              "reading": "じじつ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l03-g02-ja-vi-10",
@@ -1127,7 +1641,51 @@
           "hint": "Vた／Nの ＋ 上（で）",
           "explanation": "Câu dùng 上（で）: sau khi làm nền / trên phương diện. Giữ đúng quan hệ 'nền → hành động' hoặc góc nhìn.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "相手",
+              "reading": "あいて"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "都合",
+              "reading": "つごう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "いた"
+            },
+            {
+              "text": "上",
+              "reading": "うえ"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "日程",
+              "reading": "にってい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "める。"
+            }
+          ]
         },
         {
           "id": "l03-g02-order-01",
@@ -1764,7 +2322,20 @@
           "hint": "Vます／N ＋ 次第",
           "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "到着",
+              "reading": "とうちゃく"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "メールしてください。"
+            }
+          ]
         },
         {
           "id": "l03-g03-ja-vi-02",
@@ -1776,7 +2347,27 @@
           "hint": "Vます／N ＋ 次第",
           "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "ができ"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めます。"
+            }
+          ]
         },
         {
           "id": "l03-g03-ja-vi-03",
@@ -1788,7 +2379,34 @@
           "hint": "Vます／N ＋ 次第",
           "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かり"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "報告",
+              "reading": "ほうこく"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l03-g03-ja-vi-04",
@@ -1800,7 +2418,34 @@
           "hint": "Vます／N ＋ 次第",
           "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わり"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "合流",
+              "reading": "ごうりゅう"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l03-g03-ja-vi-05",
@@ -1812,7 +2457,27 @@
           "hint": "Vます／N ＋ 次第",
           "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "でき"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "返信",
+              "reading": "へんしん"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l03-g03-ja-vi-06",
@@ -1824,7 +2489,31 @@
           "hint": "Vます／N ＋ 次第",
           "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "来",
+              "reading": "き"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "乗",
+              "reading": "の"
+            },
+            {
+              "text": "りましょう。"
+            }
+          ]
         },
         {
           "id": "l03-g03-ja-vi-07",
@@ -1836,7 +2525,34 @@
           "hint": "Vます／N ＋ 次第",
           "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "印刷",
+              "reading": "いんさつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わり"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "配布",
+              "reading": "はいふ"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l03-g03-ja-vi-08",
@@ -1848,7 +2564,34 @@
           "hint": "Vます／N ＋ 次第",
           "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "荷物",
+              "reading": "にもつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "届",
+              "reading": "とど"
+            },
+            {
+              "text": "き"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "開封",
+              "reading": "かいふう"
+            },
+            {
+              "text": "してください。"
+            }
+          ]
         },
         {
           "id": "l03-g03-ja-vi-09",
@@ -1860,7 +2603,41 @@
           "hint": "Vます／N ＋ 次第",
           "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "面接",
+              "reading": "めんせつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "終",
+              "reading": "お"
+            },
+            {
+              "text": "わり"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "出",
+              "reading": "だ"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l03-g03-ja-vi-10",
@@ -1872,7 +2649,34 @@
           "hint": "Vます／N ＋ 次第",
           "explanation": "Câu dùng 次第: ngay khi A xong/xảy ra thì làm B. Giữ đúng quan hệ tức thì và chủ đích.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "天候",
+              "reading": "てんこう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "回復",
+              "reading": "かいふく"
+            },
+            {
+              "text": "し"
+            },
+            {
+              "text": "次第",
+              "reading": "しだい"
+            },
+            {
+              "text": "再開",
+              "reading": "さいかい"
+            },
+            {
+              "text": "します。"
+            }
+          ]
         },
         {
           "id": "l03-g03-order-01",
@@ -2537,7 +3341,44 @@
           "hint": "Vて ＋ 以来／このかた",
           "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "大学",
+              "reading": "だいがく"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "卒業",
+              "reading": "そつぎょう"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "以来",
+              "reading": "いらい"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "とは"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "していない。"
+            }
+          ]
         },
         {
           "id": "l03-g04-ja-vi-02",
@@ -2549,7 +3390,41 @@
           "hint": "Vて ＋ 以来／このかた",
           "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "日本",
+              "reading": "にっぽん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "来",
+              "reading": "き"
+            },
+            {
+              "text": "てこのかた、"
+            },
+            {
+              "text": "一",
+              "reading": "いち"
+            },
+            {
+              "text": "度",
+              "reading": "ど"
+            },
+            {
+              "text": "も"
+            },
+            {
+              "text": "帰国",
+              "reading": "きこく"
+            },
+            {
+              "text": "していない。"
+            }
+          ]
         },
         {
           "id": "l03-g04-ja-vi-03",
@@ -2561,7 +3436,37 @@
           "hint": "Vて ＋ 以来／このかた",
           "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "病気",
+              "reading": "びょうき"
+            },
+            {
+              "text": "をして"
+            },
+            {
+              "text": "以来",
+              "reading": "いらい"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "酒",
+              "reading": "さけ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "控",
+              "reading": "ひか"
+            },
+            {
+              "text": "えている。"
+            }
+          ]
         },
         {
           "id": "l03-g04-ja-vi-04",
@@ -2573,7 +3478,44 @@
           "hint": "Vて ＋ 以来／このかた",
           "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "生",
+              "reading": "う"
+            },
+            {
+              "text": "まれて"
+            },
+            {
+              "text": "以来",
+              "reading": "いらい"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "生活",
+              "reading": "せいかつ"
+            },
+            {
+              "text": "リズムが"
+            },
+            {
+              "text": "変",
+              "reading": "か"
+            },
+            {
+              "text": "わった。"
+            }
+          ]
         },
         {
           "id": "l03-g04-ja-vi-05",
@@ -2585,7 +3527,37 @@
           "hint": "Vて ＋ 以来／このかた",
           "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "転職",
+              "reading": "てんしょく"
+            },
+            {
+              "text": "して"
+            },
+            {
+              "text": "以来",
+              "reading": "いらい"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "残業",
+              "reading": "ざんぎょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "減",
+              "reading": "へ"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l03-g04-ja-vi-06",
@@ -2597,7 +3569,37 @@
           "hint": "Vて ＋ 以来／このかた",
           "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "事故",
+              "reading": "じこ"
+            },
+            {
+              "text": "があって"
+            },
+            {
+              "text": "以来",
+              "reading": "いらい"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "慎重",
+              "reading": "しんちょう"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "運転",
+              "reading": "うんてん"
+            },
+            {
+              "text": "している。"
+            }
+          ]
         },
         {
           "id": "l03-g04-ja-vi-07",
@@ -2609,7 +3611,30 @@
           "hint": "Vて ＋ 以来／このかた",
           "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "留学",
+              "reading": "りゅうがく"
+            },
+            {
+              "text": "してこのかた、"
+            },
+            {
+              "text": "視野",
+              "reading": "しや"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "広",
+              "reading": "ひろ"
+            },
+            {
+              "text": "がった。"
+            }
+          ]
         },
         {
           "id": "l03-g04-ja-vi-08",
@@ -2621,7 +3646,51 @@
           "hint": "Vて ＋ 以来／このかた",
           "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "習慣",
+              "reading": "しゅうかん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めて"
+            },
+            {
+              "text": "以来",
+              "reading": "いらい"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "朝",
+              "reading": "あさ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "楽",
+              "reading": "らく"
+            },
+            {
+              "text": "になった。"
+            }
+          ]
         },
         {
           "id": "l03-g04-ja-vi-09",
@@ -2633,7 +3702,37 @@
           "hint": "Vて ＋ 以来／このかた",
           "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "と"
+            },
+            {
+              "text": "別",
+              "reading": "わか"
+            },
+            {
+              "text": "れて"
+            },
+            {
+              "text": "以来",
+              "reading": "いらい"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "していない。"
+            }
+          ]
         },
         {
           "id": "l03-g04-ja-vi-10",
@@ -2645,7 +3744,54 @@
           "hint": "Vて ＋ 以来／このかた",
           "explanation": "Câu dùng て以来／てこのかた: kể từ mốc quá khứ đến nay. Giữ đúng mốc và trạng thái kéo dài.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "薬",
+              "reading": "くすり"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "飲",
+              "reading": "の"
+            },
+            {
+              "text": "み"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "めて"
+            },
+            {
+              "text": "以来",
+              "reading": "いらい"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "痛",
+              "reading": "いた"
+            },
+            {
+              "text": "みが"
+            },
+            {
+              "text": "軽",
+              "reading": "かる"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l03-g04-order-01",
@@ -3273,7 +4419,23 @@
           "hint": "Vて ＋ からでないと／でなければ",
           "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "いてからでないとサインできない。"
+            }
+          ]
         },
         {
           "id": "l03-g05-ja-vi-02",
@@ -3285,7 +4447,23 @@
           "hint": "Vて ＋ からでないと／でなければ",
           "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "予約",
+              "reading": "よやく"
+            },
+            {
+              "text": "してからでないと"
+            },
+            {
+              "text": "利用",
+              "reading": "りよう"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l03-g05-ja-vi-03",
@@ -3297,7 +4475,30 @@
           "hint": "Vて ＋ からでないと／でなければ",
           "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "してからでなければ"
+            },
+            {
+              "text": "本番",
+              "reading": "ほんばん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "られない。"
+            }
+          ]
         },
         {
           "id": "l03-g05-ja-vi-04",
@@ -3309,7 +4510,37 @@
           "hint": "Vて ＋ からでないと／でなければ",
           "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "料金",
+              "reading": "りょうきん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "払",
+              "reading": "はら"
+            },
+            {
+              "text": "ってからでないと"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "け"
+            },
+            {
+              "text": "取",
+              "reading": "と"
+            },
+            {
+              "text": "れない。"
+            }
+          ]
         },
         {
           "id": "l03-g05-ja-vi-05",
@@ -3321,7 +4552,30 @@
           "hint": "Vて ＋ からでないと／でなければ",
           "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "許可",
+              "reading": "きょか"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "出",
+              "reading": "で"
+            },
+            {
+              "text": "てからでないと"
+            },
+            {
+              "text": "公開",
+              "reading": "こうかい"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l03-g05-ja-vi-06",
@@ -3333,7 +4587,23 @@
           "hint": "Vて ＋ からでないと／でなければ",
           "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "冷",
+              "reading": "さ"
+            },
+            {
+              "text": "めてからでないと"
+            },
+            {
+              "text": "触",
+              "reading": "ふ"
+            },
+            {
+              "text": "れない。"
+            }
+          ]
         },
         {
           "id": "l03-g05-ja-vi-07",
@@ -3345,7 +4615,16 @@
           "hint": "Vて ＋ からでないと／でなければ",
           "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "登録",
+              "reading": "とうろく"
+            },
+            {
+              "text": "してからでないとログインできない。"
+            }
+          ]
         },
         {
           "id": "l03-g05-ja-vi-08",
@@ -3357,7 +4636,30 @@
           "hint": "Vて ＋ からでないと／でなければ",
           "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "検査",
+              "reading": "けんさ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "受",
+              "reading": "う"
+            },
+            {
+              "text": "けてからでなければ"
+            },
+            {
+              "text": "手術",
+              "reading": "しゅじゅつ"
+            },
+            {
+              "text": "できない。"
+            }
+          ]
         },
         {
           "id": "l03-g05-ja-vi-09",
@@ -3369,7 +4671,30 @@
           "hint": "Vて ＋ からでないと／でなければ",
           "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "してからでないと"
+            },
+            {
+              "text": "決",
+              "reading": "き"
+            },
+            {
+              "text": "められない。"
+            }
+          ]
         },
         {
           "id": "l03-g05-ja-vi-10",
@@ -3381,7 +4706,30 @@
           "hint": "Vて ＋ からでないと／でなければ",
           "explanation": "Câu dùng てからでないと／でなければ: chưa A thì không thể B. Giữ đúng điều kiện tiên quyết phủ định.",
           "origin": "authored",
-          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)"
+          "sourceNote": "Lesson 3 authored (N2-L02-BATCH)",
+          "promptRuby": [
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "整",
+              "reading": "ととの"
+            },
+            {
+              "text": "ってからでないと"
+            },
+            {
+              "text": "始",
+              "reading": "はじ"
+            },
+            {
+              "text": "められない。"
+            }
+          ]
         },
         {
           "id": "l03-g05-order-01",

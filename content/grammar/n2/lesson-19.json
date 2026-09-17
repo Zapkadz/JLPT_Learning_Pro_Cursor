@@ -239,7 +239,33 @@
           "hint": "〜わりに（は）",
           "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "店",
+              "reading": "みせ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "いわりに"
+            },
+            {
+              "text": "美味",
+              "reading": "おい"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l19-g01-ja-vi-02",
@@ -251,7 +277,30 @@
           "hint": "〜わりに（は）",
           "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しいわりに"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "をくれる。"
+            }
+          ]
         },
         {
           "id": "l19-g01-ja-vi-03",
@@ -263,7 +312,30 @@
           "hint": "〜わりに（は）",
           "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "部屋",
+              "reading": "へや"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "狭",
+              "reading": "せま"
+            },
+            {
+              "text": "いわりに"
+            },
+            {
+              "text": "使",
+              "reading": "つか"
+            },
+            {
+              "text": "いやすい。"
+            }
+          ]
         },
         {
           "id": "l19-g01-ja-vi-04",
@@ -275,7 +347,27 @@
           "hint": "〜わりに（は）",
           "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "text": "不足",
+              "reading": "ふそく"
+            },
+            {
+              "text": "のわりに"
+            },
+            {
+              "text": "上手",
+              "reading": "じょうず"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g01-ja-vi-05",
@@ -287,7 +379,33 @@
           "hint": "〜わりに（は）",
           "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "本",
+              "reading": "ほん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "難",
+              "reading": "むずか"
+            },
+            {
+              "text": "しいわりに"
+            },
+            {
+              "text": "面白",
+              "reading": "おもしろ"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l19-g01-ja-vi-06",
@@ -299,7 +417,37 @@
           "hint": "〜わりに（は）",
           "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "新人",
+              "reading": "しんじん"
+            },
+            {
+              "text": "のわりに"
+            },
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "速",
+              "reading": "はや"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l19-g01-ja-vi-07",
@@ -311,7 +459,30 @@
           "hint": "〜わりに（は）",
           "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "雨",
+              "reading": "あめ"
+            },
+            {
+              "text": "のわりに"
+            },
+            {
+              "text": "客",
+              "reading": "きゃく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "多",
+              "reading": "おお"
+            },
+            {
+              "text": "かった。"
+            }
+          ]
         },
         {
           "id": "l19-g01-ja-vi-08",
@@ -323,7 +494,30 @@
           "hint": "〜わりに（は）",
           "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "短",
+              "reading": "みじか"
+            },
+            {
+              "text": "いわりに"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かりやすい。"
+            }
+          ]
         },
         {
           "id": "l19-g01-ja-vi-09",
@@ -335,7 +529,33 @@
           "hint": "〜わりに（は）",
           "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "服",
+              "reading": "ふく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "いわりにすぐ"
+            },
+            {
+              "text": "破",
+              "reading": "わ"
+            },
+            {
+              "text": "れる。"
+            }
+          ]
         },
         {
           "id": "l19-g01-ja-vi-10",
@@ -347,7 +567,27 @@
           "hint": "〜わりに（は）",
           "explanation": "Câu dùng わりに／わりには: so với… thì… (không tương xứng).",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "準備",
+              "reading": "じゅんび"
+            },
+            {
+              "text": "不足",
+              "reading": "ふそく"
+            },
+            {
+              "text": "のわりに"
+            },
+            {
+              "text": "成功",
+              "reading": "せいこう"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l19-g01-order-01",
@@ -980,7 +1220,23 @@
           "hint": "〜にしては",
           "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "はアマチュアにしては"
+            },
+            {
+              "text": "上手",
+              "reading": "うま"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l19-g02-ja-vi-02",
@@ -992,7 +1248,33 @@
           "hint": "〜にしては",
           "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "店",
+              "reading": "みせ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "駅前",
+              "reading": "えきまえ"
+            },
+            {
+              "text": "にしては"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l19-g02-ja-vi-03",
@@ -1004,7 +1286,37 @@
           "hint": "〜にしては",
           "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "忙",
+              "reading": "いそが"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "にしては"
+            },
+            {
+              "text": "丁寧",
+              "reading": "ていねい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g02-ja-vi-04",
@@ -1016,7 +1328,33 @@
           "hint": "〜にしては",
           "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "車",
+              "reading": "くるま"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "中古",
+              "reading": "ちゅうこ"
+            },
+            {
+              "text": "にしては"
+            },
+            {
+              "text": "状態",
+              "reading": "じょうたい"
+            },
+            {
+              "text": "がいい。"
+            }
+          ]
         },
         {
           "id": "l19-g02-ja-vi-05",
@@ -1028,7 +1366,30 @@
           "hint": "〜にしては",
           "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "今日",
+              "reading": "きょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "月曜日",
+              "reading": "げつようび"
+            },
+            {
+              "text": "にしては"
+            },
+            {
+              "text": "混",
+              "reading": "こ"
+            },
+            {
+              "text": "んでいる。"
+            }
+          ]
         },
         {
           "id": "l19-g02-ja-vi-06",
@@ -1040,7 +1401,33 @@
           "hint": "〜にしては",
           "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "入門",
+              "reading": "にゅうもん"
+            },
+            {
+              "text": "にしては"
+            },
+            {
+              "text": "難",
+              "reading": "むずか"
+            },
+            {
+              "text": "しい。"
+            }
+          ]
         },
         {
           "id": "l19-g02-ja-vi-07",
@@ -1052,7 +1439,41 @@
           "hint": "〜にしては",
           "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "大学生",
+              "reading": "だいがくせい"
+            },
+            {
+              "text": "にしては"
+            },
+            {
+              "text": "社会",
+              "reading": "しゃかい"
+            },
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "豊富",
+              "reading": "ほうふ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g02-ja-vi-08",
@@ -1064,7 +1485,37 @@
           "hint": "〜にしては",
           "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "荷物",
+              "reading": "にもつ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "航空",
+              "reading": "こうくう"
+            },
+            {
+              "text": "便",
+              "reading": "びん"
+            },
+            {
+              "text": "にしては"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l19-g02-ja-vi-09",
@@ -1076,7 +1527,37 @@
           "hint": "〜にしては",
           "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "その"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "専門",
+              "reading": "せんもん"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "にしては"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かりにくい。"
+            }
+          ]
         },
         {
           "id": "l19-g02-ja-vi-10",
@@ -1088,7 +1569,26 @@
           "hint": "〜にしては",
           "explanation": "Câu dùng にしては: xét về tư cách/điều kiện… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "部屋",
+              "reading": "へや"
+            },
+            {
+              "text": "はホテルにしては"
+            },
+            {
+              "text": "狭",
+              "reading": "せま"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l19-g02-order-01",
@@ -1704,7 +2204,41 @@
           "hint": "〜だけ（のことは）ある",
           "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "元",
+              "reading": "もと"
+            },
+            {
+              "text": "選手",
+              "reading": "せんしゅ"
+            },
+            {
+              "text": "だけあって"
+            },
+            {
+              "text": "動",
+              "reading": "うご"
+            },
+            {
+              "text": "きが"
+            },
+            {
+              "text": "軽",
+              "reading": "かる"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l19-g03-ja-vi-02",
@@ -1716,7 +2250,26 @@
           "hint": "〜だけ（のことは）ある",
           "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "包丁",
+              "reading": "ほうちょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "いだけのことはある。"
+            }
+          ]
         },
         {
           "id": "l19-g03-ja-vi-03",
@@ -1728,7 +2281,30 @@
           "hint": "〜だけ（のことは）ある",
           "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "留学",
+              "reading": "りゅうがく"
+            },
+            {
+              "text": "しただけあって"
+            },
+            {
+              "text": "発音",
+              "reading": "はつおん"
+            },
+            {
+              "text": "がきれいだ。"
+            }
+          ]
         },
         {
           "id": "l19-g03-ja-vi-04",
@@ -1740,7 +2316,30 @@
           "hint": "〜だけ（のことは）ある",
           "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "老舗",
+              "reading": "しにせ"
+            },
+            {
+              "text": "だけあって"
+            },
+            {
+              "text": "味",
+              "reading": "あじ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "安定",
+              "reading": "あんてい"
+            },
+            {
+              "text": "している。"
+            }
+          ]
         },
         {
           "id": "l19-g03-ja-vi-05",
@@ -1752,7 +2351,23 @@
           "hint": "〜だけ（のことは）ある",
           "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "努力",
+              "reading": "どりょく"
+            },
+            {
+              "text": "しただけのことはある"
+            },
+            {
+              "text": "結果",
+              "reading": "けっか"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g03-ja-vi-06",
@@ -1764,7 +2379,23 @@
           "hint": "〜だけ（のことは）ある",
           "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "一流",
+              "reading": "いちりゅう"
+            },
+            {
+              "text": "ホテルだけあってサービスが"
+            },
+            {
+              "text": "丁寧",
+              "reading": "ていねい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g03-ja-vi-07",
@@ -1776,7 +2407,44 @@
           "hint": "〜だけ（のことは）ある",
           "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "教師",
+              "reading": "きょうし"
+            },
+            {
+              "text": "だけあって"
+            },
+            {
+              "text": "教",
+              "reading": "おし"
+            },
+            {
+              "text": "え"
+            },
+            {
+              "text": "方",
+              "reading": "かた"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "上手",
+              "reading": "うま"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l19-g03-ja-vi-08",
@@ -1788,7 +2456,26 @@
           "hint": "〜だけ（のことは）ある",
           "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "地図",
+              "reading": "ちず"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "詳",
+              "reading": "くわ"
+            },
+            {
+              "text": "しいだけのことはある。"
+            }
+          ]
         },
         {
           "id": "l19-g03-ja-vi-09",
@@ -1800,7 +2487,23 @@
           "hint": "〜だけ（のことは）ある",
           "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "優勝",
+              "reading": "ゆうしょう"
+            },
+            {
+              "text": "しただけあって"
+            },
+            {
+              "text": "実力",
+              "reading": "じつりょく"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l19-g03-ja-vi-10",
@@ -1812,7 +2515,23 @@
           "hint": "〜だけ（のことは）ある",
           "explanation": "Câu dùng だけあって／だけある／だけのことはある: quả xứng với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "高級",
+              "reading": "こうきゅう"
+            },
+            {
+              "text": "ブランドだけあってデザインが"
+            },
+            {
+              "text": "洗練",
+              "reading": "せんれん"
+            },
+            {
+              "text": "されている。"
+            }
+          ]
         },
         {
           "id": "l19-g03-order-01",
@@ -2458,7 +3177,30 @@
           "hint": "〜として",
           "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "教師",
+              "reading": "きょうし"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "尊敬",
+              "reading": "そんけい"
+            },
+            {
+              "text": "されている。"
+            }
+          ]
         },
         {
           "id": "l19-g04-ja-vi-02",
@@ -2470,7 +3212,30 @@
           "hint": "〜として",
           "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "個人",
+              "reading": "こじん"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l19-g04-ja-vi-03",
@@ -2482,7 +3247,33 @@
           "hint": "〜として",
           "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "件",
+              "reading": "けん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "会社",
+              "reading": "かいしゃ"
+            },
+            {
+              "text": "としての"
+            },
+            {
+              "text": "方針",
+              "reading": "ほうしん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g04-ja-vi-04",
@@ -2494,7 +3285,37 @@
           "hint": "〜として",
           "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "友人",
+              "reading": "ゆうじん"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "相談",
+              "reading": "そうだん"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "乗",
+              "reading": "の"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l19-g04-ja-vi-05",
@@ -2506,7 +3327,34 @@
           "hint": "〜として",
           "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "専門",
+              "reading": "せんもん"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "助言",
+              "reading": "じょげん"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l19-g04-ja-vi-06",
@@ -2518,7 +3366,37 @@
           "hint": "〜として",
           "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "としての"
+            },
+            {
+              "text": "責任",
+              "reading": "せきにん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "感",
+              "reading": "かん"
+            },
+            {
+              "text": "じる。"
+            }
+          ]
         },
         {
           "id": "l19-g04-ja-vi-07",
@@ -2530,7 +3408,33 @@
           "hint": "〜として",
           "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "賞",
+              "reading": "しょう"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "激励",
+              "reading": "げきれい"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "贈",
+              "reading": "おく"
+            },
+            {
+              "text": "られる。"
+            }
+          ]
         },
         {
           "id": "l19-g04-ja-vi-08",
@@ -2542,7 +3446,30 @@
           "hint": "〜として",
           "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "証人",
+              "reading": "しょうにん"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "出廷",
+              "reading": "しゅってい"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l19-g04-ja-vi-09",
@@ -2554,7 +3481,26 @@
           "hint": "〜として",
           "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "これは"
+            },
+            {
+              "text": "記念",
+              "reading": "きねん"
+            },
+            {
+              "text": "としての"
+            },
+            {
+              "text": "写真",
+              "reading": "しゃしん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g04-ja-vi-10",
@@ -2566,7 +3512,34 @@
           "hint": "〜として",
           "explanation": "Câu dùng として／としての: với tư cách / trong vai trò…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼女",
+              "reading": "かのじょ"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "志願",
+              "reading": "しがん"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "として"
+            },
+            {
+              "text": "登録",
+              "reading": "とうろく"
+            },
+            {
+              "text": "した。"
+            }
+          ]
         },
         {
           "id": "l19-g04-order-01",
@@ -3215,7 +4188,33 @@
           "hint": "〜にとって",
           "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "経験",
+              "reading": "けいけん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "にとって"
+            },
+            {
+              "text": "貴重",
+              "reading": "きちょう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g05-ja-vi-02",
@@ -3227,7 +4226,34 @@
           "hint": "〜にとって",
           "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安全",
+              "reading": "あんぜん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "乗客",
+              "reading": "じょうきゃく"
+            },
+            {
+              "text": "にとって"
+            },
+            {
+              "text": "最",
+              "reading": "さい"
+            },
+            {
+              "text": "優先",
+              "reading": "ゆうせん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g05-ja-vi-03",
@@ -3239,7 +4265,37 @@
           "hint": "〜にとって",
           "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "町",
+              "reading": "まち"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "観光",
+              "reading": "かんこう"
+            },
+            {
+              "text": "客",
+              "reading": "きゃく"
+            },
+            {
+              "text": "にとっては"
+            },
+            {
+              "text": "便利",
+              "reading": "べんり"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g05-ja-vi-04",
@@ -3251,7 +4307,37 @@
           "hint": "〜にとって",
           "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "助言",
+              "reading": "じょげん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "私",
+              "reading": "わたし"
+            },
+            {
+              "text": "たちにとって"
+            },
+            {
+              "text": "助",
+              "reading": "たす"
+            },
+            {
+              "text": "かる。"
+            }
+          ]
         },
         {
           "id": "l19-g05-ja-vi-05",
@@ -3263,7 +4349,37 @@
           "hint": "〜にとって",
           "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "騒音",
+              "reading": "そうおん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "住民",
+              "reading": "じゅうみん"
+            },
+            {
+              "text": "にとっては"
+            },
+            {
+              "text": "深刻",
+              "reading": "しんこく"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "問題",
+              "reading": "もんだい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g05-ja-vi-06",
@@ -3275,7 +4391,33 @@
           "hint": "〜にとって",
           "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "薬",
+              "reading": "くすり"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "患者",
+              "reading": "かんじゃ"
+            },
+            {
+              "text": "にとって"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g05-ja-vi-07",
@@ -3287,7 +4429,30 @@
           "hint": "〜にとって",
           "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "勝敗",
+              "reading": "しょうはい"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "選手",
+              "reading": "せんしゅ"
+            },
+            {
+              "text": "にとって"
+            },
+            {
+              "text": "全",
+              "reading": "すべ"
+            },
+            {
+              "text": "てではない。"
+            }
+          ]
         },
         {
           "id": "l19-g05-ja-vi-08",
@@ -3299,7 +4464,30 @@
           "hint": "〜にとって",
           "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "プライバシーは"
+            },
+            {
+              "text": "現代",
+              "reading": "げんだい"
+            },
+            {
+              "text": "人",
+              "reading": "じん"
+            },
+            {
+              "text": "にとって"
+            },
+            {
+              "text": "重要",
+              "reading": "じゅうよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g05-ja-vi-09",
@@ -3311,7 +4499,37 @@
           "hint": "〜にとって",
           "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "この"
+            },
+            {
+              "text": "規則",
+              "reading": "きそく"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "外国",
+              "reading": "がいこく"
+            },
+            {
+              "text": "人",
+              "reading": "じん"
+            },
+            {
+              "text": "にとっては"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かりにくい。"
+            }
+          ]
         },
         {
           "id": "l19-g05-ja-vi-10",
@@ -3323,7 +4541,37 @@
           "hint": "〜にとって",
           "explanation": "Câu dùng にとって／にとっては: đối với… thì…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "自然",
+              "reading": "しぜん"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "子供",
+              "reading": "こども"
+            },
+            {
+              "text": "にとって"
+            },
+            {
+              "text": "最高",
+              "reading": "さいこう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "教室",
+              "reading": "きょうしつ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g05-order-01",
@@ -3957,7 +5205,30 @@
           "hint": "〜にしたら／にしても",
           "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "初心者",
+              "reading": "しょしんしゃ"
+            },
+            {
+              "text": "にしたら"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "足",
+              "reading": "た"
+            },
+            {
+              "text": "りない。"
+            }
+          ]
         },
         {
           "id": "l19-g06-ja-vi-02",
@@ -3969,7 +5240,34 @@
           "hint": "〜にしたら／にしても",
           "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "利用",
+              "reading": "りよう"
+            },
+            {
+              "text": "者",
+              "reading": "しゃ"
+            },
+            {
+              "text": "にすれば"
+            },
+            {
+              "text": "手続",
+              "reading": "てつづ"
+            },
+            {
+              "text": "きが"
+            },
+            {
+              "text": "複雑",
+              "reading": "ふくざつ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g06-ja-vi-03",
@@ -3981,7 +5279,30 @@
           "hint": "〜にしたら／にしても",
           "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "選手",
+              "reading": "せんしゅ"
+            },
+            {
+              "text": "にしてみれば"
+            },
+            {
+              "text": "厳",
+              "reading": "きび"
+            },
+            {
+              "text": "しい"
+            },
+            {
+              "text": "日程",
+              "reading": "にってい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g06-ja-vi-04",
@@ -3993,7 +5314,23 @@
           "hint": "〜にしたら／にしても",
           "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "親",
+              "reading": "おや"
+            },
+            {
+              "text": "にしても"
+            },
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "しかねる。"
+            }
+          ]
         },
         {
           "id": "l19-g06-ja-vi-05",
@@ -4005,7 +5342,30 @@
           "hint": "〜にしたら／にしても",
           "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "店員",
+              "reading": "てんいん"
+            },
+            {
+              "text": "にしたら"
+            },
+            {
+              "text": "理不尽",
+              "reading": "りふじん"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "客",
+              "reading": "きゃく"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g06-ja-vi-06",
@@ -4017,7 +5377,34 @@
           "hint": "〜にしたら／にしても",
           "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "市民",
+              "reading": "しみん"
+            },
+            {
+              "text": "にすれば"
+            },
+            {
+              "text": "透明",
+              "reading": "とうめい"
+            },
+            {
+              "text": "性",
+              "reading": "せい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g06-ja-vi-07",
@@ -4029,7 +5416,37 @@
           "hint": "〜にしたら／にしても",
           "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "患者",
+              "reading": "かんじゃ"
+            },
+            {
+              "text": "にしてみれば"
+            },
+            {
+              "text": "待",
+              "reading": "ま"
+            },
+            {
+              "text": "ち"
+            },
+            {
+              "text": "時間",
+              "reading": "じかん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "長",
+              "reading": "なが"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l19-g06-ja-vi-08",
@@ -4041,7 +5458,23 @@
           "hint": "〜にしたら／にしても",
           "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "にしても"
+            },
+            {
+              "text": "断",
+              "reading": "ことわ"
+            },
+            {
+              "text": "りにくかっただろう。"
+            }
+          ]
         },
         {
           "id": "l19-g06-ja-vi-09",
@@ -4053,7 +5486,34 @@
           "hint": "〜にしたら／にしても",
           "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "外国",
+              "reading": "がいこく"
+            },
+            {
+              "text": "人",
+              "reading": "じん"
+            },
+            {
+              "text": "にしたら"
+            },
+            {
+              "text": "案内",
+              "reading": "あんない"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "不足",
+              "reading": "ふそく"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g06-ja-vi-10",
@@ -4065,7 +5525,38 @@
           "hint": "〜にしたら／にしても",
           "explanation": "Câu dùng にしたら／にすれば／にしてみれば／にしても: từ góc nhìn / ngay cả với…",
           "origin": "authored",
-          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)"
+          "sourceNote": "Lesson 19 authored (N2-L16-BATCH)",
+          "promptRuby": [
+            {
+              "text": "投資",
+              "reading": "とうし"
+            },
+            {
+              "text": "家",
+              "reading": "か"
+            },
+            {
+              "text": "にすれば"
+            },
+            {
+              "text": "魅力",
+              "reading": "みりょく"
+            },
+            {
+              "text": "的",
+              "reading": "てき"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "案件",
+              "reading": "あんけん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l19-g06-order-01",

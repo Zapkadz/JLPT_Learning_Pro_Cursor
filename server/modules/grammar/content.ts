@@ -2,6 +2,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { z } from "zod";
 import {
   patternSchema,
+  assertPromptRuby,
   type Exercise,
   type Pattern,
   type PublicExercise,
@@ -62,6 +63,9 @@ function loadPublishedLesson(lessonId: string): LessonContent {
     throw new Error(
       `Grammar lesson file id mismatch: expected ${lessonId}, got ${parsed.id}`,
     );
+  }
+  for (const p of parsed.patterns) {
+    for (const q of p.exercises) assertPromptRuby(q);
   }
   return parsed;
 }
@@ -151,6 +155,9 @@ export function publicExercise(q: Exercise): PublicExercise {
     mode: q.mode,
     prompt: q.prompt,
     ...(q.mode === "order" ? { tokens: q.tokens, starIndex: q.starIndex } : {}),
+    ...(q.mode === "ja-vi" && q.promptRuby
+      ? { promptRuby: q.promptRuby }
+      : {}),
   };
 }
 

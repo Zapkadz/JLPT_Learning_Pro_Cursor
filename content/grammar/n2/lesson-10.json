@@ -245,7 +245,30 @@
           "hint": "〜やら〜やら",
           "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "宿題",
+              "reading": "しゅくだい"
+            },
+            {
+              "text": "やら"
+            },
+            {
+              "text": "試験",
+              "reading": "しけん"
+            },
+            {
+              "text": "やらで"
+            },
+            {
+              "text": "余裕",
+              "reading": "よゆう"
+            },
+            {
+              "text": "がない。"
+            }
+          ]
         },
         {
           "id": "l10-g01-ja-vi-02",
@@ -257,7 +280,37 @@
           "hint": "〜やら〜やら",
           "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "嬉",
+              "reading": "うれ"
+            },
+            {
+              "text": "しいやら"
+            },
+            {
+              "text": "恥",
+              "reading": "は"
+            },
+            {
+              "text": "ずかしいやら"
+            },
+            {
+              "text": "顔",
+              "reading": "かお"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "赤",
+              "reading": "あか"
+            },
+            {
+              "text": "い。"
+            }
+          ]
         },
         {
           "id": "l10-g01-ja-vi-03",
@@ -269,7 +322,30 @@
           "hint": "〜やら〜やら",
           "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "荷物",
+              "reading": "にもつ"
+            },
+            {
+              "text": "やらゴミやらが"
+            },
+            {
+              "text": "廊下",
+              "reading": "ろうか"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "置",
+              "reading": "お"
+            },
+            {
+              "text": "いてある。"
+            }
+          ]
         },
         {
           "id": "l10-g01-ja-vi-04",
@@ -281,7 +357,23 @@
           "hint": "〜やら〜やら",
           "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "来",
+              "reading": "く"
+            },
+            {
+              "text": "るやらどうやら"
+            },
+            {
+              "text": "連絡",
+              "reading": "れんらく"
+            },
+            {
+              "text": "がない。"
+            }
+          ]
         },
         {
           "id": "l10-g01-ja-vi-05",
@@ -293,7 +385,37 @@
           "hint": "〜やら〜やら",
           "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "文句",
+              "reading": "もんく"
+            },
+            {
+              "text": "やら"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "い"
+            },
+            {
+              "text": "訳",
+              "reading": "わけ"
+            },
+            {
+              "text": "やらばかり"
+            },
+            {
+              "text": "言",
+              "reading": "い"
+            },
+            {
+              "text": "う。"
+            }
+          ]
         },
         {
           "id": "l10-g01-ja-vi-06",
@@ -305,7 +427,37 @@
           "hint": "〜やら〜やら",
           "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "寒",
+              "reading": "さむ"
+            },
+            {
+              "text": "いやら"
+            },
+            {
+              "text": "暑",
+              "reading": "あつ"
+            },
+            {
+              "text": "いやら"
+            },
+            {
+              "text": "体調",
+              "reading": "たいちょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "変",
+              "reading": "へん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l10-g01-ja-vi-07",
@@ -317,7 +469,30 @@
           "hint": "〜やら〜やら",
           "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "書類",
+              "reading": "しょるい"
+            },
+            {
+              "text": "やらデータやら"
+            },
+            {
+              "text": "確認",
+              "reading": "かくにん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l10-g01-ja-vi-08",
@@ -329,7 +504,44 @@
           "hint": "〜やら〜やら",
           "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "歌",
+              "reading": "うた"
+            },
+            {
+              "text": "やら"
+            },
+            {
+              "text": "踊",
+              "reading": "おど"
+            },
+            {
+              "text": "りやらで"
+            },
+            {
+              "text": "会場",
+              "reading": "かいじょう"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "盛",
+              "reading": "も"
+            },
+            {
+              "text": "り"
+            },
+            {
+              "text": "上",
+              "reading": "あ"
+            },
+            {
+              "text": "がった。"
+            }
+          ]
         },
         {
           "id": "l10-g01-ja-vi-09",
@@ -341,7 +553,37 @@
           "hint": "〜やら〜やら",
           "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "不安",
+              "reading": "ふあん"
+            },
+            {
+              "text": "やら"
+            },
+            {
+              "text": "期待",
+              "reading": "きたい"
+            },
+            {
+              "text": "やらで"
+            },
+            {
+              "text": "胸",
+              "reading": "むね"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "騒",
+              "reading": "さわ"
+            },
+            {
+              "text": "ぐ。"
+            }
+          ]
         },
         {
           "id": "l10-g01-ja-vi-10",
@@ -353,7 +595,30 @@
           "hint": "〜やら〜やら",
           "explanation": "Câu dùng やらやら để liệt kê lung tung hoặc tâm trạng lẫn lộn.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "道具",
+              "reading": "どうぐ"
+            },
+            {
+              "text": "やら"
+            },
+            {
+              "text": "材料",
+              "reading": "ざいりょう"
+            },
+            {
+              "text": "やらが"
+            },
+            {
+              "text": "足",
+              "reading": "た"
+            },
+            {
+              "text": "りない。"
+            }
+          ]
         },
         {
           "id": "l10-g01-order-01",
@@ -1011,7 +1276,37 @@
           "hint": "〜というか〜というか",
           "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "嬉",
+              "reading": "うれ"
+            },
+            {
+              "text": "しいというか"
+            },
+            {
+              "text": "恥",
+              "reading": "は"
+            },
+            {
+              "text": "ずかしいというか"
+            },
+            {
+              "text": "返事",
+              "reading": "へんじ"
+            },
+            {
+              "text": "に"
+            },
+            {
+              "text": "困",
+              "reading": "こま"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l10-g02-ja-vi-02",
@@ -1023,7 +1318,30 @@
           "hint": "〜というか〜というか",
           "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "厳",
+              "reading": "きび"
+            },
+            {
+              "text": "しいというか"
+            },
+            {
+              "text": "公正",
+              "reading": "こうせい"
+            },
+            {
+              "text": "というか"
+            },
+            {
+              "text": "評価",
+              "reading": "ひょうか"
+            },
+            {
+              "text": "だった。"
+            }
+          ]
         },
         {
           "id": "l10-g02-ja-vi-03",
@@ -1035,7 +1353,30 @@
           "hint": "〜というか〜というか",
           "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "速",
+              "reading": "はや"
+            },
+            {
+              "text": "いというか"
+            },
+            {
+              "text": "雑",
+              "reading": "ざつ"
+            },
+            {
+              "text": "というか"
+            },
+            {
+              "text": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "text": "ぶりだ。"
+            }
+          ]
         },
         {
           "id": "l10-g02-ja-vi-04",
@@ -1047,7 +1388,30 @@
           "hint": "〜というか〜というか",
           "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "静",
+              "reading": "しず"
+            },
+            {
+              "text": "かというか"
+            },
+            {
+              "text": "寂",
+              "reading": "さび"
+            },
+            {
+              "text": "しいというか"
+            },
+            {
+              "text": "街",
+              "reading": "まち"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l10-g02-ja-vi-05",
@@ -1059,7 +1423,37 @@
           "hint": "〜というか〜というか",
           "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "賢",
+              "reading": "かしこ"
+            },
+            {
+              "text": "いというか"
+            },
+            {
+              "text": "狡猾",
+              "reading": "こうかつ"
+            },
+            {
+              "text": "というか"
+            },
+            {
+              "text": "人",
+              "reading": "ひと"
+            },
+            {
+              "text": "だと"
+            },
+            {
+              "text": "感",
+              "reading": "かん"
+            },
+            {
+              "text": "じた。"
+            }
+          ]
         },
         {
           "id": "l10-g02-ja-vi-06",
@@ -1071,7 +1465,37 @@
           "hint": "〜というか〜というか",
           "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "嬉",
+              "reading": "うれ"
+            },
+            {
+              "text": "しいというか"
+            },
+            {
+              "text": "不安",
+              "reading": "ふあん"
+            },
+            {
+              "text": "というか"
+            },
+            {
+              "text": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "text": "の"
+            },
+            {
+              "text": "前",
+              "reading": "まえ"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l10-g02-ja-vi-07",
@@ -1083,7 +1507,37 @@
           "hint": "〜というか〜というか",
           "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "いというか"
+            },
+            {
+              "text": "不安",
+              "reading": "ふあん"
+            },
+            {
+              "text": "な"
+            },
+            {
+              "text": "品質",
+              "reading": "ひんしつ"
+            },
+            {
+              "text": "というか"
+            },
+            {
+              "text": "商品",
+              "reading": "しょうひん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l10-g02-ja-vi-08",
@@ -1095,7 +1549,30 @@
           "hint": "〜というか〜というか",
           "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "面白",
+              "reading": "おもしろ"
+            },
+            {
+              "text": "いというか"
+            },
+            {
+              "text": "分",
+              "reading": "わ"
+            },
+            {
+              "text": "かりにくいというか"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l10-g02-ja-vi-09",
@@ -1107,7 +1584,30 @@
           "hint": "〜というか〜というか",
           "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "優",
+              "reading": "やさ"
+            },
+            {
+              "text": "しいというか"
+            },
+            {
+              "text": "甘",
+              "reading": "あま"
+            },
+            {
+              "text": "いというか"
+            },
+            {
+              "text": "対応",
+              "reading": "たいおう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l10-g02-ja-vi-10",
@@ -1119,7 +1619,37 @@
           "hint": "〜というか〜というか",
           "explanation": "Câu dùng というか…というか khi chưa chọn được một cách diễn đạt duy nhất.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "新",
+              "reading": "あたら"
+            },
+            {
+              "text": "しいというか"
+            },
+            {
+              "text": "未熟",
+              "reading": "みじゅく"
+            },
+            {
+              "text": "というか"
+            },
+            {
+              "text": "企画",
+              "reading": "きかく"
+            },
+            {
+              "text": "だと"
+            },
+            {
+              "text": "指摘",
+              "reading": "してき"
+            },
+            {
+              "text": "された。"
+            }
+          ]
         },
         {
           "id": "l10-g02-order-01",
@@ -1775,7 +2305,37 @@
           "hint": "〜にしても／にしろ／にせよ",
           "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "来",
+              "reading": "く"
+            },
+            {
+              "text": "るにしても"
+            },
+            {
+              "text": "来",
+              "reading": "こ"
+            },
+            {
+              "text": "ないにしても"
+            },
+            {
+              "text": "席",
+              "reading": "せき"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "確保",
+              "reading": "かくほ"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l10-g03-ja-vi-02",
@@ -1787,7 +2347,37 @@
           "hint": "〜にしても／にしろ／にせよ",
           "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "うにしろ"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "わないにしろ"
+            },
+            {
+              "text": "説明",
+              "reading": "せつめい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "聞",
+              "reading": "き"
+            },
+            {
+              "text": "け。"
+            }
+          ]
         },
         {
           "id": "l10-g03-ja-vi-03",
@@ -1799,7 +2389,37 @@
           "hint": "〜にしても／にしろ／にせよ",
           "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "賛成",
+              "reading": "さんせい"
+            },
+            {
+              "text": "にせよ"
+            },
+            {
+              "text": "反対",
+              "reading": "はんたい"
+            },
+            {
+              "text": "にせよ"
+            },
+            {
+              "text": "理由",
+              "reading": "りゆう"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "述",
+              "reading": "の"
+            },
+            {
+              "text": "べよ。"
+            }
+          ]
         },
         {
           "id": "l10-g03-ja-vi-04",
@@ -1811,7 +2431,37 @@
           "hint": "〜にしても／にしろ／にせよ",
           "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "平日",
+              "reading": "へいじつ"
+            },
+            {
+              "text": "にしても"
+            },
+            {
+              "text": "休日",
+              "reading": "きゅうじつ"
+            },
+            {
+              "text": "にしても"
+            },
+            {
+              "text": "予約",
+              "reading": "よやく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "要",
+              "reading": "い"
+            },
+            {
+              "text": "る。"
+            }
+          ]
         },
         {
           "id": "l10-g03-ja-vi-05",
@@ -1823,7 +2473,37 @@
           "hint": "〜にしても／にしろ／にせよ",
           "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "上手",
+              "reading": "じょうず"
+            },
+            {
+              "text": "にしろ"
+            },
+            {
+              "text": "下手",
+              "reading": "へた"
+            },
+            {
+              "text": "にしろ"
+            },
+            {
+              "text": "挑戦",
+              "reading": "ちょうせん"
+            },
+            {
+              "text": "する"
+            },
+            {
+              "text": "価値",
+              "reading": "かち"
+            },
+            {
+              "text": "がある。"
+            }
+          ]
         },
         {
           "id": "l10-g03-ja-vi-06",
@@ -1835,7 +2515,37 @@
           "hint": "〜にしても／にしろ／にせよ",
           "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "高",
+              "reading": "たか"
+            },
+            {
+              "text": "いにしても"
+            },
+            {
+              "text": "品質",
+              "reading": "ひんしつ"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "伴",
+              "reading": "ともな"
+            },
+            {
+              "text": "わなければ"
+            },
+            {
+              "text": "意味",
+              "reading": "いみ"
+            },
+            {
+              "text": "がない。"
+            }
+          ]
         },
         {
           "id": "l10-g03-ja-vi-07",
@@ -1847,7 +2557,30 @@
           "hint": "〜にしても／にしろ／にせよ",
           "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "彼",
+              "reading": "かれ"
+            },
+            {
+              "text": "にしても"
+            },
+            {
+              "text": "無理",
+              "reading": "むり"
+            },
+            {
+              "text": "は"
+            },
+            {
+              "text": "続",
+              "reading": "つづ"
+            },
+            {
+              "text": "かない。"
+            }
+          ]
         },
         {
           "id": "l10-g03-ja-vi-08",
@@ -1859,7 +2592,30 @@
           "hint": "〜にしても／にしろ／にせよ",
           "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "勝",
+              "reading": "か"
+            },
+            {
+              "text": "つにせよ"
+            },
+            {
+              "text": "負",
+              "reading": "ま"
+            },
+            {
+              "text": "けるにせよ"
+            },
+            {
+              "text": "応援",
+              "reading": "おうえん"
+            },
+            {
+              "text": "する。"
+            }
+          ]
         },
         {
           "id": "l10-g03-ja-vi-09",
@@ -1871,7 +2627,37 @@
           "hint": "〜にしても／にしろ／にせよ",
           "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "行",
+              "reading": "い"
+            },
+            {
+              "text": "くにしろ"
+            },
+            {
+              "text": "残",
+              "reading": "のこ"
+            },
+            {
+              "text": "るにしろ"
+            },
+            {
+              "text": "決断",
+              "reading": "けつだん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "必要",
+              "reading": "ひつよう"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l10-g03-ja-vi-10",
@@ -1883,7 +2669,30 @@
           "hint": "〜にしても／にしろ／にせよ",
           "explanation": "Câu dùng にしても／にしろ／にせよ: dù A hay B thì kết luận vẫn đúng.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "子",
+              "reading": "こ"
+            },
+            {
+              "text": "どもにしても"
+            },
+            {
+              "text": "大人",
+              "reading": "おとな"
+            },
+            {
+              "text": "にしてもルールは"
+            },
+            {
+              "text": "同",
+              "reading": "おな"
+            },
+            {
+              "text": "じだ。"
+            }
+          ]
         },
         {
           "id": "l10-g03-order-01",
@@ -2550,7 +3359,37 @@
           "hint": "N や N ＋ といった ＋ N",
           "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "紅茶",
+              "reading": "こうちゃ"
+            },
+            {
+              "text": "やコーヒーといった"
+            },
+            {
+              "text": "飲",
+              "reading": "の"
+            },
+            {
+              "text": "み"
+            },
+            {
+              "text": "物",
+              "reading": "もの"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "好",
+              "reading": "す"
+            },
+            {
+              "text": "きだ。"
+            }
+          ]
         },
         {
           "id": "l10-g04-ja-vi-02",
@@ -2562,7 +3401,41 @@
           "hint": "N や N ＋ といった ＋ N",
           "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "小説",
+              "reading": "しょうせつ"
+            },
+            {
+              "text": "や"
+            },
+            {
+              "text": "詩",
+              "reading": "し"
+            },
+            {
+              "text": "といった"
+            },
+            {
+              "text": "文学",
+              "reading": "ぶんがく"
+            },
+            {
+              "text": "作品",
+              "reading": "さくひん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "読",
+              "reading": "よ"
+            },
+            {
+              "text": "む。"
+            }
+          ]
         },
         {
           "id": "l10-g04-ja-vi-03",
@@ -2574,7 +3447,41 @@
           "hint": "N や N ＋ といった ＋ N",
           "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "駅",
+              "reading": "えき"
+            },
+            {
+              "text": "や"
+            },
+            {
+              "text": "空港",
+              "reading": "くうこう"
+            },
+            {
+              "text": "といった"
+            },
+            {
+              "text": "交通",
+              "reading": "こうつう"
+            },
+            {
+              "text": "拠点",
+              "reading": "きょてん"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "混",
+              "reading": "こ"
+            },
+            {
+              "text": "む。"
+            }
+          ]
         },
         {
           "id": "l10-g04-ja-vi-04",
@@ -2586,7 +3493,55 @@
           "hint": "N や N ＋ といった ＋ N",
           "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "英語",
+              "reading": "えいご"
+            },
+            {
+              "text": "や"
+            },
+            {
+              "text": "中国",
+              "reading": "ちゅうごく"
+            },
+            {
+              "text": "語",
+              "reading": "ご"
+            },
+            {
+              "text": "といった"
+            },
+            {
+              "text": "言語",
+              "reading": "げんご"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "学",
+              "reading": "まな"
+            },
+            {
+              "text": "ぶ"
+            },
+            {
+              "text": "学生",
+              "reading": "がくせい"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "増",
+              "reading": "ふ"
+            },
+            {
+              "text": "えた。"
+            }
+          ]
         },
         {
           "id": "l10-g04-ja-vi-05",
@@ -2598,7 +3553,30 @@
           "hint": "N や N ＋ といった ＋ N",
           "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "スマホやパソコンといった"
+            },
+            {
+              "text": "機器",
+              "reading": "きき"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "必需",
+              "reading": "ひつじゅ"
+            },
+            {
+              "text": "品",
+              "reading": "ひん"
+            },
+            {
+              "text": "だ。"
+            }
+          ]
         },
         {
           "id": "l10-g04-ja-vi-06",
@@ -2610,7 +3588,37 @@
           "hint": "N や N ＋ といった ＋ N",
           "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "美術館",
+              "reading": "びじゅつかん"
+            },
+            {
+              "text": "や"
+            },
+            {
+              "text": "博物館",
+              "reading": "はくぶつかん"
+            },
+            {
+              "text": "といった"
+            },
+            {
+              "text": "施設",
+              "reading": "しせつ"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "巡",
+              "reading": "めぐ"
+            },
+            {
+              "text": "った。"
+            }
+          ]
         },
         {
           "id": "l10-g04-ja-vi-07",
@@ -2622,7 +3630,37 @@
           "hint": "N や N ＋ といった ＋ N",
           "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "会議",
+              "reading": "かいぎ"
+            },
+            {
+              "text": "や"
+            },
+            {
+              "text": "研修",
+              "reading": "けんしゅう"
+            },
+            {
+              "text": "といった"
+            },
+            {
+              "text": "予定",
+              "reading": "よてい"
+            },
+            {
+              "text": "で"
+            },
+            {
+              "text": "埋",
+              "reading": "う"
+            },
+            {
+              "text": "まっている。"
+            }
+          ]
         },
         {
           "id": "l10-g04-ja-vi-08",
@@ -2634,7 +3672,44 @@
           "hint": "N や N ＋ といった ＋ N",
           "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "野菜",
+              "reading": "やさい"
+            },
+            {
+              "text": "や"
+            },
+            {
+              "text": "果物",
+              "reading": "くだもの"
+            },
+            {
+              "text": "といった"
+            },
+            {
+              "text": "食材",
+              "reading": "しょくざい"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "安",
+              "reading": "やす"
+            },
+            {
+              "text": "く"
+            },
+            {
+              "text": "買",
+              "reading": "か"
+            },
+            {
+              "text": "える。"
+            }
+          ]
         },
         {
           "id": "l10-g04-ja-vi-09",
@@ -2646,7 +3721,30 @@
           "hint": "N や N ＋ といった ＋ N",
           "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "規則",
+              "reading": "きそく"
+            },
+            {
+              "text": "やマナーといった"
+            },
+            {
+              "text": "基本",
+              "reading": "きほん"
+            },
+            {
+              "text": "を"
+            },
+            {
+              "text": "守",
+              "reading": "まも"
+            },
+            {
+              "text": "れ。"
+            }
+          ]
         },
         {
           "id": "l10-g04-ja-vi-10",
@@ -2658,7 +3756,30 @@
           "hint": "N や N ＋ といった ＋ N",
           "explanation": "Câu dùng といった để nêu ví dụ đại diện rồi khái quát loại.",
           "origin": "authored",
-          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)"
+          "sourceNote": "Lesson 10 authored (N2-L06-BATCH)",
+          "promptRuby": [
+            {
+              "text": "映画",
+              "reading": "えいが"
+            },
+            {
+              "text": "やドラマといった"
+            },
+            {
+              "text": "娯楽",
+              "reading": "ごらく"
+            },
+            {
+              "text": "が"
+            },
+            {
+              "text": "欠",
+              "reading": "か"
+            },
+            {
+              "text": "かせない。"
+            }
+          ]
         },
         {
           "id": "l10-g04-order-01",
