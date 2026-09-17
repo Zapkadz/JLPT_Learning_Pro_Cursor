@@ -6,7 +6,7 @@ Long-lived “why” decisions. Not a changelog. Only entries with repository or
 
 ## ADR-001 — Single-server React + Express + SQLite
 
-Date: 2026-09-11 (documented in PRODUCT/README; still matches code)  
+Date: 2026-09-11 (documented in PRODUCT/README; still matches code)
 Status: Accepted
 
 ### Context
@@ -37,7 +37,7 @@ Do not introduce a second parallel backend/database “just for Grammar N2”.
 
 ## ADR-002 — Grammar N2 is a module extension, not a rewrite
 
-Date: 2026-09-13 / reinforced by Master Requirement 2026-09-14  
+Date: 2026-09-13 / reinforced by Master Requirement 2026-09-14
 Status: Accepted
 
 ### Context
@@ -68,7 +68,7 @@ Do not rebuild flashcards/auth/SRS from scratch for this module. Do not clone th
 
 ## ADR-003 — Canonical course structure is Shinkanzen 26 / 141
 
-Date: 2026-09-13 (grammar plan); locked in Master Requirement  
+Date: 2026-09-13 (grammar plan); locked in Master Requirement
 Status: Accepted
 
 ### Context
@@ -99,7 +99,7 @@ Do not “fix” UI by hard-coding 151→141 without root-cause analysis. Do not
 
 ## ADR-004 — Content vs UX vs structure source roles
 
-Date: Master Requirement  
+Date: Master Requirement
 Status: Accepted
 
 ### Context
@@ -108,9 +108,9 @@ Three references exist: Shinkanzen PDF, NhatKanji site, Tiếng Nhật Đơn Gi�
 
 ### Decision
 
-- Structure: Shinkanzen  
-- Function/UX reference: NhatKanji (not pixel clone, not content scrape)  
-- Primary content: Tiếng Nhật Đơn Giản (with source metadata)  
+- Structure: Shinkanzen
+- Function/UX reference: NhatKanji (not pixel clone, not content scrape)
+- Primary content: Tiếng Nhật Đơn Giản (with source metadata)
 
 ### Reason
 
@@ -132,7 +132,7 @@ Master Requirement §1–4; planned `SOURCE-MAPPING.md`
 
 ## ADR-005 — Translation grading is matched / needs_review
 
-Date: 2026-09-13 (implemented in `grade()`)  
+Date: 2026-09-13 (implemented in `grade()`)
 Status: Accepted
 
 ### Context
@@ -163,7 +163,7 @@ Do not auto-convert translation scores into FSRS ratings without an approved rul
 
 ## ADR-006 — Immutable content revisions + stable pattern IDs
 
-Date: 2026-09-13  
+Date: 2026-09-13
 Status: Accepted
 
 ### Context
@@ -194,7 +194,7 @@ Do not silently mutate published revision payloads. Do not remap IDs to “clean
 
 ## ADR-007 — Repository is persistent AI memory
 
-Date: 2026-09-14  
+Date: 2026-09-14
 Status: Accepted
 
 ### Context
@@ -225,7 +225,7 @@ Do not treat conversation memory as SoT. Do not fabricate verification or counts
 
 ## ADR-008 — Grammar course progress denominator and XP entity
 
-Date: 2026-09-15  
+Date: 2026-09-15
 Status: Accepted
 
 ### Context
@@ -259,7 +259,7 @@ Do not switch the denominator to published-only without a product decision. Do n
 
 ## ADR-009 — JA→VI practice furigana (optional structured ruby)
 
-Date: 2026-09-16  
+Date: 2026-09-16
 Status: Accepted (N2-L01-FURI-001; product choice **B**, all 26 lessons)
 
 ### Context
@@ -289,3 +289,158 @@ Do not write furigana into `prompt` strings. Do not claim teacher-verified readi
 ### Related Files
 
 `shared/grammar/types.ts`, `server/modules/grammar/content.ts`, `src/features/grammar/Grammar.tsx`, `scripts/gen-n2-ja-vi-prompt-ruby.mjs`, `docs/PLAN.md` (N2-L01-FURI-001)
+
+---
+
+## ADR-010 — Kaiwa is a Kotoba module extension, not a separate app
+
+Date: 2026-09-17
+Status: Accepted (product / architecture intent; **application code not yet implemented**)
+
+### Context
+
+Kaiwa Studio needs video dubbing / speaking practice. The repo already has React + Express + SQLite, auth, stats, backup, and UX contracts.
+
+### Decision
+
+Build Kaiwa as an extension of Kotoba: planned layout `src/features/kaiwa/`, `shared/kaiwa/`, `server/modules/kaiwa/`, `server/workers/kaiwa/`, `server/modules/kaiwa/providers/`. Reuse auth, navigation patterns, DESIGN.md / UX-CONTRACT, and ownership checks. Do not spawn a second product/backend.
+
+### Reason
+
+Matches ADR-001/002 reuse pattern; reduces duplicate identity, progress, and ops surfaces.
+
+### Consequences
+
+Kaiwa must respect existing cookie sessions, origin checks, and per-owner data boundaries. Large media stays outside SQLite (see ADR-012).
+
+### Do Not
+
+Do not create a separate Kaiwa deployable or parallel auth stack. Do not treat planning docs as shipped code.
+
+### Related Files
+
+`docs/kaiwa/PLAN.md`, `docs/PRODUCT.md`, `docs/PROJECT-CONTEXT.md`
+
+---
+
+## ADR-011 — Full-video continuous dubbing before character role-play
+
+Date: 2026-09-17
+Status: Accepted
+
+### Context
+
+Both continuous full-video dubbing and single-character role-play were considered for speaking practice.
+
+### Decision
+
+Ship **full-video continuous dubbing** first (Gate A usable product; Gate B validated Japanese feedback). **Character role-play** is Gate C / KAI-035 and must not start before Gate B. While recording, video does **not** auto-stop per sentence; segments are for post-record analysis only.
+
+### Reason
+
+User-locked product priority; role-play needs speaker separation and overlap handling that should not delay the core loop.
+
+### Consequences
+
+KAI-001–034 focus on the continuous dubbing path. Do not reorder the backlog to role-play first.
+
+### Do Not
+
+Do not require character selection in the Gate A/B flow. Do not fake continuous takes by stitching per-sentence recordings.
+
+### Related Files
+
+`docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, `docs/PLAN.md`
+
+---
+
+## ADR-012 — Source media and raw microphone stay separate; exports are versioned outputs
+
+Date: 2026-09-17
+Status: Accepted (intent; schema/storage land in later KAI tasks)
+
+### Context
+
+Dubbing needs reliable re-mix, re-export, and assessment without destroying originals.
+
+### Decision
+
+Persist **source video** and **raw microphone** audio as separate private assets. Derived mixes / MP4 exports are versioned outputs. SQLite stores metadata and pointers only — not large media as base64/blobs.
+
+### Reason
+
+Enables independent export vs assessment pipelines and safe reprocessing.
+
+### Consequences
+
+Private per-owner storage + Range-authenticated reads are required before claiming Gate A.
+
+### Do Not
+
+Do not overwrite raw mic when exporting. Do not store large media in SQLite.
+
+### Related Files
+
+`docs/kaiwa/PLAN.md` (§5–6)
+
+---
+
+## ADR-013 — Transcript revisions are immutable for existing attempts
+
+Date: 2026-09-17
+Status: Accepted (intent; implementation in KAI-005+)
+
+### Context
+
+Learners may edit subtitles after practicing. Old takes must remain graded/reviewed against the text they used.
+
+### Decision
+
+Transcript content is **immutable/versioned**. Each take/attempt references the transcript revision in force at capture time. Edits create a new revision; they do not mutate history used by past takes.
+
+### Reason
+
+Prevents silent score/review drift and supports reproducible feedback.
+
+### Consequences
+
+UI must publish/select revisions explicitly before a new take when text changes.
+
+### Do Not
+
+Do not rewrite historical attempt transcript snapshots in place.
+
+### Related Files
+
+`docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md` (KAI-005, KAI-016)
+
+---
+
+## ADR-014 — Assessment must not block playback or export
+
+Date: 2026-09-17
+Status: Accepted
+
+### Context
+
+Scoring providers may be unavailable, slow, or wrong. Learners still need to hear takes and export MP4.
+
+### Decision
+
+**Export** and **assessment** are independent jobs/pipelines. Scoring failure or UNAVAILABLE results must not block playback or export. Japanese scores must not be faked (no ASR-confidence-as-pronunciation, no waveform-similarity-as-intonation, no absolute pitch/timbre as ability). Insufficient evidence → UNAVAILABLE / NOT ASSESSABLE + reason — never invent 0. Azure prosody is **not** assumed to be a Japanese intonation solution; provider capability requires spike/verify (KAI-003). Manual subtitle + record + playback + export must work without external APIs.
+
+### Reason
+
+Gate A usability and learner trust; Gate B requires honest evidence.
+
+### Consequences
+
+UI must separate “export ready” from “score ready”. KAI-003 must verify providers before locking scoring ADRs.
+
+### Do Not
+
+Do not hard-commit Azure (or any vendor) as the Japanese intonation solution in ADR before KAI-003 evidence. Do not block export on scoring errors.
+
+### Related Files
+
+`docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md` (KAI-003, KAI-022–029)

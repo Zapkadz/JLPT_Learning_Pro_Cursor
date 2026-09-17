@@ -20,7 +20,13 @@ P0: tài khoản riêng, bộ thẻ thủ công và nhập văn bản/TXT/CSV/TS
 
 P1: kho kiến thức N5→N1 do biên tập viên duyệt, nhập PDF/DOCX/XLSX qua job extraction và màn hình hiệu chỉnh, OCR có confidence, quản trị nội dung, quên mật khẩu qua email, kiểm duyệt nâng cao, phát âm có bản quyền, tối ưu tham số FSRS từ lịch sử, backup tự động và restore có diễn tập. Chỉ cung cấp định dạng đã xử lý đáng tin trong bản hiện hành.
 
-P2: đọc hiểu, nghe hiểu, hội thoại; bổ sung sau theo yêu cầu. Không đưa nút rỗng vào luồng học.
+P2: đọc hiểu, nghe hiểu; bổ sung sau theo yêu cầu. Không đưa nút rỗng vào luồng học.
+
+### Kaiwa Studio (approved / planned — not shipped)
+
+**Kaiwa Studio** là module luyện nói / lồng tiếng video trong cùng ứng dụng Kotoba (không phải app riêng). Phạm vi hiện tại đã chốt: **full-video continuous dubbing** (upload → chuẩn bị transcript → thu liên tục toàn video → nghe lại → phân tích → export MP4). **Character role-play** là phase sau khi Gate B ổn định — chưa thuộc scope triển khai hiện tại.
+
+Trạng thái sản phẩm: kế hoạch và backlog đã duyệt (`docs/kaiwa/`); **chưa implement** trong code. Không mô tả Kaiwa như tính năng đã phát hành.
 
 ## User Flow
 
@@ -30,7 +36,9 @@ Nhập học liệu → map trường bằng dấu phân cách → xem lỗi/tr�
 
 ## Sitemap & screens
 
-`/` Tổng quan; `/decks` bộ thẻ, tìm kiếm; `/decks/new` trình soạn; `/decks/:id` chi tiết/chỉnh sửa; `/review` ôn; `/kana` bảng âm; `/practice` chọn phân môn/cấp độ/nguồn; phiên làm bài và kết quả trong màn hình luyện tập; `/progress` heatmap/lịch sử/thống kê; `/settings` mục tiêu/cấp độ/retention/xuất dữ liệu; `/login` đăng nhập/đăng ký. Màn hình lỗi và trang không tìm thấy giữ điều hướng.
+`/` Tổng quan; `/decks` bộ thẻ, tìm kiếm; `/decks/new` trình soạn; `/decks/:id` chi tiết/chỉnh sửa; `/review` ôn; `/kana` bảng âm; `/practice` chọn phân môn/cấp độ/nguồn; phiên làm bài và kết quả trong màn hình luyện tập; `/progress` heatmap/lịch sử/thống kê; `/settings` mục tiêu/cấp độ/retention/xuất dữ liệu; `/login` đăng nhập/đăng ký; `/grammar` khóa ngữ pháp N2. Màn hình lỗi và trang không tìm thấy giữ điều hướng.
+
+**Planned (not shipped):** `/kaiwa` và các route studio / attempt / history theo `docs/kaiwa/PLAN.md`.
 
 ## UI System
 

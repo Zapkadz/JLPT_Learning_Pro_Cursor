@@ -2,72 +2,73 @@
 
 ## Last Updated
 
-2026-09-16 (N2-L01-FURI-001 PR #14)
+2026-09-17 (Kaiwa memory integration → next: KAI-001)
 
 ## Project
 
-Kotoba — Japanese Learning (`kotoba-learning`)  
+Kotoba — Japanese Learning (`kotoba-learning`)
 Remote: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor.git
 
 ## Current Branch
 
-`feat/n2-l01-furi-001` @ `d9f1448` — PR #14 open.
+`feat/kaiwa-memory` (memory/docs/rules integration).
 
 ## Latest Relevant Commit
 
-`feat/n2-l01-furi-001` @ `d9f1448` — optional JA→VI furigana (ADR-009).  
-PR: https://github.com/Zapkadz/JLPT_Learning_Pro_Cursor/pull/14  
-`main` still at `902e0f0` until merge.
+See `git log -1` after push. Base: `main` @ `7b1e324` (PR #14 N2-L01-FURI-001 merged).
 
 ## Current Objective
 
-**N2-L01-FURI-001** — PR #14 open. After merge: teacher review still open; no further FURI coding unless product asks.
+**Kaiwa Studio** — full-video continuous dubbing (Gate A → Gate B).
 
 ## Current Phase
 
-**Phase 1+** — 26/141/4230 on `main`; optional JA→VI furigana on PR branch.
+Design / risk validation (pre-implementation spikes).
 
 ## Current Task
 
-Await merge of PR #14.
+**KAI-001** — integration / architecture / pilot-limits / privacy audit (see `docs/kaiwa/TASKS.md`).
 
 ## Last Completed Work
 
-- ADR-009 policy B; `promptRuby` on 1410 ja-vi; practice toggle; Kuroshiro generator.  
-- Commit `d9f1448`; PR #14 opened.  
-- `npm test` 16/16; build OK.
+- Grammar N2: 26/141/4230 published; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14); teacher review still PENDING.
+- Kaiwa planning docs: DOC-001 / DOC-002 / DOC-003 DONE (`docs/kaiwa/`).
+- Root project memory + autonomous workflow rules updated for Kaiwa (this session). Documentation completion ≠ product implementation.
 
 ## Current State
 
-- Published: **26 / 141 / 4230**.  
-- JA→VI furigana: structured (agent readings).  
-- Teacher review: PENDING.
+- Kaiwa application code: **not started** (no `src/features/kaiwa`, no `server/modules/kaiwa`).
+- Gate A: not started. Gate B: not started. No Kaiwa feature accepted.
+- Local WIP (unrelated, do not mix into Kaiwa commits unless fixing): grammar lesson `revision` bumps + `tests/grammar/grammar.test.ts` dirty in working tree.
 
 ## Verification State
 
 | Check | State |
 |-------|--------|
-| `npm test` | **16/16 pass** |
-| Commit | `d9f1448` |
-| PR | **#14 open** |
+| Memory consistency audit | Pending until commit of this handoff |
+| Kaiwa app tests | N/A (no app code yet) |
 
 ## Known Blockers
 
-- Independent teacher review of readings/language.
+- None for KAI-001 (docs/audit task; no external API required).
+- Grammar: independent teacher review still PENDING (does not block Kaiwa).
 
 ## Exact Next Action
 
-1. Merge PR #14 when ready.  
-2. Do **not** claim teacher-verified furigana.
+Execute **KAI-001** according to `docs/kaiwa/TASKS.md` and `docs/kaiwa/IMPLEMENTATION-RULES.md` (integration-point survey + ADR candidates; no behaviour change to existing modules beyond documented decisions).
 
 ## Files To Read Before Continuing
 
-1. `docs/DECISIONS.md` (ADR-009)  
-2. `docs/PLAN.md`  
-3. `docs/PROGRESS.md`
+1. `docs/kaiwa/PLAN.md`
+2. `docs/kaiwa/TASKS.md`
+3. `docs/kaiwa/IMPLEMENTATION-RULES.md`
+4. `docs/DECISIONS.md`
+5. Source files identified during the KAI-001 audit (`server/app.ts`, `server/schema.sql`, auth/nav/stats/backup, upload/middleware patterns).
 
 ## Safety Notes
 
-- Do not embed furigana in raw `prompt`.  
-- Do not remap L1 IDs / hard-code 151→141.  
-- Commit only when user asks.
+- Do not start KAI-035 (character role-play) before Gate B.
+- Do not invent Kaiwa as shipped.
+- Do not stage unrelated grammar dirty files into Kaiwa commits.
+- Do not commit secrets, user media, or local DB.
+- Autonomous commit/push/continue after VERIFY PASS (see `.cursor/rules/development-workflow.mdc`).
