@@ -225,6 +225,50 @@ export function kaiwaModule(
     res.json(repo.getAttempt(res.locals.user.id, String(req.params.id)));
   });
 
+  router.post("/attempts/:id/finalize", (req, res) => {
+    const ownerId = res.locals.user.id as string;
+    const attemptId = String(req.params.id);
+    const body = z
+      .object({
+        completion: z.enum([
+          "completed",
+          "partial",
+          "interrupted",
+          "failed",
+        ]),
+        durationMs: z.number().int().nonnegative().optional(),
+        clocks: z.record(z.unknown()).optional(),
+        device: z.record(z.unknown()).optional(),
+      })
+      .parse(req.body);
+    const existing = repo.getAttempt(ownerId, attemptId);
+    // Idempotent: already finalized
+    const row = db
+      .prepare("SELECT * FROM kaiwa_attempts WHERE id=? AND owner_id=?")
+      .get(attemptId, ownerId) as {
+      finalized_at: string | null;
+      record_state: string;
+    };
+    if (row.finalized_at) {
+      return res.json(repo.getAttempt(ownerId, attemptId));
+    }
+    const now = new Date().toISOString();
+    db.prepare(
+      `UPDATE kaiwa_attempts SET completion=?, duration_ms=?, clocks_json=?, device_json=?,
+       record_state='saved', finalized_at=? WHERE id=? AND owner_id=?`,
+    ).run(
+      body.completion,
+      body.durationMs ?? null,
+      JSON.stringify(body.clocks ?? {}),
+      JSON.stringify(body.device ?? {}),
+      now,
+      attemptId,
+      ownerId,
+    );
+    void existing;
+    res.json(repo.getAttempt(ownerId, attemptId));
+  });
+
   router.get("/storage/usage", (_req, res) => {
     const uid = res.locals.user.id as string;
     res.json({

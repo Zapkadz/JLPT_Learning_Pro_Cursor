@@ -22,6 +22,7 @@ import {
 import type { KaiwaRubyToken, KaiwaSegment } from "../../../shared/kaiwa/types";
 import { useAuth } from "../../App";
 import { MicPreflightPanel } from "./MicPreflightPanel";
+import { ContinuousRecorder } from "./ContinuousRecorder";
 import "./kaiwa.css";
 
 type ProjectRow = {
@@ -1128,9 +1129,21 @@ export function KaiwaStudio() {
 
       <MicPreflightPanel onReady={setMicReady} />
 
-      {micReady && (
+      {micReady && attemptId && (
+        <ContinuousRecorder
+          attemptId={attemptId}
+          videoUrl={
+            data.proxyAssetId
+              ? `/api/kaiwa/assets/${data.proxyAssetId}/content`
+              : null
+          }
+          deviceId={micReady.deviceId}
+        />
+      )}
+
+      {micReady && !attemptId && (
         <Status tone="success">
-          Micro sẵn sàng: {micReady.label}. Countdown / thu liên tục → KAI-018.
+          Micro sẵn sàng: {micReady.label}.
         </Status>
       )}
 

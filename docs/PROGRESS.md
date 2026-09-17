@@ -252,6 +252,11 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-018 (2026-09-18) — DONE
+
+Capture state machine; continuous MediaRecorder + video clock; countdown; early stop=partial / EOF=completed; idempotent finalize. Journal upload deferred to KAI-019.
+Evidence: `docs/kaiwa/evidence/kai-018/REPORT.md`. Verify: `npm test` **56/56**; build OK.
+
 ### KAI-017 (2026-09-18) — DONE
 
 Mic preflight: permission/device/meter/local test clip; no speaker loopback; stop on leave; no external provider.
@@ -328,6 +333,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-018 continuous recorder | **56/56** npm test; build OK | `docs/kaiwa/evidence/kai-018/REPORT.md` |
 | 2026-09-18 | KAI-017 mic preflight | **52/52** npm test; build OK | `docs/kaiwa/evidence/kai-017/REPORT.md` |
 | 2026-09-18 | KAI-016 prep + snapshot | **50/50** npm test; build OK | `docs/kaiwa/evidence/kai-016/REPORT.md` |
 | 2026-09-18 | KAI-014 reading/romaji layers | **48/48** npm test; build OK | `docs/kaiwa/evidence/kai-014/REPORT.md` |
@@ -372,7 +378,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 ## Known Incomplete Work
 
-- Kaiwa **KAI-018+** (continuous recorder / journal). KAI-015 ASR deferred without credentials.
+- Kaiwa **KAI-019+** (journal / finalize remux). KAI-015 ASR deferred without credentials.
 - KAI-010 ffmpeg normalize / thumbnail binary still deferred until `FFMPEG_PATH` (passthrough proxy OK for UI).
 - Independent teacher review of N2 content / furigana readings (language QA).
 - Possible local grammar content `revision` bump still uncommitted (separate from Kaiwa).

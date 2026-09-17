@@ -252,21 +252,13 @@ export function createKaiwaRepository(db: Database.Database) {
   function getAttempt(ownerId: string, attemptId: string) {
     const row = db
       .prepare("SELECT * FROM kaiwa_attempts WHERE id=? AND owner_id=?")
-      .get(attemptId, ownerId) as
-      | {
-          id: string;
-          revision_id: string;
-          project_id: string;
-          record_state: string;
-          created_at: string;
-        }
-      | undefined;
+      .get(attemptId, ownerId) as Record<string, unknown> | undefined;
     if (!row) fail(404, "Không tìm thấy bản thu trong tài khoản của bạn.");
-    const revision = getRevision(row.revision_id);
-    const project = ownProject(row.project_id, ownerId);
-    const payload = JSON.parse(revision.payload || '{"segments":[]}') as {
-      segments: unknown[];
-    };
+    const revision = getRevision(String(row.revision_id));
+    const project = ownProject(String(row.project_id), ownerId);
+    const payload = JSON.parse(
+      (revision.payload as string) || '{"segments":[]}',
+    ) as { segments: unknown[] };
     const segments = Array.isArray(payload.segments) ? payload.segments : [];
     return {
       ...row,
