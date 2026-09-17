@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** KAI-001–022 (015 stub), KAI-024–025, KAI-030a, KAI-031–032 DONE; KAI-033 docs packaged / **device PENDING**. Gate A **not accepted**. Live ASR + KAI-030b deferred.
+- **Kaiwa Studio:** KAI-001–022 (015 stub), KAI-024–026 stubs, KAI-030a, KAI-031–032 DONE; KAI-033 docs packaged / **device PENDING**. Gate A **not accepted**. Live ASR/PA + KAI-030b deferred.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -252,6 +252,10 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-026 (2026-09-18) — DONE (schema+stub; live deferred)
+
+Evidence schema + pronunciation API stub; never maps ASR confidence → accuracy; rejects ja-JP ProsodyScore; no invented scores. Evidence: `docs/kaiwa/evidence/kai-026/REPORT.md`. Verify: **89/89**.
+
 ### KAI-025 (2026-09-18) — DONE (synthetic timeline)
 
 Utterance/timeline alignment on video clock; edge padding; missing_speech vs data_gap; never allows phoneme claims; POST/GET `/attempts/:id/alignment`. Evidence: `docs/kaiwa/evidence/kai-025/REPORT.md`. Verify: **81/81**.
@@ -379,6 +383,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-026 pronunciation schema+stub | **89/89** npm test; build OK | `docs/kaiwa/evidence/kai-026/REPORT.md` |
 | 2026-09-18 | KAI-025 utterance/timeline alignment | **81/81** npm test; build OK | `docs/kaiwa/evidence/kai-025/REPORT.md` |
 | 2026-09-18 | KAI-024 audio quality gate | **76/76** npm test; build OK | `docs/kaiwa/evidence/kai-024/REPORT.md` |
 | 2026-09-18 | KAI-015 speech not_configured stub | **72/72** npm test; build OK | `docs/kaiwa/evidence/kai-015/REPORT.md` |

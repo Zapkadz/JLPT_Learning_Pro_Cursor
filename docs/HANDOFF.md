@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-025 DONE; KAI-033 device still BLOCKED)
+2026-09-18 (KAI-026 stub DONE; KAI-033 device still BLOCKED)
 
 ## Current Branch
 
@@ -10,22 +10,24 @@
 
 ## Current Task
 
-**KAI-033** — Gate A device checklist (human). No further automated Gate A blockers in code.
+**KAI-033** — Gate A device checklist (human). Automated Gate A code path complete. Gate B depth blocked on external inputs.
 
 ## Exact Next Action
 
-Fill `docs/kaiwa/evidence/kai-033/CHECKLIST.md` on Desktop Chrome + Edge. Next code depth needs KAI-023 teacher/benchmark data or live ASR credentials (KAI-026+).
+1. Fill `docs/kaiwa/evidence/kai-033/CHECKLIST.md` on Desktop Chrome + Edge.
+2. For Gate B: collect KAI-023 benchmark/teacher data and/or live speech credentials (enables KAI-027 / live KAI-015/026).
 
 ## Last Completed
 
-**KAI-025** — Utterance/timeline alignment foundation (video clock, missing_speech vs data_gap, `phonemeClaimsAllowed: false`). Evidence: `docs/kaiwa/evidence/kai-025/REPORT.md`. Verify: **81/81**.
+**KAI-026** — Pronunciation evidence schema + unavailable stub; ASR confidence never becomes accuracy; ProsodyScore rejected for ja-JP. Evidence: `docs/kaiwa/evidence/kai-026/REPORT.md`. Verify: **89/89**.
 
 ## Blockers
 
 - Gate A device sign-off (human).
-- KAI-023 benchmark / live ASR credentials for Gate B depth.
+- KAI-023 benchmark / live ASR+PA credentials for KAI-027+ and live adapters.
 
 ## Safety
 
 - Do not stage grammar dirty files.
 - Do not mark Gate A ACCEPTED without checklist.
+- Do not invent pronunciation/prosody scores without provider+benchmark.

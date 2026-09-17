@@ -20,6 +20,13 @@ export type SpeechCapability = {
     providers: string[];
     messageVi: string;
   };
+  pronunciation: {
+    status: SpeechCapabilityStatus;
+    providers: string[];
+    messageVi: string;
+    /** ProsodyScore must not be used for ja-JP (en-US only per Azure docs). */
+    prosodySupportedForJaJp: false;
+  };
   credentialsPresent: boolean;
   liveTestsAllowed: boolean;
 };
@@ -51,6 +58,13 @@ export function resolveSpeechCapability(
       providers: [],
       messageVi:
         "Chưa cấu hình dịch tự động. Hãy nhập bản dịch Việt thủ công nếu cần.",
+    },
+    pronunciation: {
+      status: "not_configured",
+      providers: [],
+      messageVi:
+        "Chưa cấu hình chấm phát âm ja-JP. Nghe lại / xuất vẫn dùng được; không gán điểm giả.",
+      prosodySupportedForJaJp: false,
     },
     credentialsPresent: hasAsr || hasTranslate,
     liveTestsAllowed: false,

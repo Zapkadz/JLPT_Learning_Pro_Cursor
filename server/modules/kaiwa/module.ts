@@ -17,6 +17,7 @@ import { createOpsService, redactForLog } from "./ops";
 import { resolveSpeechCapability } from "./speechCapability";
 import { createAudioQualityService } from "./audioQualityService";
 import { createAlignmentService } from "./alignmentService";
+import { createPronunciationService } from "./pronunciationService";
 
 export { KaiwaError };
 
@@ -90,6 +91,7 @@ export function kaiwaModule(
   const ops = createOpsService(db, assets, jobService, config);
   const audioQuality = createAudioQualityService(db, assets);
   const alignment = createAlignmentService(db);
+  const pronunciation = createPronunciationService(db);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -351,6 +353,30 @@ export function kaiwaModule(
       res.status(404).json({
         error: "Chưa có căn chỉnh cho bản thu này.",
         code: "alignment_not_run",
+      });
+      return;
+    }
+    res.json(stored);
+  });
+
+  router.post("/attempts/:id/pronunciation", (req, res) => {
+    res.json(
+      pronunciation.assessAttempt(
+        res.locals.user.id,
+        String(req.params.id),
+      ),
+    );
+  });
+
+  router.get("/attempts/:id/pronunciation", (req, res) => {
+    const stored = pronunciation.getStored(
+      res.locals.user.id,
+      String(req.params.id),
+    );
+    if (!stored) {
+      res.status(404).json({
+        error: "Chưa có kết quả chấm phát âm cho bản thu này.",
+        code: "pronunciation_not_run",
       });
       return;
     }
