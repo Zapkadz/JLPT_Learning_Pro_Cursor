@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-027 provisional DONE; next KAI-028; KAI-033 device BLOCKED)
+2026-09-18 (KAI-028 DONE; next KAI-029; KAI-033 device BLOCKED)
 
 ## Current Branch
 
@@ -10,23 +10,23 @@
 
 ## Current Task
 
-**KAI-028** — Assessment aggregate (version/rubric/coverage/cache/idempotency). KAI-033 device still human-blocked.
+**KAI-029** — Vietnamese feedback UI (1–3 priorities, timestamps, A/B listen). KAI-033 device still human-blocked.
 
 ## Exact Next Action
 
-Implement KAI-028 aggregate over quality + alignment + pronunciation stub + prosody provisional. Device checklist remains human.
+Wire review UI to `POST /attempts/:id/assessment`: show priorities, coverage, seek-to evidence; provider fail must not block listen/export.
 
 ## Last Completed
 
-**KAI-027** — Relative F0/timing prosody; never pitch-accent / ability scores; WebM → unavailable. Evidence: `docs/kaiwa/evidence/kai-027/REPORT.md`. Verify: **95/95**.
+**KAI-028** — Assessment aggregate with fingerprint cache, rubric version isolation, `overallScore: null`, `charged: false`. Evidence: `docs/kaiwa/evidence/kai-028/REPORT.md`. Verify: **99/99**.
 
 ## Blockers
 
 - Gate A device sign-off (human).
-- KAI-023 teacher/benchmark for calibration and Gate B thresholds.
+- KAI-023 teacher/benchmark for calibrated scores / Gate B.
 
 ## Safety
 
 - Do not stage grammar dirty files.
 - Do not mark Gate A ACCEPTED without checklist.
-- Do not invent pronunciation/prosody scores or pitch-accent labels.
+- Do not invent overall pronunciation scores in UI.

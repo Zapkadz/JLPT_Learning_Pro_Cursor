@@ -19,6 +19,7 @@ import { createAudioQualityService } from "./audioQualityService";
 import { createAlignmentService } from "./alignmentService";
 import { createPronunciationService } from "./pronunciationService";
 import { createProsodyService } from "./prosodyService";
+import { createAssessmentService } from "./assessmentService";
 
 export { KaiwaError };
 
@@ -94,6 +95,12 @@ export function kaiwaModule(
   const alignment = createAlignmentService(db);
   const pronunciation = createPronunciationService(db);
   const prosody = createProsodyService(db, assets);
+  const assessment = createAssessmentService(db, {
+    audioQuality,
+    alignment,
+    pronunciation,
+    prosody,
+  });
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -400,6 +407,36 @@ export function kaiwaModule(
       res.status(404).json({
         error: "Chưa có phân tích nhịp/ngữ điệu cho bản thu này.",
         code: "prosody_not_run",
+      });
+      return;
+    }
+    res.json(stored);
+  });
+
+  router.post("/attempts/:id/assessment", (req, res) => {
+    const body = z
+      .object({
+        force: z.boolean().optional(),
+        rubricVersion: z.string().min(1).optional(),
+      })
+      .parse(req.body ?? {});
+    const { assessment: report, reused } = assessment.assessAttempt(
+      res.locals.user.id,
+      String(req.params.id),
+      body,
+    );
+    res.status(reused ? 200 : 201).json({ ...report, reused });
+  });
+
+  router.get("/attempts/:id/assessment", (req, res) => {
+    const stored = assessment.getStored(
+      res.locals.user.id,
+      String(req.params.id),
+    );
+    if (!stored) {
+      res.status(404).json({
+        error: "Chưa có tổng hợp assessment cho bản thu này.",
+        code: "assessment_not_run",
       });
       return;
     }
