@@ -13,6 +13,7 @@ import { createAttemptChunkService } from "./attemptChunks";
 import { createFinalizeTakeService } from "./finalizeTake";
 import { createExportService } from "./exportMp4";
 import { listActivityHistory } from "./activity";
+import { createOpsService, redactForLog } from "./ops";
 
 export { KaiwaError };
 
@@ -83,6 +84,7 @@ export function kaiwaModule(
   const attemptChunks = createAttemptChunkService(db, assets, config);
   const finalizeTake = createFinalizeTakeService(db, assets, attemptChunks);
   const exports = createExportService(db, assets, jobService);
+  const ops = createOpsService(db, assets, jobService, config);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -104,6 +106,24 @@ export function kaiwaModule(
   router.post("/projects", (req, res) => {
     const project = repo.createProject(res.locals.user.id, req.body);
     res.status(201).json(project);
+  });
+
+  router.delete("/projects/:id", (req, res) => {
+    const result = ops.softDeleteProject(
+      res.locals.user.id,
+      String(req.params.id),
+    );
+    res.json(result);
+  });
+
+  router.get("/ops/snapshot", (_req, res) => {
+    res.json(ops.opsSnapshot(res.locals.user.id));
+  });
+
+  router.post("/ops/gc", (_req, res) => {
+    ops.purgeExpiredUploads();
+    const gc = ops.garbageCollectTombstones(res.locals.user.id);
+    res.json({ ok: true, gc, note: redactForLog({ action: "gc" }) });
   });
 
   router.get("/projects/:id", (req, res) => {

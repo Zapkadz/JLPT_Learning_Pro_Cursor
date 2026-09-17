@@ -292,6 +292,8 @@ export function KaiwaProject() {
   );
   const [prepError, setPrepError] = useState("");
   const [preparing, setPreparing] = useState(false);
+  const [deleting, setDeleting] = useState(false);
+  const navigate = useNavigate();
 
   const playbackUrl = useMemo(() => {
     if (!data?.proxy_asset_id) return null;
@@ -309,6 +311,25 @@ export function KaiwaProject() {
       setPrepError(e instanceof Error ? e.message : "Chuẩn bị thất bại.");
     } finally {
       setPreparing(false);
+    }
+  }
+
+  async function deleteProject() {
+    if (!id || !data) return;
+    if (
+      !window.confirm(
+        `Xóa dự án «${data.title}»? File media sẽ được dọn khi không còn tham chiếu.`,
+      )
+    )
+      return;
+    setDeleting(true);
+    setPrepError("");
+    try {
+      await api(`/kaiwa/projects/${id}`, { method: "DELETE" });
+      navigate("/kaiwa", { replace: true });
+    } catch (e) {
+      setPrepError(e instanceof Error ? e.message : "Xóa thất bại.");
+      setDeleting(false);
     }
   }
 
@@ -374,6 +395,14 @@ export function KaiwaProject() {
           <Link className="btn secondary" to="/kaiwa/new">
             Tải video khác
           </Link>
+          <button
+            type="button"
+            className="btn secondary"
+            disabled={deleting}
+            onClick={() => void deleteProject()}
+          >
+            {deleting ? "Đang xóa…" : "Xóa dự án"}
+          </button>
         </div>
       </div>
 

@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** KAI-001–014, KAI-016–022, KAI-030a DONE. Gate A/B **not accepted**. Next: **KAI-031**. KAI-015 / KAI-030b deferred.
+- **Kaiwa Studio:** KAI-001–014, KAI-016–022, KAI-030a, KAI-031 DONE. Gate A/B **not accepted**. Next: **KAI-032**. KAI-015 / KAI-030b deferred.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -252,6 +252,10 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-031 (2026-09-18) — DONE
+
+Soft-delete project cancels jobs + GC tombstoned assets; `backup --with-media` + MANIFEST verify; ops snapshot; redactForLog. Evidence: `docs/kaiwa/evidence/kai-031/REPORT.md`. Verify: **68/68**; build OK.
+
 ### KAI-030a (2026-09-18) — DONE
 
 Take history + `kaiwa_activity_events` on finalize (idempotent); `/kaiwa/history`; ADR-018 separates Kaiwa from deck/grammar XP. Evidence: `docs/kaiwa/evidence/kai-030a/REPORT.md`. Verify: **65/65**; build OK.
@@ -355,6 +359,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-031 backup/soft-delete/GC | **68/68** npm test; build OK | `docs/kaiwa/evidence/kai-031/REPORT.md` |
 | 2026-09-18 | KAI-030a history + ADR-018 | **65/65** npm test; build OK | `docs/kaiwa/evidence/kai-030a/REPORT.md` |
 | 2026-09-18 | KAI-022 export MP4 + download | **64/64** npm test; build OK | `docs/kaiwa/evidence/kai-022/REPORT.md` |
 | 2026-09-18 | KAI-021 review dual-gain + take history | **63/63** npm test; build OK | `docs/kaiwa/evidence/kai-021/REPORT.md` |
@@ -405,7 +410,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 ## Known Incomplete Work
 
-- Kaiwa **KAI-031+** (backup / Gate A). KAI-015 ASR deferred; KAI-030b speaking XP deferred.
+- Kaiwa **KAI-032+** (security QA / Gate A). KAI-015 ASR deferred; KAI-030b speaking XP deferred.
 - KAI-010 ffmpeg normalize / thumbnail binary still deferred until `FFMPEG_PATH` (passthrough proxy OK for UI).
 - Independent teacher review of N2 content / furigana readings (language QA).
 - Possible local grammar content `revision` bump still uncommitted (separate from Kaiwa).
