@@ -6,6 +6,7 @@ import { createKaiwaRepository, KaiwaError } from "./repository";
 import { loadKaiwaConfig, type KaiwaConfig } from "./config";
 import { createAssetService } from "./assets";
 import { createJobService } from "./jobs";
+import { createUploadService } from "./uploads";
 
 export { KaiwaError };
 
@@ -46,12 +47,17 @@ export function kaiwaModule(
       "kaiwa-002",
       new Date().toISOString(),
     );
+    db.prepare("INSERT OR IGNORE INTO schema_migrations VALUES(?,?)").run(
+      "kaiwa-003",
+      new Date().toISOString(),
+    );
   })();
 
   const config = loadKaiwaConfig(configOverrides);
   const repo = createKaiwaRepository(db);
   const assets = createAssetService(db, config);
   const jobService = createJobService(db);
+  const uploads = createUploadService(db, assets, config);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -227,6 +233,60 @@ export function kaiwaModule(
 
   router.post("/jobs/:id/cancel", (req, res) => {
     res.json(jobService.cancel(res.locals.user.id, String(req.params.id)));
+  });
+
+  router.post("/uploads", (req, res) => {
+    const body = z
+      .object({
+        purpose: z.string().trim().min(1).max(40),
+        bytes: z.number().int().positive(),
+        chunkSize: z.number().int().positive().optional(),
+        checksum: z.string().trim().min(64).max(64).optional(),
+        ext: z.string().trim().max(8).optional(),
+      })
+      .parse(req.body);
+    const upload = uploads.createUpload({
+      ownerId: res.locals.user.id,
+      purpose: body.purpose,
+      bytes: body.bytes,
+      chunkSize: body.chunkSize,
+      checksum: body.checksum,
+      ext: body.ext,
+    });
+    res.status(201).json(upload);
+  });
+
+  router.get("/uploads/:id", (req, res) => {
+    res.json(uploads.status(res.locals.user.id, String(req.params.id)));
+  });
+
+  router.put(
+    "/uploads/:id/chunks/:index",
+    express.raw({ type: () => true, limit: config.maxUploadBytes }),
+    (req, res) => {
+      const index = Number(req.params.index);
+      const checksum = String(req.get("X-Checksum-Sha256") || "");
+      if (!checksum) throw new KaiwaError(400, "Thiếu header X-Checksum-Sha256.");
+      const data = Buffer.isBuffer(req.body) ? req.body : Buffer.from([]);
+      const result = uploads.putChunk(
+        res.locals.user.id,
+        String(req.params.id),
+        index,
+        data,
+        checksum,
+      );
+      res.json(result);
+    },
+  );
+
+  router.post("/uploads/:id/complete", (req, res) => {
+    const asset = uploads.complete(res.locals.user.id, String(req.params.id));
+    res.json(asset);
+  });
+
+  router.delete("/uploads/:id", (req, res) => {
+    uploads.cancel(res.locals.user.id, String(req.params.id));
+    res.json({ ok: true });
   });
 
   return router;

@@ -104,3 +104,30 @@ CREATE TABLE IF NOT EXISTS kaiwa_quota_reservations(
 CREATE INDEX IF NOT EXISTS kaiwa_quota_owner ON kaiwa_quota_reservations(owner_id, expires_at);
 CREATE INDEX IF NOT EXISTS kaiwa_assets_owner_status ON kaiwa_assets(owner_id, processing_status);
 
+CREATE TABLE IF NOT EXISTS kaiwa_uploads(
+  id TEXT PRIMARY KEY,
+  owner_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  asset_id TEXT NOT NULL REFERENCES kaiwa_assets(id),
+  purpose TEXT NOT NULL,
+  expected_bytes INTEGER NOT NULL,
+  expected_checksum TEXT,
+  chunk_size INTEGER NOT NULL,
+  chunk_count INTEGER NOT NULL,
+  state TEXT NOT NULL DEFAULT 'open',
+  expires_at TEXT NOT NULL,
+  created_at TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS kaiwa_upload_chunks(
+  upload_id TEXT NOT NULL REFERENCES kaiwa_uploads(id) ON DELETE CASCADE,
+  chunk_index INTEGER NOT NULL,
+  checksum TEXT NOT NULL,
+  bytes INTEGER NOT NULL,
+  storage_key TEXT NOT NULL,
+  created_at TEXT NOT NULL,
+  PRIMARY KEY(upload_id, chunk_index)
+);
+
+CREATE INDEX IF NOT EXISTS kaiwa_uploads_owner ON kaiwa_uploads(owner_id, state);
+
+

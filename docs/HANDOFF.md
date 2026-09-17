@@ -2,22 +2,21 @@
 
 ## Last Updated
 
-2026-09-17 (KAI-007 DONE → next: KAI-008)
+2026-09-17 (KAI-008 DONE → next: KAI-009)
 
 ## Current Branch
 
-`feat/kaiwa-memory`
+`feat/kaiwa-memory` @ latest push
 
 ## Current Task
 
-**KAI-008** — binary chunked upload with checksum, resume/cancel (keep global JSON 2MB limit).
+**KAI-009** — probe real media format/codec/duration; reject bad files (needs ffprobe or equivalent).
 
 ## Exact Next Action
 
-Implement KAI-008 per TASKS: upload sessions, chunk PUT by index+hash, complete only when all chunks present, quota+expiry+ownership.
+Implement KAI-009: content-based probe (not extension-only), distinguish unsupported vs corrupt, CPU/RAM/time limits. If `ffprobe` missing on machine, record tool dependency clearly and use pluggable probe adapter.
 
 ## Safety
 
-- Do not raise global `express.json` 2MB limit.
+- Do not stage grammar dirty files.
 - Do not commit user media.
-- Do not stage unrelated grammar dirty files.
