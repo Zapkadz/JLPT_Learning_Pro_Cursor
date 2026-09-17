@@ -94,6 +94,26 @@ export function kaiwaModule(
     res.json(repo.ownProject(String(req.params.id), res.locals.user.id));
   });
 
+  router.get("/projects/:id/active-revision", (req, res) => {
+    const project = repo.ownProject(
+      String(req.params.id),
+      res.locals.user.id,
+    );
+    if (!project.active_revision_id) {
+      throw new KaiwaError(404, "Dự án chưa có bản lời thoại.");
+    }
+    const revision = repo.getRevision(project.active_revision_id);
+    const payload = JSON.parse(revision.payload || '{"segments":[]}');
+    res.json({
+      projectId: project.id,
+      revisionId: revision.id,
+      version: revision.version,
+      state: revision.state,
+      payload,
+      source_json: JSON.parse(revision.source_json || "{}"),
+    });
+  });
+
   router.patch("/projects/:id", (req, res) => {
     res.json(
       repo.patchProject(res.locals.user.id, String(req.params.id), req.body),

@@ -137,7 +137,7 @@ test("vertical slice: upload resume mid-way → prepare → Range playback", asy
         "Content-Type": "application/octet-stream",
         "X-Checksum-Sha256": sha256(c0),
       },
-      body: c0,
+      body: new Uint8Array(c0),
     });
     assert.equal(put0.status, 200);
 
@@ -158,7 +158,7 @@ test("vertical slice: upload resume mid-way → prepare → Range playback", asy
             "Content-Type": "application/octet-stream",
             "X-Checksum-Sha256": sha256(part),
           },
-          body: part,
+          body: new Uint8Array(part),
         },
       );
       assert.equal(put.status, 200);

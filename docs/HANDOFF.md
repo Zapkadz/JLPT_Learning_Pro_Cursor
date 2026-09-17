@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-17 (KAI-012 DONE → next: KAI-013)
+2026-09-17 (KAI-013 DONE → next: KAI-014)
 
 ## Current Branch
 
@@ -10,15 +10,15 @@
 
 ## Current Task
 
-**KAI-013** — SRT/VTT parser + manual transcript editor; timeline split/merge.
+**KAI-014** — Furigana, romaji, Vietnamese translation layers (manual edit + independent toggles).
 
 ## Exact Next Action
 
-Implement shared SRT/VTT parse/validate (BOM/CRLF/HTML-safe, end>start, duration bounds, overlap flags) + project edit UI `/kaiwa/projects/:id/edit`.
+Extend segment model / editor for reading+romaji+VI overrides; persist prefs (furigana on, romaji off); ruby layout; tests for exception readings.
 
 ## Last Completed
 
-**KAI-012** — synthetic fixtures + upload→prepare→Range slice. Evidence: `docs/kaiwa/evidence/kai-012/REPORT.md`. Verify: `npm test` **38/38**.
+**KAI-013** — SRT/VTT parse/validate + `/kaiwa/projects/:id/edit`. Evidence: `docs/kaiwa/evidence/kai-013/REPORT.md`. Verify: `npm test` **42/42**, build OK.
 
 ## Safety
 
