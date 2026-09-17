@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-031 DONE → next: KAI-032)
+2026-09-18 (KAI-032 DONE → next: KAI-033 Gate A)
 
 ## Current Branch
 
@@ -10,17 +10,22 @@
 
 ## Current Task
 
-**KAI-032** — Security / accessibility / ownership / file-abuse QA.
+**KAI-033** — Gate A acceptance on real devices (Chrome/Edge capture claim).
 
 ## Exact Next Action
 
-Add/extend automated checks: cross-account 404, path traversal, fake MIME, subtitle HTML strip regression; document keyboard/ruby/mobile checklist for Gate A.
+Run full Gate A checklist on supported desktop browsers; attach evidence under `docs/kaiwa/evidence/kai-033/`. Automated path is complete through KAI-032 (**70/70**).
 
 ## Last Completed
 
-**KAI-031** — Soft-delete+GC, media backup with MANIFEST, ops snapshot, redactForLog. Evidence: `docs/kaiwa/evidence/kai-031/REPORT.md`. Verify: **68/68**.
+**KAI-032** — Cross-account isolation + unauth reject + security evidence map. Evidence: `docs/kaiwa/evidence/kai-032/REPORT.md`. Verify: **70/70**.
+
+## Blockers
+
+- **KAI-033** needs human/device runs (mic, crash recovery, full upload→export). Not automatable as Gate A acceptance.
 
 ## Safety
 
 - Do not stage grammar dirty files.
 - Do not commit user media / large derived outputs.
+- Do not mark Gate A accepted without device evidence.
