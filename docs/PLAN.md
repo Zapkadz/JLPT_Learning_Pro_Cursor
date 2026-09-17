@@ -26,7 +26,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Detailed backlog / dependency graph | `docs/kaiwa/TASKS.md` |
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
-| **Current executable task** | **KAI-012** (next; KAI-011 DONE) |
+| **Current executable task** | **KAI-013** (next; KAI-012 DONE) |
 | Next after KAI-001 | KAI-002 (KAI-003 may run early in parallel when deps allow) |
 | Do not start | **KAI-035** before Gate B |
 

@@ -4,7 +4,7 @@ Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION
 
 Ngày cập nhật: 17/09/2026. Mốc A: chưa bắt đầu. Mốc B: chưa bắt đầu. Module hiện chưa có tính năng được nghiệm thu.
 
-KAI-001–011 DONE. Next: **KAI-012** (media fixtures + integration tests).
+KAI-001–012 DONE. Next: **KAI-013** (SRT/VTT parser + transcript editor).
 
 ## Cách đọc
 
@@ -45,13 +45,13 @@ KAI-003 cần bắt đầu sớm cùng giai đoạn nghiên cứu capture. Đây
 | KAI-009 · M · Media | Probe file và kiểm tra format/codec/duration thật; reject tệp sai | KAI-007, KAI-008 | Tệp giả đuôi, file hỏng, quá dài, thiếu track được xử lý; thông báo phân biệt unsupported với corrupt; process có giới hạn CPU/RAM/time | DONE |
 | KAI-010 · L · Media | Pipeline proxy playback, reference audio, thumbnail và timeline mapping | KAI-009 | VFR/rotation/start offset được xử lý; proxy giữ nội dung và thời lượng trong dung sai đã chốt; asset source bất biến; output chỉ ready sau decode/probe thành công | DONE |
 | KAI-011 · M · Frontend/QA | UI upload và thư viện, trạng thái job, retry/hủy, playback có Range | KAI-004, KAI-008, KAI-010 | Tải một video thật tới xem được; reload thấy đúng trạng thái; không upload lại toàn bộ khi resume được; video riêng tư không lộ qua URL đoán được | DONE |
-| KAI-012 · S · Backend/QA | Bộ fixture media và integration tests cho vertical slice đầu tiên | KAI-011 | Có video ngắn/dài, dọc, im lặng, metadata lạ, hỏng; evidence upload → transcode → playback và restart giữa job; không commit media riêng tư vào repo | TODO |
+| KAI-012 · S · Backend/QA | Bộ fixture media và integration tests cho vertical slice đầu tiên | KAI-011 | Có video ngắn/dài, dọc, im lặng, metadata lạ, hỏng; evidence upload → transcode → playback và restart giữa job; không commit media riêng tư vào repo | DONE |
 
 ## 3. Chuẩn bị lời thoại và hỗ trợ tiếng Nhật
 
 | ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
 | --- | --- | --- | --- | --- |
-| KAI-013 · M · Backend/Frontend | Parser SRT/VTT và editor transcript nhập tay; timeline split/merge | KAI-005, KAI-011 | BOM/CRLF/Unicode/markup/time lỗi được kiểm tra; dữ liệu không làm chạy HTML; không nhận end≤start hoặc ngoài duration; overlap được đánh dấu và xử lý rõ | TODO |
+| KAI-013 · M · Backend/Frontend | Parser SRT/VTT và editor transcript nhập tay; timeline split/merge | KAI-005, KAI-011 | BOM/CRLF/Unicode/markup/time lỗi được kiểm tra; dữ liệu không làm chạy HTML; không nhận end≤start hoặc ngoài duration; overlap được đánh dấu và xử lý rõ | IN_PROGRESS |
 | KAI-014 · M · Japanese/Frontend | Furigana, romaji và dịch Việt chỉnh tay; token model và trợ giúp độc lập | KAI-013 | Reading/romaji có test ngoại lệ; override không mất sau reload; đổi câu Nhật làm lớp phụ thuộc cần review; desktop/mobile ruby không tràn; romaji mặc định tắt | TODO |
 | KAI-015 · L · Backend/Speech | Adapter ASR/dịch tự động, job và review workflow; capability/credential UI | KAI-007, KAI-013, KAI-003 | Có đường nhập tay khi chưa cấu hình; kết quả tự động là draft; không đè bản chỉnh mới hơn; lỗi/timeout/quota không mất dữ liệu; test live có ghi provider/version/cost khi được cấu hình | TODO |
 | KAI-016 · M · Frontend/QA | Màn hình chuẩn bị học, transcript đồng bộ, publish revision cho lần thu | KAI-014 | Click câu tua video đúng; ba lớp trợ giúp độc lập; session dùng snapshot bất biến; video không transcript vẫn thu được và thông báo chưa đủ chuẩn chấm | TODO |
@@ -106,17 +106,17 @@ KAI-030 có hai checklist: lịch sử ở A; thời gian nói/XP dựa trên ph
 ## 8. Checklist task đang làm
 
 ```text
-Task: KAI-012 — Bộ fixture media và integration tests cho vertical slice đầu tiên
+Task: KAI-013 — Parser SRT/VTT + editor transcript; split/merge
 Trạng thái: IN_PROGRESS
-Mục tiêu: fixture ngắn/dọc/im lặng/hỏng; evidence upload→prepare→playback; không commit media riêng tư
-Phụ thuộc: KAI-011 DONE
-Task tiếp theo: KAI-013
+Phụ thuộc: KAI-005, KAI-011 DONE
+Task tiếp theo: KAI-014
 ```
 
 ## 9. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 17/09/2026 | KAI-012 synthetic fixtures + vertical-slice integration | `npm test` **38/38**; `docs/kaiwa/evidence/kai-012/REPORT.md` | KAI-013 SRT/VTT |
 | 17/09/2026 | KAI-011 library/upload/project UI + prepare-media + Range video | `npm test` **34/34**; `npm run build` OK; `docs/kaiwa/evidence/kai-011/REPORT.md` | KAI-012 fixtures |
 | 17/09/2026 | KAI-010 passthrough proxy + identity timeline; source immutable; probe gate | `npx tsx --test tests/kaiwa/*.test.ts` **17/17**; evidence `docs/kaiwa/evidence/kai-010/REPORT.md` | KAI-011 UI upload/library |
 | 17/09/2026 | Tạo plan/backlog/rules; xác định lồng tiếng liên tục là ưu tiên; tách gate A/B/C | Đọc stack/middleware/backup hiện tại và tài liệu media/pronunciation; chưa chạy hoặc triển khai module | KAI-001 rồi KAI-002; khởi động nghiên cứu KAI-003 sớm |
