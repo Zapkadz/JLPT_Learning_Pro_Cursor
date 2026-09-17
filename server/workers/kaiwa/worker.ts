@@ -49,6 +49,19 @@ async function handleJob(job: {
     });
     return;
   }
+  if (job.kind === "probe_asset") {
+    const payload = JSON.parse(job.payload || "{}") as {
+      ownerId?: string;
+      assetId?: string;
+    };
+    // Probe is also exposed via HTTP; worker path reserved for async jobs.
+    jobs.complete(workerId, job.id, {
+      deferred: true,
+      note: "Use POST /api/kaiwa/assets/:id/probe; full worker probe lands with media pipeline.",
+      payload,
+    });
+    return;
+  }
   jobs.failJob(
     workerId,
     job.id,

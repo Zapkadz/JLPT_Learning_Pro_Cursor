@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** KAI-001–008 DONE (chunked upload). Gate A/B **not accepted**. Next: **KAI-009**.
+- **Kaiwa Studio:** KAI-001–009 DONE (media probe). Gate A/B **not accepted**. Next: **KAI-010**.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -227,6 +227,11 @@ Re-verified against repository (no app code changes):
 
 - Mapped Lesson 1 groups to Tiếng Nhật Đơn Giản URLs in `inventory.json`.
 
+### KAI-009 (2026-09-17) — DONE
+
+Pluggable media probe (sniff default + optional ffprobe), pilot limits, `POST /assets/:id/probe`, corrupt vs unsupported.
+Evidence: `docs/kaiwa/evidence/kai-009/REPORT.md`. Verify: `npm test` **32/32**.
+
 ### KAI-008 (2026-09-17) — DONE
 
 Chunked binary upload (`/api/kaiwa/uploads`) with SHA-256 per chunk, duplicate-safe, checksum conflict, incomplete-complete blocked, cancel frees quota; JSON 2MB limit unchanged (raw route only).
@@ -288,6 +293,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-17 | KAI-009 media probe | **32/32** npm test | `server/modules/kaiwa/probe/*` |
 | 2026-09-17 | KAI-008 chunked upload | **29/29** npm test | `server/modules/kaiwa/uploads.ts` |
 | 2026-09-17 | KAI-007 durable jobs + worker | **27/27** npm test | `server/modules/kaiwa/jobs.ts`, `server/workers/kaiwa/worker.ts` |
 | 2026-09-17 | KAI-006 private storage + quota + Range | **24/24** npm test | `server/modules/kaiwa/storage.ts`, `assets.ts` |
@@ -324,7 +330,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 ## Known Incomplete Work
 
-- Kaiwa **KAI-009+** (probe). Live scoring verify still needs credentials.
+- Kaiwa **KAI-010+** (proxy/timeline). Live scoring verify still needs credentials.
 - Independent teacher review of N2 content / furigana readings (language QA).
 - Possible local grammar content `revision` bump still uncommitted (separate from Kaiwa).
 

@@ -7,6 +7,7 @@ import { loadKaiwaConfig, type KaiwaConfig } from "./config";
 import { createAssetService } from "./assets";
 import { createJobService } from "./jobs";
 import { createUploadService } from "./uploads";
+import { createProbeService } from "./probeService";
 
 export { KaiwaError };
 
@@ -58,6 +59,7 @@ export function kaiwaModule(
   const assets = createAssetService(db, config);
   const jobService = createJobService(db);
   const uploads = createUploadService(db, assets, config);
+  const probes = createProbeService(db, assets);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -287,6 +289,18 @@ export function kaiwaModule(
   router.delete("/uploads/:id", (req, res) => {
     uploads.cancel(res.locals.user.id, String(req.params.id));
     res.json({ ok: true });
+  });
+
+  router.post("/assets/:id/probe", async (req, res, next) => {
+    try {
+      const out = await probes.probeAsset(
+        res.locals.user.id,
+        String(req.params.id),
+      );
+      res.status(out.result.ok ? 200 : 422).json(out);
+    } catch (e) {
+      next(e);
+    }
   });
 
   return router;

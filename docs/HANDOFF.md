@@ -2,21 +2,21 @@
 
 ## Last Updated
 
-2026-09-17 (KAI-008 DONE → next: KAI-009)
+2026-09-17 (KAI-009 DONE → next: KAI-010)
 
 ## Current Branch
 
-`feat/kaiwa-memory` @ latest push
+`feat/kaiwa-memory`
 
 ## Current Task
 
-**KAI-009** — probe real media format/codec/duration; reject bad files (needs ffprobe or equivalent).
+**KAI-010** — proxy playback, reference audio, thumbnail, timeline mapping (VFR/rotation/start offset).
 
 ## Exact Next Action
 
-Implement KAI-009: content-based probe (not extension-only), distinguish unsupported vs corrupt, CPU/RAM/time limits. If `ffprobe` missing on machine, record tool dependency clearly and use pluggable probe adapter.
+Implement KAI-010 per TASKS after reading PLAN §8 and KAI-009 probe contracts. Prefer job-based transcode when `ffmpeg` available; keep source asset immutable.
 
 ## Safety
 
 - Do not stage grammar dirty files.
-- Do not commit user media.
+- Do not commit user media / large derived outputs.
