@@ -90,3 +90,16 @@ CREATE INDEX IF NOT EXISTS kaiwa_attempts_owner ON kaiwa_attempts(owner_id, crea
 CREATE INDEX IF NOT EXISTS kaiwa_attempts_revision ON kaiwa_attempts(revision_id);
 CREATE INDEX IF NOT EXISTS kaiwa_jobs_owner_state ON kaiwa_jobs(owner_id, state);
 CREATE INDEX IF NOT EXISTS kaiwa_activity_day ON kaiwa_activity_events(owner_id, day);
+
+CREATE TABLE IF NOT EXISTS kaiwa_quota_reservations(
+  id TEXT PRIMARY KEY,
+  owner_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  asset_id TEXT NOT NULL UNIQUE REFERENCES kaiwa_assets(id) ON DELETE CASCADE,
+  bytes INTEGER NOT NULL,
+  expires_at TEXT NOT NULL,
+  created_at TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS kaiwa_quota_owner ON kaiwa_quota_reservations(owner_id, expires_at);
+CREATE INDEX IF NOT EXISTS kaiwa_assets_owner_status ON kaiwa_assets(owner_id, processing_status);
+

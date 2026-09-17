@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** KAI-001–005 DONE (spikes + UX + **schema/API skeleton** `/api/kaiwa`). Still Gate A/B **not accepted**. No media storage yet. Next: **KAI-006**.
+- **Kaiwa Studio:** KAI-001–006 DONE (incl. private FS storage + quota reservation + Range auth). Gate A/B **not accepted**. Next: **KAI-007**.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -227,6 +227,11 @@ Re-verified against repository (no app code changes):
 
 - Mapped Lesson 1 groups to Tiếng Nhật Đơn Giản URLs in `inventory.json`.
 
+### KAI-006 (2026-09-17) — DONE
+
+Private `LocalMediaStorage` under `data/.../kaiwa-media` (env `KAIWA_MEDIA_ROOT`); server-generated keys; quota reservation + release; auth GET/HEAD/Range on `/api/kaiwa/assets/:id/content`. Migration marker `kaiwa-002`.
+Verify: `npm test` **24/24**.
+
 ### KAI-005 (2026-09-17) — DONE
 
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
@@ -273,6 +278,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-17 | KAI-006 private storage + quota + Range | **24/24** npm test | `server/modules/kaiwa/storage.ts`, `assets.ts` |
 | 2026-09-17 | KAI-005 schema/contracts/repository | **21/21** npm test | `shared/kaiwa`, `server/modules/kaiwa`, `tests/kaiwa` |
 | 2026-09-17 | KAI-004 UX specification | wireflow/spec DONE | `docs/kaiwa/evidence/kai-004/UX-SPEC.md` |
 | 2026-09-17 | KAI-003 scoring capability spike | docs map; live UNAVAILABLE; ADR-017 | `docs/kaiwa/evidence/kai-003/REPORT.md` |
@@ -306,7 +312,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 ## Known Incomplete Work
 
-- Kaiwa **KAI-006+** (private storage). Live scoring verify still needs credentials.
+- Kaiwa **KAI-007+** (job queue/worker). Live scoring verify still needs credentials.
 - Independent teacher review of N2 content / furigana readings (language QA).
 - Possible local grammar content `revision` bump still uncommitted (separate from Kaiwa).
 

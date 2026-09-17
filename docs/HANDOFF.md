@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-17 (KAI-005 DONE → next: KAI-006)
+2026-09-17 (KAI-006 DONE → next: KAI-007)
 
 ## Current Branch
 
@@ -18,18 +18,17 @@ Data + media foundation.
 
 ## Current Task
 
-**KAI-006** — private storage adapter; quota and asset lifecycle.
+**KAI-007** — durable DB job queue + separate worker (lease/retry/cancel/progress).
 
 ## Last Completed Work
 
-KAI-005: migration `kaiwa-001`, Zod contracts, repository, `/api/kaiwa` skeleton; tests 21/21.
+KAI-006: private media FS, quota reservation/release, auth Range streaming; tests 24/24.
 
 ## Exact Next Action
 
-Implement KAI-006 per TASKS: private filesystem storage outside web root, server-generated keys, quota reservation, auth’d GET/HEAD/Range.
+Implement KAI-007 per TASKS: job lease/heartbeat, worker process, idempotent publish, timeout cleanup, versioned payloads.
 
 ## Safety
 
-- Do not store media in SQLite blobs.
-- Do not commit user media.
+- Do not commit user media or secrets.
 - Do not stage unrelated grammar dirty files.

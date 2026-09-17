@@ -10,7 +10,8 @@ import helmet from "helmet";
 import { rateLimit } from "express-rate-limit";
 import Database from "better-sqlite3";
 import { readFileSync, mkdirSync } from "node:fs";
-import { dirname, resolve } from "node:path";
+import { dirname, resolve, join } from "node:path";
+import { tmpdir } from "node:os";
 import {
   randomBytes,
   randomUUID,
@@ -247,7 +248,15 @@ export function createApp(
     next();
   });
   app.use("/api/grammar", grammarModule(db));
-  app.use("/api/kaiwa", kaiwaModule(db));
+  app.use(
+    "/api/kaiwa",
+    kaiwaModule(db, {
+      mediaRoot:
+        dbPath === ":memory:"
+          ? join(tmpdir(), `kaiwa-media-${randomUUID()}`)
+          : resolve(dirname(resolve(dbPath)), "kaiwa-media"),
+    }),
+  );
   app.get("/api/me", (_, res) => res.json(publicUser(res.locals.user)));
   function ownDeck(id: unknown, uid: string) {
     const row = db
