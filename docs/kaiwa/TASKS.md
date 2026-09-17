@@ -4,9 +4,7 @@ Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION
 
 Ngày cập nhật: 17/09/2026. Mốc A: chưa bắt đầu. Mốc B: chưa bắt đầu. Module hiện chưa có tính năng được nghiệm thu.
 
-KAI-001 DONE — `docs/kaiwa/evidence/KAI-001-integration-audit.md`, ADR-015.
-KAI-002 DONE — `docs/kaiwa/evidence/kai-002/` (20s/120s/600s PASS), ADR-016.
-KAI-003 DONE — `docs/kaiwa/evidence/kai-003/REPORT.md`, ADR-017 (live samples UNAVAILABLE: missing credentials). Next: **KAI-004**.
+KAI-001–004 DONE (audit, capture, scoring map, UX spec). Next: **KAI-005** (schema/contracts).
 
 ## Cách đọc
 
@@ -32,7 +30,7 @@ DONE ở đây chỉ áp dụng cho tài liệu, không phải hoàn thành ch�
 | KAI-001 · M · PM/Architect | Khảo sát điểm tích hợp auth/nav/stats/backup; chốt ADR phạm vi A/B, giới hạn pilot, hợp đồng lỗi, quy tắc dữ liệu riêng tư và retention | PLAN | Có danh sách file/route cần đổi, giới hạn cấu hình, migration/rollback dự kiến, những quyết định còn mở và người chịu trách nhiệm; không đổi hành vi module cũ | DONE |
 | KAI-002 · L · Media/Frontend | Spike thu liên tục: codec support, micro, video clock, latency, video 10 phút, EOF, mất thiết bị, chuyển nền | KAI-001 | Có harness và báo cáo đo đầu/giữa/cuối; lựa chọn capture stack/codec/browser ghi thành ADR; đạt hoặc nêu rõ lý do chưa đạt mục tiêu drift; không dựa vào số chunk để tính thời gian | DONE |
 | KAI-003 · L · Speech/Japanese | Spike chấm tiếng Nhật: capability thực của provider, F0/nhịp, giới hạn audio, rubric và thiết kế tập đánh giá | KAI-001 | Có mẫu kết quả thật khi có dịch vụ, capability map theo ja-JP, danh sách lỗi được/không được phép kết luận; phương án fallback và đề cương benchmark; thiếu credential được ghi rõ, không giả kết quả | DONE |
-| KAI-004 · M · UX/QA | Thiết kế chi tiết các màn hình, recorder states và luồng lỗi theo PLAN; ma trận trình duyệt/thiết bị | KAI-001, KAI-002 | Wireflow/spec gồm desktop/mobile, keyboard, loading/empty/error/offline, lời thông báo mất dữ liệu; không có chọn vai bắt buộc, không dừng sau mỗi câu | TODO |
+| KAI-004 · M · UX/QA | Thiết kế chi tiết các màn hình, recorder states và luồng lỗi theo PLAN; ma trận trình duyệt/thiết bị | KAI-001, KAI-002 | Wireflow/spec gồm desktop/mobile, keyboard, loading/empty/error/offline, lời thông báo mất dữ liệu; không có chọn vai bắt buộc, không dừng sau mỗi câu | DONE |
 
 KAI-003 cần bắt đầu sớm cùng giai đoạn nghiên cứu capture. Đây là quan hệ công việc có thể chạy độc lập, không tự động yêu cầu tạo agent hoặc task mới trong app.
 
