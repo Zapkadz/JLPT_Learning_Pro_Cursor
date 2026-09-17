@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-17 (KAI-010 DONE → next: KAI-011)
+2026-09-17 (KAI-011 DONE → next: KAI-012)
 
 ## Current Branch
 
@@ -10,15 +10,15 @@
 
 ## Current Task
 
-**KAI-011** — UI upload & library, job status, retry/cancel, Range playback.
+**KAI-012** — media fixtures + integration tests for first vertical slice.
 
 ## Exact Next Action
 
-Implement Kaiwa upload/library UI per `docs/kaiwa/evidence/kai-004/UX-SPEC.md` against existing `/api/kaiwa` upload + prepare-playback + Range content routes.
+Add synthetic fixtures (short/vertical/silent/corrupt) under `tests/kaiwa/fixtures/` (generated in-test, not private user media). Cover upload → prepare → Range playback + mid-job restart evidence.
 
 ## Last Completed
 
-**KAI-010** — passthrough proxy + identity timeline; source immutable; probe gate. Evidence: `docs/kaiwa/evidence/kai-010/REPORT.md`. Verify: kaiwa tests **17/17**.
+**KAI-011** — Kaiwa library/upload/project UI; prepare-media; cookie Range playback. Evidence: `docs/kaiwa/evidence/kai-011/REPORT.md`. Verify: `npm test` **34/34**, `npm run build` OK.
 
 ## Safety
 

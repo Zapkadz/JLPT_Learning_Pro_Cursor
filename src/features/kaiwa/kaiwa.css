@@ -1,0 +1,129 @@
+.kaiwa-page {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.kaiwa-empty {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.kaiwa-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.kaiwa-card {
+  display: grid;
+  gap: 0.4rem;
+  padding: 1rem 1.1rem;
+  border-radius: 12px;
+  background: var(--panel, #fff);
+  border: 1px solid color-mix(in srgb, var(--border, #d8d2c8) 80%, transparent);
+  text-decoration: none;
+  color: inherit;
+  min-height: 44px;
+}
+
+.kaiwa-card:hover,
+.kaiwa-card:focus-visible {
+  border-color: var(--accent, #2f6fed);
+  outline: none;
+}
+
+.kaiwa-badge {
+  justify-self: start;
+  font-size: 0.8rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: #ece8e1;
+}
+
+.kaiwa-badge.status-ready {
+  background: #d9f0df;
+}
+
+.kaiwa-badge.status-failed {
+  background: #f8d9d6;
+}
+
+.kaiwa-badge.status-processing {
+  background: #e4eaf8;
+}
+
+.kaiwa-upload {
+  display: grid;
+  gap: 1rem;
+}
+
+.kaiwa-dropzone {
+  display: grid;
+  gap: 0.75rem;
+  justify-items: center;
+  padding: 1.5rem;
+  border: 1px dashed color-mix(in srgb, var(--border, #d8d2c8) 100%, transparent);
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.kaiwa-field {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 600;
+}
+
+.kaiwa-field input {
+  font: inherit;
+  font-weight: 400;
+  padding: 0.65rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--border, #d8d2c8);
+  min-height: 44px;
+}
+
+.kaiwa-progress {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.kaiwa-progress-bar {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--accent, #2f6fed);
+  transition: width 0.2s ease;
+}
+
+.kaiwa-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.kaiwa-player video {
+  width: 100%;
+  max-height: min(70vh, 640px);
+  background: #111;
+  border-radius: 12px;
+}
+
+.kaiwa-privacy-note {
+  margin: 0.75rem 0 0;
+  color: var(--muted, #6b655c);
+  font-size: 0.9rem;
+}
+
+.kaiwa-hub-actions {
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media (max-width: 720px) {
+  .kaiwa-dropzone {
+    padding: 1.25rem 0.85rem;
+  }
+}

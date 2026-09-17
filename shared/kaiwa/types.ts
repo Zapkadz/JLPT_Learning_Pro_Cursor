@@ -43,11 +43,15 @@ export const kaiwaRevisionPayloadSchema = z.object({
 
 export const createKaiwaProjectSchema = z.object({
   title: z.string().trim().min(1).max(200),
+  sourceAssetId: z.string().uuid().optional(),
 });
 
 export const patchKaiwaProjectSchema = z.object({
   title: z.string().trim().min(1).max(200).optional(),
   expectedVersion: z.number().int().nonnegative(),
+  sourceAssetId: z.string().uuid().optional(),
+  proxyAssetId: z.string().uuid().nullable().optional(),
+  status: kaiwaProjectStatusSchema.optional(),
 });
 
 export const saveKaiwaDraftSchema = z.object({

@@ -53,6 +53,16 @@ export function kaiwaModule(
       "kaiwa-003",
       new Date().toISOString(),
     );
+    const cols = db.prepare("PRAGMA table_info(kaiwa_projects)").all() as {
+      name: string;
+    }[];
+    if (!cols.some((c) => c.name === "proxy_asset_id")) {
+      db.exec("ALTER TABLE kaiwa_projects ADD COLUMN proxy_asset_id TEXT");
+    }
+    db.prepare("INSERT OR IGNORE INTO schema_migrations VALUES(?,?)").run(
+      "kaiwa-004",
+      new Date().toISOString(),
+    );
   })();
 
   const config = loadKaiwaConfig(configOverrides);
@@ -68,7 +78,8 @@ export function kaiwaModule(
     const uid = res.locals.user.id as string;
     const rows = db
       .prepare(
-        "SELECT id,title,status,version,active_revision_id,updated_at,created_at FROM kaiwa_projects WHERE owner_id=? AND deleted_at IS NULL ORDER BY updated_at DESC",
+        `SELECT id,title,status,version,source_asset_id,proxy_asset_id,active_revision_id,updated_at,created_at
+         FROM kaiwa_projects WHERE owner_id=? AND deleted_at IS NULL ORDER BY updated_at DESC`,
       )
       .all(uid);
     res.json({ projects: rows });
@@ -110,6 +121,58 @@ export function kaiwaModule(
       String(req.params.id),
     );
     res.status(201).json(attempt);
+  });
+
+  router.post("/projects/:id/prepare-media", async (req, res, next) => {
+    try {
+      const ownerId = res.locals.user.id as string;
+      const project = repo.ownProject(String(req.params.id), ownerId);
+      if (!project.source_asset_id) {
+        throw new KaiwaError(409, "Dự án chưa gắn video nguồn.");
+      }
+      if (project.proxy_asset_id) {
+        const existing = assets.ownAsset(ownerId, project.proxy_asset_id);
+        if (existing.processing_status === "ready") {
+          return res.json({
+            project,
+            proxyAssetId: project.proxy_asset_id,
+            reused: true,
+          });
+        }
+      }
+      let prepared;
+      try {
+        prepared = await proxies.preparePlayback(
+          ownerId,
+          project.source_asset_id,
+        );
+      } catch (prepErr) {
+        try {
+          const fresh = repo.ownProject(project.id, ownerId);
+          repo.patchProject(ownerId, project.id, {
+            expectedVersion: fresh.version,
+            status: "failed",
+          });
+        } catch {
+          /* best-effort */
+        }
+        throw prepErr;
+      }
+      const updated = repo.patchProject(ownerId, project.id, {
+        expectedVersion: project.version,
+        proxyAssetId: prepared.proxyAssetId,
+        status: "ready",
+      });
+      res.status(201).json({
+        project: updated,
+        proxyAssetId: prepared.proxyAssetId,
+        timeline: prepared.timeline,
+        engine: prepared.engine,
+        reused: false,
+      });
+    } catch (e) {
+      next(e);
+    }
   });
 
   router.get("/attempts/:id", (req, res) => {

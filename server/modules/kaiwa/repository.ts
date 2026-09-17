@@ -26,6 +26,7 @@ type ProjectRow = {
   owner_id: string;
   title: string;
   source_asset_id: string | null;
+  proxy_asset_id: string | null;
   active_revision_id: string | null;
   status: string;
   version: number;
@@ -65,14 +66,31 @@ export function createKaiwaRepository(db: Database.Database) {
 
   function createProject(ownerId: string, input: unknown) {
     const data = createKaiwaProjectSchema.parse(input);
+    if (data.sourceAssetId) {
+      const asset = db
+        .prepare(
+          "SELECT id FROM kaiwa_assets WHERE id=? AND owner_id=? AND processing_status='ready'",
+        )
+        .get(data.sourceAssetId, ownerId);
+      if (!asset) fail(404, "Không tìm thấy video nguồn sẵn sàng trong tài khoản.");
+    }
     const now = new Date().toISOString();
     const projectId = randomUUID();
     const revisionId = randomUUID();
     const empty: KaiwaRevisionPayload = { segments: [] };
     db.transaction(() => {
       db.prepare(
-        "INSERT INTO kaiwa_projects(id,owner_id,title,status,version,created_at,updated_at) VALUES(?,?,?,?,?,?,?)",
-      ).run(projectId, ownerId, data.title, "draft", 0, now, now);
+        "INSERT INTO kaiwa_projects(id,owner_id,title,source_asset_id,status,version,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?)",
+      ).run(
+        projectId,
+        ownerId,
+        data.title,
+        data.sourceAssetId ?? null,
+        data.sourceAssetId ? "processing" : "draft",
+        0,
+        now,
+        now,
+      );
       db.prepare(
         "INSERT INTO kaiwa_revisions(id,project_id,version,state,payload,source_json,created_at) VALUES(?,?,?,?,?,?,?)",
       ).run(
@@ -97,13 +115,40 @@ export function createKaiwaRepository(db: Database.Database) {
     if (project.version !== data.expectedVersion) {
       fail(409, "Dự án đã được thay đổi ở nơi khác. Tải lại trước khi lưu.");
     }
+    if (data.sourceAssetId) {
+      const asset = db
+        .prepare(
+          "SELECT id FROM kaiwa_assets WHERE id=? AND owner_id=? AND processing_status='ready'",
+        )
+        .get(data.sourceAssetId, ownerId);
+      if (!asset) fail(404, "Không tìm thấy video nguồn sẵn sàng trong tài khoản.");
+    }
     const now = new Date().toISOString();
     const title = data.title ?? project.title;
+    const sourceAssetId =
+      data.sourceAssetId !== undefined
+        ? data.sourceAssetId
+        : project.source_asset_id;
+    const proxyAssetId =
+      data.proxyAssetId !== undefined
+        ? data.proxyAssetId
+        : project.proxy_asset_id;
+    const status = data.status ?? project.status;
     const result = db
       .prepare(
-        "UPDATE kaiwa_projects SET title=?, version=version+1, updated_at=? WHERE id=? AND owner_id=? AND version=?",
+        `UPDATE kaiwa_projects SET title=?, source_asset_id=?, proxy_asset_id=?, status=?,
+         version=version+1, updated_at=? WHERE id=? AND owner_id=? AND version=?`,
       )
-      .run(title, now, projectId, ownerId, data.expectedVersion);
+      .run(
+        title,
+        sourceAssetId,
+        proxyAssetId,
+        status,
+        now,
+        projectId,
+        ownerId,
+        data.expectedVersion,
+      );
     if (result.changes !== 1) {
       fail(409, "Dự án đã được thay đổi ở nơi khác. Tải lại trước khi lưu.");
     }

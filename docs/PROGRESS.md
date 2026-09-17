@@ -252,6 +252,11 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-011 (2026-09-17) — DONE
+
+Kaiwa library/upload/project UI; chunked resume; `prepare-media`; cookie-auth Range `<video>`.
+Evidence: `docs/kaiwa/evidence/kai-011/REPORT.md`. Verify: `npm test` **34/34**; `npm run build` OK.
+
 ### KAI-010 (2026-09-17) — DONE (passthrough foundation)
 
 `POST /assets/:id/prepare-playback`: probe gate → immutable source → proxy copy + identity timeline mapping. `LocalMediaStorage.copyFile` for sharded dirs. ffmpeg normalize / binary thumbnail deferred (`FFMPEG_PATH`).
@@ -298,6 +303,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-17 | KAI-011 upload UI + prepare-media | **34/34** npm test; build OK | `docs/kaiwa/evidence/kai-011/REPORT.md` |
 | 2026-09-17 | KAI-010 proxy/timeline passthrough | **17/17** kaiwa tests | `docs/kaiwa/evidence/kai-010/REPORT.md` |
 | 2026-09-17 | KAI-009 media probe | **32/32** npm test | `server/modules/kaiwa/probe/*` |
 | 2026-09-17 | KAI-008 chunked upload | **29/29** npm test | `server/modules/kaiwa/uploads.ts` |
@@ -336,7 +342,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 ## Known Incomplete Work
 
-- Kaiwa **KAI-011+** (upload UI / library). Live scoring verify still needs credentials.
+- Kaiwa **KAI-012+** (fixtures / transcript). Live scoring verify still needs credentials.
 - KAI-010 ffmpeg normalize / thumbnail binary still deferred until `FFMPEG_PATH` (passthrough proxy OK for UI).
 - Independent teacher review of N2 content / furigana readings (language QA).
 - Possible local grammar content `revision` bump still uncommitted (separate from Kaiwa).
