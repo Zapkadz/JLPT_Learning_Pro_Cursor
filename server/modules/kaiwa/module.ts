@@ -18,6 +18,7 @@ import { resolveSpeechCapability } from "./speechCapability";
 import { createAudioQualityService } from "./audioQualityService";
 import { createAlignmentService } from "./alignmentService";
 import { createPronunciationService } from "./pronunciationService";
+import { createProsodyService } from "./prosodyService";
 
 export { KaiwaError };
 
@@ -92,6 +93,7 @@ export function kaiwaModule(
   const audioQuality = createAudioQualityService(db, assets);
   const alignment = createAlignmentService(db);
   const pronunciation = createPronunciationService(db);
+  const prosody = createProsodyService(db, assets);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -377,6 +379,27 @@ export function kaiwaModule(
       res.status(404).json({
         error: "Chưa có kết quả chấm phát âm cho bản thu này.",
         code: "pronunciation_not_run",
+      });
+      return;
+    }
+    res.json(stored);
+  });
+
+  router.post("/attempts/:id/prosody", (req, res) => {
+    res.json(
+      prosody.analyzeAttempt(res.locals.user.id, String(req.params.id)),
+    );
+  });
+
+  router.get("/attempts/:id/prosody", (req, res) => {
+    const stored = prosody.getStored(
+      res.locals.user.id,
+      String(req.params.id),
+    );
+    if (!stored) {
+      res.status(404).json({
+        error: "Chưa có phân tích nhịp/ngữ điệu cho bản thu này.",
+        code: "prosody_not_run",
       });
       return;
     }
