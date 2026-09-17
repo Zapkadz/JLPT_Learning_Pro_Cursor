@@ -444,3 +444,39 @@ Do not hard-commit Azure (or any vendor) as the Japanese intonation solution in 
 ### Related Files
 
 `docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md` (KAI-003, KAI-022–029)
+
+---
+
+## ADR-015 — Kaiwa pilot limits, privacy/retention, and integration boundaries
+
+Date: 2026-09-17
+Status: Accepted (KAI-001 audit; config defaults — not load-tested capacity)
+
+### Context
+
+KAI-001 surveyed auth, nav, stats, backup, middleware, migrations, and media gaps. Pilot limits and privacy rules needed locking before spikes and schema work so implementers do not hard-code conflicting magic numbers or leak media via `dist/`.
+
+### Decision
+
+1. **Pilot config defaults** (env/config, not scattered literals): max source **10 minutes**, max upload **250 MB**, containers MP4/WebM (probe-enforced later), storage quota **2 GB/user**, incomplete upload TTL **24h**, soft-deleted project GC after **30 days**, **1** concurrent heavy media job per user (worker global concurrency separate). Desktop Chrome/Edge are the only Gate A **recording** claim until KAI-004 matrix says otherwise.
+2. **Integration**: mount Kaiwa under existing cookie auth like Grammar; keep global JSON body limit **2 MB**; binary upload on separate routes; SQLite metadata only; media under private root outside web/static paths; authenticated Range streaming only.
+3. **Privacy**: media private per owner; no provider auto-send; disclose before external audio leave; no audio/transcript/credentials in normal logs.
+4. **Progress**: do not fold Kaiwa into existing XP/heatmap entity keys until KAI-030 ADR; use dedicated activity events with idempotent keys.
+5. **Backup gap acknowledged**: `npm run backup` is SQLite-only today; Gate A requires DB+media restore (tracked for ops tasks).
+6. **Error contract**: stable machine `code` + Vietnamese `error` message for quota/unsupported/conflict/unavailable; assessment UNAVAILABLE must not block export (ADR-014).
+
+### Reason
+
+Gives KAI-002+ a fixed envelope and prevents accidental public media or XP pollution while spikes proceed.
+
+### Consequences
+
+KAI-005/006/008 must read these defaults from config. Changing limits requires updating this ADR + PLAN §3.4. Capture/provider choices remain open (OD-001/OD-002) until KAI-002/003.
+
+### Do Not
+
+Do not raise global `express.json` limit for video. Do not serve Kaiwa files from `dist/`. Do not lock Azure or any scoring vendor here. Do not treat these defaults as proven capacity without KAI-002/011 evidence.
+
+### Related Files
+
+`docs/kaiwa/evidence/KAI-001-integration-audit.md`, `docs/kaiwa/PLAN.md`, `server/app.ts`, `server/backup.ts`
