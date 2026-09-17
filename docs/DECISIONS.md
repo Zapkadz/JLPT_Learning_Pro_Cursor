@@ -515,3 +515,38 @@ Do not stitch per-sentence recordings to fake continuity. Do not treat ASR times
 ### Related Files
 
 `docs/kaiwa/evidence/kai-002/`, `scripts/kaiwa/run-capture-spike.mjs`, `docs/kaiwa/PLAN.md` §8
+
+---
+
+## ADR-017 — Japanese assessment capability contract (no fake scores; no Azure prosody for ja-JP)
+
+Date: 2026-09-17
+Status: Accepted (KAI-003; live provider samples still **UNAVAILABLE** without credentials)
+
+### Context
+
+Gate B needs trustworthy Japanese feedback. Product rules already forbid fake metrics. Public Azure docs state pronunciation assessment includes `ja-JP`, but **prosody assessment is en-US only**. No speech API credentials were available in the KAI-003 environment for live field verification.
+
+### Decision
+
+1. Assessment results must use explicit statuses: `ready` | `unavailable` | `not_assessable` | `failed`, with machine-readable `reason` when not ready. Never substitute `0`/`100`/random values.
+2. **Forbidden mappings:** ASR confidence → pronunciation; waveform similarity → intonation; absolute pitch/timbre/gender → ability; Azure **ProsodyScore** → Japanese intonation.
+3. Azure (or any vendor) may be integrated **only after** a live ja-JP payload is verified and fields are allow-listed in the adapter capability map. Vendor choice remains open until that verify.
+4. Gate A must work with assessment `not_configured` / `unavailable`.
+5. Relative F0 / timing may be explored in-house as **non-pitch-accent** hints; word-level pitch-accent errors require lexicon + teacher-validated labels.
+
+### Reason
+
+Prevents shipping misleading speaking scores and matches PLAN §10 / ADR-014.
+
+### Consequences
+
+KAI-023–029 implement against this contract. Live sample evidence must be appended under `docs/kaiwa/evidence/kai-003/live/` when credentials exist.
+
+### Do Not
+
+Do not lock Azure as the sole provider in code or ADR. Do not enable `EnableProsodyAssessment` as a Japanese intonation feature. Do not block export on assessment failure.
+
+### Related Files
+
+`docs/kaiwa/evidence/kai-003/REPORT.md`, `docs/kaiwa/PLAN.md` §10, ADR-014
