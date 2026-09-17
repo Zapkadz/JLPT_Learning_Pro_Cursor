@@ -135,10 +135,14 @@ test("attempt chunks resume: duplicate ok; finalize without audio rejected", asy
     assert.equal(dup.status, 200);
     assert.equal(((await dup.json()) as { duplicate: boolean }).duplicate, true);
 
-    // Finalize without assemble → 409
+    // Finalize without assemble → 409 when assemble disabled
     const badFin = await api(base, cookie, `/kaiwa/attempts/${attempt.id}/finalize`, {
       method: "POST",
-      body: JSON.stringify({ completion: "partial", durationMs: 100 }),
+      body: JSON.stringify({
+        completion: "partial",
+        durationMs: 100,
+        assemble: false,
+      }),
     });
     assert.equal(badFin.status, 409);
 

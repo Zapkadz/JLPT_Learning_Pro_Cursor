@@ -15,7 +15,7 @@ function minimalWebm(): Buffer {
   return Buffer.concat([
     Buffer.from([0x1a, 0x45, 0xdf, 0xa3]),
     Buffer.from("webm"),
-    Buffer.from("finalize-audio-body"),
+    Buffer.from("finalize-audio-body-xxxxxxxx"),
   ]);
 }
 
@@ -54,7 +54,11 @@ function api(base: string, cookie: string, path: string, init: RequestInit = {})
   const headers = new Headers(init.headers);
   headers.set("Origin", "http://127.0.0.1:5173");
   headers.set("Cookie", cookie);
-  if (init.body && !headers.has("Content-Type") && !(init.body instanceof Uint8Array))
+  if (
+    init.body &&
+    !headers.has("Content-Type") &&
+    !(init.body instanceof Uint8Array)
+  )
     headers.set("Content-Type", "application/json");
   return fetch(base + path, { ...init, headers });
 }

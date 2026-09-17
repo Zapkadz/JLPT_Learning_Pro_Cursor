@@ -10,6 +10,7 @@ import { createUploadService } from "./uploads";
 import { createProbeService } from "./probeService";
 import { createProxyService } from "./proxy";
 import { createAttemptChunkService } from "./attemptChunks";
+import { createFinalizeTakeService } from "./finalizeTake";
 
 export { KaiwaError };
 
@@ -78,6 +79,7 @@ export function kaiwaModule(
   const probes = createProbeService(db, assets);
   const proxies = createProxyService(db, assets);
   const attemptChunks = createAttemptChunkService(db, assets, config);
+  const finalizeTake = createFinalizeTakeService(db, assets, attemptChunks);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -245,42 +247,12 @@ export function kaiwaModule(
         durationMs: z.number().int().nonnegative().optional(),
         clocks: z.record(z.unknown()).optional(),
         device: z.record(z.unknown()).optional(),
+        assemble: z.boolean().optional(),
       })
       .parse(req.body);
-    const row = db
-      .prepare("SELECT * FROM kaiwa_attempts WHERE id=? AND owner_id=?")
-      .get(attemptId, ownerId) as {
-      finalized_at: string | null;
-      audio_asset_id: string | null;
-    } | undefined;
-    if (!row) throw new KaiwaError(404, "Không tìm thấy bản thu.");
-    if (row.finalized_at) {
-      return res.json(repo.getAttempt(ownerId, attemptId));
-    }
-    const needsAudio =
-      body.completion === "completed" || body.completion === "partial";
-    if (needsAudio && !row.audio_asset_id) {
-      throw new KaiwaError(
-        409,
-        "Chưa lắp audio hợp lệ — không báo đã lưu bản thu.",
-      );
-    }
-    const now = new Date().toISOString();
-    const recordState = needsAudio ? "saved" : body.completion;
-    db.prepare(
-      `UPDATE kaiwa_attempts SET completion=?, duration_ms=?, clocks_json=?, device_json=?,
-       record_state=?, finalized_at=? WHERE id=? AND owner_id=?`,
-    ).run(
-      body.completion,
-      body.durationMs ?? null,
-      JSON.stringify(body.clocks ?? {}),
-      JSON.stringify(body.device ?? {}),
-      recordState,
-      now,
-      attemptId,
-      ownerId,
-    );
-    res.json(repo.getAttempt(ownerId, attemptId));
+    const result = finalizeTake.finalize(ownerId, attemptId, body);
+    const attempt = repo.getAttempt(ownerId, attemptId);
+    res.status(result.reused ? 200 : 200).json({ ...attempt, finalize: result });
   });
 
   router.get("/attempts/:id/upload-state", (req, res) => {

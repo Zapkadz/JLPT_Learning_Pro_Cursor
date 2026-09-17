@@ -252,6 +252,11 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-020 (2026-09-18) — DONE
+
+Finalize take service: auto-assemble, mic-only validation, head/mid/tail Range check, interrupted/`tailMissing` honesty, idempotent.
+Evidence: `docs/kaiwa/evidence/kai-020/REPORT.md`. Verify: `npm test` **62/62**.
+
 ### KAI-019 (2026-09-18) — DONE
 
 IndexedDB/memory journal; attempt chunk upload resume; assemble WebM/Ogg gate; finalize requires audio for saved completed/partial.
@@ -338,6 +343,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-020 finalize take | **62/62** npm test | `docs/kaiwa/evidence/kai-020/REPORT.md` |
 | 2026-09-18 | KAI-019 journal + chunk resume | **59/59** npm test; build OK | `docs/kaiwa/evidence/kai-019/REPORT.md` |
 | 2026-09-18 | KAI-018 continuous recorder | **56/56** npm test; build OK | `docs/kaiwa/evidence/kai-018/REPORT.md` |
 | 2026-09-18 | KAI-017 mic preflight | **52/52** npm test; build OK | `docs/kaiwa/evidence/kai-017/REPORT.md` |
@@ -384,7 +390,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 ## Known Incomplete Work
 
-- Kaiwa **KAI-020+** (remux / review UI). KAI-015 ASR deferred without credentials.
+- Kaiwa **KAI-021+** (review / export). KAI-015 ASR deferred without credentials.
 - KAI-010 ffmpeg normalize / thumbnail binary still deferred until `FFMPEG_PATH` (passthrough proxy OK for UI).
 - Independent teacher review of N2 content / furigana readings (language QA).
 - Possible local grammar content `revision` bump still uncommitted (separate from Kaiwa).
