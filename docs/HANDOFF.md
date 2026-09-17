@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-022 DONE → next: KAI-030a)
+2026-09-18 (KAI-030a DONE → next: KAI-031)
 
 ## Current Branch
 
@@ -10,15 +10,15 @@
 
 ## Current Task
 
-**KAI-030a** — Kaiwa take history / progress for Gate A (no fake XP/speaking metrics).
+**KAI-031** — Media backup/restore, quota cleanup, delete sync with jobs/assets.
 
 ## Exact Next Action
 
-Ship attempt/activity history UI + events without changing deck/grammar XP meanings; ADR for separate Kaiwa streak/XP (defer active speaking XP to 030b).
+Extend backup to cover private media + manifest; soft-delete project cancels jobs and GC; safe logging (no tokens/audio); document retention.
 
 ## Last Completed
 
-**KAI-022** — Export MP4 job, mix snapshot, private download; ffmpeg when available else synthetic. Evidence: `docs/kaiwa/evidence/kai-022/REPORT.md`. Verify: **64/64**.
+**KAI-030a** — History API/UI, finalize activity events (idempotent), ADR-018 (no deck/grammar XP). Evidence: `docs/kaiwa/evidence/kai-030a/REPORT.md`. Verify: **65/65**.
 
 ## Safety
 

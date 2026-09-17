@@ -68,6 +68,9 @@ export function KaiwaLibrary() {
         title="Kaiwa"
         description="Thư viện video riêng tư — lồng tiếng liên tục toàn video."
       >
+        <Link className="btn secondary" to="/kaiwa/history">
+          Lịch sử
+        </Link>
         <Link className="btn" to="/kaiwa/new">
           <Upload size={18} /> Tải video mới
         </Link>
@@ -1549,6 +1552,101 @@ export function KaiwaReview() {
           </p>
         )}
         {saveNote && <Status tone="info">{saveNote}</Status>}
+      </div>
+    </div>
+  );
+}
+
+type HistoryPayload = {
+  events: Array<{
+    id: string;
+    attempt_id: string | null;
+    event_key: string;
+    speaking_ms: number;
+    occurred_at: string;
+    day: string;
+    project_id?: string | null;
+    project_title?: string | null;
+    completion?: string | null;
+    record_state?: string | null;
+    duration_ms?: number | null;
+  }>;
+  attempts: Array<{
+    id: string;
+    project_id: string;
+    project_title: string;
+    record_state: string;
+    completion: string | null;
+    duration_ms: number | null;
+    created_at: string;
+    finalized_at: string | null;
+  }>;
+  byDay: Array<{ day: string; takes: number; speaking_ms: number }>;
+  today: string;
+  timezone: string;
+  xpNote: string;
+};
+
+export function KaiwaHistory() {
+  const { data, error, reload } = useData<HistoryPayload>("/kaiwa/history");
+  if (error) return <ErrorState message={error} retry={reload} />;
+  if (!data) return <Loading />;
+
+  return (
+    <div className="kaiwa-page">
+      <PageHead
+        title="Lịch sử Kaiwa"
+        description={`Ngày theo ${data.timezone}. Hôm nay: ${data.today}.`}
+      >
+        <Link className="btn secondary" to="/kaiwa">
+          Thư viện
+        </Link>
+      </PageHead>
+
+      <Status tone="info">{data.xpNote}</Status>
+
+      <div className="panel">
+        <h2 className="kaiwa-section-title">Theo ngày</h2>
+        {data.byDay.length === 0 ? (
+          <p>Chưa có sự kiện chốt bản thu.</p>
+        ) : (
+          <ul className="kaiwa-attempt-list">
+            {data.byDay.map((d) => (
+              <li key={d.day} className="kaiwa-attempt-row">
+                <span>{d.day}</span>
+                <span>
+                  {d.takes} lần · {(d.speaking_ms / 1000).toFixed(0)}s ghi nhận
+                </span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+
+      <div className="panel">
+        <h2 className="kaiwa-section-title">Các lần thu gần đây</h2>
+        {data.attempts.length === 0 ? (
+          <p>Chưa có lần thu nào.</p>
+        ) : (
+          <ul className="kaiwa-attempt-list">
+            {data.attempts.map((a) => (
+              <li key={a.id}>
+                <Link className="kaiwa-attempt-row" to={`/kaiwa/attempts/${a.id}`}>
+                  <span>
+                    {a.project_title} · {dateTime(a.finalized_at || a.created_at)}
+                  </span>
+                  <span>
+                    {a.record_state}
+                    {a.completion ? ` · ${a.completion}` : ""}
+                    {a.duration_ms != null
+                      ? ` · ${(a.duration_ms / 1000).toFixed(1)}s`
+                      : ""}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );

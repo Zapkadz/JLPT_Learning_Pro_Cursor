@@ -2,6 +2,7 @@ import type Database from "better-sqlite3";
 import { KaiwaError } from "./repository";
 import type { AssetService } from "./assets";
 import type { AttemptChunkService } from "./attemptChunks";
+import { recordFinalizeActivity } from "./activity";
 
 export type FinalizeInput = {
   completion: "completed" | "partial" | "interrupted" | "failed";
@@ -194,6 +195,14 @@ export function createFinalizeTakeService(
         tailMissing: Boolean(clocksJson.tailMissing),
       };
     }
+
+    // Gate A history only — does not touch deck/grammar XP (ADR-018).
+    recordFinalizeActivity(db, {
+      ownerId,
+      attemptId,
+      speakingMs: Number(durationMs) || 0,
+      occurredAt: now,
+    });
 
     return {
       reused: false,

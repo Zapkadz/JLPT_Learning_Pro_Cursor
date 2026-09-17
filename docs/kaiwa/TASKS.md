@@ -4,7 +4,7 @@ Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION
 
 Ngày cập nhật: 17/09/2026. Mốc A: chưa bắt đầu. Mốc B: chưa bắt đầu. Module hiện chưa có tính năng được nghiệm thu.
 
-KAI-001–014, KAI-016–022 DONE. Next: **KAI-030** (Gate A acceptance) / graph-ready tasks. KAI-015 deferred.
+KAI-001–014, KAI-016–022, KAI-030a DONE. Next: **KAI-031** (backup/media) or graph-ready. KAI-015 / KAI-030b deferred.
 
 ## Cách đọc
 
@@ -89,8 +89,8 @@ Không đánh dấu KAI-027 DONE chỉ vì đã vẽ được đường cao đ�
 
 | ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
 | --- | --- | --- | --- | --- |
-| KAI-030 · M · Backend/Frontend | Lịch sử và tiến độ Kaiwa; ADR streak/XP/mục tiêu riêng | KAI-020; KAI-024 cho metric nói tự động | Có lịch sử take ngay ở A; active speaking/XP chỉ bật sau chất lượng dữ liệu đủ; retry không đếm lại; test qua nửa đêm theo múi giờ; không sửa nghĩa số thẻ/ngữ pháp đã học | IN_PROGRESS |
-| KAI-031 · L · Operations/Backend | Media backup/restore, quota cleanup, xóa đồng bộ job/assets, logging/metrics và config | KAI-006, KAI-007, KAI-022 | Restore DB + media chạy được; xóa lúc job đang chạy không hồi sinh tệp; log không chứa audio/token; có cảnh báo disk/queue; retention được ghi trong hướng dẫn | TODO |
+| KAI-030 · M · Backend/Frontend | Lịch sử và tiến độ Kaiwa; ADR streak/XP/mục tiêu riêng | KAI-020; KAI-024 cho metric nói tự động | Có lịch sử take ngay ở A; active speaking/XP chỉ bật sau chất lượng dữ liệu đủ; retry không đếm lại; test qua nửa đêm theo múi giờ; không sửa nghĩa số thẻ/ngữ pháp đã học | DONE (030a); 030b TODO |
+| KAI-031 · L · Operations/Backend | Media backup/restore, quota cleanup, xóa đồng bộ job/assets, logging/metrics và config | KAI-006, KAI-007, KAI-022 | Restore DB + media chạy được; xóa lúc job đang chạy không hồi sinh tệp; log không chứa audio/token; có cảnh báo disk/queue; retention được ghi trong hướng dẫn | IN_PROGRESS |
 | KAI-032 · L · QA/Security | Security/accessibility/responsive QA; auth, ownership, file abuse, keyboard, lỗi mạng | KAI-011, KAI-016, KAI-022, KAI-031 | Test hai tài khoản, path traversal, MIME giả, quota/rate-limit, HTML phụ đề; focus/keyboard/ruby/mobile đúng; chạy regression module cũ phù hợp | TODO |
 | KAI-033 · L · QA/PM | Gate A: thiết bị thực, full flow, crash recovery, sync và export; tài liệu sử dụng | KAI-012, KAI-017–022, KAI-030–032 | Checklist A có evidence trên từng môi trường công bố hỗ trợ; không lỗi chặn; manual import hoạt động không cần API; trạng thái scoring chưa có được nói rõ; release/rollback notes đầy đủ | TODO |
 | KAI-034 · L · Japanese/QA/PM | Gate B: đánh giá độc lập, cost/load/provider outage, UX học và bàn giao | KAI-015, KAI-023–029, KAI-033 | Báo cáo held-out đạt ngưỡng đã chốt, gồm false feedback và coverage; giáo viên duyệt; không lỗi nghiêm trọng chưa xử lý; giới hạn được ghi; scoring thật trên video user, không chỉ fixture | TODO |
@@ -106,16 +106,17 @@ KAI-030 có hai checklist: lịch sử ở A; thời gian nói/XP dựa trên ph
 ## 8. Checklist task đang làm
 
 ```text
-Task: KAI-030a — Kaiwa take history / progress (Gate A slice)
+Task: KAI-031 — Media backup/restore, quota cleanup, delete sync
 Trạng thái: IN_PROGRESS
-Phụ thuộc: KAI-022 DONE (KAI-020+ for history)
-Task tiếp theo: KAI-031 / KAI-023 as graph allows
+Phụ thuộc: KAI-006, KAI-007, KAI-022 DONE
+Task tiếp theo: KAI-032
 ```
 
 ## 9. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-030a history + activity events + ADR-018 (no XP inject) | `npm test` **65/65**; build OK; `docs/kaiwa/evidence/kai-030a/REPORT.md` | KAI-031 backup/media |
 | 18/09/2026 | KAI-022 export MP4 + private download + mix snapshot | `npm test` **64/64**; build OK; `docs/kaiwa/evidence/kai-022/REPORT.md` | KAI-030a history |
 | 18/09/2026 | KAI-021 review dual-gain + take history + mix persist | `npm test` **63/63**; build OK; `docs/kaiwa/evidence/kai-021/REPORT.md` | KAI-022 export MP4 |
 | 18/09/2026 | KAI-020 finalize decode/duration/mic-only + tailMissing | `npm test` **62/62**; `docs/kaiwa/evidence/kai-020/REPORT.md` | KAI-021 review UI |

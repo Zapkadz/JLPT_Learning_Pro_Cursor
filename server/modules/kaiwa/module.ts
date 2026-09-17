@@ -12,6 +12,7 @@ import { createProxyService } from "./proxy";
 import { createAttemptChunkService } from "./attemptChunks";
 import { createFinalizeTakeService } from "./finalizeTake";
 import { createExportService } from "./exportMp4";
+import { listActivityHistory } from "./activity";
 
 export { KaiwaError };
 
@@ -93,6 +94,11 @@ export function kaiwaModule(
       )
       .all(uid);
     res.json({ projects: rows });
+  });
+
+  router.get("/history", (req, res) => {
+    const limit = Number(req.query.limit) || 50;
+    res.json(listActivityHistory(db, res.locals.user.id, limit));
   });
 
   router.post("/projects", (req, res) => {

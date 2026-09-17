@@ -550,3 +550,37 @@ Do not lock Azure as the sole provider in code or ADR. Do not enable `EnablePros
 ### Related Files
 
 `docs/kaiwa/evidence/kai-003/REPORT.md`, `docs/kaiwa/PLAN.md` §10, ADR-014
+
+---
+
+## ADR-018 — Kaiwa progress is separate from deck/grammar XP (Gate A = history only)
+
+Date: 2026-09-18
+Status: Accepted (KAI-030a)
+
+### Context
+
+Gate A needs take history and honest activity logging. Existing `/api/stats` XP/heatmap uses `card:` / `question:` / `grammar:` keys. Folding Kaiwa into those keys would silently change the meaning of “cards/grammar studied” and could award XP for upload/wait/finalize without validated speaking quality.
+
+### Decision
+
+1. **Gate A (KAI-030a):** Persist `kaiwa_activity_events` on successful finalize with idempotent key `finalize:{attemptId}` and day key `Asia/Ho_Chi_Minh`. Expose `GET /api/kaiwa/history` + UI. Project-level attempt lists remain.
+2. **Do not** add Kaiwa events into `/api/stats` XP, heatmap, or streak until a later ADR explicitly enables optional contribution.
+3. **KAI-030b (deferred):** Active speaking-time XP / streak contribution only after assessment quality gates (KAI-024+) justify the metric; retries must not double-count (already enforced by UNIQUE).
+4. Upload, view, prepare, and wait **never** create activity events that imply practice XP.
+
+### Reason
+
+Keeps deck/grammar numbers stable; gives learners a Kaiwa history surface for Gate A without fake speaking scores.
+
+### Consequences
+
+Progress page / streak UI stay unchanged for Kaiwa until 030b. History page must show an explicit note that Kaiwa is not counted in card/grammar XP.
+
+### Do Not
+
+Do not inject Kaiwa into existing XP entity keys. Do not invent speaking XP from duration alone for marketing streak claims before 030b.
+
+### Related Files
+
+`server/modules/kaiwa/activity.ts`, `docs/kaiwa/TASKS.md` (KAI-030), ADR-008, ADR-015
