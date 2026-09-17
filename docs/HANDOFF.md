@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-028 DONE; next KAI-029; KAI-033 device BLOCKED)
+2026-09-18 (KAI-029 DONE; automated Gate B stack through UI; KAI-033 device BLOCKED)
 
 ## Current Branch
 
@@ -10,23 +10,24 @@
 
 ## Current Task
 
-**KAI-029** — Vietnamese feedback UI (1–3 priorities, timestamps, A/B listen). KAI-033 device still human-blocked.
+**KAI-033** — Gate A device checklist (human). No further independent automated Kaiwa coding without KAI-023 / credentials.
 
 ## Exact Next Action
 
-Wire review UI to `POST /attempts/:id/assessment`: show priorities, coverage, seek-to evidence; provider fail must not block listen/export.
+1. Fill `docs/kaiwa/evidence/kai-033/CHECKLIST.md` on Desktop Chrome + Edge.
+2. Collect KAI-023 benchmark/teacher data and/or live speech credentials → unlocks calibrated scores, KAI-030b, KAI-034.
 
 ## Last Completed
 
-**KAI-028** — Assessment aggregate with fingerprint cache, rubric version isolation, `overallScore: null`, `charged: false`. Evidence: `docs/kaiwa/evidence/kai-028/REPORT.md`. Verify: **99/99**.
+**KAI-029** — Review feedback UI (priorities ≤3, seek, honest null overall score). Evidence: `docs/kaiwa/evidence/kai-029/REPORT.md`. Verify: **100/100**.
 
 ## Blockers
 
 - Gate A device sign-off (human).
-- KAI-023 teacher/benchmark for calibrated scores / Gate B.
+- KAI-023 teacher/benchmark + live ASR/PA credentials for Gate B acceptance.
 
 ## Safety
 
 - Do not stage grammar dirty files.
 - Do not mark Gate A ACCEPTED without checklist.
-- Do not invent overall pronunciation scores in UI.
+- Do not invent overall pronunciation scores.

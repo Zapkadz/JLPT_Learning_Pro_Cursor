@@ -1338,6 +1338,29 @@ export function KaiwaReview() {
   const [exportHref, setExportHref] = useState<string | null>(null);
   const [qualityNote, setQualityNote] = useState("");
   const [checkingQuality, setCheckingQuality] = useState(false);
+  const [assessing, setAssessing] = useState(false);
+  const [assessment, setAssessment] = useState<{
+    status: string;
+    messageVi: string;
+    overallScore: null;
+    coverage: {
+      plannedSegments: number;
+      assessableSegments: number;
+      assessableRatio: number | null;
+    };
+    priorities: Array<{
+      segmentId: string | null;
+      kind: string;
+      messageVi: string;
+    }>;
+    segments: Array<{
+      segmentId: string;
+      status: string;
+      reason: string | null;
+      listen: { startMs: number | null; endMs: number | null };
+    }>;
+  } | null>(null);
+  const [assessmentNote, setAssessmentNote] = useState("");
   const videoRef = useRef<HTMLVideoElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const syncing = useRef(false);
@@ -1453,6 +1476,53 @@ export function KaiwaReview() {
     } finally {
       setCheckingQuality(false);
     }
+  }
+
+  async function runAssessment() {
+    if (!attemptId) return;
+    setAssessing(true);
+    setAssessmentNote("");
+    try {
+      const report = await post<{
+        status: string;
+        messageVi: string;
+        overallScore: null;
+        coverage: {
+          plannedSegments: number;
+          assessableSegments: number;
+          assessableRatio: number | null;
+        };
+        priorities: Array<{
+          segmentId: string | null;
+          kind: string;
+          messageVi: string;
+        }>;
+        segments: Array<{
+          segmentId: string;
+          status: string;
+          reason: string | null;
+          listen: { startMs: number | null; endMs: number | null };
+        }>;
+      }>(`/kaiwa/attempts/${attemptId}/assessment`, {});
+      setAssessment(report);
+      setAssessmentNote(report.messageVi);
+    } catch (e) {
+      setAssessment(null);
+      setAssessmentNote(
+        e instanceof Error
+          ? e.message
+          : "Phân tích phản hồi thất bại — vẫn nghe/xuất được.",
+      );
+    } finally {
+      setAssessing(false);
+    }
+  }
+
+  function seekToMs(ms: number | null) {
+    const v = videoRef.current;
+    if (!v || ms == null || !Number.isFinite(ms)) return;
+    v.currentTime = Math.max(0, ms / 1000);
+    void v.play().catch(() => undefined);
   }
 
   if (!attemptId) return <ErrorState message="Thiếu mã lần thu." />;
@@ -1607,6 +1677,14 @@ export function KaiwaReview() {
           <button
             type="button"
             className="btn secondary"
+            disabled={assessing || !finalized}
+            onClick={() => void runAssessment()}
+          >
+            {assessing ? "Đang phân tích…" : "Phân tích phản hồi"}
+          </button>
+          <button
+            type="button"
+            className="btn secondary"
             disabled={rerecording}
             onClick={() => void startNewAttempt()}
           >
@@ -1629,6 +1707,53 @@ export function KaiwaReview() {
           </p>
         )}
         {qualityNote && <Status tone="info">{qualityNote}</Status>}
+        {assessmentNote && <Status tone="info">{assessmentNote}</Status>}
+        {assessment && (
+          <div className="kaiwa-assessment-panel">
+            <p>
+              Điểm tổng:{" "}
+              <strong>
+                {assessment.overallScore === null
+                  ? "không có (chưa hiệu chỉnh)"
+                  : assessment.overallScore}
+              </strong>
+              {" · "}
+              Coverage: {assessment.coverage.assessableSegments}/
+              {assessment.coverage.plannedSegments} đoạn có thể chấm
+              {assessment.coverage.assessableRatio != null
+                ? ` (${Math.round(assessment.coverage.assessableRatio * 100)}%)`
+                : ""}
+            </p>
+            {assessment.priorities.length > 0 ? (
+              <ol className="kaiwa-assessment-priorities">
+                {assessment.priorities.slice(0, 3).map((p, i) => {
+                  const seg = p.segmentId
+                    ? assessment.segments.find((s) => s.segmentId === p.segmentId)
+                    : undefined;
+                  return (
+                    <li key={`${p.kind}-${p.segmentId ?? "all"}-${i}`}>
+                      <span>{p.messageVi}</span>
+                      {seg?.listen.startMs != null && (
+                        <button
+                          type="button"
+                          className="btn secondary"
+                          onClick={() => seekToMs(seg.listen.startMs)}
+                        >
+                          Nghe lại đoạn
+                        </button>
+                      )}
+                    </li>
+                  );
+                })}
+              </ol>
+            ) : (
+              <p className="kaiwa-privacy-note">
+                Chưa có ưu tiên phản hồi cụ thể — provider chấm phát âm có thể chưa
+                cấu hình. Nghe lại / xuất MP4 không bị chặn.
+              </p>
+            )}
+          </div>
+        )}
         {saveNote && <Status tone="info">{saveNote}</Status>}
       </div>
     </div>

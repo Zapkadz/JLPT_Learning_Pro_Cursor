@@ -4,7 +4,7 @@ Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION
 
 Ngày cập nhật: 18/09/2026. Mốc A: **chờ evidence thiết bị (KAI-033)**. Mốc B: chưa bắt đầu.
 
-KAI-001–016, KAI-016–022, KAI-024–028, KAI-030a, KAI-031–032 DONE; KAI-015 stub DONE (live deferred). KAI-033 docs ready / **device PENDING**.
+KAI-001–016, KAI-016–022, KAI-024–029, KAI-030a, KAI-031–032 DONE; KAI-015 stub DONE (live deferred). KAI-033 docs ready / **device PENDING**.
 
 ## Cách đọc
 
@@ -81,7 +81,7 @@ Tại KAI-022 có luồng sản phẩm cốt lõi, nhưng chưa phát hành A tr
 | KAI-026 · L · Speech/Backend | Adapter pronunciation ja-JP, evidence schema và phản hồi phát âm | KAI-025, KAI-003 | Xác minh field thực sự có cho tiếng Nhật; parse/provider timeout/retry/budget test; không dùng ASR confidence làm pronunciation score; live output kiểm tra với benchmark | DONE (schema+stub); live field verify + benchmark TODO |
 | KAI-027 · L · Speech/Japanese | Nhịp và intonation: F0 tương đối, voiced confidence, timing, calibration | KAI-025, KAI-023 | Không phạt khác giới tính/âm sắc/cao độ tuyệt đối; không kéo giãn che trường âm sai; ngắt vùng vô thanh; báo cáo đối chiếu giáo viên; không gắn nhãn pitch accent chuẩn nếu chỉ đo contour | DONE (provisional local F0); teacher/KAI-023 calibration TODO |
 | KAI-028 · M · Backend | Tổng hợp assessment theo version/rubric, coverage, cache và idempotency | KAI-026, KAI-027 | Không có dữ liệu là null/reason; aggregate chỉ trên vùng hợp lệ và công khai coverage; request lặp không tự trừ phí; không ghi đè assessment cũ khác version | DONE |
-| KAI-029 · M · Frontend/Japanese | UI phản hồi tiếng Việt, tối đa 1–3 ưu tiên, timestamp và so sánh A/B | KAI-021, KAI-028 | Mỗi nhận xét trỏ đúng bằng chứng/nghe lại; có text thay biểu đồ; provider fail vẫn nghe/xuất được; lời giải thích không bịa bằng transcript; tiến bộ chỉ so điều kiện tương thích | TODO |
+| KAI-029 · M · Frontend/Japanese | UI phản hồi tiếng Việt, tối đa 1–3 ưu tiên, timestamp và so sánh A/B | KAI-021, KAI-028 | Mỗi nhận xét trỏ đúng bằng chứng/nghe lại; có text thay biểu đồ; provider fail vẫn nghe/xuất được; lời giải thích không bịa bằng transcript; tiến bộ chỉ so điều kiện tương thích | DONE (honest unavailable priorities; live scores deferred) |
 
 Không đánh dấu KAI-027 DONE chỉ vì đã vẽ được đường cao độ. DONE cần xác nhận bằng tập dữ liệu và ngưỡng đã ghi ở KAI-023; KAI-034 kiểm tra lại trên tập giữ lại trước release B.
 
@@ -109,13 +109,14 @@ KAI-030 có hai checklist: lịch sử ở A; thời gian nói/XP dựa trên ph
 Task: KAI-033 — Gate A device / full-flow acceptance
 Trạng thái: IN_PROGRESS — docs/preflight DONE; BLOCKED on Chrome/Edge device PASS
 Phụ thuộc: KAI-032 DONE
-Task tiếp theo: Human fill CHECKLIST → Gate A ACCEPTED; next code KAI-029 feedback UI; Gate B depth still needs KAI-023
+Task tiếp theo: Human fill CHECKLIST → Gate A ACCEPTED; remaining Gate B needs KAI-023 + live credentials (KAI-030b / KAI-034)
 ```
 
 ## 9. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-029 feedback UI priorities + seek (no fake overall score) | `npm test` **100/100**; build OK; `docs/kaiwa/evidence/kai-029/REPORT.md` | KAI-033 device / KAI-023 |
 | 18/09/2026 | KAI-028 assessment aggregate + idempotent cache (no overall score) | `npm test` **99/99**; build OK; `docs/kaiwa/evidence/kai-028/REPORT.md` | KAI-029 / KAI-033 device |
 | 18/09/2026 | KAI-027 provisional relative F0/timing (no pitch-accent labels) | `npm test` **95/95**; build OK; `docs/kaiwa/evidence/kai-027/REPORT.md` | KAI-028 / KAI-033 device |
 | 18/09/2026 | KAI-026 pronunciation schema + not_configured stub (no fake scores) | `npm test` **89/89**; build OK; `docs/kaiwa/evidence/kai-026/REPORT.md` | KAI-033 device / KAI-023 |
