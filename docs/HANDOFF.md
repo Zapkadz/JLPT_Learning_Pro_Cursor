@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-021 DONE → next: KAI-022)
+2026-09-18 (KAI-022 DONE → next: KAI-030a)
 
 ## Current Branch
 
@@ -10,15 +10,15 @@
 
 ## Current Task
 
-**KAI-022** — Export MP4 job + private download; snapshot mix from review.
+**KAI-030a** — Kaiwa take history / progress for Gate A (no fake XP/speaking metrics).
 
 ## Exact Next Action
 
-Add export job for finalized attempts (mix snapshot), private download endpoint, idempotent restart; wire review UI export CTA.
+Ship attempt/activity history UI + events without changing deck/grammar XP meanings; ADR for separate Kaiwa streak/XP (defer active speaking XP to 030b).
 
 ## Last Completed
 
-**KAI-021** — Review page dual-gain mix, take history, keep flag, re-record → new attempt. Evidence: `docs/kaiwa/evidence/kai-021/REPORT.md`. Verify: **63/63**.
+**KAI-022** — Export MP4 job, mix snapshot, private download; ffmpeg when available else synthetic. Evidence: `docs/kaiwa/evidence/kai-022/REPORT.md`. Verify: **64/64**.
 
 ## Safety
 

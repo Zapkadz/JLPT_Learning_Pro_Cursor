@@ -1291,6 +1291,8 @@ export function KaiwaReview() {
   const [saveNote, setSaveNote] = useState("");
   const [saving, setSaving] = useState(false);
   const [rerecording, setRerecording] = useState(false);
+  const [exporting, setExporting] = useState(false);
+  const [exportHref, setExportHref] = useState<string | null>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const syncing = useRef(false);
@@ -1357,6 +1359,32 @@ export function KaiwaReview() {
     } catch (e) {
       setSaveNote(e instanceof Error ? e.message : "Không tạo được lần thu mới.");
       setRerecording(false);
+    }
+  }
+
+  async function startExport() {
+    if (!attemptId) return;
+    setExporting(true);
+    setSaveNote("");
+    try {
+      const row = await post<{ id: string; state: string }>(
+        `/kaiwa/attempts/${attemptId}/exports`,
+        {
+          originalGain: mix.originalGain,
+          learnerGain: mix.learnerGain,
+          offsetMs: 0,
+        },
+      );
+      if (row.state === "ready") {
+        setExportHref(`/api/kaiwa/exports/${row.id}/download`);
+        setSaveNote("Xuất sẵn sàng — tải về bên dưới.");
+      } else {
+        setSaveNote(`Xuất đang xử lý (${row.state}).`);
+      }
+    } catch (e) {
+      setSaveNote(e instanceof Error ? e.message : "Xuất thất bại.");
+    } finally {
+      setExporting(false);
     }
   }
 
@@ -1490,6 +1518,14 @@ export function KaiwaReview() {
           </button>
           <button
             type="button"
+            className="btn"
+            disabled={exporting || !finalized}
+            onClick={() => void startExport()}
+          >
+            {exporting ? "Đang xuất…" : "Xuất MP4"}
+          </button>
+          <button
+            type="button"
             className="btn secondary"
             disabled={rerecording}
             onClick={() => void startNewAttempt()}
@@ -1505,6 +1541,13 @@ export function KaiwaReview() {
             </Link>
           )}
         </div>
+        {exportHref && (
+          <p>
+            <a className="btn secondary" href={exportHref}>
+              Tải file xuất
+            </a>
+          </p>
+        )}
         {saveNote && <Status tone="info">{saveNote}</Status>}
       </div>
     </div>

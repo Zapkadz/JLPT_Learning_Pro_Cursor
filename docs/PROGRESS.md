@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** KAI-001–014, KAI-016–021 DONE. Gate A/B **not accepted**. Next: **KAI-022**. KAI-015 deferred.
+- **Kaiwa Studio:** KAI-001–014, KAI-016–022 DONE. Gate A/B **not accepted**. Next: **KAI-030a**. KAI-015 deferred.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -252,6 +252,10 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-022 (2026-09-18) — DONE
+
+Export MP4 with mix snapshot, idempotent per fingerprint, private download; ffmpeg mix when `FFMPEG_PATH` set else synthetic container. Evidence: `docs/kaiwa/evidence/kai-022/REPORT.md`. Verify: **64/64**; build OK.
+
 ### KAI-021 (2026-09-18) — DONE
 
 Review page `/kaiwa/attempts/:id` with dual-gain mix (video original + mic learner), mix persist via `PATCH …/mix`, project attempt list, re-record creates new attempt. Evidence: `docs/kaiwa/evidence/kai-021/REPORT.md`. Verify: **63/63**; build OK.
@@ -347,6 +351,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-022 export MP4 + download | **64/64** npm test; build OK | `docs/kaiwa/evidence/kai-022/REPORT.md` |
 | 2026-09-18 | KAI-021 review dual-gain + take history | **63/63** npm test; build OK | `docs/kaiwa/evidence/kai-021/REPORT.md` |
 | 2026-09-18 | KAI-020 finalize take | **62/62** npm test | `docs/kaiwa/evidence/kai-020/REPORT.md` |
 | 2026-09-18 | KAI-019 journal + chunk resume | **59/59** npm test; build OK | `docs/kaiwa/evidence/kai-019/REPORT.md` |
@@ -395,7 +400,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 ## Known Incomplete Work
 
-- Kaiwa **KAI-022+** (export / Gate A). KAI-015 ASR deferred without credentials.
+- Kaiwa **KAI-030+** (history / Gate A). KAI-015 ASR deferred without credentials.
 - KAI-010 ffmpeg normalize / thumbnail binary still deferred until `FFMPEG_PATH` (passthrough proxy OK for UI).
 - Independent teacher review of N2 content / furigana readings (language QA).
 - Possible local grammar content `revision` bump still uncommitted (separate from Kaiwa).

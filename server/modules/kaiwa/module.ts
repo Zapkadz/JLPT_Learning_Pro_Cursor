@@ -11,6 +11,7 @@ import { createProbeService } from "./probeService";
 import { createProxyService } from "./proxy";
 import { createAttemptChunkService } from "./attemptChunks";
 import { createFinalizeTakeService } from "./finalizeTake";
+import { createExportService } from "./exportMp4";
 
 export { KaiwaError };
 
@@ -80,6 +81,7 @@ export function kaiwaModule(
   const proxies = createProxyService(db, assets);
   const attemptChunks = createAttemptChunkService(db, assets, config);
   const finalizeTake = createFinalizeTakeService(db, assets, attemptChunks);
+  const exports = createExportService(db, assets, jobService);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -253,6 +255,53 @@ export function kaiwaModule(
     res.json(
       repo.patchAttemptMix(res.locals.user.id, String(req.params.id), body),
     );
+  });
+
+  router.post("/attempts/:id/exports", (req, res) => {
+    const body = z
+      .object({
+        originalGain: z.number().min(0).max(1).optional(),
+        learnerGain: z.number().min(0).max(1).optional(),
+        offsetMs: z.number().optional(),
+      })
+      .parse(req.body ?? {});
+    const { export: row, reused } = exports.createOrGetExport(
+      res.locals.user.id,
+      String(req.params.id),
+      body,
+    );
+    res.status(reused ? 200 : 201).json(row);
+  });
+
+  router.get("/exports/:id", (req, res) => {
+    res.json(exports.getExport(res.locals.user.id, String(req.params.id)));
+  });
+
+  router.get("/exports/:id/download", (req, res, next) => {
+    try {
+      const row = exports.getExport(res.locals.user.id, String(req.params.id));
+      if (row.state !== "ready" || !row.asset_id) {
+        throw new KaiwaError(409, "Bản xuất chưa sẵn sàng để tải.");
+      }
+      const asset = assets.ownAsset(res.locals.user.id, row.asset_id);
+      const st = assets.storage.stat(asset.storage_key);
+      if (!st) throw new KaiwaError(404, "Thiếu tệp xuất.");
+      const media = JSON.parse(asset.media_json || "{}") as {
+        contentType?: string;
+      };
+      res.setHeader(
+        "Content-Type",
+        media.contentType || "video/mp4",
+      );
+      res.setHeader(
+        "Content-Disposition",
+        `attachment; filename="kaiwa-export-${row.id.slice(0, 8)}.mp4"`,
+      );
+      res.setHeader("Content-Length", String(st.size));
+      assets.storage.openRead(asset.storage_key).stream.pipe(res);
+    } catch (e) {
+      next(e);
+    }
   });
 
   router.post("/attempts/:id/finalize", (req, res) => {
