@@ -278,6 +278,46 @@ export function createKaiwaRepository(db: Database.Database) {
     };
   }
 
+  function listAttempts(ownerId: string, projectId: string) {
+    ownProject(projectId, ownerId);
+    return db
+      .prepare(
+        `SELECT id, project_id, revision_id, audio_asset_id, record_state, completion,
+                duration_ms, created_at, finalized_at, device_json, clocks_json
+         FROM kaiwa_attempts WHERE owner_id=? AND project_id=?
+         ORDER BY created_at DESC`,
+      )
+      .all(ownerId, projectId);
+  }
+
+  function patchAttemptMix(
+    ownerId: string,
+    attemptId: string,
+    mix: { originalGain: number; learnerGain: number; keep?: boolean },
+  ) {
+    const row = db
+      .prepare("SELECT * FROM kaiwa_attempts WHERE id=? AND owner_id=?")
+      .get(attemptId, ownerId) as Record<string, unknown> | undefined;
+    if (!row) fail(404, "Không tìm thấy bản thu trong tài khoản của bạn.");
+    const device = JSON.parse(String(row.device_json || "{}")) as Record<
+      string,
+      unknown
+    >;
+    const clamp = (n: number) => Math.min(1, Math.max(0, n));
+    device.mix = {
+      originalGain: clamp(mix.originalGain),
+      learnerGain: clamp(mix.learnerGain),
+      keep: Boolean(mix.keep),
+      updatedAt: new Date().toISOString(),
+    };
+    db.prepare("UPDATE kaiwa_attempts SET device_json=? WHERE id=? AND owner_id=?").run(
+      JSON.stringify(device),
+      attemptId,
+      ownerId,
+    );
+    return getAttempt(ownerId, attemptId);
+  }
+
   return {
     createProject,
     patchProject,
@@ -287,6 +327,8 @@ export function createKaiwaRepository(db: Database.Database) {
     createAttempt,
     getAttempt,
     getRevision,
+    listAttempts,
+    patchAttemptMix,
   };
 }
 

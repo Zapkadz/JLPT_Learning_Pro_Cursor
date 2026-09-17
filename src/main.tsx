@@ -11,6 +11,7 @@ import {
   KaiwaEdit,
   KaiwaPrep,
   KaiwaStudio,
+  KaiwaReview,
 } from "./features/kaiwa/Kaiwa";
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -57,6 +58,7 @@ const router = createBrowserRouter([
       { path: "/kaiwa/projects/:id/edit", element: <KaiwaEdit /> },
       { path: "/kaiwa/projects/:id/prep", element: <KaiwaPrep /> },
       { path: "/kaiwa/projects/:id/studio", element: <KaiwaStudio /> },
+      { path: "/kaiwa/attempts/:id", element: <KaiwaReview /> },
       { path: "/kana", element: <Kana /> },
       { path: "/practice", element: <Practice /> },
       { path: "/progress", element: <Progress /> },

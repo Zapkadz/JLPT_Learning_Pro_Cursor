@@ -261,6 +261,68 @@
   overflow-wrap: anywhere;
 }
 
+.kaiwa-section-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.kaiwa-attempt-list {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.kaiwa-attempt-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.75rem 0.9rem;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--border, #d8d2c8) 80%, transparent);
+  text-decoration: none;
+  color: inherit;
+  min-height: 44px;
+  align-items: center;
+}
+
+.kaiwa-attempt-row:hover,
+.kaiwa-attempt-row:focus-visible {
+  border-color: var(--accent, #2f6fed);
+  outline: none;
+}
+
+.kaiwa-mix {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.kaiwa-mix-row {
+  display: grid;
+  grid-template-columns: 7rem 1fr 3rem;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.kaiwa-mix-row input[type="range"] {
+  width: 100%;
+  min-height: 44px;
+}
+
+.kaiwa-mix-keep {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  min-height: 44px;
+}
+
+.kaiwa-review-player {
+  display: grid;
+  gap: 0.75rem;
+}
+
 @media (max-width: 720px) {
   .kaiwa-dropzone {
     padding: 1.25rem 0.85rem;
@@ -268,5 +330,10 @@
 
   .kaiwa-ruby-preview {
     font-size: 1.05rem;
+  }
+
+  .kaiwa-mix-row {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
 }

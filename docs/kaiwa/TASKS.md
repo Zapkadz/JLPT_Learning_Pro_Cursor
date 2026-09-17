@@ -4,7 +4,7 @@ Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION
 
 Ngày cập nhật: 17/09/2026. Mốc A: chưa bắt đầu. Mốc B: chưa bắt đầu. Module hiện chưa có tính năng được nghiệm thu.
 
-KAI-001–014, KAI-016–020 DONE. Next: **KAI-021** (review playback / mix gains). KAI-015 deferred.
+KAI-001–014, KAI-016–021 DONE. Next: **KAI-022** (MP4 export). KAI-015 deferred.
 
 ## Cách đọc
 
@@ -66,8 +66,8 @@ KAI-015 có thể hoàn tất sau mốc A nếu provider chưa sẵn sàng; vẫ
 | KAI-018 · L · Frontend/Media | Recorder state machine, countdown và capture liên tục đồng bộ video | KAI-016, KAI-017 | Thu từ đầu tới EOF không dừng theo câu; khóa seek/rate; timestamp mapping đúng; dừng sớm/interruption phân biệt completed; chống double start/double finalize | DONE |
 | KAI-019 · L · Frontend/Backend | Journal chunk trong IndexedDB, upload nền/resume, giới hạn buffer và recover | KAI-002, KAI-008, KAI-018 | Test mất mạng/đóng tab/quota đầy; checksum/order đúng; biết phần nào server đã nhận; chỉ hứa recovery đã thử trên codec thực; dữ liệu không giải mã được không báo saved | DONE |
 | KAI-020 · L · Backend/Media | Finalize take, ghép/remux, kiểm tra decode/duration và lưu bản thu | KAI-007, KAI-019 | Idempotent finalize; thiếu chunk có lỗi; dữ liệu hợp lệ phát được đầu/giữa/cuối; thiếu tail sau interruption được ghi đúng; không trộn tiếng mẫu vào raw mic track | DONE |
-| KAI-021 · M · Frontend | Trang nghe lại, gain tiếng gốc/giọng mình, lịch sử take và chọn bản giữ | KAI-020 | Nghe toàn video đúng sync; cấu hình mix lưu được; thu lại không ghi đè take cũ; refresh quay lại đúng take; không có slider nhạc riêng nếu không có track riêng | IN_PROGRESS |
-| KAI-022 · L · Media/Backend/QA | Job xuất MP4 và download riêng tư; snapshot mix | KAI-021 | File MP4 phát được, thời lượng/gain/offset đúng với preview; không cắt chữ cuối; test nguồn mute/dọc/VFR; restart/retry không nhân output; export không phụ thuộc job scoring | TODO |
+| KAI-021 · M · Frontend | Trang nghe lại, gain tiếng gốc/giọng mình, lịch sử take và chọn bản giữ | KAI-020 | Nghe toàn video đúng sync; cấu hình mix lưu được; thu lại không ghi đè take cũ; refresh quay lại đúng take; không có slider nhạc riêng nếu không có track riêng | DONE |
+| KAI-022 · L · Media/Backend/QA | Job xuất MP4 và download riêng tư; snapshot mix | KAI-021 | File MP4 phát được, thời lượng/gain/offset đúng với preview; không cắt chữ cuối; test nguồn mute/dọc/VFR; restart/retry không nhân output; export không phụ thuộc job scoring | IN_PROGRESS |
 
 Tại KAI-022 có luồng sản phẩm cốt lõi, nhưng chưa phát hành A trước KAI-031–033.
 
@@ -106,16 +106,17 @@ KAI-030 có hai checklist: lịch sử ở A; thời gian nói/XP dựa trên ph
 ## 8. Checklist task đang làm
 
 ```text
-Task: KAI-021 — Review playback, dual gain, take history
+Task: KAI-022 — Export MP4 job + private download + mix snapshot
 Trạng thái: IN_PROGRESS
-Phụ thuộc: KAI-020 DONE
-Task tiếp theo: KAI-022
+Phụ thuộc: KAI-021 DONE
+Task tiếp theo: KAI-030 (Gate A) / KAI-023+ as graph allows
 ```
 
 ## 9. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-021 review dual-gain + take history + mix persist | `npm test` **63/63**; build OK; `docs/kaiwa/evidence/kai-021/REPORT.md` | KAI-022 export MP4 |
 | 18/09/2026 | KAI-020 finalize decode/duration/mic-only + tailMissing | `npm test` **62/62**; `docs/kaiwa/evidence/kai-020/REPORT.md` | KAI-021 review UI |
 | 18/09/2026 | KAI-019 journal + attempt chunk resume/assemble | `npm test` **59/59**; build OK; `docs/kaiwa/evidence/kai-019/REPORT.md` | KAI-020 remux finalize |
 | 18/09/2026 | KAI-018 continuous recorder + finalize idempotent | `npm test` **56/56**; build OK; `docs/kaiwa/evidence/kai-018/REPORT.md` | KAI-019 journal upload |

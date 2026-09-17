@@ -280,6 +280,13 @@ export function KaiwaProject() {
   const { data, error, reload } = useData<ProjectRow>(
     id ? `/kaiwa/projects/${id}` : "",
   );
+  const {
+    data: attemptData,
+    error: attemptError,
+    reload: reloadAttempts,
+  } = useData<{ attempts: AttemptListRow[] }>(
+    id ? `/kaiwa/projects/${id}/attempts` : "",
+  );
   const [prepError, setPrepError] = useState("");
   const [preparing, setPreparing] = useState(false);
 
@@ -305,6 +312,8 @@ export function KaiwaProject() {
   if (!id) return <ErrorState message="Thiếu mã dự án." />;
   if (error) return <ErrorState message={error} retry={reload} />;
   if (!data) return <Loading />;
+
+  const attempts = attemptData?.attempts ?? [];
 
   return (
     <div className="kaiwa-page">
@@ -363,6 +372,51 @@ export function KaiwaProject() {
             Tải video khác
           </Link>
         </div>
+      </div>
+
+      <div className="panel">
+        <h2 className="kaiwa-section-title">Lịch sử lần thu</h2>
+        <p className="kaiwa-privacy-note">
+          Mỗi lần thu là một bản riêng — thu lại không ghi đè bản cũ.
+        </p>
+        {attemptError ? (
+          <Status tone="error">
+            {attemptError}{" "}
+            <button type="button" className="btn secondary" onClick={reloadAttempts}>
+              Thử lại
+            </button>
+          </Status>
+        ) : !attemptData ? (
+          <Loading />
+        ) : attempts.length === 0 ? (
+          <p>Chưa có lần thu nào. Bắt đầu từ màn chuẩn bị học.</p>
+        ) : (
+          <ul className="kaiwa-attempt-list">
+            {attempts.map((a) => {
+              const mix = parseMix(a.device_json);
+              return (
+                <li key={a.id}>
+                  <Link
+                    className="kaiwa-attempt-row"
+                    to={`/kaiwa/attempts/${a.id}`}
+                  >
+                    <span>
+                      {dateTime(a.created_at)}
+                      {mix.keep ? " · giữ" : ""}
+                    </span>
+                    <span>
+                      {a.record_state}
+                      {a.completion ? ` · ${a.completion}` : ""}
+                      {a.duration_ms != null
+                        ? ` · ${(a.duration_ms / 1000).toFixed(1)}s`
+                        : ""}
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        )}
       </div>
     </div>
   );
@@ -858,12 +912,25 @@ export function KaiwaEdit() {
   );
 }
 
+type MixPrefs = {
+  originalGain: number;
+  learnerGain: number;
+  keep?: boolean;
+  updatedAt?: string;
+};
+
 type AttemptDetail = {
   id: string;
   project_id: string;
   revision_id: string;
   projectTitle: string;
   proxyAssetId: string | null;
+  audio_asset_id: string | null;
+  record_state: string;
+  completion: string | null;
+  duration_ms: number | null;
+  created_at: string;
+  device_json: string | null;
   assessableReady: boolean;
   assessableMessage: string | null;
   revision: {
@@ -873,6 +940,36 @@ type AttemptDetail = {
     payload: { segments: KaiwaSegment[] };
   };
 };
+
+type AttemptListRow = {
+  id: string;
+  project_id: string;
+  revision_id: string;
+  audio_asset_id: string | null;
+  record_state: string;
+  completion: string | null;
+  duration_ms: number | null;
+  created_at: string;
+  finalized_at: string | null;
+  device_json: string | null;
+};
+
+function parseMix(deviceJson: string | null | undefined): MixPrefs {
+  try {
+    const device = JSON.parse(deviceJson || "{}") as { mix?: MixPrefs };
+    const mix = device.mix;
+    return {
+      originalGain:
+        typeof mix?.originalGain === "number" ? mix.originalGain : 0.5,
+      learnerGain:
+        typeof mix?.learnerGain === "number" ? mix.learnerGain : 1,
+      keep: Boolean(mix?.keep),
+      updatedAt: mix?.updatedAt,
+    };
+  } catch {
+    return { originalGain: 0.5, learnerGain: 1, keep: false };
+  }
+}
 
 export function KaiwaPrep() {
   const { user } = useAuth();
@@ -1085,6 +1182,7 @@ export function KaiwaPrep() {
 
 export function KaiwaStudio() {
   const { id } = useParams();
+  const navigate = useNavigate();
   const attemptId = new URLSearchParams(useLocation().search).get("attempt");
   const { data, error, reload } = useData<AttemptDetail>(
     attemptId ? `/kaiwa/attempts/${attemptId}` : "",
@@ -1138,6 +1236,7 @@ export function KaiwaStudio() {
               : null
           }
           deviceId={micReady.deviceId}
+          onSaved={() => navigate(`/kaiwa/attempts/${attemptId}`)}
         />
       )}
 
@@ -1159,8 +1258,8 @@ export function KaiwaStudio() {
           <code>{data.revision_id.slice(0, 8)}</code>
         </p>
         <p className="kaiwa-privacy-note">
-          Máy thu liên tục (countdown / MediaRecorder) nối tiếp ở KAI-018. Snapshot đã
-          ghim và không đổi khi sửa nháp sau này.
+          Sau khi chốt bản thu, bạn được chuyển sang trang nghe lại (gain gốc / giọng
+          mình). Snapshot đã ghim và không đổi khi sửa nháp sau này.
         </p>
         <ol className="kaiwa-segments">
           {segs.map((seg) => (
@@ -1173,6 +1272,240 @@ export function KaiwaStudio() {
             </li>
           ))}
         </ol>
+      </div>
+    </div>
+  );
+}
+
+export function KaiwaReview() {
+  const { id: attemptId } = useParams();
+  const navigate = useNavigate();
+  const { data, error, reload } = useData<AttemptDetail>(
+    attemptId ? `/kaiwa/attempts/${attemptId}` : "",
+  );
+  const [mix, setMix] = useState<MixPrefs>({
+    originalGain: 0.5,
+    learnerGain: 1,
+    keep: false,
+  });
+  const [saveNote, setSaveNote] = useState("");
+  const [saving, setSaving] = useState(false);
+  const [rerecording, setRerecording] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const audioRef = useRef<HTMLAudioElement>(null);
+  const syncing = useRef(false);
+
+  useEffect(() => {
+    if (data) setMix(parseMix(data.device_json));
+  }, [data]);
+
+  useEffect(() => {
+    const v = videoRef.current;
+    if (v) v.volume = mix.originalGain;
+    const a = audioRef.current;
+    if (a) a.volume = mix.learnerGain;
+  }, [mix.originalGain, mix.learnerGain]);
+
+  function syncFromVideo() {
+    const v = videoRef.current;
+    const a = audioRef.current;
+    if (!v || !a || syncing.current) return;
+    syncing.current = true;
+    try {
+      if (Math.abs(a.currentTime - v.currentTime) > 0.12) {
+        a.currentTime = v.currentTime;
+      }
+    } catch {
+      /* ignore seek race */
+    } finally {
+      syncing.current = false;
+    }
+  }
+
+  async function saveMix(next: MixPrefs) {
+    if (!attemptId) return;
+    setSaving(true);
+    setSaveNote("");
+    try {
+      await api(`/kaiwa/attempts/${attemptId}/mix`, {
+        method: "PATCH",
+        body: JSON.stringify({
+          originalGain: next.originalGain,
+          learnerGain: next.learnerGain,
+          keep: next.keep,
+        }),
+      });
+      setSaveNote("Đã lưu cấu hình mix.");
+      reload();
+    } catch (e) {
+      setSaveNote(e instanceof Error ? e.message : "Lưu mix thất bại.");
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  async function startNewAttempt() {
+    if (!data) return;
+    setRerecording(true);
+    try {
+      const attempt = await post<AttemptDetail>(
+        `/kaiwa/projects/${data.project_id}/attempts`,
+      );
+      navigate(
+        `/kaiwa/projects/${data.project_id}/studio?attempt=${attempt.id}`,
+      );
+    } catch (e) {
+      setSaveNote(e instanceof Error ? e.message : "Không tạo được lần thu mới.");
+      setRerecording(false);
+    }
+  }
+
+  if (!attemptId) return <ErrorState message="Thiếu mã lần thu." />;
+  if (error) return <ErrorState message={error} retry={reload} />;
+  if (!data) return <Loading />;
+
+  const videoUrl = data.proxyAssetId
+    ? `/api/kaiwa/assets/${data.proxyAssetId}/content`
+    : null;
+  const micUrl = data.audio_asset_id
+    ? `/api/kaiwa/assets/${data.audio_asset_id}/content`
+    : null;
+  const finalized =
+    data.record_state === "finalized" || Boolean(data.audio_asset_id);
+
+  return (
+    <div className="kaiwa-page">
+      <PageHead
+        title={`Nghe lại · ${data.projectTitle}`}
+        description={`${dateTime(data.created_at)} · ${data.record_state}${
+          data.completion ? ` · ${data.completion}` : ""
+        }`}
+      >
+        <Link
+          className="btn secondary"
+          to={`/kaiwa/projects/${data.project_id}`}
+        >
+          Dự án
+        </Link>
+      </PageHead>
+
+      {!finalized && (
+        <Status tone="info">
+          Bản thu chưa chốt xong — vẫn có thể mở phòng thu để tiếp tục.
+        </Status>
+      )}
+
+      <div className="panel kaiwa-review-player">
+        {videoUrl ? (
+          <video
+            ref={videoRef}
+            className="kaiwa-record-video"
+            src={videoUrl}
+            controls
+            playsInline
+            preload="metadata"
+            onPlay={() => {
+              void audioRef.current?.play().catch(() => undefined);
+              syncFromVideo();
+            }}
+            onPause={() => audioRef.current?.pause()}
+            onSeeking={syncFromVideo}
+            onTimeUpdate={syncFromVideo}
+            onRateChange={() => {
+              const a = audioRef.current;
+              const v = videoRef.current;
+              if (a && v) a.playbackRate = v.playbackRate;
+            }}
+          />
+        ) : (
+          <p>Chưa có video proxy để nghe lại.</p>
+        )}
+        {micUrl ? (
+          <audio ref={audioRef} src={micUrl} preload="auto" />
+        ) : (
+          <p className="kaiwa-privacy-note">
+            Chưa có audio micro đã chốt — thanh «Giọng mình» sẽ không có tín hiệu.
+          </p>
+        )}
+      </div>
+
+      <div className="panel kaiwa-mix">
+        <h2 className="kaiwa-section-title">Mix nghe lại</h2>
+        <p className="kaiwa-privacy-note">
+          Chỉ hai kênh: tiếng gốc (video) và giọng bạn (micro). Không có slider nhạc
+          riêng khi không có track riêng.
+        </p>
+        <label className="kaiwa-mix-row">
+          <span>Tiếng gốc</span>
+          <input
+            type="range"
+            min={0}
+            max={1}
+            step={0.01}
+            value={mix.originalGain}
+            onChange={(e) =>
+              setMix((m) => ({
+                ...m,
+                originalGain: Number(e.target.value),
+              }))
+            }
+          />
+          <span>{Math.round(mix.originalGain * 100)}%</span>
+        </label>
+        <label className="kaiwa-mix-row">
+          <span>Giọng mình</span>
+          <input
+            type="range"
+            min={0}
+            max={1}
+            step={0.01}
+            value={mix.learnerGain}
+            onChange={(e) =>
+              setMix((m) => ({
+                ...m,
+                learnerGain: Number(e.target.value),
+              }))
+            }
+          />
+          <span>{Math.round(mix.learnerGain * 100)}%</span>
+        </label>
+        <label className="kaiwa-mix-keep">
+          <input
+            type="checkbox"
+            checked={Boolean(mix.keep)}
+            onChange={(e) =>
+              setMix((m) => ({ ...m, keep: e.target.checked }))
+            }
+          />
+          Đánh dấu giữ bản này
+        </label>
+        <div className="kaiwa-actions">
+          <button
+            type="button"
+            className="btn"
+            disabled={saving}
+            onClick={() => void saveMix(mix)}
+          >
+            {saving ? "Đang lưu…" : "Lưu mix"}
+          </button>
+          <button
+            type="button"
+            className="btn secondary"
+            disabled={rerecording}
+            onClick={() => void startNewAttempt()}
+          >
+            {rerecording ? "Đang tạo…" : "Thu lại (bản mới)"}
+          </button>
+          {!finalized && (
+            <Link
+              className="btn secondary"
+              to={`/kaiwa/projects/${data.project_id}/studio?attempt=${data.id}`}
+            >
+              Tiếp tục thu
+            </Link>
+          )}
+        </div>
+        {saveNote && <Status tone="info">{saveNote}</Status>}
       </div>
     </div>
   );

@@ -151,6 +151,15 @@ export function kaiwaModule(
     res.status(201).json(attempt);
   });
 
+  router.get("/projects/:id/attempts", (req, res) => {
+    res.json({
+      attempts: repo.listAttempts(
+        res.locals.user.id,
+        String(req.params.id),
+      ),
+    });
+  });
+
   /** Prep → optional publish → create attempt with immutable revision pin. */
   router.post("/projects/:id/start-practice", (req, res) => {
     const ownerId = res.locals.user.id as string;
@@ -231,6 +240,19 @@ export function kaiwaModule(
 
   router.get("/attempts/:id", (req, res) => {
     res.json(repo.getAttempt(res.locals.user.id, String(req.params.id)));
+  });
+
+  router.patch("/attempts/:id/mix", (req, res) => {
+    const body = z
+      .object({
+        originalGain: z.number().min(0).max(1),
+        learnerGain: z.number().min(0).max(1),
+        keep: z.boolean().optional(),
+      })
+      .parse(req.body);
+    res.json(
+      repo.patchAttemptMix(res.locals.user.id, String(req.params.id), body),
+    );
   });
 
   router.post("/attempts/:id/finalize", (req, res) => {

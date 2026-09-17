@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-020 DONE → next: KAI-021)
+2026-09-18 (KAI-021 DONE → next: KAI-022)
 
 ## Current Branch
 
@@ -10,15 +10,15 @@
 
 ## Current Task
 
-**KAI-021** — Review page: original vs learner gains, take history, keep selection.
+**KAI-022** — Export MP4 job + private download; snapshot mix from review.
 
 ## Exact Next Action
 
-Add `/kaiwa/attempts/:id` review UI with dual-gain mix (video ref + mic), list project attempts, persist mix prefs; re-record creates new attempt (never overwrite).
+Add export job for finalized attempts (mix snapshot), private download endpoint, idempotent restart; wire review UI export CTA.
 
 ## Last Completed
 
-**KAI-020** — finalizeTake service (auto-assemble, mic-only, Range smoke, interrupted/tailMissing). Evidence: `docs/kaiwa/evidence/kai-020/REPORT.md`. Verify: **62/62**.
+**KAI-021** — Review page dual-gain mix, take history, keep flag, re-record → new attempt. Evidence: `docs/kaiwa/evidence/kai-021/REPORT.md`. Verify: **63/63**.
 
 ## Safety
 
