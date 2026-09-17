@@ -16,6 +16,7 @@ import { listActivityHistory } from "./activity";
 import { createOpsService, redactForLog } from "./ops";
 import { resolveSpeechCapability } from "./speechCapability";
 import { createAudioQualityService } from "./audioQualityService";
+import { createAlignmentService } from "./alignmentService";
 
 export { KaiwaError };
 
@@ -88,6 +89,7 @@ export function kaiwaModule(
   const exports = createExportService(db, assets, jobService);
   const ops = createOpsService(db, assets, jobService, config);
   const audioQuality = createAudioQualityService(db, assets);
+  const alignment = createAlignmentService(db);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -325,6 +327,30 @@ export function kaiwaModule(
       res.status(404).json({
         error: "Chưa có kết quả kiểm tra chất lượng cho bản thu này.",
         code: "quality_not_run",
+      });
+      return;
+    }
+    res.json(stored);
+  });
+
+  router.post("/attempts/:id/alignment", (req, res) => {
+    const body = z
+      .object({ offsetMs: z.number().optional() })
+      .parse(req.body ?? {});
+    res.json(
+      alignment.alignAttempt(res.locals.user.id, String(req.params.id), body),
+    );
+  });
+
+  router.get("/attempts/:id/alignment", (req, res) => {
+    const stored = alignment.getStored(
+      res.locals.user.id,
+      String(req.params.id),
+    );
+    if (!stored) {
+      res.status(404).json({
+        error: "Chưa có căn chỉnh cho bản thu này.",
+        code: "alignment_not_run",
       });
       return;
     }
