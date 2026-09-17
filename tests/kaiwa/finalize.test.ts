@@ -1,10 +1,23 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import type { AddressInfo } from "node:net";
 import { createApp } from "../../server/app";
+
+function sha(buf: Buffer) {
+  return createHash("sha256").update(buf).digest("hex");
+}
+
+function minimalWebm(): Buffer {
+  return Buffer.concat([
+    Buffer.from([0x1a, 0x45, 0xdf, 0xa3]),
+    Buffer.from("webm"),
+    Buffer.from("finalize-audio-body"),
+  ]);
+}
 
 async function withServer(
   run: (base: string, cookie: string) => Promise<void>,
@@ -41,12 +54,12 @@ function api(base: string, cookie: string, path: string, init: RequestInit = {})
   const headers = new Headers(init.headers);
   headers.set("Origin", "http://127.0.0.1:5173");
   headers.set("Cookie", cookie);
-  if (init.body && !headers.has("Content-Type"))
+  if (init.body && !headers.has("Content-Type") && !(init.body instanceof Uint8Array))
     headers.set("Content-Type", "application/json");
   return fetch(base + path, { ...init, headers });
 }
 
-test("attempt finalize is idempotent and stores completion clocks", async () => {
+test("attempt finalize is idempotent after assemble; requires audio for partial", async () => {
   await withServer(async (base, cookie) => {
     const created = await api(base, cookie, "/kaiwa/projects", {
       method: "POST",
@@ -63,6 +76,34 @@ test("attempt finalize is idempotent and stores completion clocks", async () => 
       },
     );
     const attempt = (await start.json()) as { id: string };
+
+    const noAudio = await api(
+      base,
+      cookie,
+      `/kaiwa/attempts/${attempt.id}/finalize`,
+      {
+        method: "POST",
+        body: JSON.stringify({ completion: "partial", durationMs: 100 }),
+      },
+    );
+    assert.equal(noAudio.status, 409);
+
+    const webm = minimalWebm();
+    await api(base, cookie, `/kaiwa/attempts/${attempt.id}/chunks/0`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/octet-stream",
+        "X-Checksum-Sha256": sha(webm),
+      },
+      body: new Uint8Array(webm),
+    });
+    const assembled = await api(
+      base,
+      cookie,
+      `/kaiwa/attempts/${attempt.id}/assemble-audio`,
+      { method: "POST", body: "{}" },
+    );
+    assert.equal(assembled.status, 201);
 
     const fin = await api(base, cookie, `/kaiwa/attempts/${attempt.id}/finalize`, {
       method: "POST",

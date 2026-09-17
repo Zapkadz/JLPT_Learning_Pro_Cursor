@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-018 DONE → next: KAI-019)
+2026-09-18 (KAI-019 DONE → next: KAI-020)
 
 ## Current Branch
 
@@ -10,15 +10,15 @@
 
 ## Current Task
 
-**KAI-019** — IndexedDB journal, background chunk upload/resume, buffer limits.
+**KAI-020** — Finalize take: remux/decode check, duration validation, store take asset (no sample bleed into mic track).
 
 ## Exact Next Action
 
-Persist MediaRecorder chunks to IndexedDB during capture; resume upload via existing `/kaiwa/uploads` or attempt chunk APIs; never claim saved if undecodable.
+Strengthen assemble/finalize with decode/duration checks; ensure interrupted missing-tail is recorded honestly; keep mic track separate from reference audio.
 
 ## Last Completed
 
-**KAI-018** — capture state machine, continuous studio recorder, idempotent finalize. Evidence: `docs/kaiwa/evidence/kai-018/REPORT.md`. Verify: **56/56**.
+**KAI-019** — IDB journal, attempt chunk resume, assemble gate before saved. Evidence: `docs/kaiwa/evidence/kai-019/REPORT.md`. Verify: **59/59**.
 
 ## Safety
 

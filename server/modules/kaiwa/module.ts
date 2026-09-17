@@ -9,6 +9,7 @@ import { createJobService } from "./jobs";
 import { createUploadService } from "./uploads";
 import { createProbeService } from "./probeService";
 import { createProxyService } from "./proxy";
+import { createAttemptChunkService } from "./attemptChunks";
 
 export { KaiwaError };
 
@@ -63,6 +64,10 @@ export function kaiwaModule(
       "kaiwa-004",
       new Date().toISOString(),
     );
+    db.prepare("INSERT OR IGNORE INTO schema_migrations VALUES(?,?)").run(
+      "kaiwa-005",
+      new Date().toISOString(),
+    );
   })();
 
   const config = loadKaiwaConfig(configOverrides);
@@ -72,6 +77,7 @@ export function kaiwaModule(
   const uploads = createUploadService(db, assets, config);
   const probes = createProbeService(db, assets);
   const proxies = createProxyService(db, assets);
+  const attemptChunks = createAttemptChunkService(db, assets, config);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -241,32 +247,74 @@ export function kaiwaModule(
         device: z.record(z.unknown()).optional(),
       })
       .parse(req.body);
-    const existing = repo.getAttempt(ownerId, attemptId);
-    // Idempotent: already finalized
     const row = db
       .prepare("SELECT * FROM kaiwa_attempts WHERE id=? AND owner_id=?")
       .get(attemptId, ownerId) as {
       finalized_at: string | null;
-      record_state: string;
-    };
+      audio_asset_id: string | null;
+    } | undefined;
+    if (!row) throw new KaiwaError(404, "Không tìm thấy bản thu.");
     if (row.finalized_at) {
       return res.json(repo.getAttempt(ownerId, attemptId));
     }
+    const needsAudio =
+      body.completion === "completed" || body.completion === "partial";
+    if (needsAudio && !row.audio_asset_id) {
+      throw new KaiwaError(
+        409,
+        "Chưa lắp audio hợp lệ — không báo đã lưu bản thu.",
+      );
+    }
     const now = new Date().toISOString();
+    const recordState = needsAudio ? "saved" : body.completion;
     db.prepare(
       `UPDATE kaiwa_attempts SET completion=?, duration_ms=?, clocks_json=?, device_json=?,
-       record_state='saved', finalized_at=? WHERE id=? AND owner_id=?`,
+       record_state=?, finalized_at=? WHERE id=? AND owner_id=?`,
     ).run(
       body.completion,
       body.durationMs ?? null,
       JSON.stringify(body.clocks ?? {}),
       JSON.stringify(body.device ?? {}),
+      recordState,
       now,
       attemptId,
       ownerId,
     );
-    void existing;
     res.json(repo.getAttempt(ownerId, attemptId));
+  });
+
+  router.get("/attempts/:id/upload-state", (req, res) => {
+    res.json(
+      attemptChunks.uploadState(res.locals.user.id, String(req.params.id)),
+    );
+  });
+
+  router.put(
+    "/attempts/:id/chunks/:index",
+    express.raw({ type: () => true, limit: config.maxUploadBytes }),
+    (req, res) => {
+      const index = Number(req.params.index);
+      const checksum = String(req.get("X-Checksum-Sha256") || "");
+      if (!checksum)
+        throw new KaiwaError(400, "Thiếu header X-Checksum-Sha256.");
+      const data = Buffer.isBuffer(req.body) ? req.body : Buffer.from([]);
+      const result = attemptChunks.putChunk(
+        res.locals.user.id,
+        String(req.params.id),
+        index,
+        data,
+        checksum,
+      );
+      res.json(result);
+    },
+  );
+
+  router.post("/attempts/:id/assemble-audio", (req, res) => {
+    const asset = attemptChunks.assemble(
+      res.locals.user.id,
+      String(req.params.id),
+    );
+    res.status(201).json(asset);
   });
 
   router.get("/storage/usage", (_req, res) => {
