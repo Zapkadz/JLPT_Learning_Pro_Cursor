@@ -1455,6 +1455,11 @@ export function KaiwaReview() {
         </Status>
       )}
 
+      <Status tone="info">
+        Chấm phát âm tự động chưa cấu hình ở Gate A — bạn vẫn nghe lại và xuất MP4 được
+        (không có điểm số giả).
+      </Status>
+
       <div className="panel kaiwa-review-player">
         {videoUrl ? (
           <video

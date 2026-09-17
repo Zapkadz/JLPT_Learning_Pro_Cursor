@@ -2,9 +2,9 @@
 
 Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION-RULES.md](./IMPLEMENTATION-RULES.md).
 
-Ngày cập nhật: 17/09/2026. Mốc A: chưa bắt đầu. Mốc B: chưa bắt đầu. Module hiện chưa có tính năng được nghiệm thu.
+Ngày cập nhật: 18/09/2026. Mốc A: **chờ evidence thiết bị (KAI-033)**. Mốc B: chưa bắt đầu.
 
-KAI-001–014, KAI-016–022, KAI-030a, KAI-031–032 DONE. Next: **KAI-033** Gate A (device evidence). KAI-015 / KAI-030b deferred.
+KAI-001–014, KAI-016–022, KAI-030a, KAI-031–032 DONE. KAI-033 docs/preflight packaged; **device rows PENDING**. KAI-015 / KAI-030b deferred.
 
 ## Cách đọc
 
@@ -107,15 +107,16 @@ KAI-030 có hai checklist: lịch sử ở A; thời gian nói/XP dựa trên ph
 
 ```text
 Task: KAI-033 — Gate A device / full-flow acceptance
-Trạng thái: IN_PROGRESS (BLOCKED on real-device evidence)
+Trạng thái: IN_PROGRESS — docs/preflight DONE; BLOCKED on Chrome/Edge device PASS
 Phụ thuộc: KAI-032 DONE
-Task tiếp theo: Gate A sign-off → propose Gate B milestone
+Task tiếp theo: Human fill CHECKLIST → Gate A ACCEPTED; parallel: KAI-015 stub if credentials still missing
 ```
 
 ## 9. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-033 checklist + USAGE + release notes + preflight script + scoring honesty UI | `npm run kaiwa:gate-a-preflight`; device rows still empty | Human device Gate A |
 | 18/09/2026 | KAI-032 cross-account/security suite + a11y checklist | `npm test` **70/70**; build OK; `docs/kaiwa/evidence/kai-032/REPORT.md` | KAI-033 Gate A devices |
 | 18/09/2026 | KAI-031 soft-delete+GC, media backup+manifest, redact/ops snapshot | `npm test` **68/68**; build OK; `docs/kaiwa/evidence/kai-031/REPORT.md` | KAI-032 security QA |
 | 18/09/2026 | KAI-030a history + activity events + ADR-018 (no XP inject) | `npm test` **65/65**; build OK; `docs/kaiwa/evidence/kai-030a/REPORT.md` | KAI-031 backup/media |

@@ -252,6 +252,10 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-033 packaging (2026-09-18) — PARTIAL (device BLOCKED)
+
+Gate A checklist, USAGE-GATE-A, release/rollback notes, `npm run kaiwa:gate-a-preflight` (70/70 + build), review scoring honesty banner. **Gate A not accepted** until CHECKLIST device rows PASS.
+
 ### KAI-032 (2026-09-18) — DONE
 
 Cross-account ownership isolation for project/attempt/export/history; unauth reject; security evidence index + manual a11y checklist for Gate A. Evidence: `docs/kaiwa/evidence/kai-032/REPORT.md`. Verify: **70/70**; build OK.
@@ -363,6 +367,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-033 Gate A docs + preflight | preflight OK (70/70 + build); device PENDING | `docs/kaiwa/evidence/kai-033/` |
 | 2026-09-18 | KAI-032 security / ownership QA | **70/70** npm test; build OK | `docs/kaiwa/evidence/kai-032/REPORT.md` |
 | 2026-09-18 | KAI-031 backup/soft-delete/GC | **68/68** npm test; build OK | `docs/kaiwa/evidence/kai-031/REPORT.md` |
 | 2026-09-18 | KAI-030a history + ADR-018 | **65/65** npm test; build OK | `docs/kaiwa/evidence/kai-030a/REPORT.md` |

@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-032 DONE → next: KAI-033 Gate A)
+2026-09-18 (KAI-033 docs packaged; device evidence BLOCKED)
 
 ## Current Branch
 
@@ -10,22 +10,24 @@
 
 ## Current Task
 
-**KAI-033** — Gate A acceptance on real devices (Chrome/Edge capture claim).
+**KAI-033** — Gate A acceptance. Docs/preflight ready; **waiting on human Chrome/Edge runs**.
 
 ## Exact Next Action
 
-Run full Gate A checklist on supported desktop browsers; attach evidence under `docs/kaiwa/evidence/kai-033/`. Automated path is complete through KAI-032 (**70/70**).
+1. Operator: `npm run kaiwa:gate-a-preflight`
+2. Fill `docs/kaiwa/evidence/kai-033/CHECKLIST.md` on Desktop Chrome + Edge (mic full flow)
+3. Optional parallel (no credentials): start **KAI-015** `not_configured` capability UI/API stub
 
-## Last Completed
+## Last Completed (this turn)
 
-**KAI-032** — Cross-account isolation + unauth reject + security evidence map. Evidence: `docs/kaiwa/evidence/kai-032/REPORT.md`. Verify: **70/70**.
+Gate A packaging: CHECKLIST, USAGE-GATE-A, RELEASE-NOTES, preflight script, review scoring honesty banner.
 
 ## Blockers
 
-- **KAI-033** needs human/device runs (mic, crash recovery, full upload→export). Not automatable as Gate A acceptance.
+- Real-device Gate A sign-off (cannot be completed by agent alone).
 
 ## Safety
 
 - Do not stage grammar dirty files.
 - Do not commit user media / large derived outputs.
-- Do not mark Gate A accepted without device evidence.
+- Do not mark Gate A ACCEPTED without filled checklist.
