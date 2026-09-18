@@ -179,7 +179,7 @@ Tham chiếu UX: Subtitle Edit plain-text + Point Sync; engine bake-off: Qwen3-F
 | KAI-073 · L · Frontend | Waveform kéo start/end; khóa mốc; căn lại selection / giữa hai khóa; preview+undo | KAI-070, KAI-072 | 25/30 đúng giữ nguyên khi chỉ sửa 5 câu | DONE |
 | KAI-074 · M · Speech | Tách speech timing vs practice padding/overlay early-show (config + docs) | KAI-065, KAI-072 | Transcript end ≠ kéo tới câu kế | DONE |
 | KAI-075 · M · Ops | Capability `ready` cần smoke inference model (không chỉ import); tài liệu máy CPU | KAI-070 | speech-env/capability khớp | DONE |
-| KAI-076 · L · QA | **Đợt 6 — held-out / anime user** (ngoài git): đo phút sửa / phút video; không trộn BGM nặng vào average | KAI-070–073 | Evidence; v2 vẫn sau | TODO |
+| KAI-076 · L · QA | **Đợt 6 — held-out / anime user** (ngoài git): đo phút sửa / phút video; không trộn BGM nặng vào average | KAI-070–073 | Evidence; v2 vẫn sau | BLOCKED |
 
 Thứ tự cứng: **065 → 066 → (067∥068∥069) → 070 → 071/072/074 → 073 → 075 → 076**. V2 ASR không chen trước 066 trừ khi user override.
 
