@@ -27,7 +27,6 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
 | **Current executable task** | Auto-subtitle **v1+v2 DONE** (050–058); next **KAI-046** human Gate A |
-| **Auto subtitle (ADR-020)** | **KAI-050–058** | **DONE** (v1 script-sync + v2 ASR local Whisper) |
 | Do not start | **KAI-035** before Gate B |
 
 ### Phase overview (detail in `docs/kaiwa/TASKS.md`)
