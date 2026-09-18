@@ -26,7 +26,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Detailed backlog / dependency graph | `docs/kaiwa/TASKS.md` |
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
-| **Current executable task** | **KAI-051** DONE; next **KAI-052** align spike / **KAI-046** human |
+| **Current executable task** | **KAI-052** BLOCKED (ffmpeg/keys); **KAI-046** human; no KAI-053 until 052 unblocked |
 | Do not start | **KAI-035** before Gate B |
 
 ### Phase overview (detail in `docs/kaiwa/TASKS.md`)
