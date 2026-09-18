@@ -1,6 +1,7 @@
 /**
- * KAI-015/053/070 speech + script-align capability surface.
+ * KAI-015/053/070/075 speech + script-align capability surface.
  * Default align engine: stable_ts (ADR-021a). Optional: qwen_fa, whisper, mock.
+ * KAI-075: `ready` requires smoke inference (not import-only), unless smoke skipped.
  */
 
 import { existsSync } from "node:fs";
@@ -28,7 +29,6 @@ export type SpeechCapability = {
     status: SpeechCapabilityStatus;
     providers: string[];
     messageVi: string;
-    /** ProsodyScore must not be used for ja-JP (en-US only per Azure docs). */
     prosodySupportedForJaJp: false;
   };
   scriptAlign: {
@@ -36,6 +36,7 @@ export type SpeechCapability = {
     providers: string[];
     messageVi: string;
     engine: string | null;
+    smoke?: "passed" | "failed" | "skipped" | "mock";
   };
   credentialsPresent: boolean;
   liveTestsAllowed: boolean;
@@ -57,7 +58,6 @@ export function resolveScriptAlignEnginePref(
     return "whisper";
   if (raw === "stable_ts" || raw === "stable-ts" || raw === "stable")
     return "stable_ts";
-  // Unknown → ADR-021a default
   return "stable_ts";
 }
 
@@ -78,6 +78,10 @@ export function resolveFfmpegPath(
 }
 
 const importCache = new Map<string, boolean>();
+const smokeCache = new Map<
+  string,
+  { ok: boolean; detail: string; skipped?: boolean }
+>();
 
 function canImportPythonModule(
   env: NodeJS.ProcessEnv,
@@ -121,6 +125,136 @@ function canImportQwenFa(env: NodeJS.ProcessEnv): boolean {
   );
 }
 
+/** Whether to run model smoke for `ready` (KAI-075). */
+export function shouldRunAlignSmoke(
+  env: NodeJS.ProcessEnv = process.env,
+): boolean {
+  const v = (env.KAIWA_ALIGN_SMOKE || "").trim().toLowerCase();
+  if (v === "0" || v === "off" || v === "skip" || v === "false") return false;
+  if (v === "1" || v === "on" || v === "force" || v === "true") return true;
+  if (env.KAIWA_UNDER_TEST === "1") return false;
+  // npm test / CI unit runs — avoid loading multi-hundred-MB models
+  if (env.npm_lifecycle_event === "test") return false;
+  return true;
+}
+
+/**
+ * Run one short align/transcribe against silence. Cached per engine+model.
+ */
+export function runAlignEngineSmoke(
+  env: NodeJS.ProcessEnv = process.env,
+  engine: ScriptAlignEnginePref = resolveScriptAlignEnginePref(env),
+  model?: string,
+): { ok: boolean; detail: string; skipped?: boolean } {
+  if (engine === "mock") {
+    return { ok: true, detail: "mock", skipped: false };
+  }
+  const modelName =
+    model ||
+    (engine === "qwen_fa"
+      ? env.KAIWA_QWEN_FA_MODEL?.trim() || "Qwen/Qwen3-ForcedAligner-0.6B"
+      : env.KAIWA_WHISPER_MODEL?.trim() || "base");
+  const key = `${engine}:${modelName}`;
+  const cached = smokeCache.get(key);
+  if (cached) return cached;
+
+  if (!shouldRunAlignSmoke(env)) {
+    const skipped = {
+      ok: false,
+      detail: "smoke_skipped",
+      skipped: true as const,
+    };
+    smokeCache.set(key, skipped);
+    return skipped;
+  }
+
+  const python =
+    env.KAIWA_PYTHON?.trim() || env.PYTHON?.trim() || "python";
+  const script = join(
+    process.cwd(),
+    "scripts",
+    "kaiwa",
+    "smoke_align_engine.py",
+  );
+  const r = spawnSync(
+    python,
+    [script, "--engine", engine, "--model", modelName],
+    {
+      encoding: "utf8",
+      timeout: 300_000,
+      env: { ...env, PYTHONIOENCODING: "utf-8" },
+    },
+  );
+  const ok = r.status === 0 && /smoke_ok/.test(r.stdout || "");
+  const result = {
+    ok,
+    detail: ok
+      ? (r.stdout || "").trim()
+      : (r.stderr || r.stdout || `exit_${r.status}`).slice(0, 240),
+    skipped: false as const,
+  };
+  smokeCache.set(key, result);
+  return result;
+}
+
+/** Test helper — clear caches between cases. */
+export function clearSpeechCapabilityCaches(): void {
+  importCache.clear();
+  smokeCache.clear();
+}
+
+function gateReadyAfterImport(
+  env: NodeJS.ProcessEnv,
+  engine: ScriptAlignEnginePref,
+  base: {
+    providers: string[];
+    engine: string;
+    messageViReady: string;
+  },
+): {
+  status: SpeechCapabilityStatus;
+  providers: string[];
+  messageVi: string;
+  engine: string | null;
+  smoke: "passed" | "failed" | "skipped" | "mock";
+} {
+  const smoke = runAlignEngineSmoke(env, engine);
+  if (engine === "mock" || smoke.detail === "mock") {
+    return {
+      status: "ready",
+      providers: base.providers,
+      engine: base.engine,
+      messageVi: base.messageViReady,
+      smoke: "mock",
+    };
+  }
+  if (smoke.skipped) {
+    return {
+      status: "degraded",
+      providers: base.providers,
+      engine: base.engine,
+      messageVi: `${base.messageViReady} (chưa smoke model — chạy npm run kaiwa:speech-env hoặc KAIWA_ALIGN_SMOKE=1).`,
+      smoke: "skipped",
+    };
+  }
+  if (!smoke.ok) {
+    return {
+      status: "not_configured",
+      providers: [],
+      engine: null,
+      messageVi: `Import OK nhưng smoke inference thất bại (${smoke.detail}). Vẫn dùng SRT/VTT hoặc soạn tay.`,
+      smoke: "failed",
+    };
+  }
+  return {
+    status: "ready",
+    providers: base.providers,
+    engine: base.engine,
+    messageVi: base.messageViReady,
+    smoke: "passed",
+  };
+}
+
 export function resolveScriptAlignCapability(
   env: NodeJS.ProcessEnv = process.env,
 ): {
@@ -128,19 +262,19 @@ export function resolveScriptAlignCapability(
   providers: string[];
   messageVi: string;
   engine: string | null;
+  smoke?: "passed" | "failed" | "skipped" | "mock";
 } {
   const ffmpeg = resolveFfmpegPath(env);
   const enginePref = resolveScriptAlignEnginePref(env);
   const model = env.KAIWA_WHISPER_MODEL?.trim() || "base";
 
   if (enginePref === "mock") {
-    return {
-      status: "ready",
+    return gateReadyAfterImport(env, "mock", {
       providers: ["mock"],
       engine: "mock_equal_slots",
-      messageVi:
+      messageViReady:
         "Đồng bộ script (mock) sẵn sàng — chỉ dùng cho kiểm thử; mốc thời gian tạm.",
-    };
+    });
   }
 
   if (!ffmpeg) {
@@ -150,6 +284,7 @@ export function resolveScriptAlignCapability(
       engine: null,
       messageVi:
         "Chưa cấu hình tự động (thiếu ffmpeg). Hãy nhập SRT/VTT hoặc soạn tay.",
+      smoke: "skipped",
     };
   }
 
@@ -161,15 +296,15 @@ export function resolveScriptAlignCapability(
         engine: null,
         messageVi:
           "Chưa cài stable-ts (pip install stable-ts). Hoặc đặt KAIWA_SCRIPT_ALIGN_ENGINE=whisper / qwen_fa. Vẫn dùng SRT/VTT hoặc soạn tay.",
+        smoke: "skipped",
       };
     }
-    return {
-      status: "ready",
+    return gateReadyAfterImport(env, "stable_ts", {
       providers: ["stable-ts"],
       engine: `stable-ts:${model}`,
-      messageVi:
+      messageViReady:
         "Có thể đồng bộ lời thoại với video (stable-ts). Kết quả là bản nháp — hãy kiểm tra mốc thời gian. Anime/BGM vẫn có thể lệch.",
-    };
+    });
   }
 
   if (enginePref === "qwen_fa") {
@@ -180,18 +315,17 @@ export function resolveScriptAlignCapability(
         engine: null,
         messageVi:
           "Chưa cài qwen-asr (pip install qwen-asr). Hoặc đặt KAIWA_SCRIPT_ALIGN_ENGINE=stable_ts. Vẫn dùng SRT/VTT hoặc soạn tay.",
+        smoke: "skipped",
       };
     }
-    return {
-      status: "ready",
+    return gateReadyAfterImport(env, "qwen_fa", {
       providers: ["qwen-forced-aligner"],
       engine: `qwen-fa:${env.KAIWA_QWEN_FA_MODEL?.trim() || "Qwen/Qwen3-ForcedAligner-0.6B"}`,
-      messageVi:
+      messageViReady:
         "Có thể đồng bộ (Qwen ForcedAligner). Cold start CPU có thể chậm. Bản nháp — hãy kiểm tra mốc.",
-    };
+    });
   }
 
-  // whisper (legacy greedy)
   if (!canImportFasterWhisper(env)) {
     return {
       status: "not_configured",
@@ -199,16 +333,16 @@ export function resolveScriptAlignCapability(
       engine: null,
       messageVi:
         "Chưa cấu hình Whisper (faster-whisper). Hãy nhập SRT/VTT hoặc soạn tay.",
+      smoke: "skipped",
     };
   }
 
-  return {
-    status: "ready",
+  return gateReadyAfterImport(env, "whisper", {
     providers: ["faster-whisper"],
     engine: `faster-whisper:${model}`,
-    messageVi:
+    messageViReady:
       "Có thể đồng bộ lời thoại với video (Whisper greedy — legacy). Nên dùng stable_ts. Kết quả là bản nháp.",
-  };
+  });
 }
 
 export function resolveTranscriptionCapability(

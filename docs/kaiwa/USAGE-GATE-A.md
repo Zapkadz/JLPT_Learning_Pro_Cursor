@@ -37,7 +37,7 @@ Ngày: 2026-09-18 · ADR-019: **thu theo đoạn là mặc định**. Thu liên 
 | Chữ hiển thị (v2) | Đến từ ASR — **có thể sai**; phải sửa tay |
 | `transcription` / `scriptAlign` `not_configured` | Thông báo trung thực; đường thủ công vẫn dùng |
 
-Cấu hình pilot: `FFMPEG_PATH` (hoặc `KAIWA_FFMPEG_PATH`), Python + `stable-ts` (mặc định) hoặc `qwen-asr` / `faster-whisper`; `KAIWA_SCRIPT_ALIGN_ENGINE=stable_ts|qwen_fa|whisper|mock`; `KAIWA_WHISPER_MODEL` (mặc định `base`), `KAIWA_PYTHON`. Kiểm env: `npm run kaiwa:speech-env`. Kiểm thử: `KAIWA_SCRIPT_ALIGN_ENGINE=mock` / `KAIWA_ASR_ENGINE=mock` (không dùng production claim).
+Cấu hình pilot: `FFMPEG_PATH` (hoặc `KAIWA_FFMPEG_PATH`), Python + `stable-ts` (mặc định) hoặc `qwen-asr` / `faster-whisper`; `KAIWA_SCRIPT_ALIGN_ENGINE=stable_ts|qwen_fa|whisper|mock`; `KAIWA_WHISPER_MODEL` (mặc định `base`), `KAIWA_PYTHON`. Capability **ready** cần smoke model (`npm run kaiwa:speech-env` / `KAIWA_ALIGN_SMOKE=1`). Kiểm env: `npm run kaiwa:speech-env`. Kiểm thử: `KAIWA_SCRIPT_ALIGN_ENGINE=mock` / `KAIWA_ASR_ENGINE=mock` (không dùng production claim).
 
 ## Chấm điểm phát âm
 

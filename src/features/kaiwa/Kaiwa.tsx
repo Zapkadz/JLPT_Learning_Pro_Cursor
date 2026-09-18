@@ -1229,7 +1229,8 @@ export function KaiwaEdit() {
 
         <div className="panel kaiwa-script-align">
           <h3 className="kaiwa-subhead">Đồng bộ lời thoại với video</h3>
-          {speechCap?.scriptAlign?.status === "ready" ? (
+          {speechCap?.scriptAlign?.status === "ready" ||
+          speechCap?.scriptAlign?.status === "degraded" ? (
             <>
               <p className="kaiwa-muted">
                 {speechCap.scriptAlign.messageVi} Dùng lời trong ô dán{" "}
