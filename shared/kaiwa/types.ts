@@ -45,11 +45,25 @@ export const kaiwaSegmentSchema = z.object({
   speakerLabel: z.string().max(120).nullable().optional(),
   assessable: z.boolean().default(true),
   assessableReason: z.string().max(500).nullable().optional(),
+  /** Set by script-align / ASR when timing is weak — user should edit. */
+  timingUncertain: z.boolean().optional(),
 });
 
 export const kaiwaRevisionPayloadSchema = z.object({
   segments: z.array(kaiwaSegmentSchema).max(2000),
 });
+
+export const kaiwaRevisionSourceSchema = z
+  .object({
+    source: z
+      .enum(["manual", "import_srt", "script_align", "asr"])
+      .optional(),
+    alignEngine: z.string().max(120).optional(),
+    alignConfidence: z.number().nullable().optional(),
+    provider: z.string().max(120).optional(),
+    generatedAt: z.string().max(64).optional(),
+  })
+  .passthrough();
 
 export const createKaiwaProjectSchema = z.object({
   title: z.string().trim().min(1).max(200),
@@ -67,6 +81,12 @@ export const patchKaiwaProjectSchema = z.object({
 export const saveKaiwaDraftSchema = z.object({
   expectedRevisionVersion: z.number().int().nonnegative(),
   payload: kaiwaRevisionPayloadSchema,
+  source: kaiwaRevisionSourceSchema.optional(),
+});
+
+export const scriptAlignRequestSchema = z.object({
+  expectedRevisionVersion: z.number().int().nonnegative(),
+  text: z.string().min(1).max(200_000),
 });
 
 export const publishKaiwaRevisionSchema = z.object({
@@ -76,3 +96,4 @@ export const publishKaiwaRevisionSchema = z.object({
 export type KaiwaSegment = z.infer<typeof kaiwaSegmentSchema>;
 export type KaiwaRevisionPayload = z.infer<typeof kaiwaRevisionPayloadSchema>;
 export type KaiwaRubyToken = z.infer<typeof kaiwaRubyTokenSchema>;
+export type KaiwaRevisionSource = z.infer<typeof kaiwaRevisionSourceSchema>;

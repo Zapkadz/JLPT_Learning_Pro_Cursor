@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-052 spike DONE — next KAI-053)
+2026-09-18 (KAI-053 align_script DONE — next KAI-054)
 
 ## Current Branch
 
@@ -10,20 +10,20 @@
 
 ## Current Task
 
-**DONE:** KAI-052 align spike (Engine A Whisper+match; measured).  
-**Next code:** **KAI-053** `align_script` job → draft revision.  
+**DONE:** KAI-053 `POST …/script-align` → draft with times + `source_json`.  
+**Next code:** **KAI-054** UI “Đồng bộ lời thoại với video”.  
 **Blocked human:** KAI-046 device.
 
 ## Exact Next Action
 
-1. Implement **KAI-053**: enqueue `align_script`, ffmpeg extract mono WAV, run Whisper+script-match (sidecar), write draft with `source: script_align` + uncertain flags; 409 on stale draft.
-2. Do not auto-publish; keep manual path when `scriptAlign` not ready.
+1. Implement **KAI-054**: CTA + opt-in copy, call script-align, show progress/result, open editor with machine draft banner.
+2. Keep manual SRT/paste when `scriptAlign` is `not_configured`.
 3. KAI-046 remains human Chrome/Edge Gate A.
 
 ## Last Completed
 
-- KAI-052: ffmpeg installed; TTS fixture; median |Δstart| 448 ms / |Δend| 404 ms (`docs/kaiwa/evidence/kai-052/`).
-- KAI-051: untimed script ingest.
+- KAI-053: `scriptAlign.ts`, Whisper sidecar, mock engine for tests, capability `scriptAlign`, 409 on stale version after machine write.
+- KAI-052 spike measured (~0.4 s median).
 
 ## Blockers
 
@@ -34,4 +34,3 @@
 
 - Do not stage grammar dirty files.
 - Do not auto-publish machine drafts (ADR-012/014).
-- Do not invent timing accuracy numbers.

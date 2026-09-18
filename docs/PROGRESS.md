@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** speakable KAI-036–049 DONE; **KAI-046** BLOCKED human. Auto-subtitle: **050–052 DONE**; next **KAI-053** align job. Gate A **not accepted**.
+- **Kaiwa Studio:** speakable KAI-036–049 DONE; **KAI-046** BLOCKED human. Auto-subtitle: **050–053 DONE**; next **KAI-054** UI. Gate A **not accepted**.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -252,6 +252,10 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-053 (2026-09-18) — DONE
+
+`POST /kaiwa/projects/:id/script-align`: enqueue `align_script`, ffmpeg extract + faster-whisper sidecar (or `KAIWA_SCRIPT_ALIGN_ENGINE=mock`), write draft + `source_json` (`script_align`), bump revision version on machine write (409 if stale), `timingUncertain` on segments, capability `scriptAlign`. Verify: `npm test` **117/117**; build OK.
+
 ### KAI-052 (2026-09-18) — DONE
 
 Unblocked: winget ffmpeg + edge-tts JA fixture + `faster-whisper` (`tiny`). Engine A selected. Median |Δstart| **448 ms**, |Δend| **404 ms** (3/3 lines). Evidence: `docs/kaiwa/evidence/kai-052/` + `scripts/kaiwa/spike_script_align.py`.
@@ -455,6 +459,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-053 align_script job + draft | `npm test` **117/117**; build OK | `server/modules/kaiwa/scriptAlign.ts` |
 | 2026-09-18 | KAI-052 align spike DONE (Whisper+match) | median Δ 448/404 ms; TTS fixture | `docs/kaiwa/evidence/kai-052/` |
 | 2026-09-18 | KAI-052 align spike BLOCKED (env) | Probe + provisional engine A | `docs/kaiwa/evidence/kai-052/REPORT.md` |
 | 2026-09-18 | KAI-051 untimed script ingest | `npm test` **114/114**; build OK | `shared/kaiwa/subtitles.ts` |

@@ -12,6 +12,7 @@ import { createProxyService } from "./proxy";
 import { createAttemptChunkService } from "./attemptChunks";
 import { createFinalizeTakeService } from "./finalizeTake";
 import { createExportService } from "./exportMp4";
+import { createScriptAlignService } from "./scriptAlign";
 import { listActivityHistory } from "./activity";
 import { createOpsService, redactForLog } from "./ops";
 import { resolveSpeechCapability } from "./speechCapability";
@@ -100,6 +101,7 @@ export function kaiwaModule(
   const attemptChunks = createAttemptChunkService(db, assets, config);
   const finalizeTake = createFinalizeTakeService(db, assets, attemptChunks);
   const exports = createExportService(db, assets, jobService);
+  const scriptAlign = createScriptAlignService(db, repo, assets, jobService);
   const ops = createOpsService(db, assets, jobService, config);
   const audioQuality = createAudioQualityService(db, assets);
   const alignment = createAlignmentService(db);
@@ -155,6 +157,15 @@ export function kaiwaModule(
       code: "speech_not_configured",
       status: cap.translation.status,
     });
+  });
+
+  router.post("/projects/:id/script-align", (req, res) => {
+    const result = scriptAlign.runAlign(
+      res.locals.user.id,
+      String(req.params.id),
+      req.body,
+    );
+    res.status(201).json(result);
   });
 
   router.post("/projects", (req, res) => {

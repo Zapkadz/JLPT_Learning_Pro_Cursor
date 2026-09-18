@@ -138,7 +138,7 @@ Phát sinh từ yêu cầu 18/09/2026: phụ đề tay đã OK; muốn (v1) vide
 | KAI-050 · M · PM/Architect | ADR-020 + AUTO-SUBTITLE-SPEC + cập nhật PLAN/TASKS/USAGE pointer | User request | Spec có wireflow v1/v2, API, honesty, spike candidates, DoD | DONE |
 | KAI-051 · M · Backend/Frontend | Ingest script không timeline: paste + `.txt`; normalize → candidate lines | KAI-013, KAI-050 | UTF-8; strip markup; tách dòng/câu ổn định; test ownership | DONE |
 | KAI-052 · L · Speech/Media | Spike forced-align / Whisper-timestamps+match trên fixture JA ngắn | KAI-050, ffmpeg | Báo cáo engine chọn; đo lệch thời gian; ghi credential/local; không khóa vendor nếu fail | DONE (Engine A; median Δstart ~448 ms / Δend ~404 ms on TTS `tiny` — `evidence/kai-052/`) |
-| KAI-053 · L · Backend | Job `align_script`: extract audio → align → ghi draft revision + metadata source | KAI-007, KAI-051, KAI-052 | Idempotent; không đè draft mới hơn; uncertain flags; 409 conflict | TODO |
+| KAI-053 · L · Backend | Job `align_script`: extract audio → align → ghi draft revision + metadata source | KAI-007, KAI-051, KAI-052 | Idempotent; không đè draft mới hơn; uncertain flags; 409 conflict | DONE |
 | KAI-054 · M · Frontend | UI “Đồng bộ lời thoại với video”: opt-in, progress, mở editor với draft | KAI-053, KAI-013 | User sửa được trước publish; copy VI theo spec | TODO |
 | KAI-055 · S · QA/Docs | Honesty + privacy + USAGE v1; capability `scriptAlign` | KAI-054, KAI-015 | Manual fallback khi not_configured; không auto-publish | TODO |
 | KAI-056 · L · Speech/Backend | Live ASR adapter cho `POST …/transcriptions` (v2) | KAI-015, KAI-052 | Draft text+times; capability ready khi có key; 503 khi thiếu | TODO |
@@ -150,7 +150,7 @@ Thứ tự: **050 → 051 → 052 → 053 → 054 → 055** (= **v1.0**); rồi 
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-052 DONE (Whisper+match measured). Next: KAI-053 align_script job.
+Task: KAI-053 DONE (align_script job + draft). Next: KAI-054 UI đồng bộ.
 Song song: KAI-046 human device Gate A vẫn BLOCKED.
 ```
 
@@ -158,6 +158,7 @@ Song song: KAI-046 human device Gate A vẫn BLOCKED.
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-053 align_script job + draft source_json + capability | `npm test` **117/117**; build OK | KAI-054 UI |
 | 18/09/2026 | KAI-052 spike DONE: ffmpeg + edge-tts fixture + faster-whisper timings | median Δstart 448 ms / Δend 404 ms; `results.json` | KAI-053 job |
 | 18/09/2026 | KAI-052 spike probe → BLOCKED; provisional engine A (Whisper+match) | Env: no ffmpeg/keys/fixture; `evidence/kai-052/REPORT.md` | Unblock 052 or KAI-046 device |
 | 18/09/2026 | KAI-051 untimed script ingest (paste/.txt + parseUntimedScript) | `npm test` **114/114**; build OK | KAI-052 spike |

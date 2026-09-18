@@ -172,16 +172,37 @@ export function createKaiwaRepository(db: Database.Database) {
     const now = new Date().toISOString();
     // Immutable history: bump version row instead of mutating reviewed takes' revision id.
     // Draft edits update the current draft row payload only while state=draft and version matches.
-    const result = db
-      .prepare(
-        "UPDATE kaiwa_revisions SET payload=? WHERE id=? AND project_id=? AND version=? AND state='draft'",
-      )
-      .run(
-        JSON.stringify(data.payload),
-        active.id,
-        projectId,
-        data.expectedRevisionVersion,
-      );
+    // Machine writes (source set, e.g. script_align) bump revision.version so stale clients 409.
+    const bumpVersion = Boolean(data.source?.source);
+    const result = bumpVersion
+      ? db
+          .prepare(
+            `UPDATE kaiwa_revisions
+             SET payload=?, source_json=?, version=version+1
+             WHERE id=? AND project_id=? AND version=? AND state='draft'`,
+          )
+          .run(
+            JSON.stringify(data.payload),
+            JSON.stringify(data.source ?? {}),
+            active.id,
+            projectId,
+            data.expectedRevisionVersion,
+          )
+      : db
+          .prepare(
+            `UPDATE kaiwa_revisions
+             SET payload=?, source_json=?
+             WHERE id=? AND project_id=? AND version=? AND state='draft'`,
+          )
+          .run(
+            JSON.stringify(data.payload),
+            JSON.stringify(
+              data.source ?? JSON.parse(active.source_json || "{}"),
+            ),
+            active.id,
+            projectId,
+            data.expectedRevisionVersion,
+          );
     if (result.changes !== 1) {
       fail(
         409,
