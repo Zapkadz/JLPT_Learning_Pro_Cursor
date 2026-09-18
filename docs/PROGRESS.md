@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** Gate A **ACCEPTED**. **KAI-070–072, 071, 074** DONE; next **KAI-073** waveform editor.
+- **Kaiwa Studio:** Gate A **ACCEPTED**. Forced-align **KAI-065–074** path DONE (incl. waveform KAI-073); next **KAI-075** smoke.
 - Local speech env: `npm run kaiwa:speech-env` → ready.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
@@ -24,6 +24,10 @@ Long-video overlapping align windows; failed windows skipped; optional anchors; 
 ### KAI-074 (2026-09-18) — DONE
 
 Speech vs practice/overlay padding (config-only; transcript end not stretched to next line). Evidence: `docs/kaiwa/evidence/kai-074/REPORT.md`. Verify: **131/131** + build OK.
+
+### KAI-073 (2026-09-18) — DONE
+
+Waveform drag, lock, realign selection / between locks, timing undo; 25/30 preserve test. Evidence: `docs/kaiwa/evidence/kai-073/REPORT.md`. Verify: **135/135** + build OK.
 
 ## TARGET vs ACTUAL (Grammar N2)
 

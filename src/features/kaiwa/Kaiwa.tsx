@@ -28,11 +28,22 @@ import {
   isUnmatchedSegment,
   summarizeAlignResultVi,
 } from "../../../shared/kaiwa/timingStatus";
+import {
+  anchorsFromLocks,
+  applySegmentTiming,
+  mergeRealignPreservingLocks,
+  popTimingUndo,
+  pushTimingUndo,
+  rangeBetweenLocks,
+  toggleTimingLock,
+  type TimingSnapshot,
+} from "../../../shared/kaiwa/timingEdit";
 import { useAuth } from "../../App";
 import { MicPreflightPanel } from "./MicPreflightPanel";
 import { ContinuousRecorder } from "./ContinuousRecorder";
 import { SegmentStudio } from "./SegmentStudio";
 import { ScriptHelpLayers } from "./ScriptHelpLayers";
+import { TimingWaveform } from "./TimingWaveform";
 import "./kaiwa.css";
 
 type ProjectRow = {
@@ -557,6 +568,9 @@ export function KaiwaEdit() {
   const [timingFilter, setTimingFilter] = useState<
     "all" | "needs_review" | "unmatched"
   >("all");
+  const [undoStack, setUndoStack] = useState<TimingSnapshot[]>([]);
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(() => new Set());
+  const [realigning, setRealigning] = useState(false);
   const [prefs, setPrefs] = useState<HelpPrefs>(() =>
     loadHelpPrefs(user?.id || "anon"),
   );
@@ -759,8 +773,15 @@ export function KaiwaEdit() {
   }
 
   function updateSeg(index: number, patch: Partial<KaiwaSegment>) {
-    setSegments((prev) =>
-      prev.map((s, i) => {
+    setSegments((prev) => {
+      const timingTouch =
+        patch.startMs != null ||
+        patch.endMs != null ||
+        patch.timingLocked != null;
+      if (timingTouch) {
+        setUndoStack((stack) => pushTimingUndo(stack, prev));
+      }
+      return prev.map((s, i) => {
         if (i !== index) return s;
         let next = { ...s, ...patch };
         if (patch.ja != null && patch.ja !== s.ja) {
@@ -771,9 +792,131 @@ export function KaiwaEdit() {
             readingStale: stale.readingStale || next.readingStale,
           };
         }
+        if (patch.startMs != null || patch.endMs != null) {
+          const start = patch.startMs ?? s.startMs;
+          const end = patch.endMs ?? s.endMs;
+          next = applySegmentTiming(
+            { ...next, timingLocked: s.timingLocked },
+            start,
+            end,
+          );
+          if (s.timingLocked) next = { ...next, timingLocked: true };
+        }
         return next;
-      }),
-    );
+      });
+    });
+  }
+
+  function undoTiming() {
+    setUndoStack((stack) => {
+      const { stack: next, restored } = popTimingUndo(stack);
+      if (restored) setSegments(restored);
+      return next;
+    });
+  }
+
+  function setTimingFromWave(index: number, startMs: number, endMs: number) {
+    setSegments((prev) => {
+      const cur = prev[index];
+      if (!cur || cur.timingLocked) return prev;
+      setUndoStack((stack) => pushTimingUndo(stack, prev));
+      const prevNeighbor = index > 0 ? prev[index - 1] : null;
+      const nextNeighbor =
+        index < prev.length - 1 ? prev[index + 1] : null;
+      const minStart = prevNeighbor ? prevNeighbor.startMs : 0;
+      const maxEnd = nextNeighbor ? nextNeighbor.endMs : startMs + 600_000;
+      // Soft clamp: don't require non-overlap strictly, but keep positive window
+      void minStart;
+      void maxEnd;
+      return prev.map((s, i) =>
+        i === index ? applySegmentTiming(s, startMs, endMs) : s,
+      );
+    });
+  }
+
+  function toggleLockAt(index: number) {
+    setSegments((prev) => {
+      setUndoStack((stack) => pushTimingUndo(stack, prev));
+      return prev.map((s, i) =>
+        i === index ? toggleTimingLock(s) : s,
+      );
+    });
+  }
+
+  function toggleSelectId(id: string) {
+    setSelectedIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  }
+
+  async function realignKeepingLocks(
+    range: { rangeStart: number; rangeEnd: number },
+    label: string,
+  ) {
+    if (!id || !revision) return;
+    if (!alignConsent) {
+      setMessage("Hãy xác nhận đã đọc lưu ý trước khi căn lại.");
+      return;
+    }
+    const text = segments
+      .map((s) => s.ja.trim())
+      .filter(Boolean)
+      .join("\n");
+    if (!text) {
+      setMessage("Không có lời để căn lại.");
+      return;
+    }
+    setRealigning(true);
+    setMessage("");
+    try {
+      const result = await post<{
+        alignEngine: string;
+        revision: {
+          id: string;
+          version: number;
+          state: string;
+          payload: { segments: KaiwaSegment[] };
+          source_json?: RevisionView["source_json"];
+        };
+      }>(`/kaiwa/projects/${id}/script-align`, {
+        expectedRevisionVersion: revision.version,
+        text,
+        anchors: anchorsFromLocks(segments),
+      });
+      const aligned = result.revision.payload?.segments || [];
+      const before = segments;
+      setUndoStack((stack) => pushTimingUndo(stack, before));
+      const merged = mergeRealignPreservingLocks(before, aligned, range);
+      const saved = await api<{ id?: string; version: number }>(
+        `/kaiwa/projects/${id}/draft`,
+        {
+          method: "PUT",
+          body: JSON.stringify({
+            expectedRevisionVersion: result.revision.version,
+            payload: { segments: merged.segments },
+          }),
+        },
+      );
+      setSegments(merged.segments);
+      setRevision({
+        revisionId: saved.id || result.revision.id,
+        version: saved.version ?? result.revision.version,
+        state: result.revision.state,
+        payload: { segments: merged.segments },
+        source_json: result.revision.source_json,
+      });
+      setMessage(
+        `${label}: đổi ${merged.changedIds.length} đoạn, giữ ${merged.preservedIds.length} (khóa/ngoài vùng). ${summarizeAlignResultVi(merged.segments)}. Đã ghi nháp.`,
+      );
+      reloadProject();
+    } catch (e) {
+      setMessage(e instanceof Error ? e.message : "Căn lại thất bại.");
+    } finally {
+      setRealigning(false);
+    }
   }
 
   /** Play segment window ± context; unmatched uses neighboring timed lines. */
@@ -1229,12 +1372,69 @@ export function KaiwaEdit() {
         </button>
       </div>
 
+      <div className="kaiwa-actions" role="group" aria-label="Sửa mốc">
+        <button
+          type="button"
+          className="btn secondary"
+          disabled={undoStack.length === 0}
+          onClick={undoTiming}
+        >
+          Hoàn tác mốc ({undoStack.length})
+        </button>
+        <button
+          type="button"
+          className="btn secondary"
+          disabled={
+            realigning || aligning || selectedIds.size === 0 || !alignConsent
+          }
+          onClick={() => {
+            const indices = segments
+              .map((s, i) => (selectedIds.has(s.id) ? i : -1))
+              .filter((i) => i >= 0);
+            if (!indices.length) return;
+            void realignKeepingLocks(
+              {
+                rangeStart: Math.min(...indices),
+                rangeEnd: Math.max(...indices) + 1,
+              },
+              "Căn lại vùng đã chọn",
+            );
+          }}
+        >
+          {realigning ? "Đang căn…" : "Căn lại đoạn đã chọn"}
+        </button>
+        <button
+          type="button"
+          className="btn secondary"
+          disabled={realigning || aligning || !alignConsent}
+          onClick={() => {
+            const focus =
+              segments.findIndex((s) => selectedIds.has(s.id)) >= 0
+                ? segments.findIndex((s) => selectedIds.has(s.id))
+                : 0;
+            void realignKeepingLocks(
+              rangeBetweenLocks(segments, focus),
+              "Căn giữa hai khóa",
+            );
+          }}
+        >
+          Căn giữa hai khóa
+        </button>
+      </div>
+      <p className="kaiwa-privacy-note">
+        Khóa mốc để realign không ghi đè. Kéo waveform để chỉnh tay — hoàn tác
+        chỉ cho mốc thời gian.
+      </p>
+
       <ol className="kaiwa-segments">
         {segments.map((seg, index) => {
           const unmatched = isUnmatchedSegment(seg);
           const needsReview = isNeedsReviewSegment(seg);
           if (timingFilter === "unmatched" && !unmatched) return null;
           if (timingFilter === "needs_review" && !needsReview) return null;
+          const viewPad = 1500;
+          const viewStartMs = Math.max(0, seg.startMs - viewPad);
+          const viewEndMs = Math.max(seg.endMs + viewPad, viewStartMs + 2000);
           return (
           <li
             key={seg.id}
@@ -1243,9 +1443,11 @@ export function KaiwaEdit() {
                 ? "kaiwa-seg overlap"
                 : unmatched
                   ? "kaiwa-seg unmatched"
-                  : needsReview
-                    ? "kaiwa-seg uncertain"
-                    : "kaiwa-seg"
+                  : seg.timingLocked
+                    ? "kaiwa-seg locked"
+                    : needsReview
+                      ? "kaiwa-seg uncertain"
+                      : "kaiwa-seg"
             }
           >
             {unmatched ? (
@@ -1260,6 +1462,23 @@ export function KaiwaEdit() {
               </Status>
             ) : null}
             <div className="kaiwa-seg-times">
+              <label className="kaiwa-check kaiwa-seg-select">
+                <input
+                  type="checkbox"
+                  checked={selectedIds.has(seg.id)}
+                  onChange={() => toggleSelectId(seg.id)}
+                  aria-label={`Chọn đoạn ${index + 1}`}
+                />
+                Chọn
+              </label>
+              <button
+                type="button"
+                className={seg.timingLocked ? "btn" : "btn secondary"}
+                onClick={() => toggleLockAt(index)}
+                aria-pressed={Boolean(seg.timingLocked)}
+              >
+                {seg.timingLocked ? "Đã khóa" : "Khóa mốc"}
+              </button>
               <button
                 type="button"
                 className="btn secondary"
@@ -1282,6 +1501,7 @@ export function KaiwaEdit() {
               <input
                 aria-label="Bắt đầu"
                 value={msToInput(seg.startMs)}
+                disabled={Boolean(seg.timingLocked)}
                 onChange={(e) => {
                   const v = inputToMs(e.target.value);
                   if (v != null) updateSeg(index, { startMs: v });
@@ -1291,12 +1511,28 @@ export function KaiwaEdit() {
               <input
                 aria-label="Kết thúc"
                 value={msToInput(seg.endMs)}
+                disabled={Boolean(seg.timingLocked)}
                 onChange={(e) => {
                   const v = inputToMs(e.target.value);
                   if (v != null) updateSeg(index, { endMs: v });
                 }}
               />
             </div>
+            {!unmatched && (
+              <TimingWaveform
+                audioUrl={playbackUrl}
+                startMs={seg.startMs}
+                endMs={seg.endMs}
+                viewStartMs={viewStartMs}
+                viewEndMs={viewEndMs}
+                locked={Boolean(seg.timingLocked)}
+                onChange={(s, e) => setTimingFromWave(index, s, e)}
+                onPreview={(ms) => {
+                  if (videoRef.current)
+                    videoRef.current.currentTime = ms / 1000;
+                }}
+              />
+            )}
             <textarea
               aria-label="Tiếng Nhật"
               rows={2}

@@ -133,9 +133,60 @@
   opacity: 0.92;
 }
 
+.kaiwa-seg.locked {
+  outline: 1px solid color-mix(in srgb, #c9a227 65%, transparent);
+  outline-offset: 2px;
+}
+
 .kaiwa-seg-chip.unmatched {
   opacity: 0.55;
   text-decoration: line-through;
+}
+
+.kaiwa-waveform {
+  position: relative;
+  width: 100%;
+  height: 56px;
+  margin: 0.35rem 0 0.5rem;
+  touch-action: none;
+  user-select: none;
+}
+
+.kaiwa-waveform.locked {
+  opacity: 0.75;
+}
+
+.kaiwa-waveform-canvas {
+  display: block;
+  width: 100%;
+  height: 56px;
+  border-radius: 6px;
+  background: #1a1a1a;
+}
+
+.kaiwa-waveform-handle {
+  position: absolute;
+  top: 0;
+  width: 14px;
+  height: 56px;
+  margin-left: -7px;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--accent, #2f6fed) 80%, #fff);
+  cursor: ew-resize;
+  min-height: 44px;
+}
+
+.kaiwa-waveform-handle:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.kaiwa-seg-select {
+  margin: 0;
+  align-items: center;
+  font-size: 0.85rem;
 }
 
 .kaiwa-progress {

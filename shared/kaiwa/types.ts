@@ -62,6 +62,8 @@ export const kaiwaSegmentSchema = z.object({
    */
   speechStartMs: z.number().int().nonnegative().optional(),
   speechEndMs: z.number().int().positive().optional(),
+  /** KAI-073: user locked timing — realign must not overwrite. */
+  timingLocked: z.boolean().optional(),
 });
 
 export const kaiwaRevisionPayloadSchema = z.object({

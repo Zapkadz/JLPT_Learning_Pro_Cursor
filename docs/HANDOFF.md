@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-074 practice padding DONE)
+2026-09-18 (KAI-073 waveform editor DONE)
 
 ## Current Branch
 
@@ -10,24 +10,22 @@
 
 ## Current Task
 
-**Next READY:** **KAI-073** (waveform drag / lock / realign) — large frontend task.
+**Next READY:** **KAI-075** (capability smoke inference — not import-only) → then **KAI-076** held-out anime (out of git).
 
 ## Exact Next Action
 
-1. KAI-073: waveform start/end drag, lock line, realign selection / between locks, preview+undo.
-2. Then KAI-075 capability smoke; KAI-076 held-out anime (out of git).
-3. Exclude grammar WIP / sqlite from Kaiwa commits.
+1. KAI-075: speech-env / capability `ready` requires a real smoke inference of the default align model.
+2. Exclude grammar WIP / sqlite from Kaiwa commits.
+3. Do not claim anime quality (KAI-076).
 
 ## Last Completed
 
-- **KAI-072** unmatched editor/studio honesty
-- **KAI-071** windowed long align
-- **KAI-074** speech vs practice/overlay padding (`docs/kaiwa/evidence/kai-074/REPORT.md`)
+- **KAI-072–074, 071, 073** forced-align UX / windowing / padding / waveform lock-realign.
 
 ## Blockers
 
 - Grammar dirty — exclude from Kaiwa commits.
-- Anime held-out still KAI-076.
+- Anime held-out still KAI-076 (user media outside git).
 
 ## Safety
 
