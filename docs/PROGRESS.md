@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** Gate A **ACCEPTED**. Forced-align **KAI-065–075** DONE; **KAI-076** PARTIAL; **KAI-023** DONE; **KAI-026** live verify **harness** DONE (live sample PENDING). Next: credentials/sample **or** corpus/raters.
+- **Kaiwa Studio:** Gate A **ACCEPTED**. Forced-align **KAI-065–075** DONE; **KAI-076** PARTIAL; **KAI-023** DONE; **KAI-026** live harness DONE; **KAI-024** leakage heuristic DONE (decode deferred). Next: ops inputs (credentials/corpus/held-out).
 - Local speech env: `npm run kaiwa:speech-env` → ready.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
@@ -32,6 +32,10 @@ Waveform drag, lock, realign selection / between locks, timing undo; 25/30 prese
 ### KAI-075 (2026-09-18) — DONE
 
 Align capability `ready` requires smoke inference; speech-env forces smoke; CPU notes. Evidence: `docs/kaiwa/evidence/kai-075/`. Verify: **136/136** + build OK.
+
+### KAI-024 leakage (2026-09-18) — DONE (decode deferred)
+
+Optional reference PCM → peak |NCC| ≥0.85 → `reference_leakage` / not_assessable; never pronunciation 0. Evidence: `docs/kaiwa/evidence/kai-024/REPORT.md`. Verify: **151/151**.
 
 ### KAI-026 live harness (2026-09-18) — DONE (sample PENDING)
 
@@ -508,6 +512,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-024 reference leakage NCC heuristic | **151/151** | `docs/kaiwa/evidence/kai-024/REPORT.md` |
 | 2026-09-18 | KAI-026 pronunciation live-check harness | **148/148**; sample PENDING | `docs/kaiwa/evidence/kai-026/live/` |
 | 2026-09-18 | KAI-023 Gate B benchmark framework (thresholds locked) | **143/143** | `docs/kaiwa/evidence/kai-023/` |
 | 2026-09-18 | KAI-076 held-out scaffold (no private media) | **137/137**; evidence PENDING | `docs/kaiwa/evidence/kai-076/` |

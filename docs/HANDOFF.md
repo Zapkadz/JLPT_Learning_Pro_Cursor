@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-026 live verify harness)
+2026-09-18 (KAI-024 reference leakage)
 
 ## Current Branch
 
@@ -10,32 +10,29 @@
 
 ## Current Task
 
-**Ops blockers (no further Gate B coding without input):**
+**Ops blockers (unchanged):** live PA sample / Gate B corpus / KAI-076 clips.
 
-1. Speech credentials + redacted live dump → `npm run kaiwa:pronunciation-live-check -- --sample …`
-2. Licensed Gate B corpus + dual raters (`docs/kaiwa/evidence/kai-023/`)
-3. Optional: KAI-076 align held-out clips
+Independent coding without those inputs is largely exhausted (leakage heuristic shipped; WebM decode still deferred).
 
 ## Exact Next Action
 
-Provide **AZURE_SPEECH_KEY** (local env only) and/or a redacted ja-JP pronunciation JSON dump, **or** fill benchmark corpus. Do not start KAI-034/035.
+1. Set `AZURE_SPEECH_KEY` + redacted dump → `npm run kaiwa:pronunciation-live-check -- --sample …`
+2. Fill KAI-023 corpus + dual raters
+3. Optional: KAI-076 held-out media
+4. Later: wire decoded lesson reference PCM into `audioQualityService` (needs decode path)
 
 ## Last Completed
 
-- KAI-026 live field-verify harness (`kaiwa:pronunciation-live-check`) — honest `missing_credentials`
-- KAI-023 Gate B framework
-- KAI-065–075; KAI-076 PARTIAL
+- KAI-024 reference leakage NCC heuristic (`reference_leakage`, never pronunciation 0)
+- KAI-026 live-check harness; KAI-023 framework; KAI-065–075; KAI-076 PARTIAL
 
 ## Verification
 
-- `npm run kaiwa:pronunciation-live-check` → `missing_credentials` exit 0
-- `npm test` **148/148** PASS
+- `npm test` **151/151** PASS
 
 ## Blockers
 
-- Live provider sample PENDING
-- Corpus/raters PENDING
-- KAI-076 user evidence empty
+- Live provider sample, corpus/raters, KAI-076 evidence
 - Grammar dirty — exclude from Kaiwa commits
 
 ## Safety

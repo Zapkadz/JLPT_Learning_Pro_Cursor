@@ -37,7 +37,59 @@ test("moderate speech-like PCM is assessable under provisional thresholds", () =
   const r = analyzePcmInt16Le(pcm, { sampleRateHz: 48000 });
   assert.equal(r.verdict, "assessable");
   assert.equal(r.pronunciationScore, null);
+  assert.equal(r.metrics.leakageCorr, null);
   assert.ok(r.messageVi.includes("không phải điểm phát âm"));
+});
+
+test("KAI-024 identical mic+reference → reference_leakage, never pronunciation 0", () => {
+  const ref = synthesizePcmInt16Le(48000, (i) =>
+    0.4 * Math.sin((2 * Math.PI * 330 * i) / 48000),
+  );
+  const mic = Buffer.from(ref);
+  const r = analyzePcmInt16Le(mic, {
+    sampleRateHz: 48000,
+    referencePcm: ref,
+  });
+  assert.equal(r.verdict, "not_assessable");
+  assert.ok(r.reasons.includes("reference_leakage"));
+  assert.equal(r.pronunciationScore, null);
+  assert.ok(r.metrics.leakageCorr != null);
+  assert.ok(Math.abs(r.metrics.leakageCorr!) >= 0.85);
+  assert.match(r.messageVi, /tiếng mẫu/);
+});
+
+test("KAI-024 unrelated mic vs reference stays assessable", () => {
+  const ref = synthesizePcmInt16Le(48000, (i) =>
+    0.4 * Math.sin((2 * Math.PI * 120 * i) / 48000),
+  );
+  const mic = synthesizePcmInt16Le(48000, (i) => {
+    const env = 0.35 + 0.15 * Math.sin(i / 1500);
+    return env * Math.sin((2 * Math.PI * 440 * i) / 48000);
+  });
+  const r = analyzePcmInt16Le(mic, {
+    sampleRateHz: 48000,
+    referencePcm: ref,
+  });
+  assert.equal(r.verdict, "assessable");
+  assert.ok(!r.reasons.includes("reference_leakage"));
+  assert.ok(r.metrics.leakageCorr != null);
+  assert.ok(Math.abs(r.metrics.leakageCorr!) < 0.85);
+});
+
+test("KAI-024 delayed copy of reference still flags leakage", () => {
+  const sr = 16000;
+  const ref = synthesizePcmInt16Le(sr, (i) =>
+    0.45 * Math.sin((2 * Math.PI * 250 * i) / sr),
+  );
+  const lag = 20; // samples ~1.25ms at 16k
+  const mic = Buffer.alloc(ref.length);
+  ref.copy(mic, lag * 2, 0, ref.length - lag * 2);
+  const r = analyzePcmInt16Le(mic, {
+    sampleRateHz: sr,
+    referencePcm: ref,
+  });
+  assert.equal(r.verdict, "not_assessable");
+  assert.ok(r.reasons.includes("reference_leakage"));
 });
 
 function sha(buf: Buffer) {
