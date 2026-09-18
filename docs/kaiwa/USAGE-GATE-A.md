@@ -31,7 +31,7 @@ Ngày: 2026-09-18 · ADR-019: **thu theo đoạn là mặc định**. Thu liên 
 | Sau đồng bộ | Banner: *「Bản nháp máy tạo — hãy kiểm tra mốc thời gian trước khi luyện.」*; đoạn yếu có thể gắn *「Đoạn này khớp chưa chắc — nên sửa tay.」* |
 | Sau ASR (v2) | Banner: *「Bản nháp ASR từ video — chữ và mốc đều có thể sai.」*; mọi đoạn gắn uncertain |
 | Anime / BGM / chồng tiếng | Whisper local **dễ trống hoặc lệch** — ưu tiên **v1 Đồng bộ script** (có sẵn lời) hoặc SRT tay; không kỳ vọng ASR sạch trên drama/anime |
-| Model mặc định | Align v1 mặc định **stable-ts** (`KAIWA_SCRIPT_ALIGN_ENGINE=stable_ts`); tuỳ chọn `qwen_fa` / legacy `whisper`. Model Whisper `base` (`KAIWA_WHISPER_MODEL`). Câu unmatched báo rõ — không mốc giả. Anime/BGM chưa claim. |
+| Model mặc định | Align v1 mặc định **stable-ts** (`KAIWA_SCRIPT_ALIGN_ENGINE=stable_ts`); tuỳ chọn `qwen_fa` / legacy `whisper`. Model Whisper `base` (`KAIWA_WHISPER_MODEL`). Câu unmatched báo rõ — không mốc giả. Anime/BGM chưa claim. Video dài: cửa sổ chồng (`KAIWA_ALIGN_WINDOW_*`); cửa sổ lỗi **không** bịa mốc. |
 | Publish / luyện | Chỉ sau khi bạn mở editor và chốt / start-practice — máy **không** tự publish |
 | Chữ hiển thị (v1) | Giữ **script bạn đưa**; engine chỉ gán thời gian |
 | Chữ hiển thị (v2) | Đến từ ASR — **có thể sai**; phải sửa tay |

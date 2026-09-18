@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-072 editor unmatched honesty DONE)
+2026-09-18 (KAI-071 windowed align DONE)
 
 ## Current Branch
 
@@ -10,17 +10,17 @@
 
 ## Current Task
 
-**Next READY:** **KAI-071** (long-video windowed align) — or **KAI-074** (speech vs practice padding) in parallel after 072.
+**Next READY:** **KAI-074** (speech timing vs practice padding) — then **KAI-073** waveform editor.
 
 ## Exact Next Action
 
-1. KAI-071: windowed script-align for long audio + overlap; fail one window without silent cascade.
-2. Do not start KAI-073 until 071 (and preferably 074) progress is clear.
-3. Exclude grammar WIP / sqlite from Kaiwa commits.
+1. KAI-074: separate speech end from practice/overlay padding (config + docs); never stretch transcript end to next line.
+2. Exclude grammar WIP / sqlite from Kaiwa commits.
 
 ## Last Completed
 
-- **KAI-072:** editor filters + listen-with-context; studio/continuous skip unmatched; `timingStatus` helpers; evidence `docs/kaiwa/evidence/kai-072/REPORT.md`.
+- **KAI-072:** editor/studio unmatched honesty (`cb8cb1b`).
+- **KAI-071:** overlapping time windows + skip failed windows + optional anchors; evidence `docs/kaiwa/evidence/kai-071/REPORT.md`.
 
 ## Blockers
 

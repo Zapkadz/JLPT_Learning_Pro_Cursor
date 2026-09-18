@@ -96,6 +96,16 @@ export const saveKaiwaDraftSchema = z.object({
 export const scriptAlignRequestSchema = z.object({
   expectedRevisionVersion: z.number().int().nonnegative(),
   text: z.string().min(1).max(200_000),
+  /** Optional Point Sync–style anchors (line index → media time). KAI-071 */
+  anchors: z
+    .array(
+      z.object({
+        lineIndex: z.number().int().nonnegative().max(1999),
+        atMs: z.number().int().nonnegative().max(86_400_000),
+      }),
+    )
+    .max(100)
+    .optional(),
 });
 
 export const publishKaiwaRevisionSchema = z.object({

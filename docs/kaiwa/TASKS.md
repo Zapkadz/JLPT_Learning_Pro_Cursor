@@ -174,7 +174,7 @@ Tham chiếu UX: Subtitle Edit plain-text + Point Sync; engine bake-off: Qwen3-F
 | KAI-068 · L · Speech | **Đợt 3b — spike stable-ts align** cùng fixture | KAI-066 | So sánh bảng chung với 067 | DONE |
 | KAI-069 · M · Speech | **Đợt 3c — spike WhisperX JA CTC** (đối chứng) + ghi giới hạn vocab/overlap | KAI-066 | REPORT + quyết định engine thắng (ADR amend nếu cần) | DONE |
 | KAI-070 · L · Backend | **Đợt 4 — tích hợp engine thắng:** worker, progress, cancel, timeout, cache, idempotency; candidate proposal trước apply | KAI-067–069 | Request không khóa; restart không mất job; draft-only | DONE |
-| KAI-071 · M · Backend | Cửa sổ video dài + overlap; dừng áp dụng cửa sổ fail; optional anchor đầu/cuối vùng | KAI-070 | Không chia đều theo số chữ; lỗi một cửa sổ không lan im lặng | TODO |
+| KAI-071 · M · Backend | Cửa sổ video dài + overlap; dừng áp dụng cửa sổ fail; optional anchor đầu/cuối vùng | KAI-070 | Không chia đều theo số chữ; lỗi một cửa sổ không lan im lặng | DONE |
 | KAI-072 · M · Frontend | Editor: nghe + context; filter unmatched/needs_review; banner trạng thái từng câu | KAI-065 | UI trung thực; studio không dùng unmatched làm cửa sổ thu mặc định | DONE |
 | KAI-073 · L · Frontend | Waveform kéo start/end; khóa mốc; căn lại selection / giữa hai khóa; preview+undo | KAI-070, KAI-072 | 25/30 đúng giữ nguyên khi chỉ sửa 5 câu | TODO |
 | KAI-074 · M · Speech | Tách speech timing vs practice padding/overlay early-show (config + docs) | KAI-065, KAI-072 | Transcript end ≠ kéo tới câu kế | TODO |
@@ -186,7 +186,7 @@ Thứ tự cứng: **065 → 066 → (067∥068∥069) → 070 → 071/072/074 �
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-072 DONE (editor/studio unmatched honesty). Next READY: KAI-071 windowing (or KAI-074 padding split).
+Task: KAI-071 DONE (windowed long align). Next READY: KAI-074 speech vs practice padding (then KAI-073 waveform).
 Gate A: ACCEPTED. V2 ASR: tạm dừng ưu tiên.
 ```
 
@@ -194,6 +194,7 @@ Gate A: ACCEPTED. V2 ASR: tạm dừng ưu tiên.
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-071 windowed long-video align + anchors | `npm test` **128/128**; build OK | KAI-074 padding |
 | 18/09/2026 | KAI-072 editor/studio unmatched filter + nghe ngữ cảnh | `npm test` **123/123**; build OK | KAI-071 windowing |
 | 18/09/2026 | KAI-070 integrate stable-ts default (+ qwen_fa/whisper flags) | `npm test` **122/122**; speech-env stable-ts ready | KAI-071 / KAI-072 |
 | 18/09/2026 | KAI-069 WhisperX contrast + ADR-021a (prefer stable-ts default) | bake-off table in REPORT | KAI-070 integrate |
