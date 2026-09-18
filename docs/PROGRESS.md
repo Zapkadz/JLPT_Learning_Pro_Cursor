@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** Gate A **ACCEPTED**. ADR-021: KAI-065–067 DONE; next **KAI-068** stable-ts.
+- **Kaiwa Studio:** Gate A **ACCEPTED**. ADR-021: KAI-065–068 DONE; next **KAI-069** WhisperX.
 - Local speech env: `npm run kaiwa:speech-env` → ready.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
@@ -476,6 +476,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-068 stable-ts spike | median Δstart 28–53 ms on clean TTS | `docs/kaiwa/evidence/kai-068/` |
 | 2026-09-18 | KAI-067 Qwen ForcedAligner CPU spike | median Δstart 21–68 ms on clean TTS | `docs/kaiwa/evidence/kai-067/` |
 | 2026-09-18 | KAI-066 forced-align bench + greedy baseline | clean_tts median Δstart 212.5 ms; long_gap 122 ms | `docs/kaiwa/evidence/kai-066/` |
 | 2026-09-18 | Gate A ACCEPTED (KAI-046 user sign-off) + ADR-021 | CHECKLIST §5; TASKS §9c | `docs/kaiwa/evidence/kai-033/CHECKLIST.md` |
