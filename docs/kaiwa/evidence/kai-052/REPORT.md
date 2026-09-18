@@ -71,6 +71,20 @@ Source: `results.json` (3 lines, 700 ms silence gaps).
 
 Default product model: **`base`** (`KAIWA_WHISPER_MODEL=small` optional).
 
+### 3c. `base` + end-stretch (KAI-063, 2026-09-18)
+
+Whisper word ends were **early** on TTS (not late). Sidecar now stretches each line end into the silence gap before the next line start (−80 ms lead).
+
+| Metric | Value |
+| --- | --- |
+| measuredLines | 3 / 3 |
+| median \|Δstart\| | **52 ms** |
+| median \|Δend\| | **568 ms** (was 952 ms in §3b) |
+| max \|Δstart\| | 192 ms |
+| max \|Δend\| | 844 ms |
+
+Still TTS-only; not an anime quality claim.
+
 ---
 
 ## 4. KAI-053 implications
@@ -88,3 +102,4 @@ Default product model: **`base`** (`KAIWA_WHISPER_MODEL=small` optional).
 - Fixture is TTS-generated (reproducible, legal).
 - Manual SRT / KAI-051 ingest paths unchanged.
 - Re-measure with `base` recorded under §3b after KAI-061.
+- End-stretch re-measure under §3c after KAI-063.

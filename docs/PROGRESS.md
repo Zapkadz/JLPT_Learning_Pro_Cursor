@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** speakable KAI-036–049 DONE; **KAI-046** BLOCKED human. Auto-subtitle **050–058** + quality **059–062** DONE. Gate A **not accepted**.
+- **Kaiwa Studio:** speakable KAI-036–049 DONE; **KAI-046** BLOCKED human. Auto-subtitle **050–058** + quality **059–063** DONE. Gate A **not accepted**.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -475,6 +475,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-063 script-align end-stretch | median Δend **568 ms** (was 952); TTS only | `docs/kaiwa/evidence/kai-052/REPORT.md` §3c |
 | 2026-09-18 | KAI-061 spike re-measure Whisper `base` | median Δstart 28 ms (TTS) | `docs/kaiwa/evidence/kai-052/REPORT.md` §3b |
 | 2026-09-18 | KAI-059–062 sync UX + overlay help + Whisper base | `npm test` **120/120** | `ScriptHelpLayers.tsx` |
 | 2026-09-18 | KAI-046 runbook + preflight re-verify | `kaiwa:gate-a-preflight` OK | `docs/kaiwa/evidence/kai-046/` |
