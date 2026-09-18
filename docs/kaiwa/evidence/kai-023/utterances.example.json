@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "rubricId": "kaiwa-ja-rubric-draft-001",
+  "thresholdsLockedAt": "2026-09-18",
+  "utterances": [
+    {
+      "utteranceId": "ex-train-01",
+      "speakerId": "spk-vn-01",
+      "split": "train",
+      "license": "synthetic_tts",
+      "referenceJa": "こんにちは。",
+      "inGit": false,
+      "intendedContrast": "clean_ok",
+      "notes": "Example only — no audio committed"
+    },
+    {
+      "utteranceId": "ex-cal-01",
+      "speakerId": "spk-vn-02",
+      "split": "calibration",
+      "license": "own_recording",
+      "licenseNote": "Volunteer learner; consent on file locally",
+      "referenceJa": "学校に行きます。",
+      "inGit": false,
+      "intendedContrast": "sokuon"
+    },
+    {
+      "utteranceId": "ex-hold-01",
+      "speakerId": "spk-vn-03",
+      "split": "held_out",
+      "license": "own_recording",
+      "referenceJa": "これは本ですか。",
+      "inGit": false,
+      "intendedContrast": "question_vs_statement"
+    }
+  ]
+}

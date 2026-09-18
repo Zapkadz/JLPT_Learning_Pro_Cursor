@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-076 scaffold PARTIAL)
+2026-09-18 (KAI-023 Gate B framework DONE)
 
 ## Current Branch
 
@@ -10,36 +10,35 @@
 
 ## Current Task
 
-**KAI-076 PARTIAL** — runbook/template/harness shipped; **user measurements PENDING**.
+**Next READY (needs input):** collect licensed takes + dual raters for KAI-023 corpus **or** provide speech credentials for live ja-JP field verify (KAI-003 checklist / KAI-026).
 
-Forced-align coding (**KAI-065–075**) is complete.
+KAI-076 remains **PARTIAL** (user held-out align metrics). Forced-align **KAI-065–075** DONE. **KAI-023** framework DONE.
 
 ## Exact Next Action
 
-**User choice (pick one):**
+1. Fill Gate B corpus locally (license + speaker splits) per `docs/kaiwa/evidence/kai-023/` — audio outside git.
+2. Or set speech provider env keys and run KAI-003 live checklist (redacted JSON under `docs/kaiwa/evidence/kai-003/live/`).
+3. Optional: finish KAI-076 align held-out under `%USERPROFILE%\kaiwa-held-out\`.
 
-1. **Finish KAI-076:** put clips under `%USERPROFILE%\kaiwa-held-out\`, fill `results.json` per `docs/kaiwa/evidence/kai-076/RUNBOOK.md`, run `npm run kaiwa:held-out`, then ask agent to mark DONE from metrics-only JSON.
-2. **Approve Gate B prep:** start **KAI-023** (benchmark/rubric) — major milestone; needs explicit OK.
-3. Run `npm run kaiwa:speech-env` anytime to confirm smoke `ready` on this machine.
+Do **not** start KAI-035. Do **not** claim Gate B release (KAI-034).
 
 ## Last Completed
 
-- KAI-065–075 forced-align stack
-- KAI-076 scaffold (no private media committed); `npm test` **137/137**
+- KAI-023: benchmark manifest schemas, locked pilot thresholds, rubric, rater protocol, budget policy (`npm test` **143/143**)
 
 ## Verification
 
-- `npx tsx --test tests/kaiwa/held-out-scaffold.test.ts` PASS
-- `npm run kaiwa:held-out` exits 0 without `KAIWA_HELD_OUT_DIR`
-- `npm test` **137/137** PASS
+- `npx tsx --test tests/kaiwa/gate-b-benchmark.test.ts` PASS
+- `npm test` **143/143** PASS
 
 ## Blockers
 
-- KAI-076 evidence rows empty until user-held-out media (outside git).
+- Labeled ≥150 takes + dual raters (ops).
+- Live provider credentials for ja-JP field verify.
+- KAI-076 user align evidence still empty.
 - Grammar dirty — exclude from Kaiwa commits.
-- Gate B (**KAI-023**) not started — needs explicit user OK.
 
 ## Safety
 
-- Do not claim anime fixed.
-- Do not commit private media.
+- Do not claim anime fixed / Gate B shipped.
+- Do not commit private media or secrets.

@@ -1,0 +1,14 @@
+{
+  "rubricId": "kaiwa-ja-rubric-draft-001",
+  "lockedAt": "2026-09-18",
+  "source": "docs/kaiwa/PLAN.md §10.3 + KAI-023",
+  "minConfirmedCorrectFlagRate": 0.9,
+  "maxFalseFlagRateOnAcceptable": 0.05,
+  "minCleanCoverage": 0.85,
+  "maxPilotProviderUsd": 25,
+  "targetSegmentAssessP95Ms": 8000,
+  "plannedUtterances": 30,
+  "plannedTakesMin": 150,
+  "minRaters": 2,
+  "note": "Do not edit after held-out scoring without ADR + re-run."
+}

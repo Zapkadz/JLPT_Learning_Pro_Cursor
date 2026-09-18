@@ -73,7 +73,7 @@ Tại KAI-022 có luồng sản phẩm cốt lõi, nhưng chưa phát hành A tr
 
 | ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
 | --- | --- | --- | --- | --- |
-| KAI-023 · L · Japanese/Speech/PM | Thu thập benchmark được phép sử dụng; rubric; hai người đánh giá; ngân sách và dữ liệu gửi provider | KAI-003 | Dataset manifest có nguồn/quyền dùng, train/calibration/held-out tách theo người nói; nhãn và bất đồng có xử lý; ngưỡng coverage/false feedback/cost được chốt trước đánh giá cuối | TODO |
+| KAI-023 · L · Japanese/Speech/PM | Thu thập benchmark được phép sử dụng; rubric; hai người đánh giá; ngân sách và dữ liệu gửi provider | KAI-003 | Dataset manifest có nguồn/quyền dùng, train/calibration/held-out tách theo người nói; nhãn và bất đồng có xử lý; ngưỡng coverage/false feedback/cost được chốt trước đánh giá cuối | DONE (framework; corpus takes ops) |
 | KAI-024 · M · Speech/Backend | Quality gate audio: silence/clipping/noise/reference leakage và vùng không chấm | KAI-020, KAI-023 | Test im lặng/loa phát mẫu/nhiễu/chồng giọng; tình huống không đủ tin cậy trả unavailable/reason, không biến thành điểm phát âm 0; không coi phát mẫu qua loa là người học hoàn thành | DONE (provisional; leakage/decode deferred) |
 | KAI-025 · L · Speech/Media | Căn chỉnh utterance với bản thu, padding, phân biệt missing speech và data gap | KAI-024, KAI-016 | Bảo toàn sample/timeline offsets; không cắt đầu/cuối âm tiết; câu quá dài được chia có ngữ cảnh; uncertain alignment không sinh lỗi khẳng định; mapping về video nghe A/B đúng | DONE (synthetic timeline; live ASR force-align deferred) |
 | KAI-026 · L · Speech/Backend | Adapter pronunciation ja-JP, evidence schema và phản hồi phát âm | KAI-025, KAI-003 | Xác minh field thực sự có cho tiếng Nhật; parse/provider timeout/retry/budget test; không dùng ASR confidence làm pronunciation score; live output kiểm tra với benchmark | DONE (schema+stub); live field verify + benchmark TODO |
@@ -186,16 +186,16 @@ Thứ tự cứng: **065 → 066 → (067∥068∥069) → 070 → 071/072/074 �
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-076 PARTIAL (scaffold/runbook DONE; user measurements PENDING).
-Forced-align v1 coding path KAI-065–075 DONE.
-Next product milestone to approve: Gate B prep (KAI-023+) — do not start without user OK.
+Task: KAI-023 DONE (framework). Next: corpus/raters OR live ja-JP credentials (KAI-026 verify).
+KAI-076 PARTIAL. Do not start KAI-034/KAI-035 without evidence.
 ```
 
 ## 11. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
-| 18/09/2026 | KAI-076 held-out scaffold (runbook/template/npm script; Win encoding fix) | `npm test` **137/137**; evidence PENDING | User fills results OR approve Gate B |
+| 18/09/2026 | KAI-023 Gate B benchmark framework (thresholds locked) | `npm test` **143/143** | Corpus fill / live verify |
+| 18/09/2026 | KAI-076 held-out scaffold (runbook/template/npm script; Win encoding fix) | `npm test` **137/137**; evidence PENDING | User fills results OR Gate B |
 | 18/09/2026 | KAI-075 align smoke gate + CPU notes | `npm test` **136/136**; build OK | KAI-076 held-out (user) |
 | 18/09/2026 | KAI-073 waveform lock realign undo | `npm test` **135/135**; build OK | KAI-075 smoke |
 | 18/09/2026 | KAI-074 speech vs practice/overlay padding | `npm test` **131/131**; build OK | KAI-073 waveform |

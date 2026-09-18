@@ -754,4 +754,37 @@ KAI-066–069 measured greedy Whisper-match vs Qwen3-ForcedAligner vs stable-ts 
 
 `docs/kaiwa/evidence/kai-069/REPORT.md`, ADR-021
 
+---
+
+## ADR-022 — Gate B pilot feedback thresholds locked (KAI-023)
+
+Date: 2026-09-18
+Status: Accepted
+
+### Context
+
+PLAN §10.3 proposed pilot rates for confirmed-correct flags and false flags. Shipping Gate B without freezing numbers before held-out evaluation invites silent threshold shopping.
+
+### Decision
+
+1. Lock pilot thresholds in `shared/kaiwa/gateBBenchmark.ts` and `docs/kaiwa/evidence/kai-023/THRESHOLDS.json`: ≥90% confirmed-correct flags; ≤5% false flags on acceptable; ≥85% clean coverage; ≤USD 25 pilot provider spend.
+2. Speakers are disjoint across train / calibration / held_out.
+3. Dual-rater + adjudication protocol is required before counting rates toward Gate B.
+4. Changing thresholds after held-out scoring requires a new ADR and a fresh evaluation round.
+5. Rubric id stays `kaiwa-ja-rubric-draft-001` until teacher adjudication bumps `RUBRIC_VERSION`.
+
+### Consequences
+
+KAI-034 must report against these numbers (or an ADR amendment). Live provider work (KAI-026) remains blocked on credentials but must not invent scores.
+
+### Do Not
+
+- Do not claim Gate B released.
+- Do not commit private benchmark audio.
+- Do not lower thresholds silently to pass marketing claims.
+
+### Related Files
+
+`docs/kaiwa/evidence/kai-023/`, `shared/kaiwa/gateBBenchmark.ts`, ADR-017
+
 
