@@ -461,6 +461,11 @@ type RevisionView = {
   version: number;
   state: string;
   payload: { segments: KaiwaSegment[] };
+  source_json?: {
+    source?: string;
+    alignEngine?: string;
+    generatedAt?: string;
+  };
 };
 
 type HelpPrefs = { furigana: boolean; romaji: boolean; vi: boolean };
@@ -524,6 +529,11 @@ export function KaiwaEdit() {
   const { data: speechCap } = useData<{
     transcription: { status: string; messageVi: string };
     translation: { status: string; messageVi: string };
+    scriptAlign?: {
+      status: string;
+      messageVi: string;
+      engine: string | null;
+    };
   }>("/kaiwa/capabilities/speech");
   const [revision, setRevision] = useState<RevisionView | null>(null);
   const [segments, setSegments] = useState<KaiwaSegment[]>([]);
@@ -531,7 +541,9 @@ export function KaiwaEdit() {
   const [message, setMessage] = useState("");
   const [issues, setIssues] = useState<string[]>([]);
   const [saving, setSaving] = useState(false);
+  const [aligning, setAligning] = useState(false);
   const [scriptPaste, setScriptPaste] = useState("");
+  const [alignConsent, setAlignConsent] = useState(false);
   const [prefs, setPrefs] = useState<HelpPrefs>(() =>
     loadHelpPrefs(user?.id || "anon"),
   );
@@ -575,6 +587,53 @@ export function KaiwaEdit() {
     loadRevision();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
+
+  async function runScriptAlign() {
+    if (!id || !revision) return;
+    const text = scriptPaste.trim();
+    if (!text) {
+      setMessage("Hãy dán lời thoại trước khi đồng bộ.");
+      return;
+    }
+    if (!alignConsent) {
+      setMessage("Hãy xác nhận đã đọc lưu ý trước khi đồng bộ.");
+      return;
+    }
+    setAligning(true);
+    setMessage("");
+    try {
+      const result = await post<{
+        alignEngine: string;
+        revision: {
+          id: string;
+          version: number;
+          state: string;
+          payload: { segments: KaiwaSegment[] };
+          source_json?: RevisionView["source_json"];
+        };
+      }>(`/kaiwa/projects/${id}/script-align`, {
+        expectedRevisionVersion: revision.version,
+        text,
+      });
+      setRevision({
+        revisionId: result.revision.id,
+        version: result.revision.version,
+        state: result.revision.state,
+        payload: result.revision.payload,
+        source_json: result.revision.source_json,
+      });
+      setSegments(result.revision.payload?.segments || []);
+      setScriptPaste("");
+      setMessage(
+        `Đã đồng bộ ${result.revision.payload?.segments?.length || 0} đoạn (${result.alignEngine}). Bản nháp máy — hãy kiểm tra mốc thời gian trước khi luyện.`,
+      );
+      reloadProject();
+    } catch (e) {
+      setMessage(e instanceof Error ? e.message : "Đồng bộ thất bại.");
+    } finally {
+      setAligning(false);
+    }
+  }
 
   function applyUntimedScript(text: string, label: string) {
     const parsed = parseUntimedScript(text);
@@ -801,6 +860,15 @@ export function KaiwaEdit() {
         </Status>
       )}
 
+      {revision?.source_json?.source === "script_align" && (
+        <Status tone="info">
+          Bản nháp máy tạo — hãy kiểm tra mốc thời gian trước khi luyện.
+          {revision.source_json.alignEngine
+            ? ` (${revision.source_json.alignEngine})`
+            : ""}
+        </Status>
+      )}
+
       {playbackUrl && (
         <div className="panel kaiwa-player">
           <video
@@ -884,6 +952,53 @@ export function KaiwaEdit() {
             Áp dụng lời đã dán
           </button>
         </div>
+
+        <div className="panel kaiwa-script-align">
+          <h3 className="kaiwa-subhead">Đồng bộ lời thoại với video</h3>
+          {speechCap?.scriptAlign?.status === "ready" ? (
+            <>
+              <p className="kaiwa-muted">
+                {speechCap.scriptAlign.messageVi}
+              </p>
+              <label className="kaiwa-check">
+                <input
+                  type="checkbox"
+                  checked={alignConsent}
+                  onChange={(e) => setAlignConsent(e.target.checked)}
+                />
+                Tôi sẽ kiểm tra mốc thời gian sau khi máy gán (audio xử lý cục
+                bộ khi dùng Whisper; không tự publish).
+              </label>
+              <button
+                type="button"
+                className="btn"
+                disabled={
+                  aligning ||
+                  !scriptPaste.trim() ||
+                  !alignConsent ||
+                  !revision ||
+                  !playbackUrl
+                }
+                onClick={() => void runScriptAlign()}
+              >
+                {aligning
+                  ? "Đang đồng bộ…"
+                  : "Đồng bộ lời thoại với video (tự gán thời gian)"}
+              </button>
+              {!playbackUrl && (
+                <Status tone="info">
+                  Cần video đã chuẩn bị (prepare media) trước khi đồng bộ.
+                </Status>
+              )}
+            </>
+          ) : (
+            <Status tone="info">
+              {speechCap?.scriptAlign?.messageVi ||
+                "Chưa cấu hình tự động. Hãy nhập SRT/VTT hoặc soạn tay."}
+            </Status>
+          )}
+        </div>
+
         {issues.length > 0 && (
           <ul className="kaiwa-issues">
             {issues.slice(0, 12).map((t) => (
@@ -920,9 +1035,18 @@ export function KaiwaEdit() {
           <li
             key={seg.id}
             className={
-              overlapSet.has(index) ? "kaiwa-seg overlap" : "kaiwa-seg"
+              overlapSet.has(index)
+                ? "kaiwa-seg overlap"
+                : seg.timingUncertain
+                  ? "kaiwa-seg uncertain"
+                  : "kaiwa-seg"
             }
           >
+            {seg.timingUncertain && (
+              <Status tone="info">
+                Đoạn này khớp chưa chắc — nên sửa tay.
+              </Status>
+            )}
             <div className="kaiwa-seg-times">
               <button
                 type="button"

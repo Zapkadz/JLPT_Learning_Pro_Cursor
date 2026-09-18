@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** speakable KAI-036–049 DONE; **KAI-046** BLOCKED human. Auto-subtitle: **050–053 DONE**; next **KAI-054** UI. Gate A **not accepted**.
+- **Kaiwa Studio:** speakable KAI-036–049 DONE; **KAI-046** BLOCKED human. Auto-subtitle: **050–054 DONE**; next **KAI-055** honesty/USAGE. Gate A **not accepted**.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -251,6 +251,10 @@ Verify: `npm test` **24/24**.
 
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
+
+### KAI-054 (2026-09-18) — DONE
+
+Transcript editor: CTA đồng bộ + consent, calling `POST …/script-align`, machine-draft banner, uncertain segment hint. Verify: `npm test` **117/117**; build OK.
 
 ### KAI-053 (2026-09-18) — DONE
 

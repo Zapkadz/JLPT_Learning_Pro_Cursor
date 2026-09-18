@@ -69,6 +69,10 @@ test("speech capability API and auto routes stay honest without provider", async
     };
     assert.equal(cap.transcription.status, "not_configured");
     assert.equal(cap.liveTestsAllowed, false);
+    assert.ok(
+      (cap as { scriptAlign?: { status: string } }).scriptAlign?.status,
+      "scriptAlign capability present",
+    );
 
     const created = await api(base, cookie, "/kaiwa/projects", {
       method: "POST",
