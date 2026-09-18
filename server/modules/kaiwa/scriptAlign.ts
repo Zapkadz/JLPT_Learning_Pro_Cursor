@@ -1,5 +1,5 @@
 /**
- * KAI-053 script-align: extract audio → Whisper+match (or mock) → draft only.
+ * KAI-053 script-align + KAI-065 honesty: no fake timings; preserve line meta.
  */
 
 import { randomUUID } from "node:crypto";
@@ -32,6 +32,45 @@ function newSegId(): string {
   return randomUUID();
 }
 
+function normalizeJaKey(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/[\s　、。．，,.！？!?「」『』（）()【】\[\]…・]+/g, "");
+}
+
+/** Keep id / vi / tokens when re-timing the same dialogue lines. */
+export function mergePreserveSegmentMeta(
+  aligned: KaiwaSegment[],
+  previous: KaiwaSegment[] | undefined,
+): KaiwaSegment[] {
+  if (!previous?.length) return aligned;
+  const used = new Set<string>();
+  return aligned.map((seg, i) => {
+    let prev =
+      previous[i] &&
+      normalizeJaKey(previous[i].ja) === normalizeJaKey(seg.ja)
+        ? previous[i]
+        : undefined;
+    if (!prev) {
+      prev = previous.find(
+        (p) =>
+          !used.has(p.id) &&
+          normalizeJaKey(p.ja) === normalizeJaKey(seg.ja),
+      );
+    }
+    if (!prev) return seg;
+    used.add(prev.id);
+    return {
+      ...seg,
+      id: prev.id,
+      vi: prev.vi,
+      tokens: prev.tokens,
+      readingStale: prev.readingStale,
+      speakerLabel: prev.speakerLabel,
+    };
+  });
+}
+
 function mockAlign(lines: string[], durationMs: number): KaiwaSegment[] {
   const n = Math.max(lines.length, 1);
   const slot = Math.max(
@@ -46,7 +85,57 @@ function mockAlign(lines: string[], durationMs: number): KaiwaSegment[] {
     reviewState: "draft" as const,
     assessable: true,
     timingUncertain: true,
+    timingStatus: "needs_review" as const,
+    timingReason: "mock_equal_slots",
   }));
+}
+
+type SidecarSeg = {
+  ja: string;
+  startMs: number | null;
+  endMs: number | null;
+  timingUncertain?: boolean;
+  timingStatus?: "proposed" | "needs_review" | "unmatched";
+  matchReason?: string;
+};
+
+function sidecarToSegment(s: SidecarSeg): KaiwaSegment {
+  const status =
+    s.timingStatus ||
+    (s.startMs == null || s.endMs == null
+      ? "unmatched"
+      : s.timingUncertain
+        ? "needs_review"
+        : "proposed");
+
+  if (status === "unmatched" || s.startMs == null || s.endMs == null) {
+    return {
+      id: newSegId(),
+      startMs: 0,
+      endMs: 1,
+      ja: (s.ja || "").slice(0, 4000),
+      reviewState: "draft",
+      assessable: false,
+      assessableReason: "Chưa tìm được vị trí trong audio",
+      timingUncertain: true,
+      timingStatus: "unmatched",
+      timingReason: s.matchReason || "unmatched",
+    };
+  }
+
+  const startMs = Math.max(0, s.startMs);
+  const endMs = s.endMs > startMs ? s.endMs : startMs + 400;
+  return {
+    id: newSegId(),
+    startMs,
+    endMs,
+    ja: (s.ja || "").slice(0, 4000),
+    reviewState: "draft",
+    assessable: true,
+    timingUncertain: Boolean(s.timingUncertain) || status === "needs_review",
+    timingStatus: status,
+    timingReason: s.matchReason,
+  };
 }
 
 function whisperAlign(opts: {
@@ -107,29 +196,9 @@ function whisperAlign(opts: {
       );
     }
     const raw = JSON.parse(readFileSync(outPath, "utf8")) as {
-      segments: Array<{
-        ja: string;
-        startMs: number | null;
-        endMs: number | null;
-        timingUncertain?: boolean;
-      }>;
+      segments: SidecarSeg[];
     };
-    return (raw.segments || []).map((s) => {
-      const startMs = s.startMs ?? 0;
-      const endMs =
-        s.endMs != null && s.endMs > startMs
-          ? s.endMs
-          : startMs + UNTIMED_PLACEHOLDER_SLOT_MS;
-      return {
-        id: newSegId(),
-        startMs,
-        endMs,
-        ja: (s.ja || "").slice(0, 4000),
-        reviewState: "draft" as const,
-        assessable: true,
-        timingUncertain: Boolean(s.timingUncertain) || s.startMs == null,
-      };
-    });
+    return (raw.segments || []).map(sidecarToSegment);
   } finally {
     rmSync(tmp, { recursive: true, force: true });
   }
@@ -159,6 +228,26 @@ export function createScriptAlignService(
       fail(422, "Script trống hoặc không còn dòng hợp lệ sau khi làm sạch.");
     }
     const lines = parsed.segments.map((s) => s.ja);
+
+    let previous: KaiwaSegment[] | undefined;
+    try {
+      const revId = project.active_revision_id;
+      if (revId) {
+        const rev = db
+          .prepare(
+            `SELECT payload FROM kaiwa_revisions WHERE id=? AND project_id=?`,
+          )
+          .get(String(revId), projectId) as { payload?: string } | undefined;
+        if (rev?.payload) {
+          const payload = JSON.parse(rev.payload) as {
+            segments?: KaiwaSegment[];
+          };
+          previous = payload.segments;
+        }
+      }
+    } catch {
+      previous = undefined;
+    }
 
     const job = jobs.enqueue({
       ownerId,
@@ -229,8 +318,18 @@ export function createScriptAlignService(
         alignEngine = `faster-whisper:${model}`;
       }
 
+      segments = mergePreserveSegmentMeta(segments, previous);
+
       if (!segments.length) {
         fail(422, "Align không tạo được đoạn nào.");
+      }
+
+      const proposed = segments.filter((s) => s.timingStatus !== "unmatched");
+      if (engine !== "mock" && proposed.length === 0) {
+        fail(
+          422,
+          "Không tìm được mốc thời gian nào khớp script. Giữ lời thoại — hãy chỉnh tay hoặc thử lại với audio rõ hơn. Không gán mốc giả.",
+        );
       }
 
       const revision = repo.saveDraft(ownerId, projectId, {
@@ -255,6 +354,8 @@ export function createScriptAlignService(
           revisionId: revision.id,
           version: revision.version,
           segmentCount: segments.length,
+          proposedCount: proposed.length,
+          unmatchedCount: segments.length - proposed.length,
           alignEngine,
         }),
         new Date().toISOString(),
@@ -271,6 +372,8 @@ export function createScriptAlignService(
           source_json: JSON.parse(revision.source_json || "{}"),
         },
         alignEngine,
+        proposedCount: proposed.length,
+        unmatchedCount: segments.length - proposed.length,
       };
     } catch (e) {
       const message = e instanceof Error ? e.message : "Align thất bại.";

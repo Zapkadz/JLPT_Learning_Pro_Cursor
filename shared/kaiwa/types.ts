@@ -47,6 +47,15 @@ export const kaiwaSegmentSchema = z.object({
   assessableReason: z.string().max(500).nullable().optional(),
   /** Set by script-align / ASR when timing is weak — user should edit. */
   timingUncertain: z.boolean().optional(),
+  /**
+   * KAI-065+: proposed = draft timing; needs_review = weak; unmatched = no usable window
+   * (do not treat start/end as speakable when unmatched).
+   */
+  timingStatus: z
+    .enum(["proposed", "needs_review", "unmatched"])
+    .optional(),
+  /** Machine reason for needs_review / unmatched (not a calibrated %). */
+  timingReason: z.string().max(200).optional(),
 });
 
 export const kaiwaRevisionPayloadSchema = z.object({

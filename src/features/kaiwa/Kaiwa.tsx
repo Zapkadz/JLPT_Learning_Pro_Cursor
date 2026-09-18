@@ -1150,16 +1150,23 @@ export function KaiwaEdit() {
             className={
               overlapSet.has(index)
                 ? "kaiwa-seg overlap"
-                : seg.timingUncertain
+                : seg.timingStatus === "unmatched"
                   ? "kaiwa-seg uncertain"
-                  : "kaiwa-seg"
+                  : seg.timingUncertain || seg.timingStatus === "needs_review"
+                    ? "kaiwa-seg uncertain"
+                    : "kaiwa-seg"
             }
           >
-            {seg.timingUncertain && (
+            {seg.timingStatus === "unmatched" ? (
+              <Status tone="error">
+                Chưa tìm được vị trí trong audio — giữ lời; hãy chỉnh tay (không
+                dùng mốc 0 giả để luyện).
+              </Status>
+            ) : seg.timingUncertain || seg.timingStatus === "needs_review" ? (
               <Status tone="info">
                 Đoạn này khớp chưa chắc — nên sửa tay.
               </Status>
-            )}
+            ) : null}
             <div className="kaiwa-seg-times">
               <button
                 type="button"

@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-064 speech-env ready; parked on KAI-046)
+2026-09-18 (Gate A ACCEPTED; KAI-065 Phase 1 DONE)
 
 ## Current Branch
 
@@ -10,27 +10,27 @@
 
 ## Current Task
 
-**Blocked human:** **KAI-046** Gate A device.  
-No READY autonomous code task after KAI-064.
+**Next READY:** **KAI-066** — honest benchmark harness for forced-align (ADR-021).  
+V2 ASR push deferred until bake-off.
 
 ## Exact Next Action
 
-1. **You:** restart terminal → `npm run kaiwa:speech-env` (expect ready) → `npm run dev`.
-2. **You:** re-test sync (Áp dụng → Đồng bộ) / optional ASR smoke.
-3. **You:** CHECKLIST §2 Chrome rồi Edge → §5 sign-off.
-4. Do not start Gate B (KAI-023) without approval.
+1. Start KAI-066: shared production adapter + waveform GT plan / minimal legal fixtures.
+2. Do not install Qwen/stable-ts until KAI-066 harness exists (unless user overrides).
+3. Do not reopen Gate A; speakable ACCEPTED.
 
 ## Last Completed
 
-- **KAI-064:** `npm run kaiwa:speech-env` — máy này `scriptAlign` + `transcription` = **ready** (ffmpeg + Whisper `base`).
-- Prior: KAI-063 end-stretch; KAI-059–062 UX/quality.
+- Gate A CHECKLIST Chrome+Edge **ACCEPTED** (user-authorized sign-off).
+- ADR-021 + TASKS §9c (KAI-065–076) + FORCE-ALIGN-V1-SPEC.
+- **KAI-065:** remove end-stretch; unmatched honesty; preserve meta; regression tests.
 
 ## Blockers
 
-- KAI-046 human device evidence.
 - Grammar dirty files — do not stage with Kaiwa.
+- Legal JA fixtures for KAI-066 may need user-provided media outside git.
 
 ## Safety
 
-- Do not invent Gate A PASS.
-- Do not claim anime ASR quality from TTS spike numbers.
+- Do not invent bake-off numbers.
+- Do not commit private anime audio.

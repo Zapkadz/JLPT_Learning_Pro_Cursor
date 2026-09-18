@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Whisper word-timestamp align sidecar for KAI-053/061/063 (keeps user script text)."""
+"""Whisper word-timestamp align sidecar (KAI-053/061; KAI-065: no end-stretch, honest unmatched)."""
 
 from __future__ import annotations
 
@@ -16,13 +16,16 @@ def normalize_ja(s: str) -> str:
 
 
 def align_words_to_lines(words: list[dict], lines: list[str]) -> list[dict]:
-    """Greedy match; keep script text; stretch ends into silence before next line."""
+    """Greedy match; keep script text; do NOT stretch ends into next-line gaps (KAI-065).
+
+    Unmatched / failed lines keep startMs/endMs = null and timingStatus=unmatched.
+    Overlapping windows are clamped (not stretched).
+    """
     results: list[dict] = []
     wi = 0
     n = len(words)
     pad_start_ms = 80
     pad_end_ms = 80
-    lead_before_next_ms = 80
     for line in lines:
         target = normalize_ja(line)
         if not target:
@@ -34,6 +37,8 @@ def align_words_to_lines(words: list[dict], lines: list[str]) -> list[dict]:
                     "startMs": None,
                     "endMs": None,
                     "timingUncertain": True,
+                    "timingStatus": "unmatched",
+                    "matchReason": "no_words_left",
                 }
             )
             continue
@@ -56,6 +61,8 @@ def align_words_to_lines(words: list[dict], lines: list[str]) -> list[dict]:
                     "startMs": None,
                     "endMs": None,
                     "timingUncertain": True,
+                    "timingStatus": "unmatched",
+                    "matchReason": "empty_span",
                 }
             )
             continue
@@ -73,10 +80,34 @@ def align_words_to_lines(words: list[dict], lines: list[str]) -> list[dict]:
                 else:
                     break
             ratio = m / max(len(target), 1)
+        matched = (
+            target in covered
+            or covered in target
+            or ratio >= 0.5
+            or (len(target) >= 2 and acc.startswith(target))
+        )
+        if not matched:
+            # Do not consume future lines' audio as a fake success window.
+            # Rewind word cursor so later lines can still try.
+            wi = start_i
+            results.append(
+                {
+                    "ja": line,
+                    "startMs": None,
+                    "endMs": None,
+                    "timingUncertain": True,
+                    "timingStatus": "unmatched",
+                    "matchReason": "text_mismatch",
+                }
+            )
+            # Advance at least one word to avoid infinite loop on stubborn mismatch.
+            if wi < n:
+                wi += 1
+            continue
         uncertain = (
             target not in covered
             and covered not in target
-            and ratio < 0.5
+            and ratio < 0.85
         )
         results.append(
             {
@@ -84,11 +115,12 @@ def align_words_to_lines(words: list[dict], lines: list[str]) -> list[dict]:
                 "startMs": start_ms,
                 "endMs": end_ms,
                 "timingUncertain": uncertain,
+                "timingStatus": "needs_review" if uncertain else "proposed",
+                "matchReason": "ok",
             }
         )
 
-    # Stretch ends into silence before the next line (Whisper often cuts early).
-    # If windows overlap, clamp instead.
+    # Clamp overlaps only (never stretch into silence toward next line).
     for i in range(len(results) - 1):
         cur = results[i]
         nxt = results[i + 1]
@@ -98,14 +130,13 @@ def align_words_to_lines(words: list[dict], lines: list[str]) -> list[dict]:
             or nxt.get("startMs") is None
         ):
             continue
-        soft_end = int(nxt["startMs"]) - lead_before_next_ms
-        if soft_end <= cur["startMs"]:
-            continue
-        if cur["endMs"] < soft_end:
-            cur["endMs"] = soft_end
-        elif cur["endMs"] >= int(nxt["startMs"]):
-            cur["endMs"] = soft_end
+        max_end = int(nxt["startMs"]) - 1
+        if cur["endMs"] > max_end and max_end > cur["startMs"]:
+            cur["endMs"] = max_end
             cur["timingUncertain"] = True
+            if cur.get("timingStatus") == "proposed":
+                cur["timingStatus"] = "needs_review"
+            cur["matchReason"] = "clamped_overlap"
     return results
 
 

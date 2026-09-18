@@ -24,7 +24,7 @@ Automated verification at packaging: see `npm test` / KAI-032 evidence (**not** 
 - Character role-play (KAI-035)
 - Mobile recording claim
 - OCR hardsubs / PDF script import
-- Gate A **device** ACCEPTED until CHECKLIST Chrome+Edge segment flow signed (KAI-046)
+- Gate A **device** ACCEPTED — CHECKLIST Chrome+Edge segment flow signed (KAI-046, 2026-09-18)
 
 ## Rollback
 
@@ -50,4 +50,4 @@ Automated verification at packaging: see `npm test` / KAI-032 evidence (**not** 
 
 ## Gate A acceptance gate
 
-Fill and sign `docs/kaiwa/evidence/kai-033/CHECKLIST.md`. Until ACCEPTED there, do not market “Gate A shipped on all devices.”
+Fill and sign `docs/kaiwa/evidence/kai-033/CHECKLIST.md`. **Status 2026-09-18: ACCEPTED** (Chrome+Edge segment).
