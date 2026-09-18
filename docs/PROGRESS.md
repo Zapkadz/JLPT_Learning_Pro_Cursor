@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** KAI-001–022 (015 stub), KAI-024–029, KAI-030a, KAI-031–032 DONE; KAI-033 packaging / device PENDING; **ADR-019** segment-default; **KAI-036** spec DONE; next **KAI-037–047**. Gate A **not accepted**. Live ASR/PA + KAI-023 + KAI-030b + KAI-034 deferred.
+- **Kaiwa Studio:** … **KAI-036–037** DONE (segment spec + clip API); next **KAI-038** UI. Gate A **not accepted**.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -252,6 +252,10 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-037 (2026-09-18) — DONE
+
+Segment clips table + APIs; default `captureMode=segment`; versioned re-record; ownership. Evidence: `docs/kaiwa/evidence/kai-037/REPORT.md`. Verify: **102/102**.
+
 ### KAI-036 (2026-09-18) — DONE (spec)
 
 Segment studio UX spec (overlay, clip N/M, skip/subset); USAGE/CHECKLIST/UX-SPEC updated for ADR-019. Evidence: `docs/kaiwa/evidence/kai-036/`. Docs-only.
@@ -399,6 +403,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-037 segment clips API | **102/102** npm test; build OK | `docs/kaiwa/evidence/kai-037/REPORT.md` |
 | 2026-09-18 | KAI-036 segment studio UX spec | Docs DONE | `docs/kaiwa/evidence/kai-036/` |
 | 2026-09-18 | KAI-029 feedback UI | **100/100** npm test; build OK | `docs/kaiwa/evidence/kai-029/REPORT.md` |
 | 2026-09-18 | KAI-028 assessment aggregate | **99/99** npm test; build OK | `docs/kaiwa/evidence/kai-028/REPORT.md` |

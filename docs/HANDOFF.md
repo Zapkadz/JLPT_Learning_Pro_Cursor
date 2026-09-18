@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-036 DONE; next KAI-037)
+2026-09-18 (KAI-037 DONE; next KAI-038)
 
 ## Current Branch
 
@@ -10,24 +10,22 @@
 
 ## Current Task
 
-**KAI-037** — Schema/API: `capture_mode`, segment clip assets, N/M progress, ownership.
+**KAI-038** — Segment studio UI: on-video script overlay + clip controls (Nghe mẫu / Thu / Nghe mình / Tiếp).
 
 ## Exact Next Action
 
-Implement additive migration + repository/API for per-segment clips on an attempt; tests for ownership and versioning. Then KAI-038 UI.
+Implement segment studio frontend against KAI-036 spec + KAI-037 APIs. Default mode = segment.
 
 ## Last Completed
 
-**KAI-036** — Segment studio UX spec (ADR-019). Evidence: `docs/kaiwa/evidence/kai-036/`. USAGE + CHECKLIST + UX-SPEC updated.
+**KAI-037** — `kaiwa_segment_clips` + captureMode APIs. Evidence: `docs/kaiwa/evidence/kai-037/REPORT.md`. Verify: **102/102**.
 
 ## Blockers
 
-- Gate A ACCEPTED waits for KAI-037–046 + device PASS on segment mode.
-- Gate B depth: KAI-023 / speech credentials.
+- Gate A ACCEPTED after KAI-038–046 + device PASS.
+- Gate B: KAI-023 / credentials.
 
 ## Safety
 
 - Do not stage grammar dirty files.
-- Do not claim assembled segment audio is continuous.
-- Do not invent pronunciation scores.
-- Do not start KAI-035 before Gate B.
+- Do not claim assembled clips are continuous takes.

@@ -20,6 +20,10 @@ import { createAlignmentService } from "./alignmentService";
 import { createPronunciationService } from "./pronunciationService";
 import { createProsodyService } from "./prosodyService";
 import { createAssessmentService } from "./assessmentService";
+import {
+  createSegmentClipService,
+  ensureSegmentClipsTable,
+} from "./segmentClips";
 
 export { KaiwaError };
 
@@ -78,6 +82,11 @@ export function kaiwaModule(
       "kaiwa-005",
       new Date().toISOString(),
     );
+    ensureSegmentClipsTable(db);
+    db.prepare("INSERT OR IGNORE INTO schema_migrations VALUES(?,?)").run(
+      "kaiwa-006",
+      new Date().toISOString(),
+    );
   })();
 
   const config = loadKaiwaConfig(configOverrides);
@@ -101,6 +110,7 @@ export function kaiwaModule(
     pronunciation,
     prosody,
   });
+  const segmentClips = createSegmentClipService(db, assets, config);
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -234,6 +244,7 @@ export function kaiwaModule(
       .object({
         publish: z.boolean().optional(),
         expectedRevisionVersion: z.number().int().nonnegative().optional(),
+        captureMode: z.enum(["segment", "continuous"]).optional(),
       })
       .parse(req.body ?? {});
     const project = repo.ownProject(projectId, ownerId);
@@ -247,9 +258,11 @@ export function kaiwaModule(
         expectedRevisionVersion: version,
       });
     }
-    const attemptRow = repo.createAttempt(ownerId, projectId);
-    const attempt = repo.getAttempt(ownerId, (attemptRow as { id: string }).id);
-    res.status(201).json(attempt);
+    const attemptRow = repo.createAttempt(ownerId, projectId) as { id: string };
+    const mode = body.captureMode ?? "segment";
+    segmentClips.setCaptureMode(ownerId, attemptRow.id, mode);
+    const attempt = repo.getAttempt(ownerId, attemptRow.id);
+    res.status(201).json({ ...attempt, captureMode: mode });
   });
 
   router.post("/projects/:id/prepare-media", async (req, res, next) => {
@@ -318,6 +331,66 @@ export function kaiwaModule(
       .parse(req.body);
     res.json(
       repo.patchAttemptMix(res.locals.user.id, String(req.params.id), body),
+    );
+  });
+
+  router.patch("/attempts/:id/capture-mode", (req, res) => {
+    const body = z
+      .object({ captureMode: z.enum(["segment", "continuous"]) })
+      .parse(req.body);
+    res.json(
+      segmentClips.setCaptureMode(
+        res.locals.user.id,
+        String(req.params.id),
+        body.captureMode,
+      ),
+    );
+  });
+
+  router.get("/attempts/:id/segment-clips", (req, res) => {
+    res.json(
+      segmentClips.listClips(res.locals.user.id, String(req.params.id)),
+    );
+  });
+
+  router.post("/attempts/:id/segment-clips/:segmentId", (req, res) => {
+    const segmentId = String(req.params.segmentId);
+    const body = z
+      .object({
+        action: z.enum(["record", "skip"]),
+        contentBase64: z.string().optional(),
+        sha256: z.string().optional(),
+        durationMs: z.number().int().nonnegative().optional(),
+        partial: z.boolean().optional(),
+        reason: z.string().max(200).optional(),
+      })
+      .parse(req.body ?? {});
+    if (body.action === "skip") {
+      res.status(201).json(
+        segmentClips.skipSegment(
+          res.locals.user.id,
+          String(req.params.id),
+          segmentId,
+          body.reason,
+        ),
+      );
+      return;
+    }
+    if (!body.contentBase64) {
+      throw new KaiwaError(400, "Thiếu contentBase64 cho clip.");
+    }
+    res.status(201).json(
+      segmentClips.recordSegment(
+        res.locals.user.id,
+        String(req.params.id),
+        segmentId,
+        {
+          contentBase64: body.contentBase64,
+          sha256: body.sha256,
+          durationMs: body.durationMs,
+          partial: body.partial,
+        },
+      ),
     );
   });
 

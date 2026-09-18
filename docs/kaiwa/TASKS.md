@@ -106,7 +106,7 @@ Phát sinh từ feedback thiết bị 18/09/2026: thu liên tục không hiện 
 | ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
 | --- | --- | --- | --- | --- |
 | KAI-036 · M · UX/PM | Đặc tả studio theo đoạn + wireflow; cập nhật UX-SPEC / USAGE / CHECKLIST | ADR-019, KAI-004 | Có spec overlay, controls clip, skip/subset, progress N/M, copy VI; continuous vẫn có overlay; không bắt chọn vai | DONE |
-| KAI-037 · M · Backend | Schema/API: `capture_mode`, segment clip assets, tiến độ N/M, ownership | KAI-005, KAI-036 | Migration additive; clip thuộc attempt+segment; conflict/version; test cross-account | TODO |
+| KAI-037 · M · Backend | Schema/API: `capture_mode`, segment clip assets, tiến độ N/M, ownership | KAI-005, KAI-036 | Migration additive; clip thuộc attempt+segment; conflict/version; test cross-account | DONE |
 | KAI-038 · L · Frontend/Media | UI phòng thu theo đoạn: overlay JA/furigana/VI, clip controls, mic | KAI-036, KAI-017, KAI-016 | Nhìn script trên video khi thu; nghe mẫu đoạn / thu / nghe mình / trước-sau; ≥44px; mobile không tràn ruby | TODO |
 | KAI-039 · L · Media/Backend | Ghép clip đoạn → learner track timeline + gắn review/export | KAI-037, KAI-020, KAI-022 | Silence/giữ gốc ở gap; duration khớp video; metadata `assembly=segment`; không ghi nhãn continuous giả; test gap/overlap | TODO |
 | KAI-040 · S · Frontend | Chọn mode studio (mặc định theo đoạn; liên tục = nâng cao) | KAI-038 | Default segment; nhớ preference tài khoản; copy giải thích khác biệt mode | TODO |
@@ -130,16 +130,16 @@ Thứ tự gợi ý: **KAI-036 → 037 → 038 → 039 → 040** (đường găn
 ## 9. Checklist task đang làm
 
 ```text
-Task: KAI-037 — Schema/API capture_mode + segment clips
+Task: KAI-038 — UI phòng thu theo đoạn (overlay + clip controls)
 Trạng thái: READY → IN_PROGRESS
-Phụ thuộc: KAI-036 DONE
-Task tiếp theo: KAI-038 segment studio UI
+Phụ thuộc: KAI-037 DONE
 ```
 
 ## 10. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-037 segment clips schema/API + captureMode default segment | `npm test` **102/102**; build OK | KAI-038 UI |
 | 18/09/2026 | KAI-036 segment studio UX spec + USAGE/CHECKLIST/UX-SPEC | Docs: `evidence/kai-036/` | KAI-037 schema |
 | 18/09/2026 | ADR-019 + backlog KAI-036–047: studio theo đoạn mặc định (feedback thiết bị) | Docs only — chưa code | KAI-036 spec |
 | 18/09/2026 | KAI-029 feedback UI priorities + seek (no fake overall score) | `npm test` **100/100**; build OK; `docs/kaiwa/evidence/kai-029/REPORT.md` | KAI-033 device / KAI-023 |
