@@ -435,7 +435,7 @@ export function createScriptAlignService(
   function runAlign(ownerId: string, projectId: string, body: unknown) {
     const data = scriptAlignRequestSchema.parse(body);
     const cap = resolveScriptAlignCapability();
-    if (cap.status === "not_configured") {
+    if (cap.status === "not_configured" || cap.status === "unavailable") {
       fail(503, cap.messageVi);
     }
 
