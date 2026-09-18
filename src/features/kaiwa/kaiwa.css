@@ -86,6 +86,17 @@
   min-height: 44px;
 }
 
+.kaiwa-field .kaiwa-script-paste {
+  font: inherit;
+  font-weight: 400;
+  padding: 0.65rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--border, #d8d2c8);
+  min-height: 6.5rem;
+  resize: vertical;
+  line-height: 1.45;
+}
+
 .kaiwa-progress {
   display: grid;
   gap: 0.35rem;

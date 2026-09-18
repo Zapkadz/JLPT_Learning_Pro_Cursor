@@ -26,7 +26,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Detailed backlog / dependency graph | `docs/kaiwa/TASKS.md` |
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
-| **Current executable task** | **KAI-050** auto-subtitle plan DONE; next **KAI-051** (await approve) / **KAI-046** human |
+| **Current executable task** | **KAI-051** DONE; next **KAI-052** align spike / **KAI-046** human |
 | Do not start | **KAI-035** before Gate B |
 
 ### Phase overview (detail in `docs/kaiwa/TASKS.md`)
@@ -38,7 +38,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Transcript + Japanese support | KAI-013–016 | SRT/manual, furigana/romaji/VI, ASR optional |
 | Full-video record / review / export | KAI-017–022 | Continuous capture, takes, MP4 export |
 | **Speakable studio (ADR-019)** | **KAI-036–047** | Segment-default + overlay; assemble; Gate A device |
-| **Auto subtitle (ADR-020)** | **KAI-050–058** | v1 script→times; v2 ASR (plan DONE; code not started) |
+| **Auto subtitle (ADR-020)** | **KAI-050–058** | v1 script→times; v2 ASR (**051** ingest DONE; spike next) |
 | Japanese assessment | KAI-023–029 | Evidence-based scoring (no fake metrics) |
 | Progress / ops / QA / gates | KAI-030–034 | Gate A then Gate B |
 | Later planning only | KAI-035 | Character role-play — after Gate B |

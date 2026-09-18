@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** speakable KAI-036–049 DONE; **KAI-046** BLOCKED human. **ADR-020 / KAI-050** auto-subtitle plan DONE (docs). Next code = KAI-051 after approve. Gate A **not accepted**.
+- **Kaiwa Studio:** speakable KAI-036–049 DONE; **KAI-046** BLOCKED human. **ADR-020 / KAI-050** plan DONE; **KAI-051** untimed script ingest DONE. Next: **KAI-052** align spike (may need ffmpeg/provider). Gate A **not accepted**.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -252,6 +252,10 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-051 (2026-09-18) — DONE
+
+Untimed script ingest: `parseUntimedScript` (plain / .txt / zero-time SRT text) → draft segments with placeholder times; transcript UI paste + `.txt`/`.md` upload. Verify: `npm test` **114/114**; `npm run build` OK.
+
 ### KAI-050 (2026-09-18) — DONE (plan/spec only)
 
 ADR-020 + AUTO-SUBTITLE-SPEC for v1 script-sync / v2 ASR; backlog KAI-051–058. Evidence: `docs/kaiwa/evidence/kai-050/`. No app code.
@@ -443,6 +447,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-051 untimed script ingest | `npm test` **114/114**; build OK | `shared/kaiwa/subtitles.ts` |
 | 2026-09-18 | KAI-050 ADR-020 auto-subtitle plan | Docs only | `docs/kaiwa/evidence/kai-050/` |
 | 2026-09-18 | Gate A preflight + §0 fill + device runbook | **110/110**; preflight OK | `evidence/kai-033/`, `kai-046/` |
 | 2026-09-18 | KAI-045/047 Gate A docs dual-mode | checklist content OK; suite at KAI-044 **110/110** | `evidence/kai-045/`, `kai-047/` |

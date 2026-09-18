@@ -12,6 +12,7 @@ import {
   findOverlaps,
   mergeSegments,
   parseSubtitles,
+  parseUntimedScript,
   splitSegment,
 } from "../../../shared/kaiwa/subtitles";
 import {
@@ -530,6 +531,7 @@ export function KaiwaEdit() {
   const [message, setMessage] = useState("");
   const [issues, setIssues] = useState<string[]>([]);
   const [saving, setSaving] = useState(false);
+  const [scriptPaste, setScriptPaste] = useState("");
   const [prefs, setPrefs] = useState<HelpPrefs>(() =>
     loadHelpPrefs(user?.id || "anon"),
   );
@@ -574,8 +576,38 @@ export function KaiwaEdit() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
+  function applyUntimedScript(text: string, label: string) {
+    const parsed = parseUntimedScript(text);
+    setIssues(
+      parsed.issues.map(
+        (i) =>
+          `${i.code}: ${i.message}${i.cueIndex != null ? ` (#${i.cueIndex + 1})` : ""}`,
+      ),
+    );
+    if (parsed.segments.length) {
+      setSegments(parsed.segments);
+      setMessage(
+        `Đã nhập ${parsed.segments.length} đoạn từ ${label} (${parsed.sourceFormat}). Mốc thời gian tạm — chỉnh tay hoặc đồng bộ sau. Nhớ lưu nháp.`,
+      );
+    } else {
+      setMessage("Không có đoạn hợp lệ sau khi làm sạch script.");
+    }
+  }
+
   async function onImportFile(file: File) {
     const text = await file.text();
+    const name = file.name.toLowerCase();
+    const isPlainScript =
+      name.endsWith(".txt") ||
+      name.endsWith(".md") ||
+      file.type === "text/plain" ||
+      file.type === "text/markdown";
+
+    if (isPlainScript) {
+      applyUntimedScript(text, file.name || ".txt");
+      return;
+    }
+
     const durationMs = videoRef.current?.duration
       ? Math.round(videoRef.current.duration * 1000)
       : null;
@@ -590,9 +622,16 @@ export function KaiwaEdit() {
       setMessage(
         `Đã nhập ${parsed.segments.length} đoạn (${parsed.format.toUpperCase()}). Nhớ lưu nháp.`,
       );
-    } else {
-      setMessage("Không có đoạn hợp lệ sau khi phân tích.");
+      return;
     }
+
+    // Timed parse failed — try untimed (e.g. SRT with zero/bogus times).
+    const untimed = parseUntimedScript(text);
+    if (untimed.segments.length) {
+      applyUntimedScript(text, file.name || "script");
+      return;
+    }
+    setMessage("Không có đoạn hợp lệ sau khi phân tích.");
   }
 
   function updateSeg(index: number, patch: Partial<KaiwaSegment>) {
@@ -748,7 +787,7 @@ export function KaiwaEdit() {
     <div className="kaiwa-page">
       <PageHead
         title={`Soạn phụ đề · ${project.title}`}
-        description="Nhập SRT/VTT hoặc gõ tay. Markup HTML bị gỡ. Overlap được đánh dấu."
+        description="Nhập SRT/VTT, dán lời không thời gian, hoặc gõ tay. Markup HTML bị gỡ. Overlap được đánh dấu."
       >
         <Link className="btn secondary" to={`/kaiwa/projects/${project.id}`}>
           Về dự án
@@ -799,16 +838,52 @@ export function KaiwaEdit() {
           </button>
         </div>
         <label className="kaiwa-field">
-          Nhập SRT / VTT
+          Nhập SRT / VTT (có thời gian)
           <input
             type="file"
-            accept=".srt,.vtt,text/vtt,application/x-subrip,text/plain"
+            accept=".srt,.vtt,text/vtt,application/x-subrip"
             onChange={(e) => {
               const f = e.target.files?.[0];
               if (f) void onImportFile(f);
+              e.target.value = "";
             }}
           />
         </label>
+        <label className="kaiwa-field">
+          Lời thoại không thời gian (.txt / .md)
+          <input
+            type="file"
+            accept=".txt,.md,text/plain,text/markdown"
+            onChange={(e) => {
+              const f = e.target.files?.[0];
+              if (f) void onImportFile(f);
+              e.target.value = "";
+            }}
+          />
+        </label>
+        <label className="kaiwa-field">
+          Dán lời thoại (mỗi dòng / đoạn một câu)
+          <textarea
+            className="kaiwa-script-paste"
+            rows={5}
+            value={scriptPaste}
+            placeholder={"こんにちは。\n今日はいい天気ですね。"}
+            onChange={(e) => setScriptPaste(e.target.value)}
+          />
+        </label>
+        <div className="kaiwa-actions">
+          <button
+            type="button"
+            className="btn secondary"
+            disabled={!scriptPaste.trim()}
+            onClick={() => {
+              applyUntimedScript(scriptPaste, "paste");
+              setScriptPaste("");
+            }}
+          >
+            Áp dụng lời đã dán
+          </button>
+        </div>
         {issues.length > 0 && (
           <ul className="kaiwa-issues">
             {issues.slice(0, 12).map((t) => (

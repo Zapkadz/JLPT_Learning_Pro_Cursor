@@ -136,7 +136,7 @@ Phát sinh từ yêu cầu 18/09/2026: phụ đề tay đã OK; muốn (v1) vide
 | ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
 | --- | --- | --- | --- | --- |
 | KAI-050 · M · PM/Architect | ADR-020 + AUTO-SUBTITLE-SPEC + cập nhật PLAN/TASKS/USAGE pointer | User request | Spec có wireflow v1/v2, API, honesty, spike candidates, DoD | DONE |
-| KAI-051 · M · Backend/Frontend | Ingest script không timeline: paste + `.txt`; normalize → candidate lines | KAI-013, KAI-050 | UTF-8; strip markup; tách dòng/câu ổn định; test ownership | TODO |
+| KAI-051 · M · Backend/Frontend | Ingest script không timeline: paste + `.txt`; normalize → candidate lines | KAI-013, KAI-050 | UTF-8; strip markup; tách dòng/câu ổn định; test ownership | DONE |
 | KAI-052 · L · Speech/Media | Spike forced-align / Whisper-timestamps+match trên fixture JA ngắn | KAI-050, ffmpeg | Báo cáo engine chọn; đo lệch thời gian; ghi credential/local; không khóa vendor nếu fail | TODO |
 | KAI-053 · L · Backend | Job `align_script`: extract audio → align → ghi draft revision + metadata source | KAI-007, KAI-051, KAI-052 | Idempotent; không đè draft mới hơn; uncertain flags; 409 conflict | TODO |
 | KAI-054 · M · Frontend | UI “Đồng bộ lời thoại với video”: opt-in, progress, mở editor với draft | KAI-053, KAI-013 | User sửa được trước publish; copy VI theo spec | TODO |
@@ -150,7 +150,7 @@ Thứ tự: **050 → 051 → 052 → 053 → 054 → 055** (= **v1.0**); rồi 
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-050 DONE (spec). Next implementable: KAI-051 (sau khi user duyệt bắt đầu code).
+Task: KAI-051 DONE (untimed ingest). Next: KAI-052 align spike (ffmpeg/provider).
 Song song: KAI-046 human device Gate A vẫn BLOCKED.
 ```
 
@@ -158,6 +158,7 @@ Song song: KAI-046 human device Gate A vẫn BLOCKED.
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-051 untimed script ingest (paste/.txt + parseUntimedScript) | `npm test` **114/114**; build OK | KAI-052 spike |
 | 18/09/2026 | ADR-020 + KAI-050 auto-subtitle spec/plan (v1 script-sync, v2 ASR) | Docs only | User duyệt → KAI-051 hoặc tiếp KAI-046 |
 | 18/09/2026 | KAI-048 segment countdown 3-2-1 + mute video while recording | build OK; UI test | KAI-046 device |
 | 18/09/2026 | Gate A preflight OK; CHECKLIST §0 filled; KAI-046 DEVICE-RUNBOOK | `npm test` **110/110**; preflight OK | Human Chrome/Edge §2 |

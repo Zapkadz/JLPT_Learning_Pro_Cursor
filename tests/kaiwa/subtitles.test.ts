@@ -4,8 +4,11 @@ import {
   findOverlaps,
   mergeSegments,
   parseSubtitles,
+  parseUntimedScript,
+  splitScriptSentences,
   splitSegment,
   stripSubtitleMarkup,
+  UNTIMED_PLACEHOLDER_SLOT_MS,
 } from "../../shared/kaiwa/subtitles";
 
 test("stripSubtitleMarkup removes tags and does not keep executable HTML", () => {
@@ -69,4 +72,55 @@ test("split and merge segments", () => {
   assert.ok(merged);
   assert.equal(merged!.startMs, 0);
   assert.equal(merged!.endMs, 1000);
+});
+
+test("parseUntimedScript: lines, BOM/CRLF, markup strip, placeholder times", () => {
+  const raw =
+    "\uFEFFこんにちは。\r\n\r\n<script>x</script><b>今日はいい天気ですね。</b>\r\n";
+  const out = parseUntimedScript(raw);
+  assert.equal(out.sourceFormat, "plain");
+  assert.equal(out.segments.length, 2);
+  assert.equal(out.segments[0].ja, "こんにちは。");
+  assert.equal(out.segments[1].ja, "今日はいい天気ですね。");
+  assert.equal(out.segments[0].startMs, 0);
+  assert.equal(out.segments[0].endMs, UNTIMED_PLACEHOLDER_SLOT_MS);
+  assert.equal(out.segments[1].startMs, UNTIMED_PLACEHOLDER_SLOT_MS);
+  assert.ok(out.issues.some((i) => i.code === "markup_stripped"));
+  assert.ok(!out.segments[1].ja.includes("<"));
+});
+
+test("parseUntimedScript: blank-line paragraphs and long-line sentence split", () => {
+  const long =
+    "これはとても長い一文であいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまでずっと続きます。" +
+    "次の文も同じくまみむめもやゆよらりるれろわをんまで続きますね！";
+  assert.ok(long.length > 80);
+  const out = parseUntimedScript(long);
+  assert.ok(out.segments.length >= 2);
+  assert.ok(out.issues.some((i) => i.code === "line_split"));
+  assert.deepEqual(splitScriptSentences("A。B！C?"), ["A。", "B！", "C?"]);
+});
+
+test("parseUntimedScript: SRT with zero times keeps text only", () => {
+  const raw = `1
+00:00:00,000 --> 00:00:00,000
+第一行
+
+2
+00:00:00,000 --> 00:00:00,000
+第二行
+`;
+  const timed = parseSubtitles(raw);
+  assert.equal(timed.segments.length, 0);
+  const out = parseUntimedScript(raw);
+  assert.equal(out.sourceFormat, "srt_text");
+  assert.equal(out.segments.length, 2);
+  assert.equal(out.segments[0].ja, "第一行");
+  assert.equal(out.segments[1].ja, "第二行");
+  assert.ok(out.issues.some((i) => i.code === "srt_times_ignored"));
+});
+
+test("parseUntimedScript: empty input", () => {
+  const out = parseUntimedScript("   \n\n  ");
+  assert.equal(out.segments.length, 0);
+  assert.ok(out.issues.some((i) => i.code === "empty_script"));
 });
