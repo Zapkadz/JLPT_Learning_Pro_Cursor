@@ -1,0 +1,31 @@
+{
+  "clipId": "tts-clean-01",
+  "gtMethod": "silencedetect_tts",
+  "segments": [
+    {
+      "ja": "こんにちは。",
+      "speechStartMs": 228,
+      "speechEndMs": 849,
+      "fileDurationMs": 1872,
+      "gtMethod": "silencedetect_tts"
+    },
+    {
+      "ja": "今日はいい天気ですね。",
+      "speechStartMs": 2702,
+      "speechEndMs": 4110,
+      "fileDurationMs": 2520,
+      "gtMethod": "silencedetect_tts"
+    },
+    {
+      "ja": "一緒に散歩しませんか。",
+      "speechStartMs": 5828,
+      "speechEndMs": 7430,
+      "fileDurationMs": 2712,
+      "gtMethod": "silencedetect_tts"
+    }
+  ],
+  "totalMs": 8304,
+  "gapMs": 600,
+  "voice": "ja-JP-NanamiNeural",
+  "honesty": "speechStart/End from silencedetect per line; not whole-file duration"
+}

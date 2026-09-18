@@ -1,0 +1,24 @@
+{
+  "clipId": "tts-longgap-01",
+  "gtMethod": "silencedetect_tts",
+  "segments": [
+    {
+      "ja": "こんにちは。",
+      "speechStartMs": 228,
+      "speechEndMs": 855,
+      "fileDurationMs": 1872,
+      "gtMethod": "silencedetect_tts"
+    },
+    {
+      "ja": "しばらくぶりですね。",
+      "speechStartMs": 5132,
+      "speechEndMs": 6326,
+      "fileDurationMs": 2328,
+      "gtMethod": "silencedetect_tts"
+    }
+  ],
+  "totalMs": 7200,
+  "gapMs": 3000,
+  "voice": "ja-JP-NanamiNeural",
+  "honesty": "speechStart/End from silencedetect per line; not whole-file duration"
+}

@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** Gate A **ACCEPTED** (KAI-046). Auto-subtitle 050–064 DONE. **ADR-021** forced-align redesign: KAI-065 DONE; next KAI-066.
+- **Kaiwa Studio:** Gate A **ACCEPTED**. ADR-021: KAI-065–066 DONE; next **KAI-067** Qwen FA spike.
 - Local speech env: `npm run kaiwa:speech-env` → ready.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
@@ -476,6 +476,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-066 forced-align bench + greedy baseline | clean_tts median Δstart 212.5 ms; long_gap 122 ms | `docs/kaiwa/evidence/kai-066/` |
 | 2026-09-18 | Gate A ACCEPTED (KAI-046 user sign-off) + ADR-021 | CHECKLIST §5; TASKS §9c | `docs/kaiwa/evidence/kai-033/CHECKLIST.md` |
 | 2026-09-18 | KAI-065 Phase 1 align honesty | regression py OK; **121/121** tests | `docs/kaiwa/evidence/kai-065/REPORT.md` |
 | 2026-09-18 | KAI-064 speech-env check script | `kaiwa:speech-env` exit 0 (ready) | `scripts/kaiwa-speech-env-check.mts` |

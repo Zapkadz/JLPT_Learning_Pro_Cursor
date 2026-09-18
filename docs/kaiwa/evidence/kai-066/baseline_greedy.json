@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-09-18T09:12:46Z",
+  "whisperModel": "base",
+  "honesty": "GT=silencedetect_tts speech windows or synthetic_words; production sidecar",
+  "clips": [
+    {
+      "clipId": "synth-kanji-kana-01",
+      "category": "kanji_kana_stress",
+      "engine": "production_align_words_to_lines",
+      "latencySec": 0,
+      "matchedLines": 1,
+      "unmatchedLines": 1,
+      "cascadeSuspect": false,
+      "medianAbsDeltaStartMs": 3180.0,
+      "medianAbsDeltaEndMs": 80.0,
+      "p95AbsDeltaStartMs": 3180.0,
+      "p95AbsDeltaEndMs": 80.0,
+      "lines": [
+        {
+          "ja": "今日はいい天気ですね",
+          "status": "unmatched",
+          "gtSpeechStartMs": 500,
+          "gtSpeechEndMs": 3200
+        },
+        {
+          "ja": "ありがとう",
+          "status": "proposed",
+          "predStartMs": 820,
+          "predEndMs": 4680,
+          "gtSpeechStartMs": 4000,
+          "gtSpeechEndMs": 4600,
+          "absDeltaStartMs": 3180,
+          "absDeltaEndMs": 80
+        }
+      ]
+    },
+    {
+      "clipId": "tts-clean-01",
+      "category": "clean_tts",
+      "engine": "faster-whisper:base+production_sidecar",
+      "latencySec": 3.59,
+      "matchedLines": 3,
+      "unmatchedLines": 0,
+      "cascadeSuspect": false,
+      "medianAbsDeltaStartMs": 198.0,
+      "medianAbsDeltaEndMs": 20.0,
+      "p95AbsDeltaStartMs": 228.0,
+      "p95AbsDeltaEndMs": 70.0,
+      "lines": [
+        {
+          "ja": "こんにちは。",
+          "status": "proposed",
+          "predStartMs": 0,
+          "predEndMs": 840,
+          "gtSpeechStartMs": 228,
+          "gtSpeechEndMs": 849,
+          "absDeltaStartMs": 228,
+          "absDeltaEndMs": 9
+        },
+        {
+          "ja": "今日はいい天気ですね。",
+          "status": "proposed",
+          "predStartMs": 2620,
+          "predEndMs": 4040,
+          "gtSpeechStartMs": 2702,
+          "gtSpeechEndMs": 4110,
+          "absDeltaStartMs": 82,
+          "absDeltaEndMs": 70
+        },
+        {
+          "ja": "一緒に散歩しませんか。",
+          "status": "proposed",
+          "predStartMs": 5630,
+          "predEndMs": 7450,
+          "gtSpeechStartMs": 5828,
+          "gtSpeechEndMs": 7430,
+          "absDeltaStartMs": 198,
+          "absDeltaEndMs": 20
+        }
+      ]
+    },
+    {
+      "clipId": "tts-clean-02",
+      "category": "clean_tts",
+      "engine": "faster-whisper:base+production_sidecar",
+      "latencySec": 3.57,
+      "matchedLines": 3,
+      "unmatchedLines": 0,
+      "cascadeSuspect": false,
+      "medianAbsDeltaStartMs": 227.0,
+      "medianAbsDeltaEndMs": 38.0,
+      "p95AbsDeltaStartMs": 386.0,
+      "p95AbsDeltaEndMs": 99.0,
+      "lines": [
+        {
+          "ja": "おはようございます。",
+          "status": "proposed",
+          "predStartMs": 0,
+          "predEndMs": 1240,
+          "gtSpeechStartMs": 227,
+          "gtSpeechEndMs": 1202,
+          "absDeltaStartMs": 227,
+          "absDeltaEndMs": 38
+        },
+        {
+          "ja": "コーヒーを一杯ください。",
+          "status": "proposed",
+          "predStartMs": 3070,
+          "predEndMs": 4610,
+          "gtSpeechStartMs": 3061,
+          "gtSpeechEndMs": 4709,
+          "absDeltaStartMs": 9,
+          "absDeltaEndMs": 99
+        },
+        {
+          "ja": "ありがとうございます。",
+          "status": "proposed",
+          "predStartMs": 6060,
+          "predEndMs": 7500,
+          "gtSpeechStartMs": 6446,
+          "gtSpeechEndMs": 7497,
+          "absDeltaStartMs": 386,
+          "absDeltaEndMs": 3
+        }
+      ]
+    },
+    {
+      "clipId": "tts-longgap-01",
+      "category": "long_gap",
+      "engine": "faster-whisper:base+production_sidecar",
+      "latencySec": 2.57,
+      "matchedLines": 2,
+      "unmatchedLines": 0,
+      "cascadeSuspect": false,
+      "medianAbsDeltaStartMs": 122.0,
+      "medianAbsDeltaEndMs": 50.5,
+      "p95AbsDeltaStartMs": 152.0,
+      "p95AbsDeltaEndMs": 86.0,
+      "lines": [
+        {
+          "ja": "こんにちは。",
+          "status": "proposed",
+          "predStartMs": 380,
+          "predEndMs": 840,
+          "gtSpeechStartMs": 228,
+          "gtSpeechEndMs": 855,
+          "absDeltaStartMs": 152,
+          "absDeltaEndMs": 15
+        },
+        {
+          "ja": "しばらくぶりですね。",
+          "status": "proposed",
+          "predStartMs": 5040,
+          "predEndMs": 6240,
+          "gtSpeechStartMs": 5132,
+          "gtSpeechEndMs": 6326,
+          "absDeltaStartMs": 92,
+          "absDeltaEndMs": 86
+        }
+      ]
+    }
+  ],
+  "byCategory": {
+    "kanji_kana_stress": {
+      "clipCount": 1,
+      "medianAbsDeltaStartMs": 3180.0,
+      "unmatchedTotal": 1,
+      "cascadeSuspectAny": false
+    },
+    "clean_tts": {
+      "clipCount": 2,
+      "medianAbsDeltaStartMs": 212.5,
+      "unmatchedTotal": 0,
+      "cascadeSuspectAny": false
+    },
+    "long_gap": {
+      "clipCount": 1,
+      "medianAbsDeltaStartMs": 122.0,
+      "unmatchedTotal": 0,
+      "cascadeSuspectAny": false
+    }
+  }
+}

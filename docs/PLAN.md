@@ -26,7 +26,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Detailed backlog / dependency graph | `docs/kaiwa/TASKS.md` |
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
-| **Current executable task** | **KAI-066** forced-align benchmark harness (sau KAI-065 DONE) |
+| **Current executable task** | **KAI-067** Qwen3-ForcedAligner spike (sau KAI-066 DONE) |
 | Do not start | **KAI-035** before Gate B; **v2 ASR push** before KAI-066+ bake-off unless user overrides |
 
 ### Phase overview (detail in `docs/kaiwa/TASKS.md`)

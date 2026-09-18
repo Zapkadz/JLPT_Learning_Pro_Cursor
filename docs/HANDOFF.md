@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (Gate A ACCEPTED; KAI-065 Phase 1 DONE)
+2026-09-18 (KAI-066 DONE; next KAI-067)
 
 ## Current Branch
 
@@ -10,25 +10,23 @@
 
 ## Current Task
 
-**Next READY:** **KAI-066** — honest benchmark harness for forced-align (ADR-021).  
-V2 ASR push deferred until bake-off.
+**Next READY:** **KAI-067** — spike Qwen3-ForcedAligner-0.6B on KAI-066 fixtures (CPU).
 
 ## Exact Next Action
 
-1. Start KAI-066: shared production adapter + waveform GT plan / minimal legal fixtures.
-2. Do not install Qwen/stable-ts until KAI-066 harness exists (unless user overrides).
-3. Do not reopen Gate A; speakable ACCEPTED.
+1. Install/run Qwen ForcedAligner on `docs/kaiwa/evidence/kai-066/fixtures` via shared score path.
+2. Write evidence numbers (latency/RAM/Δ vs GT); no anime claim.
+3. Then KAI-068 stable-ts on same set.
 
 ## Last Completed
 
-- Gate A CHECKLIST Chrome+Edge **ACCEPTED** (user-authorized sign-off).
-- ADR-021 + TASKS §9c (KAI-065–076) + FORCE-ALIGN-V1-SPEC.
-- **KAI-065:** remove end-stretch; unmatched honesty; preserve meta; regression tests.
+- **KAI-066:** `bench_align.py`, speech-window GT, corpus plan, greedy baseline (`baseline_greedy.json`).
+- Prior: Gate A ACCEPTED; KAI-065 honesty.
 
 ## Blockers
 
 - Grammar dirty files — do not stage with Kaiwa.
-- Legal JA fixtures for KAI-066 may need user-provided media outside git.
+- Full 30-clip corpus mostly pending (private media outside git).
 
 ## Safety
 
