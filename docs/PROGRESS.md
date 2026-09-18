@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** Gate A **ACCEPTED**. ADR-021: KAI-065–068 DONE; next **KAI-069** WhisperX.
+- **Kaiwa Studio:** Gate A **ACCEPTED**. ADR-021 bake-off **066–069 DONE** (ADR-021a → stable-ts default); next **KAI-070**.
 - Local speech env: `npm run kaiwa:speech-env` → ready.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
