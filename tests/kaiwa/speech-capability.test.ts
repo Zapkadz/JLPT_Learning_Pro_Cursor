@@ -11,9 +11,15 @@ test("resolveSpeechCapability is not_configured without live adapter", () => {
   const cap = resolveSpeechCapability({
     KAIWA_ASR_API_KEY: "fake",
     AZURE_SPEECH_KEY: "fake",
+    FFMPEG_PATH: "C:\\nonexistent\\ffmpeg.exe",
+    KAIWA_FFMPEG_PATH: "",
+    LOCALAPPDATA: "C:\\nonexistent-localappdata-kaiwa",
+    KAIWA_SCRIPT_ALIGN_ENGINE: "whisper",
   });
   assert.equal(cap.transcription.status, "not_configured");
   assert.equal(cap.translation.status, "not_configured");
+  assert.equal(cap.scriptAlign.status, "not_configured");
+  assert.ok(cap.scriptAlign.messageVi.includes("SRT") || cap.scriptAlign.messageVi.includes("soạn tay"));
   assert.equal(cap.liveTestsAllowed, false);
   assert.equal(cap.credentialsPresent, true);
   assert.ok(cap.transcription.messageVi.includes("thủ công"));
@@ -65,14 +71,17 @@ test("speech capability API and auto routes stay honest without provider", async
     assert.equal(capRes.status, 200);
     const cap = (await capRes.json()) as {
       transcription: { status: string };
+      scriptAlign: { status: string; messageVi: string };
       liveTestsAllowed: boolean;
     };
     assert.equal(cap.transcription.status, "not_configured");
     assert.equal(cap.liveTestsAllowed, false);
-    assert.ok(
-      (cap as { scriptAlign?: { status: string } }).scriptAlign?.status,
-      "scriptAlign capability present",
-    );
+    assert.ok(cap.scriptAlign?.status, "scriptAlign capability present");
+    if (cap.scriptAlign.status === "not_configured") {
+      assert.ok(
+        /SRT|soạn tay|thủ công|ffmpeg|Whisper/i.test(cap.scriptAlign.messageVi),
+      );
+    }
 
     const created = await api(base, cookie, "/kaiwa/projects", {
       method: "POST",

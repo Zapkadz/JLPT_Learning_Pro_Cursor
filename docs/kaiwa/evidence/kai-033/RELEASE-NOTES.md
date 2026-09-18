@@ -13,13 +13,16 @@ Automated verification at packaging: see `npm test` / KAI-032 evidence (**not** 
 - Soft-delete + media GC; optional media backup with MANIFEST
 - Activity history without deck/grammar XP injection (ADR-018)
 - Assessment: **not configured** — UI/docs must say so
+- **Script sync v1 (ADR-020 / KAI-051–055):** paste/`.txt` untimed script → optional `POST …/script-align` (ffmpeg + local Whisper) → **editable draft only** (`source=script_align`); manual SRT/VTT always remains; capability `scriptAlign` honest when not configured
 
 ## Out of scope / deferred
 
-- ASR/auto-translate (KAI-015), pronunciation/prosody scoring (Gate B)
+- Video-only ASR / auto-translate (KAI-015 / KAI-056–058 v2)
+- Pronunciation/prosody scoring (Gate B)
 - Speaking XP / streak contribution (KAI-030b)
 - Character role-play (KAI-035)
 - Mobile recording claim
+- OCR hardsubs / PDF script import
 - Gate A **device** ACCEPTED until CHECKLIST Chrome+Edge segment flow signed (KAI-046)
 
 ## Rollback
@@ -38,7 +41,9 @@ Automated verification at packaging: see `npm test` / KAI-032 evidence (**not** 
 | `KAIWA_MEDIA_ROOT` | Private media root |
 | `KAIWA_QUOTA_BYTES` | Per-user quota |
 | `KAIWA_MAX_UPLOAD_BYTES` | Max upload |
-| `FFMPEG_PATH` / `KAIWA_FFMPEG_PATH` | Real export mix when set |
+| `FFMPEG_PATH` / `KAIWA_FFMPEG_PATH` | Real export mix + script-align audio extract when set |
+| `KAIWA_PYTHON` / `KAIWA_WHISPER_MODEL` | Local Whisper sidecar for script-align (default model `tiny`) |
+| `KAIWA_SCRIPT_ALIGN_ENGINE=mock` | Test-only equal-slot aligner (not a production claim) |
 | `KAIWA_BACKUP_MEDIA=1` | Include media in `npm run backup` |
 
 ## Gate A acceptance gate

@@ -140,7 +140,7 @@ Phát sinh từ yêu cầu 18/09/2026: phụ đề tay đã OK; muốn (v1) vide
 | KAI-052 · L · Speech/Media | Spike forced-align / Whisper-timestamps+match trên fixture JA ngắn | KAI-050, ffmpeg | Báo cáo engine chọn; đo lệch thời gian; ghi credential/local; không khóa vendor nếu fail | DONE (Engine A; median Δstart ~448 ms / Δend ~404 ms on TTS `tiny` — `evidence/kai-052/`) |
 | KAI-053 · L · Backend | Job `align_script`: extract audio → align → ghi draft revision + metadata source | KAI-007, KAI-051, KAI-052 | Idempotent; không đè draft mới hơn; uncertain flags; 409 conflict | DONE |
 | KAI-054 · M · Frontend | UI “Đồng bộ lời thoại với video”: opt-in, progress, mở editor với draft | KAI-053, KAI-013 | User sửa được trước publish; copy VI theo spec | DONE |
-| KAI-055 · S · QA/Docs | Honesty + privacy + USAGE v1; capability `scriptAlign` | KAI-054, KAI-015 | Manual fallback khi not_configured; không auto-publish | TODO |
+| KAI-055 · S · QA/Docs | Honesty + privacy + USAGE v1; capability `scriptAlign` | KAI-054, KAI-015 | Manual fallback khi not_configured; không auto-publish | DONE |
 | KAI-056 · L · Speech/Backend | Live ASR adapter cho `POST …/transcriptions` (v2) | KAI-015, KAI-052 | Draft text+times; capability ready khi có key; 503 khi thiếu | TODO |
 | KAI-057 · M · Frontend | UI “Tự tạo phụ đề từ video” + banner rủi ro sai chữ | KAI-056 | Cùng editor review; không bỏ qua bước duyệt | TODO |
 | KAI-058 · S · Docs | USAGE + release notes v1/v2 auto phụ đề | KAI-055, KAI-057 | Tài liệu khớp; không hứa OCR hardsub | TODO |
@@ -150,14 +150,15 @@ Thứ tự: **050 → 051 → 052 → 053 → 054 → 055** (= **v1.0**); rồi 
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-054 DONE (script-align UI). Next: KAI-055 honesty/USAGE/capability polish.
-Song song: KAI-046 human device Gate A vẫn BLOCKED.
+Task: KAI-055 DONE — auto phụ đề v1.0 (050–055) complete.
+Next: KAI-056 v2 ASR (may need keys) OR KAI-046 human Gate A device.
 ```
 
 ## 11. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-055 USAGE/release honesty script-align v1 | `npm test`; USAGE + RELEASE-NOTES | KAI-056 v2 hoặc KAI-046 |
 | 18/09/2026 | KAI-054 UI đồng bộ script + banner draft máy + uncertain chip | `npm test` **117/117**; build OK | KAI-055 honesty/USAGE |
 | 18/09/2026 | KAI-053 align_script job + draft source_json + capability | `npm test` **117/117**; build OK | KAI-054 UI |
 | 18/09/2026 | KAI-052 spike DONE: ffmpeg + edge-tts fixture + faster-whisper timings | median Δstart 448 ms / Δend 404 ms; `results.json` | KAI-053 job |
