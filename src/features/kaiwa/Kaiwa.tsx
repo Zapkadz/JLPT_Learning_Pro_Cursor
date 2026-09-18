@@ -23,6 +23,7 @@ import type { KaiwaRubyToken, KaiwaSegment } from "../../../shared/kaiwa/types";
 import { useAuth } from "../../App";
 import { MicPreflightPanel } from "./MicPreflightPanel";
 import { ContinuousRecorder } from "./ContinuousRecorder";
+import { SegmentStudio } from "./SegmentStudio";
 import "./kaiwa.css";
 
 type ProjectRow = {
@@ -1086,6 +1087,7 @@ export function KaiwaPrep() {
         {
           publish: true,
           expectedRevisionVersion: revision.version,
+          captureMode: "segment",
         },
       );
       navigate(`/kaiwa/projects/${id}/studio?attempt=${attempt.id}`, {
@@ -1224,6 +1226,7 @@ export function KaiwaPrep() {
 }
 
 export function KaiwaStudio() {
+  const { user } = useAuth();
   const { id } = useParams();
   const navigate = useNavigate();
   const attemptId = new URLSearchParams(useLocation().search).get("attempt");
@@ -1234,6 +1237,25 @@ export function KaiwaStudio() {
     deviceId: string;
     label: string;
   } | null>(null);
+  const [mode, setMode] = useState<"segment" | "continuous">("segment");
+  const [prefs, setPrefs] = useState<HelpPrefs>(() =>
+    loadHelpPrefs(user?.id || "anon"),
+  );
+
+  useEffect(() => {
+    if (user?.id) setPrefs(loadHelpPrefs(user.id));
+  }, [user?.id]);
+
+  useEffect(() => {
+    if (!data?.device_json) return;
+    try {
+      const device = JSON.parse(data.device_json) as { captureMode?: string };
+      if (device.captureMode === "continuous" || device.captureMode === "segment")
+        setMode(device.captureMode);
+    } catch {
+      /* keep default */
+    }
+  }, [data?.device_json]);
 
   if (!id) return <ErrorState message="Thiếu mã dự án." />;
   if (!attemptId)
@@ -1253,6 +1275,19 @@ export function KaiwaStudio() {
     ? `/api/kaiwa/assets/${data.proxyAssetId}/content`
     : null;
 
+  async function switchMode(next: "segment" | "continuous") {
+    if (!attemptId) return;
+    setMode(next);
+    try {
+      await api(`/kaiwa/attempts/${attemptId}/capture-mode`, {
+        method: "PATCH",
+        body: JSON.stringify({ captureMode: next }),
+      });
+    } catch {
+      /* UI still switches; server may reject if finalized */
+    }
+  }
+
   return (
     <div className="kaiwa-page">
       <PageHead
@@ -1268,16 +1303,48 @@ export function KaiwaStudio() {
         <Status tone="info">{data.assessableMessage}</Status>
       )}
 
+      <div className="panel kaiwa-mode-picker">
+        <p>
+          <strong>Chế độ thu</strong> (mặc định theo đoạn — dễ nói theo lời)
+        </p>
+        <div className="kaiwa-actions">
+          <button
+            type="button"
+            className={mode === "segment" ? "btn" : "btn secondary"}
+            onClick={() => void switchMode("segment")}
+          >
+            Theo đoạn (khuyến nghị)
+          </button>
+          <button
+            type="button"
+            className={mode === "continuous" ? "btn" : "btn secondary"}
+            onClick={() => void switchMode("continuous")}
+          >
+            Liên tục (nâng cao)
+          </button>
+        </div>
+        <p className="kaiwa-privacy-note">
+          Bản ghép từ từng đoạn không được gọi là thu liên tục.
+        </p>
+      </div>
+
       <MicPreflightPanel onReady={setMicReady} />
 
-      {micReady && attemptId && (
+      {micReady && attemptId && mode === "segment" && (
+        <SegmentStudio
+          attemptId={attemptId}
+          videoUrl={playbackUrl}
+          segments={segs}
+          deviceId={micReady.deviceId}
+          prefs={prefs}
+          onFinished={() => navigate(`/kaiwa/attempts/${attemptId}`)}
+        />
+      )}
+
+      {micReady && attemptId && mode === "continuous" && (
         <ContinuousRecorder
           attemptId={attemptId}
-          videoUrl={
-            data.proxyAssetId
-              ? `/api/kaiwa/assets/${data.proxyAssetId}/content`
-              : null
-          }
+          videoUrl={playbackUrl}
           deviceId={micReady.deviceId}
           onSaved={() => navigate(`/kaiwa/attempts/${attemptId}`)}
         />
@@ -1289,33 +1356,30 @@ export function KaiwaStudio() {
         </Status>
       )}
 
-      {playbackUrl && (
-        <div className="panel kaiwa-player">
-          <video controls playsInline preload="metadata" src={playbackUrl} />
+      {mode === "continuous" && playbackUrl && (
+        <div className="panel">
+          <p>
+            Lời thoại ghim: <strong>{segs.length}</strong> đoạn · revision{" "}
+            <code>{data.revision_id.slice(0, 8)}</code>
+          </p>
+          <p className="kaiwa-privacy-note">
+            Chế độ nâng cao: hãy nhìn danh sách dưới khi thu (overlay live đầy đủ =
+            KAI-041). Khuyến nghị dùng <strong>Theo đoạn</strong> để thấy lời trên
+            video.
+          </p>
+          <ol className="kaiwa-segments">
+            {segs.map((seg) => (
+              <li key={seg.id} className="kaiwa-seg">
+                <small>
+                  {msToInput(seg.startMs)} → {msToInput(seg.endMs)}
+                </small>
+                <div lang="ja">{seg.ja}</div>
+                {seg.vi ? <div>{seg.vi}</div> : null}
+              </li>
+            ))}
+          </ol>
         </div>
       )}
-
-      <div className="panel">
-        <p>
-          Lời thoại ghim cho lần thu: <strong>{segs.length}</strong> đoạn · revision{" "}
-          <code>{data.revision_id.slice(0, 8)}</code>
-        </p>
-        <p className="kaiwa-privacy-note">
-          Sau khi chốt bản thu, bạn được chuyển sang trang nghe lại (gain gốc / giọng
-          mình). Snapshot đã ghim và không đổi khi sửa nháp sau này.
-        </p>
-        <ol className="kaiwa-segments">
-          {segs.map((seg) => (
-            <li key={seg.id} className="kaiwa-seg">
-              <small>
-                {msToInput(seg.startMs)} → {msToInput(seg.endMs)}
-              </small>
-              <div lang="ja">{seg.ja}</div>
-              {seg.vi ? <div>{seg.vi}</div> : null}
-            </li>
-          ))}
-        </ol>
-      </div>
     </div>
   );
 }

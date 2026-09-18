@@ -2,7 +2,7 @@
 
 Ngày: 2026-09-18 · Cập nhật ADR-019: **thu theo đoạn là mặc định** (dễ nói theo lời). Thu liên tục = nâng cao. Không đóng vai.
 
-> **Trạng thái triển khai:** Đặc tả studio theo đoạn = KAI-036 DONE. UI/schema clip từng đoạn = KAI-037+ (đang làm). Bản app hiện tại vẫn chủ yếu thu liên tục — khi segment studio lên production, mặc định sẽ đổi theo tài liệu này.
+> **Trạng thái triển khai:** KAI-036–038 DONE — studio **Theo đoạn** đã có overlay + thu từng clip. Ghép timeline review/export = KAI-039. Overlay live cho mode liên tục = KAI-041.
 
 ## Bạn làm được gì ở bản Gate A (mục tiêu speakable)
 
