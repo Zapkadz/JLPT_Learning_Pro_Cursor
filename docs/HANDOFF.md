@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-038 DONE; next KAI-039)
+2026-09-18 (KAI-039 DONE; next KAI-040)
 
 ## Current Branch
 
@@ -10,25 +10,25 @@
 
 ## Current Task
 
-**KAI-039** — Assemble segment clips onto video timeline for review/export (`capture_mode` honesty).
+**KAI-040** — Persist studio mode preference (default segment; continuous = advanced copy).
 
 ## Exact Next Action
 
-Build assembly job/service that places recorded clips at segment start/end with silence/gaps; wire review/export to assembled learner track. Then KAI-040/041 polish.
+Remember account/local preference for segment vs continuous; polish mode picker copy. Then KAI-041 continuous live overlay.
 
 ## Last Completed
 
-**KAI-038** — Segment studio UI with on-video script overlay + clip controls. Evidence: `docs/kaiwa/evidence/kai-038/REPORT.md`. Verify: **103/103**.
+**KAI-039** — Assemble segment clips onto learner timeline; finalize + export with `assembly=segment_timeline`. Evidence: `docs/kaiwa/evidence/kai-039/REPORT.md`. Verify: **106/106**.
 
 ## How to try now
 
-1. Upload video → edit timed subtitles → prep → start practice.
-2. Studio defaults to **Theo đoạn**; after mic ready, speak looking at overlay.
-3. Continuous remains under mode picker (advanced).
+1. Segment studio → record some clips → **Kết thúc phiên** (assembles + opens review).
+2. Review dual-gain uses assembled mic track; export allowed when finalized.
+3. Clocks/device show `captureMode=segment`, never fake continuous.
 
 ## Blockers
 
-- Full Gate A ACCEPTED still needs KAI-039–046 + device checklist.
+- Full Gate A ACCEPTED still needs KAI-040–046 + device checklist.
 - Gate B: KAI-023 / credentials.
 
 ## Safety

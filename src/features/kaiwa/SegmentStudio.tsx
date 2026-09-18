@@ -238,6 +238,29 @@ export function SegmentStudio({
     }
   }
 
+  async function endSession() {
+    if (busy || recording) return;
+    setBusy(true);
+    setError("");
+    try {
+      const result = await post<{
+        note?: string;
+        assembly?: string;
+        captureMode?: string;
+      }>(`/kaiwa/attempts/${attemptId}/assemble-segments`, {});
+      if (result.note) setNote(result.note);
+      onFinished?.();
+    } catch (e) {
+      setError(
+        e instanceof Error
+          ? e.message
+          : "Không ghép được bản nghe — thử lại.",
+      );
+    } finally {
+      setBusy(false);
+    }
+  }
+
   function goNext(data?: ClipsPayload) {
     const source = data ?? clipsData;
     if (!source) {
@@ -365,7 +388,7 @@ export function SegmentStudio({
           type="button"
           className="btn secondary"
           disabled={busy || recording}
-          onClick={() => onFinished?.()}
+          onClick={() => void endSession()}
         >
           Kết thúc phiên
         </button>

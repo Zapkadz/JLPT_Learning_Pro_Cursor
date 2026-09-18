@@ -24,6 +24,7 @@ import {
   createSegmentClipService,
   ensureSegmentClipsTable,
 } from "./segmentClips";
+import { createSegmentAssembleService } from "./segmentAssemble";
 
 export { KaiwaError };
 
@@ -111,6 +112,11 @@ export function kaiwaModule(
     prosody,
   });
   const segmentClips = createSegmentClipService(db, assets, config);
+  const segmentAssemble = createSegmentAssembleService(
+    db,
+    assets,
+    finalizeTake,
+  );
   const router = Router();
 
   router.get("/projects", (_req, res) => {
@@ -617,6 +623,14 @@ export function kaiwaModule(
       String(req.params.id),
     );
     res.status(201).json(asset);
+  });
+
+  router.post("/attempts/:id/assemble-segments", (req, res) => {
+    const result = segmentAssemble.assemble(
+      res.locals.user.id,
+      String(req.params.id),
+    );
+    res.status(result.reused ? 200 : 201).json(result);
   });
 
   router.get("/storage/usage", (_req, res) => {

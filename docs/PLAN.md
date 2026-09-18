@@ -26,7 +26,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Detailed backlog / dependency graph | `docs/kaiwa/TASKS.md` |
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
-| **Current executable task** | **KAI-039** assemble segment clips; KAI-038 DONE |
+| **Current executable task** | **KAI-040** mode preference; KAI-039 DONE |
 | Do not start | **KAI-035** before Gate B |
 
 ### Phase overview (detail in `docs/kaiwa/TASKS.md`)
