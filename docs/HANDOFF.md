@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-043 DONE; next KAI-044)
+2026-09-18 (KAI-044 DONE; next KAI-045)
 
 ## Current Branch
 
@@ -10,19 +10,19 @@
 
 ## Current Task
 
-**KAI-044** — Review/attempt UI: per-segment status + seek A/B by clip.
+**KAI-045** — Update Gate A checklist/preflight for segment mode (+ continuous overlay).
 
 ## Exact Next Action
 
-On attempt review, show which segments recorded/missing; seek learner audio to clip windows; keep export independent of scoring.
+Update CHECKLIST so segment full-flow PASS is required; continuous overlay optional advanced. Then KAI-046 device matrix / KAI-047 docs.
 
 ## Last Completed
 
-**KAI-043** — Subset filters + resume pending. Evidence: `docs/kaiwa/evidence/kai-043/REPORT.md`. Verify: **109/109**.
+**KAI-044** — Review per-segment status + seek A/B. Evidence: `docs/kaiwa/evidence/kai-044/REPORT.md`. Verify: **110/110**.
 
 ## Blockers
 
-- Gate A device: KAI-045/046. Gate B: KAI-023.
+- Gate A ACCEPTED needs human device sign-off (KAI-046). Gate B: KAI-023.
 
 ## Safety
 

@@ -14,3 +14,15 @@ test("review UI exposes assessment without inventing overall score", () => {
   assert.ok(src.includes("Nghe lại đoạn"));
   assert.ok(src.includes("vẫn nghe/xuất được"));
 });
+
+test("review UI shows per-segment status and seek A/B", () => {
+  const src = readFileSync(
+    join(process.cwd(), "src/features/kaiwa/Kaiwa.tsx"),
+    "utf8",
+  );
+  assert.ok(src.includes("Trạng thái từng đoạn"));
+  assert.ok(src.includes("seekClipWindow"));
+  assert.ok(src.includes("Nghe clip"));
+  assert.ok(src.includes("segment-clips"));
+  assert.ok(src.includes("assembly="));
+});

@@ -991,6 +991,7 @@ type AttemptDetail = {
   duration_ms: number | null;
   created_at: string;
   device_json: string | null;
+  clocks_json?: string | null;
   assessableReady: boolean;
   assessableMessage: string | null;
   revision: {
@@ -1450,13 +1451,56 @@ export function KaiwaReview() {
     }>;
   } | null>(null);
   const [assessmentNote, setAssessmentNote] = useState("");
+  const [segClips, setSegClips] = useState<{
+    captureMode: string;
+    progress: {
+      total: number;
+      recorded: number;
+      skipped: number;
+      pending: number;
+      partial: number;
+    };
+    clips: Array<{
+      segmentId: string;
+      status: string;
+      audioAssetId: string | null;
+      version: number;
+    }>;
+  } | null>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const syncing = useRef(false);
+  const clipStopRef = useRef(0);
 
   useEffect(() => {
     if (data) setMix(parseMix(data.device_json));
   }, [data]);
+
+  useEffect(() => {
+    if (!attemptId) return;
+    void api<{
+      captureMode: string;
+      progress: {
+        total: number;
+        recorded: number;
+        skipped: number;
+        pending: number;
+        partial: number;
+      };
+      clips: Array<{
+        segmentId: string;
+        status: string;
+        audioAssetId: string | null;
+        version: number;
+      }>;
+    }>(`/kaiwa/attempts/${attemptId}/segment-clips`)
+      .then(setSegClips)
+      .catch(() => setSegClips(null));
+  }, [attemptId]);
+
+  useEffect(() => {
+    return () => window.clearTimeout(clipStopRef.current);
+  }, []);
 
   useEffect(() => {
     const v = videoRef.current;
@@ -1614,6 +1658,36 @@ export function KaiwaReview() {
     void v.play().catch(() => undefined);
   }
 
+  function seekClipWindow(startMs: number, endMs: number) {
+    const v = videoRef.current;
+    const a = audioRef.current;
+    if (!v) return;
+    window.clearTimeout(clipStopRef.current);
+    const startSec = Math.max(0, startMs / 1000);
+    const endSec = Math.max(startSec, endMs / 1000);
+    v.currentTime = startSec;
+    if (a) {
+      try {
+        a.currentTime = startSec;
+      } catch {
+        /* ignore */
+      }
+      void a.play().catch(() => undefined);
+    }
+    void v.play().catch(() => undefined);
+    const dur = Math.max(0.2, (endSec - startSec) * 1000);
+    clipStopRef.current = window.setTimeout(() => {
+      v.pause();
+      a?.pause();
+    }, dur) as unknown as number;
+  }
+
+  async function playClipOnly(assetId: string | null) {
+    if (!assetId) return;
+    const a = new Audio(`/api/kaiwa/assets/${assetId}/content`);
+    await a.play().catch(() => undefined);
+  }
+
   if (!attemptId) return <ErrorState message="Thiếu mã lần thu." />;
   if (error) return <ErrorState message={error} retry={reload} />;
   if (!data) return <Loading />;
@@ -1626,6 +1700,28 @@ export function KaiwaReview() {
     : null;
   const finalized =
     data.record_state === "finalized" || Boolean(data.audio_asset_id);
+
+  let captureMode = "unknown";
+  let assembly: string | undefined;
+  try {
+    const device = JSON.parse(data.device_json || "{}") as {
+      captureMode?: string;
+      assembly?: string;
+    };
+    const clocks = JSON.parse(data.clocks_json || "{}") as {
+      captureMode?: string;
+      assembly?: string;
+    };
+    captureMode = device.captureMode || clocks.captureMode || "unknown";
+    assembly = device.assembly || clocks.assembly;
+  } catch {
+    /* ignore */
+  }
+
+  const segs = data.revision?.payload?.segments ?? [];
+  const clipById = new Map(
+    (segClips?.clips ?? []).map((c) => [c.segmentId, c]),
+  );
 
   return (
     <div className="kaiwa-page">
@@ -1687,6 +1783,50 @@ export function KaiwaReview() {
           </p>
         )}
       </div>
+
+      {segs.length > 0 && (
+        <div className="panel kaiwa-review-segments">
+          <h2 className="kaiwa-section-title">Trạng thái từng đoạn</h2>
+          <p className="kaiwa-privacy-note">
+            Chế độ: <strong>{captureMode}</strong>
+            {assembly ? ` · assembly=${assembly}` : ""}
+            {captureMode === "segment"
+              ? " — bản ghép không được gọi là thu liên tục."
+              : ""}
+            {segClips
+              ? ` · Đã thu ${segClips.progress.recorded}/${segClips.progress.total}`
+              : ""}
+          </p>
+          <ul className="kaiwa-seg-status-list">
+            {segs.map((seg, i) => {
+              const c = clipById.get(seg.id);
+              const st = c?.status ?? "pending";
+              return (
+                <li key={seg.id} className="kaiwa-seg-chip-row">
+                  <button
+                    type="button"
+                    className="kaiwa-seg-chip"
+                    onClick={() => seekClipWindow(seg.startMs, seg.endMs)}
+                    title="Tua cửa sổ đoạn trên video + giọng đã ghép"
+                  >
+                    {i + 1}. {st}
+                    {c?.version ? ` v${c.version}` : ""}
+                  </button>
+                  {c?.audioAssetId ? (
+                    <button
+                      type="button"
+                      className="kaiwa-seg-mark"
+                      onClick={() => void playClipOnly(c.audioAssetId)}
+                    >
+                      Nghe clip
+                    </button>
+                  ) : null}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
 
       <div className="panel kaiwa-mix">
         <h2 className="kaiwa-section-title">Mix nghe lại</h2>

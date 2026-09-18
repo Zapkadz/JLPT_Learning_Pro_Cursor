@@ -113,7 +113,7 @@ Phát sinh từ feedback thiết bị 18/09/2026: thu liên tục không hiện 
 | KAI-041 · M · Frontend | Overlay live cho mode liên tục (câu hiện tại + kế) theo video clock | KAI-018, KAI-036 | Khi recording continuous vẫn đọc được lời; không dừng theo câu; không chỉ list dưới video | DONE |
 | KAI-042 · M · Frontend/Backend | Thu đè lại một đoạn không xóa clip khác; lịch sử take theo segment | KAI-037, KAI-038 | Re-record segment tạo clip mới; clip cũ giữ hoặc version; attempt aggregate cập nhật | DONE |
 | KAI-043 · M · Frontend | Progress N/M, skip, luyện tập con (subset) cho script dài | KAI-038 | 90+ đoạn không bắt thu hết một lần; skip có lý do; resume đúng clip | DONE |
-| KAI-044 · M · Frontend | Review/attempt UI: trạng thái từng đoạn + seek A/B theo clip | KAI-021, KAI-039 | Biết đoạn nào đã thu/thiếu; nghe đúng cửa sổ; export vẫn độc lập scoring | TODO |
+| KAI-044 · M · Frontend | Review/attempt UI: trạng thái từng đoạn + seek A/B theo clip | KAI-021, KAI-039 | Biết đoạn nào đã thu/thiếu; nghe đúng cửa sổ; export vẫn độc lập scoring | DONE |
 | KAI-045 · S · QA | Cập nhật checklist/preflight Gate A cho mode segment (+ continuous overlay) | KAI-038–041, KAI-033 | CHECKLIST có hàng segment PASS bắt buộc; continuous optional advanced | TODO |
 | KAI-046 · M · QA | Device matrix: Chrome/Edge thu theo đoạn full flow | KAI-045 | Evidence checklist; không lỗi chặn nói được | TODO |
 | KAI-047 · S · Docs | USAGE-GATE-A + release notes phản ánh dual-mode và honesty capture_mode | KAI-036, KAI-045 | Tài liệu khớp sản phẩm; không hứa chấm điểm giả | TODO |
@@ -130,15 +130,16 @@ Thứ tự gợi ý: **KAI-036 → 037 → 038 → 039 → 040** (đường găn
 ## 9. Checklist task đang làm
 
 ```text
-Task: KAI-044 — Review UI per-segment status + seek A/B by clip
+Task: KAI-045 — Update Gate A checklist/preflight for segment mode
 Trạng thái: READY → next
-Phụ thuộc: KAI-021, KAI-039 DONE
+Phụ thuộc: KAI-038–041 DONE; KAI-044 DONE
 ```
 
 ## 10. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-044 review per-segment status + seek A/B | `npm test` **110/110**; build OK | KAI-045 Gate A checklist |
 | 18/09/2026 | KAI-043 subset filters + resume first pending | `npm test` **109/109**; build OK | KAI-044 review segment status |
 | 18/09/2026 | KAI-042 re-record keeps peer clips + take history API | `npm test` **109/109**; build OK | KAI-043 subset/skip resume |
 | 18/09/2026 | KAI-041 continuous live overlay (current+next) | `npm test` **108/108**; build OK | KAI-042 re-record |
