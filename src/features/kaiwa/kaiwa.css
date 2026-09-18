@@ -234,6 +234,26 @@
   text-align: center;
 }
 
+.kaiwa-seg-countdown {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.kaiwa-seg-countdown-num {
+  font-size: clamp(3rem, 12vw, 5rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
 .kaiwa-recorder-status {
   font-size: 0.95rem;
 }

@@ -87,6 +87,7 @@ export function SegmentStudio({
   );
   const [busy, setBusy] = useState(false);
   const [recording, setRecording] = useState(false);
+  const [countdown, setCountdown] = useState<number | null>(null);
   const [note, setNote] = useState("");
   const [error, setError] = useState("");
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -95,6 +96,7 @@ export function SegmentStudio({
   const chunksRef = useRef<Blob[]>([]);
   const stopTimer = useRef(0);
   const resumedRef = useRef(false);
+  const videoVolRef = useRef(1);
 
   useEffect(() => {
     setMarked(loadMarked(attemptId));
@@ -173,14 +175,31 @@ export function SegmentStudio({
   useEffect(() => {
     const v = videoRef.current;
     if (!v || !seg) return;
+    if (recording || countdown != null) return;
     v.currentTime = Math.max(0, seg.startMs / 1000);
     v.pause();
-  }, [seg?.id, seg?.startMs]);
+  }, [seg?.id, seg?.startMs, recording, countdown]);
+
+  function muteVideoForTake() {
+    const v = videoRef.current;
+    if (!v) return;
+    if (!v.muted && v.volume > 0) videoVolRef.current = v.volume;
+    v.muted = true;
+    v.volume = 0;
+  }
+
+  function unmuteVideoAfterTake() {
+    const v = videoRef.current;
+    if (!v) return;
+    v.muted = false;
+    v.volume = videoVolRef.current > 0 ? videoVolRef.current : 1;
+  }
 
   async function playOriginal() {
     const v = videoRef.current;
-    if (!v || !seg) return;
+    if (!v || !seg || recording || countdown != null) return;
     setNote("Đang nghe mẫu đoạn…");
+    unmuteVideoAfterTake();
     v.currentTime = seg.startMs / 1000;
     await v.play().catch(() => undefined);
     const endSec = seg.endMs / 1000;
@@ -195,8 +214,8 @@ export function SegmentStudio({
   }
 
   async function playMine() {
-    if (!clip?.audioAssetId) {
-      setNote("Chưa có bản thu đoạn này.");
+    if (!clip?.audioAssetId || recording || countdown != null) {
+      if (!clip?.audioAssetId) setNote("Chưa có bản thu đoạn này.");
       return;
     }
     const url = `/api/kaiwa/assets/${clip.audioAssetId}/content`;
@@ -206,9 +225,43 @@ export function SegmentStudio({
     await a.play().catch(() => setNote("Không phát được clip."));
   }
 
-  async function startRecord() {
-    if (!seg || recording || busy) return;
+  function cancelCountdown() {
+    setCountdown(null);
+    setNote("");
+    unmuteVideoAfterTake();
+  }
+
+  /** Tap Thu → show 3-2-1, then beginRecord. */
+  function startRecord() {
+    if (!seg || recording || busy || countdown != null) return;
     setError("");
+    const v = videoRef.current;
+    if (v) {
+      v.pause();
+      v.currentTime = Math.max(0, seg.startMs / 1000);
+      muteVideoForTake();
+    }
+    setCountdown(3);
+    setNote("Chuẩn bị thu — nhìn lời trên video.");
+  }
+
+  useEffect(() => {
+    if (countdown == null) return;
+    if (countdown <= 0) {
+      setCountdown(null);
+      void beginRecord();
+      return;
+    }
+    const id = window.setTimeout(() => {
+      setCountdown((c) => (c == null ? null : c - 1));
+    }, 1000);
+    return () => window.clearTimeout(id);
+    // beginRecord is stable enough for this effect; avoid re-trigger mid-count
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [countdown]);
+
+  async function beginRecord() {
+    if (!seg || recording) return;
     setBusy(true);
     try {
       const stream = await openMicStream(deviceId);
@@ -224,6 +277,7 @@ export function SegmentStudio({
       recorderRef.current = rec;
       const v = videoRef.current;
       const windowMs = Math.max(200, seg.endMs - seg.startMs);
+      muteVideoForTake();
       if (v) {
         v.currentTime = seg.startMs / 1000;
         v.playbackRate = 1;
@@ -231,7 +285,9 @@ export function SegmentStudio({
       }
       rec.start(250);
       setRecording(true);
-      setNote(`Đang thu đoạn ${idx + 1}/${segments.length} — nhìn lời trên video.`);
+      setNote(
+        `Đang thu đoạn ${idx + 1}/${segments.length} — video đã tắt tiếng mẫu.`,
+      );
       stopTimer.current = window.setTimeout(() => {
         void stopRecord(false);
       }, windowMs + 150);
@@ -239,6 +295,7 @@ export function SegmentStudio({
       setError(e instanceof Error ? e.message : "Không mở được micro.");
       stopStream(streamRef.current);
       streamRef.current = null;
+      unmuteVideoAfterTake();
     } finally {
       setBusy(false);
     }
@@ -249,6 +306,7 @@ export function SegmentStudio({
     const rec = recorderRef.current;
     const v = videoRef.current;
     v?.pause();
+    unmuteVideoAfterTake();
     if (!rec || rec.state === "inactive") {
       setRecording(false);
       return;
@@ -295,7 +353,7 @@ export function SegmentStudio({
   }
 
   async function skip() {
-    if (!seg || busy || recording) return;
+    if (!seg || busy || recording || countdown != null) return;
     setBusy(true);
     setError("");
     try {
@@ -314,7 +372,7 @@ export function SegmentStudio({
   }
 
   async function endSession() {
-    if (busy || recording) return;
+    if (busy || recording || countdown != null) return;
     setBusy(true);
     setError("");
     try {
@@ -416,7 +474,7 @@ export function SegmentStudio({
         <button
           type="button"
           className={filter === "all" ? "btn" : "btn secondary"}
-          disabled={busy || recording}
+          disabled={busy || recording || countdown != null}
           onClick={() => setFilter("all")}
         >
           Tất cả
@@ -424,7 +482,7 @@ export function SegmentStudio({
         <button
           type="button"
           className={filter === "missing" ? "btn" : "btn secondary"}
-          disabled={busy || recording}
+          disabled={busy || recording || countdown != null}
           onClick={() => setFilter("missing")}
         >
           Còn thiếu
@@ -432,7 +490,7 @@ export function SegmentStudio({
         <button
           type="button"
           className={filter === "marked" ? "btn" : "btn secondary"}
-          disabled={busy || recording}
+          disabled={busy || recording || countdown != null}
           onClick={() => setFilter("marked")}
         >
           Đánh dấu luyện ({marked.size})
@@ -466,23 +524,37 @@ export function SegmentStudio({
             ) : null}
           </div>
         )}
+        {countdown != null && countdown > 0 && (
+          <div className="kaiwa-seg-countdown" aria-live="assertive">
+            <span className="kaiwa-seg-countdown-num">{countdown}</span>
+            <span>Chuẩn bị…</span>
+          </div>
+        )}
       </div>
 
       <div className="kaiwa-seg-controls">
         <button
           type="button"
           className="btn secondary"
-          disabled={!seg || busy || recording}
+          disabled={!seg || busy || recording || countdown != null}
           onClick={() => void playOriginal()}
         >
           Nghe mẫu đoạn
         </button>
-        {!recording ? (
+        {countdown != null ? (
+          <button
+            type="button"
+            className="btn secondary"
+            onClick={cancelCountdown}
+          >
+            Hủy đếm {countdown}
+          </button>
+        ) : !recording ? (
           <button
             type="button"
             className="btn"
             disabled={!seg || busy || !videoUrl}
-            onClick={() => void startRecord()}
+            onClick={() => startRecord()}
           >
             {clip?.status === "recorded" || clip?.status === "partial"
               ? "Thu lại"
@@ -501,7 +573,7 @@ export function SegmentStudio({
         <button
           type="button"
           className="btn secondary"
-          disabled={!clip?.audioAssetId || busy || recording}
+          disabled={!clip?.audioAssetId || busy || recording || countdown != null}
           onClick={() => void playMine()}
         >
           Nghe giọng mình
@@ -512,6 +584,7 @@ export function SegmentStudio({
           disabled={
             busy ||
             recording ||
+            countdown != null ||
             visibleIndices.length === 0 ||
             visibleIndices.indexOf(idx) <= 0
           }
@@ -525,6 +598,7 @@ export function SegmentStudio({
           disabled={
             busy ||
             recording ||
+            countdown != null ||
             visibleIndices.length === 0 ||
             visibleIndices.indexOf(idx) >= visibleIndices.length - 1
           }
@@ -535,7 +609,7 @@ export function SegmentStudio({
         <button
           type="button"
           className="btn secondary"
-          disabled={!seg || busy || recording}
+          disabled={!seg || busy || recording || countdown != null}
           onClick={() => void skip()}
         >
           Bỏ qua
@@ -543,7 +617,7 @@ export function SegmentStudio({
         <button
           type="button"
           className="btn secondary"
-          disabled={busy || recording}
+          disabled={busy || recording || countdown != null}
           onClick={() => void endSession()}
         >
           Kết thúc phiên
@@ -582,7 +656,7 @@ export function SegmentStudio({
                 className={
                   i === idx ? "kaiwa-seg-chip active" : "kaiwa-seg-chip"
                 }
-                disabled={busy || recording}
+                disabled={busy || recording || countdown != null}
                 onClick={() => setIdx(i)}
               >
                 {i + 1}. {st}
@@ -594,7 +668,7 @@ export function SegmentStudio({
                     ? "kaiwa-seg-mark on"
                     : "kaiwa-seg-mark"
                 }
-                disabled={busy || recording}
+                disabled={busy || recording || countdown != null}
                 aria-label={
                   marked.has(s.id) ? "Bỏ đánh dấu" : "Đánh dấu luyện"
                 }

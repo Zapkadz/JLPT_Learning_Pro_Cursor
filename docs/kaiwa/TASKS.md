@@ -116,7 +116,7 @@ Phát sinh từ feedback thiết bị 18/09/2026: thu liên tục không hiện 
 | KAI-044 · M · Frontend | Review/attempt UI: trạng thái từng đoạn + seek A/B theo clip | KAI-021, KAI-039 | Biết đoạn nào đã thu/thiếu; nghe đúng cửa sổ; export vẫn độc lập scoring | DONE |
 | KAI-045 · S · QA | Cập nhật checklist/preflight Gate A cho mode segment (+ continuous overlay) | KAI-038–041, KAI-033 | CHECKLIST có hàng segment PASS bắt buộc; continuous optional advanced | DONE |
 | KAI-046 · M · QA | Device matrix: Chrome/Edge thu theo đoạn full flow | KAI-045 | Evidence checklist; không lỗi chặn nói được | BLOCKED |
-| KAI-047 · S · Docs | USAGE-GATE-A + release notes phản ánh dual-mode và honesty capture_mode | KAI-036, KAI-045 | Tài liệu khớp sản phẩm; không hứa chấm điểm giả | DONE |
+| KAI-048 · S · Frontend | Segment record: countdown 3-2-1 + mute video sample during take | KAI-038 | Countdown hiển thị trước thu; video muted khi recording; Nghe mẫu vẫn có tiếng | DONE |
 
 Thứ tự gợi ý: **KAI-036 → 037 → 038 → 039 → 040** (đường găng speakable); **041** song song sau 036; **042–044** hoàn thiện; **045–047** trước khi ký Gate A.
 
@@ -139,6 +139,7 @@ Phụ thuộc: KAI-045 DONE; KAI-047 DONE
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-048 segment countdown 3-2-1 + mute video while recording | build OK; UI test | KAI-046 device |
 | 18/09/2026 | Gate A preflight OK; CHECKLIST §0 filled; KAI-046 DEVICE-RUNBOOK | `npm test` **110/110**; preflight OK | Human Chrome/Edge §2 |
 | 18/09/2026 | KAI-045 checklist/preflight + KAI-047 USAGE/release dual-mode | content checks OK; `npm test` | KAI-046 human device |
 | 18/09/2026 | KAI-044 review per-segment status + seek A/B | `npm test` **110/110**; build OK | KAI-045 Gate A checklist |

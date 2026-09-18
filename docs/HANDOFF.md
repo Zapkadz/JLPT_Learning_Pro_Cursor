@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (Gate A automated complete; KAI-046 awaiting human)
+2026-09-18 (KAI-048 countdown+mute; KAI-046 still human)
 
 ## Current Branch
 
@@ -10,28 +10,21 @@
 
 ## Current Task
 
-**KAI-046** — Human device sign-off (Chrome + Edge segment §2).
+**KAI-046** — Human device sign-off (still required).
 
 ## Exact Next Action
 
-**You (human):** follow `docs/kaiwa/evidence/kai-046/DEVICE-RUNBOOK.md`, fill `docs/kaiwa/evidence/kai-033/CHECKLIST.md` §1–§2–§5. Agent cannot complete mic capture on your machine.
+Retest segment studio: tap **Thu đoạn này** → see **3-2-1** overlay → record with **video muted**; **Nghe mẫu đoạn** still has sound. Then continue CHECKLIST §2.
 
 ## Last Completed
 
-- Speakable path **KAI-036–045, 047** DONE.
-- Preflight **OK** — `npm test` **110/110**, build OK; CHECKLIST §0 filled.
-- Device runbook written under `evidence/kai-046/`.
+**KAI-048** — Segment countdown 3-2-1 + mute video during take (device feedback). Continuous mode also mutes while recording.
 
 ## Blockers
 
-- **KAI-046** human-only.
-- Gate B starts with **KAI-023** (benchmark/rubric) — needs your approval to begin that milestone.
-
-## Proposed next milestone (awaiting approval)
-
-**Gate B prep:** KAI-023 benchmark dataset + rubric (no fake scores). Do not start without explicit go-ahead.
+- KAI-046 human Chrome/Edge.
+- Gate B: KAI-023 needs approval.
 
 ## Safety
 
 - Do not stage grammar dirty files.
-- Do not claim Gate A ACCEPTED until CHECKLIST signed.

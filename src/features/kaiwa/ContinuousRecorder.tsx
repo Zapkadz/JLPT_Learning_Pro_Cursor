@@ -178,6 +178,8 @@ export function ContinuousRecorder({
       }, 500) as unknown as number;
 
       rec.start(250);
+      v.muted = true;
+      v.volume = 0;
       v.currentTime = 0;
       v.playbackRate = 1;
       await v.play();
@@ -197,6 +199,10 @@ export function ContinuousRecorder({
     window.clearInterval(sampleTimer.current);
     try {
       v?.pause();
+      if (v) {
+        v.muted = false;
+        v.volume = 1;
+      }
     } catch {
       /* ignore */
     }
