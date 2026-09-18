@@ -29,6 +29,8 @@ type ClipsPayload = {
 
 type HelpPrefs = { furigana: boolean; romaji: boolean; vi: boolean };
 
+type ClipFilter = "all" | "missing" | "marked";
+
 type Props = {
   attemptId: string;
   videoUrl: string | null;
@@ -51,6 +53,24 @@ function blobToBase64(blob: Blob): Promise<string> {
   });
 }
 
+function loadMarked(attemptId: string): Set<string> {
+  try {
+    const raw = localStorage.getItem(`kaiwa-subset:${attemptId}`);
+    if (!raw) return new Set();
+    const arr = JSON.parse(raw) as string[];
+    return new Set(Array.isArray(arr) ? arr : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveMarked(attemptId: string, marked: Set<string>) {
+  localStorage.setItem(
+    `kaiwa-subset:${attemptId}`,
+    JSON.stringify([...marked]),
+  );
+}
+
 export function SegmentStudio({
   attemptId,
   videoUrl,
@@ -61,6 +81,10 @@ export function SegmentStudio({
 }: Props) {
   const [clipsData, setClipsData] = useState<ClipsPayload | null>(null);
   const [idx, setIdx] = useState(0);
+  const [filter, setFilter] = useState<ClipFilter>("all");
+  const [marked, setMarked] = useState<Set<string>>(() =>
+    loadMarked(attemptId),
+  );
   const [busy, setBusy] = useState(false);
   const [recording, setRecording] = useState(false);
   const [note, setNote] = useState("");
@@ -70,6 +94,12 @@ export function SegmentStudio({
   const recorderRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<Blob[]>([]);
   const stopTimer = useRef(0);
+  const resumedRef = useRef(false);
+
+  useEffect(() => {
+    setMarked(loadMarked(attemptId));
+    resumedRef.current = false;
+  }, [attemptId]);
 
   const reloadClips = useCallback(async () => {
     const data = await api<ClipsPayload>(
@@ -99,8 +129,46 @@ export function SegmentStudio({
     return m;
   }, [clipsData]);
 
+  const visibleIndices = useMemo(() => {
+    return segments
+      .map((_, i) => i)
+      .filter((i) => {
+        const id = segments[i].id;
+        const st = clipBySeg.get(id)?.status ?? "pending";
+        if (filter === "missing")
+          return st === "pending" || st === "partial";
+        if (filter === "marked") return marked.has(id);
+        return true;
+      });
+  }, [segments, clipBySeg, filter, marked]);
+
+  useEffect(() => {
+    if (!clipsData || resumedRef.current) return;
+    resumedRef.current = true;
+    const firstPending = segments.findIndex((s) => {
+      const st = clipBySeg.get(s.id)?.status;
+      return !st || st === "pending";
+    });
+    if (firstPending >= 0) setIdx(firstPending);
+  }, [clipsData, segments, clipBySeg]);
+
+  useEffect(() => {
+    if (visibleIndices.length === 0) return;
+    if (!visibleIndices.includes(idx)) setIdx(visibleIndices[0]);
+  }, [filter, visibleIndices, idx]);
+
   const seg = segments[idx] ?? null;
   const clip = seg ? clipBySeg.get(seg.id) : undefined;
+
+  function toggleMark(segmentId: string) {
+    setMarked((prev) => {
+      const next = new Set(prev);
+      if (next.has(segmentId)) next.delete(segmentId);
+      else next.add(segmentId);
+      saveMarked(attemptId, next);
+      return next;
+    });
+  }
 
   useEffect(() => {
     const v = videoRef.current;
@@ -270,31 +338,64 @@ export function SegmentStudio({
 
   function goNext(data?: ClipsPayload) {
     const source = data ?? clipsData;
-    if (!source) {
-      setIdx((i) => Math.min(i + 1, segments.length - 1));
-      return;
-    }
-    const by = new Map(source.clips.map((c) => [c.segmentId, c.status]));
-    for (let i = idx + 1; i < segments.length; i++) {
+    const by = new Map(
+      (source?.clips ?? []).map((c) => [c.segmentId, c.status]),
+    );
+    const pool =
+      filter === "all"
+        ? segments.map((_, i) => i)
+        : visibleIndices.length
+          ? visibleIndices
+          : segments.map((_, i) => i);
+    const pos = pool.indexOf(idx);
+    for (let p = pos + 1; p < pool.length; p++) {
+      const i = pool[p];
       const st = by.get(segments[i].id);
-      if (!st || st === "pending") {
+      if (filter === "missing") {
+        if (!st || st === "pending" || st === "partial") {
+          setIdx(i);
+          return;
+        }
+        continue;
+      }
+      if (filter === "all" && (!st || st === "pending")) {
+        setIdx(i);
+        return;
+      }
+      if (filter !== "all") {
         setIdx(i);
         return;
       }
     }
-    setNote("Đã hết đoạn pending. Bạn có thể thu lại hoặc kết thúc phiên.");
+    // fallback: next index in pool
+    if (pos >= 0 && pos < pool.length - 1) {
+      setIdx(pool[pos + 1]);
+      return;
+    }
+    setNote("Đã hết đoạn trong bộ lọc. Bạn có thể đổi lọc hoặc kết thúc phiên.");
   }
 
   function goPrev() {
-    setIdx((i) => Math.max(0, i - 1));
+    const pool = visibleIndices.length
+      ? visibleIndices
+      : segments.map((_, i) => i);
+    const pos = pool.indexOf(idx);
+    if (pos > 0) setIdx(pool[pos - 1]);
   }
 
   const progress = clipsData?.progress;
+  const posInFilter = visibleIndices.indexOf(idx);
 
   return (
     <div className="panel kaiwa-segment-studio">
       <div className="kaiwa-seg-progress">
         Đoạn <strong>{segments.length ? idx + 1 : 0}</strong> / {segments.length}
+        {filter !== "all" && visibleIndices.length > 0 ? (
+          <span>
+            {" "}
+            · lọc {posInFilter >= 0 ? posInFilter + 1 : 0}/{visibleIndices.length}
+          </span>
+        ) : null}
         {clip?.version ? (
           <span>
             {" "}
@@ -306,9 +407,41 @@ export function SegmentStudio({
             {" "}
             · Đã thu {progress.recorded}/{progress.total}
             {progress.skipped ? ` · bỏ qua ${progress.skipped}` : ""}
+            {progress.pending ? ` · còn ${progress.pending}` : ""}
           </span>
         ) : null}
       </div>
+
+      <div className="kaiwa-seg-filters" role="group" aria-label="Lọc đoạn">
+        <button
+          type="button"
+          className={filter === "all" ? "btn" : "btn secondary"}
+          disabled={busy || recording}
+          onClick={() => setFilter("all")}
+        >
+          Tất cả
+        </button>
+        <button
+          type="button"
+          className={filter === "missing" ? "btn" : "btn secondary"}
+          disabled={busy || recording}
+          onClick={() => setFilter("missing")}
+        >
+          Còn thiếu
+        </button>
+        <button
+          type="button"
+          className={filter === "marked" ? "btn" : "btn secondary"}
+          disabled={busy || recording}
+          onClick={() => setFilter("marked")}
+        >
+          Đánh dấu luyện ({marked.size})
+        </button>
+      </div>
+      <p className="kaiwa-privacy-note">
+        Script dài: không cần thu hết một lần. Bấm «chọn» trên chip để đánh dấu
+        luyện tập con; mở lại phòng thu sẽ nhảy về đoạn còn thiếu đầu tiên.
+      </p>
 
       <div className="kaiwa-seg-stage">
         {videoUrl ? (
@@ -376,7 +509,12 @@ export function SegmentStudio({
         <button
           type="button"
           className="btn secondary"
-          disabled={idx <= 0 || busy || recording}
+          disabled={
+            busy ||
+            recording ||
+            visibleIndices.length === 0 ||
+            visibleIndices.indexOf(idx) <= 0
+          }
           onClick={goPrev}
         >
           Trước
@@ -384,7 +522,12 @@ export function SegmentStudio({
         <button
           type="button"
           className="btn secondary"
-          disabled={idx >= segments.length - 1 || busy || recording}
+          disabled={
+            busy ||
+            recording ||
+            visibleIndices.length === 0 ||
+            visibleIndices.indexOf(idx) >= visibleIndices.length - 1
+          }
           onClick={() => goNext()}
         >
           Tiếp
@@ -407,6 +550,14 @@ export function SegmentStudio({
         </button>
       </div>
 
+      {filter === "marked" && marked.size === 0 && (
+        <Status tone="info">
+          Chưa đánh dấu đoạn nào — bấm «chọn» trên chip để chọn luyện tập con.
+        </Status>
+      )}
+      {filter === "missing" && visibleIndices.length === 0 && (
+        <Status tone="info">Không còn đoạn thiếu trong lần thu này.</Status>
+      )}
       {clip?.status === "skipped" && (
         <Status tone="info">Đã bỏ qua đoạn này — không tính là đã nói.</Status>
       )}
@@ -417,8 +568,15 @@ export function SegmentStudio({
         {segments.map((s, i) => {
           const c = clipBySeg.get(s.id);
           const st = c?.status ?? "pending";
+          const hidden =
+            filter === "missing"
+              ? !(st === "pending" || st === "partial")
+              : filter === "marked"
+                ? !marked.has(s.id)
+                : false;
+          if (hidden && filter !== "all") return null;
           return (
-            <li key={s.id}>
+            <li key={s.id} className="kaiwa-seg-chip-row">
               <button
                 type="button"
                 className={
@@ -428,6 +586,22 @@ export function SegmentStudio({
                 onClick={() => setIdx(i)}
               >
                 {i + 1}. {st}
+              </button>
+              <button
+                type="button"
+                className={
+                  marked.has(s.id)
+                    ? "kaiwa-seg-mark on"
+                    : "kaiwa-seg-mark"
+                }
+                disabled={busy || recording}
+                aria-label={
+                  marked.has(s.id) ? "Bỏ đánh dấu" : "Đánh dấu luyện"
+                }
+                aria-pressed={marked.has(s.id)}
+                onClick={() => toggleMark(s.id)}
+              >
+                {marked.has(s.id) ? "đã chọn" : "chọn"}
               </button>
             </li>
           );

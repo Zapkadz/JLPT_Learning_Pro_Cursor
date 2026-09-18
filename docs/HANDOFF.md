@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-042 DONE; next KAI-043)
+2026-09-18 (KAI-043 DONE; next KAI-044)
 
 ## Current Branch
 
@@ -10,15 +10,15 @@
 
 ## Current Task
 
-**KAI-043** — Progress N/M, skip, subset practice for long scripts (90+ lines).
+**KAI-044** — Review/attempt UI: per-segment status + seek A/B by clip.
 
 ## Exact Next Action
 
-Add subset filter / resume-to-first-pending; skip with reason already exists — polish for long scripts.
+On attempt review, show which segments recorded/missing; seek learner audio to clip windows; keep export independent of scoring.
 
 ## Last Completed
 
-**KAI-042** — Re-record keeps other clips; history API. Evidence: `docs/kaiwa/evidence/kai-042/REPORT.md`. Verify: **109/109**.
+**KAI-043** — Subset filters + resume pending. Evidence: `docs/kaiwa/evidence/kai-043/REPORT.md`. Verify: **109/109**.
 
 ## Blockers
 

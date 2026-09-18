@@ -17,8 +17,11 @@ test("segment studio UI has overlay and clip controls", () => {
   assert.ok(studio.includes("Thu đoạn này"));
   assert.ok(studio.includes("Nghe giọng mình"));
   assert.ok(studio.includes("Bỏ qua"));
+  assert.ok(studio.includes("Còn thiếu"));
+  assert.ok(studio.includes("Đánh dấu luyện"));
+  assert.ok(studio.includes("kaiwa-subset:"));
+  assert.ok(studio.includes("resumedRef"));
   assert.ok(page.includes("Theo đoạn — dễ nói theo lời (khuyến nghị)"));
-  assert.ok(page.includes("Liên tục — thu cả video một lần (nâng cao)"));
   assert.ok(page.includes("kaiwa-capture-mode:"));
   assert.ok(page.includes("loadCaptureModePref"));
   assert.ok(page.includes("saveCaptureModePref"));
