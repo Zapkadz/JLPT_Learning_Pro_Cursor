@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-068 stable-ts DONE; next KAI-069)
+2026-09-18 (KAI-069 DONE; next KAI-070)
 
 ## Current Branch
 
@@ -10,26 +10,24 @@
 
 ## Current Task
 
-**Next READY:** **KAI-069** — WhisperX JA CTC contrast + bake-off note.
+**Next READY:** **KAI-070** — integrate stable-ts as default align engine (ADR-021a); optional Qwen flag.
 
 ## Exact Next Action
 
-1. Spike WhisperX Japanese alignment on same KAI-066 fixtures (or document install blocker honestly).
-2. Write comparison table greedy / Qwen / stable-ts / WhisperX; provisional engine recommendation.
-3. Then KAI-070 integrate winner (only after ADR note).
+1. Adapter behind env (e.g. `KAIWA_SCRIPT_ALIGN_ENGINE=stable_ts|qwen_fa|whisper`).
+2. Worker/progress/timeout; draft-only; preserve meta (KAI-065).
+3. Do not claim anime fixed.
 
 ## Last Completed
 
-- **KAI-068:** stable-ts `align` — clean TTS median |Δstart| **28–53 ms**; faster than Qwen on CPU.
-- **KAI-067:** Qwen FA — **21–68 ms**; load ~120 s CPU.
-- **KAI-066:** harness + greedy baseline ~200 ms.
+- Bake-off KAI-066–069: greedy ~200 ms → stable-ts/Qwen/WhisperX ~13–114 ms on clean TTS.
+- **ADR-021a:** default **stable-ts**, optional Qwen, WhisperX contrast-only.
 
 ## Blockers
 
 - Grammar dirty — exclude from Kaiwa commits.
-- Anime/BGM still unmeasured.
+- Broader corpus / anime still pending (KAI-076).
 
 ## Safety
 
-- Do not swap production engine yet.
-- Do not invent numbers / commit private media.
+- Do not invent numbers; no private media in git.

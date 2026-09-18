@@ -731,3 +731,27 @@ New backlog **KAI-065–076** (see `docs/kaiwa/TASKS.md` §9c). Spec: `docs/kaiw
 
 `docs/kaiwa/evidence/kai-065/FORCE-ALIGN-V1-SPEC.md`, `docs/kaiwa/TASKS.md`, ADR-020, `scripts/kaiwa/align_script_sidecar.py`, `server/modules/kaiwa/scriptAlign.ts`
 
+---
+
+## ADR-021a — Provisional forced-align engine preference (bake-off note)
+
+Date: 2026-09-18  
+Status: Accepted (provisional; amend after broader corpus)
+
+### Context
+
+KAI-066–069 measured greedy Whisper-match vs Qwen3-ForcedAligner vs stable-ts vs WhisperX JA CTC on the same legal TTS fixtures + speech-window GT.
+
+### Decision
+
+1. Production v1 should move off greedy Whisper-match for timing quality.
+2. **Default integration candidate for KAI-070 (CPU pilot): stable-ts `align`.**
+3. **Optional quality backend: Qwen3-ForcedAligner-0.6B** (flag/env); expect slow cold start on CPU.
+4. WhisperX remains contrast / non-default unless later evidence wins on held-out anime.
+5. No anime quality claim until KAI-076 / private fixtures.
+
+### Related
+
+`docs/kaiwa/evidence/kai-069/REPORT.md`, ADR-021
+
+

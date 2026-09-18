@@ -476,6 +476,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-069 WhisperX + ADR-021a bake-off | prefer stable-ts default; Qwen optional | `docs/kaiwa/evidence/kai-069/` |
 | 2026-09-18 | KAI-068 stable-ts spike | median Δstart 28–53 ms on clean TTS | `docs/kaiwa/evidence/kai-068/` |
 | 2026-09-18 | KAI-067 Qwen ForcedAligner CPU spike | median Δstart 21–68 ms on clean TTS | `docs/kaiwa/evidence/kai-067/` |
 | 2026-09-18 | KAI-066 forced-align bench + greedy baseline | clean_tts median Δstart 212.5 ms; long_gap 122 ms | `docs/kaiwa/evidence/kai-066/` |
