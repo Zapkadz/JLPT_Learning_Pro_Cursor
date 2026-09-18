@@ -1,27 +1,27 @@
 {
   "engine": "faster-whisper+script-match",
-  "model": "tiny",
+  "model": "base",
   "language": "ja",
   "ffmpeg": "C:\\Users\\giap1\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.exe",
   "voice": "ja-JP-NanamiNeural",
   "silenceGapMs": 700,
-  "asrHypothesis": "こんにちは 今日はいい天気ですね一緒に散歩しませんか",
+  "asrHypothesis": "こんにちは今日はいい天気ですね一緒に散歩しませんか",
   "lineCount": 3,
   "measuredLines": 3,
-  "medianAbsDeltaStartMs": 448.0,
-  "medianAbsDeltaEndMs": 404.0,
-  "maxAbsDeltaStartMs": 780,
-  "maxAbsDeltaEndMs": 652,
+  "medianAbsDeltaStartMs": 28.0,
+  "medianAbsDeltaEndMs": 952.0,
+  "maxAbsDeltaStartMs": 112,
+  "maxAbsDeltaEndMs": 1092,
   "keepUserScriptText": true,
   "deltas": [
     {
       "ja": "こんにちは。",
       "gtStartMs": 0,
       "gtEndMs": 1872,
-      "predStartMs": 780,
-      "predEndMs": 1220,
-      "absDeltaStartMs": 780,
-      "absDeltaEndMs": 652,
+      "predStartMs": 0,
+      "predEndMs": 780,
+      "absDeltaStartMs": 0,
+      "absDeltaEndMs": 1092,
       "timingUncertain": false,
       "whisperSpan": "こんにちは"
     },
@@ -29,21 +29,21 @@
       "ja": "今日はいい天気ですね。",
       "gtStartMs": 2572,
       "gtEndMs": 5092,
-      "predStartMs": 3020,
-      "predEndMs": 5460,
-      "absDeltaStartMs": 448,
-      "absDeltaEndMs": 368,
+      "predStartMs": 2600,
+      "predEndMs": 4140,
+      "absDeltaStartMs": 28,
+      "absDeltaEndMs": 952,
       "timingUncertain": false,
-      "whisperSpan": " 今日はいい天気ですね"
+      "whisperSpan": "今日はいい天気ですね"
     },
     {
       "ja": "一緒に散歩しませんか。",
       "gtStartMs": 5792,
       "gtEndMs": 8504,
-      "predStartMs": 5460,
-      "predEndMs": 8100,
-      "absDeltaStartMs": 332,
-      "absDeltaEndMs": 404,
+      "predStartMs": 5680,
+      "predEndMs": 7580,
+      "absDeltaStartMs": 112,
+      "absDeltaEndMs": 924,
       "timingUncertain": false,
       "whisperSpan": "一緒に散歩しませんか"
     }
@@ -51,22 +51,22 @@
   "aligned": [
     {
       "ja": "こんにちは。",
-      "startMs": 780,
-      "endMs": 1220,
+      "startMs": 0,
+      "endMs": 780,
       "timingUncertain": false,
       "whisperSpan": "こんにちは"
     },
     {
       "ja": "今日はいい天気ですね。",
-      "startMs": 3020,
-      "endMs": 5460,
+      "startMs": 2600,
+      "endMs": 4140,
       "timingUncertain": false,
-      "whisperSpan": " 今日はいい天気ですね"
+      "whisperSpan": "今日はいい天気ですね"
     },
     {
       "ja": "一緒に散歩しませんか。",
-      "startMs": 5460,
-      "endMs": 8100,
+      "startMs": 5680,
+      "endMs": 7580,
       "timingUncertain": false,
       "whisperSpan": "一緒に散歩しませんか"
     }

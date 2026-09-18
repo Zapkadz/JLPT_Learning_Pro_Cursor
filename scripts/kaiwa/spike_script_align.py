@@ -31,7 +31,7 @@ SCRIPT_LINES = [
 ]
 SILENCE_MS = 700
 VOICE = "ja-JP-NanamiNeural"
-WHISPER_MODEL = os.environ.get("KAIWA_WHISPER_MODEL", "tiny")
+WHISPER_MODEL = os.environ.get("KAIWA_WHISPER_MODEL", "base")
 
 
 def resolve_ffmpeg() -> str:

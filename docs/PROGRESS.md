@@ -475,6 +475,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-061 spike re-measure Whisper `base` | median Δstart 28 ms (TTS) | `docs/kaiwa/evidence/kai-052/REPORT.md` §3b |
 | 2026-09-18 | KAI-059–062 sync UX + overlay help + Whisper base | `npm test` **120/120** | `ScriptHelpLayers.tsx` |
 | 2026-09-18 | KAI-046 runbook + preflight re-verify | `kaiwa:gate-a-preflight` OK | `docs/kaiwa/evidence/kai-046/` |
 | 2026-09-18 | KAI-056–058 ASR v2 API+UI+docs | `npm test`; build OK | `docs/kaiwa/evidence/kai-056/` |
