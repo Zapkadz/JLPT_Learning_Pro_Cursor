@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-055 DONE — auto-subtitle **v1.0** complete)
+2026-09-18 (auto-subtitle **v1+v2** DONE — next KAI-046 device)
 
 ## Current Branch
 
@@ -10,28 +10,29 @@
 
 ## Current Task
 
-**Milestone DONE:** Auto phụ đề **v1** (KAI-050–055).  
-**Next optional:** **KAI-056** v2 ASR (needs product go-ahead / keys) **or** **KAI-046** Gate A device.  
-**Blocked human:** KAI-046.
+**DONE:** Auto phụ đề KAI-050–058 (script sync + ASR).  
+**Blocked human:** **KAI-046** Gate A device (Chrome/Edge segment).  
+No further auto-subtitle code without a new approved milestone.
 
 ## Exact Next Action
 
-1. Human: run **KAI-046** Gate A device checklist (Chrome/Edge segment), **or**
-2. Approve starting **KAI-056** video-only ASR (v2) — otherwise leave `transcription` as `not_configured`.
-3. Do not market Gate A as device-accepted until CHECKLIST signed.
+1. Human: run **KAI-046** Gate A device checklist (`docs/kaiwa/evidence/kai-033/CHECKLIST.md` + DEVICE-RUNBOOK).
+2. Do not start Gate B scoring (KAI-023) without approval.
+3. Do not stage grammar dirty files with Kaiwa commits.
 
 ## Last Completed
 
-- KAI-055: USAGE + release notes honesty for script sync; capability `scriptAlign` documented/tested.
-- Prior: KAI-051–054 ingest, spike, job, UI.
+- KAI-056: `POST …/transcriptions` Whisper/mock → draft `source=asr`
+- KAI-057: ASR CTA + strong risk banner
+- KAI-058: USAGE + release notes v1/v2
 
 ## Blockers
 
 - KAI-046 human device for Gate A ACCEPTED.
-- KAI-056+ needs ASR provider decision / credentials for live path.
 - Grammar local dirty files — do not stage with Kaiwa commits.
 
 ## Safety
 
 - Do not stage grammar dirty files.
 - Do not auto-publish machine drafts (ADR-012/014).
+- Do not invent Gate A device PASS.

@@ -122,6 +122,56 @@ export function resolveScriptAlignCapability(
   };
 }
 
+export function resolveTranscriptionCapability(
+  env: NodeJS.ProcessEnv = process.env,
+): {
+  status: SpeechCapabilityStatus;
+  providers: string[];
+  messageVi: string;
+  engine: string | null;
+} {
+  const ffmpeg = resolveFfmpegPath(env);
+  const enginePref = env.KAIWA_ASR_ENGINE?.trim() || "whisper";
+
+  if (enginePref === "mock") {
+    return {
+      status: "ready",
+      providers: ["mock"],
+      engine: "mock_asr",
+      messageVi:
+        "ASR mock sẵn sàng (kiểm thử). Chữ máy có thể sai — phải duyệt bản nháp.",
+    };
+  }
+
+  if (!ffmpeg) {
+    return {
+      status: "not_configured",
+      providers: [],
+      engine: null,
+      messageVi:
+        "Chưa cấu hình ASR (thiếu ffmpeg). Hãy nhập phụ đề thủ công (SRT/VTT hoặc soạn tay).",
+    };
+  }
+
+  if (!canImportFasterWhisper(env)) {
+    return {
+      status: "not_configured",
+      providers: [],
+      engine: null,
+      messageVi:
+        "Chưa cấu hình ASR (thiếu faster-whisper). Hãy nhập phụ đề thủ công (SRT/VTT hoặc soạn tay).",
+    };
+  }
+
+  return {
+    status: "ready",
+    providers: ["faster-whisper"],
+    engine: `faster-whisper:${env.KAIWA_WHISPER_MODEL?.trim() || "tiny"}`,
+    messageVi:
+      "Có thể tự tạo phụ đề từ video (ASR). Chữ máy dễ sai — hãy kiểm tra kỹ trước khi luyện.",
+  };
+}
+
 export function resolveSpeechCapability(
   env: NodeJS.ProcessEnv = process.env,
 ): SpeechCapability {
@@ -132,19 +182,17 @@ export function resolveSpeechCapability(
     Boolean(env.KAIWA_TRANSLATE_API_KEY?.trim()) ||
     Boolean(env.AZURE_TRANSLATOR_KEY?.trim());
 
-  // Live ASR/translate adapters not wired — even with keys, report not_configured
-  // until a verified provider adapter lands (Gate B / later KAI-015/056).
   void hasAsr;
   void hasTranslate;
 
   const scriptAlign = resolveScriptAlignCapability(env);
+  const transcription = resolveTranscriptionCapability(env);
 
   return {
     transcription: {
-      status: "not_configured",
-      providers: [],
-      messageVi:
-        "Chưa cấu hình ASR. Hãy nhập phụ đề thủ công (SRT/VTT hoặc soạn tay).",
+      status: transcription.status,
+      providers: transcription.providers,
+      messageVi: transcription.messageVi,
     },
     translation: {
       status: "not_configured",

@@ -26,7 +26,8 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Detailed backlog / dependency graph | `docs/kaiwa/TASKS.md` |
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
-| **Current executable task** | Auto-subtitle **v1 DONE** (050–055); next **KAI-046** human / **KAI-056** v2 (approve) |
+| **Current executable task** | Auto-subtitle **v1+v2 DONE** (050–058); next **KAI-046** human Gate A |
+| **Auto subtitle (ADR-020)** | **KAI-050–058** | **DONE** (v1 script-sync + v2 ASR local Whisper) |
 | Do not start | **KAI-035** before Gate B |
 
 ### Phase overview (detail in `docs/kaiwa/TASKS.md`)
@@ -38,7 +39,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Transcript + Japanese support | KAI-013–016 | SRT/manual, furigana/romaji/VI, ASR optional |
 | Full-video record / review / export | KAI-017–022 | Continuous capture, takes, MP4 export |
 | **Speakable studio (ADR-019)** | **KAI-036–047** | Segment-default + overlay; assemble; Gate A device |
-| **Auto subtitle (ADR-020)** | **KAI-050–058** | **v1 DONE** (050–055); v2 ASR = 056–058 |
+| **Auto subtitle (ADR-020)** | **KAI-050–058** | **DONE** (v1 script-sync + v2 ASR) |
 | Japanese assessment | KAI-023–029 | Evidence-based scoring (no fake metrics) |
 | Progress / ops / QA / gates | KAI-030–034 | Gate A then Gate B |
 | Later planning only | KAI-035 | Character role-play — after Gate B |

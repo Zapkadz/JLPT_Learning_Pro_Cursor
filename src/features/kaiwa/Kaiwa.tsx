@@ -542,8 +542,10 @@ export function KaiwaEdit() {
   const [issues, setIssues] = useState<string[]>([]);
   const [saving, setSaving] = useState(false);
   const [aligning, setAligning] = useState(false);
+  const [transcribing, setTranscribing] = useState(false);
   const [scriptPaste, setScriptPaste] = useState("");
   const [alignConsent, setAlignConsent] = useState(false);
+  const [asrConsent, setAsrConsent] = useState(false);
   const [prefs, setPrefs] = useState<HelpPrefs>(() =>
     loadHelpPrefs(user?.id || "anon"),
   );
@@ -587,6 +589,46 @@ export function KaiwaEdit() {
     loadRevision();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
+
+  async function runTranscription() {
+    if (!id || !revision) return;
+    if (!asrConsent) {
+      setMessage("Hãy xác nhận đã đọc cảnh báo trước khi tạo phụ đề ASR.");
+      return;
+    }
+    setTranscribing(true);
+    setMessage("");
+    try {
+      const result = await post<{
+        alignEngine: string;
+        revision: {
+          id: string;
+          version: number;
+          state: string;
+          payload: { segments: KaiwaSegment[] };
+          source_json?: RevisionView["source_json"];
+        };
+      }>(`/kaiwa/projects/${id}/transcriptions`, {
+        expectedRevisionVersion: revision.version,
+      });
+      setRevision({
+        revisionId: result.revision.id,
+        version: result.revision.version,
+        state: result.revision.state,
+        payload: result.revision.payload,
+        source_json: result.revision.source_json,
+      });
+      setSegments(result.revision.payload?.segments || []);
+      setMessage(
+        `Đã tạo ${result.revision.payload?.segments?.length || 0} đoạn từ video (${result.alignEngine}). Chữ máy có thể sai — hãy kiểm tra kỹ trước khi luyện.`,
+      );
+      reloadProject();
+    } catch (e) {
+      setMessage(e instanceof Error ? e.message : "ASR thất bại.");
+    } finally {
+      setTranscribing(false);
+    }
+  }
 
   async function runScriptAlign() {
     if (!id || !revision) return;
@@ -869,6 +911,16 @@ export function KaiwaEdit() {
         </Status>
       )}
 
+      {revision?.source_json?.source === "asr" && (
+        <Status tone="info">
+          Bản nháp ASR từ video — chữ và mốc đều có thể sai. Hãy sửa trước khi
+          luyện.
+          {revision.source_json.alignEngine
+            ? ` (${revision.source_json.alignEngine})`
+            : ""}
+        </Status>
+      )}
+
       {playbackUrl && (
         <div className="panel kaiwa-player">
           <video
@@ -995,6 +1047,46 @@ export function KaiwaEdit() {
             <Status tone="info">
               {speechCap?.scriptAlign?.messageVi ||
                 "Chưa cấu hình tự động. Hãy nhập SRT/VTT hoặc soạn tay."}
+            </Status>
+          )}
+        </div>
+
+        <div className="panel kaiwa-script-align">
+          <h3 className="kaiwa-subhead">Tự tạo phụ đề từ video (ASR)</h3>
+          {speechCap?.transcription?.status === "ready" ? (
+            <>
+              <p className="kaiwa-muted">{speechCap.transcription.messageVi}</p>
+              <label className="kaiwa-check">
+                <input
+                  type="checkbox"
+                  checked={asrConsent}
+                  onChange={(e) => setAsrConsent(e.target.checked)}
+                />
+                Tôi hiểu chữ máy có thể sai và sẽ sửa trước khi luyện (không tự
+                publish).
+              </label>
+              <button
+                type="button"
+                className="btn"
+                disabled={
+                  transcribing || !asrConsent || !revision || !playbackUrl
+                }
+                onClick={() => void runTranscription()}
+              >
+                {transcribing
+                  ? "Đang tạo phụ đề…"
+                  : "Tự tạo phụ đề từ video (ASR)"}
+              </button>
+              {!playbackUrl && (
+                <Status tone="info">
+                  Cần video đã chuẩn bị (prepare media) trước khi ASR.
+                </Status>
+              )}
+            </>
+          ) : (
+            <Status tone="info">
+              {speechCap?.transcription?.messageVi ||
+                "Chưa cấu hình ASR. Hãy nhập SRT/VTT hoặc soạn tay."}
             </Status>
           )}
         </div>

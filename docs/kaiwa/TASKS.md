@@ -141,23 +141,24 @@ Phát sinh từ yêu cầu 18/09/2026: phụ đề tay đã OK; muốn (v1) vide
 | KAI-053 · L · Backend | Job `align_script`: extract audio → align → ghi draft revision + metadata source | KAI-007, KAI-051, KAI-052 | Idempotent; không đè draft mới hơn; uncertain flags; 409 conflict | DONE |
 | KAI-054 · M · Frontend | UI “Đồng bộ lời thoại với video”: opt-in, progress, mở editor với draft | KAI-053, KAI-013 | User sửa được trước publish; copy VI theo spec | DONE |
 | KAI-055 · S · QA/Docs | Honesty + privacy + USAGE v1; capability `scriptAlign` | KAI-054, KAI-015 | Manual fallback khi not_configured; không auto-publish | DONE |
-| KAI-056 · L · Speech/Backend | Live ASR adapter cho `POST …/transcriptions` (v2) | KAI-015, KAI-052 | Draft text+times; capability ready khi có key; 503 khi thiếu | TODO |
-| KAI-057 · M · Frontend | UI “Tự tạo phụ đề từ video” + banner rủi ro sai chữ | KAI-056 | Cùng editor review; không bỏ qua bước duyệt | TODO |
-| KAI-058 · S · Docs | USAGE + release notes v1/v2 auto phụ đề | KAI-055, KAI-057 | Tài liệu khớp; không hứa OCR hardsub | TODO |
+| KAI-056 · L · Speech/Backend | Live ASR adapter cho `POST …/transcriptions` (v2) | KAI-015, KAI-052 | Draft text+times; capability ready khi có key; 503 khi thiếu | DONE (local Whisper; mock for tests) |
+| KAI-057 · M · Frontend | UI “Tự tạo phụ đề từ video” + banner rủi ro sai chữ | KAI-056 | Cùng editor review; không bỏ qua bước duyệt | DONE |
+| KAI-058 · S · Docs | USAGE + release notes v1/v2 auto phụ đề | KAI-055, KAI-057 | Tài liệu khớp; không hứa OCR hardsub | DONE |
 
 Thứ tự: **050 → 051 → 052 → 053 → 054 → 055** (= **v1.0**); rồi **056 → 057 → 058** (= **v2.0**). Spike 052 có thể BLOCKED nếu thiếu ffmpeg/credential — ghi rõ, vẫn giữ manual path.
 
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-055 DONE — auto phụ đề v1.0 (050–055) complete.
-Next: KAI-056 v2 ASR (may need keys) OR KAI-046 human Gate A device.
+Task: KAI-056–058 DONE — auto phụ đề v1+v2 complete (050–058).
+Song song: KAI-046 human device Gate A vẫn BLOCKED.
 ```
 
 ## 11. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-056–058 ASR v2 API + UI + USAGE | `npm test`; build | KAI-046 device |
 | 18/09/2026 | KAI-055 USAGE/release honesty script-align v1 | `npm test`; USAGE + RELEASE-NOTES | KAI-056 v2 hoặc KAI-046 |
 | 18/09/2026 | KAI-054 UI đồng bộ script + banner draft máy + uncertain chip | `npm test` **117/117**; build OK | KAI-055 honesty/USAGE |
 | 18/09/2026 | KAI-053 align_script job + draft source_json + capability | `npm test` **117/117**; build OK | KAI-054 UI |

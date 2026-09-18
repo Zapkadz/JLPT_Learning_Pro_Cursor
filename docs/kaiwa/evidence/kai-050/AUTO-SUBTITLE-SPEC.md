@@ -192,9 +192,9 @@ Capability surface (`/speech/capability`) must expose:
 
 ### v2.0 DONE when
 
-- [ ] Video-only ASR draft path
-- [ ] Same review/publish guarantees
-- [ ] Capability UI honest without keys
+- [x] Video-only ASR draft path
+- [x] Same review/publish guarantees
+- [x] Capability UI honest without keys / without ffmpeg+Whisper
 
 ---
 
