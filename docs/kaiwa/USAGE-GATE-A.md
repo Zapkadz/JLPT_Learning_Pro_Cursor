@@ -2,7 +2,7 @@
 
 Ngày: 2026-09-18 · ADR-019: **thu theo đoạn là mặc định**. Thu liên tục = nâng cao. Không đóng vai.
 
-> **Trạng thái triển khai:** KAI-036–045 DONE (studio speakable + checklist/preflight). **KAI-046** = ký thiết bị người thật. Gate A **chưa ACCEPTED** cho đến khi checklist Chrome/Edge PASS.
+> **Trạng thái triển khai:** Studio theo đoạn + countdown/mute OK. Gate A thiết bị = KAI-046. **Kế hoạch auto phụ đề (ADR-020):** v1 = video + lời không timeline → tự gắn giờ; v2 = chỉ video → ASR. Spec: `docs/kaiwa/evidence/kai-050/AUTO-SUBTITLE-SPEC.md` — **chưa code**.
 
 ## Bạn làm được gì ở bản Gate A (mục tiêu speakable)
 

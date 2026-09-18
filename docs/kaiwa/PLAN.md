@@ -1,6 +1,6 @@
 # Kế hoạch triển khai Kotoba Kaiwa Studio
 
-Ngày lập: 17/09/2026. Cập nhật sản phẩm: 18/09/2026 (ADR-019 studio theo đoạn). Module đang triển khai trên nhánh feat/kaiwa-memory.
+Ngày lập: 17/09/2026. Cập nhật sản phẩm: 18/09/2026 (ADR-019 studio theo đoạn; **ADR-020 auto phụ đề v1/v2** — kế hoạch, chưa code).
 
 Đọc cùng [danh sách task](./TASKS.md) và [quy tắc triển khai, cập nhật tiến trình](./IMPLEMENTATION-RULES.md). Tài liệu này là phạm vi triển khai mới nhất, thay các đề xuất thứ tự tính năng trong [bản nghiên cứu](../KAIWA-RESEARCH-AND-PLAN.md).
 
@@ -59,10 +59,14 @@ Mốc A là bước bàn giao có thể sử dụng thực tế, không được
 - Nhận dạng lời thoại và dịch bằng provider khi đã cấu hình. Nếu chưa có provider, nhập/sửa phụ đề thủ công vẫn dùng được toàn bộ luồng lồng tiếng.
 - Nội dung do máy tạo ở trạng thái bản nháp. Người dùng duyệt trước khi dùng làm chuẩn chấm; không tự gán nhãn “đã được giáo viên kiểm chứng”.
 - Video chưa có lời thoại vẫn có thể thu và xuất; chưa có chuẩn đáng tin cậy thì không chấm chi tiết.
+- **ADR-020 — Auto phụ đề (kế hoạch KAI-050+):**
+  - **v1.0 Script sync:** video + lời thoại **không cần timeline** (paste/txt) → job căn thời gian theo giọng trong video → draft timed segments → user sửa trên editor hiện có.
+  - **v2.0 Auto transcript:** chỉ video → ASR tạo phụ đề có timeline → cùng đường review.
+  - Không chặn Gate A device (KAI-046). Manual SRT/VTT vẫn là đường mặc định khi chưa cấu hình.
 
 ### 3.3 Hoãn rõ ràng
 
-Đóng vai; tách sạch lời khỏi nhạc bằng AI; nhận diện nhân vật tự động; pause/resume liền mạch trong **cùng continuous take**; dub ở tốc độ khác 1×; OCR phụ đề đóng cứng; nhập bằng URL; bảng xếp hạng công khai; chia sẻ cộng đồng; hội thoại AI tự do; clone giọng. **Thu đè lại một đoạn trong chế độ segment** thuộc phạm vi Gate A (KAI-042), không phải Gate C. Nghe chậm khi chuẩn bị có thể hỗ trợ, nhưng khi đang thu phải 1×.
+Đóng vai; tách sạch lời khỏi nhạc bằng AI; nhận diện nhân vật tự động; pause/resume liền mạch trong **cùng continuous take**; dub ở tốc độ khác 1×; **OCR phụ đề đóng cứng** (khác v2 ASR audio); nhập bằng URL; bảng xếp hạng công khai; chia sẻ cộng đồng; hội thoại AI tự do; clone giọng. **Thu đè lại một đoạn trong chế độ segment** thuộc phạm vi Gate A (KAI-042), không phải Gate C. Nghe chậm khi chuẩn bị có thể hỗ trợ, nhưng khi đang thu phải 1×.
 
 ### 3.4 Giới hạn pilot đề xuất
 
@@ -162,7 +166,7 @@ Tất cả route dưới `/api/kaiwa`, dùng session hiện tại và kiểm tra
 | Upload | `POST /uploads`, `PUT /uploads/:id/chunks/:index`, `GET /uploads/:id`, `POST /uploads/:id/complete`, `DELETE /uploads/:id` | Hạn mức, checksum, thứ tự, resume, hoàn tất một lần |
 | Media | `GET /assets/:id/content` | Private stream, HTTP Range/HEAD, đúng MIME, chống truy cập chéo |
 | Lời thoại | `GET/PUT /projects/:id/draft`, `POST /projects/:id/revisions` | Lưu nháp, optimistic concurrency, snapshot sau duyệt |
-| Tự động hóa | `POST /projects/:id/transcriptions`, `POST /projects/:id/translations` | Job có version và source revision; không đè bản chỉnh tay mới hơn |
+| Tự động hóa | `POST /projects/:id/transcriptions`, `POST /projects/:id/translations`, **`POST /projects/:id/script-align` (v1 ADR-020)** | Job có version và source revision; không đè bản chỉnh tay mới hơn; draft only |
 | Thu | `POST /projects/:id/attempts`, `PUT /attempts/:id/chunks/:index`, `GET /attempts/:id/upload-state`, `POST /attempts/:id/finalize` | Thuộc owner, timeline metadata, checksum, finalize idempotent |
 | Kết quả | `GET/DELETE /attempts/:id`, `GET /projects/:id/attempts` | Trả trạng thái thật, bảo toàn take cũ |
 | Phân tích | `POST /attempts/:id/assessments`, `GET /attempts/:id/assessments` | Chỉ phân tích audio hợp lệ; không chấm lại tự động mỗi lần mở trang |
@@ -281,11 +285,14 @@ Các con số sau là mục tiêu ban đầu cần KAI-002/KAI-004 xác nhận, 
 3. Chuẩn bị nội dung: KAI-013–016; provider tự động không chặn đường nhập tay.
 4. Phòng thu liên tục + xuất (đã có): KAI-017–022.
 4b. **Studio theo đoạn + overlay (ADR-019):** KAI-036–047 — ưu tiên trước khi Gate A ACCEPTED.
+4c. **Auto phụ đề (ADR-020):** KAI-050–055 = v1 script-sync; KAI-056–058 = v2 ASR. Không chặn KAI-046. Spec: `evidence/kai-050/AUTO-SUBTITLE-SPEC.md`.
 5. Nhánh chấm điểm: KAI-023–029 dựa vào kết quả nghiên cứu, bắt đầu benchmark sớm để tránh dồn cuối.
 6. Tiến độ, vận hành, kiểm thử và bàn giao: KAI-030–034 (CHECKLIST cập nhật mode segment).
 7. Chỉ sau B mới lập chi tiết vai nhân vật: KAI-035.
 
-Đường găng mốc A (cập nhật): … → continuous stack → **segment studio speakable** → device QA cả hai mode (segment bắt buộc) → Gate A ACCEPTED. Đường găng mốc B: rubric và dữ liệu → ground truth → alignment/quality → pronunciation/prosody → hiệu chỉnh → đánh giá giữ lại.
+Đường găng mốc A (cập nhật): … → continuous stack → **segment studio speakable** → device QA cả hai mode (segment bắt buộc) → Gate A ACCEPTED.  
+Đường găng **auto phụ đề v1**: KAI-050 spec → ingest → spike align → job → UI → honesty QA.  
+Đường găng mốc B: rubric và dữ liệu → ground truth → alignment/quality → pronunciation/prosody → hiệu chỉnh → đánh giá giữ lại.
 
 Ước lượng lịch chỉ nên chốt sau spike capture và thử engine. Tách công sức phát triển, kiểm thử thiết bị, thời gian biên soạn/duyệt tiếng Nhật và thời gian chờ quyền truy cập dịch vụ; không gộp chúng thành một lời hứa “làm xong trong vài ngày”.
 

@@ -628,3 +628,50 @@ Do not start Gate C role-play early. Do not invent pronunciation scores. Do not 
 ### Related Files
 
 `docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, `docs/kaiwa/evidence/kai-004/UX-SPEC.md`, ADR-011
+
+---
+
+## ADR-020 ? Auto subtitle timing: script-sync (v1) then ASR (v2)
+
+Date: 2026-09-18
+Status: Accepted (product direction from user; **implementation = KAI-050+**, not started)
+
+### Context
+
+Manual timed subtitles (SRT/VTT / editor, KAI-013) work for Gate A speakable studio, but learners still spend heavy effort setting start/end per line. User request (2026-09-18):
+
+1. **v1.0 ? Script sync:** Upload video + provide **untimed** dialogue text (not necessarily SRT/VTT) ? system assigns times by matching text to speech in the video.
+2. **v2.0 ? Auto transcript:** Upload video only ? system produces timed subtitles (ASR) without a user script.
+
+Existing KAI-015 is a **not_configured stub**; live ASR/align adapters were deferred pending credentials. ADR-012 (immutable revisions) and ADR-014 (no fake scores; manual path without providers) still apply.
+
+### Decision
+
+1. Ship as a **new product milestone** after Gate A speakable path is usable; **do not block** Gate A ACCEPTED / KAI-046 device sign-off.
+2. **v1 before v2.** v1 keeps human-authored words (higher trust for dubbing) and only automates **timing**. v2 adds full ASR text+timing.
+3. **Both paths write draft revisions only.** User must review/edit in the existing transcript editor before publish / start-practice. Never silently overwrite a newer manual draft (KAI-015 rule).
+4. **Technical shape for v1:** extract reference audio (ffmpeg) ? **forced alignment** or **ASR word timestamps + text alignment** against the supplied script ? emit `segments[]` with `startMs`/`endMs`. Preferred spike candidates documented in the auto-subtitle spec; vendor not locked until KAI-052 spike PASS.
+5. **Technical shape for v2:** ASR with word/segment timestamps ? sentence segmentation ? same draft review UI. Extends live KAI-015 transcription adapter.
+6. **Honesty:** UI labels `source=manual | script_align | asr`; confidence/uncertain flags on weak windows; never claim teacher verified. Timing errors ? user fix, not fake perfect sync.
+7. **Privacy:** opt-in before audio leaves the machine; disclose provider; no audio/transcript in normal logs (ADR-015).
+8. Manual SRT/VTT/editor remains the **always-available** path when credentials or jobs fail.
+
+### Reason
+
+Dubbing needs reliable cue windows. Automating timing (v1) unlocks segment studio for scripts that already exist as plain text. Full ASR (v2) is harder (errors invent wrong words) and must stay reviewable.
+
+### Consequences
+
+Backlog **KAI-050?058**. Update `docs/kaiwa/PLAN.md`, TASKS, USAGE. Spike (KAI-052) may change provider choice; update this ADR only if product shape changes.
+
+### Do Not
+
+- Do not invent timed subtitles client-side without audio analysis.
+- Do not skip draft review / auto-publish into practice snapshots.
+- Do not treat ASR confidence as pronunciation score (ADR-014).
+- Do not replace Gate B pronunciation work with this feature.
+- Do not start Gate C role-play from this ADR.
+
+### Related Files
+
+`docs/kaiwa/evidence/kai-050/AUTO-SUBTITLE-SPEC.md`, `docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, ADR-012, ADR-014, ADR-015, KAI-013/015

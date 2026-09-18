@@ -2,9 +2,7 @@
 
 Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION-RULES.md](./IMPLEMENTATION-RULES.md).
 
-Ngày cập nhật: 18/09/2026. Mốc A: **chờ studio theo đoạn (KAI-036+) rồi device**. Mốc B: chưa bắt đầu.
-
-KAI-001–016, KAI-016–022, KAI-024–029, KAI-030a, KAI-031–032 DONE; KAI-015 stub DONE. KAI-033 packaging DONE / device PENDING. **ADR-019:** Gate A speakable = KAI-036–047 (segment studio) trước khi ACCEPTED.
+Ngày cập nhật: 18/09/2026. Mốc A: device PENDING (KAI-046). **ADR-020:** auto phụ đề v1/v2 = KAI-050–058 (spec DONE; code chưa).
 
 ## Cách đọc
 
@@ -129,18 +127,38 @@ Thứ tự gợi ý: **KAI-036 → 037 → 038 → 039 → 040** (đường găn
 | --- | --- | --- | --- | --- |
 | KAI-035 · L · PM/Media/Speech | Lập đặc tả đóng vai một nhân vật: speaker annotation, giữ lời vai còn lại, overlap và giới hạn tách nguồn | Gate B | Kế hoạch riêng dùng lại asset/revision/attempt; thử khả năng giữ lời người khác trước khi hứa sản phẩm; không cài đặt như điều kiện ngầm của bản đầu | TODO |
 
-## 9. Checklist task đang làm
+## 9. Auto phụ đề — script sync v1 rồi ASR v2 (ADR-020)
+
+Phát sinh từ yêu cầu 18/09/2026: phụ đề tay đã OK; muốn (v1) video + lời **không timeline** → tự gắn thời gian theo tiếng trong video; (v2) chỉ video → tự tạo phụ đề. Spec: [`evidence/kai-050/AUTO-SUBTITLE-SPEC.md`](./evidence/kai-050/AUTO-SUBTITLE-SPEC.md).
+
+**Không** thay Gate A device (KAI-046). **Không** bỏ đường SRT/VTT/soạn tay. Kết quả máy = **draft** phải duyệt (ADR-012/014).
+
+| ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
+| --- | --- | --- | --- | --- |
+| KAI-050 · M · PM/Architect | ADR-020 + AUTO-SUBTITLE-SPEC + cập nhật PLAN/TASKS/USAGE pointer | User request | Spec có wireflow v1/v2, API, honesty, spike candidates, DoD | DONE |
+| KAI-051 · M · Backend/Frontend | Ingest script không timeline: paste + `.txt`; normalize → candidate lines | KAI-013, KAI-050 | UTF-8; strip markup; tách dòng/câu ổn định; test ownership | TODO |
+| KAI-052 · L · Speech/Media | Spike forced-align / Whisper-timestamps+match trên fixture JA ngắn | KAI-050, ffmpeg | Báo cáo engine chọn; đo lệch thời gian; ghi credential/local; không khóa vendor nếu fail | TODO |
+| KAI-053 · L · Backend | Job `align_script`: extract audio → align → ghi draft revision + metadata source | KAI-007, KAI-051, KAI-052 | Idempotent; không đè draft mới hơn; uncertain flags; 409 conflict | TODO |
+| KAI-054 · M · Frontend | UI “Đồng bộ lời thoại với video”: opt-in, progress, mở editor với draft | KAI-053, KAI-013 | User sửa được trước publish; copy VI theo spec | TODO |
+| KAI-055 · S · QA/Docs | Honesty + privacy + USAGE v1; capability `scriptAlign` | KAI-054, KAI-015 | Manual fallback khi not_configured; không auto-publish | TODO |
+| KAI-056 · L · Speech/Backend | Live ASR adapter cho `POST …/transcriptions` (v2) | KAI-015, KAI-052 | Draft text+times; capability ready khi có key; 503 khi thiếu | TODO |
+| KAI-057 · M · Frontend | UI “Tự tạo phụ đề từ video” + banner rủi ro sai chữ | KAI-056 | Cùng editor review; không bỏ qua bước duyệt | TODO |
+| KAI-058 · S · Docs | USAGE + release notes v1/v2 auto phụ đề | KAI-055, KAI-057 | Tài liệu khớp; không hứa OCR hardsub | TODO |
+
+Thứ tự: **050 → 051 → 052 → 053 → 054 → 055** (= **v1.0**); rồi **056 → 057 → 058** (= **v2.0**). Spike 052 có thể BLOCKED nếu thiếu ffmpeg/credential — ghi rõ, vẫn giữ manual path.
+
+## 10. Checklist task đang làm
 
 ```text
-Task: KAI-046 — Device matrix Chrome/Edge segment full flow (human)
-Trạng thái: BLOCKED — cần người thật điền CHECKLIST
-Phụ thuộc: KAI-045 DONE; KAI-047 DONE
+Task: KAI-050 DONE (spec). Next implementable: KAI-051 (sau khi user duyệt bắt đầu code).
+Song song: KAI-046 human device Gate A vẫn BLOCKED.
 ```
 
-## 10. Nhật ký tiến trình
+## 11. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | ADR-020 + KAI-050 auto-subtitle spec/plan (v1 script-sync, v2 ASR) | Docs only | User duyệt → KAI-051 hoặc tiếp KAI-046 |
 | 18/09/2026 | KAI-048 segment countdown 3-2-1 + mute video while recording | build OK; UI test | KAI-046 device |
 | 18/09/2026 | Gate A preflight OK; CHECKLIST §0 filled; KAI-046 DEVICE-RUNBOOK | `npm test` **110/110**; preflight OK | Human Chrome/Edge §2 |
 | 18/09/2026 | KAI-045 checklist/preflight + KAI-047 USAGE/release dual-mode | content checks OK; `npm test` | KAI-046 human device |
@@ -179,7 +197,7 @@ Phụ thuộc: KAI-045 DONE; KAI-047 DONE
 | 17/09/2026 | KAI-010 passthrough proxy + identity timeline; source immutable; probe gate | `npx tsx --test tests/kaiwa/*.test.ts` **17/17**; evidence `docs/kaiwa/evidence/kai-010/REPORT.md` | KAI-011 UI upload/library |
 | 17/09/2026 | Tạo plan/backlog/rules; xác định lồng tiếng liên tục là ưu tiên; tách gate A/B/C | Đọc stack/middleware/backup hiện tại và tài liệu media/pronunciation; chưa chạy hoặc triển khai module | KAI-001 rồi KAI-002; khởi động nghiên cứu KAI-003 sớm |
 
-## 11. Điều kiện bên ngoài cần quản lý
+## 12. Điều kiện bên ngoài cần quản lý
 
 - Provider/credentials và ngân sách: chỉ chặn live test phụ thuộc dịch vụ, không chặn upload, transcript thủ công, thu và export.
 - Người duyệt tiếng Nhật và dữ liệu có quyền sử dụng: cần cho benchmark và gate B. Nội dung chưa duyệt không được đổi nhãn thành verified.

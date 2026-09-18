@@ -20,7 +20,7 @@ Align: PLAN §4, §8.2; DESIGN.md; UX-CONTRACT.md; ADR-011 (no role-play yet)
 | `/kaiwa` | Private library | Search; open project; New |
 | `/kaiwa/new` | Upload | Pick file; progress; cancel/retry |
 | `/kaiwa/projects/:id` | Project hub | Prep status; start practice; open edit |
-| `/kaiwa/projects/:id/edit` | Transcript editor | SRT/VTT/manual; timings; JA/reading/VI |
+| `/kaiwa/projects/:id/edit` | Transcript editor | SRT/VTT/manual; timings; JA/reading/VI; **planned:** script-align v1 / ASR v2 (ADR-020 / KAI-050+) |
 | `/kaiwa/projects/:id/studio` | Continuous studio | Preflight → countdown → record → finalize |
 | `/kaiwa/attempts/:id` | Review take | Mix gains; A/B segment; export; re-practice |
 | `/kaiwa/history` | History | By day/video; speaking time; assessment status |

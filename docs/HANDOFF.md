@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-049 polish; **waiting on you for KAI-046**)
+2026-09-18 (ADR-020 / KAI-050 auto-subtitle plan; awaiting approve to code)
 
 ## Current Branch
 
@@ -10,25 +10,28 @@
 
 ## Current Task
 
-**KAI-046** — Human device sign-off only remaining Gate A task.
+**Planning DONE:** Auto phụ đề v1/v2 (ADR-020, KAI-050).  
+**Blocked human:** KAI-046 device.  
+**Next code (needs your go-ahead):** **KAI-051** untimed script ingest.
 
 ## Exact Next Action
 
-**Human:** reload app, retest Thu đoạn (3-2-1 + mute), fill `CHECKLIST.md` §1–§2–§5 per `evidence/kai-046/DEVICE-RUNBOOK.md`.
-
-Agent has **no further READY automated Kaiwa coding tasks** until device feedback or Gate B approval (KAI-023).
+1. Read `docs/kaiwa/evidence/kai-050/AUTO-SUBTITLE-SPEC.md` + ADR-020.
+2. Approve starting **KAI-051** (v1) — or continue KAI-046 device testing first.
+3. Do **not** start KAI-052 spike without ffmpeg and/or provider decision from the spike brief.
 
 ## Last Completed
 
-- KAI-048 segment countdown + mute
-- KAI-049 continuous overlay countdown + docs/checklist §5b
+- KAI-050: ADR-020 + AUTO-SUBTITLE-SPEC + PLAN/TASKS updates (docs only).
+- Prior: speakable studio KAI-036–049; Gate A automated preflight.
 
 ## Blockers
 
-- KAI-046 human-only
-- Gate B: approve KAI-023 to start
+- KAI-046 human device for Gate A ACCEPTED.
+- Auto subtitle **implementation** waits explicit approve (new milestone).
+- Live align/ASR needs credentials and/or local model (KAI-052).
 
 ## Safety
 
 - Do not stage grammar dirty files.
-- Do not claim Gate A ACCEPTED without signed checklist.
+- Do not implement auto-subtitle until user approves KAI-051+.
