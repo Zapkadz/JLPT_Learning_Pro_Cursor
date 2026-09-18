@@ -179,21 +179,23 @@ Tham chiếu UX: Subtitle Edit plain-text + Point Sync; engine bake-off: Qwen3-F
 | KAI-073 · L · Frontend | Waveform kéo start/end; khóa mốc; căn lại selection / giữa hai khóa; preview+undo | KAI-070, KAI-072 | 25/30 đúng giữ nguyên khi chỉ sửa 5 câu | DONE |
 | KAI-074 · M · Speech | Tách speech timing vs practice padding/overlay early-show (config + docs) | KAI-065, KAI-072 | Transcript end ≠ kéo tới câu kế | DONE |
 | KAI-075 · M · Ops | Capability `ready` cần smoke inference model (không chỉ import); tài liệu máy CPU | KAI-070 | speech-env/capability khớp | DONE |
-| KAI-076 · L · QA | **Đợt 6 — held-out / anime user** (ngoài git): đo phút sửa / phút video; không trộn BGM nặng vào average | KAI-070–073 | Evidence; v2 vẫn sau | BLOCKED |
+| KAI-076 · L · QA | **Đợt 6 — held-out / anime user** (ngoài git): đo phút sửa / phút video; không trộn BGM nặng vào average | KAI-070–073 | Evidence; v2 vẫn sau | PARTIAL |
 
 Thứ tự cứng: **065 → 066 → (067∥068∥069) → 070 → 071/072/074 → 073 → 075 → 076**. V2 ASR không chen trước 066 trừ khi user override.
 
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-075 DONE (align smoke for ready). Next READY: KAI-076 held-out anime (user media ngoài git — BLOCKED until user provides).
-Gate A: ACCEPTED. V2 ASR: tạm dừng ưu tiên.
+Task: KAI-076 PARTIAL (scaffold/runbook DONE; user measurements PENDING).
+Forced-align v1 coding path KAI-065–075 DONE.
+Next product milestone to approve: Gate B prep (KAI-023+) — do not start without user OK.
 ```
 
 ## 11. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-076 held-out scaffold (runbook/template/npm script; Win encoding fix) | `npm test` **137/137**; evidence PENDING | User fills results OR approve Gate B |
 | 18/09/2026 | KAI-075 align smoke gate + CPU notes | `npm test` **136/136**; build OK | KAI-076 held-out (user) |
 | 18/09/2026 | KAI-073 waveform lock realign undo | `npm test` **135/135**; build OK | KAI-075 smoke |
 | 18/09/2026 | KAI-074 speech vs practice/overlay padding | `npm test` **131/131**; build OK | KAI-073 waveform |

@@ -26,8 +26,8 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Detailed backlog / dependency graph | `docs/kaiwa/TASKS.md` |
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
-| **Current executable task** | **KAI-076** held-out anime evidence (**BLOCKED** — user media ngoài git) |
-| Do not start | **KAI-035** before Gate B; **v2 ASR push** before KAI-066+ bake-off unless user overrides |
+| **Current executable task** | **KAI-076 PARTIAL** (user evidence PENDING) — **or** approve **Gate B / KAI-023** |
+| Do not start | **KAI-035** before Gate B; inventing anime quality claims; committing private media |
 
 ### Phase overview (detail in `docs/kaiwa/TASKS.md`)
 
@@ -39,7 +39,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Full-video record / review / export | KAI-017–022 | Continuous capture, takes, MP4 export |
 | **Speakable studio (ADR-019)** | **KAI-036–047** | **DONE** — Gate A ACCEPTED (KAI-046) |
 | **Auto subtitle (ADR-020)** | **KAI-050–058** | **DONE** (v1 script-sync + v2 ASR pilot) |
-| **Forced-align v1 redesign (ADR-021)** | **KAI-065–076** | **IN_PROGRESS** — đợt 1 KAI-065 |
+| **Forced-align v1 redesign (ADR-021)** | **KAI-065–076** | **KAI-065–075 DONE**; **KAI-076 PARTIAL** (scaffold; user evidence pending) |
 | Japanese assessment | KAI-023–029 | Evidence-based scoring (no fake metrics) |
 | Progress / ops / QA / gates | KAI-030–034 | Gate A then Gate B |
 | Later planning only | KAI-035 | Character role-play — after Gate B |
