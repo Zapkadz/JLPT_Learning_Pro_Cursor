@@ -37,7 +37,7 @@ Ngày: 2026-09-18 · ADR-019: **thu theo đoạn là mặc định**. Thu liên 
 | Chữ hiển thị (v2) | Đến từ ASR — **có thể sai**; phải sửa tay |
 | `transcription` / `scriptAlign` `not_configured` | Thông báo trung thực; đường thủ công vẫn dùng |
 
-Cấu hình pilot: `FFMPEG_PATH` (hoặc `KAIWA_FFMPEG_PATH`), Python + `faster-whisper`; tùy chọn `KAIWA_WHISPER_MODEL` (mặc định `base`), `KAIWA_PYTHON`. Kiểm thử: `KAIWA_SCRIPT_ALIGN_ENGINE=mock` / `KAIWA_ASR_ENGINE=mock` (không dùng production claim).
+Cấu hình pilot: `FFMPEG_PATH` (hoặc `KAIWA_FFMPEG_PATH`), Python + `faster-whisper`; tùy chọn `KAIWA_WHISPER_MODEL` (mặc định `base`), `KAIWA_PYTHON`. Kiểm env: `npm run kaiwa:speech-env`. Kiểm thử: `KAIWA_SCRIPT_ALIGN_ENGINE=mock` / `KAIWA_ASR_ENGINE=mock` (không dùng production claim).
 
 ## Chấm điểm phát âm
 

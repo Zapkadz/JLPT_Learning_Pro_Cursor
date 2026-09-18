@@ -158,11 +158,12 @@ Phát sinh từ device: (1) nút đồng bộ «không chọn được» sau Áp
 | KAI-061 · M · Speech | Cải thiện script-align: model mặc định tốt hơn, match/padding, báo uncertain rõ | KAI-053 | Đo lại trên fixture; USAGE nói giới hạn anime/BGM | DONE |
 | KAI-062 · M · Speech | Cải thiện ASR v2: model/VAD/segment; fail rõ khi 0 câu; không hứa anime sạch | KAI-056 | Empty ASR → 422 rõ; model mặc định nâng; USAGE honesty | DONE |
 | KAI-063 · S · Speech | Script-align: kéo end vào khoảng lặng trước dòng kế (Whisper cắt sớm) | KAI-061 | Spike median \|Δend\| ↓ vs §3b; sidecar + spike cùng logic | DONE |
+| KAI-064 · S · Ops/QA | Script `kaiwa:speech-env` xác nhận ffmpeg + faster-whisper → capability ready | KAI-055, KAI-058 | Lệnh in ready/not_configured; runbook nhắc restart terminal | DONE |
 
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-059–062 DONE (sync UX + overlay help + Whisper base quality).
+Task: KAI-064 DONE (speech-env check). KAI-059–063 quality DONE.
 Song song: KAI-046 human device Gate A vẫn BLOCKED.
 ```
 
@@ -170,6 +171,7 @@ Song song: KAI-046 human device Gate A vẫn BLOCKED.
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-064 `npm run kaiwa:speech-env` (ffmpeg+Whisper ready check) | exit 0 trên máy này; runbook cập nhật | KAI-046 device |
 | 18/09/2026 | KAI-063 end-stretch align (Whisper cắt sớm) | spike median Δend **568 ms** (was 952); REPORT §3c | KAI-046 / user re-test anime |
 | 18/09/2026 | KAI-061 re-measure spike với Whisper `base` | median Δstart **28 ms** (TTS); REPORT §3b | KAI-046 / user re-test anime |
 | 18/09/2026 | KAI-059–062 sync UX, furigana/vi hints, Whisper `base`, ASR empty 422 | `npm test` **120/120** | KAI-046 device / thử lại sync trên anime |

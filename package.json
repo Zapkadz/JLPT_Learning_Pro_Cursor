@@ -13,6 +13,7 @@
     "format:check": "prettier --check src server shared tests *.json *.md",
     "backup": "tsx server/backup.ts",
     "kaiwa:gate-a-preflight": "tsx scripts/kaiwa-gate-a-preflight.mts",
+    "kaiwa:speech-env": "tsx scripts/kaiwa-speech-env-check.mts",
     "kaiwa:capture-spike": "node scripts/kaiwa/run-capture-spike.mjs",
     "kaiwa:worker": "tsx server/workers/kaiwa/worker.ts"
   },

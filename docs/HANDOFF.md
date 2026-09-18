@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-063 end-stretch; agent parked on KAI-046)
+2026-09-18 (KAI-064 speech-env ready; parked on KAI-046)
 
 ## Current Branch
 
@@ -11,18 +11,19 @@
 ## Current Task
 
 **Blocked human:** **KAI-046** Gate A device.  
-No READY autonomous code task after KAI-063.
+No READY autonomous code task after KAI-064.
 
 ## Exact Next Action
 
-1. **You:** re-test sync on anime (Áp dụng → Đồng bộ); windows should cover more of each line.
-2. **You:** run Gate A DEVICE-RUNBOOK Chrome+Edge §2.
-3. Do not start Gate B (KAI-023) without approval.
+1. **You:** restart terminal → `npm run kaiwa:speech-env` (expect ready) → `npm run dev`.
+2. **You:** re-test sync (Áp dụng → Đồng bộ) / optional ASR smoke.
+3. **You:** CHECKLIST §2 Chrome rồi Edge → §5 sign-off.
+4. Do not start Gate B (KAI-023) without approval.
 
 ## Last Completed
 
-- **KAI-063:** stretch script-align ends into silence before next line; spike median |Δend| **568 ms** (was 952). See `evidence/kai-052/REPORT.md` §3c.
-- Prior: KAI-059–062 sync UX / furigana / Whisper `base` / ASR 422.
+- **KAI-064:** `npm run kaiwa:speech-env` — máy này `scriptAlign` + `transcription` = **ready** (ffmpeg + Whisper `base`).
+- Prior: KAI-063 end-stretch; KAI-059–062 UX/quality.
 
 ## Blockers
 

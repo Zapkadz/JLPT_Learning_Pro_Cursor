@@ -6,9 +6,10 @@ Dành cho người chạy Chrome/Edge. **Không** commit bản thu cá nhân / v
 
 1. `git checkout feat/kaiwa-memory && git pull`
 2. `npm run kaiwa:gate-a-preflight` — §0 checklist phải PASS.
-3. `npm run dev` (hoặc quy trình chạy app local của bạn).
-4. Đăng nhập tài khoản thử; dùng video ngắn **hợp pháp** / fixture.
-5. (Khuyến nghị) Cài ffmpeg + set `FFMPEG_PATH` nếu muốn thử đồng bộ script / ASR; **không** bắt buộc để PASS Gate A speakable (SRT/tay đủ).
+3. (Tuỳ chọn sync/ASR) `npm run kaiwa:speech-env` — cần in `scriptAlign: ready` / `transcription: ready`. Thiếu thì WinGet `Gyan.FFmpeg` + `pip install faster-whisper`, set User `FFMPEG_PATH`, **restart terminal** rồi `npm run dev`.
+4. `npm run dev` (hoặc quy trình chạy app local của bạn).
+5. Đăng nhập tài khoản thử; dùng video ngắn **hợp pháp** / fixture.
+6. Đồng bộ script / ASR **không** bắt buộc để PASS Gate A speakable (SRT/tay đủ).
 
 ## Chrome (Windows) — bắt buộc
 
