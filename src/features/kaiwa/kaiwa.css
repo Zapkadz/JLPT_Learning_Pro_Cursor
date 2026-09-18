@@ -423,6 +423,8 @@
   opacity: 0.75;
   line-height: 1.35;
 }
+
+.kaiwa-script-overlay {
   position: absolute;
   left: 0;
   right: 0;
