@@ -439,6 +439,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | Gate A preflight + §0 fill + device runbook | **110/110**; preflight OK | `evidence/kai-033/`, `kai-046/` |
 | 2026-09-18 | KAI-045/047 Gate A docs dual-mode | checklist content OK; suite at KAI-044 **110/110** | `evidence/kai-045/`, `kai-047/` |
 | 2026-09-18 | KAI-044 review segment status | **110/110** npm test; build OK | `docs/kaiwa/evidence/kai-044/REPORT.md` |
 | 2026-09-18 | KAI-043 subset + resume | **109/109** npm test; build OK | `docs/kaiwa/evidence/kai-043/REPORT.md` |
