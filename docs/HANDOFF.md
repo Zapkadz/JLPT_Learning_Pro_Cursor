@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-071 windowed align DONE)
+2026-09-18 (KAI-074 practice padding DONE)
 
 ## Current Branch
 
@@ -10,17 +10,19 @@
 
 ## Current Task
 
-**Next READY:** **KAI-074** (speech timing vs practice padding) — then **KAI-073** waveform editor.
+**Next READY:** **KAI-073** (waveform drag / lock / realign) — large frontend task.
 
 ## Exact Next Action
 
-1. KAI-074: separate speech end from practice/overlay padding (config + docs); never stretch transcript end to next line.
-2. Exclude grammar WIP / sqlite from Kaiwa commits.
+1. KAI-073: waveform start/end drag, lock line, realign selection / between locks, preview+undo.
+2. Then KAI-075 capability smoke; KAI-076 held-out anime (out of git).
+3. Exclude grammar WIP / sqlite from Kaiwa commits.
 
 ## Last Completed
 
-- **KAI-072:** editor/studio unmatched honesty (`cb8cb1b`).
-- **KAI-071:** overlapping time windows + skip failed windows + optional anchors; evidence `docs/kaiwa/evidence/kai-071/REPORT.md`.
+- **KAI-072** unmatched editor/studio honesty
+- **KAI-071** windowed long align
+- **KAI-074** speech vs practice/overlay padding (`docs/kaiwa/evidence/kai-074/REPORT.md`)
 
 ## Blockers
 

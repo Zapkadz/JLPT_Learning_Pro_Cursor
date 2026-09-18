@@ -56,6 +56,12 @@ export const kaiwaSegmentSchema = z.object({
     .optional(),
   /** Machine reason for needs_review / unmatched (not a calibrated %). */
   timingReason: z.string().max(200).optional(),
+  /**
+   * KAI-074: explicit speech span when start/end are kept as the editable cue.
+   * Prefer these for “true speech”; practice padding is UI-only (see practiceTiming.ts).
+   */
+  speechStartMs: z.number().int().nonnegative().optional(),
+  speechEndMs: z.number().int().positive().optional(),
 });
 
 export const kaiwaRevisionPayloadSchema = z.object({

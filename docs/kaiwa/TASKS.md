@@ -177,7 +177,7 @@ Tham chiếu UX: Subtitle Edit plain-text + Point Sync; engine bake-off: Qwen3-F
 | KAI-071 · M · Backend | Cửa sổ video dài + overlap; dừng áp dụng cửa sổ fail; optional anchor đầu/cuối vùng | KAI-070 | Không chia đều theo số chữ; lỗi một cửa sổ không lan im lặng | DONE |
 | KAI-072 · M · Frontend | Editor: nghe + context; filter unmatched/needs_review; banner trạng thái từng câu | KAI-065 | UI trung thực; studio không dùng unmatched làm cửa sổ thu mặc định | DONE |
 | KAI-073 · L · Frontend | Waveform kéo start/end; khóa mốc; căn lại selection / giữa hai khóa; preview+undo | KAI-070, KAI-072 | 25/30 đúng giữ nguyên khi chỉ sửa 5 câu | TODO |
-| KAI-074 · M · Speech | Tách speech timing vs practice padding/overlay early-show (config + docs) | KAI-065, KAI-072 | Transcript end ≠ kéo tới câu kế | TODO |
+| KAI-074 · M · Speech | Tách speech timing vs practice padding/overlay early-show (config + docs) | KAI-065, KAI-072 | Transcript end ≠ kéo tới câu kế | DONE |
 | KAI-075 · M · Ops | Capability `ready` cần smoke inference model (không chỉ import); tài liệu máy CPU | KAI-070 | speech-env/capability khớp | TODO |
 | KAI-076 · L · QA | **Đợt 6 — held-out / anime user** (ngoài git): đo phút sửa / phút video; không trộn BGM nặng vào average | KAI-070–073 | Evidence; v2 vẫn sau | TODO |
 
@@ -186,7 +186,7 @@ Thứ tự cứng: **065 → 066 → (067∥068∥069) → 070 → 071/072/074 �
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-071 DONE (windowed long align). Next READY: KAI-074 speech vs practice padding (then KAI-073 waveform).
+Task: KAI-074 DONE (speech vs practice padding). Next READY: KAI-073 waveform editor.
 Gate A: ACCEPTED. V2 ASR: tạm dừng ưu tiên.
 ```
 
@@ -194,6 +194,7 @@ Gate A: ACCEPTED. V2 ASR: tạm dừng ưu tiên.
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-074 speech vs practice/overlay padding | `npm test` **131/131**; build OK | KAI-073 waveform |
 | 18/09/2026 | KAI-071 windowed long-video align + anchors | `npm test` **128/128**; build OK | KAI-074 padding |
 | 18/09/2026 | KAI-072 editor/studio unmatched filter + nghe ngữ cảnh | `npm test` **123/123**; build OK | KAI-071 windowing |
 | 18/09/2026 | KAI-070 integrate stable-ts default (+ qwen_fa/whisper flags) | `npm test` **122/122**; speech-env stable-ts ready | KAI-071 / KAI-072 |

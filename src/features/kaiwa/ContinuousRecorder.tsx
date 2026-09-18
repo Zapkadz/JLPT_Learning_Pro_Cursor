@@ -13,9 +13,10 @@ import {
   type ChunkJournal,
 } from "./chunkJournal";
 import { assembleAndFinalize, syncJournalToServer } from "./attemptUpload";
-import { currentAndNext } from "../../../shared/kaiwa/liveOverlay";
+import { currentAndNext, segmentsForOverlay } from "../../../shared/kaiwa/liveOverlay";
 import type { KaiwaSegment } from "../../../shared/kaiwa/types";
 import { isSpeakableSegment } from "../../../shared/kaiwa/timingStatus";
+import { DEFAULT_PRACTICE_TIMING } from "../../../shared/kaiwa/practiceTiming";
 import { ScriptHelpLayers, type HelpPrefs } from "./ScriptHelpLayers";
 
 type Props = {
@@ -64,10 +65,21 @@ export function ContinuousRecorder({
     [segments],
   );
 
-  const overlay = useMemo(
-    () => currentAndNext(speakableSegments, tMs),
-    [speakableSegments, tMs],
+  const overlaySegments = useMemo(
+    () => segmentsForOverlay(speakableSegments, DEFAULT_PRACTICE_TIMING),
+    [speakableSegments],
   );
+
+  const overlay = useMemo(() => {
+    const hit = currentAndNext(overlaySegments, tMs);
+    const byId = (id: string | undefined) =>
+      id ? speakableSegments.find((s) => s.id === id) ?? null : null;
+    return {
+      current: byId(hit.current?.id),
+      next: byId(hit.next?.id),
+      index: hit.index,
+    };
+  }, [overlaySegments, speakableSegments, tMs]);
 
   function dispatch(
     event: Parameters<typeof reduceCapture>[1],

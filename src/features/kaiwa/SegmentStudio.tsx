@@ -8,6 +8,11 @@ import {
   isUnmatchedSegment,
   countTimingStatuses,
 } from "../../../shared/kaiwa/timingStatus";
+import {
+  DEFAULT_PRACTICE_TIMING,
+  practiceBounds,
+  speechBounds,
+} from "../../../shared/kaiwa/practiceTiming";
 import { ScriptHelpLayers, type HelpPrefs } from "./ScriptHelpLayers";
 
 type ClipRow = {
@@ -179,6 +184,17 @@ export function SegmentStudio({
   const seg = segments[idx] ?? null;
   const clip = seg ? clipBySeg.get(seg.id) : undefined;
   const segUnmatched = seg ? isUnmatchedSegment(seg) : false;
+  const nextSpeakable = (() => {
+    if (!seg) return null;
+    for (let i = idx + 1; i < segments.length; i++) {
+      if (isSpeakableSegment(segments[i])) return segments[i];
+    }
+    return null;
+  })();
+  const speech = seg ? speechBounds(seg) : null;
+  const practice = seg
+    ? practiceBounds(seg, nextSpeakable, DEFAULT_PRACTICE_TIMING)
+    : null;
 
   function toggleMark(segmentId: string) {
     setMarked((prev) => {
@@ -215,12 +231,12 @@ export function SegmentStudio({
 
   async function playOriginal() {
     const v = videoRef.current;
-    if (!v || !seg || recording || countdown != null) return;
+    if (!v || !seg || !practice || recording || countdown != null) return;
     setNote("Đang nghe mẫu đoạn…");
     unmuteVideoAfterTake();
-    v.currentTime = seg.startMs / 1000;
+    v.currentTime = practice.startMs / 1000;
     await v.play().catch(() => undefined);
-    const endSec = seg.endMs / 1000;
+    const endSec = practice.endMs / 1000;
     const onTime = () => {
       if (v.currentTime >= endSec - 0.05) {
         v.pause();
@@ -251,7 +267,7 @@ export function SegmentStudio({
 
   /** Tap Thu → show 3-2-1, then beginRecord. */
   function startRecord() {
-    if (!seg || recording || busy || countdown != null) return;
+    if (!seg || !practice || recording || busy || countdown != null) return;
     if (!isSpeakableSegment(seg)) {
       setError(
         "Đoạn chưa khớp thời gian — không thu được. Sửa mốc trên trang soạn rồi thử lại.",
@@ -262,7 +278,7 @@ export function SegmentStudio({
     const v = videoRef.current;
     if (v) {
       v.pause();
-      v.currentTime = Math.max(0, seg.startMs / 1000);
+      v.currentTime = Math.max(0, practice.startMs / 1000);
       muteVideoForTake();
     }
     setCountdown(3);
@@ -285,7 +301,7 @@ export function SegmentStudio({
   }, [countdown]);
 
   async function beginRecord() {
-    if (!seg || recording) return;
+    if (!seg || !practice || recording) return;
     setBusy(true);
     try {
       const stream = await openMicStream(deviceId);
@@ -300,10 +316,10 @@ export function SegmentStudio({
       };
       recorderRef.current = rec;
       const v = videoRef.current;
-      const windowMs = Math.max(200, seg.endMs - seg.startMs);
+      const windowMs = Math.max(200, practice.endMs - practice.startMs);
       muteVideoForTake();
       if (v) {
-        v.currentTime = seg.startMs / 1000;
+        v.currentTime = practice.startMs / 1000;
         v.playbackRate = 1;
         await v.play().catch(() => undefined);
       }
@@ -561,7 +577,10 @@ export function SegmentStudio({
         {seg && (
           <div className="kaiwa-script-overlay" lang="ja">
             <small>
-              {seg.startMs}ms → {seg.endMs}ms
+              lời {speech ? `${speech.startMs}→${speech.endMs}` : "—"}ms
+              {practice && speech
+                ? ` · thu ${practice.startMs}→${practice.endMs}ms`
+                : ""}
             </small>
             <ScriptHelpLayers seg={seg} prefs={prefs} compact />
           </div>

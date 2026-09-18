@@ -150,6 +150,8 @@ function draftToSegment(s: TimedLineDraft): KaiwaSegment {
     id: newSegId(),
     startMs,
     endMs,
+    speechStartMs: startMs,
+    speechEndMs: endMs,
     ja: (s.ja || "").slice(0, 4000),
     reviewState: "draft",
     assessable: true,
