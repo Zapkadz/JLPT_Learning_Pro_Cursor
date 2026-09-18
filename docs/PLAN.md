@@ -26,7 +26,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Detailed backlog / dependency graph | `docs/kaiwa/TASKS.md` |
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
-| **Current executable task** | Corpus fill / live ja-JP verify (ops) — **KAI-023 DONE**; KAI-076 PARTIAL; **not** KAI-034 yet |
+| **Current executable task** | **BLOCKED on ops:** live PA sample / corpus / KAI-076 — harnesses ready; **not** KAI-034 yet |
 | Do not start | **KAI-035** before Gate B release; inventing anime quality claims; committing private media |
 
 ### Phase overview (detail in `docs/kaiwa/TASKS.md`)
