@@ -30,6 +30,8 @@ Ngày: 2026-09-18 · ADR-019: **thu theo đoạn là mặc định**. Thu liên 
 | `scriptAlign.status = not_configured` | Hiện thông báo trung thực; **SRT/VTT / soạn tay / dán script tạm** vẫn dùng được |
 | Sau đồng bộ | Banner: *「Bản nháp máy tạo — hãy kiểm tra mốc thời gian trước khi luyện.」*; đoạn yếu có thể gắn *「Đoạn này khớp chưa chắc — nên sửa tay.」* |
 | Sau ASR (v2) | Banner: *「Bản nháp ASR từ video — chữ và mốc đều có thể sai.」*; mọi đoạn gắn uncertain |
+| Anime / BGM / chồng tiếng | Whisper local **dễ trống hoặc lệch** — ưu tiên **v1 Đồng bộ script** (có sẵn lời) hoặc SRT tay; không kỳ vọng ASR sạch trên drama/anime |
+| Model mặc định | `base` (`KAIWA_WHISPER_MODEL=small` nếu máy đủ mạnh) |
 | Publish / luyện | Chỉ sau khi bạn mở editor và chốt / start-practice — máy **không** tự publish |
 | Chữ hiển thị (v1) | Giữ **script bạn đưa**; engine chỉ gán thời gian |
 | Chữ hiển thị (v2) | Đến từ ASR — **có thể sai**; phải sửa tay |

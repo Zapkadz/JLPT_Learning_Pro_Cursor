@@ -25,6 +25,7 @@ import { useAuth } from "../../App";
 import { MicPreflightPanel } from "./MicPreflightPanel";
 import { ContinuousRecorder } from "./ContinuousRecorder";
 import { SegmentStudio } from "./SegmentStudio";
+import { ScriptHelpLayers } from "./ScriptHelpLayers";
 import "./kaiwa.css";
 
 type ProjectRow = {
@@ -632,9 +633,16 @@ export function KaiwaEdit() {
 
   async function runScriptAlign() {
     if (!id || !revision) return;
-    const text = scriptPaste.trim();
+    const fromPaste = scriptPaste.trim();
+    const fromSegments = segments
+      .map((s) => s.ja.trim())
+      .filter(Boolean)
+      .join("\n");
+    const text = fromPaste || fromSegments;
     if (!text) {
-      setMessage("Hãy dán lời thoại trước khi đồng bộ.");
+      setMessage(
+        "Hãy dán lời thoại hoặc Áp dụng lời vào danh sách đoạn trước khi đồng bộ.",
+      );
       return;
     }
     if (!alignConsent) {
@@ -884,6 +892,19 @@ export function KaiwaEdit() {
   if (loadError) return <ErrorState message={loadError} retry={loadRevision} />;
   if (!revision) return <Loading />;
 
+  const hasScriptForAlign =
+    Boolean(scriptPaste.trim()) ||
+    segments.some((s) => Boolean(s.ja.trim()));
+  const syncDisabledReason = !playbackUrl
+    ? "Cần video đã chuẩn bị (prepare media)."
+    : !hasScriptForAlign
+      ? "Cần dán lời hoặc đã có đoạn JA trong danh sách (sau «Áp dụng lời đã dán» cũng được)."
+      : !alignConsent
+        ? "Hãy tích ô xác nhận bên dưới."
+        : aligning
+          ? "Đang đồng bộ…"
+          : null;
+
   return (
     <div className="kaiwa-page">
       <PageHead
@@ -1010,7 +1031,8 @@ export function KaiwaEdit() {
           {speechCap?.scriptAlign?.status === "ready" ? (
             <>
               <p className="kaiwa-muted">
-                {speechCap.scriptAlign.messageVi}
+                {speechCap.scriptAlign.messageVi} Dùng lời trong ô dán{" "}
+                <strong>hoặc</strong> các đoạn JA đã có trong danh sách.
               </p>
               <label className="kaiwa-check">
                 <input
@@ -1018,17 +1040,18 @@ export function KaiwaEdit() {
                   checked={alignConsent}
                   onChange={(e) => setAlignConsent(e.target.checked)}
                 />
-                Tôi sẽ kiểm tra mốc thời gian sau khi máy gán (audio xử lý cục
-                bộ khi dùng Whisper; không tự publish).
+                <span>
+                  Tôi sẽ kiểm tra mốc thời gian sau khi máy gán (audio xử lý cục
+                  bộ khi dùng Whisper; không tự publish).
+                </span>
               </label>
               <button
                 type="button"
                 className="btn"
                 disabled={
                   aligning ||
-                  !scriptPaste.trim() ||
+                  !hasScriptForAlign ||
                   !alignConsent ||
-                  !revision ||
                   !playbackUrl
                 }
                 onClick={() => void runScriptAlign()}
@@ -1037,10 +1060,8 @@ export function KaiwaEdit() {
                   ? "Đang đồng bộ…"
                   : "Đồng bộ lời thoại với video (tự gán thời gian)"}
               </button>
-              {!playbackUrl && (
-                <Status tone="info">
-                  Cần video đã chuẩn bị (prepare media) trước khi đồng bộ.
-                </Status>
+              {syncDisabledReason && (
+                <Status tone="info">{syncDisabledReason}</Status>
               )}
             </>
           ) : (
@@ -1487,31 +1508,7 @@ export function KaiwaPrep() {
                 }}
               >
                 <span className="kaiwa-seg-time">{msToInput(seg.startMs)}</span>
-                <span
-                  className={`kaiwa-ruby-preview ${prefs.furigana ? "ruby-on" : "ruby-off"}`}
-                  lang="ja"
-                >
-                  {(seg.tokens?.length
-                    ? seg.tokens
-                    : [{ surface: seg.ja }]
-                  ).map((t, ti) =>
-                    t.reading && prefs.furigana ? (
-                      <ruby key={ti}>
-                        {t.surface}
-                        <rt>{t.reading}</rt>
-                      </ruby>
-                    ) : (
-                      <span key={ti}>{t.surface}</span>
-                    ),
-                  )}
-                </span>
-                {prefs.romaji && (
-                  <span className="kaiwa-romaji">
-                    {seg.tokens?.map((t) => t.romaji).filter(Boolean).join(" ") ||
-                      "—"}
-                  </span>
-                )}
-                {prefs.vi && seg.vi ? <span>{seg.vi}</span> : null}
+                <ScriptHelpLayers seg={seg} prefs={prefs} compact />
               </button>
             </li>
           ))}

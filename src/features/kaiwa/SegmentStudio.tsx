@@ -3,6 +3,7 @@ import { api, post } from "../../lib/api";
 import { Status } from "../../components/ui";
 import { openMicStream, stopStream } from "./micPreflight";
 import type { KaiwaSegment } from "../../../shared/kaiwa/types";
+import { ScriptHelpLayers, type HelpPrefs } from "./ScriptHelpLayers";
 
 type ClipRow = {
   id: string;
@@ -26,8 +27,6 @@ type ClipsPayload = {
   };
   clips: ClipRow[];
 };
-
-type HelpPrefs = { furigana: boolean; romaji: boolean; vi: boolean };
 
 type ClipFilter = "all" | "missing" | "marked";
 
@@ -516,12 +515,9 @@ export function SegmentStudio({
         {seg && (
           <div className="kaiwa-script-overlay" lang="ja">
             <small>
-              {String(seg.startMs).padStart(0)}ms → {seg.endMs}ms
+              {seg.startMs}ms → {seg.endMs}ms
             </small>
-            <div className="kaiwa-script-ja">{seg.ja || "(trống)"}</div>
-            {prefs.vi && seg.vi ? (
-              <div className="kaiwa-script-vi">{seg.vi}</div>
-            ) : null}
+            <ScriptHelpLayers seg={seg} prefs={prefs} compact />
           </div>
         )}
         {countdown != null && countdown > 0 && (

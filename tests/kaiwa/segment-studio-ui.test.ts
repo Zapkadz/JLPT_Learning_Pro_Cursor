@@ -13,6 +13,7 @@ test("segment studio UI has overlay and clip controls", () => {
     "utf8",
   );
   assert.ok(studio.includes("kaiwa-script-overlay"));
+  assert.ok(studio.includes("ScriptHelpLayers"));
   assert.ok(studio.includes("Nghe mẫu đoạn"));
   assert.ok(studio.includes("Thu đoạn này"));
   assert.ok(studio.includes("Nghe giọng mình"));

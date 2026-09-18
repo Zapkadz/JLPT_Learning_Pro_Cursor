@@ -218,7 +218,7 @@ export function createScriptAlignService(
           process.env.KAIWA_PYTHON?.trim() ||
           process.env.PYTHON?.trim() ||
           "python";
-        const model = process.env.KAIWA_WHISPER_MODEL?.trim() || "tiny";
+        const model = process.env.KAIWA_WHISPER_MODEL?.trim() || "base";
         segments = whisperAlign({
           ffmpeg,
           videoPath,

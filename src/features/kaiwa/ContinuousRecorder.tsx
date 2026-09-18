@@ -15,8 +15,7 @@ import {
 import { assembleAndFinalize, syncJournalToServer } from "./attemptUpload";
 import { currentAndNext } from "../../../shared/kaiwa/liveOverlay";
 import type { KaiwaSegment } from "../../../shared/kaiwa/types";
-
-type HelpPrefs = { furigana: boolean; romaji: boolean; vi: boolean };
+import { ScriptHelpLayers, type HelpPrefs } from "./ScriptHelpLayers";
 
 type Props = {
   attemptId: string;
@@ -318,14 +317,7 @@ export function ContinuousRecorder({
           {(overlay.current || overlay.next) && (
             <div className="kaiwa-script-overlay" lang="ja">
               {overlay.current ? (
-                <>
-                  <div className="kaiwa-script-ja">
-                    {overlay.current.ja || "(trống)"}
-                  </div>
-                  {prefs.vi && overlay.current.vi ? (
-                    <div className="kaiwa-script-vi">{overlay.current.vi}</div>
-                  ) : null}
-                </>
+                <ScriptHelpLayers seg={overlay.current} prefs={prefs} compact />
               ) : (
                 <div className="kaiwa-script-ja kaiwa-script-upcoming">
                   Sắp tới: {overlay.next?.ja || "…"}

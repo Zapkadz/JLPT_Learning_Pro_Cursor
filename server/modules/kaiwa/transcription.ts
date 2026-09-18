@@ -92,9 +92,17 @@ function whisperTranscribe(opts: {
       },
     );
     if (run.status !== 0) {
+      const detail =
+        run.stderr?.slice(0, 400) || run.stdout?.slice(0, 400) || "";
+      if (run.status === 3 || /0 segments/i.test(detail)) {
+        fail(
+          422,
+          "ASR không nhận được lời thoại (0 đoạn). Anime/BGM/chồng tiếng thường làm Whisper trống — hãy dùng Đồng bộ script (có sẵn lời) hoặc nhập SRT/VTT.",
+        );
+      }
       fail(
         503,
-        `ASR Whisper thất bại. ${run.stderr?.slice(0, 300) || run.stdout?.slice(0, 300) || ""}`.trim(),
+        `ASR Whisper thất bại. ${detail}`.trim(),
       );
     }
     const raw = JSON.parse(readFileSync(outPath, "utf8")) as {
@@ -197,7 +205,7 @@ export function createTranscriptionService(
           process.env.KAIWA_PYTHON?.trim() ||
           process.env.PYTHON?.trim() ||
           "python";
-        const model = process.env.KAIWA_WHISPER_MODEL?.trim() || "tiny";
+        const model = process.env.KAIWA_WHISPER_MODEL?.trim() || "base";
         segments = whisperTranscribe({
           ffmpeg,
           videoPath,

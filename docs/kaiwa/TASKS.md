@@ -147,10 +147,21 @@ Phát sinh từ yêu cầu 18/09/2026: phụ đề tay đã OK; muốn (v1) vide
 
 Thứ tự: **050 → 051 → 052 → 053 → 054 → 055** (= **v1.0**); rồi **056 → 057 → 058** (= **v2.0**). Spike 052 có thể BLOCKED nếu thiếu ffmpeg/credential — ghi rõ, vẫn giữ manual path.
 
+## 9b. Chất lượng auto phụ đề + overlay trợ giúp (feedback 18/09/2026)
+
+Phát sinh từ device: (1) nút đồng bộ «không chọn được» sau Áp dụng lời; (2) Furigana/Việt bật nhưng studio không hiện; (3) align lệch mốc; (4) ASR v2 gần như không nhận lời anime.
+
+| ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
+| --- | --- | --- | --- | --- |
+| KAI-059 · S · Frontend | Sync dùng script từ paste **hoặc** segments hiện có; ghi rõ lý do disable; checkbox dễ bấm | KAI-054 | Sau «Áp dụng lời» vẫn đồng bộ được; hint VI khi thiếu paste/video | DONE |
+| KAI-060 · M · Frontend | Overlay studio/prep: furigana từ tokens + VI; hint khi bật nhưng thiếu dữ liệu | KAI-038, KAI-041 | Toggle bật → thấy ruby nếu có tokens; VI hiện nếu có `vi`; placeholder trung thực nếu thiếu | DONE |
+| KAI-061 · M · Speech | Cải thiện script-align: model mặc định tốt hơn, match/padding, báo uncertain rõ | KAI-053 | Đo lại trên fixture; USAGE nói giới hạn anime/BGM | DONE |
+| KAI-062 · M · Speech | Cải thiện ASR v2: model/VAD/segment; fail rõ khi 0 câu; không hứa anime sạch | KAI-056 | Empty ASR → 422 rõ; model mặc định nâng; USAGE honesty | DONE |
+
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-056–058 DONE — auto phụ đề v1+v2 complete (050–058).
+Task: KAI-059–062 DONE (sync UX + overlay help + Whisper base quality).
 Song song: KAI-046 human device Gate A vẫn BLOCKED.
 ```
 
@@ -158,6 +169,7 @@ Song song: KAI-046 human device Gate A vẫn BLOCKED.
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-059–062 sync UX, furigana/vi hints, Whisper `base`, ASR empty 422 | `npm test` **120/120** | KAI-046 device / thử lại sync trên anime |
 | 18/09/2026 | KAI-046 runbook refresh + preflight re-verify (agent parked) | `kaiwa:gate-a-preflight` OK | Human Chrome/Edge §2 |
 | 18/09/2026 | KAI-056–058 ASR v2 API + UI + USAGE | `npm test`; build | KAI-046 device |
 | 18/09/2026 | KAI-055 USAGE/release honesty script-align v1 | `npm test`; USAGE + RELEASE-NOTES | KAI-056 v2 hoặc KAI-046 |

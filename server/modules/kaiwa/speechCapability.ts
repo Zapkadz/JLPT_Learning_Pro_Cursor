@@ -116,7 +116,7 @@ export function resolveScriptAlignCapability(
   return {
     status: "ready",
     providers: ["faster-whisper"],
-    engine: `faster-whisper:${env.KAIWA_WHISPER_MODEL?.trim() || "tiny"}`,
+    engine: `faster-whisper:${env.KAIWA_WHISPER_MODEL?.trim() || "base"}`,
     messageVi:
       "Có thể đồng bộ lời thoại với video (Whisper). Kết quả là bản nháp — hãy kiểm tra mốc thời gian.",
   };
@@ -166,9 +166,9 @@ export function resolveTranscriptionCapability(
   return {
     status: "ready",
     providers: ["faster-whisper"],
-    engine: `faster-whisper:${env.KAIWA_WHISPER_MODEL?.trim() || "tiny"}`,
+    engine: `faster-whisper:${env.KAIWA_WHISPER_MODEL?.trim() || "base"}`,
     messageVi:
-      "Có thể tự tạo phụ đề từ video (ASR). Chữ máy dễ sai — hãy kiểm tra kỹ trước khi luyện.",
+      "Có thể tự tạo phụ đề từ video (ASR). Anime/BGM dễ sai hoặc trống — nên dùng Đồng bộ script nếu đã có lời; luôn duyệt bản nháp.",
   };
 }
 

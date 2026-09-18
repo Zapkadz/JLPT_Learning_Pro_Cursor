@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (agent parked — waiting KAI-046 human device)
+2026-09-18 (KAI-059–062 quality/UX fixes after device feedback)
 
 ## Current Branch
 
@@ -10,28 +10,27 @@
 
 ## Current Task
 
-**Blocked human:** **KAI-046** Gate A device (Chrome/Edge segment).  
-Auto-subtitle KAI-050–058 DONE. No READY autonomous code task.
+**DONE:** KAI-059–062 (sync button, furigana/vi honesty, Whisper `base`, ASR empty fail).  
+**Blocked human:** KAI-046 Gate A device.
 
 ## Exact Next Action
 
-1. **You:** follow `docs/kaiwa/evidence/kai-046/DEVICE-RUNBOOK.md` — fill CHECKLIST §2 on Chrome + Edge.
-2. Optional smoke: script-align / ASR on transcript editor (does not replace Gate A segment PASS).
-3. After you sign §5, tell the agent to mark KAI-046 / Gate A ACCEPTED from checklist evidence only.
-4. Do **not** start KAI-023 Gate B without approval.
+1. User re-test: Áp dụng lời → đồng bộ (không cần giữ paste); Furigana/Việt bật → thấy hint nếu chưa có reading/vi.
+2. Prefer **Đồng bộ script** over ASR for anime; set `KAIWA_WHISPER_MODEL=small` if CPU allows.
+3. Continue KAI-046 device checklist when ready.
 
 ## Last Completed
 
-- Refreshed DEVICE-RUNBOOK + kai-046 REPORT; Gate A preflight re-verified after v2 docs.
-- Auto-subtitle v1+v2 (050–058).
+- Sync uses paste **or** existing segment JA; disabled-reason Status; larger checkbox.
+- `ScriptHelpLayers` on prep/studio/continuous overlays.
+- Default Whisper model `base`; align padding + prompt; ASR 422 when 0 segments.
 
 ## Blockers
 
-- KAI-046 requires human Chrome/Edge evidence.
-- Grammar local dirty files — do not stage with Kaiwa commits.
+- KAI-046 human device.
+- Anime ASR will still often fail — honesty documented; not a scoring claim.
 
 ## Safety
 
-- Do not invent Gate A device PASS.
+- Do not invent Gate A PASS.
 - Do not stage grammar dirty files.
-- Do not auto-publish machine drafts.
