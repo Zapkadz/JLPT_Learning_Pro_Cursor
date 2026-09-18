@@ -1,0 +1,14 @@
+{
+  "providerId": "documentation-shape-only",
+  "modelVersion": "not-live",
+  "Segments": [
+    {
+      "Id": "seg-1",
+      "AccuracyScore": 82,
+      "FluencyScore": 78,
+      "CompletenessScore": 90,
+      "RecognitionConfidence": 0.95,
+      "Phonemes": []
+    }
+  ]
+}

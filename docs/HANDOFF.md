@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-023 Gate B framework DONE)
+2026-09-18 (KAI-026 live verify harness)
 
 ## Current Branch
 
@@ -10,35 +10,35 @@
 
 ## Current Task
 
-**Next READY (needs input):** collect licensed takes + dual raters for KAI-023 corpus **or** provide speech credentials for live ja-JP field verify (KAI-003 checklist / KAI-026).
+**Ops blockers (no further Gate B coding without input):**
 
-KAI-076 remains **PARTIAL** (user held-out align metrics). Forced-align **KAI-065–075** DONE. **KAI-023** framework DONE.
+1. Speech credentials + redacted live dump → `npm run kaiwa:pronunciation-live-check -- --sample …`
+2. Licensed Gate B corpus + dual raters (`docs/kaiwa/evidence/kai-023/`)
+3. Optional: KAI-076 align held-out clips
 
 ## Exact Next Action
 
-1. Fill Gate B corpus locally (license + speaker splits) per `docs/kaiwa/evidence/kai-023/` — audio outside git.
-2. Or set speech provider env keys and run KAI-003 live checklist (redacted JSON under `docs/kaiwa/evidence/kai-003/live/`).
-3. Optional: finish KAI-076 align held-out under `%USERPROFILE%\kaiwa-held-out\`.
-
-Do **not** start KAI-035. Do **not** claim Gate B release (KAI-034).
+Provide **AZURE_SPEECH_KEY** (local env only) and/or a redacted ja-JP pronunciation JSON dump, **or** fill benchmark corpus. Do not start KAI-034/035.
 
 ## Last Completed
 
-- KAI-023: benchmark manifest schemas, locked pilot thresholds, rubric, rater protocol, budget policy (`npm test` **143/143**)
+- KAI-026 live field-verify harness (`kaiwa:pronunciation-live-check`) — honest `missing_credentials`
+- KAI-023 Gate B framework
+- KAI-065–075; KAI-076 PARTIAL
 
 ## Verification
 
-- `npx tsx --test tests/kaiwa/gate-b-benchmark.test.ts` PASS
-- `npm test` **143/143** PASS
+- `npm run kaiwa:pronunciation-live-check` → `missing_credentials` exit 0
+- `npm test` **148/148** PASS
 
 ## Blockers
 
-- Labeled ≥150 takes + dual raters (ops).
-- Live provider credentials for ja-JP field verify.
-- KAI-076 user align evidence still empty.
-- Grammar dirty — exclude from Kaiwa commits.
+- Live provider sample PENDING
+- Corpus/raters PENDING
+- KAI-076 user evidence empty
+- Grammar dirty — exclude from Kaiwa commits
 
 ## Safety
 
-- Do not claim anime fixed / Gate B shipped.
-- Do not commit private media or secrets.
+- Do not invent live API JSON or Gate B release claims.
+- Do not commit secrets or private media.

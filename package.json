@@ -15,6 +15,7 @@
     "kaiwa:gate-a-preflight": "tsx scripts/kaiwa-gate-a-preflight.mts",
     "kaiwa:speech-env": "tsx scripts/kaiwa-speech-env-check.mts",
     "kaiwa:held-out": "tsx scripts/kaiwa-held-out.mts",
+    "kaiwa:pronunciation-live-check": "tsx scripts/kaiwa-pronunciation-live-check.mts",
     "kaiwa:bench-align": "python scripts/kaiwa/bench_align.py --write-fixtures --run-baseline",
     "kaiwa:capture-spike": "node scripts/kaiwa/run-capture-spike.mjs",
     "kaiwa:worker": "tsx server/workers/kaiwa/worker.ts"
