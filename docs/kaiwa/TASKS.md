@@ -2,7 +2,7 @@
 
 Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION-RULES.md](./IMPLEMENTATION-RULES.md).
 
-Ngày cập nhật: 18/09/2026. Mốc A: device PENDING (KAI-046). **ADR-020:** auto phụ đề v1/v2 = KAI-050–058 (spec DONE; code chưa).
+Ngày cập nhật: 18/09/2026. Mốc A: device PENDING (KAI-046). **ADR-020:** auto phụ đề v1/v2 = KAI-050–058 (**DONE**).
 
 ## Cách đọc
 
@@ -158,6 +158,7 @@ Song song: KAI-046 human device Gate A vẫn BLOCKED.
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-046 runbook refresh + preflight re-verify (agent parked) | `kaiwa:gate-a-preflight` OK | Human Chrome/Edge §2 |
 | 18/09/2026 | KAI-056–058 ASR v2 API + UI + USAGE | `npm test`; build | KAI-046 device |
 | 18/09/2026 | KAI-055 USAGE/release honesty script-align v1 | `npm test`; USAGE + RELEASE-NOTES | KAI-056 v2 hoặc KAI-046 |
 | 18/09/2026 | KAI-054 UI đồng bộ script + banner draft máy + uncertain chip | `npm test` **117/117**; build OK | KAI-055 honesty/USAGE |

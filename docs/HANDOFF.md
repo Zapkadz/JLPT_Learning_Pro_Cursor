@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (auto-subtitle **v1+v2** DONE — next KAI-046 device)
+2026-09-18 (agent parked — waiting KAI-046 human device)
 
 ## Current Branch
 
@@ -10,29 +10,28 @@
 
 ## Current Task
 
-**DONE:** Auto phụ đề KAI-050–058 (script sync + ASR).  
 **Blocked human:** **KAI-046** Gate A device (Chrome/Edge segment).  
-No further auto-subtitle code without a new approved milestone.
+Auto-subtitle KAI-050–058 DONE. No READY autonomous code task.
 
 ## Exact Next Action
 
-1. Human: run **KAI-046** Gate A device checklist (`docs/kaiwa/evidence/kai-033/CHECKLIST.md` + DEVICE-RUNBOOK).
-2. Do not start Gate B scoring (KAI-023) without approval.
-3. Do not stage grammar dirty files with Kaiwa commits.
+1. **You:** follow `docs/kaiwa/evidence/kai-046/DEVICE-RUNBOOK.md` — fill CHECKLIST §2 on Chrome + Edge.
+2. Optional smoke: script-align / ASR on transcript editor (does not replace Gate A segment PASS).
+3. After you sign §5, tell the agent to mark KAI-046 / Gate A ACCEPTED from checklist evidence only.
+4. Do **not** start KAI-023 Gate B without approval.
 
 ## Last Completed
 
-- KAI-056: `POST …/transcriptions` Whisper/mock → draft `source=asr`
-- KAI-057: ASR CTA + strong risk banner
-- KAI-058: USAGE + release notes v1/v2
+- Refreshed DEVICE-RUNBOOK + kai-046 REPORT; Gate A preflight re-verified after v2 docs.
+- Auto-subtitle v1+v2 (050–058).
 
 ## Blockers
 
-- KAI-046 human device for Gate A ACCEPTED.
+- KAI-046 requires human Chrome/Edge evidence.
 - Grammar local dirty files — do not stage with Kaiwa commits.
 
 ## Safety
 
-- Do not stage grammar dirty files.
-- Do not auto-publish machine drafts (ADR-012/014).
 - Do not invent Gate A device PASS.
+- Do not stage grammar dirty files.
+- Do not auto-publish machine drafts.

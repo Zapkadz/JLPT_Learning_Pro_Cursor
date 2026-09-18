@@ -4,9 +4,9 @@ Date: 2026-09-18
 
 ## Automated prep (DONE)
 
-- `npm run kaiwa:gate-a-preflight` → **OK** (110/110 + build + checklist needles)
-- CHECKLIST §0 filled with automated results
-- Human runbook: `DEVICE-RUNBOOK.md`
+- `npm run kaiwa:gate-a-preflight` — re-run after auto-subtitle v2; must stay OK
+- CHECKLIST §0 automated rows
+- Human runbook: `DEVICE-RUNBOOK.md` (includes optional subtitle smoke; **not** required for Gate A PASS)
 
 ## Human device (PENDING)
 
@@ -20,3 +20,4 @@ Date: 2026-09-18
 ## Do not
 
 - Do not mark this task DONE without human checklist evidence.
+- Do not invent PASS from agent chat.

@@ -471,6 +471,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-046 runbook + preflight re-verify | `kaiwa:gate-a-preflight` OK | `docs/kaiwa/evidence/kai-046/` |
 | 2026-09-18 | KAI-056–058 ASR v2 API+UI+docs | `npm test`; build OK | `docs/kaiwa/evidence/kai-056/` |
 | 2026-09-18 | KAI-055 script-align honesty USAGE | docs + capability tests | `docs/kaiwa/evidence/kai-055/` |
 | 2026-09-18 | KAI-054 script-align UI | `npm test` **117/117**; build OK | `src/features/kaiwa/Kaiwa.tsx` |
