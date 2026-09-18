@@ -109,7 +109,7 @@ Phát sinh từ feedback thiết bị 18/09/2026: thu liên tục không hiện 
 | KAI-037 · M · Backend | Schema/API: `capture_mode`, segment clip assets, tiến độ N/M, ownership | KAI-005, KAI-036 | Migration additive; clip thuộc attempt+segment; conflict/version; test cross-account | DONE |
 | KAI-038 · L · Frontend/Media | UI phòng thu theo đoạn: overlay JA/furigana/VI, clip controls, mic | KAI-036, KAI-017, KAI-016 | Nhìn script trên video khi thu; nghe mẫu đoạn / thu / nghe mình / trước-sau; ≥44px; mobile không tràn ruby | DONE |
 | KAI-039 · L · Media/Backend | Ghép clip đoạn → learner track timeline + gắn review/export | KAI-037, KAI-020, KAI-022 | Silence/giữ gốc ở gap; duration khớp video; metadata `assembly=segment`; không ghi nhãn continuous giả; test gap/overlap | DONE |
-| KAI-040 · S · Frontend | Chọn mode studio (mặc định theo đoạn; liên tục = nâng cao) | KAI-038 | Default segment; nhớ preference tài khoản; copy giải thích khác biệt mode | TODO |
+| KAI-040 · S · Frontend | Chọn mode studio (mặc định theo đoạn; liên tục = nâng cao) | KAI-038 | Default segment; nhớ preference tài khoản; copy giải thích khác biệt mode | DONE |
 | KAI-041 · M · Frontend | Overlay live cho mode liên tục (câu hiện tại + kế) theo video clock | KAI-018, KAI-036 | Khi recording continuous vẫn đọc được lời; không dừng theo câu; không chỉ list dưới video | TODO |
 | KAI-042 · M · Frontend/Backend | Thu đè lại một đoạn không xóa clip khác; lịch sử take theo segment | KAI-037, KAI-038 | Re-record segment tạo clip mới; clip cũ giữ hoặc version; attempt aggregate cập nhật | TODO |
 | KAI-043 · M · Frontend | Progress N/M, skip, luyện tập con (subset) cho script dài | KAI-038 | 90+ đoạn không bắt thu hết một lần; skip có lý do; resume đúng clip | TODO |
@@ -130,15 +130,16 @@ Thứ tự gợi ý: **KAI-036 → 037 → 038 → 039 → 040** (đường găn
 ## 9. Checklist task đang làm
 
 ```text
-Task: KAI-040 — Persist studio mode preference (segment default; continuous advanced)
+Task: KAI-041 — Continuous mode live overlay (current + next line by video clock)
 Trạng thái: READY → next
-Phụ thuộc: KAI-038 DONE; KAI-039 DONE
+Phụ thuộc: KAI-018, KAI-036 DONE; KAI-040 DONE
 ```
 
 ## 10. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-040 persist capture-mode preference + VI mode copy | `npm test` **106/106**; build OK | KAI-041 continuous overlay |
 | 18/09/2026 | KAI-039 assemble segment clips → timeline + finalize/export honesty | `npm test` **106/106**; build OK | KAI-040 mode preference |
 | 18/09/2026 | KAI-038 segment studio UI (overlay + clip controls) | `npm test` **103/103**; build OK | KAI-039 assemble |
 | 18/09/2026 | KAI-037 segment clips schema/API + captureMode default segment | `npm test` **102/102**; build OK | KAI-038 UI |

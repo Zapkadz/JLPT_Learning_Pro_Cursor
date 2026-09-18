@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-039 DONE; next KAI-040)
+2026-09-18 (KAI-040 DONE; next KAI-041)
 
 ## Current Branch
 
@@ -10,25 +10,19 @@
 
 ## Current Task
 
-**KAI-040** — Persist studio mode preference (default segment; continuous = advanced copy).
+**KAI-041** — Continuous mode live overlay (current + next subtitle by video clock).
 
 ## Exact Next Action
 
-Remember account/local preference for segment vs continuous; polish mode picker copy. Then KAI-041 continuous live overlay.
+Add on-video overlay for continuous recorder: current + next line synced to playback clock; do not auto-stop per sentence.
 
 ## Last Completed
 
-**KAI-039** — Assemble segment clips onto learner timeline; finalize + export with `assembly=segment_timeline`. Evidence: `docs/kaiwa/evidence/kai-039/REPORT.md`. Verify: **106/106**.
-
-## How to try now
-
-1. Segment studio → record some clips → **Kết thúc phiên** (assembles + opens review).
-2. Review dual-gain uses assembled mic track; export allowed when finalized.
-3. Clocks/device show `captureMode=segment`, never fake continuous.
+**KAI-040** — Persist studio mode preference (`kaiwa-capture-mode`) + VI copy. Evidence: `docs/kaiwa/evidence/kai-040/REPORT.md`. Verify: **106/106**.
 
 ## Blockers
 
-- Full Gate A ACCEPTED still needs KAI-040–046 + device checklist.
+- Full Gate A ACCEPTED still needs KAI-041–046 + device checklist.
 - Gate B: KAI-023 / credentials.
 
 ## Safety

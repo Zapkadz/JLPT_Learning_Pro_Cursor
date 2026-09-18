@@ -478,6 +478,22 @@ function saveHelpPrefs(userId: string, prefs: HelpPrefs) {
   localStorage.setItem(`kaiwa-help:${userId}`, JSON.stringify(prefs));
 }
 
+type CaptureModePref = "segment" | "continuous";
+
+function loadCaptureModePref(userId: string): CaptureModePref {
+  try {
+    const raw = localStorage.getItem(`kaiwa-capture-mode:${userId}`);
+    if (raw === "continuous" || raw === "segment") return raw;
+  } catch {
+    /* default */
+  }
+  return "segment";
+}
+
+function saveCaptureModePref(userId: string, mode: CaptureModePref) {
+  localStorage.setItem(`kaiwa-capture-mode:${userId}`, mode);
+}
+
 function msToInput(ms: number) {
   const s = Math.floor(ms / 1000);
   const m = Math.floor(s / 60);
@@ -1087,7 +1103,7 @@ export function KaiwaPrep() {
         {
           publish: true,
           expectedRevisionVersion: revision.version,
-          captureMode: "segment",
+          captureMode: loadCaptureModePref(user?.id || "anon"),
         },
       );
       navigate(`/kaiwa/projects/${id}/studio?attempt=${attempt.id}`, {
@@ -1237,13 +1253,18 @@ export function KaiwaStudio() {
     deviceId: string;
     label: string;
   } | null>(null);
-  const [mode, setMode] = useState<"segment" | "continuous">("segment");
+  const [mode, setMode] = useState<CaptureModePref>(() =>
+    loadCaptureModePref(user?.id || "anon"),
+  );
   const [prefs, setPrefs] = useState<HelpPrefs>(() =>
     loadHelpPrefs(user?.id || "anon"),
   );
 
   useEffect(() => {
-    if (user?.id) setPrefs(loadHelpPrefs(user.id));
+    if (user?.id) {
+      setPrefs(loadHelpPrefs(user.id));
+      setMode(loadCaptureModePref(user.id));
+    }
   }, [user?.id]);
 
   useEffect(() => {
@@ -1253,7 +1274,7 @@ export function KaiwaStudio() {
       if (device.captureMode === "continuous" || device.captureMode === "segment")
         setMode(device.captureMode);
     } catch {
-      /* keep default */
+      /* keep preference */
     }
   }, [data?.device_json]);
 
@@ -1275,9 +1296,10 @@ export function KaiwaStudio() {
     ? `/api/kaiwa/assets/${data.proxyAssetId}/content`
     : null;
 
-  async function switchMode(next: "segment" | "continuous") {
+  async function switchMode(next: CaptureModePref) {
     if (!attemptId) return;
     setMode(next);
+    saveCaptureModePref(user?.id || "anon", next);
     try {
       await api(`/kaiwa/attempts/${attemptId}/capture-mode`, {
         method: "PATCH",
@@ -1305,7 +1327,7 @@ export function KaiwaStudio() {
 
       <div className="panel kaiwa-mode-picker">
         <p>
-          <strong>Chế độ thu</strong> (mặc định theo đoạn — dễ nói theo lời)
+          <strong>Chế độ thu</strong>
         </p>
         <div className="kaiwa-actions">
           <button
@@ -1313,18 +1335,20 @@ export function KaiwaStudio() {
             className={mode === "segment" ? "btn" : "btn secondary"}
             onClick={() => void switchMode("segment")}
           >
-            Theo đoạn (khuyến nghị)
+            Theo đoạn — dễ nói theo lời (khuyến nghị)
           </button>
           <button
             type="button"
             className={mode === "continuous" ? "btn" : "btn secondary"}
             onClick={() => void switchMode("continuous")}
           >
-            Liên tục (nâng cao)
+            Liên tục — thu cả video một lần (nâng cao)
           </button>
         </div>
         <p className="kaiwa-privacy-note">
-          Bản ghép từ từng đoạn không được gọi là thu liên tục.
+          {mode === "continuous"
+            ? "Chế độ nâng cao: vẫn hiện lời hiện tại trên video; không dừng từng câu. Bản ghép từ từng đoạn không được gọi là thu liên tục."
+            : "Mặc định theo đoạn. Lựa chọn được nhớ trên thiết bị này. Bản ghép từ từng đoạn không được gọi là thu liên tục."}
         </p>
       </div>
 
