@@ -1,0 +1,91 @@
+{
+  "engine": "faster-whisper+script-match",
+  "model": "tiny",
+  "language": "ja",
+  "ffmpeg": "C:\\Users\\giap1\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.exe",
+  "voice": "ja-JP-NanamiNeural",
+  "silenceGapMs": 700,
+  "asrHypothesis": "こんにちは 今日はいい天気ですね一緒に散歩しませんか",
+  "lineCount": 3,
+  "measuredLines": 3,
+  "medianAbsDeltaStartMs": 448.0,
+  "medianAbsDeltaEndMs": 404.0,
+  "maxAbsDeltaStartMs": 780,
+  "maxAbsDeltaEndMs": 652,
+  "keepUserScriptText": true,
+  "deltas": [
+    {
+      "ja": "こんにちは。",
+      "gtStartMs": 0,
+      "gtEndMs": 1872,
+      "predStartMs": 780,
+      "predEndMs": 1220,
+      "absDeltaStartMs": 780,
+      "absDeltaEndMs": 652,
+      "timingUncertain": false,
+      "whisperSpan": "こんにちは"
+    },
+    {
+      "ja": "今日はいい天気ですね。",
+      "gtStartMs": 2572,
+      "gtEndMs": 5092,
+      "predStartMs": 3020,
+      "predEndMs": 5460,
+      "absDeltaStartMs": 448,
+      "absDeltaEndMs": 368,
+      "timingUncertain": false,
+      "whisperSpan": " 今日はいい天気ですね"
+    },
+    {
+      "ja": "一緒に散歩しませんか。",
+      "gtStartMs": 5792,
+      "gtEndMs": 8504,
+      "predStartMs": 5460,
+      "predEndMs": 8100,
+      "absDeltaStartMs": 332,
+      "absDeltaEndMs": 404,
+      "timingUncertain": false,
+      "whisperSpan": "一緒に散歩しませんか"
+    }
+  ],
+  "aligned": [
+    {
+      "ja": "こんにちは。",
+      "startMs": 780,
+      "endMs": 1220,
+      "timingUncertain": false,
+      "whisperSpan": "こんにちは"
+    },
+    {
+      "ja": "今日はいい天気ですね。",
+      "startMs": 3020,
+      "endMs": 5460,
+      "timingUncertain": false,
+      "whisperSpan": " 今日はいい天気ですね"
+    },
+    {
+      "ja": "一緒に散歩しませんか。",
+      "startMs": 5460,
+      "endMs": 8100,
+      "timingUncertain": false,
+      "whisperSpan": "一緒に散歩しませんか"
+    }
+  ],
+  "groundTruth": [
+    {
+      "ja": "こんにちは。",
+      "startMs": 0,
+      "endMs": 1872
+    },
+    {
+      "ja": "今日はいい天気ですね。",
+      "startMs": 2572,
+      "endMs": 5092
+    },
+    {
+      "ja": "一緒に散歩しませんか。",
+      "startMs": 5792,
+      "endMs": 8504
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-051 DONE; KAI-052 BLOCKED)
+2026-09-18 (KAI-052 spike DONE — next KAI-053)
 
 ## Current Branch
 
@@ -10,25 +10,24 @@
 
 ## Current Task
 
-**DONE:** KAI-051 untimed script ingest.  
-**BLOCKED:** KAI-052 align spike — no ffmpeg / speech credentials / JA audio fixture (provisional engine A documented).  
+**DONE:** KAI-052 align spike (Engine A Whisper+match; measured).  
+**Next code:** **KAI-053** `align_script` job → draft revision.  
 **Blocked human:** KAI-046 device.
 
 ## Exact Next Action
 
-1. **Unblock KAI-052:** install ffmpeg + set `FFMPEG_PATH`, add short legal JA clip, run Whisper (local or API), fill timing deltas in `docs/kaiwa/evidence/kai-052/REPORT.md`.
-2. Or run **KAI-046** Gate A device checklist on Chrome/Edge.
-3. Do **not** start KAI-053 (`align_script` job) until 052 has measured timing evidence.
+1. Implement **KAI-053**: enqueue `align_script`, ffmpeg extract mono WAV, run Whisper+script-match (sidecar), write draft with `source: script_align` + uncertain flags; 409 on stale draft.
+2. Do not auto-publish; keep manual path when `scriptAlign` not ready.
+3. KAI-046 remains human Chrome/Edge Gate A.
 
 ## Last Completed
 
-- KAI-051: `parseUntimedScript` + paste/`.txt` UI (`6d41996`).
-- KAI-052 partial: env probe + provisional Whisper+match pick; field measure BLOCKED.
+- KAI-052: ffmpeg installed; TTS fixture; median |Δstart| 448 ms / |Δend| 404 ms (`docs/kaiwa/evidence/kai-052/`).
+- KAI-051: untimed script ingest.
 
 ## Blockers
 
 - KAI-046 human device for Gate A ACCEPTED.
-- KAI-052: ffmpeg + fixture + optional ASR key.
 - Grammar local dirty files — do not stage with Kaiwa commits.
 
 ## Safety

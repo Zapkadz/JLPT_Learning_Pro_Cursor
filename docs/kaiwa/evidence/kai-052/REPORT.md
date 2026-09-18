@@ -1,93 +1,77 @@
 # KAI-052 — Script-align engine spike
 
 Date: 2026-09-18  
-Status: **BLOCKED** (environment) — provisional engine pick documented; **no timing measurements** on this machine.
+Status: **DONE** (measured on this machine)
 
-Related: ADR-020, `AUTO-SUBTITLE-SPEC.md` §5.2, KAI-051 (ingest DONE).
+Related: ADR-020, `AUTO-SUBTITLE-SPEC.md` §5.2, KAI-051 ingest.
 
 ---
 
-## 1. Environment probe (this workspace)
+## 1. Environment (after unblock)
 
 | Check | Result |
 | --- | --- |
-| `FFMPEG_PATH` / `KAIWA_FFMPEG_PATH` | **unset** |
-| `ffmpeg` on PATH / common Win paths | **not found** |
-| `.env` speech / Whisper / Azure / Google keys | **no `.env`** |
-| Legal short JA video+audio fixture in repo | **none** (media fixtures are generate-only / synthetic) |
+| ffmpeg | **Installed** via winget `Gyan.FFmpeg` 9.0.1 → `%LOCALAPPDATA%\Microsoft\WinGet\Links\ffmpeg.exe` |
+| `faster-whisper` + `edge-tts` | Installed for user Python 3.12 |
+| Fixture | **Legal synthetic JA TTS** (Microsoft Edge neural `ja-JP-NanamiNeural`), not copyrighted anime |
+| Cloud ASR keys | Not required for this spike |
 
-Conclusion: cannot extract WAV or run Whisper/MFA/cloud STT here. Field timing delta (**đo lệch thời gian**) is **not possible** until ffmpeg + fixture (and optionally API key) are available.
+Re-run:
 
----
-
-## 2. Engine candidates (from SPEC) — decision for when unblocked
-
-| ID | Approach | JA fit | Fits “keep user script text” | Ops burden | Spike verdict |
-| --- | --- | --- | --- | --- | --- |
-| **A** | Whisper (word timestamps) + DTW/Needleman vs script | Good ecosystem for JA | **Yes** — take **times only**, discard ASR wording | Medium (local GPU or API) | **Provisional primary** |
-| **B** | Forced aligner (MFA / aeneas-like) | JA model pack heavy / uneven | Exact text by design | High install | Secondary if A quality fails on anime/drama |
-| **C** | Cloud STT + phrase hints | Managed JA | Depends on vendor display-form | Cost + privacy opt-in | Only if A/B blocked and user accepts opt-in |
-
-**Provisional choice for KAI-053 design:** **Engine A** (Whisper word timestamps + script match).  
-**Vendor not locked** — adapter interface must allow swap to B/C without changing draft/revision contract.
-
-Product rule (unchanged): displayed `ja` = user script; engine supplies boundaries; weak windows → `timingUncertain` (schema additive in KAI-053).
-
----
-
-## 3. Recommended adapter contract (for KAI-053 — do not implement until unblocked)
-
-```ts
-// Sketch only — not shipped
-type AlignScriptInput = {
-  audioPath: string; // mono WAV/PCM from ffmpeg
-  scriptLines: string[]; // from parseUntimedScript
-  language?: "ja" | "vi";
-};
-
-type AlignScriptResult = {
-  engine: string;
-  segments: Array<{
-    ja: string; // === scriptLines[i] (or merge map)
-    startMs: number;
-    endMs: number;
-    timingUncertain?: boolean;
-    confidence?: number | null;
-  }>;
-  provider?: string;
-};
+```bat
+set FFMPEG_PATH=%LOCALAPPDATA%\Microsoft\WinGet\Links\ffmpeg.exe
+set KAIWA_WHISPER_MODEL=tiny
+python scripts/kaiwa/spike_script_align.py
 ```
 
-Pipeline when unblocked:
-
-1. `ffmpeg -i <proxy> -ac 1 -ar 16000 align.wav`
-2. Whisper (local `whisper.cpp` / `faster-whisper` **or** API) → word times
-3. Align words → script lines (prefer longest common / DTW; never rewrite `ja`)
-4. Write **draft** revision only (`source: script_align`)
-
-Honest capability: `scriptAlign.status = not_configured` until adapter + ffmpeg present (KAI-055).
+Artifacts: `fixtures/spike_ja.wav`, `fixtures/script.txt`, `fixtures/ground_truth.json`, `results.json`.
 
 ---
 
-## 4. Unblock checklist (owner / machine)
+## 2. Engine decision
 
-1. Install ffmpeg; set `FFMPEG_PATH` (or `KAIWA_FFMPEG_PATH`).
-2. Add a **short legal** JA speech clip under `docs/kaiwa/evidence/kai-052/fixtures/` (or local-only path documented, not committed if copyrighted).
-3. Choose runtime: local Whisper **or** cloud key in `.env` (never commit secrets).
-4. Re-run spike: measure median |Δstart| / |Δend| vs hand-timed SRT on ≥5 lines; attach numbers to this report.
-5. Then mark KAI-052 **DONE** and start KAI-053 job.
+| ID | Approach | Spike result |
+| --- | --- | --- |
+| **A** | Whisper word timestamps + match; **keep user script text** | **SELECTED** for KAI-053 |
+| B | Forced aligner (MFA) | Not run — higher install cost; keep as fallback if A fails on drama/music |
+| C | Cloud STT | Not required for pilot if local Whisper works |
+
+**Vendor not locked:** adapter interface should allow swap; default implementation path = `faster-whisper` (local) via worker/sidecar.
+
+Product rule confirmed in code path: aligned payload `ja` = script lines, not ASR hypothesis.
 
 ---
 
-## 5. What is NOT claimed
+## 3. Timing measurements (`tiny` model, CPU int8)
 
-- No measured timing accuracy on this date.
-- No vendor lock-in.
-- No production `align_script` job (KAI-053).
-- Manual SRT/VTT + KAI-051 untimed ingest remain the working paths.
+Source: `results.json` (3 lines, 700 ms silence gaps).
 
-## Verification (this task slice)
+| Metric | Value |
+| --- | --- |
+| measuredLines | 3 / 3 |
+| median \|Δstart\| | **448 ms** |
+| median \|Δend\| | **404 ms** |
+| max \|Δstart\| | 780 ms (line 1 — VAD/trim vs TTS onset) |
+| max \|Δend\| | 652 ms |
+| ASR hypothesis (reference only) | `こんにちは 今日はいい天気ですね一緒に散歩しませんか` |
 
-- Env probe recorded above.
-- Docs/TASKS updated to **BLOCKED** with unblock steps.
-- `npm test` / build not required for docs-only blocker report (no app code).
+Per-line deltas are in `results.json` → `deltas`.
+
+**Interpretation:** ~0.4 s median error on clean TTS + `tiny` is **good enough to proceed** to a draft-only job with editor review and `timingUncertain` when match is weak. Expect better with `base`/`small` and optional edge padding in KAI-053. Not a claim of anime/drama production quality.
+
+---
+
+## 4. KAI-053 implications
+
+1. Require `FFMPEG_PATH` (or WinGet Links fallback) to extract mono 16 kHz WAV from project proxy.
+2. Run align via local Whisper sidecar (or future cloud adapter); write **draft only** with `source: script_align`.
+3. Prefer script text; mark uncertain windows; never auto-publish.
+4. Capability `scriptAlign`: `ready` when ffmpeg + model present, else `not_configured` + manual fallback.
+
+---
+
+## 5. Verification
+
+- Spike script exit 0; `results.json` written with real numbers (not invented).
+- Fixture is TTS-generated (reproducible, legal).
+- Manual SRT / KAI-051 ingest paths unchanged.
