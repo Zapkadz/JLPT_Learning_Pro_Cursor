@@ -359,6 +359,16 @@ export function kaiwaModule(
     );
   });
 
+  router.get("/attempts/:id/segment-clips/:segmentId/history", (req, res) => {
+    res.json(
+      segmentClips.listSegmentHistory(
+        res.locals.user.id,
+        String(req.params.id),
+        String(req.params.segmentId),
+      ),
+    );
+  });
+
   router.post("/attempts/:id/segment-clips/:segmentId", (req, res) => {
     const segmentId = String(req.params.segmentId);
     const body = z

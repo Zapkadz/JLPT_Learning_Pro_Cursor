@@ -211,7 +211,14 @@ export function SegmentStudio({
         },
       );
       setClipsData(data);
-      setNote(partial ? "Đã lưu bản thu dở đoạn." : "Đã lưu đoạn.");
+      const latest = data.clips.find((c) => c.segmentId === seg.id);
+      setNote(
+        partial
+          ? "Đã lưu bản thu dở đoạn."
+          : latest && latest.version > 1
+            ? `Đã lưu bản mới (v${latest.version}). Bản cũ vẫn giữ trong lịch sử.`
+            : "Đã lưu đoạn.",
+      );
     } catch (e) {
       setError(e instanceof Error ? e.message : "Không lưu được clip.");
     } finally {
@@ -288,6 +295,12 @@ export function SegmentStudio({
     <div className="panel kaiwa-segment-studio">
       <div className="kaiwa-seg-progress">
         Đoạn <strong>{segments.length ? idx + 1 : 0}</strong> / {segments.length}
+        {clip?.version ? (
+          <span>
+            {" "}
+            · bản thu <strong>v{clip.version}</strong>
+          </span>
+        ) : null}
         {progress ? (
           <span>
             {" "}

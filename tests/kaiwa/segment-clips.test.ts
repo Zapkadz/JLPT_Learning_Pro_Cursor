@@ -192,3 +192,98 @@ test("segment clips: default captureMode, record, skip, re-record versions, owne
     assert.equal(peer.status, 404);
   }, true);
 });
+
+test("re-record keeps other segment clips and version history", async () => {
+  await withServer(async (base, cookie) => {
+    const created = await api(base, cookie, "/kaiwa/projects", {
+      method: "POST",
+      body: JSON.stringify({ title: "Re-record" }),
+    });
+    const project = (await created.json()) as { id: string };
+    await api(base, cookie, `/kaiwa/projects/${project.id}/draft`, {
+      method: "PUT",
+      body: JSON.stringify({
+        expectedRevisionVersion: 1,
+        payload: {
+          segments: [
+            { id: "s1", startMs: 0, endMs: 400, ja: "あ" },
+            { id: "s2", startMs: 500, endMs: 900, ja: "い" },
+          ],
+        },
+      }),
+    });
+    const start = await api(
+      base,
+      cookie,
+      `/kaiwa/projects/${project.id}/start-practice`,
+      {
+        method: "POST",
+        body: JSON.stringify({ publish: true, expectedRevisionVersion: 1 }),
+      },
+    );
+    const attempt = (await start.json()) as { id: string };
+
+    async function rec(seg: string, bytes: string) {
+      const payload = Buffer.from(bytes);
+      return api(base, cookie, `/kaiwa/attempts/${attempt.id}/segment-clips/${seg}`, {
+        method: "POST",
+        body: JSON.stringify({
+          action: "record",
+          contentBase64: payload.toString("base64"),
+          sha256: createHash("sha256").update(payload).digest("hex"),
+          durationMs: 400,
+        }),
+      });
+    }
+
+    const r1 = await rec("s1", "clip-s1-v1");
+    assert.equal(r1.status, 201);
+    const after1 = (await r1.json()) as {
+      clips: Array<{ segmentId: string; version: number; audioAssetId: string }>;
+    };
+    const s1v1 = after1.clips.find((c) => c.segmentId === "s1")!;
+    assert.equal(s1v1.version, 1);
+
+    const r2 = await rec("s2", "clip-s2-only");
+    const after2 = (await r2.json()) as {
+      clips: Array<{ segmentId: string; version: number; audioAssetId: string }>;
+    };
+    const s2 = after2.clips.find((c) => c.segmentId === "s2")!;
+    assert.ok(s2.audioAssetId);
+
+    const r1b = await rec("s1", "clip-s1-v2-new");
+    const afterR = (await r1b.json()) as {
+      clips: Array<{ segmentId: string; version: number; audioAssetId: string }>;
+      progress: { recorded: number };
+    };
+    const s1v2 = afterR.clips.find((c) => c.segmentId === "s1")!;
+    const s2still = afterR.clips.find((c) => c.segmentId === "s2")!;
+    assert.equal(s1v2.version, 2);
+    assert.notEqual(s1v2.audioAssetId, s1v1.audioAssetId);
+    assert.equal(s2still.audioAssetId, s2.audioAssetId);
+    assert.equal(afterR.progress.recorded, 2);
+
+    const hist = await api(
+      base,
+      cookie,
+      `/kaiwa/attempts/${attempt.id}/segment-clips/s1/history`,
+    );
+    assert.equal(hist.status, 200);
+    const history = (await hist.json()) as {
+      takes: Array<{ version: number; audioAssetId: string | null }>;
+    };
+    assert.equal(history.takes.length, 2);
+    assert.equal(history.takes[0].version, 1);
+    assert.equal(history.takes[0].audioAssetId, s1v1.audioAssetId);
+    assert.equal(history.takes[1].version, 2);
+    assert.equal(history.takes[1].audioAssetId, s1v2.audioAssetId);
+
+    // Old v1 asset still readable
+    const oldAsset = await api(
+      base,
+      cookie,
+      `/kaiwa/assets/${s1v1.audioAssetId}/content`,
+    );
+    assert.equal(oldAsset.status, 200);
+  });
+});

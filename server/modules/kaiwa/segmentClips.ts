@@ -286,9 +286,42 @@ export function createSegmentClipService(
     return listClips(ownerId, attemptId);
   }
 
+  function listSegmentHistory(
+    ownerId: string,
+    attemptId: string,
+    segmentId: string,
+  ) {
+    const attempt = ownAttempt(ownerId, attemptId);
+    const ids = revisionSegmentIds(attempt);
+    if (!ids.includes(segmentId))
+      fail(404, "Không có đoạn này trong revision của lần thu.");
+    const rows = db
+      .prepare(
+        `SELECT id, version, status, audio_asset_id, skip_reason, duration_ms, created_at, updated_at
+         FROM kaiwa_segment_clips
+         WHERE attempt_id=? AND segment_id=?
+         ORDER BY version ASC`,
+      )
+      .all(attemptId, segmentId) as Array<Record<string, unknown>>;
+    return {
+      segmentId,
+      takes: rows.map((r) => ({
+        id: String(r.id),
+        version: Number(r.version),
+        status: String(r.status),
+        audioAssetId: r.audio_asset_id ? String(r.audio_asset_id) : null,
+        skipReason: r.skip_reason ? String(r.skip_reason) : null,
+        durationMs: r.duration_ms != null ? Number(r.duration_ms) : null,
+        createdAt: String(r.created_at),
+        updatedAt: String(r.updated_at),
+      })),
+    };
+  }
+
   return {
     setCaptureMode,
     listClips,
+    listSegmentHistory,
     skipSegment,
     recordSegment,
     ownAttempt,
