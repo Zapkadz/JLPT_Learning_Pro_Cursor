@@ -170,7 +170,7 @@ Tham chiếu UX: Subtitle Edit plain-text + Point Sync; engine bake-off: Qwen3-F
 | --- | --- | --- | --- | --- |
 | KAI-065 · M · Speech/Backend | **Đợt 1 — chặn kết quả sai:** bỏ end-stretch; bỏ null→mốc giả; `timingStatus`; giữ id/vi/tokens khi sync timing; regression unit (Kanji/kana + gap 30s); fail khi 0 câu proposed | ADR-021 | Không còn cửa sổ nuốt gap dài do stretch; unmatched không giả timed; metadata giữ; test PASS | DONE |
 | KAI-066 · L · QA/Speech | **Đợt 2 — benchmark đúng:** harness dùng **cùng** adapter production; GT nghe+waveform; ≥ fixture pháp lý tối thiểu + schema 30-clip plan; ghi baseline greedy | KAI-065 | REPORT baseline; không dùng độ dài file TTS làm GT tuyệt đối | DONE |
-| KAI-067 · L · Speech | **Đợt 3a — spike Qwen3-ForcedAligner-0.6B** trên fixture JA (CPU); đo latency/RAM/chất lượng | KAI-066 | Evidence số thật; không claim anime | TODO |
+| KAI-067 · L · Speech | **Đợt 3a — spike Qwen3-ForcedAligner-0.6B** trên fixture JA (CPU); đo latency/RAM/chất lượng | KAI-066 | Evidence số thật; không claim anime | DONE |
 | KAI-068 · L · Speech | **Đợt 3b — spike stable-ts align** cùng fixture | KAI-066 | So sánh bảng chung với 067 | TODO |
 | KAI-069 · M · Speech | **Đợt 3c — spike WhisperX JA CTC** (đối chứng) + ghi giới hạn vocab/overlap | KAI-066 | REPORT + quyết định engine thắng (ADR amend nếu cần) | TODO |
 | KAI-070 · L · Backend | **Đợt 4 — tích hợp engine thắng:** worker, progress, cancel, timeout, cache, idempotency; candidate proposal trước apply | KAI-067–069 | Request không khóa; restart không mất job; draft-only | TODO |
@@ -186,7 +186,7 @@ Thứ tự cứng: **065 → 066 → (067∥068∥069) → 070 → 071/072/074 �
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-066 DONE. Next READY: KAI-067 Qwen3-ForcedAligner spike.
+Task: KAI-067 DONE (Qwen FA CPU spike). Next READY: KAI-068 stable-ts.
 Gate A: ACCEPTED. V2 ASR: tạm dừng ưu tiên.
 ```
 
@@ -194,6 +194,7 @@ Gate A: ACCEPTED. V2 ASR: tạm dừng ưu tiên.
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-067 Qwen3-ForcedAligner CPU spike | clean median Δstart **21–68 ms** (vs greedy 198–227); REPORT | KAI-068 stable-ts |
 | 18/09/2026 | KAI-066 bench harness + greedy baseline | clean_tts median Δstart **212.5 ms**; REPORT | KAI-067 Qwen FA |
 | 18/09/2026 | Gate A ACCEPTED + ADR-021; KAI-065 Phase 1 honesty | `test_align_regression.py` OK; `npm test` **121/121** | KAI-066 benchmark |
 | 18/09/2026 | Gate A ACCEPTED (KAI-046 user ủy quyền); ADR-021 + TASKS §9c | CHECKLIST §5 | KAI-065 đợt 1 |
