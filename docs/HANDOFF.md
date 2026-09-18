@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-069 DONE; next KAI-070)
+2026-09-18 (KAI-070 stable-ts default DONE)
 
 ## Current Branch
 
@@ -10,24 +10,24 @@
 
 ## Current Task
 
-**Next READY:** **KAI-070** — integrate stable-ts as default align engine (ADR-021a); optional Qwen flag.
+**Next READY:** **KAI-071** (long-video windows) or **KAI-072** (editor unmatched UX) — prefer **KAI-072** if user-facing honesty first.
 
 ## Exact Next Action
 
-1. Adapter behind env (e.g. `KAIWA_SCRIPT_ALIGN_ENGINE=stable_ts|qwen_fa|whisper`).
-2. Worker/progress/timeout; draft-only; preserve meta (KAI-065).
-3. Do not claim anime fixed.
+1. KAI-072: studio/editor skip unmatched windows; clearer banners.
+2. Or KAI-071: windowed align for long audio.
+3. Restart `npm run dev` so capability shows stable-ts.
 
 ## Last Completed
 
-- Bake-off KAI-066–069: greedy ~200 ms → stable-ts/Qwen/WhisperX ~13–114 ms on clean TTS.
-- **ADR-021a:** default **stable-ts**, optional Qwen, WhisperX contrast-only.
+- **KAI-070:** `KAIWA_SCRIPT_ALIGN_ENGINE` default `stable_ts`; sidecars for stable-ts + qwen_fa; capability/USAGE updated.
 
 ## Blockers
 
 - Grammar dirty — exclude from Kaiwa commits.
-- Broader corpus / anime still pending (KAI-076).
+- Anime held-out still KAI-076.
 
 ## Safety
 
-- Do not invent numbers; no private media in git.
+- Do not claim anime fixed.
+- Do not commit private media.

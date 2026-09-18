@@ -22,6 +22,7 @@ import { KaiwaError, type KaiwaRepository } from "./repository";
 import {
   resolveFfmpegPath,
   resolveScriptAlignCapability,
+  resolveScriptAlignEnginePref,
 } from "./speechCapability";
 
 function fail(status: number, message: string): never {
@@ -30,6 +31,18 @@ function fail(status: number, message: string): never {
 
 function newSegId(): string {
   return randomUUID();
+}
+
+function ffmpegDirOnPath(ffmpeg: string, env: NodeJS.ProcessEnv): NodeJS.ProcessEnv {
+  const dir = join(ffmpeg, "..");
+  const pathKey = process.platform === "win32" ? "Path" : "PATH";
+  const prev = env[pathKey] || env.PATH || "";
+  return {
+    ...env,
+    FFMPEG_PATH: ffmpeg,
+    [pathKey]: `${dir}${process.platform === "win32" ? ";" : ":"}${prev}`,
+    PYTHONIOENCODING: "utf-8",
+  };
 }
 
 function normalizeJaKey(s: string): string {
@@ -138,13 +151,15 @@ function sidecarToSegment(s: SidecarSeg): KaiwaSegment {
   };
 }
 
-function whisperAlign(opts: {
+function runAlignSidecar(opts: {
   ffmpeg: string;
   videoPath: string;
   lines: string[];
   python: string;
   model: string;
-}): KaiwaSegment[] {
+  sidecarFile: string;
+  failLabel: string;
+}): { segments: KaiwaSegment[]; engineLabel: string } {
   const tmp = mkdtempSync(join(tmpdir(), "kaiwa-align-"));
   try {
     const wav = join(tmp, "align.wav");
@@ -164,12 +179,7 @@ function whisperAlign(opts: {
       );
     }
 
-    const sidecar = join(
-      process.cwd(),
-      "scripts",
-      "kaiwa",
-      "align_script_sidecar.py",
-    );
+    const sidecar = join(process.cwd(), "scripts", "kaiwa", opts.sidecarFile);
     const run = spawnSync(
       opts.python,
       [
@@ -186,19 +196,24 @@ function whisperAlign(opts: {
       {
         encoding: "utf8",
         timeout: 600_000,
-        env: { ...process.env, PYTHONIOENCODING: "utf-8" },
+        env: ffmpegDirOnPath(opts.ffmpeg, process.env),
+        cwd: join(process.cwd(), "scripts", "kaiwa"),
       },
     );
     if (run.status !== 0) {
       fail(
         503,
-        `Align Whisper thất bại. ${run.stderr?.slice(0, 300) || run.stdout?.slice(0, 300) || ""}`.trim(),
+        `${opts.failLabel} thất bại. ${run.stderr?.slice(0, 300) || run.stdout?.slice(0, 300) || ""}`.trim(),
       );
     }
     const raw = JSON.parse(readFileSync(outPath, "utf8")) as {
       segments: SidecarSeg[];
+      engine?: string;
     };
-    return (raw.segments || []).map(sidecarToSegment);
+    return {
+      segments: (raw.segments || []).map(sidecarToSegment),
+      engineLabel: raw.engine || opts.failLabel,
+    };
   } finally {
     rmSync(tmp, { recursive: true, force: true });
   }
@@ -272,10 +287,11 @@ export function createScriptAlignService(
       const asset = assets.ownAsset(ownerId, String(assetId));
       const videoPath = assets.storage.resolvePath(String(asset.storage_key));
       const ffmpeg = resolveFfmpegPath();
-      const engine = process.env.KAIWA_SCRIPT_ALIGN_ENGINE?.trim() || "whisper";
+      const engine = resolveScriptAlignEnginePref();
 
       let segments: KaiwaSegment[];
       let alignEngine: string;
+      let provider: string;
 
       if (engine === "mock") {
         let durationMs = lines.length * UNTIMED_PLACEHOLDER_SLOT_MS;
@@ -299,6 +315,7 @@ export function createScriptAlignService(
         }
         segments = mockAlign(lines, durationMs);
         alignEngine = "mock_equal_slots";
+        provider = "mock";
       } else {
         if (!ffmpeg) {
           fail(503, "Thiếu ffmpeg — không thể đồng bộ script.");
@@ -308,14 +325,49 @@ export function createScriptAlignService(
           process.env.PYTHON?.trim() ||
           "python";
         const model = process.env.KAIWA_WHISPER_MODEL?.trim() || "base";
-        segments = whisperAlign({
-          ffmpeg,
-          videoPath,
-          lines,
-          python,
-          model,
-        });
-        alignEngine = `faster-whisper:${model}`;
+        if (engine === "stable_ts") {
+          const out = runAlignSidecar({
+            ffmpeg,
+            videoPath,
+            lines,
+            python,
+            model,
+            sidecarFile: "align_stable_ts_sidecar.py",
+            failLabel: "Align stable-ts",
+          });
+          segments = out.segments;
+          alignEngine = out.engineLabel;
+          provider = "stable-ts";
+        } else if (engine === "qwen_fa") {
+          const qwenModel =
+            process.env.KAIWA_QWEN_FA_MODEL?.trim() ||
+            "Qwen/Qwen3-ForcedAligner-0.6B";
+          const out = runAlignSidecar({
+            ffmpeg,
+            videoPath,
+            lines,
+            python,
+            model: qwenModel,
+            sidecarFile: "align_qwen_fa_sidecar.py",
+            failLabel: "Align Qwen ForcedAligner",
+          });
+          segments = out.segments;
+          alignEngine = out.engineLabel;
+          provider = "qwen-forced-aligner";
+        } else {
+          const out = runAlignSidecar({
+            ffmpeg,
+            videoPath,
+            lines,
+            python,
+            model,
+            sidecarFile: "align_script_sidecar.py",
+            failLabel: "Align Whisper",
+          });
+          segments = out.segments;
+          alignEngine = out.engineLabel;
+          provider = "faster-whisper";
+        }
       }
 
       segments = mergePreserveSegmentMeta(segments, previous);
@@ -339,7 +391,7 @@ export function createScriptAlignService(
           source: "script_align",
           alignEngine,
           alignConfidence: null,
-          provider: engine === "mock" ? "mock" : "faster-whisper",
+          provider: provider,
           generatedAt: new Date().toISOString(),
         },
       });

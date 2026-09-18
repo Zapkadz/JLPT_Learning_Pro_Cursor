@@ -173,7 +173,7 @@ Tham chiếu UX: Subtitle Edit plain-text + Point Sync; engine bake-off: Qwen3-F
 | KAI-067 · L · Speech | **Đợt 3a — spike Qwen3-ForcedAligner-0.6B** trên fixture JA (CPU); đo latency/RAM/chất lượng | KAI-066 | Evidence số thật; không claim anime | DONE |
 | KAI-068 · L · Speech | **Đợt 3b — spike stable-ts align** cùng fixture | KAI-066 | So sánh bảng chung với 067 | DONE |
 | KAI-069 · M · Speech | **Đợt 3c — spike WhisperX JA CTC** (đối chứng) + ghi giới hạn vocab/overlap | KAI-066 | REPORT + quyết định engine thắng (ADR amend nếu cần) | DONE |
-| KAI-070 · L · Backend | **Đợt 4 — tích hợp engine thắng:** worker, progress, cancel, timeout, cache, idempotency; candidate proposal trước apply | KAI-067–069 | Request không khóa; restart không mất job; draft-only | TODO |
+| KAI-070 · L · Backend | **Đợt 4 — tích hợp engine thắng:** worker, progress, cancel, timeout, cache, idempotency; candidate proposal trước apply | KAI-067–069 | Request không khóa; restart không mất job; draft-only | DONE |
 | KAI-071 · M · Backend | Cửa sổ video dài + overlap; dừng áp dụng cửa sổ fail; optional anchor đầu/cuối vùng | KAI-070 | Không chia đều theo số chữ; lỗi một cửa sổ không lan im lặng | TODO |
 | KAI-072 · M · Frontend | Editor: nghe + context; filter unmatched/needs_review; banner trạng thái từng câu | KAI-065 | UI trung thực; studio không dùng unmatched làm cửa sổ thu mặc định | TODO |
 | KAI-073 · L · Frontend | Waveform kéo start/end; khóa mốc; căn lại selection / giữa hai khóa; preview+undo | KAI-070, KAI-072 | 25/30 đúng giữ nguyên khi chỉ sửa 5 câu | TODO |
@@ -186,7 +186,7 @@ Thứ tự cứng: **065 → 066 → (067∥068∥069) → 070 → 071/072/074 �
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-069 DONE (WhisperX + ADR-021a). Next READY: KAI-070 integrate stable-ts.
+Task: KAI-070 DONE (stable-ts default). Next READY: KAI-071 windowing OR KAI-072 editor honesty.
 Gate A: ACCEPTED. V2 ASR: tạm dừng ưu tiên.
 ```
 
@@ -194,6 +194,7 @@ Gate A: ACCEPTED. V2 ASR: tạm dừng ưu tiên.
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-070 integrate stable-ts default (+ qwen_fa/whisper flags) | `npm test` **122/122**; speech-env stable-ts ready | KAI-071 / KAI-072 |
 | 18/09/2026 | KAI-069 WhisperX contrast + ADR-021a (prefer stable-ts default) | bake-off table in REPORT | KAI-070 integrate |
 | 18/09/2026 | KAI-068 stable-ts align spike | clean median Δstart **28–53 ms**; vs Qwen 21–68; REPORT | KAI-069 WhisperX |
 | 18/09/2026 | KAI-067 Qwen3-ForcedAligner CPU spike | clean median Δstart **21–68 ms** (vs greedy 198–227); REPORT | KAI-068 stable-ts |

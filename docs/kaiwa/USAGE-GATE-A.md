@@ -31,13 +31,13 @@ Ngày: 2026-09-18 · ADR-019: **thu theo đoạn là mặc định**. Thu liên 
 | Sau đồng bộ | Banner: *「Bản nháp máy tạo — hãy kiểm tra mốc thời gian trước khi luyện.」*; đoạn yếu có thể gắn *「Đoạn này khớp chưa chắc — nên sửa tay.」* |
 | Sau ASR (v2) | Banner: *「Bản nháp ASR từ video — chữ và mốc đều có thể sai.」*; mọi đoạn gắn uncertain |
 | Anime / BGM / chồng tiếng | Whisper local **dễ trống hoặc lệch** — ưu tiên **v1 Đồng bộ script** (có sẵn lời) hoặc SRT tay; không kỳ vọng ASR sạch trên drama/anime |
-| Model mặc định | `base` (`KAIWA_WHISPER_MODEL=small` nếu máy đủ mạnh). **ADR-021 / KAI-065+:** không kéo end tới câu kế; câu unmatched báo rõ — không mốc giả. Forced-align engine mới = backlog sau Gate A. |
+| Model mặc định | Align v1 mặc định **stable-ts** (`KAIWA_SCRIPT_ALIGN_ENGINE=stable_ts`); tuỳ chọn `qwen_fa` / legacy `whisper`. Model Whisper `base` (`KAIWA_WHISPER_MODEL`). Câu unmatched báo rõ — không mốc giả. Anime/BGM chưa claim. |
 | Publish / luyện | Chỉ sau khi bạn mở editor và chốt / start-practice — máy **không** tự publish |
 | Chữ hiển thị (v1) | Giữ **script bạn đưa**; engine chỉ gán thời gian |
 | Chữ hiển thị (v2) | Đến từ ASR — **có thể sai**; phải sửa tay |
 | `transcription` / `scriptAlign` `not_configured` | Thông báo trung thực; đường thủ công vẫn dùng |
 
-Cấu hình pilot: `FFMPEG_PATH` (hoặc `KAIWA_FFMPEG_PATH`), Python + `faster-whisper`; tùy chọn `KAIWA_WHISPER_MODEL` (mặc định `base`), `KAIWA_PYTHON`. Kiểm env: `npm run kaiwa:speech-env`. Kiểm thử: `KAIWA_SCRIPT_ALIGN_ENGINE=mock` / `KAIWA_ASR_ENGINE=mock` (không dùng production claim).
+Cấu hình pilot: `FFMPEG_PATH` (hoặc `KAIWA_FFMPEG_PATH`), Python + `stable-ts` (mặc định) hoặc `qwen-asr` / `faster-whisper`; `KAIWA_SCRIPT_ALIGN_ENGINE=stable_ts|qwen_fa|whisper|mock`; `KAIWA_WHISPER_MODEL` (mặc định `base`), `KAIWA_PYTHON`. Kiểm env: `npm run kaiwa:speech-env`. Kiểm thử: `KAIWA_SCRIPT_ALIGN_ENGINE=mock` / `KAIWA_ASR_ENGINE=mock` (không dùng production claim).
 
 ## Chấm điểm phát âm
 

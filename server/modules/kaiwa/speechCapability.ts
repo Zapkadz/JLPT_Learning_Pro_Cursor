@@ -1,6 +1,6 @@
 /**
- * KAI-015/053 speech + script-align capability surface.
- * Without ffmpeg (and whisper unless mock): scriptAlign stays not_configured.
+ * KAI-015/053/070 speech + script-align capability surface.
+ * Default align engine: stable_ts (ADR-021a). Optional: qwen_fa, whisper, mock.
  */
 
 import { existsSync } from "node:fs";
@@ -41,6 +41,26 @@ export type SpeechCapability = {
   liveTestsAllowed: boolean;
 };
 
+export type ScriptAlignEnginePref =
+  | "stable_ts"
+  | "qwen_fa"
+  | "whisper"
+  | "mock";
+
+export function resolveScriptAlignEnginePref(
+  env: NodeJS.ProcessEnv = process.env,
+): ScriptAlignEnginePref {
+  const raw = (env.KAIWA_SCRIPT_ALIGN_ENGINE?.trim() || "stable_ts").toLowerCase();
+  if (raw === "mock") return "mock";
+  if (raw === "qwen_fa" || raw === "qwen" || raw === "qwen3") return "qwen_fa";
+  if (raw === "whisper" || raw === "faster-whisper" || raw === "greedy")
+    return "whisper";
+  if (raw === "stable_ts" || raw === "stable-ts" || raw === "stable")
+    return "stable_ts";
+  // Unknown → ADR-021a default
+  return "stable_ts";
+}
+
 export function resolveFfmpegPath(
   env: NodeJS.ProcessEnv = process.env,
 ): string | null {
@@ -57,19 +77,48 @@ export function resolveFfmpegPath(
   return null;
 }
 
-let whisperImportCache: boolean | null = null;
+const importCache = new Map<string, boolean>();
 
-function canImportFasterWhisper(env: NodeJS.ProcessEnv): boolean {
-  if (whisperImportCache != null) return whisperImportCache;
+function canImportPythonModule(
+  env: NodeJS.ProcessEnv,
+  code: string,
+  cacheKey: string,
+): boolean {
+  const hit = importCache.get(cacheKey);
+  if (hit != null) return hit;
   const python =
     env.KAIWA_PYTHON?.trim() || env.PYTHON?.trim() || "python";
-  const r = spawnSync(
-    python,
-    ["-c", "from faster_whisper import WhisperModel"],
-    { encoding: "utf8", timeout: 30_000 },
+  const r = spawnSync(python, ["-c", code], {
+    encoding: "utf8",
+    timeout: 45_000,
+  });
+  const ok = r.status === 0;
+  importCache.set(cacheKey, ok);
+  return ok;
+}
+
+function canImportFasterWhisper(env: NodeJS.ProcessEnv): boolean {
+  return canImportPythonModule(
+    env,
+    "from faster_whisper import WhisperModel",
+    "faster_whisper",
   );
-  whisperImportCache = r.status === 0;
-  return whisperImportCache;
+}
+
+function canImportStableTs(env: NodeJS.ProcessEnv): boolean {
+  return canImportPythonModule(
+    env,
+    "import stable_whisper",
+    "stable_whisper",
+  );
+}
+
+function canImportQwenFa(env: NodeJS.ProcessEnv): boolean {
+  return canImportPythonModule(
+    env,
+    "from qwen_asr import Qwen3ForcedAligner",
+    "qwen_asr",
+  );
 }
 
 export function resolveScriptAlignCapability(
@@ -81,7 +130,8 @@ export function resolveScriptAlignCapability(
   engine: string | null;
 } {
   const ffmpeg = resolveFfmpegPath(env);
-  const enginePref = env.KAIWA_SCRIPT_ALIGN_ENGINE?.trim() || "whisper";
+  const enginePref = resolveScriptAlignEnginePref(env);
+  const model = env.KAIWA_WHISPER_MODEL?.trim() || "base";
 
   if (enginePref === "mock") {
     return {
@@ -103,6 +153,45 @@ export function resolveScriptAlignCapability(
     };
   }
 
+  if (enginePref === "stable_ts") {
+    if (!canImportStableTs(env)) {
+      return {
+        status: "not_configured",
+        providers: [],
+        engine: null,
+        messageVi:
+          "Chưa cài stable-ts (pip install stable-ts). Hoặc đặt KAIWA_SCRIPT_ALIGN_ENGINE=whisper / qwen_fa. Vẫn dùng SRT/VTT hoặc soạn tay.",
+      };
+    }
+    return {
+      status: "ready",
+      providers: ["stable-ts"],
+      engine: `stable-ts:${model}`,
+      messageVi:
+        "Có thể đồng bộ lời thoại với video (stable-ts). Kết quả là bản nháp — hãy kiểm tra mốc thời gian. Anime/BGM vẫn có thể lệch.",
+    };
+  }
+
+  if (enginePref === "qwen_fa") {
+    if (!canImportQwenFa(env)) {
+      return {
+        status: "not_configured",
+        providers: [],
+        engine: null,
+        messageVi:
+          "Chưa cài qwen-asr (pip install qwen-asr). Hoặc đặt KAIWA_SCRIPT_ALIGN_ENGINE=stable_ts. Vẫn dùng SRT/VTT hoặc soạn tay.",
+      };
+    }
+    return {
+      status: "ready",
+      providers: ["qwen-forced-aligner"],
+      engine: `qwen-fa:${env.KAIWA_QWEN_FA_MODEL?.trim() || "Qwen/Qwen3-ForcedAligner-0.6B"}`,
+      messageVi:
+        "Có thể đồng bộ (Qwen ForcedAligner). Cold start CPU có thể chậm. Bản nháp — hãy kiểm tra mốc.",
+    };
+  }
+
+  // whisper (legacy greedy)
   if (!canImportFasterWhisper(env)) {
     return {
       status: "not_configured",
@@ -116,9 +205,9 @@ export function resolveScriptAlignCapability(
   return {
     status: "ready",
     providers: ["faster-whisper"],
-    engine: `faster-whisper:${env.KAIWA_WHISPER_MODEL?.trim() || "base"}`,
+    engine: `faster-whisper:${model}`,
     messageVi:
-      "Có thể đồng bộ lời thoại với video (Whisper). Kết quả là bản nháp — hãy kiểm tra mốc thời gian.",
+      "Có thể đồng bộ lời thoại với video (Whisper greedy — legacy). Nên dùng stable_ts. Kết quả là bản nháp.",
   };
 }
 

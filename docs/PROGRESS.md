@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** Gate A **ACCEPTED**. ADR-021 bake-off **066–069 DONE** (ADR-021a → stable-ts default); next **KAI-070**.
+- **Kaiwa Studio:** Gate A **ACCEPTED**. Forced-align bake-off DONE; **KAI-070** stable-ts default shipped; next **KAI-072** / KAI-071.
 - Local speech env: `npm run kaiwa:speech-env` → ready.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
@@ -476,6 +476,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-070 stable-ts default script-align | 122/122 tests; speech-env ready | `docs/kaiwa/evidence/kai-070/REPORT.md` |
 | 2026-09-18 | KAI-069 WhisperX + ADR-021a bake-off | prefer stable-ts default; Qwen optional | `docs/kaiwa/evidence/kai-069/` |
 | 2026-09-18 | KAI-068 stable-ts spike | median Δstart 28–53 ms on clean TTS | `docs/kaiwa/evidence/kai-068/` |
 | 2026-09-18 | KAI-067 Qwen ForcedAligner CPU spike | median Δstart 21–68 ms on clean TTS | `docs/kaiwa/evidence/kai-067/` |

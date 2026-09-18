@@ -82,9 +82,24 @@ test("scriptAlign capability: mock ready; without mock+ffmpeg not_configured pat
     FFMPEG_PATH: "",
     KAIWA_FFMPEG_PATH: "",
     LOCALAPPDATA: "C:\\nonexistent-localappdata-kaiwa",
-    KAIWA_SCRIPT_ALIGN_ENGINE: "whisper",
+    KAIWA_SCRIPT_ALIGN_ENGINE: "stable_ts",
   });
   assert.equal(off.scriptAlign.status, "not_configured");
+});
+
+test("scriptAlign engine pref defaults to stable_ts (ADR-021a)", async () => {
+  const { resolveScriptAlignEnginePref } = await import(
+    "../../server/modules/kaiwa/speechCapability"
+  );
+  assert.equal(resolveScriptAlignEnginePref({}), "stable_ts");
+  assert.equal(
+    resolveScriptAlignEnginePref({ KAIWA_SCRIPT_ALIGN_ENGINE: "qwen_fa" }),
+    "qwen_fa",
+  );
+  assert.equal(
+    resolveScriptAlignEnginePref({ KAIWA_SCRIPT_ALIGN_ENGINE: "whisper" }),
+    "whisper",
+  );
 });
 
 test("script-align mock writes draft with source_json; stale version 409; ownership 404", async () => {
