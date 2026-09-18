@@ -47,6 +47,23 @@ export const kaiwaSegmentSchema = z.object({
   assessableReason: z.string().max(500).nullable().optional(),
   /** Set by script-align / ASR when timing is weak — user should edit. */
   timingUncertain: z.boolean().optional(),
+  /**
+   * KAI-065+: proposed = draft timing; needs_review = weak; unmatched = no usable window
+   * (do not treat start/end as speakable when unmatched).
+   */
+  timingStatus: z
+    .enum(["proposed", "needs_review", "unmatched"])
+    .optional(),
+  /** Machine reason for needs_review / unmatched (not a calibrated %). */
+  timingReason: z.string().max(200).optional(),
+  /**
+   * KAI-074: explicit speech span when start/end are kept as the editable cue.
+   * Prefer these for “true speech”; practice padding is UI-only (see practiceTiming.ts).
+   */
+  speechStartMs: z.number().int().nonnegative().optional(),
+  speechEndMs: z.number().int().positive().optional(),
+  /** KAI-073: user locked timing — realign must not overwrite. */
+  timingLocked: z.boolean().optional(),
 });
 
 export const kaiwaRevisionPayloadSchema = z.object({
@@ -87,6 +104,16 @@ export const saveKaiwaDraftSchema = z.object({
 export const scriptAlignRequestSchema = z.object({
   expectedRevisionVersion: z.number().int().nonnegative(),
   text: z.string().min(1).max(200_000),
+  /** Optional Point Sync–style anchors (line index → media time). KAI-071 */
+  anchors: z
+    .array(
+      z.object({
+        lineIndex: z.number().int().nonnegative().max(1999),
+        atMs: z.number().int().nonnegative().max(86_400_000),
+      }),
+    )
+    .max(100)
+    .optional(),
 });
 
 export const publishKaiwaRevisionSchema = z.object({

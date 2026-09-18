@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kaiwa-bench-clip-manifest",
+  "title": "Kaiwa forced-align clip entry",
+  "type": "object",
+  "required": ["clipId", "category", "scriptLines", "gtMethod", "inGit"],
+  "properties": {
+    "clipId": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "category": {
+      "type": "string",
+      "enum": [
+        "clean_tts",
+        "long_gap",
+        "kanji_kana_stress",
+        "dialogue_turn",
+        "anime_bgm",
+        "fast_speech",
+        "whisper_shout",
+        "opening_sfx",
+        "repeated_short",
+        "missing_line",
+        "extra_script_tail",
+        "empty_audio"
+      ]
+    },
+    "scriptLines": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "maxItems": 200
+    },
+    "audioPath": { "type": "string", "description": "WAV/MP3 path; absolute if inGit=false" },
+    "groundTruthPath": {
+      "type": "string",
+      "description": "JSON with segments[{ja,speechStartMs,speechEndMs}]"
+    },
+    "gtMethod": {
+      "type": "string",
+      "enum": ["silencedetect_tts", "waveform_human", "synthetic_words"]
+    },
+    "license": { "type": "string" },
+    "inGit": { "type": "boolean" },
+    "notes": { "type": "string" }
+  }
+}

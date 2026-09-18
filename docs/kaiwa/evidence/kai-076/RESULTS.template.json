@@ -1,0 +1,37 @@
+{
+  "$schemaNote": "KAI-076 held-out results — metrics only; never embed media",
+  "generatedAt": null,
+  "operator": null,
+  "machineNotes": "CPU/RAM / KAIWA_SCRIPT_ALIGN_ENGINE",
+  "alignEngine": null,
+  "clips": [
+    {
+      "id": "example-clean-01",
+      "title": "Replace with your clip id",
+      "category": "clean_dialogue",
+      "videoMinutes": 1.5,
+      "editMinutes": 4.0,
+      "editPerVideoMin": 2.67,
+      "linesTotal": 30,
+      "linesOkWithoutEdit": 22,
+      "notes": "Private path only — do not put filenames of licensed anime in git if sensitive",
+      "gtMethod": "waveform_human"
+    }
+  ],
+  "summary": {
+    "cleanDialogue": {
+      "clipCount": 0,
+      "medianEditPerVideoMin": null,
+      "notes": "Fill after ≥1 clean_dialogue clip"
+    },
+    "heavyBgm": {
+      "clipCount": 0,
+      "medianEditPerVideoMin": null,
+      "notes": "Report separately — do not merge into cleanDialogue"
+    }
+  },
+  "honesty": [
+    "No anime quality claim until rows are real user measurements",
+    "Heavy BGM excluded from cleanDialogue median"
+  ]
+}

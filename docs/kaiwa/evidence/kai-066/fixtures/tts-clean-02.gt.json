@@ -1,0 +1,31 @@
+{
+  "clipId": "tts-clean-02",
+  "gtMethod": "silencedetect_tts",
+  "segments": [
+    {
+      "ja": "おはようございます。",
+      "speechStartMs": 227,
+      "speechEndMs": 1202,
+      "fileDurationMs": 2232,
+      "gtMethod": "silencedetect_tts"
+    },
+    {
+      "ja": "コーヒーを一杯ください。",
+      "speechStartMs": 3061,
+      "speechEndMs": 4709,
+      "fileDurationMs": 2784,
+      "gtMethod": "silencedetect_tts"
+    },
+    {
+      "ja": "ありがとうございます。",
+      "speechStartMs": 6446,
+      "speechEndMs": 7497,
+      "fileDurationMs": 2304,
+      "gtMethod": "silencedetect_tts"
+    }
+  ],
+  "totalMs": 8520,
+  "gapMs": 600,
+  "voice": "ja-JP-NanamiNeural",
+  "honesty": "speechStart/End from silencedetect per line; not whole-file duration"
+}

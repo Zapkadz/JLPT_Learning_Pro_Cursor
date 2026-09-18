@@ -1,7 +1,8 @@
 /**
  * Provisional audio quality gate (KAI-024).
  * Operates on PCM Int16 LE mono samples — never invents pronunciation scores.
- * Thresholds are provisional until KAI-023 benchmark locks them.
+ * DSP cutoffs below remain provisional until calibrated on the KAI-023 corpus;
+ * Gate B *feedback* rates are locked in shared/kaiwa/gateBBenchmark.ts.
  */
 
 export type AudioQualityVerdict =
@@ -44,7 +45,7 @@ export type QualityThresholds = {
   clippingRatioMax: number;
 };
 
-/** Provisional until KAI-023 — documented, not marketing scores. */
+/** DSP cutoffs provisional until calibrated on KAI-023 corpus. */
 export const PROVISIONAL_THRESHOLDS: QualityThresholds = {
   minDurationMs: 400,
   silenceRms: 0.01,

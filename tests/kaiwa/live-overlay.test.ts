@@ -37,6 +37,7 @@ test("continuous recorder mounts on-video overlay (not list-only)", () => {
     "utf8",
   );
   assert.ok(src.includes("kaiwa-script-overlay"));
+  assert.ok(src.includes("ScriptHelpLayers"));
   assert.ok(src.includes("currentAndNext"));
   assert.ok(src.includes("Tiếp:"));
   assert.ok(src.includes("không dừng theo câu"));

@@ -3,7 +3,7 @@
 Date: 2026-09-18  
 Status: **DONE** (measured on this machine)
 
-Related: ADR-020, `AUTO-SUBTITLE-SPEC.md` §5.2, KAI-051 ingest.
+Related: ADR-020, `AUTO-SUBTITLE-SPEC.md` §5.2, KAI-051 ingest; re-measure KAI-061 (`base`).
 
 ---
 
@@ -20,7 +20,7 @@ Re-run:
 
 ```bat
 set FFMPEG_PATH=%LOCALAPPDATA%\Microsoft\WinGet\Links\ffmpeg.exe
-set KAIWA_WHISPER_MODEL=tiny
+set KAIWA_WHISPER_MODEL=base
 python scripts/kaiwa/spike_script_align.py
 ```
 
@@ -42,22 +42,48 @@ Product rule confirmed in code path: aligned payload `ja` = script lines, not AS
 
 ---
 
-## 3. Timing measurements (`tiny` model, CPU int8)
+## 3. Timing measurements (TTS fixture, CPU int8)
 
 Source: `results.json` (3 lines, 700 ms silence gaps).
+
+### 3a. `tiny` (first spike)
 
 | Metric | Value |
 | --- | --- |
 | measuredLines | 3 / 3 |
 | median \|Δstart\| | **448 ms** |
 | median \|Δend\| | **404 ms** |
-| max \|Δstart\| | 780 ms (line 1 — VAD/trim vs TTS onset) |
+| max \|Δstart\| | 780 ms |
 | max \|Δend\| | 652 ms |
-| ASR hypothesis (reference only) | `こんにちは 今日はいい天気ですね一緒に散歩しませんか` |
 
-Per-line deltas are in `results.json` → `deltas`.
+### 3b. `base` (KAI-061 re-measure, 2026-09-18)
 
-**Interpretation:** ~0.4 s median error on clean TTS + `tiny` is **good enough to proceed** to a draft-only job with editor review and `timingUncertain` when match is weak. Expect better with `base`/`small` and optional edge padding in KAI-053. Not a claim of anime/drama production quality.
+| Metric | Value |
+| --- | --- |
+| measuredLines | 3 / 3 |
+| median \|Δstart\| | **28 ms** |
+| median \|Δend\| | **952 ms** |
+| max \|Δstart\| | 112 ms |
+| max \|Δend\| | 1092 ms |
+| ASR hypothesis | `こんにちは今日はいい天気ですね一緒に散歩しませんか` |
+
+**Interpretation:** `base` improves **start** alignment a lot on clean TTS. End times still drift (word envelope / trailing silence) — production sidecar adds ~120 ms pad and marks weak matches `timingUncertain`. **Not** a claim for anime/BGM quality; prefer script-align over ASR-only for drama.
+
+Default product model: **`base`** (`KAIWA_WHISPER_MODEL=small` optional).
+
+### 3c. `base` + end-stretch (KAI-063, 2026-09-18)
+
+Whisper word ends were **early** on TTS (not late). Sidecar now stretches each line end into the silence gap before the next line start (−80 ms lead).
+
+| Metric | Value |
+| --- | --- |
+| measuredLines | 3 / 3 |
+| median \|Δstart\| | **52 ms** |
+| median \|Δend\| | **568 ms** (was 952 ms in §3b) |
+| max \|Δstart\| | 192 ms |
+| max \|Δend\| | 844 ms |
+
+Still TTS-only; not an anime quality claim.
 
 ---
 
@@ -75,3 +101,5 @@ Per-line deltas are in `results.json` → `deltas`.
 - Spike script exit 0; `results.json` written with real numbers (not invented).
 - Fixture is TTS-generated (reproducible, legal).
 - Manual SRT / KAI-051 ingest paths unchanged.
+- Re-measure with `base` recorded under §3b after KAI-061.
+- End-stretch re-measure under §3c after KAI-063.

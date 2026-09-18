@@ -13,14 +13,18 @@ Automated verification at packaging: see `npm test` / KAI-032 evidence (**not** 
 - Soft-delete + media GC; optional media backup with MANIFEST
 - Activity history without deck/grammar XP injection (ADR-018)
 - Assessment: **not configured** — UI/docs must say so
+- **Script sync v1 + ASR v2 (ADR-020 / KAI-051–058):** untimed script → `script-align`; video-only → `POST …/transcriptions` (local Whisper); both **editable drafts** only; manual SRT/VTT always remains; capabilities honest when not configured
 
 ## Out of scope / deferred
 
-- ASR/auto-translate (KAI-015), pronunciation/prosody scoring (Gate B)
+- Cloud-only ASR vendor lock / paid key requirement (local Whisper is the pilot path)
+- Auto-translate
+- Pronunciation/prosody scoring (Gate B)
 - Speaking XP / streak contribution (KAI-030b)
 - Character role-play (KAI-035)
 - Mobile recording claim
-- Gate A **device** ACCEPTED until CHECKLIST Chrome+Edge segment flow signed (KAI-046)
+- OCR hardsubs / PDF script import
+- Gate A **device** ACCEPTED — CHECKLIST Chrome+Edge segment flow signed (KAI-046, 2026-09-18)
 
 ## Rollback
 
@@ -38,9 +42,12 @@ Automated verification at packaging: see `npm test` / KAI-032 evidence (**not** 
 | `KAIWA_MEDIA_ROOT` | Private media root |
 | `KAIWA_QUOTA_BYTES` | Per-user quota |
 | `KAIWA_MAX_UPLOAD_BYTES` | Max upload |
-| `FFMPEG_PATH` / `KAIWA_FFMPEG_PATH` | Real export mix when set |
+| `FFMPEG_PATH` / `KAIWA_FFMPEG_PATH` | Real export mix + script-align audio extract when set |
+| `KAIWA_PYTHON` / `KAIWA_WHISPER_MODEL` | Local Whisper sidecar for script-align (default model `tiny`) |
+| `KAIWA_SCRIPT_ALIGN_ENGINE=mock` | Test-only equal-slot aligner (not a production claim) |
+| `KAIWA_ASR_ENGINE=mock` | Test-only ASR stub (not a production claim) |
 | `KAIWA_BACKUP_MEDIA=1` | Include media in `npm run backup` |
 
 ## Gate A acceptance gate
 
-Fill and sign `docs/kaiwa/evidence/kai-033/CHECKLIST.md`. Until ACCEPTED there, do not market “Gate A shipped on all devices.”
+Fill and sign `docs/kaiwa/evidence/kai-033/CHECKLIST.md`. **Status 2026-09-18: ACCEPTED** (Chrome+Edge segment).

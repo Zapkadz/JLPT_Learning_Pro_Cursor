@@ -21,10 +21,29 @@ import {
   tokensWithRomaji,
 } from "../../../shared/kaiwa/romaji";
 import type { KaiwaRubyToken, KaiwaSegment } from "../../../shared/kaiwa/types";
+import {
+  countTimingStatuses,
+  isNeedsReviewSegment,
+  isSpeakableSegment,
+  isUnmatchedSegment,
+  summarizeAlignResultVi,
+} from "../../../shared/kaiwa/timingStatus";
+import {
+  anchorsFromLocks,
+  applySegmentTiming,
+  mergeRealignPreservingLocks,
+  popTimingUndo,
+  pushTimingUndo,
+  rangeBetweenLocks,
+  toggleTimingLock,
+  type TimingSnapshot,
+} from "../../../shared/kaiwa/timingEdit";
 import { useAuth } from "../../App";
 import { MicPreflightPanel } from "./MicPreflightPanel";
 import { ContinuousRecorder } from "./ContinuousRecorder";
 import { SegmentStudio } from "./SegmentStudio";
+import { ScriptHelpLayers } from "./ScriptHelpLayers";
+import { TimingWaveform } from "./TimingWaveform";
 import "./kaiwa.css";
 
 type ProjectRow = {
@@ -542,14 +561,27 @@ export function KaiwaEdit() {
   const [issues, setIssues] = useState<string[]>([]);
   const [saving, setSaving] = useState(false);
   const [aligning, setAligning] = useState(false);
+  const [transcribing, setTranscribing] = useState(false);
   const [scriptPaste, setScriptPaste] = useState("");
   const [alignConsent, setAlignConsent] = useState(false);
+  const [asrConsent, setAsrConsent] = useState(false);
+  const [timingFilter, setTimingFilter] = useState<
+    "all" | "needs_review" | "unmatched"
+  >("all");
+  const [undoStack, setUndoStack] = useState<TimingSnapshot[]>([]);
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(() => new Set());
+  const [realigning, setRealigning] = useState(false);
   const [prefs, setPrefs] = useState<HelpPrefs>(() =>
     loadHelpPrefs(user?.id || "anon"),
   );
   const videoRef = useRef<HTMLVideoElement>(null);
+  const playStopRef = useRef(0);
   const overlapSet = useMemo(
     () => new Set(findOverlaps(segments)),
+    [segments],
+  );
+  const timingCounts = useMemo(
+    () => countTimingStatuses(segments),
     [segments],
   );
 
@@ -588,11 +620,58 @@ export function KaiwaEdit() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
+  async function runTranscription() {
+    if (!id || !revision) return;
+    if (!asrConsent) {
+      setMessage("Hãy xác nhận đã đọc cảnh báo trước khi tạo phụ đề ASR.");
+      return;
+    }
+    setTranscribing(true);
+    setMessage("");
+    try {
+      const result = await post<{
+        alignEngine: string;
+        revision: {
+          id: string;
+          version: number;
+          state: string;
+          payload: { segments: KaiwaSegment[] };
+          source_json?: RevisionView["source_json"];
+        };
+      }>(`/kaiwa/projects/${id}/transcriptions`, {
+        expectedRevisionVersion: revision.version,
+      });
+      setRevision({
+        revisionId: result.revision.id,
+        version: result.revision.version,
+        state: result.revision.state,
+        payload: result.revision.payload,
+        source_json: result.revision.source_json,
+      });
+      setSegments(result.revision.payload?.segments || []);
+      setMessage(
+        `Đã tạo ${result.revision.payload?.segments?.length || 0} đoạn từ video (${result.alignEngine}). ${summarizeAlignResultVi(result.revision.payload?.segments || [])}. Chữ máy có thể sai — hãy kiểm tra kỹ trước khi luyện.`,
+      );
+      reloadProject();
+    } catch (e) {
+      setMessage(e instanceof Error ? e.message : "ASR thất bại.");
+    } finally {
+      setTranscribing(false);
+    }
+  }
+
   async function runScriptAlign() {
     if (!id || !revision) return;
-    const text = scriptPaste.trim();
+    const fromPaste = scriptPaste.trim();
+    const fromSegments = segments
+      .map((s) => s.ja.trim())
+      .filter(Boolean)
+      .join("\n");
+    const text = fromPaste || fromSegments;
     if (!text) {
-      setMessage("Hãy dán lời thoại trước khi đồng bộ.");
+      setMessage(
+        "Hãy dán lời thoại hoặc Áp dụng lời vào danh sách đoạn trước khi đồng bộ.",
+      );
       return;
     }
     if (!alignConsent) {
@@ -625,7 +704,7 @@ export function KaiwaEdit() {
       setSegments(result.revision.payload?.segments || []);
       setScriptPaste("");
       setMessage(
-        `Đã đồng bộ ${result.revision.payload?.segments?.length || 0} đoạn (${result.alignEngine}). Bản nháp máy — hãy kiểm tra mốc thời gian trước khi luyện.`,
+        `Đã đồng bộ ${result.revision.payload?.segments?.length || 0} đoạn (${result.alignEngine}). ${summarizeAlignResultVi(result.revision.payload?.segments || [])}. Bản nháp máy — hãy kiểm tra mốc trước khi luyện.`,
       );
       reloadProject();
     } catch (e) {
@@ -694,8 +773,15 @@ export function KaiwaEdit() {
   }
 
   function updateSeg(index: number, patch: Partial<KaiwaSegment>) {
-    setSegments((prev) =>
-      prev.map((s, i) => {
+    setSegments((prev) => {
+      const timingTouch =
+        patch.startMs != null ||
+        patch.endMs != null ||
+        patch.timingLocked != null;
+      if (timingTouch) {
+        setUndoStack((stack) => pushTimingUndo(stack, prev));
+      }
+      return prev.map((s, i) => {
         if (i !== index) return s;
         let next = { ...s, ...patch };
         if (patch.ja != null && patch.ja !== s.ja) {
@@ -706,9 +792,174 @@ export function KaiwaEdit() {
             readingStale: stale.readingStale || next.readingStale,
           };
         }
+        if (patch.startMs != null || patch.endMs != null) {
+          const start = patch.startMs ?? s.startMs;
+          const end = patch.endMs ?? s.endMs;
+          next = applySegmentTiming(
+            { ...next, timingLocked: s.timingLocked },
+            start,
+            end,
+          );
+          if (s.timingLocked) next = { ...next, timingLocked: true };
+        }
         return next;
-      }),
-    );
+      });
+    });
+  }
+
+  function undoTiming() {
+    setUndoStack((stack) => {
+      const { stack: next, restored } = popTimingUndo(stack);
+      if (restored) setSegments(restored);
+      return next;
+    });
+  }
+
+  function setTimingFromWave(index: number, startMs: number, endMs: number) {
+    setSegments((prev) => {
+      const cur = prev[index];
+      if (!cur || cur.timingLocked) return prev;
+      setUndoStack((stack) => pushTimingUndo(stack, prev));
+      const prevNeighbor = index > 0 ? prev[index - 1] : null;
+      const nextNeighbor =
+        index < prev.length - 1 ? prev[index + 1] : null;
+      const minStart = prevNeighbor ? prevNeighbor.startMs : 0;
+      const maxEnd = nextNeighbor ? nextNeighbor.endMs : startMs + 600_000;
+      // Soft clamp: don't require non-overlap strictly, but keep positive window
+      void minStart;
+      void maxEnd;
+      return prev.map((s, i) =>
+        i === index ? applySegmentTiming(s, startMs, endMs) : s,
+      );
+    });
+  }
+
+  function toggleLockAt(index: number) {
+    setSegments((prev) => {
+      setUndoStack((stack) => pushTimingUndo(stack, prev));
+      return prev.map((s, i) =>
+        i === index ? toggleTimingLock(s) : s,
+      );
+    });
+  }
+
+  function toggleSelectId(id: string) {
+    setSelectedIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  }
+
+  async function realignKeepingLocks(
+    range: { rangeStart: number; rangeEnd: number },
+    label: string,
+  ) {
+    if (!id || !revision) return;
+    if (!alignConsent) {
+      setMessage("Hãy xác nhận đã đọc lưu ý trước khi căn lại.");
+      return;
+    }
+    const text = segments
+      .map((s) => s.ja.trim())
+      .filter(Boolean)
+      .join("\n");
+    if (!text) {
+      setMessage("Không có lời để căn lại.");
+      return;
+    }
+    setRealigning(true);
+    setMessage("");
+    try {
+      const result = await post<{
+        alignEngine: string;
+        revision: {
+          id: string;
+          version: number;
+          state: string;
+          payload: { segments: KaiwaSegment[] };
+          source_json?: RevisionView["source_json"];
+        };
+      }>(`/kaiwa/projects/${id}/script-align`, {
+        expectedRevisionVersion: revision.version,
+        text,
+        anchors: anchorsFromLocks(segments),
+      });
+      const aligned = result.revision.payload?.segments || [];
+      const before = segments;
+      setUndoStack((stack) => pushTimingUndo(stack, before));
+      const merged = mergeRealignPreservingLocks(before, aligned, range);
+      const saved = await api<{ id?: string; version: number }>(
+        `/kaiwa/projects/${id}/draft`,
+        {
+          method: "PUT",
+          body: JSON.stringify({
+            expectedRevisionVersion: result.revision.version,
+            payload: { segments: merged.segments },
+          }),
+        },
+      );
+      setSegments(merged.segments);
+      setRevision({
+        revisionId: saved.id || result.revision.id,
+        version: saved.version ?? result.revision.version,
+        state: result.revision.state,
+        payload: { segments: merged.segments },
+        source_json: result.revision.source_json,
+      });
+      setMessage(
+        `${label}: đổi ${merged.changedIds.length} đoạn, giữ ${merged.preservedIds.length} (khóa/ngoài vùng). ${summarizeAlignResultVi(merged.segments)}. Đã ghi nháp.`,
+      );
+      reloadProject();
+    } catch (e) {
+      setMessage(e instanceof Error ? e.message : "Căn lại thất bại.");
+    } finally {
+      setRealigning(false);
+    }
+  }
+
+  /** Play segment window ± context; unmatched uses neighboring timed lines. */
+  function playSegWithContext(index: number) {
+    const v = videoRef.current;
+    if (!v || !playbackUrl) {
+      setMessage("Cần video đã chuẩn bị để nghe ngữ cảnh.");
+      return;
+    }
+    const CONTEXT_MS = 800;
+    const seg = segments[index];
+    if (!seg) return;
+    let start: number;
+    let end: number;
+    if (isSpeakableSegment(seg)) {
+      start = Math.max(0, seg.startMs - CONTEXT_MS);
+      end = seg.endMs + CONTEXT_MS;
+    } else {
+      const prev = [...segments.slice(0, index)]
+        .reverse()
+        .find((s) => isSpeakableSegment(s));
+      const next = segments.slice(index + 1).find((s) => isSpeakableSegment(s));
+      if (prev && next) {
+        start = Math.max(0, prev.endMs - CONTEXT_MS);
+        end = next.startMs + CONTEXT_MS;
+      } else if (prev) {
+        start = Math.max(0, prev.endMs - CONTEXT_MS);
+        end = prev.endMs + 2500;
+      } else if (next) {
+        start = Math.max(0, next.startMs - 2500);
+        end = next.startMs + CONTEXT_MS;
+      } else {
+        setMessage("Không có đoạn lân cận có mốc để nghe ngữ cảnh.");
+        return;
+      }
+    }
+    window.clearTimeout(playStopRef.current);
+    v.currentTime = start / 1000;
+    void v.play().catch(() => setMessage("Không phát được video."));
+    const dur = Math.max(200, end - start);
+    playStopRef.current = window.setTimeout(() => {
+      v.pause();
+    }, dur);
   }
 
   function setTokenLine(index: number, kind: "reading" | "romaji", value: string) {
@@ -842,6 +1093,19 @@ export function KaiwaEdit() {
   if (loadError) return <ErrorState message={loadError} retry={loadRevision} />;
   if (!revision) return <Loading />;
 
+  const hasScriptForAlign =
+    Boolean(scriptPaste.trim()) ||
+    segments.some((s) => Boolean(s.ja.trim()));
+  const syncDisabledReason = !playbackUrl
+    ? "Cần video đã chuẩn bị (prepare media)."
+    : !hasScriptForAlign
+      ? "Cần dán lời hoặc đã có đoạn JA trong danh sách (sau «Áp dụng lời đã dán» cũng được)."
+      : !alignConsent
+        ? "Hãy tích ô xác nhận bên dưới."
+        : aligning
+          ? "Đang đồng bộ…"
+          : null;
+
   return (
     <div className="kaiwa-page">
       <PageHead
@@ -863,6 +1127,16 @@ export function KaiwaEdit() {
       {revision?.source_json?.source === "script_align" && (
         <Status tone="info">
           Bản nháp máy tạo — hãy kiểm tra mốc thời gian trước khi luyện.
+          {revision.source_json.alignEngine
+            ? ` (${revision.source_json.alignEngine})`
+            : ""}
+        </Status>
+      )}
+
+      {revision?.source_json?.source === "asr" && (
+        <Status tone="info">
+          Bản nháp ASR từ video — chữ và mốc đều có thể sai. Hãy sửa trước khi
+          luyện.
           {revision.source_json.alignEngine
             ? ` (${revision.source_json.alignEngine})`
             : ""}
@@ -955,10 +1229,12 @@ export function KaiwaEdit() {
 
         <div className="panel kaiwa-script-align">
           <h3 className="kaiwa-subhead">Đồng bộ lời thoại với video</h3>
-          {speechCap?.scriptAlign?.status === "ready" ? (
+          {speechCap?.scriptAlign?.status === "ready" ||
+          speechCap?.scriptAlign?.status === "degraded" ? (
             <>
               <p className="kaiwa-muted">
-                {speechCap.scriptAlign.messageVi}
+                {speechCap.scriptAlign.messageVi} Dùng lời trong ô dán{" "}
+                <strong>hoặc</strong> các đoạn JA đã có trong danh sách.
               </p>
               <label className="kaiwa-check">
                 <input
@@ -966,17 +1242,18 @@ export function KaiwaEdit() {
                   checked={alignConsent}
                   onChange={(e) => setAlignConsent(e.target.checked)}
                 />
-                Tôi sẽ kiểm tra mốc thời gian sau khi máy gán (audio xử lý cục
-                bộ khi dùng Whisper; không tự publish).
+                <span>
+                  Tôi sẽ kiểm tra mốc thời gian sau khi máy gán (audio xử lý cục
+                  bộ khi dùng Whisper; không tự publish).
+                </span>
               </label>
               <button
                 type="button"
                 className="btn"
                 disabled={
                   aligning ||
-                  !scriptPaste.trim() ||
+                  !hasScriptForAlign ||
                   !alignConsent ||
-                  !revision ||
                   !playbackUrl
                 }
                 onClick={() => void runScriptAlign()}
@@ -985,16 +1262,54 @@ export function KaiwaEdit() {
                   ? "Đang đồng bộ…"
                   : "Đồng bộ lời thoại với video (tự gán thời gian)"}
               </button>
-              {!playbackUrl && (
-                <Status tone="info">
-                  Cần video đã chuẩn bị (prepare media) trước khi đồng bộ.
-                </Status>
+              {syncDisabledReason && (
+                <Status tone="info">{syncDisabledReason}</Status>
               )}
             </>
           ) : (
             <Status tone="info">
               {speechCap?.scriptAlign?.messageVi ||
                 "Chưa cấu hình tự động. Hãy nhập SRT/VTT hoặc soạn tay."}
+            </Status>
+          )}
+        </div>
+
+        <div className="panel kaiwa-script-align">
+          <h3 className="kaiwa-subhead">Tự tạo phụ đề từ video (ASR)</h3>
+          {speechCap?.transcription?.status === "ready" ? (
+            <>
+              <p className="kaiwa-muted">{speechCap.transcription.messageVi}</p>
+              <label className="kaiwa-check">
+                <input
+                  type="checkbox"
+                  checked={asrConsent}
+                  onChange={(e) => setAsrConsent(e.target.checked)}
+                />
+                Tôi hiểu chữ máy có thể sai và sẽ sửa trước khi luyện (không tự
+                publish).
+              </label>
+              <button
+                type="button"
+                className="btn"
+                disabled={
+                  transcribing || !asrConsent || !revision || !playbackUrl
+                }
+                onClick={() => void runTranscription()}
+              >
+                {transcribing
+                  ? "Đang tạo phụ đề…"
+                  : "Tự tạo phụ đề từ video (ASR)"}
+              </button>
+              {!playbackUrl && (
+                <Status tone="info">
+                  Cần video đã chuẩn bị (prepare media) trước khi ASR.
+                </Status>
+              )}
+            </>
+          ) : (
+            <Status tone="info">
+              {speechCap?.transcription?.messageVi ||
+                "Chưa cấu hình ASR. Hãy nhập SRT/VTT hoặc soạn tay."}
             </Status>
           )}
         </div>
@@ -1030,27 +1345,153 @@ export function KaiwaEdit() {
         {message && <Status tone="info">{message}</Status>}
       </div>
 
+      {(timingCounts.unmatched > 0 || timingCounts.needsReview > 0) && (
+        <Status tone="info">{summarizeAlignResultVi(segments)}</Status>
+      )}
+
+      <div className="kaiwa-seg-filters" role="group" aria-label="Lọc theo trạng thái mốc">
+        <button
+          type="button"
+          className={timingFilter === "all" ? "btn" : "btn secondary"}
+          onClick={() => setTimingFilter("all")}
+        >
+          Tất cả ({timingCounts.total})
+        </button>
+        <button
+          type="button"
+          className={timingFilter === "needs_review" ? "btn" : "btn secondary"}
+          onClick={() => setTimingFilter("needs_review")}
+        >
+          Cần kiểm tra ({timingCounts.needsReview})
+        </button>
+        <button
+          type="button"
+          className={timingFilter === "unmatched" ? "btn" : "btn secondary"}
+          onClick={() => setTimingFilter("unmatched")}
+        >
+          Chưa khớp ({timingCounts.unmatched})
+        </button>
+      </div>
+
+      <div className="kaiwa-actions" role="group" aria-label="Sửa mốc">
+        <button
+          type="button"
+          className="btn secondary"
+          disabled={undoStack.length === 0}
+          onClick={undoTiming}
+        >
+          Hoàn tác mốc ({undoStack.length})
+        </button>
+        <button
+          type="button"
+          className="btn secondary"
+          disabled={
+            realigning || aligning || selectedIds.size === 0 || !alignConsent
+          }
+          onClick={() => {
+            const indices = segments
+              .map((s, i) => (selectedIds.has(s.id) ? i : -1))
+              .filter((i) => i >= 0);
+            if (!indices.length) return;
+            void realignKeepingLocks(
+              {
+                rangeStart: Math.min(...indices),
+                rangeEnd: Math.max(...indices) + 1,
+              },
+              "Căn lại vùng đã chọn",
+            );
+          }}
+        >
+          {realigning ? "Đang căn…" : "Căn lại đoạn đã chọn"}
+        </button>
+        <button
+          type="button"
+          className="btn secondary"
+          disabled={realigning || aligning || !alignConsent}
+          onClick={() => {
+            const focus =
+              segments.findIndex((s) => selectedIds.has(s.id)) >= 0
+                ? segments.findIndex((s) => selectedIds.has(s.id))
+                : 0;
+            void realignKeepingLocks(
+              rangeBetweenLocks(segments, focus),
+              "Căn giữa hai khóa",
+            );
+          }}
+        >
+          Căn giữa hai khóa
+        </button>
+      </div>
+      <p className="kaiwa-privacy-note">
+        Khóa mốc để realign không ghi đè. Kéo waveform để chỉnh tay — hoàn tác
+        chỉ cho mốc thời gian.
+      </p>
+
       <ol className="kaiwa-segments">
-        {segments.map((seg, index) => (
+        {segments.map((seg, index) => {
+          const unmatched = isUnmatchedSegment(seg);
+          const needsReview = isNeedsReviewSegment(seg);
+          if (timingFilter === "unmatched" && !unmatched) return null;
+          if (timingFilter === "needs_review" && !needsReview) return null;
+          const viewPad = 1500;
+          const viewStartMs = Math.max(0, seg.startMs - viewPad);
+          const viewEndMs = Math.max(seg.endMs + viewPad, viewStartMs + 2000);
+          return (
           <li
             key={seg.id}
             className={
               overlapSet.has(index)
                 ? "kaiwa-seg overlap"
-                : seg.timingUncertain
-                  ? "kaiwa-seg uncertain"
-                  : "kaiwa-seg"
+                : unmatched
+                  ? "kaiwa-seg unmatched"
+                  : seg.timingLocked
+                    ? "kaiwa-seg locked"
+                    : needsReview
+                      ? "kaiwa-seg uncertain"
+                      : "kaiwa-seg"
             }
           >
-            {seg.timingUncertain && (
-              <Status tone="info">
-                Đoạn này khớp chưa chắc — nên sửa tay.
+            {unmatched ? (
+              <Status tone="error">
+                Chưa tìm được vị trí trong audio — giữ lời; hãy chỉnh tay (không
+                dùng mốc 0 giả để luyện).
               </Status>
-            )}
+            ) : needsReview ? (
+              <Status tone="info">
+                Đoạn này khớp chưa chắc
+                {seg.timingReason ? ` (${seg.timingReason})` : ""} — nên sửa tay.
+              </Status>
+            ) : null}
             <div className="kaiwa-seg-times">
+              <label className="kaiwa-check kaiwa-seg-select">
+                <input
+                  type="checkbox"
+                  checked={selectedIds.has(seg.id)}
+                  onChange={() => toggleSelectId(seg.id)}
+                  aria-label={`Chọn đoạn ${index + 1}`}
+                />
+                Chọn
+              </label>
+              <button
+                type="button"
+                className={seg.timingLocked ? "btn" : "btn secondary"}
+                onClick={() => toggleLockAt(index)}
+                aria-pressed={Boolean(seg.timingLocked)}
+              >
+                {seg.timingLocked ? "Đã khóa" : "Khóa mốc"}
+              </button>
               <button
                 type="button"
                 className="btn secondary"
+                disabled={!playbackUrl}
+                onClick={() => playSegWithContext(index)}
+              >
+                Nghe ± ngữ cảnh
+              </button>
+              <button
+                type="button"
+                className="btn secondary"
+                disabled={!playbackUrl || unmatched}
                 onClick={() => {
                   if (videoRef.current)
                     videoRef.current.currentTime = seg.startMs / 1000;
@@ -1061,6 +1502,7 @@ export function KaiwaEdit() {
               <input
                 aria-label="Bắt đầu"
                 value={msToInput(seg.startMs)}
+                disabled={Boolean(seg.timingLocked)}
                 onChange={(e) => {
                   const v = inputToMs(e.target.value);
                   if (v != null) updateSeg(index, { startMs: v });
@@ -1070,12 +1512,28 @@ export function KaiwaEdit() {
               <input
                 aria-label="Kết thúc"
                 value={msToInput(seg.endMs)}
+                disabled={Boolean(seg.timingLocked)}
                 onChange={(e) => {
                   const v = inputToMs(e.target.value);
                   if (v != null) updateSeg(index, { endMs: v });
                 }}
               />
             </div>
+            {!unmatched && (
+              <TimingWaveform
+                audioUrl={playbackUrl}
+                startMs={seg.startMs}
+                endMs={seg.endMs}
+                viewStartMs={viewStartMs}
+                viewEndMs={viewEndMs}
+                locked={Boolean(seg.timingLocked)}
+                onChange={(s, e) => setTimingFromWave(index, s, e)}
+                onPreview={(ms) => {
+                  if (videoRef.current)
+                    videoRef.current.currentTime = ms / 1000;
+                }}
+              />
+            )}
             <textarea
               aria-label="Tiếng Nhật"
               rows={2}
@@ -1165,7 +1623,8 @@ export function KaiwaEdit() {
               </button>
             </div>
           </li>
-        ))}
+          );
+        })}
       </ol>
     </div>
   );
@@ -1395,31 +1854,7 @@ export function KaiwaPrep() {
                 }}
               >
                 <span className="kaiwa-seg-time">{msToInput(seg.startMs)}</span>
-                <span
-                  className={`kaiwa-ruby-preview ${prefs.furigana ? "ruby-on" : "ruby-off"}`}
-                  lang="ja"
-                >
-                  {(seg.tokens?.length
-                    ? seg.tokens
-                    : [{ surface: seg.ja }]
-                  ).map((t, ti) =>
-                    t.reading && prefs.furigana ? (
-                      <ruby key={ti}>
-                        {t.surface}
-                        <rt>{t.reading}</rt>
-                      </ruby>
-                    ) : (
-                      <span key={ti}>{t.surface}</span>
-                    ),
-                  )}
-                </span>
-                {prefs.romaji && (
-                  <span className="kaiwa-romaji">
-                    {seg.tokens?.map((t) => t.romaji).filter(Boolean).join(" ") ||
-                      "—"}
-                  </span>
-                )}
-                {prefs.vi && seg.vi ? <span>{seg.vi}</span> : null}
+                <ScriptHelpLayers seg={seg} prefs={prefs} compact />
               </button>
             </li>
           ))}

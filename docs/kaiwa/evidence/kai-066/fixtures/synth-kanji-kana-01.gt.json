@@ -1,0 +1,50 @@
+{
+  "clipId": "synth-kanji-kana-01",
+  "gtMethod": "synthetic_words",
+  "segments": [
+    {
+      "ja": "今日はいい天気ですね",
+      "speechStartMs": 500,
+      "speechEndMs": 3200,
+      "gtMethod": "synthetic_words"
+    },
+    {
+      "ja": "ありがとう",
+      "speechStartMs": 4000,
+      "speechEndMs": 4600,
+      "gtMethod": "synthetic_words"
+    }
+  ],
+  "words": [
+    {
+      "word": "きょう",
+      "start": 0.5,
+      "end": 0.9
+    },
+    {
+      "word": "は",
+      "start": 0.9,
+      "end": 1.0
+    },
+    {
+      "word": "いい",
+      "start": 2.0,
+      "end": 2.3
+    },
+    {
+      "word": "てんき",
+      "start": 2.3,
+      "end": 2.8
+    },
+    {
+      "word": "ですね",
+      "start": 2.8,
+      "end": 3.2
+    },
+    {
+      "word": "ありがとう",
+      "start": 4.0,
+      "end": 4.6
+    }
+  ]
+}

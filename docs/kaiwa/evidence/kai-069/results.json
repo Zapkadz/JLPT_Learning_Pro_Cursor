@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-18T10:43:21Z",
+  "engine": "whisperx:ja-ctc",
+  "device": "cpu",
+  "clips": [
+    {
+      "clipId": "tts-clean-01",
+      "engine": "whisperx:ja-ctc",
+      "device": "cpu",
+      "latencySec": 3.4,
+      "wordCount": 28,
+      "matchedLines": 3,
+      "unmatchedLines": 0,
+      "cascadeSuspect": false,
+      "medianAbsDeltaStartMs": 13.0,
+      "medianAbsDeltaEndMs": 1727.0,
+      "p95AbsDeltaStartMs": 106.0,
+      "p95AbsDeltaEndMs": 1959.0,
+      "lines": [
+        {
+          "ja": "こんにちは。",
+          "status": "proposed",
+          "predStartMs": 241,
+          "predEndMs": 2808,
+          "gtSpeechStartMs": 228,
+          "gtSpeechEndMs": 849,
+          "absDeltaStartMs": 13,
+          "absDeltaEndMs": 1959
+        },
+        {
+          "ja": "今日はいい天気ですね。",
+          "status": "proposed",
+          "predStartMs": 2808,
+          "predEndMs": 5837,
+          "gtSpeechStartMs": 2702,
+          "gtSpeechEndMs": 4110,
+          "absDeltaStartMs": 106,
+          "absDeltaEndMs": 1727
+        },
+        {
+          "ja": "一緒に散歩しませんか。",
+          "status": "proposed",
+          "predStartMs": 5837,
+          "predEndMs": 8284,
+          "gtSpeechStartMs": 5828,
+          "gtSpeechEndMs": 7430,
+          "absDeltaStartMs": 9,
+          "absDeltaEndMs": 854
+        }
+      ],
+      "aligned": [
+        {
+          "ja": "こんにちは。",
+          "startMs": 241,
+          "endMs": 2808,
+          "timingStatus": "proposed",
+          "timingUncertain": false
+        },
+        {
+          "ja": "今日はいい天気ですね。",
+          "startMs": 2808,
+          "endMs": 5837,
+          "timingStatus": "proposed",
+          "timingUncertain": false
+        },
+        {
+          "ja": "一緒に散歩しませんか。",
+          "startMs": 5837,
+          "endMs": 8284,
+          "timingStatus": "proposed",
+          "timingUncertain": false
+        }
+      ]
+    },
+    {
+      "clipId": "tts-clean-02",
+      "engine": "whisperx:ja-ctc",
+      "device": "cpu",
+      "latencySec": 3.55,
+      "wordCount": 33,
+      "matchedLines": 3,
+      "unmatchedLines": 0,
+      "cascadeSuspect": false,
+      "medianAbsDeltaStartMs": 114.0,
+      "medianAbsDeltaEndMs": 1003.0,
+      "p95AbsDeltaStartMs": 1775.0,
+      "p95AbsDeltaEndMs": 1745.0,
+      "lines": [
+        {
+          "ja": "おはようございます。",
+          "status": "proposed",
+          "predStartMs": 221,
+          "predEndMs": 2947,
+          "gtSpeechStartMs": 227,
+          "gtSpeechEndMs": 1202,
+          "absDeltaStartMs": 6,
+          "absDeltaEndMs": 1745
+        },
+        {
+          "ja": "コーヒーを一杯ください。",
+          "status": "proposed",
+          "predStartMs": 2947,
+          "predEndMs": 4671,
+          "gtSpeechStartMs": 3061,
+          "gtSpeechEndMs": 4709,
+          "absDeltaStartMs": 114,
+          "absDeltaEndMs": 38
+        },
+        {
+          "ja": "ありがとうございます。",
+          "status": "proposed",
+          "predStartMs": 4671,
+          "predEndMs": 8500,
+          "gtSpeechStartMs": 6446,
+          "gtSpeechEndMs": 7497,
+          "absDeltaStartMs": 1775,
+          "absDeltaEndMs": 1003
+        }
+      ],
+      "aligned": [
+        {
+          "ja": "おはようございます。",
+          "startMs": 221,
+          "endMs": 2947,
+          "timingStatus": "proposed",
+          "timingUncertain": false
+        },
+        {
+          "ja": "コーヒーを一杯ください。",
+          "startMs": 2947,
+          "endMs": 4671,
+          "timingStatus": "proposed",
+          "timingUncertain": false
+        },
+        {
+          "ja": "ありがとうございます。",
+          "startMs": 4671,
+          "endMs": 8500,
+          "timingStatus": "proposed",
+          "timingUncertain": false
+        }
+      ]
+    },
+    {
+      "clipId": "tts-longgap-01",
+      "engine": "whisperx:ja-ctc",
+      "device": "cpu",
+      "latencySec": 2.04,
+      "wordCount": 16,
+      "matchedLines": 2,
+      "unmatchedLines": 0,
+      "cascadeSuspect": false,
+      "medianAbsDeltaStartMs": 42.5,
+      "medianAbsDeltaEndMs": 2526.5,
+      "p95AbsDeltaStartMs": 78.0,
+      "p95AbsDeltaEndMs": 4199.0,
+      "lines": [
+        {
+          "ja": "こんにちは。",
+          "status": "proposed",
+          "predStartMs": 221,
+          "predEndMs": 5054,
+          "gtSpeechStartMs": 228,
+          "gtSpeechEndMs": 855,
+          "absDeltaStartMs": 7,
+          "absDeltaEndMs": 4199
+        },
+        {
+          "ja": "しばらくぶりですね。",
+          "status": "proposed",
+          "predStartMs": 5054,
+          "predEndMs": 7180,
+          "gtSpeechStartMs": 5132,
+          "gtSpeechEndMs": 6326,
+          "absDeltaStartMs": 78,
+          "absDeltaEndMs": 854
+        }
+      ],
+      "aligned": [
+        {
+          "ja": "こんにちは。",
+          "startMs": 221,
+          "endMs": 5054,
+          "timingStatus": "proposed",
+          "timingUncertain": false
+        },
+        {
+          "ja": "しばらくぶりですね。",
+          "startMs": 5054,
+          "endMs": 7180,
+          "timingStatus": "proposed",
+          "timingUncertain": false
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "WhisperX documents issues with overlapping speech and OOV characters",
+    "This spike uses one full-window segment + known script (not ASR-first)",
+    "Legal TTS only — not anime/BGM"
+  ],
+  "provisionalBakeOff": {
+    "preferForQualityOnCleanTts": "Qwen3-ForcedAligner or stable-ts (similar accuracy)",
+    "preferForCpuLatency": "stable-ts",
+    "contrastOnly": "whisperx",
+    "doNotSwapProductionUntil": "KAI-070 + broader corpus / anime sample outside git"
+  }
+}

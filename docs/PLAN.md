@@ -26,8 +26,8 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Detailed backlog / dependency graph | `docs/kaiwa/TASKS.md` |
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
-| **Current executable task** | **KAI-055** honesty/USAGE script-align / **KAI-046** human |
-| Do not start | **KAI-035** before Gate B |
+| **Current executable task** | Corpus fill / live ja-JP verify (ops) — **KAI-023 DONE**; KAI-076 PARTIAL; **not** KAI-034 yet |
+| Do not start | **KAI-035** before Gate B release; inventing anime quality claims; committing private media |
 
 ### Phase overview (detail in `docs/kaiwa/TASKS.md`)
 
@@ -37,9 +37,10 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Data + media foundation | KAI-005–012 | Schema, storage, jobs, upload, probe/proxy |
 | Transcript + Japanese support | KAI-013–016 | SRT/manual, furigana/romaji/VI, ASR optional |
 | Full-video record / review / export | KAI-017–022 | Continuous capture, takes, MP4 export |
-| **Speakable studio (ADR-019)** | **KAI-036–047** | Segment-default + overlay; assemble; Gate A device |
-| **Auto subtitle (ADR-020)** | **KAI-050–058** | v1 script→times; v2 ASR (**051** ingest DONE; spike next) |
-| Japanese assessment | KAI-023–029 | Evidence-based scoring (no fake metrics) |
+| **Speakable studio (ADR-019)** | **KAI-036–047** | **DONE** — Gate A ACCEPTED (KAI-046) |
+| **Auto subtitle (ADR-020)** | **KAI-050–058** | **DONE** (v1 script-sync + v2 ASR pilot) |
+| **Forced-align v1 redesign (ADR-021)** | **KAI-065–076** | **KAI-065–075 DONE**; **KAI-076 PARTIAL** (scaffold; user evidence pending) |
+| Japanese assessment | KAI-023–029 | **KAI-023 DONE** (framework); 024–029 stub/provisional; live+corpus pending |
 | Progress / ops / QA / gates | KAI-030–034 | Gate A then Gate B |
 | Later planning only | KAI-035 | Character role-play — after Gate B |
 

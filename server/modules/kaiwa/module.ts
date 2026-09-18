@@ -13,6 +13,7 @@ import { createAttemptChunkService } from "./attemptChunks";
 import { createFinalizeTakeService } from "./finalizeTake";
 import { createExportService } from "./exportMp4";
 import { createScriptAlignService } from "./scriptAlign";
+import { createTranscriptionService } from "./transcription";
 import { listActivityHistory } from "./activity";
 import { createOpsService, redactForLog } from "./ops";
 import { resolveSpeechCapability } from "./speechCapability";
@@ -102,6 +103,7 @@ export function kaiwaModule(
   const finalizeTake = createFinalizeTakeService(db, assets, attemptChunks);
   const exports = createExportService(db, assets, jobService);
   const scriptAlign = createScriptAlignService(db, repo, assets, jobService);
+  const transcription = createTranscriptionService(db, repo, assets, jobService);
   const ops = createOpsService(db, assets, jobService, config);
   const audioQuality = createAudioQualityService(db, assets);
   const alignment = createAlignmentService(db);
@@ -141,13 +143,22 @@ export function kaiwaModule(
     res.json(resolveSpeechCapability());
   });
 
-  router.post("/projects/:id/transcriptions", (_req, res) => {
+  router.post("/projects/:id/transcriptions", (req, res) => {
     const cap = resolveSpeechCapability();
-    res.status(503).json({
-      error: cap.transcription.messageVi,
-      code: "speech_not_configured",
-      status: cap.transcription.status,
-    });
+    if (cap.transcription.status === "not_configured") {
+      res.status(503).json({
+        error: cap.transcription.messageVi,
+        code: "speech_not_configured",
+        status: cap.transcription.status,
+      });
+      return;
+    }
+    const result = transcription.runTranscribe(
+      res.locals.user.id,
+      String(req.params.id),
+      req.body,
+    );
+    res.status(201).json(result);
   });
 
   router.post("/projects/:id/translations", (_req, res) => {

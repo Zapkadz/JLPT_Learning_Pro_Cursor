@@ -31,7 +31,7 @@ SCRIPT_LINES = [
 ]
 SILENCE_MS = 700
 VOICE = "ja-JP-NanamiNeural"
-WHISPER_MODEL = os.environ.get("KAIWA_WHISPER_MODEL", "tiny")
+WHISPER_MODEL = os.environ.get("KAIWA_WHISPER_MODEL", "base")
 
 
 def resolve_ffmpeg() -> str:
@@ -107,11 +107,14 @@ def normalize_ja(s: str) -> str:
 def align_words_to_lines(
     words: list[dict], lines: list[str]
 ) -> list[dict]:
-    """Greedy left-to-right: consume Whisper words until normalized line covered."""
+    """Greedy match; stretch ends into silence before next line (KAI-063)."""
     results = []
     wi = 0
     n = len(words)
-    for li, line in enumerate(lines):
+    pad_start_ms = 80
+    pad_end_ms = 80
+    lead_before_next_ms = 80
+    for line in lines:
         target = normalize_ja(line)
         if not target:
             continue
@@ -129,17 +132,14 @@ def align_words_to_lines(
         start_i = wi
         acc = ""
         end_i = wi
-        while wi < n and target not in acc and not acc.startswith(target):
+        while wi < n:
             acc += normalize_ja(words[wi]["word"])
             end_i = wi
             wi += 1
-            # prevent runaway on mismatch
-            if len(acc) > len(target) + 12:
+            if target in acc or acc.startswith(target):
                 break
-        # If still not covered, take at least one word
-        if start_i == end_i and wi == start_i and wi < n:
-            end_i = wi
-            wi += 1
+            if len(acc) > len(target) + 16:
+                break
         span = words[start_i : end_i + 1]
         if not span:
             results.append(
@@ -152,19 +152,40 @@ def align_words_to_lines(
                 }
             )
             continue
-        start_ms = int(round(span[0]["start"] * 1000))
-        end_ms = int(round(span[-1]["end"] * 1000))
+        start_ms = max(0, int(round(span[0]["start"] * 1000)) - pad_start_ms)
+        end_ms = int(round(span[-1]["end"] * 1000)) + pad_end_ms
+        if end_ms <= start_ms:
+            end_ms = start_ms + 400
         covered = normalize_ja("".join(w["word"] for w in span))
-        uncertain = target not in covered and not covered.startswith(target[: max(2, len(target) // 2)])
+        uncertain = target not in covered and not covered.startswith(
+            target[: max(2, len(target) // 2)]
+        )
         results.append(
             {
-                "ja": line,  # keep user script text
+                "ja": line,
                 "startMs": start_ms,
                 "endMs": end_ms,
                 "timingUncertain": uncertain,
                 "whisperSpan": "".join(w["word"] for w in span),
             }
         )
+    for i in range(len(results) - 1):
+        cur = results[i]
+        nxt = results[i + 1]
+        if (
+            cur.get("startMs") is None
+            or cur.get("endMs") is None
+            or nxt.get("startMs") is None
+        ):
+            continue
+        soft_end = int(nxt["startMs"]) - lead_before_next_ms
+        if soft_end <= cur["startMs"]:
+            continue
+        if cur["endMs"] < soft_end:
+            cur["endMs"] = soft_end
+        elif cur["endMs"] >= int(nxt["startMs"]):
+            cur["endMs"] = soft_end
+            cur["timingUncertain"] = True
     return results
 
 

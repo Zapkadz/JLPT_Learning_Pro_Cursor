@@ -1,6 +1,7 @@
 /**
- * KAI-015/053 speech + script-align capability surface.
- * Without ffmpeg (and whisper unless mock): scriptAlign stays not_configured.
+ * KAI-015/053/070/075 speech + script-align capability surface.
+ * Default align engine: stable_ts (ADR-021a). Optional: qwen_fa, whisper, mock.
+ * KAI-075: `ready` requires smoke inference (not import-only), unless smoke skipped.
  */
 
 import { existsSync } from "node:fs";
@@ -28,7 +29,6 @@ export type SpeechCapability = {
     status: SpeechCapabilityStatus;
     providers: string[];
     messageVi: string;
-    /** ProsodyScore must not be used for ja-JP (en-US only per Azure docs). */
     prosodySupportedForJaJp: false;
   };
   scriptAlign: {
@@ -36,10 +36,30 @@ export type SpeechCapability = {
     providers: string[];
     messageVi: string;
     engine: string | null;
+    smoke?: "passed" | "failed" | "skipped" | "mock";
   };
   credentialsPresent: boolean;
   liveTestsAllowed: boolean;
 };
+
+export type ScriptAlignEnginePref =
+  | "stable_ts"
+  | "qwen_fa"
+  | "whisper"
+  | "mock";
+
+export function resolveScriptAlignEnginePref(
+  env: NodeJS.ProcessEnv = process.env,
+): ScriptAlignEnginePref {
+  const raw = (env.KAIWA_SCRIPT_ALIGN_ENGINE?.trim() || "stable_ts").toLowerCase();
+  if (raw === "mock") return "mock";
+  if (raw === "qwen_fa" || raw === "qwen" || raw === "qwen3") return "qwen_fa";
+  if (raw === "whisper" || raw === "faster-whisper" || raw === "greedy")
+    return "whisper";
+  if (raw === "stable_ts" || raw === "stable-ts" || raw === "stable")
+    return "stable_ts";
+  return "stable_ts";
+}
 
 export function resolveFfmpegPath(
   env: NodeJS.ProcessEnv = process.env,
@@ -57,19 +77,182 @@ export function resolveFfmpegPath(
   return null;
 }
 
-let whisperImportCache: boolean | null = null;
+const importCache = new Map<string, boolean>();
+const smokeCache = new Map<
+  string,
+  { ok: boolean; detail: string; skipped?: boolean }
+>();
 
-function canImportFasterWhisper(env: NodeJS.ProcessEnv): boolean {
-  if (whisperImportCache != null) return whisperImportCache;
+function canImportPythonModule(
+  env: NodeJS.ProcessEnv,
+  code: string,
+  cacheKey: string,
+): boolean {
+  const hit = importCache.get(cacheKey);
+  if (hit != null) return hit;
   const python =
     env.KAIWA_PYTHON?.trim() || env.PYTHON?.trim() || "python";
+  const r = spawnSync(python, ["-c", code], {
+    encoding: "utf8",
+    timeout: 45_000,
+  });
+  const ok = r.status === 0;
+  importCache.set(cacheKey, ok);
+  return ok;
+}
+
+function canImportFasterWhisper(env: NodeJS.ProcessEnv): boolean {
+  return canImportPythonModule(
+    env,
+    "from faster_whisper import WhisperModel",
+    "faster_whisper",
+  );
+}
+
+function canImportStableTs(env: NodeJS.ProcessEnv): boolean {
+  return canImportPythonModule(
+    env,
+    "import stable_whisper",
+    "stable_whisper",
+  );
+}
+
+function canImportQwenFa(env: NodeJS.ProcessEnv): boolean {
+  return canImportPythonModule(
+    env,
+    "from qwen_asr import Qwen3ForcedAligner",
+    "qwen_asr",
+  );
+}
+
+/** Whether to run model smoke for `ready` (KAI-075). */
+export function shouldRunAlignSmoke(
+  env: NodeJS.ProcessEnv = process.env,
+): boolean {
+  const v = (env.KAIWA_ALIGN_SMOKE || "").trim().toLowerCase();
+  if (v === "0" || v === "off" || v === "skip" || v === "false") return false;
+  if (v === "1" || v === "on" || v === "force" || v === "true") return true;
+  if (env.KAIWA_UNDER_TEST === "1") return false;
+  // npm test / CI unit runs — avoid loading multi-hundred-MB models
+  if (env.npm_lifecycle_event === "test") return false;
+  return true;
+}
+
+/**
+ * Run one short align/transcribe against silence. Cached per engine+model.
+ */
+export function runAlignEngineSmoke(
+  env: NodeJS.ProcessEnv = process.env,
+  engine: ScriptAlignEnginePref = resolveScriptAlignEnginePref(env),
+  model?: string,
+): { ok: boolean; detail: string; skipped?: boolean } {
+  if (engine === "mock") {
+    return { ok: true, detail: "mock", skipped: false };
+  }
+  const modelName =
+    model ||
+    (engine === "qwen_fa"
+      ? env.KAIWA_QWEN_FA_MODEL?.trim() || "Qwen/Qwen3-ForcedAligner-0.6B"
+      : env.KAIWA_WHISPER_MODEL?.trim() || "base");
+  const key = `${engine}:${modelName}`;
+  const cached = smokeCache.get(key);
+  if (cached) return cached;
+
+  if (!shouldRunAlignSmoke(env)) {
+    const skipped = {
+      ok: false,
+      detail: "smoke_skipped",
+      skipped: true as const,
+    };
+    smokeCache.set(key, skipped);
+    return skipped;
+  }
+
+  const python =
+    env.KAIWA_PYTHON?.trim() || env.PYTHON?.trim() || "python";
+  const script = join(
+    process.cwd(),
+    "scripts",
+    "kaiwa",
+    "smoke_align_engine.py",
+  );
   const r = spawnSync(
     python,
-    ["-c", "from faster_whisper import WhisperModel"],
-    { encoding: "utf8", timeout: 30_000 },
+    [script, "--engine", engine, "--model", modelName],
+    {
+      encoding: "utf8",
+      timeout: 300_000,
+      env: { ...env, PYTHONIOENCODING: "utf-8" },
+    },
   );
-  whisperImportCache = r.status === 0;
-  return whisperImportCache;
+  const ok = r.status === 0 && /smoke_ok/.test(r.stdout || "");
+  const result = {
+    ok,
+    detail: ok
+      ? (r.stdout || "").trim()
+      : (r.stderr || r.stdout || `exit_${r.status}`).slice(0, 240),
+    skipped: false as const,
+  };
+  smokeCache.set(key, result);
+  return result;
+}
+
+/** Test helper — clear caches between cases. */
+export function clearSpeechCapabilityCaches(): void {
+  importCache.clear();
+  smokeCache.clear();
+}
+
+function gateReadyAfterImport(
+  env: NodeJS.ProcessEnv,
+  engine: ScriptAlignEnginePref,
+  base: {
+    providers: string[];
+    engine: string;
+    messageViReady: string;
+  },
+): {
+  status: SpeechCapabilityStatus;
+  providers: string[];
+  messageVi: string;
+  engine: string | null;
+  smoke: "passed" | "failed" | "skipped" | "mock";
+} {
+  const smoke = runAlignEngineSmoke(env, engine);
+  if (engine === "mock" || smoke.detail === "mock") {
+    return {
+      status: "ready",
+      providers: base.providers,
+      engine: base.engine,
+      messageVi: base.messageViReady,
+      smoke: "mock",
+    };
+  }
+  if (smoke.skipped) {
+    return {
+      status: "degraded",
+      providers: base.providers,
+      engine: base.engine,
+      messageVi: `${base.messageViReady} (chưa smoke model — chạy npm run kaiwa:speech-env hoặc KAIWA_ALIGN_SMOKE=1).`,
+      smoke: "skipped",
+    };
+  }
+  if (!smoke.ok) {
+    return {
+      status: "not_configured",
+      providers: [],
+      engine: null,
+      messageVi: `Import OK nhưng smoke inference thất bại (${smoke.detail}). Vẫn dùng SRT/VTT hoặc soạn tay.`,
+      smoke: "failed",
+    };
+  }
+  return {
+    status: "ready",
+    providers: base.providers,
+    engine: base.engine,
+    messageVi: base.messageViReady,
+    smoke: "passed",
+  };
 }
 
 export function resolveScriptAlignCapability(
@@ -79,18 +262,19 @@ export function resolveScriptAlignCapability(
   providers: string[];
   messageVi: string;
   engine: string | null;
+  smoke?: "passed" | "failed" | "skipped" | "mock";
 } {
   const ffmpeg = resolveFfmpegPath(env);
-  const enginePref = env.KAIWA_SCRIPT_ALIGN_ENGINE?.trim() || "whisper";
+  const enginePref = resolveScriptAlignEnginePref(env);
+  const model = env.KAIWA_WHISPER_MODEL?.trim() || "base";
 
   if (enginePref === "mock") {
-    return {
-      status: "ready",
+    return gateReadyAfterImport(env, "mock", {
       providers: ["mock"],
       engine: "mock_equal_slots",
-      messageVi:
+      messageViReady:
         "Đồng bộ script (mock) sẵn sàng — chỉ dùng cho kiểm thử; mốc thời gian tạm.",
-    };
+    });
   }
 
   if (!ffmpeg) {
@@ -100,7 +284,46 @@ export function resolveScriptAlignCapability(
       engine: null,
       messageVi:
         "Chưa cấu hình tự động (thiếu ffmpeg). Hãy nhập SRT/VTT hoặc soạn tay.",
+      smoke: "skipped",
     };
+  }
+
+  if (enginePref === "stable_ts") {
+    if (!canImportStableTs(env)) {
+      return {
+        status: "not_configured",
+        providers: [],
+        engine: null,
+        messageVi:
+          "Chưa cài stable-ts (pip install stable-ts). Hoặc đặt KAIWA_SCRIPT_ALIGN_ENGINE=whisper / qwen_fa. Vẫn dùng SRT/VTT hoặc soạn tay.",
+        smoke: "skipped",
+      };
+    }
+    return gateReadyAfterImport(env, "stable_ts", {
+      providers: ["stable-ts"],
+      engine: `stable-ts:${model}`,
+      messageViReady:
+        "Có thể đồng bộ lời thoại với video (stable-ts). Kết quả là bản nháp — hãy kiểm tra mốc thời gian. Anime/BGM vẫn có thể lệch.",
+    });
+  }
+
+  if (enginePref === "qwen_fa") {
+    if (!canImportQwenFa(env)) {
+      return {
+        status: "not_configured",
+        providers: [],
+        engine: null,
+        messageVi:
+          "Chưa cài qwen-asr (pip install qwen-asr). Hoặc đặt KAIWA_SCRIPT_ALIGN_ENGINE=stable_ts. Vẫn dùng SRT/VTT hoặc soạn tay.",
+        smoke: "skipped",
+      };
+    }
+    return gateReadyAfterImport(env, "qwen_fa", {
+      providers: ["qwen-forced-aligner"],
+      engine: `qwen-fa:${env.KAIWA_QWEN_FA_MODEL?.trim() || "Qwen/Qwen3-ForcedAligner-0.6B"}`,
+      messageViReady:
+        "Có thể đồng bộ (Qwen ForcedAligner). Cold start CPU có thể chậm. Bản nháp — hãy kiểm tra mốc.",
+    });
   }
 
   if (!canImportFasterWhisper(env)) {
@@ -110,15 +333,65 @@ export function resolveScriptAlignCapability(
       engine: null,
       messageVi:
         "Chưa cấu hình Whisper (faster-whisper). Hãy nhập SRT/VTT hoặc soạn tay.",
+      smoke: "skipped",
+    };
+  }
+
+  return gateReadyAfterImport(env, "whisper", {
+    providers: ["faster-whisper"],
+    engine: `faster-whisper:${model}`,
+    messageViReady:
+      "Có thể đồng bộ lời thoại với video (Whisper greedy — legacy). Nên dùng stable_ts. Kết quả là bản nháp.",
+  });
+}
+
+export function resolveTranscriptionCapability(
+  env: NodeJS.ProcessEnv = process.env,
+): {
+  status: SpeechCapabilityStatus;
+  providers: string[];
+  messageVi: string;
+  engine: string | null;
+} {
+  const ffmpeg = resolveFfmpegPath(env);
+  const enginePref = env.KAIWA_ASR_ENGINE?.trim() || "whisper";
+
+  if (enginePref === "mock") {
+    return {
+      status: "ready",
+      providers: ["mock"],
+      engine: "mock_asr",
+      messageVi:
+        "ASR mock sẵn sàng (kiểm thử). Chữ máy có thể sai — phải duyệt bản nháp.",
+    };
+  }
+
+  if (!ffmpeg) {
+    return {
+      status: "not_configured",
+      providers: [],
+      engine: null,
+      messageVi:
+        "Chưa cấu hình ASR (thiếu ffmpeg). Hãy nhập phụ đề thủ công (SRT/VTT hoặc soạn tay).",
+    };
+  }
+
+  if (!canImportFasterWhisper(env)) {
+    return {
+      status: "not_configured",
+      providers: [],
+      engine: null,
+      messageVi:
+        "Chưa cấu hình ASR (thiếu faster-whisper). Hãy nhập phụ đề thủ công (SRT/VTT hoặc soạn tay).",
     };
   }
 
   return {
     status: "ready",
     providers: ["faster-whisper"],
-    engine: `faster-whisper:${env.KAIWA_WHISPER_MODEL?.trim() || "tiny"}`,
+    engine: `faster-whisper:${env.KAIWA_WHISPER_MODEL?.trim() || "base"}`,
     messageVi:
-      "Có thể đồng bộ lời thoại với video (Whisper). Kết quả là bản nháp — hãy kiểm tra mốc thời gian.",
+      "Có thể tự tạo phụ đề từ video (ASR). Anime/BGM dễ sai hoặc trống — nên dùng Đồng bộ script nếu đã có lời; luôn duyệt bản nháp.",
   };
 }
 
@@ -132,19 +405,17 @@ export function resolveSpeechCapability(
     Boolean(env.KAIWA_TRANSLATE_API_KEY?.trim()) ||
     Boolean(env.AZURE_TRANSLATOR_KEY?.trim());
 
-  // Live ASR/translate adapters not wired — even with keys, report not_configured
-  // until a verified provider adapter lands (Gate B / later KAI-015/056).
   void hasAsr;
   void hasTranslate;
 
   const scriptAlign = resolveScriptAlignCapability(env);
+  const transcription = resolveTranscriptionCapability(env);
 
   return {
     transcription: {
-      status: "not_configured",
-      providers: [],
-      messageVi:
-        "Chưa cấu hình ASR. Hãy nhập phụ đề thủ công (SRT/VTT hoặc soạn tay).",
+      status: transcription.status,
+      providers: transcription.providers,
+      messageVi: transcription.messageVi,
     },
     translation: {
       status: "not_configured",

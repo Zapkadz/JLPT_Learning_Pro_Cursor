@@ -1,6 +1,15 @@
 /**
  * Pick current (+ next) timed subtitle for continuous overlay (KAI-041).
+ * KAI-074: optional early-show uses derived starts — never mutates transcript ends.
  */
+
+import type { KaiwaSegment } from "./types";
+import {
+  DEFAULT_PRACTICE_TIMING,
+  overlayShowAtMs,
+  speechBounds,
+  type PracticeTimingConfig,
+} from "./practiceTiming";
 
 export type TimedLine = {
   id: string;
@@ -22,7 +31,6 @@ export function activeSegmentIndex(
     const s = segments[i];
     if (t >= s.startMs && t < s.endMs) return i;
   }
-  // Between gaps or past end: last started line
   let last = -1;
   for (let i = 0; i < segments.length; i++) {
     if (t >= segments[i].startMs) last = i;
@@ -47,4 +55,28 @@ export function currentAndNext(
     next: segments[index + 1] ?? null,
     index,
   };
+}
+
+/**
+ * Build overlay timeline: early-show advances display start only.
+ * Transcript speech end is unchanged (KAI-074).
+ */
+export function segmentsForOverlay(
+  segments: KaiwaSegment[],
+  cfg: PracticeTimingConfig = DEFAULT_PRACTICE_TIMING,
+): TimedLine[] {
+  let prevSpeechEnd = 0;
+  return segments.map((s) => {
+    const speech = speechBounds(s);
+    const early = overlayShowAtMs(s, cfg);
+    const startMs = Math.max(early, prevSpeechEnd);
+    prevSpeechEnd = speech.endMs;
+    return {
+      id: s.id,
+      startMs,
+      endMs: speech.endMs,
+      ja: s.ja,
+      vi: s.vi,
+    };
+  });
 }

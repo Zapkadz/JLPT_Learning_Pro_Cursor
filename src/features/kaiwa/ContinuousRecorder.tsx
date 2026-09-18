@@ -13,10 +13,11 @@ import {
   type ChunkJournal,
 } from "./chunkJournal";
 import { assembleAndFinalize, syncJournalToServer } from "./attemptUpload";
-import { currentAndNext } from "../../../shared/kaiwa/liveOverlay";
+import { currentAndNext, segmentsForOverlay } from "../../../shared/kaiwa/liveOverlay";
 import type { KaiwaSegment } from "../../../shared/kaiwa/types";
-
-type HelpPrefs = { furigana: boolean; romaji: boolean; vi: boolean };
+import { isSpeakableSegment } from "../../../shared/kaiwa/timingStatus";
+import { DEFAULT_PRACTICE_TIMING } from "../../../shared/kaiwa/practiceTiming";
+import { ScriptHelpLayers, type HelpPrefs } from "./ScriptHelpLayers";
 
 type Props = {
   attemptId: string;
@@ -59,10 +60,26 @@ export function ContinuousRecorder({
   const sampleTimer = useRef(0);
   const finalizingRef = useRef(false);
 
-  const overlay = useMemo(
-    () => currentAndNext(segments, tMs),
-    [segments, tMs],
+  const speakableSegments = useMemo(
+    () => segments.filter((s) => isSpeakableSegment(s)),
+    [segments],
   );
+
+  const overlaySegments = useMemo(
+    () => segmentsForOverlay(speakableSegments, DEFAULT_PRACTICE_TIMING),
+    [speakableSegments],
+  );
+
+  const overlay = useMemo(() => {
+    const hit = currentAndNext(overlaySegments, tMs);
+    const byId = (id: string | undefined) =>
+      id ? speakableSegments.find((s) => s.id === id) ?? null : null;
+    return {
+      current: byId(hit.current?.id),
+      next: byId(hit.next?.id),
+      index: hit.index,
+    };
+  }, [overlaySegments, speakableSegments, tMs]);
 
   function dispatch(
     event: Parameters<typeof reduceCapture>[1],
@@ -297,10 +314,10 @@ export function ContinuousRecorder({
       <div className="kaiwa-recorder-status" aria-live="assertive">
         Trạng thái thu: <strong>{machine.state}</strong>
         {machine.completion ? ` · ${machine.completion}` : ""}
-        {segments.length > 0 && overlay.index >= 0 ? (
+        {speakableSegments.length > 0 && overlay.index >= 0 ? (
           <span>
             {" "}
-            · lời {overlay.index + 1}/{segments.length}
+            · lời {overlay.index + 1}/{speakableSegments.length}
           </span>
         ) : null}
       </div>
@@ -318,14 +335,7 @@ export function ContinuousRecorder({
           {(overlay.current || overlay.next) && (
             <div className="kaiwa-script-overlay" lang="ja">
               {overlay.current ? (
-                <>
-                  <div className="kaiwa-script-ja">
-                    {overlay.current.ja || "(trống)"}
-                  </div>
-                  {prefs.vi && overlay.current.vi ? (
-                    <div className="kaiwa-script-vi">{overlay.current.vi}</div>
-                  ) : null}
-                </>
+                <ScriptHelpLayers seg={overlay.current} prefs={prefs} compact />
               ) : (
                 <div className="kaiwa-script-ja kaiwa-script-upcoming">
                   Sắp tới: {overlay.next?.ja || "…"}

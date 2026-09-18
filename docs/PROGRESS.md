@@ -8,9 +8,38 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** speakable KAI-036–049 DONE; **KAI-046** BLOCKED human. Auto-subtitle: **050–054 DONE**; next **KAI-055** honesty/USAGE. Gate A **not accepted**.
+- **Kaiwa Studio:** Gate A **ACCEPTED**. Forced-align **KAI-065–075** DONE; **KAI-076** PARTIAL; **KAI-023** Gate B framework **DONE** (corpus/live verify PENDING). Next: licensed takes + raters **or** speech credentials.
+- Local speech env: `npm run kaiwa:speech-env` → ready.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
+
+### KAI-072 (2026-09-18) — DONE
+
+Editor filters (unmatched / needs_review), listen-with-context, studio + continuous skip unmatched windows. Evidence: `docs/kaiwa/evidence/kai-072/REPORT.md`. Verify: **123/123** + build OK.
+
+### KAI-071 (2026-09-18) — DONE
+
+Long-video overlapping align windows; failed windows skipped; optional anchors; no char-proportional split. Evidence: `docs/kaiwa/evidence/kai-071/REPORT.md`. Verify: **128/128** + build OK.
+
+### KAI-074 (2026-09-18) — DONE
+
+Speech vs practice/overlay padding (config-only; transcript end not stretched to next line). Evidence: `docs/kaiwa/evidence/kai-074/REPORT.md`. Verify: **131/131** + build OK.
+
+### KAI-073 (2026-09-18) — DONE
+
+Waveform drag, lock, realign selection / between locks, timing undo; 25/30 preserve test. Evidence: `docs/kaiwa/evidence/kai-073/REPORT.md`. Verify: **135/135** + build OK.
+
+### KAI-075 (2026-09-18) — DONE
+
+Align capability `ready` requires smoke inference; speech-env forces smoke; CPU notes. Evidence: `docs/kaiwa/evidence/kai-075/`. Verify: **136/136** + build OK.
+
+### KAI-023 (2026-09-18) — DONE
+
+Gate B benchmark framework: utterance manifest + speaker-disjoint splits, locked pilot thresholds (90% / 5% / 85% coverage), rubric, dual-rater protocol, provider budget policy. Evidence: `docs/kaiwa/evidence/kai-023/`. Code: `shared/kaiwa/gateBBenchmark.ts`. Corpus takes still PENDING (ops). Verify: **143/143**.
+
+### KAI-076 (2026-09-18) — PARTIAL
+
+Held-out runbook + template + `npm run kaiwa:held-out` summary (no media in git). Windows console: ASCII-only summary + `PYTHONIOENCODING=utf-8`. User measurements PENDING. Evidence: `docs/kaiwa/evidence/kai-076/`. Verify: **137/137**.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -252,6 +281,18 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-059–062 (2026-09-18) — DONE
+
+Device feedback: sync after apply; furigana/vi empty hints on overlays; Whisper default `base`; ASR empty → clear 422. Verify: `npm test` **120/120**.
+
+### KAI-056–058 (2026-09-18) — DONE
+
+v2 ASR: `POST …/transcriptions` (Whisper/mock) → draft `source=asr`; UI CTA + risk banner; USAGE/release notes. Evidence: `docs/kaiwa/evidence/kai-056/REPORT.md`.
+
+### KAI-055 (2026-09-18) — DONE
+
+USAGE-GATE-A + RELEASE-NOTES honesty for script-align v1; capability `scriptAlign` documented; manual fallback + no auto-publish. Evidence: `docs/kaiwa/evidence/kai-055/REPORT.md`. Verify: `npm test`; build OK.
+
 ### KAI-054 (2026-09-18) — DONE
 
 Transcript editor: CTA đồng bộ + consent, calling `POST …/script-align`, machine-draft banner, uncertain segment hint. Verify: `npm test` **117/117**; build OK.
@@ -463,6 +504,28 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-023 Gate B benchmark framework (thresholds locked) | **143/143** | `docs/kaiwa/evidence/kai-023/` |
+| 2026-09-18 | KAI-076 held-out scaffold (no private media) | **137/137**; evidence PENDING | `docs/kaiwa/evidence/kai-076/` |
+| 2026-09-18 | KAI-075 align smoke for capability ready | 136/136 tests; build OK | `docs/kaiwa/evidence/kai-075/REPORT.md` |
+| 2026-09-18 | KAI-073 waveform lock realign undo | 135/135 tests; build OK | `docs/kaiwa/evidence/kai-073/REPORT.md` |
+| 2026-09-18 | KAI-074 speech vs practice padding | 131/131 tests; build OK | `docs/kaiwa/evidence/kai-074/REPORT.md` |
+| 2026-09-18 | KAI-071 windowed long-video script-align | 128/128 tests; build OK | `docs/kaiwa/evidence/kai-071/REPORT.md` |
+| 2026-09-18 | KAI-072 editor/studio unmatched honesty | 123/123 tests; build OK | `docs/kaiwa/evidence/kai-072/REPORT.md` |
+| 2026-09-18 | KAI-070 stable-ts default script-align | 122/122 tests; speech-env ready | `docs/kaiwa/evidence/kai-070/REPORT.md` |
+| 2026-09-18 | KAI-069 WhisperX + ADR-021a bake-off | prefer stable-ts default; Qwen optional | `docs/kaiwa/evidence/kai-069/` |
+| 2026-09-18 | KAI-068 stable-ts spike | median Δstart 28–53 ms on clean TTS | `docs/kaiwa/evidence/kai-068/` |
+| 2026-09-18 | KAI-067 Qwen ForcedAligner CPU spike | median Δstart 21–68 ms on clean TTS | `docs/kaiwa/evidence/kai-067/` |
+| 2026-09-18 | KAI-066 forced-align bench + greedy baseline | clean_tts median Δstart 212.5 ms; long_gap 122 ms | `docs/kaiwa/evidence/kai-066/` |
+| 2026-09-18 | Gate A ACCEPTED (KAI-046 user sign-off) + ADR-021 | CHECKLIST §5; TASKS §9c | `docs/kaiwa/evidence/kai-033/CHECKLIST.md` |
+| 2026-09-18 | KAI-065 Phase 1 align honesty | regression py OK; **121/121** tests | `docs/kaiwa/evidence/kai-065/REPORT.md` |
+| 2026-09-18 | KAI-064 speech-env check script | `kaiwa:speech-env` exit 0 (ready) | `scripts/kaiwa-speech-env-check.mts` |
+| 2026-09-18 | KAI-063 script-align end-stretch | median Δend **568 ms** (was 952); TTS only | `docs/kaiwa/evidence/kai-052/REPORT.md` §3c |
+| 2026-09-18 | KAI-061 spike re-measure Whisper `base` | median Δstart 28 ms (TTS) | `docs/kaiwa/evidence/kai-052/REPORT.md` §3b |
+| 2026-09-18 | KAI-059–062 sync UX + overlay help + Whisper base | `npm test` **120/120** | `ScriptHelpLayers.tsx` |
+| 2026-09-18 | KAI-046 runbook + preflight re-verify | `kaiwa:gate-a-preflight` OK | `docs/kaiwa/evidence/kai-046/` |
+| 2026-09-18 | KAI-056–058 ASR v2 API+UI+docs | `npm test`; build OK | `docs/kaiwa/evidence/kai-056/` |
+| 2026-09-18 | KAI-055 script-align honesty USAGE | docs + capability tests | `docs/kaiwa/evidence/kai-055/` |
+| 2026-09-18 | KAI-054 script-align UI | `npm test` **117/117**; build OK | `src/features/kaiwa/Kaiwa.tsx` |
 | 2026-09-18 | KAI-053 align_script job + draft | `npm test` **117/117**; build OK | `server/modules/kaiwa/scriptAlign.ts` |
 | 2026-09-18 | KAI-052 align spike DONE (Whisper+match) | median Δ 448/404 ms; TTS fixture | `docs/kaiwa/evidence/kai-052/` |
 | 2026-09-18 | KAI-052 align spike BLOCKED (env) | Probe + provisional engine A | `docs/kaiwa/evidence/kai-052/REPORT.md` |

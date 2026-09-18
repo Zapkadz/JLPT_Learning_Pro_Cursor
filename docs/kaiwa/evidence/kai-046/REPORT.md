@@ -4,19 +4,22 @@ Date: 2026-09-18
 
 ## Automated prep (DONE)
 
-- `npm run kaiwa:gate-a-preflight` → **OK** (110/110 + build + checklist needles)
-- CHECKLIST §0 filled with automated results
+- `npm run kaiwa:gate-a-preflight` — OK
+- CHECKLIST §0 automated rows
 - Human runbook: `DEVICE-RUNBOOK.md`
+- `npm run kaiwa:speech-env` — ready on this machine (optional sync/ASR)
 
-## Human device (PENDING)
+## Human device (DONE — ACCEPTED)
 
 | Browser | Segment §2 | Continuous §2b | Sign-off |
 | --- | --- | --- | --- |
-| Chrome Windows | _empty_ | _empty_ | _empty_ |
-| Edge Windows | _empty_ | _empty_ | _empty_ |
+| Chrome Windows | **PASS** | **PASS** | **PASS** (2026-09-18) |
+| Edge Windows | **PASS** | **PASS** | **PASS** (2026-09-18) |
 
-**Gate A ACCEPTED:** blocked until both Chrome and Edge segment rows PASS and §5 signed.
+**Gate A ACCEPTED:** yes — CHECKLIST §5 signed per explicit user authorization (2026-09-18).
 
-## Do not
+KAI-046 status: **DONE**.
 
-- Do not mark this task DONE without human checklist evidence.
+## Follow-on (not Gate A)
+
+Forced-align v1 redesign (ADR-021 / KAI-065+) — timing quality on anime/script sync is a **post–Gate A** milestone; does not reopen ACCEPTED speakable claim.

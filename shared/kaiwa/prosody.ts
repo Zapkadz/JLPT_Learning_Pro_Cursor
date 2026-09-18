@@ -1,7 +1,7 @@
 /**
  * Relative F0 / timing prosody foundation (KAI-027).
  * Never labels Japanese pitch accent; never uses absolute pitch as ability.
- * Teacher/benchmark calibration deferred to KAI-023.
+ * Teacher/benchmark calibration uses KAI-023 rubric + locked pilot thresholds.
  */
 
 import { synthesizePcmInt16Le } from "./audioQuality";

@@ -2,7 +2,7 @@
 
 Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION-RULES.md](./IMPLEMENTATION-RULES.md).
 
-Ngày cập nhật: 18/09/2026. Mốc A: device PENDING (KAI-046). **ADR-020:** auto phụ đề v1/v2 = KAI-050–058 (spec DONE; code chưa).
+Ngày cập nhật: 18/09/2026. Mốc A: **ACCEPTED** (KAI-046). **ADR-020** v1/v2 shipped; **ADR-021** forced-align v1 redesign = KAI-065+ (**IN_PROGRESS** đợt 1).
 
 ## Cách đọc
 
@@ -73,7 +73,7 @@ Tại KAI-022 có luồng sản phẩm cốt lõi, nhưng chưa phát hành A tr
 
 | ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
 | --- | --- | --- | --- | --- |
-| KAI-023 · L · Japanese/Speech/PM | Thu thập benchmark được phép sử dụng; rubric; hai người đánh giá; ngân sách và dữ liệu gửi provider | KAI-003 | Dataset manifest có nguồn/quyền dùng, train/calibration/held-out tách theo người nói; nhãn và bất đồng có xử lý; ngưỡng coverage/false feedback/cost được chốt trước đánh giá cuối | TODO |
+| KAI-023 · L · Japanese/Speech/PM | Thu thập benchmark được phép sử dụng; rubric; hai người đánh giá; ngân sách và dữ liệu gửi provider | KAI-003 | Dataset manifest có nguồn/quyền dùng, train/calibration/held-out tách theo người nói; nhãn và bất đồng có xử lý; ngưỡng coverage/false feedback/cost được chốt trước đánh giá cuối | DONE (framework; corpus takes ops) |
 | KAI-024 · M · Speech/Backend | Quality gate audio: silence/clipping/noise/reference leakage và vùng không chấm | KAI-020, KAI-023 | Test im lặng/loa phát mẫu/nhiễu/chồng giọng; tình huống không đủ tin cậy trả unavailable/reason, không biến thành điểm phát âm 0; không coi phát mẫu qua loa là người học hoàn thành | DONE (provisional; leakage/decode deferred) |
 | KAI-025 · L · Speech/Media | Căn chỉnh utterance với bản thu, padding, phân biệt missing speech và data gap | KAI-024, KAI-016 | Bảo toàn sample/timeline offsets; không cắt đầu/cuối âm tiết; câu quá dài được chia có ngữ cảnh; uncertain alignment không sinh lỗi khẳng định; mapping về video nghe A/B đúng | DONE (synthetic timeline; live ASR force-align deferred) |
 | KAI-026 · L · Speech/Backend | Adapter pronunciation ja-JP, evidence schema và phản hồi phát âm | KAI-025, KAI-003 | Xác minh field thực sự có cho tiếng Nhật; parse/provider timeout/retry/budget test; không dùng ASR confidence làm pronunciation score; live output kiểm tra với benchmark | DONE (schema+stub); live field verify + benchmark TODO |
@@ -90,7 +90,7 @@ Không đánh dấu KAI-027 DONE chỉ vì đã vẽ được đường cao đ�
 | KAI-030 · M · Backend/Frontend | Lịch sử và tiến độ Kaiwa; ADR streak/XP/mục tiêu riêng | KAI-020; KAI-024 cho metric nói tự động | Có lịch sử take ngay ở A; active speaking/XP chỉ bật sau chất lượng dữ liệu đủ; retry không đếm lại; test qua nửa đêm theo múi giờ; không sửa nghĩa số thẻ/ngữ pháp đã học | DONE (030a); 030b TODO |
 | KAI-031 · L · Operations/Backend | Media backup/restore, quota cleanup, xóa đồng bộ job/assets, logging/metrics và config | KAI-006, KAI-007, KAI-022 | Restore DB + media chạy được; xóa lúc job đang chạy không hồi sinh tệp; log không chứa audio/token; có cảnh báo disk/queue; retention được ghi trong hướng dẫn | DONE |
 | KAI-032 · L · QA/Security | Security/accessibility/responsive QA; auth, ownership, file abuse, keyboard, lỗi mạng | KAI-011, KAI-016, KAI-022, KAI-031 | Test hai tài khoản, path traversal, MIME giả, quota/rate-limit, HTML phụ đề; focus/keyboard/ruby/mobile đúng; chạy regression module cũ phù hợp | DONE |
-| KAI-033 · L · QA/PM | Gate A: thiết bị thực, full flow, crash recovery, sync và export; tài liệu sử dụng | KAI-012, KAI-017–022, KAI-030–032 | Checklist A có evidence trên từng môi trường công bố hỗ trợ; không lỗi chặn; manual import hoạt động không cần API; trạng thái scoring chưa có được nói rõ; release/rollback notes đầy đủ | IN_PROGRESS |
+| KAI-033 · L · QA/PM | Gate A: thiết bị thực, full flow, crash recovery, sync và export; tài liệu sử dụng | KAI-012, KAI-017–022, KAI-030–032 | Checklist A có evidence trên từng môi trường công bố hỗ trợ; không lỗi chặn; manual import hoạt động không cần API; trạng thái scoring chưa có được nói rõ; release/rollback notes đầy đủ | DONE |
 | KAI-034 · L · Japanese/QA/PM | Gate B: đánh giá độc lập, cost/load/provider outage, UX học và bàn giao | KAI-015, KAI-023–029, KAI-033 | Báo cáo held-out đạt ngưỡng đã chốt, gồm false feedback và coverage; giáo viên duyệt; không lỗi nghiêm trọng chưa xử lý; giới hạn được ghi; scoring thật trên video user, không chỉ fixture | TODO |
 
 KAI-030 có hai checklist: lịch sử ở A; thời gian nói/XP dựa trên phân tích ở B. Gate A chỉ yêu cầu checklist lịch sử đạt, không bắt metric giả để mở khóa phát hành. Tracker chi tiết phải tách chúng thành KAI-030a/KAI-030b khi bắt đầu task.
@@ -113,7 +113,7 @@ Phát sinh từ feedback thiết bị 18/09/2026: thu liên tục không hiện 
 | KAI-043 · M · Frontend | Progress N/M, skip, luyện tập con (subset) cho script dài | KAI-038 | 90+ đoạn không bắt thu hết một lần; skip có lý do; resume đúng clip | DONE |
 | KAI-044 · M · Frontend | Review/attempt UI: trạng thái từng đoạn + seek A/B theo clip | KAI-021, KAI-039 | Biết đoạn nào đã thu/thiếu; nghe đúng cửa sổ; export vẫn độc lập scoring | DONE |
 | KAI-045 · S · QA | Cập nhật checklist/preflight Gate A cho mode segment (+ continuous overlay) | KAI-038–041, KAI-033 | CHECKLIST có hàng segment PASS bắt buộc; continuous optional advanced | DONE |
-| KAI-046 · M · QA | Device matrix: Chrome/Edge thu theo đoạn full flow | KAI-045 | Evidence checklist; không lỗi chặn nói được | BLOCKED |
+| KAI-046 · M · QA | Device matrix: Chrome/Edge thu theo đoạn full flow | KAI-045 | Evidence checklist; không lỗi chặn nói được | DONE |
 | KAI-047 · S · Docs | USAGE-GATE-A + release notes phản ánh dual-mode và honesty capture_mode | KAI-036, KAI-045 | Tài liệu khớp sản phẩm; không hứa chấm điểm giả | DONE |
 | KAI-048 · S · Frontend | Segment record: countdown 3-2-1 + mute video sample during take | KAI-038 | Countdown hiển thị trước thu; video muted khi recording; Nghe mẫu vẫn có tiếng | DONE |
 | KAI-049 · S · Frontend/Docs | Continuous countdown overlay parity + checklist/USAGE note mute | KAI-048 | Continuous 3-2-1 trên video; CHECKLIST §5b; USAGE khớp | DONE |
@@ -140,24 +140,81 @@ Phát sinh từ yêu cầu 18/09/2026: phụ đề tay đã OK; muốn (v1) vide
 | KAI-052 · L · Speech/Media | Spike forced-align / Whisper-timestamps+match trên fixture JA ngắn | KAI-050, ffmpeg | Báo cáo engine chọn; đo lệch thời gian; ghi credential/local; không khóa vendor nếu fail | DONE (Engine A; median Δstart ~448 ms / Δend ~404 ms on TTS `tiny` — `evidence/kai-052/`) |
 | KAI-053 · L · Backend | Job `align_script`: extract audio → align → ghi draft revision + metadata source | KAI-007, KAI-051, KAI-052 | Idempotent; không đè draft mới hơn; uncertain flags; 409 conflict | DONE |
 | KAI-054 · M · Frontend | UI “Đồng bộ lời thoại với video”: opt-in, progress, mở editor với draft | KAI-053, KAI-013 | User sửa được trước publish; copy VI theo spec | DONE |
-| KAI-055 · S · QA/Docs | Honesty + privacy + USAGE v1; capability `scriptAlign` | KAI-054, KAI-015 | Manual fallback khi not_configured; không auto-publish | TODO |
-| KAI-056 · L · Speech/Backend | Live ASR adapter cho `POST …/transcriptions` (v2) | KAI-015, KAI-052 | Draft text+times; capability ready khi có key; 503 khi thiếu | TODO |
-| KAI-057 · M · Frontend | UI “Tự tạo phụ đề từ video” + banner rủi ro sai chữ | KAI-056 | Cùng editor review; không bỏ qua bước duyệt | TODO |
-| KAI-058 · S · Docs | USAGE + release notes v1/v2 auto phụ đề | KAI-055, KAI-057 | Tài liệu khớp; không hứa OCR hardsub | TODO |
+| KAI-055 · S · QA/Docs | Honesty + privacy + USAGE v1; capability `scriptAlign` | KAI-054, KAI-015 | Manual fallback khi not_configured; không auto-publish | DONE |
+| KAI-056 · L · Speech/Backend | Live ASR adapter cho `POST …/transcriptions` (v2) | KAI-015, KAI-052 | Draft text+times; capability ready khi có key; 503 khi thiếu | DONE (local Whisper; mock for tests) |
+| KAI-057 · M · Frontend | UI “Tự tạo phụ đề từ video” + banner rủi ro sai chữ | KAI-056 | Cùng editor review; không bỏ qua bước duyệt | DONE |
+| KAI-058 · S · Docs | USAGE + release notes v1/v2 auto phụ đề | KAI-055, KAI-057 | Tài liệu khớp; không hứa OCR hardsub | DONE |
 
 Thứ tự: **050 → 051 → 052 → 053 → 054 → 055** (= **v1.0**); rồi **056 → 057 → 058** (= **v2.0**). Spike 052 có thể BLOCKED nếu thiếu ffmpeg/credential — ghi rõ, vẫn giữ manual path.
+
+## 9b. Chất lượng auto phụ đề + overlay trợ giúp (feedback 18/09/2026)
+
+Phát sinh từ device: (1) nút đồng bộ «không chọn được» sau Áp dụng lời; (2) Furigana/Việt bật nhưng studio không hiện; (3) align lệch mốc; (4) ASR v2 gần như không nhận lời anime.
+
+| ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
+| --- | --- | --- | --- | --- |
+| KAI-059 · S · Frontend | Sync dùng script từ paste **hoặc** segments hiện có; ghi rõ lý do disable; checkbox dễ bấm | KAI-054 | Sau «Áp dụng lời» vẫn đồng bộ được; hint VI khi thiếu paste/video | DONE |
+| KAI-060 · M · Frontend | Overlay studio/prep: furigana từ tokens + VI; hint khi bật nhưng thiếu dữ liệu | KAI-038, KAI-041 | Toggle bật → thấy ruby nếu có tokens; VI hiện nếu có `vi`; placeholder trung thực nếu thiếu | DONE |
+| KAI-061 · M · Speech | Cải thiện script-align: model mặc định tốt hơn, match/padding, báo uncertain rõ | KAI-053 | Đo lại trên fixture; USAGE nói giới hạn anime/BGM | DONE |
+| KAI-062 · M · Speech | Cải thiện ASR v2: model/VAD/segment; fail rõ khi 0 câu; không hứa anime sạch | KAI-056 | Empty ASR → 422 rõ; model mặc định nâng; USAGE honesty | DONE |
+| KAI-063 · S · Speech | Script-align: kéo end vào khoảng lặng trước dòng kế (Whisper cắt sớm) | KAI-061 | Spike median \|Δend\| ↓ vs §3b; sidecar + spike cùng logic | DONE |
+| KAI-064 · S · Ops/QA | Script `kaiwa:speech-env` xác nhận ffmpeg + faster-whisper → capability ready | KAI-055, KAI-058 | Lệnh in ready/not_configured; runbook nhắc restart terminal | DONE |
+
+## 9c. Forced-align v1 redesign (ADR-021) — ưu tiên trước v2
+
+Spec: [`evidence/kai-065/FORCE-ALIGN-V1-SPEC.md`](./evidence/kai-065/FORCE-ALIGN-V1-SPEC.md).  
+Tham chiếu UX: Subtitle Edit plain-text + Point Sync; engine bake-off: Qwen3-FA → stable-ts → WhisperX JA CTC (MFA dự phòng).  
+**Không** commit audio cá nhân. **Không** đẩy v2 ASR lên trước khi đợt 1–3 có bằng chứng.
+
+| ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
+| --- | --- | --- | --- | --- |
+| KAI-065 · M · Speech/Backend | **Đợt 1 — chặn kết quả sai:** bỏ end-stretch; bỏ null→mốc giả; `timingStatus`; giữ id/vi/tokens khi sync timing; regression unit (Kanji/kana + gap 30s); fail khi 0 câu proposed | ADR-021 | Không còn cửa sổ nuốt gap dài do stretch; unmatched không giả timed; metadata giữ; test PASS | DONE |
+| KAI-066 · L · QA/Speech | **Đợt 2 — benchmark đúng:** harness dùng **cùng** adapter production; GT nghe+waveform; ≥ fixture pháp lý tối thiểu + schema 30-clip plan; ghi baseline greedy | KAI-065 | REPORT baseline; không dùng độ dài file TTS làm GT tuyệt đối | DONE |
+| KAI-067 · L · Speech | **Đợt 3a — spike Qwen3-ForcedAligner-0.6B** trên fixture JA (CPU); đo latency/RAM/chất lượng | KAI-066 | Evidence số thật; không claim anime | DONE |
+| KAI-068 · L · Speech | **Đợt 3b — spike stable-ts align** cùng fixture | KAI-066 | So sánh bảng chung với 067 | DONE |
+| KAI-069 · M · Speech | **Đợt 3c — spike WhisperX JA CTC** (đối chứng) + ghi giới hạn vocab/overlap | KAI-066 | REPORT + quyết định engine thắng (ADR amend nếu cần) | DONE |
+| KAI-070 · L · Backend | **Đợt 4 — tích hợp engine thắng:** worker, progress, cancel, timeout, cache, idempotency; candidate proposal trước apply | KAI-067–069 | Request không khóa; restart không mất job; draft-only | DONE |
+| KAI-071 · M · Backend | Cửa sổ video dài + overlap; dừng áp dụng cửa sổ fail; optional anchor đầu/cuối vùng | KAI-070 | Không chia đều theo số chữ; lỗi một cửa sổ không lan im lặng | DONE |
+| KAI-072 · M · Frontend | Editor: nghe + context; filter unmatched/needs_review; banner trạng thái từng câu | KAI-065 | UI trung thực; studio không dùng unmatched làm cửa sổ thu mặc định | DONE |
+| KAI-073 · L · Frontend | Waveform kéo start/end; khóa mốc; căn lại selection / giữa hai khóa; preview+undo | KAI-070, KAI-072 | 25/30 đúng giữ nguyên khi chỉ sửa 5 câu | DONE |
+| KAI-074 · M · Speech | Tách speech timing vs practice padding/overlay early-show (config + docs) | KAI-065, KAI-072 | Transcript end ≠ kéo tới câu kế | DONE |
+| KAI-075 · M · Ops | Capability `ready` cần smoke inference model (không chỉ import); tài liệu máy CPU | KAI-070 | speech-env/capability khớp | DONE |
+| KAI-076 · L · QA | **Đợt 6 — held-out / anime user** (ngoài git): đo phút sửa / phút video; không trộn BGM nặng vào average | KAI-070–073 | Evidence; v2 vẫn sau | PARTIAL |
+
+Thứ tự cứng: **065 → 066 → (067∥068∥069) → 070 → 071/072/074 → 073 → 075 → 076**. V2 ASR không chen trước 066 trừ khi user override.
 
 ## 10. Checklist task đang làm
 
 ```text
-Task: KAI-054 DONE (script-align UI). Next: KAI-055 honesty/USAGE/capability polish.
-Song song: KAI-046 human device Gate A vẫn BLOCKED.
+Task: KAI-023 DONE (framework). Next: corpus/raters OR live ja-JP credentials (KAI-026 verify).
+KAI-076 PARTIAL. Do not start KAI-034/KAI-035 without evidence.
 ```
 
 ## 11. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-023 Gate B benchmark framework (thresholds locked) | `npm test` **143/143** | Corpus fill / live verify |
+| 18/09/2026 | KAI-076 held-out scaffold (runbook/template/npm script; Win encoding fix) | `npm test` **137/137**; evidence PENDING | User fills results OR Gate B |
+| 18/09/2026 | KAI-075 align smoke gate + CPU notes | `npm test` **136/136**; build OK | KAI-076 held-out (user) |
+| 18/09/2026 | KAI-073 waveform lock realign undo | `npm test` **135/135**; build OK | KAI-075 smoke |
+| 18/09/2026 | KAI-074 speech vs practice/overlay padding | `npm test` **131/131**; build OK | KAI-073 waveform |
+| 18/09/2026 | KAI-071 windowed long-video align + anchors | `npm test` **128/128**; build OK | KAI-074 padding |
+| 18/09/2026 | KAI-072 editor/studio unmatched filter + nghe ngữ cảnh | `npm test` **123/123**; build OK | KAI-071 windowing |
+| 18/09/2026 | KAI-070 integrate stable-ts default (+ qwen_fa/whisper flags) | `npm test` **122/122**; speech-env stable-ts ready | KAI-071 / KAI-072 |
+| 18/09/2026 | KAI-069 WhisperX contrast + ADR-021a (prefer stable-ts default) | bake-off table in REPORT | KAI-070 integrate |
+| 18/09/2026 | KAI-068 stable-ts align spike | clean median Δstart **28–53 ms**; vs Qwen 21–68; REPORT | KAI-069 WhisperX |
+| 18/09/2026 | KAI-067 Qwen3-ForcedAligner CPU spike | clean median Δstart **21–68 ms** (vs greedy 198–227); REPORT | KAI-068 stable-ts |
+| 18/09/2026 | KAI-066 bench harness + greedy baseline | clean_tts median Δstart **212.5 ms**; REPORT | KAI-067 Qwen FA |
+| 18/09/2026 | Gate A ACCEPTED + ADR-021; KAI-065 Phase 1 honesty | `test_align_regression.py` OK; `npm test` **121/121** | KAI-066 benchmark |
+| 18/09/2026 | Gate A ACCEPTED (KAI-046 user ủy quyền); ADR-021 + TASKS §9c | CHECKLIST §5 | KAI-065 đợt 1 |
+| 18/09/2026 | KAI-064 `npm run kaiwa:speech-env` (ffmpeg+Whisper ready check) | exit 0 trên máy này; runbook cập nhật | KAI-046 device |
+| 18/09/2026 | KAI-063 end-stretch align (Whisper cắt sớm) | spike median Δend **568 ms** (was 952); REPORT §3c | KAI-046 / user re-test anime |
+| 18/09/2026 | KAI-061 re-measure spike với Whisper `base` | median Δstart **28 ms** (TTS); REPORT §3b | KAI-046 / user re-test anime |
+| 18/09/2026 | KAI-059–062 sync UX, furigana/vi hints, Whisper `base`, ASR empty 422 | `npm test` **120/120** | KAI-046 device / thử lại sync trên anime |
+| 18/09/2026 | KAI-046 runbook refresh + preflight re-verify (agent parked) | `kaiwa:gate-a-preflight` OK | Human Chrome/Edge §2 |
+| 18/09/2026 | KAI-056–058 ASR v2 API + UI + USAGE | `npm test`; build | KAI-046 device |
+| 18/09/2026 | KAI-055 USAGE/release honesty script-align v1 | `npm test`; USAGE + RELEASE-NOTES | KAI-056 v2 hoặc KAI-046 |
 | 18/09/2026 | KAI-054 UI đồng bộ script + banner draft máy + uncertain chip | `npm test` **117/117**; build OK | KAI-055 honesty/USAGE |
 | 18/09/2026 | KAI-053 align_script job + draft source_json + capability | `npm test` **117/117**; build OK | KAI-054 UI |
 | 18/09/2026 | KAI-052 spike DONE: ffmpeg + edge-tts fixture + faster-whisper timings | median Δstart 448 ms / Δend 404 ms; `results.json` | KAI-053 job |

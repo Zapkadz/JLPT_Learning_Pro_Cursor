@@ -11,9 +11,16 @@ test("resolveSpeechCapability is not_configured without live adapter", () => {
   const cap = resolveSpeechCapability({
     KAIWA_ASR_API_KEY: "fake",
     AZURE_SPEECH_KEY: "fake",
+    FFMPEG_PATH: "C:\\nonexistent\\ffmpeg.exe",
+    KAIWA_FFMPEG_PATH: "",
+    LOCALAPPDATA: "C:\\nonexistent-localappdata-kaiwa",
+    KAIWA_SCRIPT_ALIGN_ENGINE: "whisper",
+    KAIWA_ASR_ENGINE: "whisper",
   });
   assert.equal(cap.transcription.status, "not_configured");
   assert.equal(cap.translation.status, "not_configured");
+  assert.equal(cap.scriptAlign.status, "not_configured");
+  assert.ok(cap.scriptAlign.messageVi.includes("SRT") || cap.scriptAlign.messageVi.includes("soạn tay"));
   assert.equal(cap.liveTestsAllowed, false);
   assert.equal(cap.credentialsPresent, true);
   assert.ok(cap.transcription.messageVi.includes("thủ công"));
@@ -60,42 +67,64 @@ function api(base: string, cookie: string, path: string, init: RequestInit = {})
 }
 
 test("speech capability API and auto routes stay honest without provider", async () => {
-  await withServer(async (base, cookie) => {
-    const capRes = await api(base, cookie, "/kaiwa/capabilities/speech");
-    assert.equal(capRes.status, 200);
-    const cap = (await capRes.json()) as {
-      transcription: { status: string };
-      liveTestsAllowed: boolean;
-    };
-    assert.equal(cap.transcription.status, "not_configured");
-    assert.equal(cap.liveTestsAllowed, false);
-    assert.ok(
-      (cap as { scriptAlign?: { status: string } }).scriptAlign?.status,
-      "scriptAlign capability present",
-    );
+  const prev = {
+    FFMPEG_PATH: process.env.FFMPEG_PATH,
+    KAIWA_FFMPEG_PATH: process.env.KAIWA_FFMPEG_PATH,
+    LOCALAPPDATA: process.env.LOCALAPPDATA,
+    KAIWA_ASR_ENGINE: process.env.KAIWA_ASR_ENGINE,
+    KAIWA_SCRIPT_ALIGN_ENGINE: process.env.KAIWA_SCRIPT_ALIGN_ENGINE,
+  };
+  process.env.FFMPEG_PATH = "C:\\nonexistent\\ffmpeg.exe";
+  process.env.KAIWA_FFMPEG_PATH = "";
+  process.env.LOCALAPPDATA = "C:\\nonexistent-localappdata-kaiwa";
+  process.env.KAIWA_ASR_ENGINE = "whisper";
+  process.env.KAIWA_SCRIPT_ALIGN_ENGINE = "whisper";
+  try {
+    await withServer(async (base, cookie) => {
+      const capRes = await api(base, cookie, "/kaiwa/capabilities/speech");
+      assert.equal(capRes.status, 200);
+      const cap = (await capRes.json()) as {
+        transcription: { status: string; messageVi: string };
+        scriptAlign: { status: string; messageVi: string };
+        liveTestsAllowed: boolean;
+      };
+      assert.equal(cap.transcription.status, "not_configured");
+      assert.equal(cap.liveTestsAllowed, false);
+      assert.ok(cap.scriptAlign?.status, "scriptAlign capability present");
+      if (cap.scriptAlign.status === "not_configured") {
+        assert.ok(
+          /SRT|soạn tay|thủ công|ffmpeg|Whisper/i.test(cap.scriptAlign.messageVi),
+        );
+      }
 
-    const created = await api(base, cookie, "/kaiwa/projects", {
-      method: "POST",
-      body: JSON.stringify({ title: "Speech stub" }),
+      const created = await api(base, cookie, "/kaiwa/projects", {
+        method: "POST",
+        body: JSON.stringify({ title: "Speech stub" }),
+      });
+      const project = (await created.json()) as { id: string };
+
+      const tr = await api(
+        base,
+        cookie,
+        `/kaiwa/projects/${project.id}/transcriptions`,
+        { method: "POST", body: JSON.stringify({ expectedRevisionVersion: 1 }) },
+      );
+      assert.equal(tr.status, 503);
+      const trBody = (await tr.json()) as { code: string };
+      assert.equal(trBody.code, "speech_not_configured");
+
+      const tl = await api(
+        base,
+        cookie,
+        `/kaiwa/projects/${project.id}/translations`,
+        { method: "POST", body: "{}" },
+      );
+      assert.equal(tl.status, 503);
     });
-    const project = (await created.json()) as { id: string };
-
-    const tr = await api(
-      base,
-      cookie,
-      `/kaiwa/projects/${project.id}/transcriptions`,
-      { method: "POST", body: "{}" },
-    );
-    assert.equal(tr.status, 503);
-    const trBody = (await tr.json()) as { code: string };
-    assert.equal(trBody.code, "speech_not_configured");
-
-    const tl = await api(
-      base,
-      cookie,
-      `/kaiwa/projects/${project.id}/translations`,
-      { method: "POST", body: "{}" },
-    );
-    assert.equal(tl.status, 503);
-  });
+  } finally {
+    for (const [k, v] of Object.entries(prev)) {
+      if (v === undefined) delete process.env[k];
+      else process.env[k] = v;
+    }
+  }
 });

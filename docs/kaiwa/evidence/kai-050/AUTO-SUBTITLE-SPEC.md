@@ -184,17 +184,17 @@ Capability surface (`/speech/capability`) must expose:
 
 ### v1.0 DONE when
 
-- [ ] Untimed script → draft timed segments on a real short JA video (spike evidence)
-- [ ] User can fix times in editor and start segment studio
-- [ ] Manual path still works with `not_configured`
-- [ ] Tests: parse script, job idempotency, no overwrite newer draft, ownership
-- [ ] USAGE documents honesty + opt-in
+- [x] Untimed script → draft timed segments on a real short JA video (spike evidence)
+- [x] User can fix times in editor and start segment studio
+- [x] Manual path still works with `not_configured`
+- [x] Tests: parse script, job idempotency, no overwrite newer draft, ownership
+- [x] USAGE documents honesty + opt-in
 
 ### v2.0 DONE when
 
-- [ ] Video-only ASR draft path
-- [ ] Same review/publish guarantees
-- [ ] Capability UI honest without keys
+- [x] Video-only ASR draft path
+- [x] Same review/publish guarantees
+- [x] Capability UI honest without keys / without ffmpeg+Whisper
 
 ---
 

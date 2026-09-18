@@ -675,3 +675,116 @@ Backlog **KAI-050?058**. Update `docs/kaiwa/PLAN.md`, TASKS, USAGE. Spike (KAI-0
 ### Related Files
 
 `docs/kaiwa/evidence/kai-050/AUTO-SUBTITLE-SPEC.md`, `docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, ADR-012, ADR-014, ADR-015, KAI-013/015
+
+---
+
+## ADR-021 — Forced alignment v1 redesign (replace greedy Whisper-match)
+
+Date: 2026-09-18  
+Status: Accepted (product direction from user; implementation = **KAI-065+**)
+
+### Context
+
+Gate A speakable (ADR-019) is **ACCEPTED**. ADR-020 v1 shipped as Whisper ASR word timestamps + greedy string match (`align_script_sidecar.py`) plus end-stretch. Independent review reproduced algorithmic failures:
+
+1. Kanji/kana mismatch can assign one line a window spanning many utterances; later lines lose timestamps.
+2. End-stretch to next start without silence checks can expand a 0.5–1 s utterance to ~30 s while `timingUncertain=false`.
+3. Backend maps `null` start/end to `0` + placeholder duration — unmatched lines look timed and pile at t=0.
+4. Re-align rebuilds segments from `ja` only → drops stable IDs, VI, furigana/romaji.
+5. Old TTS spike GT used whole-file duration and duplicated align logic ≠ production sidecar.
+
+Padding / larger Whisper models alone cannot fix error propagation. User prioritizes **rebuild v1 forced alignment** before further v2 ASR work.
+
+### Decision
+
+1. **v1 remains “keep user script text; assign timing only.”** v2 ASR stays deferred for this milestone.
+2. **Product flow reference:** Subtitle Edit (plain-text → forced align → review unmatched) + Point Sync (lock anchors, realign between). Editor later: waveform scrub, lock line, realign selection / between locks.
+3. **Engine bake-off (same JA fixtures + same script), order:**
+   - Primary quality candidate: **Qwen3-ForcedAligner-0.6B** (official JA; direct audio+text).
+   - Practical baseline: **stable-ts** `align` / `align_words`.
+   - Contrast: **WhisperX Japanese CTC** (document vocabulary/overlap limits).
+   - Reserve: Montreal Forced Aligner Japanese if dictionary control needed.
+4. **Benchmark CPU-first** on the user’s machine (i5 / ~16 GB); no assume CUDA. GPU worker is a later deploy decision after numbers.
+5. **Separate speech timing from practice padding:** store/propose `speechStart`/`speechEnd` (or equivalent); practice lead-in/out and overlay early-show are UI/config — never stretch transcript end to the next line’s speech.
+6. **Per-line status:** `proposed` | `needs_review` | `unmatched`. Unmatched keeps text, **does not** invent 0–Ns placeholders presented as success. No uncalibrated “95% confidence” UI.
+7. **Long video:** windowed alignment with overlap + stop applying failed windows; optional user anchors. Do not equal-split by character count.
+8. **Preserve line identity:** on timing-only sync, keep segment `id`, `vi`, tokens/readings; only update timing fields (+ status). Candidate proposal may be stored before apply; revision/hash conflict rules remain (ADR-012).
+9. **Ship order (TASKS):** (1) stop harmful behaviors in current path, (2) honest benchmark harness, (3) engine bake-off, (4) integrate winner, (5) anti-cascade + local fix UX, (6) held-out / user anime evidence. **Do not mark DONE from marketing claims.**
+
+### Reason
+
+User scripts are near-verbatim and ordered — ideal for forced alignment. Current greedy ASR-match cascades errors and invents timelines, making segment practice unusable on real anime/dialogue.
+
+### Consequences
+
+New backlog **KAI-065–076** (see `docs/kaiwa/TASKS.md` §9c). Spec: `docs/kaiwa/evidence/kai-065/FORCE-ALIGN-V1-SPEC.md`. Amends ADR-020 technical shape for v1 without changing “draft-only / manual fallback / privacy” rules.
+
+### Do Not
+
+- Do not block Gate A ACCEPTED on this redesign (already accepted).
+- Do not resume v2 ASR priority until Phase 1–3 v1 evidence exists (unless user overrides).
+- Do not commit private anime/user audio to git.
+- Do not treat monotonic timestamps or Whisper end-stretch as proof of correct alignment.
+- Do not LLM-rewrite user dialogue to “help match.”
+
+### Related Files
+
+`docs/kaiwa/evidence/kai-065/FORCE-ALIGN-V1-SPEC.md`, `docs/kaiwa/TASKS.md`, ADR-020, `scripts/kaiwa/align_script_sidecar.py`, `server/modules/kaiwa/scriptAlign.ts`
+
+---
+
+## ADR-021a — Provisional forced-align engine preference (bake-off note)
+
+Date: 2026-09-18  
+Status: Accepted (provisional; amend after broader corpus)
+
+### Context
+
+KAI-066–069 measured greedy Whisper-match vs Qwen3-ForcedAligner vs stable-ts vs WhisperX JA CTC on the same legal TTS fixtures + speech-window GT.
+
+### Decision
+
+1. Production v1 should move off greedy Whisper-match for timing quality.
+2. **Default integration candidate for KAI-070 (CPU pilot): stable-ts `align`.**
+3. **Optional quality backend: Qwen3-ForcedAligner-0.6B** (flag/env); expect slow cold start on CPU.
+4. WhisperX remains contrast / non-default unless later evidence wins on held-out anime.
+5. No anime quality claim until KAI-076 / private fixtures.
+
+### Related
+
+`docs/kaiwa/evidence/kai-069/REPORT.md`, ADR-021
+
+---
+
+## ADR-022 — Gate B pilot feedback thresholds locked (KAI-023)
+
+Date: 2026-09-18
+Status: Accepted
+
+### Context
+
+PLAN §10.3 proposed pilot rates for confirmed-correct flags and false flags. Shipping Gate B without freezing numbers before held-out evaluation invites silent threshold shopping.
+
+### Decision
+
+1. Lock pilot thresholds in `shared/kaiwa/gateBBenchmark.ts` and `docs/kaiwa/evidence/kai-023/THRESHOLDS.json`: ≥90% confirmed-correct flags; ≤5% false flags on acceptable; ≥85% clean coverage; ≤USD 25 pilot provider spend.
+2. Speakers are disjoint across train / calibration / held_out.
+3. Dual-rater + adjudication protocol is required before counting rates toward Gate B.
+4. Changing thresholds after held-out scoring requires a new ADR and a fresh evaluation round.
+5. Rubric id stays `kaiwa-ja-rubric-draft-001` until teacher adjudication bumps `RUBRIC_VERSION`.
+
+### Consequences
+
+KAI-034 must report against these numbers (or an ADR amendment). Live provider work (KAI-026) remains blocked on credentials but must not invent scores.
+
+### Do Not
+
+- Do not claim Gate B released.
+- Do not commit private benchmark audio.
+- Do not lower thresholds silently to pass marketing claims.
+
+### Related Files
+
+`docs/kaiwa/evidence/kai-023/`, `shared/kaiwa/gateBBenchmark.ts`, ADR-017
+
+

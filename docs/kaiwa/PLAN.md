@@ -1,6 +1,6 @@
 # Kế hoạch triển khai Kotoba Kaiwa Studio
 
-Ngày lập: 17/09/2026. Cập nhật sản phẩm: 18/09/2026 (ADR-019 studio theo đoạn; **ADR-020 auto phụ đề v1/v2** — kế hoạch, chưa code).
+Ngày lập: 17/09/2026. Cập nhật sản phẩm: 18/09/2026 (Gate A **ACCEPTED**; **ADR-021** forced-align v1 redesign — ưu tiên trước v2).
 
 Đọc cùng [danh sách task](./TASKS.md) và [quy tắc triển khai, cập nhật tiến trình](./IMPLEMENTATION-RULES.md). Tài liệu này là phạm vi triển khai mới nhất, thay các đề xuất thứ tự tính năng trong [bản nghiên cứu](../KAIWA-RESEARCH-AND-PLAN.md).
 
