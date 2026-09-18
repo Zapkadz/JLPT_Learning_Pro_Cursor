@@ -1,6 +1,6 @@
 # PROGRESS — factual completion log
 
-Last updated: 2026-09-17
+Last updated: 2026-09-18
 Rule: **never** write targets as completed counts.
 
 ## Current Status
@@ -8,9 +8,9 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** planning docs complete (DOC-001 / DOC-002 / DOC-003). **KAI-001 DONE** (integration audit + ADR-015). **Application implementation not started** (no feature runtime). Gate A not started. Gate B not started. **No Kaiwa feature accepted.** Documentation/audit ≠ product implementation.
-- Git: **AVAILABLE** — work on `feat/kaiwa-memory`; next task **KAI-002**.
-- Local unrelated WIP (not part of Kaiwa commits): grammar lesson `revision` bumps + `tests/grammar/grammar.test.ts` may be dirty in the working tree.
+- **Kaiwa Studio:** speakable KAI-036–049 DONE; **KAI-046** BLOCKED human. Auto-subtitle: **050–054 DONE**; next **KAI-055** honesty/USAGE. Gate A **not accepted**.
+- Git: `feat/kaiwa-memory`.
+- Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -227,6 +227,217 @@ Re-verified against repository (no app code changes):
 
 - Mapped Lesson 1 groups to Tiếng Nhật Đơn Giản URLs in `inventory.json`.
 
+### KAI-009 (2026-09-17) — DONE
+
+Pluggable media probe (sniff default + optional ffprobe), pilot limits, `POST /assets/:id/probe`, corrupt vs unsupported.
+Evidence: `docs/kaiwa/evidence/kai-009/REPORT.md`. Verify: `npm test` **32/32**.
+
+### KAI-008 (2026-09-17) — DONE
+
+Chunked binary upload (`/api/kaiwa/uploads`) with SHA-256 per chunk, duplicate-safe, checksum conflict, incomplete-complete blocked, cancel frees quota; JSON 2MB limit unchanged (raw route only).
+Verify: `npm test` **29/29**.
+
+### KAI-007 (2026-09-17) — DONE
+
+DB job queue with lease reclaim after worker death, idempotent complete, retries, readable terminal errors, `npm run kaiwa:worker` noop/echo handler.
+Verify: `npm test` **27/27**.
+
+### KAI-006 (2026-09-17) — DONE
+
+Private `LocalMediaStorage` under `data/.../kaiwa-media` (env `KAIWA_MEDIA_ROOT`); server-generated keys; quota reservation + release; auth GET/HEAD/Range on `/api/kaiwa/assets/:id/content`. Migration marker `kaiwa-002`.
+Verify: `npm test` **24/24**.
+
+### KAI-005 (2026-09-17) — DONE
+
+Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
+Verify: `npm test` **21/21**.
+
+### KAI-054 (2026-09-18) — DONE
+
+Transcript editor: CTA đồng bộ + consent, calling `POST …/script-align`, machine-draft banner, uncertain segment hint. Verify: `npm test` **117/117**; build OK.
+
+### KAI-053 (2026-09-18) — DONE
+
+`POST /kaiwa/projects/:id/script-align`: enqueue `align_script`, ffmpeg extract + faster-whisper sidecar (or `KAIWA_SCRIPT_ALIGN_ENGINE=mock`), write draft + `source_json` (`script_align`), bump revision version on machine write (409 if stale), `timingUncertain` on segments, capability `scriptAlign`. Verify: `npm test` **117/117**; build OK.
+
+### KAI-052 (2026-09-18) — DONE
+
+Unblocked: winget ffmpeg + edge-tts JA fixture + `faster-whisper` (`tiny`). Engine A selected. Median |Δstart| **448 ms**, |Δend| **404 ms** (3/3 lines). Evidence: `docs/kaiwa/evidence/kai-052/` + `scripts/kaiwa/spike_script_align.py`.
+
+### KAI-052 (2026-09-18) — BLOCKED (env) [superseded]
+
+Env probe: no `FFMPEG_PATH`, no ffmpeg on PATH, no speech `.env`, no JA audio fixture. Provisional engine = Whisper word-timestamps + script match (vendor not locked). Timing measurement deferred. Evidence: `docs/kaiwa/evidence/kai-052/REPORT.md`. Do not start KAI-053 until unblocked.
+
+### KAI-051 (2026-09-18) — DONE
+
+Untimed script ingest: `parseUntimedScript` (plain / .txt / zero-time SRT text) → draft segments with placeholder times; transcript UI paste + `.txt`/`.md` upload. Verify: `npm test` **114/114**; `npm run build` OK.
+
+### KAI-050 (2026-09-18) — DONE (plan/spec only)
+
+ADR-020 + AUTO-SUBTITLE-SPEC for v1 script-sync / v2 ASR; backlog KAI-051–058. Evidence: `docs/kaiwa/evidence/kai-050/`. No app code.
+
+### KAI-047 (2026-09-18) — DONE
+
+USAGE-GATE-A + RELEASE-NOTES dual-mode / capture_mode honesty. Evidence: `docs/kaiwa/evidence/kai-047/REPORT.md`.
+
+### KAI-045 (2026-09-18) — DONE
+
+Gate A checklist + preflight require segment PASS; continuous advanced. Evidence: `docs/kaiwa/evidence/kai-045/REPORT.md`.
+
+### KAI-044 (2026-09-18) — DONE
+
+Review per-segment status + seek window + clip play. Evidence: `docs/kaiwa/evidence/kai-044/REPORT.md`. Verify: **110/110**.
+
+### KAI-043 (2026-09-18) — DONE
+
+Subset filters (all/missing/marked), resume first pending, localStorage marks. Evidence: `docs/kaiwa/evidence/kai-043/REPORT.md`. Verify: **109/109**.
+
+### KAI-042 (2026-09-18) — DONE
+
+Re-record versioning + history API; peer clips preserved. Evidence: `docs/kaiwa/evidence/kai-042/REPORT.md`. Verify: **109/109**.
+
+### KAI-041 (2026-09-18) — DONE
+
+Continuous recorder on-video overlay (current + next by clock). Evidence: `docs/kaiwa/evidence/kai-041/REPORT.md`. Verify: **108/108**.
+
+### KAI-040 (2026-09-18) — DONE
+
+Persist `kaiwa-capture-mode` preference; prep/start uses it; studio picker copy per ADR-019. Evidence: `docs/kaiwa/evidence/kai-040/REPORT.md`. Verify: **106/106**.
+
+### KAI-039 (2026-09-18) — DONE
+
+Assemble segment clips → full-duration learner mic track (`assembly=segment_timeline`); finalize + export; SegmentStudio end-session wires assemble. Evidence: `docs/kaiwa/evidence/kai-039/REPORT.md`. Verify: **106/106**.
+
+### KAI-038 (2026-09-18) — DONE
+
+Segment studio UI: overlay script, clip record/skip/nav, mode picker. Evidence: `docs/kaiwa/evidence/kai-038/REPORT.md`. Verify: **103/103**.
+
+### KAI-037 (2026-09-18) — DONE
+
+Segment clips table + APIs; default `captureMode=segment`; versioned re-record; ownership. Evidence: `docs/kaiwa/evidence/kai-037/REPORT.md`. Verify: **102/102**.
+
+### KAI-036 (2026-09-18) — DONE (spec)
+
+Segment studio UX spec (overlay, clip N/M, skip/subset); USAGE/CHECKLIST/UX-SPEC updated for ADR-019. Evidence: `docs/kaiwa/evidence/kai-036/`. Docs-only.
+
+### KAI-029 (2026-09-18) — DONE (honest unavailable priorities)
+
+Review UI assessment panel: ≤3 priorities, seek-to-evidence, null overall score, export unblocked on fail. Evidence: `docs/kaiwa/evidence/kai-029/REPORT.md`. Verify: **100/100**.
+
+### KAI-028 (2026-09-18) — DONE
+
+Assessment aggregate + idempotent cache by fingerprint/rubric; no overall score; no charge. Evidence: `docs/kaiwa/evidence/kai-028/REPORT.md`. Verify: **99/99**.
+
+### KAI-027 (2026-09-18) — DONE (provisional local F0)
+
+Relative F0/timing; unvoiced gaps blank; no pitch-accent labels; no ability score; teacherCompared false. Evidence: `docs/kaiwa/evidence/kai-027/REPORT.md`. Verify: **95/95**.
+
+### KAI-026 (2026-09-18) — DONE (schema+stub; live deferred)
+
+Evidence schema + pronunciation API stub; never maps ASR confidence → accuracy; rejects ja-JP ProsodyScore; no invented scores. Evidence: `docs/kaiwa/evidence/kai-026/REPORT.md`. Verify: **89/89**.
+
+### KAI-025 (2026-09-18) — DONE (synthetic timeline)
+
+Utterance/timeline alignment on video clock; edge padding; missing_speech vs data_gap; never allows phoneme claims; POST/GET `/attempts/:id/alignment`. Evidence: `docs/kaiwa/evidence/kai-025/REPORT.md`. Verify: **81/81**.
+
+### KAI-024 (2026-09-18) — DONE (provisional)
+
+PCM silence/clipping quality gate; WebM unavailable without decode; no pronunciation score invention; export independent. Evidence: `docs/kaiwa/evidence/kai-024/REPORT.md`. Verify: **76/76**.
+
+### KAI-015 stub (2026-09-18) — DONE (live deferred)
+
+Speech capability API `not_configured`; transcription/translation POST → 503; edit UI banner; manual path unchanged. Evidence: `docs/kaiwa/evidence/kai-015/REPORT.md`. Verify: **72/72**.
+
+### KAI-033 packaging (2026-09-18) — PARTIAL (device BLOCKED)
+
+Gate A checklist, USAGE-GATE-A, release/rollback notes, `npm run kaiwa:gate-a-preflight` (70/70 + build), review scoring honesty banner. **Gate A not accepted** until CHECKLIST device rows PASS.
+
+### KAI-032 (2026-09-18) — DONE
+
+Cross-account ownership isolation for project/attempt/export/history; unauth reject; security evidence index + manual a11y checklist for Gate A. Evidence: `docs/kaiwa/evidence/kai-032/REPORT.md`. Verify: **70/70**; build OK.
+
+### KAI-031 (2026-09-18) — DONE
+
+Soft-delete project cancels jobs + GC tombstoned assets; `backup --with-media` + MANIFEST verify; ops snapshot; redactForLog. Evidence: `docs/kaiwa/evidence/kai-031/REPORT.md`. Verify: **68/68**; build OK.
+
+### KAI-030a (2026-09-18) — DONE
+
+Take history + `kaiwa_activity_events` on finalize (idempotent); `/kaiwa/history`; ADR-018 separates Kaiwa from deck/grammar XP. Evidence: `docs/kaiwa/evidence/kai-030a/REPORT.md`. Verify: **65/65**; build OK.
+
+### KAI-022 (2026-09-18) — DONE
+
+Export MP4 with mix snapshot, idempotent per fingerprint, private download; ffmpeg mix when `FFMPEG_PATH` set else synthetic container. Evidence: `docs/kaiwa/evidence/kai-022/REPORT.md`. Verify: **64/64**; build OK.
+
+### KAI-021 (2026-09-18) — DONE
+
+Review page `/kaiwa/attempts/:id` with dual-gain mix (video original + mic learner), mix persist via `PATCH …/mix`, project attempt list, re-record creates new attempt. Evidence: `docs/kaiwa/evidence/kai-021/REPORT.md`. Verify: **63/63**; build OK.
+
+### KAI-020 (2026-09-18) — DONE
+
+Finalize take service: auto-assemble, mic-only validation, head/mid/tail Range check, interrupted/`tailMissing` honesty, idempotent.
+Evidence: `docs/kaiwa/evidence/kai-020/REPORT.md`. Verify: `npm test` **62/62**.
+
+### KAI-019 (2026-09-18) — DONE
+
+IndexedDB/memory journal; attempt chunk upload resume; assemble WebM/Ogg gate; finalize requires audio for saved completed/partial.
+Evidence: `docs/kaiwa/evidence/kai-019/REPORT.md`. Verify: `npm test` **59/59**; build OK.
+
+### KAI-018 (2026-09-18) — DONE
+
+Capture state machine; continuous MediaRecorder + video clock; countdown; early stop=partial / EOF=completed; idempotent finalize. Journal upload deferred to KAI-019.
+Evidence: `docs/kaiwa/evidence/kai-018/REPORT.md`. Verify: `npm test` **56/56**; build OK.
+
+### KAI-017 (2026-09-18) — DONE
+
+Mic preflight: permission/device/meter/local test clip; no speaker loopback; stop on leave; no external provider.
+Evidence: `docs/kaiwa/evidence/kai-017/REPORT.md`. Verify: `npm test` **52/52**; build OK.
+
+### KAI-016 (2026-09-18) — DONE
+
+Prep screen (seek sync + help toggles); `start-practice` publishes and pins immutable revision; empty transcript still startable with honesty copy; studio shell shows snapshot.
+Evidence: `docs/kaiwa/evidence/kai-016/REPORT.md`. Verify: `npm test` **50/50**; build OK.
+
+### KAI-014 (2026-09-18) — DONE
+
+Segment tokens + readingStale; Hepburn romaji exceptions; independent furigana/romaji/VI toggles (romaji default off); manual overrides persist.
+Evidence: `docs/kaiwa/evidence/kai-014/REPORT.md`. Verify: `npm test` **48/48**; build OK.
+
+### KAI-013 (2026-09-17) — DONE
+
+Shared SRT/VTT parser (BOM/CRLF/HTML-safe/overlaps) + transcript editor with split/merge/save/publish.
+Evidence: `docs/kaiwa/evidence/kai-013/REPORT.md`. Verify: `npm test` **42/42**; build OK.
+
+### KAI-012 (2026-09-17) — DONE
+
+Synthetic fixture set (short/long/vertical/silent/weird/corrupt) + vertical-slice upload resume → prepare → Range; corrupt rejected.
+Evidence: `docs/kaiwa/evidence/kai-012/REPORT.md`. Verify: `npm test` **38/38**.
+
+### KAI-011 (2026-09-17) — DONE
+
+Kaiwa library/upload/project UI; chunked resume; `prepare-media`; cookie-auth Range `<video>`.
+Evidence: `docs/kaiwa/evidence/kai-011/REPORT.md`. Verify: `npm test` **34/34**; `npm run build` OK.
+
+### KAI-010 (2026-09-17) — DONE (passthrough foundation)
+
+`POST /assets/:id/prepare-playback`: probe gate → immutable source → proxy copy + identity timeline mapping. `LocalMediaStorage.copyFile` for sharded dirs. ffmpeg normalize / binary thumbnail deferred (`FFMPEG_PATH`).
+Evidence: `docs/kaiwa/evidence/kai-010/REPORT.md`. Verify: kaiwa tests **17/17**.
+
+### KAI-004 (2026-09-17) — DONE (UX spec)
+
+Wireflows, recorder axes, data-loss copy, loading/empty/error/offline, browser claim matrix.
+Evidence: `docs/kaiwa/evidence/kai-004/UX-SPEC.md`. No production UI code.
+
+### KAI-003 (2026-09-17) — DONE (capability spike; no live API)
+
+ja-JP capability map from public vendor docs; forbidden fake metrics; fallback without API; benchmark outline.
+Live samples: **UNAVAILABLE** (`missing_credentials`). ADR-017. Evidence: `docs/kaiwa/evidence/kai-003/REPORT.md`.
+
+### KAI-002 (2026-09-17) — DONE (spike / ADR)
+
+Continuous capture harness + Chromium lab metrics (20s / 120s / **600s**). Drift ≤100 ms head/mid/tail on synthetic video/mic.
+Evidence: `docs/kaiwa/evidence/kai-002/`. ADR-016: MediaRecorder + Opus/WebM + video/perf clock.
+No product UI/API shipped; no user media committed.
+
 ### KAI-001 (2026-09-17) — DONE (audit / ADR only)
 
 Integration survey of auth, nav, stats, backup, middleware, migrations, media gaps.
@@ -252,6 +463,53 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-053 align_script job + draft | `npm test` **117/117**; build OK | `server/modules/kaiwa/scriptAlign.ts` |
+| 2026-09-18 | KAI-052 align spike DONE (Whisper+match) | median Δ 448/404 ms; TTS fixture | `docs/kaiwa/evidence/kai-052/` |
+| 2026-09-18 | KAI-052 align spike BLOCKED (env) | Probe + provisional engine A | `docs/kaiwa/evidence/kai-052/REPORT.md` |
+| 2026-09-18 | KAI-051 untimed script ingest | `npm test` **114/114**; build OK | `shared/kaiwa/subtitles.ts` |
+| 2026-09-18 | KAI-050 ADR-020 auto-subtitle plan | Docs only | `docs/kaiwa/evidence/kai-050/` |
+| 2026-09-18 | Gate A preflight + §0 fill + device runbook | **110/110**; preflight OK | `evidence/kai-033/`, `kai-046/` |
+| 2026-09-18 | KAI-045/047 Gate A docs dual-mode | checklist content OK; suite at KAI-044 **110/110** | `evidence/kai-045/`, `kai-047/` |
+| 2026-09-18 | KAI-044 review segment status | **110/110** npm test; build OK | `docs/kaiwa/evidence/kai-044/REPORT.md` |
+| 2026-09-18 | KAI-043 subset + resume | **109/109** npm test; build OK | `docs/kaiwa/evidence/kai-043/REPORT.md` |
+| 2026-09-18 | KAI-042 re-record + history | **109/109** npm test; build OK | `docs/kaiwa/evidence/kai-042/REPORT.md` |
+| 2026-09-18 | KAI-041 continuous live overlay | **108/108** npm test; build OK | `docs/kaiwa/evidence/kai-041/REPORT.md` |
+| 2026-09-18 | KAI-040 capture-mode preference | **106/106** npm test; build OK | `docs/kaiwa/evidence/kai-040/REPORT.md` |
+| 2026-09-18 | KAI-039 assemble segment timeline | **106/106** npm test; build OK | `docs/kaiwa/evidence/kai-039/REPORT.md` |
+| 2026-09-18 | KAI-038 segment studio UI | **103/103** npm test; build OK | `docs/kaiwa/evidence/kai-038/REPORT.md` |
+| 2026-09-18 | KAI-037 segment clips API | **102/102** npm test; build OK | `docs/kaiwa/evidence/kai-037/REPORT.md` |
+| 2026-09-18 | KAI-036 segment studio UX spec | Docs DONE | `docs/kaiwa/evidence/kai-036/` |
+| 2026-09-18 | KAI-029 feedback UI | **100/100** npm test; build OK | `docs/kaiwa/evidence/kai-029/REPORT.md` |
+| 2026-09-18 | KAI-028 assessment aggregate | **99/99** npm test; build OK | `docs/kaiwa/evidence/kai-028/REPORT.md` |
+| 2026-09-18 | KAI-027 provisional relative F0/timing | **95/95** npm test; build OK | `docs/kaiwa/evidence/kai-027/REPORT.md` |
+| 2026-09-18 | KAI-026 pronunciation schema+stub | **89/89** npm test; build OK | `docs/kaiwa/evidence/kai-026/REPORT.md` |
+| 2026-09-18 | KAI-025 utterance/timeline alignment | **81/81** npm test; build OK | `docs/kaiwa/evidence/kai-025/REPORT.md` |
+| 2026-09-18 | KAI-024 audio quality gate | **76/76** npm test; build OK | `docs/kaiwa/evidence/kai-024/REPORT.md` |
+| 2026-09-18 | KAI-015 speech not_configured stub | **72/72** npm test; build OK | `docs/kaiwa/evidence/kai-015/REPORT.md` |
+| 2026-09-18 | KAI-033 Gate A docs + preflight | preflight OK (70/70 + build); device PENDING | `docs/kaiwa/evidence/kai-033/` |
+| 2026-09-18 | KAI-032 security / ownership QA | **70/70** npm test; build OK | `docs/kaiwa/evidence/kai-032/REPORT.md` |
+| 2026-09-18 | KAI-031 backup/soft-delete/GC | **68/68** npm test; build OK | `docs/kaiwa/evidence/kai-031/REPORT.md` |
+| 2026-09-18 | KAI-030a history + ADR-018 | **65/65** npm test; build OK | `docs/kaiwa/evidence/kai-030a/REPORT.md` |
+| 2026-09-18 | KAI-022 export MP4 + download | **64/64** npm test; build OK | `docs/kaiwa/evidence/kai-022/REPORT.md` |
+| 2026-09-18 | KAI-021 review dual-gain + take history | **63/63** npm test; build OK | `docs/kaiwa/evidence/kai-021/REPORT.md` |
+| 2026-09-18 | KAI-020 finalize take | **62/62** npm test | `docs/kaiwa/evidence/kai-020/REPORT.md` |
+| 2026-09-18 | KAI-019 journal + chunk resume | **59/59** npm test; build OK | `docs/kaiwa/evidence/kai-019/REPORT.md` |
+| 2026-09-18 | KAI-018 continuous recorder | **56/56** npm test; build OK | `docs/kaiwa/evidence/kai-018/REPORT.md` |
+| 2026-09-18 | KAI-017 mic preflight | **52/52** npm test; build OK | `docs/kaiwa/evidence/kai-017/REPORT.md` |
+| 2026-09-18 | KAI-016 prep + snapshot | **50/50** npm test; build OK | `docs/kaiwa/evidence/kai-016/REPORT.md` |
+| 2026-09-18 | KAI-014 reading/romaji layers | **48/48** npm test; build OK | `docs/kaiwa/evidence/kai-014/REPORT.md` |
+| 2026-09-17 | KAI-013 SRT/VTT + editor | **42/42** npm test; build OK | `docs/kaiwa/evidence/kai-013/REPORT.md` |
+| 2026-09-17 | KAI-012 fixtures + vertical slice | **38/38** npm test | `docs/kaiwa/evidence/kai-012/REPORT.md` |
+| 2026-09-17 | KAI-011 upload UI + prepare-media | **34/34** npm test; build OK | `docs/kaiwa/evidence/kai-011/REPORT.md` |
+| 2026-09-17 | KAI-010 proxy/timeline passthrough | **17/17** kaiwa tests | `docs/kaiwa/evidence/kai-010/REPORT.md` |
+| 2026-09-17 | KAI-009 media probe | **32/32** npm test | `server/modules/kaiwa/probe/*` |
+| 2026-09-17 | KAI-008 chunked upload | **29/29** npm test | `server/modules/kaiwa/uploads.ts` |
+| 2026-09-17 | KAI-007 durable jobs + worker | **27/27** npm test | `server/modules/kaiwa/jobs.ts`, `server/workers/kaiwa/worker.ts` |
+| 2026-09-17 | KAI-006 private storage + quota + Range | **24/24** npm test | `server/modules/kaiwa/storage.ts`, `assets.ts` |
+| 2026-09-17 | KAI-005 schema/contracts/repository | **21/21** npm test | `shared/kaiwa`, `server/modules/kaiwa`, `tests/kaiwa` |
+| 2026-09-17 | KAI-004 UX specification | wireflow/spec DONE | `docs/kaiwa/evidence/kai-004/UX-SPEC.md` |
+| 2026-09-17 | KAI-003 scoring capability spike | docs map; live UNAVAILABLE; ADR-017 | `docs/kaiwa/evidence/kai-003/REPORT.md` |
+| 2026-09-17 | KAI-002 capture spike 20s/120s/600s | drift ≤100 ms PASS; ADR-016 | `docs/kaiwa/evidence/kai-002/` |
 | 2026-09-17 | KAI-001 integration audit + ADR-015 | docs evidence; no app code | `docs/kaiwa/evidence/KAI-001-integration-audit.md` |
 | 2026-09-17 | KAI-MEM-001 memory/rules integration | docs consistency audit + `git diff --check` | `feat/kaiwa-memory` `8391ada` |
 | 2026-09-16 | N2-L01-FURI-001 JA→VI promptRuby (ADR-009) | **16/16 pass**; build OK; merged PR #14 | `7b1e324` |
@@ -281,7 +539,8 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 ## Known Incomplete Work
 
-- Kaiwa application implementation from **KAI-002** onward (capture spike next). KAI-001 audit only.
+- Kaiwa **KAI-033** Gate A device acceptance. KAI-015 ASR deferred; KAI-030b speaking XP deferred.
+- KAI-010 ffmpeg normalize / thumbnail binary still deferred until `FFMPEG_PATH` (passthrough proxy OK for UI).
 - Independent teacher review of N2 content / furigana readings (language QA).
 - Possible local grammar content `revision` bump still uncommitted (separate from Kaiwa).
 
@@ -296,4 +555,5 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 ## Blockers
 
 1. Human teacher/reviewer required for true independent Grammar N2 language / reading verification (does **not** block Kaiwa KAI-001).
-2. No Kaiwa hard blocker for documentation/memory or KAI-001 audit.
+2. **KAI-033 Gate A**: real-device Chrome/Edge capture + full-flow evidence required before accepting Gate A.
+3. No Kaiwa hard blocker for automated tasks through KAI-032.

@@ -7,11 +7,14 @@
     "dev": "concurrently -k \"tsx watch server/index.ts\" \"vite --host 127.0.0.1\"",
     "build": "tsc --noEmit && vite build",
     "start": "tsx server/index.ts",
-    "test": "tsx --test tests/*.test.ts tests/grammar/*.test.ts",
+    "test": "tsx --test tests/*.test.ts tests/grammar/*.test.ts tests/kaiwa/*.test.ts",
     "test:e2e": "playwright test",
     "format": "prettier --write src server shared tests *.json *.md",
     "format:check": "prettier --check src server shared tests *.json *.md",
-    "backup": "tsx server/backup.ts"
+    "backup": "tsx server/backup.ts",
+    "kaiwa:gate-a-preflight": "tsx scripts/kaiwa-gate-a-preflight.mts",
+    "kaiwa:capture-spike": "node scripts/kaiwa/run-capture-spike.mjs",
+    "kaiwa:worker": "tsx server/workers/kaiwa/worker.ts"
   },
   "dependencies": {
     "better-sqlite3": "^11.9.0",

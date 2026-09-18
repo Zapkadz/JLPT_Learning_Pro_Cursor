@@ -326,7 +326,7 @@ Do not create a separate Kaiwa deployable or parallel auth stack. Do not treat p
 ## ADR-011 — Full-video continuous dubbing before character role-play
 
 Date: 2026-09-17
-Status: Accepted
+Status: Accepted — **amended by ADR-019 (2026-09-18)**
 
 ### Context
 
@@ -334,23 +334,27 @@ Both continuous full-video dubbing and single-character role-play were considere
 
 ### Decision
 
-Ship **full-video continuous dubbing** first (Gate A usable product; Gate B validated Japanese feedback). **Character role-play** is Gate C / KAI-035 and must not start before Gate B. While recording, video does **not** auto-stop per sentence; segments are for post-record analysis only.
+Ship **full-video dubbing** first (Gate A usable product; Gate B validated Japanese feedback). **Character role-play** is Gate C / KAI-035 and must not start before Gate B.
+
+**Original (2026-09-17):** While recording, video does not auto-stop per sentence; segments are for post-record analysis only.
+
+**Amendment (ADR-019):** Gate A must also ship an honest **per-segment practice mode** (script overlay + record per line) as the **default learning path**. Continuous mode remains available as advanced/challenge. Do **not** claim a stitched segment take is the same as a continuous take — label `capture_mode` honestly.
 
 ### Reason
 
-User-locked product priority; role-play needs speaker separation and overlap handling that should not delay the core loop.
+User-locked product priority for role-play deferral stands. 2026-09-18 device feedback: continuous studio without on-screen script-at-cue makes speaking impractical.
 
 ### Consequences
 
-KAI-001–034 focus on the continuous dubbing path. Do not reorder the backlog to role-play first.
+KAI-001–034 remain on the dubbing path (not role-play). KAI-036+ implement segment studio before Gate A ACCEPTED.
 
 ### Do Not
 
-Do not require character selection in the Gate A/B flow. Do not fake continuous takes by stitching per-sentence recordings.
+Do not require character selection in the Gate A/B flow. Do not market assembled segment audio as “một lần thu liên tục” without `capture_mode` honesty.
 
 ### Related Files
 
-`docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, `docs/PLAN.md`
+`docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, `docs/PLAN.md`, ADR-019
 
 ---
 
@@ -480,3 +484,194 @@ Do not raise global `express.json` limit for video. Do not serve Kaiwa files fro
 ### Related Files
 
 `docs/kaiwa/evidence/KAI-001-integration-audit.md`, `docs/kaiwa/PLAN.md`, `server/app.ts`, `server/backup.ts`
+
+---
+
+## ADR-016 — Kaiwa continuous capture stack (MediaRecorder + video clock)
+
+Date: 2026-09-17
+Status: Accepted (KAI-002 spike; Chromium lab evidence; 10‑minute metrics to be attached in evidence folder)
+
+### Context
+
+Gate A needs continuous full-video dubbing without per-sentence auto-stop. PLAN §8 forbids using MediaRecorder chunk counts as the timeline. KAI-002 required a harness and head/mid/tail drift evidence.
+
+### Decision
+
+1. **Capture:** Use browser **`MediaRecorder`** on the **raw microphone** track (not the mixed lesson audio). Prefer MIME **`audio/webm;codecs=opus`** when `isTypeSupported`.
+2. **Clock:** Source of truth is lesson/proxy **`video.currentTime`**, mapped with **`performance.now()`** (monotonic) from a recorded `t0Perf`/`t0Video`. Persist offsets, sample-rate/codec metadata, and interruption events. **Never** derive media time from chunk index or `timeslice`.
+3. **Journaling:** `timeslice` chunks may be used for upload/resume buffering only; a chunk is not proof of a playable standalone media file (KAI-019/020 must remux/validate).
+4. **AudioWorklet PCM journal:** Not adopted for pilot unless MediaRecorder crash-recovery proves insufficient.
+5. **Pilot claim:** Desktop Chromium/Edge first (ADR-015). Other browsers need KAI-004 matrix before promising recording support.
+
+### Reason
+
+Lab harness on Chromium showed Opus/WebM available and head/mid/tail drift within ≈100 ms on a 20 s synthetic run using the video/perf mapping. Matches PLAN continuous-dubbing UX and keeps raw mic separate for assessment (ADR-012).
+
+### Consequences
+
+Studio implementation (KAI-017–020) must follow this clock contract. Drift regressions need harness re-run. 10‑minute and real-mic matrices remain operational follow-ups recorded in `docs/kaiwa/evidence/kai-002/`.
+
+### Do Not
+
+Do not stitch per-sentence recordings to fake continuity. Do not treat ASR timestamps as the capture clock. Do not commit user recordings to git.
+
+### Related Files
+
+`docs/kaiwa/evidence/kai-002/`, `scripts/kaiwa/run-capture-spike.mjs`, `docs/kaiwa/PLAN.md` §8
+
+---
+
+## ADR-017 — Japanese assessment capability contract (no fake scores; no Azure prosody for ja-JP)
+
+Date: 2026-09-17
+Status: Accepted (KAI-003; live provider samples still **UNAVAILABLE** without credentials)
+
+### Context
+
+Gate B needs trustworthy Japanese feedback. Product rules already forbid fake metrics. Public Azure docs state pronunciation assessment includes `ja-JP`, but **prosody assessment is en-US only**. No speech API credentials were available in the KAI-003 environment for live field verification.
+
+### Decision
+
+1. Assessment results must use explicit statuses: `ready` | `unavailable` | `not_assessable` | `failed`, with machine-readable `reason` when not ready. Never substitute `0`/`100`/random values.
+2. **Forbidden mappings:** ASR confidence → pronunciation; waveform similarity → intonation; absolute pitch/timbre/gender → ability; Azure **ProsodyScore** → Japanese intonation.
+3. Azure (or any vendor) may be integrated **only after** a live ja-JP payload is verified and fields are allow-listed in the adapter capability map. Vendor choice remains open until that verify.
+4. Gate A must work with assessment `not_configured` / `unavailable`.
+5. Relative F0 / timing may be explored in-house as **non-pitch-accent** hints; word-level pitch-accent errors require lexicon + teacher-validated labels.
+
+### Reason
+
+Prevents shipping misleading speaking scores and matches PLAN §10 / ADR-014.
+
+### Consequences
+
+KAI-023–029 implement against this contract. Live sample evidence must be appended under `docs/kaiwa/evidence/kai-003/live/` when credentials exist.
+
+### Do Not
+
+Do not lock Azure as the sole provider in code or ADR. Do not enable `EnableProsodyAssessment` as a Japanese intonation feature. Do not block export on assessment failure.
+
+### Related Files
+
+`docs/kaiwa/evidence/kai-003/REPORT.md`, `docs/kaiwa/PLAN.md` §10, ADR-014
+
+---
+
+## ADR-018 — Kaiwa progress is separate from deck/grammar XP (Gate A = history only)
+
+Date: 2026-09-18
+Status: Accepted (KAI-030a)
+
+### Context
+
+Gate A needs take history and honest activity logging. Existing `/api/stats` XP/heatmap uses `card:` / `question:` / `grammar:` keys. Folding Kaiwa into those keys would silently change the meaning of “cards/grammar studied” and could award XP for upload/wait/finalize without validated speaking quality.
+
+### Decision
+
+1. **Gate A (KAI-030a):** Persist `kaiwa_activity_events` on successful finalize with idempotent key `finalize:{attemptId}` and day key `Asia/Ho_Chi_Minh`. Expose `GET /api/kaiwa/history` + UI. Project-level attempt lists remain.
+2. **Do not** add Kaiwa events into `/api/stats` XP, heatmap, or streak until a later ADR explicitly enables optional contribution.
+3. **KAI-030b (deferred):** Active speaking-time XP / streak contribution only after assessment quality gates (KAI-024+) justify the metric; retries must not double-count (already enforced by UNIQUE).
+4. Upload, view, prepare, and wait **never** create activity events that imply practice XP.
+
+### Reason
+
+Keeps deck/grammar numbers stable; gives learners a Kaiwa history surface for Gate A without fake speaking scores.
+
+### Consequences
+
+Progress page / streak UI stay unchanged for Kaiwa until 030b. History page must show an explicit note that Kaiwa is not counted in card/grammar XP.
+
+### Do Not
+
+Do not inject Kaiwa into existing XP entity keys. Do not invent speaking XP from duration alone for marketing streak claims before 030b.
+
+### Related Files
+
+`server/modules/kaiwa/activity.ts`, `docs/kaiwa/TASKS.md` (KAI-030), ADR-008, ADR-015
+
+---
+
+## ADR-019 — Segment practice is default; continuous is advanced (speakable studio)
+
+Date: 2026-09-18
+Status: Accepted (product direction from user device feedback; implementation = KAI-036+)
+
+### Context
+
+Gate A continuous studio (KAI-017–022) works technically, but on-device feedback (2026-09-18) showed learners cannot comfortably speak: script lives in a list **below** the player, not as an on-video cue for the current utterance. User requested a Dub-Stage-style flow: after upload + timed subtitles, **N segments → N short recordings**, with script overlay, replay original / record / replay take / next line.
+
+ADR-011 previously forbade stitching per-sentence recordings to fake a continuous take. That honesty rule remains; the product gap is **learnability**, not role-play (still Gate C).
+
+### Decision
+
+1. **Two capture modes** on the same project/revision/attempt model:
+   - `segment` (default): practice one subtitle window at a time; show JA (+ optional furigana/VI/romaji) overlaid on video for the active clip; controls: nghe mẫu đoạn · thu lại · nghe mình · tiếp / trước · bỏ qua.
+   - `continuous` (advanced): full-video take kept; **must** show live current+next script overlay synced to video clock (not list-only).
+2. **Gate A ACCEPTED** requires device PASS on **segment mode** (speakable path). Continuous-only checklist is insufficient.
+3. **Export / review:** Segment mode may assemble learner audio onto the video timeline (silence or keep original in gaps). Persist `capture_mode` / `assembly` metadata. Never label assembled audio as continuous capture.
+4. **Re-record one segment** without wiping other clips is in scope for segment mode (partially lifts PLAN §3.3 “thu đè một vùng” for this mode only).
+5. **Large scripts (e.g. 90+ lines):** support skip, subset practice, and clear N/M progress — do not force recording all lines in one sitting.
+6. Character role-play remains **KAI-035 / Gate C** after Gate B.
+
+### Reason
+
+Speaking practice fails if the learner cannot see what to say at the cue. Line-by-line matches user mental model and still feeds segment-level assessment (KAI-025–029).
+
+### Consequences
+
+New backlog KAI-036–047. Pause treating KAI-033 continuous device sign-off as the sole Gate A unlock. Update PLAN §1–4, UX-SPEC, USAGE, CHECKLIST. Continuous stack (KAI-018–022) stays; it is not deleted.
+
+### Do Not
+
+Do not start Gate C role-play early. Do not invent pronunciation scores. Do not claim stitched takes are continuous. Do not remove continuous mode without a later ADR.
+
+### Related Files
+
+`docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, `docs/kaiwa/evidence/kai-004/UX-SPEC.md`, ADR-011
+
+---
+
+## ADR-020 ? Auto subtitle timing: script-sync (v1) then ASR (v2)
+
+Date: 2026-09-18
+Status: Accepted (product direction from user; **implementation = KAI-050+**, not started)
+
+### Context
+
+Manual timed subtitles (SRT/VTT / editor, KAI-013) work for Gate A speakable studio, but learners still spend heavy effort setting start/end per line. User request (2026-09-18):
+
+1. **v1.0 ? Script sync:** Upload video + provide **untimed** dialogue text (not necessarily SRT/VTT) ? system assigns times by matching text to speech in the video.
+2. **v2.0 ? Auto transcript:** Upload video only ? system produces timed subtitles (ASR) without a user script.
+
+Existing KAI-015 is a **not_configured stub**; live ASR/align adapters were deferred pending credentials. ADR-012 (immutable revisions) and ADR-014 (no fake scores; manual path without providers) still apply.
+
+### Decision
+
+1. Ship as a **new product milestone** after Gate A speakable path is usable; **do not block** Gate A ACCEPTED / KAI-046 device sign-off.
+2. **v1 before v2.** v1 keeps human-authored words (higher trust for dubbing) and only automates **timing**. v2 adds full ASR text+timing.
+3. **Both paths write draft revisions only.** User must review/edit in the existing transcript editor before publish / start-practice. Never silently overwrite a newer manual draft (KAI-015 rule).
+4. **Technical shape for v1:** extract reference audio (ffmpeg) ? **forced alignment** or **ASR word timestamps + text alignment** against the supplied script ? emit `segments[]` with `startMs`/`endMs`. Preferred spike candidates documented in the auto-subtitle spec; vendor not locked until KAI-052 spike PASS.
+5. **Technical shape for v2:** ASR with word/segment timestamps ? sentence segmentation ? same draft review UI. Extends live KAI-015 transcription adapter.
+6. **Honesty:** UI labels `source=manual | script_align | asr`; confidence/uncertain flags on weak windows; never claim teacher verified. Timing errors ? user fix, not fake perfect sync.
+7. **Privacy:** opt-in before audio leaves the machine; disclose provider; no audio/transcript in normal logs (ADR-015).
+8. Manual SRT/VTT/editor remains the **always-available** path when credentials or jobs fail.
+
+### Reason
+
+Dubbing needs reliable cue windows. Automating timing (v1) unlocks segment studio for scripts that already exist as plain text. Full ASR (v2) is harder (errors invent wrong words) and must stay reviewable.
+
+### Consequences
+
+Backlog **KAI-050?058**. Update `docs/kaiwa/PLAN.md`, TASKS, USAGE. Spike (KAI-052) may change provider choice; update this ADR only if product shape changes.
+
+### Do Not
+
+- Do not invent timed subtitles client-side without audio analysis.
+- Do not skip draft review / auto-publish into practice snapshots.
+- Do not treat ASR confidence as pronunciation score (ADR-014).
+- Do not replace Gate B pronunciation work with this feature.
+- Do not start Gate C role-play from this ADR.
+
+### Related Files
+
+`docs/kaiwa/evidence/kai-050/AUTO-SUBTITLE-SPEC.md`, `docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, ADR-012, ADR-014, ADR-015, KAI-013/015

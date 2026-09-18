@@ -1,0 +1,516 @@
+.kaiwa-page {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.kaiwa-empty {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.kaiwa-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.kaiwa-card {
+  display: grid;
+  gap: 0.4rem;
+  padding: 1rem 1.1rem;
+  border-radius: 12px;
+  background: var(--panel, #fff);
+  border: 1px solid color-mix(in srgb, var(--border, #d8d2c8) 80%, transparent);
+  text-decoration: none;
+  color: inherit;
+  min-height: 44px;
+}
+
+.kaiwa-card:hover,
+.kaiwa-card:focus-visible {
+  border-color: var(--accent, #2f6fed);
+  outline: none;
+}
+
+.kaiwa-badge {
+  justify-self: start;
+  font-size: 0.8rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: #ece8e1;
+}
+
+.kaiwa-badge.status-ready {
+  background: #d9f0df;
+}
+
+.kaiwa-badge.status-failed {
+  background: #f8d9d6;
+}
+
+.kaiwa-badge.status-processing {
+  background: #e4eaf8;
+}
+
+.kaiwa-upload {
+  display: grid;
+  gap: 1rem;
+}
+
+.kaiwa-dropzone {
+  display: grid;
+  gap: 0.75rem;
+  justify-items: center;
+  padding: 1.5rem;
+  border: 1px dashed color-mix(in srgb, var(--border, #d8d2c8) 100%, transparent);
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.kaiwa-field {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 600;
+}
+
+.kaiwa-field input {
+  font: inherit;
+  font-weight: 400;
+  padding: 0.65rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--border, #d8d2c8);
+  min-height: 44px;
+}
+
+.kaiwa-script-align {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.kaiwa-subhead {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.kaiwa-muted {
+  margin: 0;
+  font-weight: 400;
+  opacity: 0.85;
+  line-height: 1.4;
+}
+
+.kaiwa-check {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.kaiwa-seg.uncertain {
+  outline: 1px dashed color-mix(in srgb, var(--accent, #2f6fed) 55%, transparent);
+  outline-offset: 2px;
+}
+
+.kaiwa-progress {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.kaiwa-progress-bar {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--accent, #2f6fed);
+  transition: width 0.2s ease;
+}
+
+.kaiwa-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.kaiwa-player video {
+  width: 100%;
+  max-height: min(70vh, 640px);
+  background: #111;
+  border-radius: 12px;
+}
+
+.kaiwa-privacy-note {
+  margin: 0.75rem 0 0;
+  color: var(--muted, #6b655c);
+  font-size: 0.9rem;
+}
+
+.kaiwa-hub-actions {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.kaiwa-segments {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.kaiwa-seg {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0.85rem;
+  border: 1px solid var(--border, #d8d2c8);
+  border-radius: 12px;
+  background: var(--panel, #fff);
+}
+
+.kaiwa-seg.overlap {
+  border-color: #c45c4a;
+  box-shadow: inset 0 0 0 1px #c45c4a;
+}
+
+.kaiwa-seg-times {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.kaiwa-seg-times input,
+.kaiwa-seg textarea {
+  font: inherit;
+  padding: 0.5rem 0.65rem;
+  border-radius: 8px;
+  border: 1px solid var(--border, #d8d2c8);
+  width: 100%;
+}
+
+.kaiwa-seg-times input {
+  width: auto;
+  min-width: 7.5rem;
+  min-height: 44px;
+}
+
+.kaiwa-issues {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: #8a3b32;
+  font-size: 0.9rem;
+}
+
+.kaiwa-prep-list .kaiwa-seg-hit {
+  display: grid;
+  gap: 0.35rem;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.kaiwa-seg-active {
+  border-color: var(--accent, #2f6fed);
+}
+
+.kaiwa-preflight {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.kaiwa-preflight h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.kaiwa-meter {
+  display: grid;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.kaiwa-meter-bar {
+  height: 10px;
+  border-radius: 999px;
+  background: var(--accent, #2f6fed);
+  min-width: 0;
+  transition: width 0.05s linear;
+}
+
+.kaiwa-recorder {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.kaiwa-record-video {
+  width: 100%;
+  max-height: min(50vh, 480px);
+  background: #111;
+  border-radius: 12px;
+}
+
+.kaiwa-countdown {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+.kaiwa-seg-countdown {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.kaiwa-seg-countdown-num {
+  font-size: clamp(3rem, 12vw, 5rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.kaiwa-recorder-status {
+  font-size: 0.95rem;
+}
+
+.kaiwa-ruby-preview {
+  font-size: 1.15rem;
+  line-height: 2;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.kaiwa-ruby-preview ruby {
+  ruby-align: center;
+  white-space: nowrap;
+}
+
+.kaiwa-ruby-preview.ruby-off rt {
+  display: none;
+}
+
+.kaiwa-romaji {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted, #6b655c);
+  overflow-wrap: anywhere;
+}
+
+.kaiwa-section-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.kaiwa-attempt-list {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.kaiwa-attempt-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.75rem 0.9rem;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--border, #d8d2c8) 80%, transparent);
+  text-decoration: none;
+  color: inherit;
+  min-height: 44px;
+  align-items: center;
+}
+
+.kaiwa-attempt-row:hover,
+.kaiwa-attempt-row:focus-visible {
+  border-color: var(--accent, #2f6fed);
+  outline: none;
+}
+
+.kaiwa-mix {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.kaiwa-mix-row {
+  display: grid;
+  grid-template-columns: 7rem 1fr 3rem;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.kaiwa-mix-row input[type="range"] {
+  width: 100%;
+  min-height: 44px;
+}
+
+.kaiwa-mix-keep {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  min-height: 44px;
+}
+
+.kaiwa-review-player {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.kaiwa-mode-picker {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.kaiwa-segment-studio {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.kaiwa-seg-stage {
+  position: relative;
+  background: #111;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.kaiwa-seg-stage .kaiwa-record-video {
+  display: block;
+  width: 100%;
+  max-height: 56vh;
+  margin: 0 auto;
+}
+
+.kaiwa-script-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 1rem 1rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.82));
+  color: #fff;
+  text-align: center;
+  pointer-events: none;
+}
+
+.kaiwa-script-ja {
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.kaiwa-script-vi {
+  margin-top: 0.25rem;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+.kaiwa-script-next,
+.kaiwa-script-upcoming {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  opacity: 0.75;
+  font-weight: 500;
+}
+
+.kaiwa-seg-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.kaiwa-seg-status-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.kaiwa-seg-chip {
+  border: 1px solid var(--border, #ccc);
+  background: transparent;
+  border-radius: 6px;
+  padding: 0.35rem 0.55rem;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.kaiwa-seg-chip.active {
+  border-color: var(--accent, #2a7);
+  background: color-mix(in srgb, var(--accent, #2a7) 18%, transparent);
+}
+
+.kaiwa-seg-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.kaiwa-seg-chip-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.kaiwa-seg-mark {
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid var(--border, #ccc);
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.kaiwa-seg-mark.on {
+  border-color: var(--accent, #2a7);
+  font-weight: 600;
+}
+
+.kaiwa-assessment-priorities {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.kaiwa-assessment-priorities li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .kaiwa-dropzone {
+    padding: 1.25rem 0.85rem;
+  }
+
+  .kaiwa-ruby-preview {
+    font-size: 1.05rem;
+  }
+
+  .kaiwa-mix-row {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}

@@ -4,6 +4,16 @@ import {
   GrammarPattern,
   GrammarExercises,
 } from "./features/grammar/Grammar";
+import {
+  KaiwaLibrary,
+  KaiwaUpload,
+  KaiwaProject,
+  KaiwaEdit,
+  KaiwaPrep,
+  KaiwaStudio,
+  KaiwaReview,
+  KaiwaHistory,
+} from "./features/kaiwa/Kaiwa";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
@@ -43,6 +53,14 @@ const router = createBrowserRouter([
         path: "/grammar/n2/patterns/:patternId/exercises",
         element: <GrammarExercises />,
       },
+      { path: "/kaiwa", element: <KaiwaLibrary /> },
+      { path: "/kaiwa/history", element: <KaiwaHistory /> },
+      { path: "/kaiwa/new", element: <KaiwaUpload /> },
+      { path: "/kaiwa/projects/:id", element: <KaiwaProject /> },
+      { path: "/kaiwa/projects/:id/edit", element: <KaiwaEdit /> },
+      { path: "/kaiwa/projects/:id/prep", element: <KaiwaPrep /> },
+      { path: "/kaiwa/projects/:id/studio", element: <KaiwaStudio /> },
+      { path: "/kaiwa/attempts/:id", element: <KaiwaReview /> },
       { path: "/kana", element: <Kana /> },
       { path: "/practice", element: <Practice /> },
       { path: "/progress", element: <Progress /> },

@@ -1,4 +1,5 @@
 import { grammarModule, GrammarError } from "./modules/grammar/router";
+import { kaiwaModule, KaiwaError } from "./modules/kaiwa/module";
 import express, {
   type Request,
   type Response,
@@ -9,7 +10,8 @@ import helmet from "helmet";
 import { rateLimit } from "express-rate-limit";
 import Database from "better-sqlite3";
 import { readFileSync, mkdirSync } from "node:fs";
-import { dirname, resolve } from "node:path";
+import { dirname, resolve, join } from "node:path";
+import { tmpdir } from "node:os";
 import {
   randomBytes,
   randomUUID,
@@ -246,6 +248,15 @@ export function createApp(
     next();
   });
   app.use("/api/grammar", grammarModule(db));
+  app.use(
+    "/api/kaiwa",
+    kaiwaModule(db, {
+      mediaRoot:
+        dbPath === ":memory:"
+          ? join(tmpdir(), `kaiwa-media-${randomUUID()}`)
+          : resolve(dirname(resolve(dbPath)), "kaiwa-media"),
+    }),
+  );
   app.get("/api/me", (_, res) => res.json(publicUser(res.locals.user)));
   function ownDeck(id: unknown, uid: string) {
     const row = db
@@ -821,7 +832,11 @@ export function createApp(
         return res.status(400).json({
           error: validationMessage(error.issues),
         });
-      if (error instanceof HttpError || error instanceof GrammarError)
+      if (
+        error instanceof HttpError ||
+        error instanceof GrammarError ||
+        error instanceof KaiwaError
+      )
         return res.status(error.status).json({ error: error.message });
       if ((error as Row)?.type === "entity.too.large")
         return res.status(413).json({ error: "Dữ liệu quá lớn. Tối đa 2 MB." });
