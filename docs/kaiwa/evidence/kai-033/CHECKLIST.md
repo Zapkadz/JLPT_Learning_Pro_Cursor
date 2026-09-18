@@ -17,7 +17,8 @@
 | Build | `npm run build` | điền: OK / FAIL |
 | Preflight script | `npm run kaiwa:gate-a-preflight` | điền: OK / FAIL |
 | Security suite | `tests/kaiwa/security.test.ts` + KAI-032 REPORT | PASS (automated) |
-| Segment studio implemented | KAI-038–039 DONE | điền: YES / NO |
+| Segment studio + assemble + overlay | KAI-038–041 DONE | điền: YES / NO |
+| Re-record / subset / review status | KAI-042–044 DONE | điền: YES / NO |
 
 ---
 
@@ -45,11 +46,13 @@ Dùng video ngắn hợp pháp / fixture — **không** commit bản thu cá nh�
 | 5 | Studio mặc định **Theo đoạn**; overlay hiện JA đúng clip đang active | | |
 | 6 | Nghe mẫu đoạn → Thu đoạn → Nghe mình → Tiếp (ít nhất 2 đoạn) | | |
 | 7 | Bỏ qua một đoạn; tiến độ N/M phản ánh đúng | | |
-| 8 | Kết thúc / assemble → review; `capture_mode` không ghi continuous giả | | |
+| 8 | Kết thúc / assemble → review; `capture_mode` / `assembly=segment_timeline` không ghi continuous giả | | |
 | 9 | Mix gốc/giọng mình; xuất MP4 tải về phát được | | |
-| 10 | Thu lại **một** đoạn không xóa clip khác (khi KAI-042 có) | | |
-| 11 | `/kaiwa/history`; XP thẻ/ngữ pháp không đổi | | |
-| 12 | Xóa dự án → khỏi thư viện; job cancelled | | |
+| 10 | Thu lại **một** đoạn không xóa clip khác; thấy `vN` / lịch sử | | |
+| 11 | Lọc **Còn thiếu** / **Đánh dấu luyện**; resume mở lại đúng đoạn thiếu | | |
+| 12 | Review: trạng thái từng đoạn + tua A→B / Nghe clip | | |
+| 13 | `/kaiwa/history`; XP thẻ/ngữ pháp không đổi | | |
+| 14 | Xóa dự án → khỏi thư viện; job cancelled | | |
 
 ---
 

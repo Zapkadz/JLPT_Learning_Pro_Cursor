@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-044 DONE; next KAI-045)
+2026-09-18 (KAI-045 + KAI-047 DONE; KAI-046 BLOCKED human)
 
 ## Current Branch
 
@@ -10,20 +10,24 @@
 
 ## Current Task
 
-**KAI-045** — Update Gate A checklist/preflight for segment mode (+ continuous overlay).
+**KAI-046** — Device matrix: Chrome/Edge segment full-flow sign-off (**human**).
 
 ## Exact Next Action
 
-Update CHECKLIST so segment full-flow PASS is required; continuous overlay optional advanced. Then KAI-046 device matrix / KAI-047 docs.
+Human: run `npm run kaiwa:gate-a-preflight`, then fill `docs/kaiwa/evidence/kai-033/CHECKLIST.md` §2 on Desktop Chrome + Edge. Continuous-only is not enough for Gate A ACCEPTED.
 
 ## Last Completed
 
-**KAI-044** — Review per-segment status + seek A/B. Evidence: `docs/kaiwa/evidence/kai-044/REPORT.md`. Verify: **110/110**.
+- **KAI-045** — Checklist/preflight require segment PASS. Evidence: `docs/kaiwa/evidence/kai-045/REPORT.md`.
+- **KAI-047** — USAGE + release notes dual-mode honesty. Evidence: `docs/kaiwa/evidence/kai-047/REPORT.md`.
+- Automated speakable path **KAI-036–045, 047** DONE. Verify suite: **110/110** (last full run at KAI-044).
 
 ## Blockers
 
-- Gate A ACCEPTED needs human device sign-off (KAI-046). Gate B: KAI-023.
+- **KAI-046** needs real-device Chrome/Edge evidence (cannot automate).
+- Gate B: KAI-023 / speech credentials.
 
 ## Safety
 
 - Do not stage grammar dirty files.
+- Do not claim Gate A ACCEPTED until CHECKLIST signed.

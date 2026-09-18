@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** … **KAI-036–044** DONE; next **KAI-045** checklist. Gate A **not accepted**.
+- **Kaiwa Studio:** … **KAI-036–045, 047** DONE; **KAI-046** BLOCKED (human device). Gate A **not accepted**.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -252,6 +252,18 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-047 (2026-09-18) — DONE
+
+USAGE-GATE-A + RELEASE-NOTES dual-mode / capture_mode honesty. Evidence: `docs/kaiwa/evidence/kai-047/REPORT.md`.
+
+### KAI-045 (2026-09-18) — DONE
+
+Gate A checklist + preflight require segment PASS; continuous advanced. Evidence: `docs/kaiwa/evidence/kai-045/REPORT.md`.
+
+### KAI-044 (2026-09-18) — DONE
+
+Review per-segment status + seek window + clip play. Evidence: `docs/kaiwa/evidence/kai-044/REPORT.md`. Verify: **110/110**.
+
 ### KAI-043 (2026-09-18) — DONE
 
 Subset filters (all/missing/marked), resume first pending, localStorage marks. Evidence: `docs/kaiwa/evidence/kai-043/REPORT.md`. Verify: **109/109**.
@@ -427,6 +439,8 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-045/047 Gate A docs dual-mode | checklist content OK; suite at KAI-044 **110/110** | `evidence/kai-045/`, `kai-047/` |
+| 2026-09-18 | KAI-044 review segment status | **110/110** npm test; build OK | `docs/kaiwa/evidence/kai-044/REPORT.md` |
 | 2026-09-18 | KAI-043 subset + resume | **109/109** npm test; build OK | `docs/kaiwa/evidence/kai-043/REPORT.md` |
 | 2026-09-18 | KAI-042 re-record + history | **109/109** npm test; build OK | `docs/kaiwa/evidence/kai-042/REPORT.md` |
 | 2026-09-18 | KAI-041 continuous live overlay | **108/108** npm test; build OK | `docs/kaiwa/evidence/kai-041/REPORT.md` |

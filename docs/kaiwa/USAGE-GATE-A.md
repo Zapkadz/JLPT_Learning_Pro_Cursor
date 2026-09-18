@@ -1,8 +1,8 @@
 # Kaiwa — hướng dẫn sử dụng (Gate A)
 
-Ngày: 2026-09-18 · Cập nhật ADR-019: **thu theo đoạn là mặc định** (dễ nói theo lời). Thu liên tục = nâng cao. Không đóng vai.
+Ngày: 2026-09-18 · ADR-019: **thu theo đoạn là mặc định**. Thu liên tục = nâng cao. Không đóng vai.
 
-> **Trạng thái triển khai:** KAI-036–041 DONE — studio theo đoạn + assemble + continuous overlay live. Còn KAI-042–047 trước khi ký Gate A thiết bị.
+> **Trạng thái triển khai:** KAI-036–045 DONE (studio speakable + checklist/preflight). **KAI-046** = ký thiết bị người thật. Gate A **chưa ACCEPTED** cho đến khi checklist Chrome/Edge PASS.
 
 ## Bạn làm được gì ở bản Gate A (mục tiêu speakable)
 
@@ -10,12 +10,13 @@ Ngày: 2026-09-18 · Cập nhật ADR-019: **thu theo đoạn là mặc định*
 2. Nhập/chỉnh phụ đề thủ công theo mốc thời gian (SRT/VTT hoặc soạn tay).
 3. Chuẩn bị học → bắt đầu lần luyện (snapshot lời thoại bất biến).
 4. Kiểm tra micro.
-5. **Mặc định — Theo đoạn:** mỗi câu một lần thu ngắn; **lời thoại hiện trên video**; nghe mẫu đoạn → thu → nghe mình → tiếp / bỏ qua; tiến độ N/M.
-6. **Nâng cao — Liên tục:** thu cả video một lần; vẫn hiện lời hiện tại (+ câu kế) trên video; không tự dừng từng câu.
-7. Nghe lại: thanh âm lượng tiếng gốc / giọng mình; xuất MP4 (cần đăng nhập).
-8. Lịch sử lần thu; xóa dự án khi không cần.
+5. **Mặc định — Theo đoạn:** mỗi câu một lần thu ngắn; **lời thoại hiện trên video**; nghe mẫu → thu → nghe mình → tiếp / bỏ qua; lọc còn thiếu / đánh dấu luyện; thu lại một đoạn không xóa clip khác.
+6. **Kết thúc phiên** → ghép timeline (`assembly=segment_timeline`); khoảng trống = im lặng trên track giọng mình.
+7. **Nâng cao — Liên tục:** thu cả video một lần; overlay câu hiện tại + câu kế; không tự dừng từng câu.
+8. Nghe lại: mix gốc/giọng mình; **trạng thái từng đoạn** + tua cửa sổ / nghe clip; xuất MP4 (cần đăng nhập).
+9. Lịch sử lần thu; xóa dự án khi không cần.
 
-**Trung thực:** bản ghép từ nhiều đoạn **không** được gọi là “một lần thu liên tục”. Ứng dụng ghi `capture_mode` tương ứng.
+**Trung thực:** bản ghép từ nhiều đoạn **không** được gọi là “một lần thu liên tục”. Ứng dụng ghi `capture_mode` / `assembly` tương ứng.
 
 ## Chấm điểm phát âm
 
@@ -25,7 +26,8 @@ Nghe mẫu ↔ nghe mình và xuất file vẫn dùng được khi chấm lỗi/
 
 ## Trình duyệt được hỗ trợ thu
 
-- **Claim thu Gate A:** Desktop Chrome hoặc Edge — **ưu tiên nghiệm thu chế độ theo đoạn** (checklist KAI-033 / KAI-045–046).
+- **Claim thu Gate A:** Desktop Chrome hoặc Edge — **bắt buộc PASS chế độ theo đoạn** (checklist KAI-033 / KAI-045–046).
+- Continuous + overlay: khuyến nghị trên cùng ma trận; **không** thay thế segment PASS.
 - Mobile: xem/soạn; thu chưa claim cho đến khi ma trận PASS.
 
 ## Sao lưu

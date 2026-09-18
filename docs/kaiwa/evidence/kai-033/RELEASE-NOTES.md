@@ -7,8 +7,9 @@ Automated verification at packaging: see `npm test` / KAI-032 evidence (**not** 
 ## What ships in Gate A (product claim)
 
 - Private video upload, probe/proxy playback, manual transcript, prep snapshot
-- Continuous full-video capture, journal resume, finalize (mic-only raw)
-- Dual-gain review, take history, MP4 export (ffmpeg when configured; else synthetic container + mix snapshot)
+- **Segment practice (default, ADR-019):** on-video script overlay, per-clip record/skip/re-record, subset filters, assemble → `assembly=segment_timeline` (never labeled continuous)
+- **Continuous (advanced):** full-video capture + live current/next overlay; journal resume; finalize (mic-only raw)
+- Dual-gain review with per-segment status + seek A/B, take history, MP4 export (ffmpeg when configured; else synthetic container + mix snapshot)
 - Soft-delete + media GC; optional media backup with MANIFEST
 - Activity history without deck/grammar XP injection (ADR-018)
 - Assessment: **not configured** — UI/docs must say so
@@ -19,6 +20,7 @@ Automated verification at packaging: see `npm test` / KAI-032 evidence (**not** 
 - Speaking XP / streak contribution (KAI-030b)
 - Character role-play (KAI-035)
 - Mobile recording claim
+- Gate A **device** ACCEPTED until CHECKLIST Chrome+Edge segment flow signed (KAI-046)
 
 ## Rollback
 
