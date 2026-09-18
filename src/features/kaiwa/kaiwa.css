@@ -371,6 +371,14 @@
   font-size: 0.95rem;
 }
 
+.kaiwa-script-next,
+.kaiwa-script-upcoming {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  opacity: 0.75;
+  font-weight: 500;
+}
+
 .kaiwa-seg-controls {
   display: flex;
   flex-wrap: wrap;

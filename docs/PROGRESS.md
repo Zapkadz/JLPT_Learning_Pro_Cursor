@@ -8,7 +8,7 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** … **KAI-036–040** DONE; next **KAI-041** continuous overlay. Gate A **not accepted**.
+- **Kaiwa Studio:** … **KAI-036–041** DONE; next **KAI-042** re-record. Gate A **not accepted**.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
 
@@ -252,6 +252,10 @@ Verify: `npm test` **24/24**.
 Additive `kaiwa-001` migration; `shared/kaiwa` Zod; repository + `/api/kaiwa` project/draft/revision/attempt routes; owner isolation; optimistic conflict; attempt pins reviewed revision.
 Verify: `npm test` **21/21**.
 
+### KAI-041 (2026-09-18) — DONE
+
+Continuous recorder on-video overlay (current + next by clock). Evidence: `docs/kaiwa/evidence/kai-041/REPORT.md`. Verify: **108/108**.
+
 ### KAI-040 (2026-09-18) — DONE
 
 Persist `kaiwa-capture-mode` preference; prep/start uses it; studio picker copy per ADR-019. Evidence: `docs/kaiwa/evidence/kai-040/REPORT.md`. Verify: **106/106**.
@@ -415,6 +419,8 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-041 continuous live overlay | **108/108** npm test; build OK | `docs/kaiwa/evidence/kai-041/REPORT.md` |
+| 2026-09-18 | KAI-040 capture-mode preference | **106/106** npm test; build OK | `docs/kaiwa/evidence/kai-040/REPORT.md` |
 | 2026-09-18 | KAI-039 assemble segment timeline | **106/106** npm test; build OK | `docs/kaiwa/evidence/kai-039/REPORT.md` |
 | 2026-09-18 | KAI-038 segment studio UI | **103/103** npm test; build OK | `docs/kaiwa/evidence/kai-038/REPORT.md` |
 | 2026-09-18 | KAI-037 segment clips API | **102/102** npm test; build OK | `docs/kaiwa/evidence/kai-037/REPORT.md` |

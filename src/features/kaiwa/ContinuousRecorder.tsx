@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   createCaptureMachine,
   reduceCapture,
@@ -13,10 +13,16 @@ import {
   type ChunkJournal,
 } from "./chunkJournal";
 import { assembleAndFinalize, syncJournalToServer } from "./attemptUpload";
+import { currentAndNext } from "../../../shared/kaiwa/liveOverlay";
+import type { KaiwaSegment } from "../../../shared/kaiwa/types";
+
+type HelpPrefs = { furigana: boolean; romaji: boolean; vi: boolean };
 
 type Props = {
   attemptId: string;
   videoUrl: string | null;
+  segments?: KaiwaSegment[];
+  prefs?: HelpPrefs;
   deviceId?: string;
   onSaved?: (completion: string) => void;
   journalLimitBytes?: number;
@@ -27,6 +33,8 @@ const COUNTDOWN_SEC = 3;
 export function ContinuousRecorder({
   attemptId,
   videoUrl,
+  segments = [],
+  prefs = { furigana: true, romaji: false, vi: true },
   deviceId,
   onSaved,
   journalLimitBytes = DEFAULT_JOURNAL_LIMIT_BYTES,
@@ -38,6 +46,7 @@ export function ContinuousRecorder({
   const [error, setError] = useState("");
   const [uploadNote, setUploadNote] = useState("");
   const [blobUrl, setBlobUrl] = useState<string | null>(null);
+  const [tMs, setTMs] = useState(0);
   const videoRef = useRef<HTMLVideoElement>(null);
   const streamRef = useRef<MediaStream | null>(null);
   const recorderRef = useRef<MediaRecorder | null>(null);
@@ -50,6 +59,11 @@ export function ContinuousRecorder({
   const sampleTimer = useRef(0);
   const finalizingRef = useRef(false);
 
+  const overlay = useMemo(
+    () => currentAndNext(segments, tMs),
+    [segments, tMs],
+  );
+
   function dispatch(
     event: Parameters<typeof reduceCapture>[1],
   ): CaptureMachine {
@@ -60,6 +74,18 @@ export function ContinuousRecorder({
     });
     return next;
   }
+
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+    const onTime = () => setTMs(Math.round(v.currentTime * 1000));
+    v.addEventListener("timeupdate", onTime);
+    v.addEventListener("seeked", onTime);
+    return () => {
+      v.removeEventListener("timeupdate", onTime);
+      v.removeEventListener("seeked", onTime);
+    };
+  }, [videoUrl]);
 
   useEffect(() => {
     return () => {
@@ -265,18 +291,49 @@ export function ContinuousRecorder({
       <div className="kaiwa-recorder-status" aria-live="assertive">
         Trạng thái thu: <strong>{machine.state}</strong>
         {machine.completion ? ` · ${machine.completion}` : ""}
+        {segments.length > 0 && overlay.index >= 0 ? (
+          <span>
+            {" "}
+            · lời {overlay.index + 1}/{segments.length}
+          </span>
+        ) : null}
       </div>
 
-      {videoUrl && (
-        <video
-          ref={videoRef}
-          className="kaiwa-record-video"
-          src={videoUrl}
-          playsInline
-          preload="metadata"
-          onEnded={onVideoEnded}
-        />
-      )}
+      {videoUrl ? (
+        <div className="kaiwa-seg-stage">
+          <video
+            ref={videoRef}
+            className="kaiwa-record-video"
+            src={videoUrl}
+            playsInline
+            preload="metadata"
+            onEnded={onVideoEnded}
+          />
+          {(overlay.current || overlay.next) && (
+            <div className="kaiwa-script-overlay" lang="ja">
+              {overlay.current ? (
+                <>
+                  <div className="kaiwa-script-ja">
+                    {overlay.current.ja || "(trống)"}
+                  </div>
+                  {prefs.vi && overlay.current.vi ? (
+                    <div className="kaiwa-script-vi">{overlay.current.vi}</div>
+                  ) : null}
+                </>
+              ) : (
+                <div className="kaiwa-script-ja kaiwa-script-upcoming">
+                  Sắp tới: {overlay.next?.ja || "…"}
+                </div>
+              )}
+              {overlay.current && overlay.next ? (
+                <div className="kaiwa-script-next">
+                  Tiếp: {overlay.next.ja || "(trống)"}
+                </div>
+              ) : null}
+            </div>
+          )}
+        </div>
+      ) : null}
 
       {machine.state === "countdown" && (
         <p className="kaiwa-countdown" aria-live="assertive">
@@ -320,7 +377,8 @@ export function ContinuousRecorder({
         <audio controls src={blobUrl} preload="metadata" />
       )}
       <p className="kaiwa-privacy-note">
-        Chunk ghi journal cục bộ rồi upload/resume; chỉ báo đã lưu sau khi lắp audio hợp lệ.
+        Thu liên tục không dừng theo câu — nhìn lời trên video. Chunk journal cục
+        bộ rồi upload; chỉ báo đã lưu sau khi lắp audio hợp lệ.
       </p>
     </div>
   );

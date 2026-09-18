@@ -1369,6 +1369,8 @@ export function KaiwaStudio() {
         <ContinuousRecorder
           attemptId={attemptId}
           videoUrl={playbackUrl}
+          segments={segs}
+          prefs={prefs}
           deviceId={micReady.deviceId}
           onSaved={() => navigate(`/kaiwa/attempts/${attemptId}`)}
         />
@@ -1387,9 +1389,8 @@ export function KaiwaStudio() {
             <code>{data.revision_id.slice(0, 8)}</code>
           </p>
           <p className="kaiwa-privacy-note">
-            Chế độ nâng cao: hãy nhìn danh sách dưới khi thu (overlay live đầy đủ =
-            KAI-041). Khuyến nghị dùng <strong>Theo đoạn</strong> để thấy lời trên
-            video.
+            Overlay trên video hiện câu hiện tại + câu kế theo đồng hồ phát. Danh
+            sách dưới chỉ là phụ.
           </p>
           <ol className="kaiwa-segments">
             {segs.map((seg) => (

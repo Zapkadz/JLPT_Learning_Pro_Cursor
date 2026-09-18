@@ -2,7 +2,7 @@
 
 Ngày: 2026-09-18 · Cập nhật ADR-019: **thu theo đoạn là mặc định** (dễ nói theo lời). Thu liên tục = nâng cao. Không đóng vai.
 
-> **Trạng thái triển khai:** KAI-036–039 DONE — studio theo đoạn + **Kết thúc phiên** ghép timeline (`assembly=segment_timeline`). Overlay live cho mode liên tục = KAI-041.
+> **Trạng thái triển khai:** KAI-036–041 DONE — studio theo đoạn + assemble + continuous overlay live. Còn KAI-042–047 trước khi ký Gate A thiết bị.
 
 ## Bạn làm được gì ở bản Gate A (mục tiêu speakable)
 
