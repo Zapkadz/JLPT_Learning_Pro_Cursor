@@ -116,7 +116,9 @@ Phát sinh từ feedback thiết bị 18/09/2026: thu liên tục không hiện 
 | KAI-044 · M · Frontend | Review/attempt UI: trạng thái từng đoạn + seek A/B theo clip | KAI-021, KAI-039 | Biết đoạn nào đã thu/thiếu; nghe đúng cửa sổ; export vẫn độc lập scoring | DONE |
 | KAI-045 · S · QA | Cập nhật checklist/preflight Gate A cho mode segment (+ continuous overlay) | KAI-038–041, KAI-033 | CHECKLIST có hàng segment PASS bắt buộc; continuous optional advanced | DONE |
 | KAI-046 · M · QA | Device matrix: Chrome/Edge thu theo đoạn full flow | KAI-045 | Evidence checklist; không lỗi chặn nói được | BLOCKED |
+| KAI-047 · S · Docs | USAGE-GATE-A + release notes phản ánh dual-mode và honesty capture_mode | KAI-036, KAI-045 | Tài liệu khớp sản phẩm; không hứa chấm điểm giả | DONE |
 | KAI-048 · S · Frontend | Segment record: countdown 3-2-1 + mute video sample during take | KAI-038 | Countdown hiển thị trước thu; video muted khi recording; Nghe mẫu vẫn có tiếng | DONE |
+| KAI-049 · S · Frontend/Docs | Continuous countdown overlay parity + checklist/USAGE note mute | KAI-048 | Continuous 3-2-1 trên video; CHECKLIST §5b; USAGE khớp | DONE |
 
 Thứ tự gợi ý: **KAI-036 → 037 → 038 → 039 → 040** (đường găng speakable); **041** song song sau 036; **042–044** hoàn thiện; **045–047** trước khi ký Gate A.
 

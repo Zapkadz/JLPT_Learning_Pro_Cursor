@@ -338,14 +338,14 @@ export function ContinuousRecorder({
               ) : null}
             </div>
           )}
+          {machine.state === "countdown" && count > 0 && (
+            <div className="kaiwa-seg-countdown" aria-live="assertive">
+              <span className="kaiwa-seg-countdown-num">{count}</span>
+              <span>Chuẩn bị…</span>
+            </div>
+          )}
         </div>
       ) : null}
-
-      {machine.state === "countdown" && (
-        <p className="kaiwa-countdown" aria-live="assertive">
-          Bắt đầu sau {count}…
-        </p>
-      )}
 
       <div className="kaiwa-actions">
         {(machine.state === "ready" || machine.state === "idle") && (
@@ -383,8 +383,8 @@ export function ContinuousRecorder({
         <audio controls src={blobUrl} preload="metadata" />
       )}
       <p className="kaiwa-privacy-note">
-        Thu liên tục không dừng theo câu — nhìn lời trên video. Chunk journal cục
-        bộ rồi upload; chỉ báo đã lưu sau khi lắp audio hợp lệ.
+        Thu liên tục không dừng theo câu — nhìn lời trên video. Khi thu, tiếng video
+        bị tắt. Chunk journal cục bộ rồi upload; chỉ báo đã lưu sau khi lắp audio hợp lệ.
       </p>
     </div>
   );

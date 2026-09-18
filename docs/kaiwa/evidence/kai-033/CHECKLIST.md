@@ -44,6 +44,7 @@ Dùng video ngắn hợp pháp / fixture — **không** commit bản thu cá nh�
 | 3 | Soạn / nhập SRT theo seek → lưu nháp → chuẩn bị học | | |
 | 4 | Mic preflight: quyền, thiết bị, meter, thử thu (không loopback loa) | | |
 | 5 | Studio mặc định **Theo đoạn**; overlay hiện JA đúng clip đang active | | |
+| 5b | Bấm Thu → **3-2-1** trên video rồi mới thu; khi thu **video tắt tiếng** (Nghe mẫu vẫn có tiếng) | | |
 | 6 | Nghe mẫu đoạn → Thu đoạn → Nghe mình → Tiếp (ít nhất 2 đoạn) | | |
 | 7 | Bỏ qua một đoạn; tiến độ N/M phản ánh đúng | | |
 | 8 | Kết thúc / assemble → review; `capture_mode` / `assembly=segment_timeline` không ghi continuous giả | | |

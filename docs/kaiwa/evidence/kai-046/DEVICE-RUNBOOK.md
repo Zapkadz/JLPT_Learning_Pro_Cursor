@@ -16,6 +16,7 @@ Làm lần lượt `CHECKLIST.md` **§2** (14 bước theo đoạn). Ghi PASS/FA
 Đặc biệt kiểm:
 
 - Overlay lời trên video khi thu đoạn
+- **3-2-1** trước khi thu; **video mute** lúc đang thu; Nghe mẫu vẫn có tiếng
 - Bỏ qua / lọc còn thiếu / đánh dấu luyện
 - Kết thúc phiên → review không ghi `continuous` giả
 - Thu lại một đoạn → clip khác còn

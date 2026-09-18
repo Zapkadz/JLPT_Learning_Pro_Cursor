@@ -10,9 +10,9 @@ Ngày: 2026-09-18 · ADR-019: **thu theo đoạn là mặc định**. Thu liên 
 2. Nhập/chỉnh phụ đề thủ công theo mốc thời gian (SRT/VTT hoặc soạn tay).
 3. Chuẩn bị học → bắt đầu lần luyện (snapshot lời thoại bất biến).
 4. Kiểm tra micro.
-5. **Mặc định — Theo đoạn:** mỗi câu một lần thu ngắn; **lời thoại hiện trên video**; nghe mẫu → thu → nghe mình → tiếp / bỏ qua; lọc còn thiếu / đánh dấu luyện; thu lại một đoạn không xóa clip khác.
+5. **Mặc định — Theo đoạn:** mỗi câu một lần thu ngắn; **lời thoại hiện trên video**; nghe mẫu → **đếm 3-2-1** → thu (video tắt tiếng mẫu) → nghe mình → tiếp / bỏ qua; lọc còn thiếu / đánh dấu luyện; thu lại một đoạn không xóa clip khác.
 6. **Kết thúc phiên** → ghép timeline (`assembly=segment_timeline`); khoảng trống = im lặng trên track giọng mình.
-7. **Nâng cao — Liên tục:** thu cả video một lần; overlay câu hiện tại + câu kế; không tự dừng từng câu.
+7. **Nâng cao — Liên tục:** đếm 3-2-1 → thu cả video; overlay câu hiện tại + câu kế; video tắt tiếng khi thu; không tự dừng từng câu.
 8. Nghe lại: mix gốc/giọng mình; **trạng thái từng đoạn** + tua cửa sổ / nghe clip; xuất MP4 (cần đăng nhập).
 9. Lịch sử lần thu; xóa dự án khi không cần.
 
