@@ -13,12 +13,12 @@
 
 | Kiểm tra | Lệnh / bằng chứng | Kết quả |
 | --- | --- | --- |
-| Unit/integration | `npm test` | điền: ___ / ___ |
-| Build | `npm run build` | điền: OK / FAIL |
-| Preflight script | `npm run kaiwa:gate-a-preflight` | điền: OK / FAIL |
+| Unit/integration | `npm test` | **110 / 110** (2026-09-18, `kaiwa:gate-a-preflight`) |
+| Build | `npm run build` | **OK** (same preflight run) |
+| Preflight script | `npm run kaiwa:gate-a-preflight` | **OK** (checklist content + test + build) |
 | Security suite | `tests/kaiwa/security.test.ts` + KAI-032 REPORT | PASS (automated) |
-| Segment studio + assemble + overlay | KAI-038–041 DONE | điền: YES / NO |
-| Re-record / subset / review status | KAI-042–044 DONE | điền: YES / NO |
+| Segment studio + assemble + overlay | KAI-038–041 DONE | **YES** |
+| Re-record / subset / review status | KAI-042–044 DONE | **YES** |
 
 ---
 

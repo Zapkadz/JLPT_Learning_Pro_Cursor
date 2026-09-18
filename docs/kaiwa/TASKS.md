@@ -139,6 +139,7 @@ Phụ thuộc: KAI-045 DONE; KAI-047 DONE
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | Gate A preflight OK; CHECKLIST §0 filled; KAI-046 DEVICE-RUNBOOK | `npm test` **110/110**; preflight OK | Human Chrome/Edge §2 |
 | 18/09/2026 | KAI-045 checklist/preflight + KAI-047 USAGE/release dual-mode | content checks OK; `npm test` | KAI-046 human device |
 | 18/09/2026 | KAI-044 review per-segment status + seek A/B | `npm test` **110/110**; build OK | KAI-045 Gate A checklist |
 | 18/09/2026 | KAI-043 subset filters + resume first pending | `npm test` **109/109**; build OK | KAI-044 review segment status |
