@@ -3,6 +3,11 @@ import { api, post } from "../../lib/api";
 import { Status } from "../../components/ui";
 import { openMicStream, stopStream } from "./micPreflight";
 import type { KaiwaSegment } from "../../../shared/kaiwa/types";
+import {
+  isSpeakableSegment,
+  isUnmatchedSegment,
+  countTimingStatuses,
+} from "../../../shared/kaiwa/timingStatus";
 import { ScriptHelpLayers, type HelpPrefs } from "./ScriptHelpLayers";
 
 type ClipRow = {
@@ -124,6 +129,11 @@ export function SegmentStudio({
     };
   }, []);
 
+  const timingCounts = useMemo(
+    () => countTimingStatuses(segments),
+    [segments],
+  );
+
   const clipBySeg = useMemo(() => {
     const m = new Map<string, ClipRow>();
     for (const c of clipsData?.clips ?? []) m.set(c.segmentId, c);
@@ -134,7 +144,10 @@ export function SegmentStudio({
     return segments
       .map((_, i) => i)
       .filter((i) => {
-        const id = segments[i].id;
+        const seg = segments[i];
+        // Never practice unmatched placeholders (KAI-072)
+        if (!isSpeakableSegment(seg)) return false;
+        const id = seg.id;
         const st = clipBySeg.get(id)?.status ?? "pending";
         if (filter === "missing")
           return st === "pending" || st === "partial";
@@ -147,10 +160,15 @@ export function SegmentStudio({
     if (!clipsData || resumedRef.current) return;
     resumedRef.current = true;
     const firstPending = segments.findIndex((s) => {
+      if (!isSpeakableSegment(s)) return false;
       const st = clipBySeg.get(s.id)?.status;
       return !st || st === "pending";
     });
     if (firstPending >= 0) setIdx(firstPending);
+    else {
+      const firstSpeakable = segments.findIndex((s) => isSpeakableSegment(s));
+      if (firstSpeakable >= 0) setIdx(firstSpeakable);
+    }
   }, [clipsData, segments, clipBySeg]);
 
   useEffect(() => {
@@ -160,6 +178,7 @@ export function SegmentStudio({
 
   const seg = segments[idx] ?? null;
   const clip = seg ? clipBySeg.get(seg.id) : undefined;
+  const segUnmatched = seg ? isUnmatchedSegment(seg) : false;
 
   function toggleMark(segmentId: string) {
     setMarked((prev) => {
@@ -233,6 +252,12 @@ export function SegmentStudio({
   /** Tap Thu → show 3-2-1, then beginRecord. */
   function startRecord() {
     if (!seg || recording || busy || countdown != null) return;
+    if (!isSpeakableSegment(seg)) {
+      setError(
+        "Đoạn chưa khớp thời gian — không thu được. Sửa mốc trên trang soạn rồi thử lại.",
+      );
+      return;
+    }
     setError("");
     const v = videoRef.current;
     if (v) {
@@ -399,11 +424,11 @@ export function SegmentStudio({
       (source?.clips ?? []).map((c) => [c.segmentId, c.status]),
     );
     const pool =
-      filter === "all"
-        ? segments.map((_, i) => i)
-        : visibleIndices.length
-          ? visibleIndices
-          : segments.map((_, i) => i);
+      visibleIndices.length > 0
+        ? visibleIndices
+        : segments
+            .map((s, i) => (isSpeakableSegment(s) ? i : -1))
+            .filter((i) => i >= 0);
     const pos = pool.indexOf(idx);
     for (let p = pos + 1; p < pool.length; p++) {
       const i = pool[p];
@@ -424,7 +449,6 @@ export function SegmentStudio({
         return;
       }
     }
-    // fallback: next index in pool
     if (pos >= 0 && pos < pool.length - 1) {
       setIdx(pool[pos + 1]);
       return;
@@ -433,9 +457,12 @@ export function SegmentStudio({
   }
 
   function goPrev() {
-    const pool = visibleIndices.length
-      ? visibleIndices
-      : segments.map((_, i) => i);
+    const pool =
+      visibleIndices.length > 0
+        ? visibleIndices
+        : segments
+            .map((s, i) => (isSpeakableSegment(s) ? i : -1))
+            .filter((i) => i >= 0);
     const pos = pool.indexOf(idx);
     if (pos > 0) setIdx(pool[pos - 1]);
   }
@@ -446,13 +473,19 @@ export function SegmentStudio({
   return (
     <div className="panel kaiwa-segment-studio">
       <div className="kaiwa-seg-progress">
-        Đoạn <strong>{segments.length ? idx + 1 : 0}</strong> / {segments.length}
-        {filter !== "all" && visibleIndices.length > 0 ? (
-          <span>
-            {" "}
-            · lọc {posInFilter >= 0 ? posInFilter + 1 : 0}/{visibleIndices.length}
-          </span>
-        ) : null}
+        Đoạn luyện{" "}
+        <strong>
+          {visibleIndices.length
+            ? posInFilter >= 0
+              ? posInFilter + 1
+              : 0
+            : 0}
+        </strong>{" "}
+        / {visibleIndices.length || timingCounts.speakable}
+        <span>
+          {" "}
+          · script {segments.length ? idx + 1 : 0}/{segments.length}
+        </span>
         {clip?.version ? (
           <span>
             {" "}
@@ -468,6 +501,19 @@ export function SegmentStudio({
           </span>
         ) : null}
       </div>
+
+      {timingCounts.unmatched > 0 && (
+        <Status tone="info">
+          {timingCounts.unmatched} đoạn chưa khớp thời gian — không đưa vào cửa
+          sổ thu. Sửa trên trang soạn phụ đề rồi mở lại phòng thu.
+        </Status>
+      )}
+      {timingCounts.needsReview > 0 && timingCounts.unmatched === 0 && (
+        <Status tone="info">
+          {timingCounts.needsReview} đoạn cần kiểm tra mốc — vẫn có thể thu; nên
+          nghe mẫu trước.
+        </Status>
+      )}
 
       <div className="kaiwa-seg-filters" role="group" aria-label="Lọc đoạn">
         <button
@@ -549,7 +595,9 @@ export function SegmentStudio({
           <button
             type="button"
             className="btn"
-            disabled={!seg || busy || !videoUrl}
+            disabled={
+              !seg || busy || !videoUrl || !isSpeakableSegment(seg)
+            }
             onClick={() => startRecord()}
           >
             {clip?.status === "recorded" || clip?.status === "partial"
@@ -628,8 +676,18 @@ export function SegmentStudio({
       {filter === "missing" && visibleIndices.length === 0 && (
         <Status tone="info">Không còn đoạn thiếu trong lần thu này.</Status>
       )}
+      {timingCounts.speakable === 0 && segments.length > 0 && (
+        <Status tone="error">
+          Không có đoạn nào có mốc dùng được để thu. Hãy sửa phụ đề trước.
+        </Status>
+      )}
       {clip?.status === "skipped" && (
         <Status tone="info">Đã bỏ qua đoạn này — không tính là đã nói.</Status>
+      )}
+      {segUnmatched && (
+        <Status tone="error">
+          Đoạn này chưa khớp — không dùng làm cửa sổ thu.
+        </Status>
       )}
       {note && <Status tone="info">{note}</Status>}
       {error && <Status tone="error">{error}</Status>}
@@ -638,11 +696,12 @@ export function SegmentStudio({
         {segments.map((s, i) => {
           const c = clipBySeg.get(s.id);
           const st = c?.status ?? "pending";
+          const unmatched = isUnmatchedSegment(s);
           const hidden =
             filter === "missing"
-              ? !(st === "pending" || st === "partial")
+              ? unmatched || !(st === "pending" || st === "partial")
               : filter === "marked"
-                ? !marked.has(s.id)
+                ? unmatched || !marked.has(s.id)
                 : false;
           if (hidden && filter !== "all") return null;
           return (
@@ -650,12 +709,23 @@ export function SegmentStudio({
               <button
                 type="button"
                 className={
-                  i === idx ? "kaiwa-seg-chip active" : "kaiwa-seg-chip"
+                  unmatched
+                    ? "kaiwa-seg-chip unmatched"
+                    : i === idx
+                      ? "kaiwa-seg-chip active"
+                      : "kaiwa-seg-chip"
                 }
-                disabled={busy || recording || countdown != null}
+                disabled={
+                  unmatched || busy || recording || countdown != null
+                }
+                title={
+                  unmatched
+                    ? "Chưa khớp thời gian — không thu được"
+                    : undefined
+                }
                 onClick={() => setIdx(i)}
               >
-                {i + 1}. {st}
+                {i + 1}. {unmatched ? "chưa khớp" : st}
               </button>
               <button
                 type="button"
@@ -664,7 +734,9 @@ export function SegmentStudio({
                     ? "kaiwa-seg-mark on"
                     : "kaiwa-seg-mark"
                 }
-                disabled={busy || recording || countdown != null}
+                disabled={
+                  unmatched || busy || recording || countdown != null
+                }
                 aria-label={
                   marked.has(s.id) ? "Bỏ đánh dấu" : "Đánh dấu luyện"
                 }

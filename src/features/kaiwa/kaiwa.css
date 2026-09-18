@@ -127,6 +127,17 @@
   outline-offset: 2px;
 }
 
+.kaiwa-seg.unmatched {
+  outline: 1px solid color-mix(in srgb, #b33 50%, transparent);
+  outline-offset: 2px;
+  opacity: 0.92;
+}
+
+.kaiwa-seg-chip.unmatched {
+  opacity: 0.55;
+  text-decoration: line-through;
+}
+
 .kaiwa-progress {
   display: grid;
   gap: 0.35rem;

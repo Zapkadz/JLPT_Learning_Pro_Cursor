@@ -15,6 +15,7 @@ import {
 import { assembleAndFinalize, syncJournalToServer } from "./attemptUpload";
 import { currentAndNext } from "../../../shared/kaiwa/liveOverlay";
 import type { KaiwaSegment } from "../../../shared/kaiwa/types";
+import { isSpeakableSegment } from "../../../shared/kaiwa/timingStatus";
 import { ScriptHelpLayers, type HelpPrefs } from "./ScriptHelpLayers";
 
 type Props = {
@@ -58,9 +59,14 @@ export function ContinuousRecorder({
   const sampleTimer = useRef(0);
   const finalizingRef = useRef(false);
 
+  const speakableSegments = useMemo(
+    () => segments.filter((s) => isSpeakableSegment(s)),
+    [segments],
+  );
+
   const overlay = useMemo(
-    () => currentAndNext(segments, tMs),
-    [segments, tMs],
+    () => currentAndNext(speakableSegments, tMs),
+    [speakableSegments, tMs],
   );
 
   function dispatch(
@@ -296,10 +302,10 @@ export function ContinuousRecorder({
       <div className="kaiwa-recorder-status" aria-live="assertive">
         Trạng thái thu: <strong>{machine.state}</strong>
         {machine.completion ? ` · ${machine.completion}` : ""}
-        {segments.length > 0 && overlay.index >= 0 ? (
+        {speakableSegments.length > 0 && overlay.index >= 0 ? (
           <span>
             {" "}
-            · lời {overlay.index + 1}/{segments.length}
+            · lời {overlay.index + 1}/{speakableSegments.length}
           </span>
         ) : null}
       </div>

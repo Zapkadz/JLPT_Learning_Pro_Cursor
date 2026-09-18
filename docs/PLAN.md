@@ -26,7 +26,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Detailed backlog / dependency graph | `docs/kaiwa/TASKS.md` |
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
-| **Current executable task** | **KAI-072** editor unmatched UX (sau KAI-070); KAI-071 windowing song song được |
+| **Current executable task** | **KAI-071** long-video windowing (sau KAI-072); KAI-074 padding split READY |
 | Do not start | **KAI-035** before Gate B; **v2 ASR push** before KAI-066+ bake-off unless user overrides |
 
 ### Phase overview (detail in `docs/kaiwa/TASKS.md`)

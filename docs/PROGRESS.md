@@ -8,10 +8,14 @@ Rule: **never** write targets as completed counts.
 - Product core (auth, decks, FSRS review, kana, JLPT practice, stats/export): **shipped in repo** (see README).
 - Grammar N2: **26 / 141 / 4230** published on `main`; N2-FULL-ACC automated PASS; N2-L01-FURI-001 merged (PR #14 @ `7b1e324`); teacher review still PENDING.
 - Persistent project memory: MEM-001 DONE; **KAI-MEM-001 DONE** (2026-09-17) — Kaiwa integrated into root memory + autonomous workflow.
-- **Kaiwa Studio:** Gate A **ACCEPTED**. Forced-align bake-off DONE; **KAI-070** stable-ts default shipped; next **KAI-072** / KAI-071.
+- **Kaiwa Studio:** Gate A **ACCEPTED**. Forced-align bake-off DONE; **KAI-070** stable-ts default; **KAI-072** editor/studio unmatched honesty DONE; next **KAI-071** windowing.
 - Local speech env: `npm run kaiwa:speech-env` → ready.
 - Git: `feat/kaiwa-memory`.
 - Local unrelated WIP: grammar revision bumps may remain dirty — exclude from Kaiwa commits.
+
+### KAI-072 (2026-09-18) — DONE
+
+Editor filters (unmatched / needs_review), listen-with-context, studio + continuous skip unmatched windows. Evidence: `docs/kaiwa/evidence/kai-072/REPORT.md`. Verify: **123/123** + build OK.
 
 ## TARGET vs ACTUAL (Grammar N2)
 
@@ -476,6 +480,7 @@ Planning / tasks / implementation-rules present under `docs/kaiwa/`. These are *
 
 | When | What | Result | Evidence |
 |------|------|--------|----------|
+| 2026-09-18 | KAI-072 editor/studio unmatched honesty | 123/123 tests; build OK | `docs/kaiwa/evidence/kai-072/REPORT.md` |
 | 2026-09-18 | KAI-070 stable-ts default script-align | 122/122 tests; speech-env ready | `docs/kaiwa/evidence/kai-070/REPORT.md` |
 | 2026-09-18 | KAI-069 WhisperX + ADR-021a bake-off | prefer stable-ts default; Qwen optional | `docs/kaiwa/evidence/kai-069/` |
 | 2026-09-18 | KAI-068 stable-ts spike | median Δstart 28–53 ms on clean TTS | `docs/kaiwa/evidence/kai-068/` |

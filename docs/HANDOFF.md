@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-070 stable-ts default DONE)
+2026-09-18 (KAI-072 editor unmatched honesty DONE)
 
 ## Current Branch
 
@@ -10,17 +10,17 @@
 
 ## Current Task
 
-**Next READY:** **KAI-071** (long-video windows) or **KAI-072** (editor unmatched UX) — prefer **KAI-072** if user-facing honesty first.
+**Next READY:** **KAI-071** (long-video windowed align) — or **KAI-074** (speech vs practice padding) in parallel after 072.
 
 ## Exact Next Action
 
-1. KAI-072: studio/editor skip unmatched windows; clearer banners.
-2. Or KAI-071: windowed align for long audio.
-3. Restart `npm run dev` so capability shows stable-ts.
+1. KAI-071: windowed script-align for long audio + overlap; fail one window without silent cascade.
+2. Do not start KAI-073 until 071 (and preferably 074) progress is clear.
+3. Exclude grammar WIP / sqlite from Kaiwa commits.
 
 ## Last Completed
 
-- **KAI-070:** `KAIWA_SCRIPT_ALIGN_ENGINE` default `stable_ts`; sidecars for stable-ts + qwen_fa; capability/USAGE updated.
+- **KAI-072:** editor filters + listen-with-context; studio/continuous skip unmatched; `timingStatus` helpers; evidence `docs/kaiwa/evidence/kai-072/REPORT.md`.
 
 ## Blockers
 
