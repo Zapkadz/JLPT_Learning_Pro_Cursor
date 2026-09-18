@@ -2,9 +2,9 @@
 
 Nguồn phạm vi: [PLAN.md](./PLAN.md). Quy tắc cập nhật: [IMPLEMENTATION-RULES.md](./IMPLEMENTATION-RULES.md).
 
-Ngày cập nhật: 18/09/2026. Mốc A: **chờ evidence thiết bị (KAI-033)**. Mốc B: chưa bắt đầu.
+Ngày cập nhật: 18/09/2026. Mốc A: **chờ studio theo đoạn (KAI-036+) rồi device**. Mốc B: chưa bắt đầu.
 
-KAI-001–016, KAI-016–022, KAI-024–029, KAI-030a, KAI-031–032 DONE; KAI-015 stub DONE (live deferred). KAI-033 docs ready / **device PENDING**.
+KAI-001–016, KAI-016–022, KAI-024–029, KAI-030a, KAI-031–032 DONE; KAI-015 stub DONE. KAI-033 packaging DONE / device PENDING. **ADR-019:** Gate A speakable = KAI-036–047 (segment studio) trước khi ACCEPTED.
 
 ## Cách đọc
 
@@ -97,25 +97,51 @@ Không đánh dấu KAI-027 DONE chỉ vì đã vẽ được đường cao đ�
 
 KAI-030 có hai checklist: lịch sử ở A; thời gian nói/XP dựa trên phân tích ở B. Gate A chỉ yêu cầu checklist lịch sử đạt, không bắt metric giả để mở khóa phát hành. Tracker chi tiết phải tách chúng thành KAI-030a/KAI-030b khi bắt đầu task.
 
-## 7. Đợt sau
+## 7. Studio theo đoạn + overlay (ADR-019) — ưu tiên Gate A speakable
+
+Phát sinh từ feedback thiết bị 18/09/2026: thu liên tục không hiện script đúng đoạn → người học không nói được. Tham chiếu UX: Dub Stage (overlay + clip N/M + replay original / record / replay take / next).
+
+**Không** thay Gate C đóng vai. **Không** xóa chế độ liên tục (KAI-017–022 vẫn giữ).
+
+| ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
+| --- | --- | --- | --- | --- |
+| KAI-036 · M · UX/PM | Đặc tả studio theo đoạn + wireflow; cập nhật UX-SPEC / USAGE / CHECKLIST | ADR-019, KAI-004 | Có spec overlay, controls clip, skip/subset, progress N/M, copy VI; continuous vẫn có overlay; không bắt chọn vai | DONE |
+| KAI-037 · M · Backend | Schema/API: `capture_mode`, segment clip assets, tiến độ N/M, ownership | KAI-005, KAI-036 | Migration additive; clip thuộc attempt+segment; conflict/version; test cross-account | TODO |
+| KAI-038 · L · Frontend/Media | UI phòng thu theo đoạn: overlay JA/furigana/VI, clip controls, mic | KAI-036, KAI-017, KAI-016 | Nhìn script trên video khi thu; nghe mẫu đoạn / thu / nghe mình / trước-sau; ≥44px; mobile không tràn ruby | TODO |
+| KAI-039 · L · Media/Backend | Ghép clip đoạn → learner track timeline + gắn review/export | KAI-037, KAI-020, KAI-022 | Silence/giữ gốc ở gap; duration khớp video; metadata `assembly=segment`; không ghi nhãn continuous giả; test gap/overlap | TODO |
+| KAI-040 · S · Frontend | Chọn mode studio (mặc định theo đoạn; liên tục = nâng cao) | KAI-038 | Default segment; nhớ preference tài khoản; copy giải thích khác biệt mode | TODO |
+| KAI-041 · M · Frontend | Overlay live cho mode liên tục (câu hiện tại + kế) theo video clock | KAI-018, KAI-036 | Khi recording continuous vẫn đọc được lời; không dừng theo câu; không chỉ list dưới video | TODO |
+| KAI-042 · M · Frontend/Backend | Thu đè lại một đoạn không xóa clip khác; lịch sử take theo segment | KAI-037, KAI-038 | Re-record segment tạo clip mới; clip cũ giữ hoặc version; attempt aggregate cập nhật | TODO |
+| KAI-043 · M · Frontend | Progress N/M, skip, luyện tập con (subset) cho script dài | KAI-038 | 90+ đoạn không bắt thu hết một lần; skip có lý do; resume đúng clip | TODO |
+| KAI-044 · M · Frontend | Review/attempt UI: trạng thái từng đoạn + seek A/B theo clip | KAI-021, KAI-039 | Biết đoạn nào đã thu/thiếu; nghe đúng cửa sổ; export vẫn độc lập scoring | TODO |
+| KAI-045 · S · QA | Cập nhật checklist/preflight Gate A cho mode segment (+ continuous overlay) | KAI-038–041, KAI-033 | CHECKLIST có hàng segment PASS bắt buộc; continuous optional advanced | TODO |
+| KAI-046 · M · QA | Device matrix: Chrome/Edge thu theo đoạn full flow | KAI-045 | Evidence checklist; không lỗi chặn nói được | TODO |
+| KAI-047 · S · Docs | USAGE-GATE-A + release notes phản ánh dual-mode và honesty capture_mode | KAI-036, KAI-045 | Tài liệu khớp sản phẩm; không hứa chấm điểm giả | TODO |
+
+Thứ tự gợi ý: **KAI-036 → 037 → 038 → 039 → 040** (đường găng speakable); **041** song song sau 036; **042–044** hoàn thiện; **045–047** trước khi ký Gate A.
+
+## 8. Đợt sau
+
 
 | ID / cỡ / vai trò | Task và đầu ra | Phụ thuộc | Tiêu chí nghiệm thu | Trạng thái |
 | --- | --- | --- | --- | --- |
 | KAI-035 · L · PM/Media/Speech | Lập đặc tả đóng vai một nhân vật: speaker annotation, giữ lời vai còn lại, overlap và giới hạn tách nguồn | Gate B | Kế hoạch riêng dùng lại asset/revision/attempt; thử khả năng giữ lời người khác trước khi hứa sản phẩm; không cài đặt như điều kiện ngầm của bản đầu | TODO |
 
-## 8. Checklist task đang làm
+## 9. Checklist task đang làm
 
 ```text
-Task: KAI-033 — Gate A device / full-flow acceptance
-Trạng thái: IN_PROGRESS — docs/preflight DONE; BLOCKED on Chrome/Edge device PASS
-Phụ thuộc: KAI-032 DONE
-Task tiếp theo: Human fill CHECKLIST → Gate A ACCEPTED; remaining Gate B needs KAI-023 + live credentials (KAI-030b / KAI-034)
+Task: KAI-037 — Schema/API capture_mode + segment clips
+Trạng thái: READY → IN_PROGRESS
+Phụ thuộc: KAI-036 DONE
+Task tiếp theo: KAI-038 segment studio UI
 ```
 
-## 9. Nhật ký tiến trình
+## 10. Nhật ký tiến trình
 
 | Ngày | Thay đổi | Kiểm chứng | Việc tiếp theo |
 | --- | --- | --- | --- |
+| 18/09/2026 | KAI-036 segment studio UX spec + USAGE/CHECKLIST/UX-SPEC | Docs: `evidence/kai-036/` | KAI-037 schema |
+| 18/09/2026 | ADR-019 + backlog KAI-036–047: studio theo đoạn mặc định (feedback thiết bị) | Docs only — chưa code | KAI-036 spec |
 | 18/09/2026 | KAI-029 feedback UI priorities + seek (no fake overall score) | `npm test` **100/100**; build OK; `docs/kaiwa/evidence/kai-029/REPORT.md` | KAI-033 device / KAI-023 |
 | 18/09/2026 | KAI-028 assessment aggregate + idempotent cache (no overall score) | `npm test` **99/99**; build OK; `docs/kaiwa/evidence/kai-028/REPORT.md` | KAI-029 / KAI-033 device |
 | 18/09/2026 | KAI-027 provisional relative F0/timing (no pitch-accent labels) | `npm test` **95/95**; build OK; `docs/kaiwa/evidence/kai-027/REPORT.md` | KAI-028 / KAI-033 device |
@@ -141,7 +167,7 @@ Task tiếp theo: Human fill CHECKLIST → Gate A ACCEPTED; remaining Gate B nee
 | 17/09/2026 | KAI-010 passthrough proxy + identity timeline; source immutable; probe gate | `npx tsx --test tests/kaiwa/*.test.ts` **17/17**; evidence `docs/kaiwa/evidence/kai-010/REPORT.md` | KAI-011 UI upload/library |
 | 17/09/2026 | Tạo plan/backlog/rules; xác định lồng tiếng liên tục là ưu tiên; tách gate A/B/C | Đọc stack/middleware/backup hiện tại và tài liệu media/pronunciation; chưa chạy hoặc triển khai module | KAI-001 rồi KAI-002; khởi động nghiên cứu KAI-003 sớm |
 
-## 10. Điều kiện bên ngoài cần quản lý
+## 11. Điều kiện bên ngoài cần quản lý
 
 - Provider/credentials và ngân sách: chỉ chặn live test phụ thuộc dịch vụ, không chặn upload, transcript thủ công, thu và export.
 - Người duyệt tiếng Nhật và dữ liệu có quyền sử dụng: cần cho benchmark và gate B. Nội dung chưa duyệt không được đổi nhãn thành verified.

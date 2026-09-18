@@ -1,34 +1,36 @@
 # Kaiwa — hướng dẫn sử dụng (Gate A)
 
-Ngày: 2026-09-18 · Phạm vi: lồng tiếng liên tục toàn video (không đóng vai).
+Ngày: 2026-09-18 · Cập nhật ADR-019: **thu theo đoạn là mặc định** (dễ nói theo lời). Thu liên tục = nâng cao. Không đóng vai.
 
-## Bạn làm được gì ở bản này
+> **Trạng thái triển khai:** Đặc tả studio theo đoạn = KAI-036 DONE. UI/schema clip từng đoạn = KAI-037+ (đang làm). Bản app hiện tại vẫn chủ yếu thu liên tục — khi segment studio lên production, mặc định sẽ đổi theo tài liệu này.
 
-1. Tải video riêng tư (giới hạn pilot: xem cấu hình server / ADR-015).
-2. Nhập hoặc chỉnh phụ đề thủ công (SRT/VTT); furigana / romaji / bản dịch Việt tùy chọn.
-3. Chuẩn bị học → bắt đầu lần thu (snapshot lời thoại bất biến).
-4. Kiểm tra micro → thu liên tục theo video → chốt bản thu.
-5. Nghe lại với hai thanh âm lượng: **tiếng gốc** và **giọng mình**.
-6. Xuất file MP4 (mix đã snapshot) và tải về (cần đăng nhập).
-7. Xem lịch sử lần thu; xóa dự án khi không còn cần.
+## Bạn làm được gì ở bản Gate A (mục tiêu speakable)
+
+1. Tải video riêng tư (giới hạn pilot: ADR-015).
+2. Nhập/chỉnh phụ đề thủ công theo mốc thời gian (SRT/VTT hoặc soạn tay).
+3. Chuẩn bị học → bắt đầu lần luyện (snapshot lời thoại bất biến).
+4. Kiểm tra micro.
+5. **Mặc định — Theo đoạn:** mỗi câu một lần thu ngắn; **lời thoại hiện trên video**; nghe mẫu đoạn → thu → nghe mình → tiếp / bỏ qua; tiến độ N/M.
+6. **Nâng cao — Liên tục:** thu cả video một lần; vẫn hiện lời hiện tại (+ câu kế) trên video; không tự dừng từng câu.
+7. Nghe lại: thanh âm lượng tiếng gốc / giọng mình; xuất MP4 (cần đăng nhập).
+8. Lịch sử lần thu; xóa dự án khi không cần.
+
+**Trung thực:** bản ghép từ nhiều đoạn **không** được gọi là “một lần thu liên tục”. Ứng dụng ghi `capture_mode` tương ứng.
 
 ## Chấm điểm phát âm
 
-**Chưa có trong Gate A.** Ứng dụng không chấm điểm tiếng Nhật tự động ở bản này.  
-Không có điểm số / radar / «JLPT speaking score». Phản hồi học tập tự động thuộc Gate B (cần provider + benchmark).
+**Chưa đủ cho Gate A claim “đã chấm”.** Có thể có kiểm tra chất lượng / phản hồi tạm — **không** có điểm JLPT / radar giả. Gate B cần provider + benchmark (KAI-023).
 
-Bạn vẫn có thể luyện bằng cách nghe mẫu ↔ nghe mình và xuất file để tự nghe lại.
+Nghe mẫu ↔ nghe mình và xuất file vẫn dùng được khi chấm lỗi/unavailable.
 
 ## Trình duyệt được hỗ trợ thu
 
-- **Claim thu Gate A:** Desktop Chrome hoặc Edge (xem checklist KAI-033).
-- Mobile: dùng để xem/soạn được; thu chưa được công bố hỗ trợ cho đến khi ma trận thiết bị PASS.
+- **Claim thu Gate A:** Desktop Chrome hoặc Edge — **ưu tiên nghiệm thu chế độ theo đoạn** (checklist KAI-033 / KAI-045–046).
+- Mobile: xem/soạn; thu chưa claim cho đến khi ma trận PASS.
 
 ## Sao lưu
 
 - `npm run backup -- đường/dẫn/backup.sqlite` — chỉ SQLite.
-- Thêm `--with-media` (hoặc `KAIWA_BACKUP_MEDIA=1`) để kèm thư mục media + `MANIFEST.json`.
+- Thêm `--with-media` (hoặc `KAIWA_BACKUP_MEDIA=1`) để kèm media + `MANIFEST.json`.
 
-## Riêng tư
-
-Video và bản thu nằm trên máy chủ của bạn, chỉ truy cập qua phiên đăng nhập. Không dùng URL đoán được công khai.
+Chi tiết rollback: `docs/kaiwa/evidence/kai-033/RELEASE-NOTES.md`.

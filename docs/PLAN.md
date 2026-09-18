@@ -1,12 +1,12 @@
 # PLAN — Kotoba active task queue
 
-Last updated: 2026-09-18
+Last updated: 2026-09-18 (ADR-019 segment studio)
 This file is the **active** project-level task source of truth for agents.
 Detailed module backlogs live in module files (do not duplicate every row here).
 
 ## Current Goal
 
-**Kaiwa Studio** — deliver Gate A (usable full-video continuous dubbing), then Gate B (validated Japanese learning feedback). Character role-play (Gate C / KAI-035) is **out of scope** until Gate B.
+**Kaiwa Studio** — deliver Gate A (**speakable** full-video dubbing: **segment practice default** + continuous advanced per ADR-019), then Gate B (validated Japanese feedback). Character role-play (Gate C / KAI-035) is **out of scope** until Gate B.
 
 ## Current Milestone
 
@@ -26,8 +26,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Detailed backlog / dependency graph | `docs/kaiwa/TASKS.md` |
 | Module implementation rules | `docs/kaiwa/IMPLEMENTATION-RULES.md` |
 | Current objective | Gate A → Gate B |
-| **Current executable task** | **KAI-033** device BLOCKED; KAI-024–029 DONE; next needs KAI-023 / credentials |
-| Next after KAI-001 | KAI-002 (KAI-003 may run early in parallel when deps allow) |
+| **Current executable task** | **KAI-037** segment clip schema/API; KAI-036 DONE |
 | Do not start | **KAI-035** before Gate B |
 
 ### Phase overview (detail in `docs/kaiwa/TASKS.md`)
@@ -38,6 +37,7 @@ Detailed module backlogs live in module files (do not duplicate every row here).
 | Data + media foundation | KAI-005–012 | Schema, storage, jobs, upload, probe/proxy |
 | Transcript + Japanese support | KAI-013–016 | SRT/manual, furigana/romaji/VI, ASR optional |
 | Full-video record / review / export | KAI-017–022 | Continuous capture, takes, MP4 export |
+| **Speakable studio (ADR-019)** | **KAI-036–047** | Segment-default + overlay; assemble; Gate A device |
 | Japanese assessment | KAI-023–029 | Evidence-based scoring (no fake metrics) |
 | Progress / ops / QA / gates | KAI-030–034 | Gate A then Gate B |
 | Later planning only | KAI-035 | Character role-play — after Gate B |

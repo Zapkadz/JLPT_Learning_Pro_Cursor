@@ -326,7 +326,7 @@ Do not create a separate Kaiwa deployable or parallel auth stack. Do not treat p
 ## ADR-011 — Full-video continuous dubbing before character role-play
 
 Date: 2026-09-17
-Status: Accepted
+Status: Accepted — **amended by ADR-019 (2026-09-18)**
 
 ### Context
 
@@ -334,23 +334,27 @@ Both continuous full-video dubbing and single-character role-play were considere
 
 ### Decision
 
-Ship **full-video continuous dubbing** first (Gate A usable product; Gate B validated Japanese feedback). **Character role-play** is Gate C / KAI-035 and must not start before Gate B. While recording, video does **not** auto-stop per sentence; segments are for post-record analysis only.
+Ship **full-video dubbing** first (Gate A usable product; Gate B validated Japanese feedback). **Character role-play** is Gate C / KAI-035 and must not start before Gate B.
+
+**Original (2026-09-17):** While recording, video does not auto-stop per sentence; segments are for post-record analysis only.
+
+**Amendment (ADR-019):** Gate A must also ship an honest **per-segment practice mode** (script overlay + record per line) as the **default learning path**. Continuous mode remains available as advanced/challenge. Do **not** claim a stitched segment take is the same as a continuous take — label `capture_mode` honestly.
 
 ### Reason
 
-User-locked product priority; role-play needs speaker separation and overlap handling that should not delay the core loop.
+User-locked product priority for role-play deferral stands. 2026-09-18 device feedback: continuous studio without on-screen script-at-cue makes speaking impractical.
 
 ### Consequences
 
-KAI-001–034 focus on the continuous dubbing path. Do not reorder the backlog to role-play first.
+KAI-001–034 remain on the dubbing path (not role-play). KAI-036+ implement segment studio before Gate A ACCEPTED.
 
 ### Do Not
 
-Do not require character selection in the Gate A/B flow. Do not fake continuous takes by stitching per-sentence recordings.
+Do not require character selection in the Gate A/B flow. Do not market assembled segment audio as “một lần thu liên tục” without `capture_mode` honesty.
 
 ### Related Files
 
-`docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, `docs/PLAN.md`
+`docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, `docs/PLAN.md`, ADR-019
 
 ---
 
@@ -584,3 +588,43 @@ Do not inject Kaiwa into existing XP entity keys. Do not invent speaking XP from
 ### Related Files
 
 `server/modules/kaiwa/activity.ts`, `docs/kaiwa/TASKS.md` (KAI-030), ADR-008, ADR-015
+
+---
+
+## ADR-019 — Segment practice is default; continuous is advanced (speakable studio)
+
+Date: 2026-09-18
+Status: Accepted (product direction from user device feedback; implementation = KAI-036+)
+
+### Context
+
+Gate A continuous studio (KAI-017–022) works technically, but on-device feedback (2026-09-18) showed learners cannot comfortably speak: script lives in a list **below** the player, not as an on-video cue for the current utterance. User requested a Dub-Stage-style flow: after upload + timed subtitles, **N segments → N short recordings**, with script overlay, replay original / record / replay take / next line.
+
+ADR-011 previously forbade stitching per-sentence recordings to fake a continuous take. That honesty rule remains; the product gap is **learnability**, not role-play (still Gate C).
+
+### Decision
+
+1. **Two capture modes** on the same project/revision/attempt model:
+   - `segment` (default): practice one subtitle window at a time; show JA (+ optional furigana/VI/romaji) overlaid on video for the active clip; controls: nghe mẫu đoạn · thu lại · nghe mình · tiếp / trước · bỏ qua.
+   - `continuous` (advanced): full-video take kept; **must** show live current+next script overlay synced to video clock (not list-only).
+2. **Gate A ACCEPTED** requires device PASS on **segment mode** (speakable path). Continuous-only checklist is insufficient.
+3. **Export / review:** Segment mode may assemble learner audio onto the video timeline (silence or keep original in gaps). Persist `capture_mode` / `assembly` metadata. Never label assembled audio as continuous capture.
+4. **Re-record one segment** without wiping other clips is in scope for segment mode (partially lifts PLAN §3.3 “thu đè một vùng” for this mode only).
+5. **Large scripts (e.g. 90+ lines):** support skip, subset practice, and clear N/M progress — do not force recording all lines in one sitting.
+6. Character role-play remains **KAI-035 / Gate C** after Gate B.
+
+### Reason
+
+Speaking practice fails if the learner cannot see what to say at the cue. Line-by-line matches user mental model and still feeds segment-level assessment (KAI-025–029).
+
+### Consequences
+
+New backlog KAI-036–047. Pause treating KAI-033 continuous device sign-off as the sole Gate A unlock. Update PLAN §1–4, UX-SPEC, USAGE, CHECKLIST. Continuous stack (KAI-018–022) stays; it is not deleted.
+
+### Do Not
+
+Do not start Gate C role-play early. Do not invent pronunciation scores. Do not claim stitched takes are continuous. Do not remove continuous mode without a later ADR.
+
+### Related Files
+
+`docs/kaiwa/PLAN.md`, `docs/kaiwa/TASKS.md`, `docs/kaiwa/evidence/kai-004/UX-SPEC.md`, ADR-011

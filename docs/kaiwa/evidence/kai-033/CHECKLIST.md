@@ -1,9 +1,11 @@
 # Gate A — checklist nghiệm thu (KAI-033)
 
-**Trạng thái tổng:** PENDING device evidence — không đánh dấu Gate A accepted cho đến khi các mục Chrome/Edge Desktop được điền PASS kèm ngày/người chạy.
+**Trạng thái tổng:** PENDING — Gate A ACCEPTED cần **thu theo đoạn (segment)** PASS trên Chrome/Edge (ADR-019 / KAI-045–046). Continuous-only không đủ.
 
-**Phạm vi Gate A:** upload → phụ đề thủ công → prep → thu liên tục → finalize → nghe lại/mix → xuất MP4 → lịch sử → xóa/backup.  
-**Không thuộc Gate A:** chấm phát âm tự động (KAI-015/023–029), XP nói (KAI-030b), đóng vai (KAI-035).
+**Phạm vi Gate A:** upload → phụ đề theo seek → prep → **thu theo đoạn (bắt buộc)** và/hoặc thu liên tục + overlay → finalize/assemble → nghe lại/mix → xuất MP4 → lịch sử → xóa/backup.  
+**Không thuộc Gate A:** chấm phát âm “đạt benchmark”, XP nói (KAI-030b), đóng vai (KAI-035).
+
+**Spec speakable:** `docs/kaiwa/evidence/kai-036/SEGMENT-STUDIO-SPEC.md`
 
 ---
 
@@ -15,37 +17,50 @@
 | Build | `npm run build` | điền: OK / FAIL |
 | Preflight script | `npm run kaiwa:gate-a-preflight` | điền: OK / FAIL |
 | Security suite | `tests/kaiwa/security.test.ts` + KAI-032 REPORT | PASS (automated) |
+| Segment studio implemented | KAI-038–039 DONE | điền: YES / NO |
 
 ---
 
 ## 1. Ma trận môi trường công bố hỗ trợ thu (ADR-015)
 
-| Môi trường | Xem/học | Thu (claim) | Người chạy | Ngày | PASS/FAIL | Ghi chú |
-| --- | --- | --- | --- | --- | --- | --- |
-| Desktop Chrome (Windows) | | **bắt buộc** | | | | |
-| Desktop Edge (Windows) | | **bắt buộc** | | | | |
-| Desktop Chrome (macOS) | | khuyến nghị | | | | |
-| Mobile Safari / Chrome | UI only | **không claim** Gate A | | | | |
+| Môi trường | Xem/học | Thu theo đoạn (claim) | Thu liên tục (nâng cao) | Người chạy | Ngày | PASS/FAIL | Ghi chú |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Desktop Chrome (Windows) | | **bắt buộc** | khuyến nghị | | | | |
+| Desktop Edge (Windows) | | **bắt buộc** | khuyến nghị | | | | |
+| Desktop Chrome (macOS) | | khuyến nghị | khuyến nghị | | | | |
+| Mobile Safari / Chrome | UI only | **không claim** Gate A | **không claim** | | | | |
 
 ---
 
-## 2. Luồng đầy đủ (mỗi môi trường claim thu)
+## 2. Luồng đầy đủ — chế độ theo đoạn (bắt buộc mỗi môi trường claim)
 
-Dùng video ngắn hợp pháp / fixture tự tạo — **không** commit bản thu cá nhân vào git.
+Dùng video ngắn hợp pháp / fixture — **không** commit bản thu cá nhân vào git.
 
-| # | Bước | PASS? | Evidence (ảnh/ghi chú path ngoài repo) |
+| # | Bước | PASS? | Evidence |
 | --- | --- | --- | --- |
 | 1 | Đăng nhập → `/kaiwa` → tải video | | |
 | 2 | Chuẩn bị phát lại (proxy) → xem được Range | | |
-| 3 | Soạn / nhập SRT thủ công → lưu nháp → chuẩn bị học | | |
-| 4 | Mic preflight: quyền, chọn thiết bị, meter, thử thu (không loopback loa) | | |
-| 5 | Countdown → thu liên tục tới EOF (hoặc dừng sớm = partial) | | |
-| 6 | Finalize → chuyển review; audio mic phát được | | |
-| 7 | Mix gốc/giọng mình lưu được; refresh giữ prefs | | |
-| 8 | Xuất MP4 → tải về phát được | | |
-| 9 | Thu lại tạo attempt mới (không đè) | | |
-| 10 | `/kaiwa/history` thấy lần thu; XP thẻ/ngữ pháp không đổi | | |
-| 11 | Xóa dự án → không còn trong thư viện; job liên quan cancelled | | |
+| 3 | Soạn / nhập SRT theo seek → lưu nháp → chuẩn bị học | | |
+| 4 | Mic preflight: quyền, thiết bị, meter, thử thu (không loopback loa) | | |
+| 5 | Studio mặc định **Theo đoạn**; overlay hiện JA đúng clip đang active | | |
+| 6 | Nghe mẫu đoạn → Thu đoạn → Nghe mình → Tiếp (ít nhất 2 đoạn) | | |
+| 7 | Bỏ qua một đoạn; tiến độ N/M phản ánh đúng | | |
+| 8 | Kết thúc / assemble → review; `capture_mode` không ghi continuous giả | | |
+| 9 | Mix gốc/giọng mình; xuất MP4 tải về phát được | | |
+| 10 | Thu lại **một** đoạn không xóa clip khác (khi KAI-042 có) | | |
+| 11 | `/kaiwa/history`; XP thẻ/ngữ pháp không đổi | | |
+| 12 | Xóa dự án → khỏi thư viện; job cancelled | | |
+
+---
+
+## 2b. Luồng liên tục + overlay (khuyến nghị / nâng cao)
+
+| # | Bước | PASS? | Evidence |
+| --- | --- | --- | --- |
+| C1 | Chọn chế độ Liên tục | | |
+| C2 | Khi thu: overlay câu hiện tại (+ kế) đọc được | | |
+| C3 | Không tự dừng theo từng câu; EOF/stop sớm = completed/partial đúng | | |
+| C4 | Finalize → review → export | | |
 
 ---
 
@@ -77,4 +92,4 @@ Dùng video ngắn hợp pháp / fixture tự tạo — **không** commit bản 
 | QA / người chạy thiết bị | | | |
 | PM (chấp nhận Gate A) | | | |
 
-**Gate A accepted chỉ khi:** mục §1 Chrome+Edge Desktop PASS, §2–4 không còn FAIL chặn, và file này + release notes được cập nhật trạng thái ACCEPTED.
+**Gate A accepted chỉ khi:** mục §1 Chrome+Edge **thu theo đoạn** PASS, §2 (segment flow) không còn FAIL chặn, §2b khuyến nghị, §3–4 không FAIL chặn, và file này + release notes = ACCEPTED. Continuous-only không đủ (ADR-019).

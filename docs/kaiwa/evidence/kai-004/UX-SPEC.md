@@ -168,4 +168,17 @@ Update this table only with real evidence (KAI-033 device QA).
 | Loading/empty/error/offline | §6 |
 | Data-loss messaging | §4 table |
 | No role select | §§1, 5.3 |
-| No per-sentence stop | §§1, 4 |
+| No per-sentence stop (**continuous** mode) | §§1, 4 |
+
+---
+
+## 11. Addendum — Segment studio default (ADR-019 / KAI-036)
+
+Date: 2026-09-18
+
+**Supersedes** the “list-only script under video is enough” implication for Gate A speakability.
+
+- **Default capture mode:** per-segment practice with **on-video script overlay** (see `docs/kaiwa/evidence/kai-036/SEGMENT-STUDIO-SPEC.md`).
+- **Continuous mode:** remains advanced; must show live current+next overlay (KAI-041), still no auto-stop per sentence.
+- Studio §5.4 layout: overlay is primary; segment list is secondary status chrome.
+- Gate A ACCEPTED requires segment-mode device PASS (KAI-046), not continuous-only.

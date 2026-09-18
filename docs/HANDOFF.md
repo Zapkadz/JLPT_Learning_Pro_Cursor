@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-09-18 (KAI-029 DONE; automated Gate B stack through UI; KAI-033 device BLOCKED)
+2026-09-18 (KAI-036 DONE; next KAI-037)
 
 ## Current Branch
 
@@ -10,24 +10,24 @@
 
 ## Current Task
 
-**KAI-033** — Gate A device checklist (human). No further independent automated Kaiwa coding without KAI-023 / credentials.
+**KAI-037** — Schema/API: `capture_mode`, segment clip assets, N/M progress, ownership.
 
 ## Exact Next Action
 
-1. Fill `docs/kaiwa/evidence/kai-033/CHECKLIST.md` on Desktop Chrome + Edge.
-2. Collect KAI-023 benchmark/teacher data and/or live speech credentials → unlocks calibrated scores, KAI-030b, KAI-034.
+Implement additive migration + repository/API for per-segment clips on an attempt; tests for ownership and versioning. Then KAI-038 UI.
 
 ## Last Completed
 
-**KAI-029** — Review feedback UI (priorities ≤3, seek, honest null overall score). Evidence: `docs/kaiwa/evidence/kai-029/REPORT.md`. Verify: **100/100**.
+**KAI-036** — Segment studio UX spec (ADR-019). Evidence: `docs/kaiwa/evidence/kai-036/`. USAGE + CHECKLIST + UX-SPEC updated.
 
 ## Blockers
 
-- Gate A device sign-off (human).
-- KAI-023 teacher/benchmark + live ASR/PA credentials for Gate B acceptance.
+- Gate A ACCEPTED waits for KAI-037–046 + device PASS on segment mode.
+- Gate B depth: KAI-023 / speech credentials.
 
 ## Safety
 
 - Do not stage grammar dirty files.
-- Do not mark Gate A ACCEPTED without checklist.
-- Do not invent overall pronunciation scores.
+- Do not claim assembled segment audio is continuous.
+- Do not invent pronunciation scores.
+- Do not start KAI-035 before Gate B.

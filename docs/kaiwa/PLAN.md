@@ -1,12 +1,12 @@
 # Kế hoạch triển khai Kotoba Kaiwa Studio
 
-Ngày lập: 17/09/2026. Trạng thái: kế hoạch triển khai; chưa triển khai module Kaiwa.
+Ngày lập: 17/09/2026. Cập nhật sản phẩm: 18/09/2026 (ADR-019 studio theo đoạn). Module đang triển khai trên nhánh feat/kaiwa-memory.
 
 Đọc cùng [danh sách task](./TASKS.md) và [quy tắc triển khai, cập nhật tiến trình](./IMPLEMENTATION-RULES.md). Tài liệu này là phạm vi triển khai mới nhất, thay các đề xuất thứ tự tính năng trong [bản nghiên cứu](../KAIWA-RESEARCH-AND-PLAN.md).
 
 ## 1. Quyết định sản phẩm
 
-Xây dựng một phòng luyện nói bằng cách **lồng tiếng liên tục cho toàn bộ video người dùng tải lên**. Người học nghe và hiểu lời thoại, chuẩn bị cách đọc, thu giọng từ đầu đến cuối, xem lại video với giọng của mình, nhận phản hồi và luyện lại.
+Xây dựng một phòng luyện nói bằng cách **lồng tiếng video người dùng tải lên**. Người học chuẩn bị lời thoại theo mốc thời gian, nhìn script đúng đoạn đang nói, thu giọng, xem lại với giọng của mình, nhận phản hồi và luyện lại.
 
 Thứ tự đã chốt theo yêu cầu người dùng:
 
@@ -14,7 +14,16 @@ Thứ tự đã chốt theo yêu cầu người dùng:
 2. Sau khi luồng trên ổn định mới triển khai đóng vai một nhân vật.
 3. Hội thoại tự do, multiplayer, nhân bản giọng và các hình thức game khác nằm ngoài đợt này.
 
-“Toàn video” nghĩa là không tự động dừng giữa các câu, không bắt người dùng chọn nhân vật và không ghép các lần thu từng câu để giả lập một lần thu liên tục. Hệ thống có thể chia âm thanh thành đoạn **sau khi thu** để phân tích; thao tác này không làm gián đoạn trải nghiệm thu.
+### 1.1 Hai chế độ thu (ADR-019 — cập nhật 18/09/2026)
+
+Feedback thiết bị thật: thu liên tục mà **không hiện lời thoại đúng đoạn trên video** khiến người học gần như không nói được (script nằm dưới player, xa khỏi điểm nhìn).
+
+| Chế độ | Vai trò sản phẩm | Hành vi |
+| --- | --- | --- |
+| **Theo đoạn** (`segment`) | **Mặc định học** — bắt buộc cho Gate A ACCEPTED | Sau khi soạn phụ đề theo seek: N đoạn → N lần thu ngắn; overlay script trên video; nghe mẫu đoạn / thu / nghe mình / tiếp; có thể bỏ qua hoặc luyện tập con |
+| **Liên tục** (`continuous`) | Nâng cao / thử thách | Thu từ đầu tới EOF không dừng theo câu; **bắt buộc** overlay câu hiện tại + câu kế theo đồng hồ video |
+
+Hệ thống **không** được gọi bản ghép từ nhiều clip đoạn là “một lần thu liên tục”. Mỗi attempt/export ghi `capture_mode` trung thực. Phân tích sau thu vẫn dùng segment timeline (KAI-025+).
 
 Tính năng rèn khả năng nghe, đọc thành tiếng, nhịp và diễn đạt theo mẫu. Không diễn giải điểm lồng tiếng thành chứng nhận năng lực hội thoại tự do hoặc trình độ JLPT.
 
@@ -22,7 +31,7 @@ Tính năng rèn khả năng nghe, đọc thành tiếng, nhịp và diễn đ�
 
 | Mốc | Người dùng làm được gì | Điều kiện hoàn thành |
 | --- | --- | --- |
-| A — Lồng tiếng trọn video | Upload, chuẩn bị phụ đề, bật/tắt trợ giúp, thu liên tục, nghe lại, lưu nhiều lần thu, xuất MP4 | Qua kiểm thử đồng bộ, lưu dữ liệu, lỗi thiết bị, quyền truy cập và xuất video; chấm điểm chưa sẵn sàng phải được ghi rõ |
+| A — Lồng tiếng trọn video | Upload, phụ đề theo seek, **thu theo đoạn (mặc định)** và/hoặc thu liên tục (nâng cao), nghe lại, xuất MP4 | Device PASS chế độ **theo đoạn**; đồng bộ/lưu/xuất; chấm điểm chưa sẵn sàng ghi rõ; `capture_mode` trung thực |
 | B — Phản hồi học tập hoàn chỉnh | Có phản hồi phát âm, nhịp và ngữ điệu đủ tin cậy; biết đoạn nào cần sửa và nghe so sánh | Qua bộ đánh giá tiếng Nhật, có giáo viên kiểm tra; số liệu không đủ thì trả “chưa đánh giá được”; đây mới là mốc hoàn thành phạm vi hiện tại |
 | C — Đóng vai một nhân vật | Chọn nhân vật, giữ lời các vai còn lại, thu phần của mình | Lập kế hoạch riêng sau B; cần giải quyết tách người nói, lời chồng lấn và âm thanh nền |
 
@@ -36,8 +45,9 @@ Mốc A là bước bàn giao có thể sử dụng thực tế, không được
 - Upload video từ máy, kiểm tra định dạng thực, dung lượng và thời lượng; có tiến trình, hủy và thử lại.
 - Nhập SRT/VTT hoặc nhập lời thoại thủ công; sửa câu và mốc thời gian, tách/gộp đoạn.
 - Furigana, dịch Việt, romaji là ba lớp hiển thị độc lập, có thể sửa nội dung tự động tạo.
-- Phòng thu: xem trước, nghe mẫu, thử micro, đếm ngược, thu liên tục ở tốc độ 1×.
-- Bản thu tách riêng âm thanh micro và video nguồn; ghi nhận các mốc đồng bộ.
+- Phòng thu **theo đoạn (mặc định)**: overlay script đúng clip; nghe mẫu đoạn; thu từng đoạn; nghe lại take; tiến/lùi/bỏ qua; tiến độ N/M (KAI-036+).
+- Phòng thu **liên tục (nâng cao)**: đếm ngược, thu 1× tới EOF; **overlay** câu hiện tại + câu kế (không chỉ danh sách dưới video).
+- Bản thu tách riêng âm thanh micro và video nguồn; ghi nhận các mốc đồng bộ và `capture_mode`.
 - Nghe lại toàn video; đổi âm lượng giọng mình và tiếng gốc; nghe A/B tại đoạn cần sửa.
 - Lưu nhiều lần thu; người dùng chọn bản muốn giữ hoặc xuất; không tự xóa bản cũ khi thu lại.
 - Xuất MP4 có giọng người học theo cấu hình âm lượng đã chọn; mặc định không đốt phụ đề vào video.
@@ -52,7 +62,7 @@ Mốc A là bước bàn giao có thể sử dụng thực tế, không được
 
 ### 3.3 Hoãn rõ ràng
 
-Đóng vai; tách sạch lời khỏi nhạc bằng AI; nhận diện nhân vật tự động; sửa/thu đè một vùng giữa bản thu; pause/resume liền mạch trong cùng take; dub ở tốc độ khác 1×; OCR phụ đề đóng cứng; nhập bằng URL; bảng xếp hạng công khai; chia sẻ cộng đồng; hội thoại AI tự do; clone giọng. Nghe chậm khi chuẩn bị có thể hỗ trợ, nhưng khi bắt đầu thu phải quay về 1×.
+Đóng vai; tách sạch lời khỏi nhạc bằng AI; nhận diện nhân vật tự động; pause/resume liền mạch trong **cùng continuous take**; dub ở tốc độ khác 1×; OCR phụ đề đóng cứng; nhập bằng URL; bảng xếp hạng công khai; chia sẻ cộng đồng; hội thoại AI tự do; clone giọng. **Thu đè lại một đoạn trong chế độ segment** thuộc phạm vi Gate A (KAI-042), không phải Gate C. Nghe chậm khi chuẩn bị có thể hỗ trợ, nhưng khi đang thu phải 1×.
 
 ### 3.4 Giới hạn pilot đề xuất
 
@@ -65,7 +75,7 @@ Mốc A là bước bàn giao có thể sử dụng thực tế, không được
 
 ### 4.1 Luồng chính
 
-Thư viện → tải video → xử lý media → chuẩn bị lời thoại và bản dịch → nghe thử → kiểm tra micro → đếm ngược → thu hết video → lưu bản thu → nghe lại → phân tích → sửa lỗi/luyện lại → xuất MP4.
+Thư viện → tải video → xử lý media → chuẩn bị lời thoại theo seek → chọn chế độ (mặc định theo đoạn) → kiểm tra micro → thu từng đoạn (hoặc thu liên tục nâng cao) → ghép/lưu bản thu → nghe lại → phân tích → sửa lỗi/luyện lại đoạn → xuất MP4.
 
 Phân tích và xuất video là hai job độc lập. Provider chấm điểm bị lỗi không làm mất bản thu và không chặn xuất video.
 
@@ -77,7 +87,7 @@ Phân tích và xuất video là hai job độc lập. Provider chấm điểm b
 | `/kaiwa/new` | Upload; giới hạn; tiến trình; hủy/thử lại |
 | `/kaiwa/projects/:id/edit` | Video, danh sách câu, editor thời gian, nhập SRT/VTT, sửa tiếng Nhật/cách đọc/dịch Việt |
 | `/kaiwa/projects/:id` | Tổng quan video; lời thoại đã duyệt; trợ giúp; bắt đầu luyện |
-| `/kaiwa/projects/:id/studio` | Phòng thu; video lớn; câu hiện tại/câu kế tiếp; trạng thái micro, lưu dữ liệu và thời gian |
+| `/kaiwa/projects/:id/studio` | Phòng thu; chọn mode; video + **overlay script**; theo đoạn: clip N/M + waveform/controls; liên tục: thu EOF + overlay live |
 | `/kaiwa/attempts/:id` | Xem lại; trộn âm lượng; lỗi theo thời điểm; bản thu trước; xuất video |
 | `/kaiwa/history` | Lịch sử theo ngày/video; thời gian nói; lần luyện; tình trạng đánh giá |
 
@@ -86,8 +96,10 @@ Kế thừa navigation, typography, màu, form và xác thực của Kotoba. Kh�
 ### 4.3 Quy tắc UX quan trọng
 
 - Furigana mặc định bật, romaji mặc định tắt; dịch Việt bật/tắt độc lập. Nhớ lựa chọn theo tài khoản, không gắn cứng vào nội dung.
-- Khi đang thu: khóa tua và đổi tốc độ; không tự cuộn làm che video; có chỉ báo đang thu và hành động kết thúc rõ ràng.
-- Nếu người dùng dừng sớm, lưu thành bản thu chưa hoàn tất khi dữ liệu hợp lệ. Không báo “đã lồng tiếng xong toàn video”.
+- **Script phải đọc được tại điểm nói:** overlay trên/near video cho đoạn đang active; danh sách phụ dưới video không đủ cho Gate A speakable.
+- Chế độ theo đoạn: tua trong cửa sổ clip được phép để nghe mẫu; khi đang Record clip thì khóa rate = 1×; không nhảy clip khác giữa chừng trừ khi hủy.
+- Chế độ liên tục khi đang thu: khóa tua và đổi tốc độ; không tự cuộn làm che video; có chỉ báo đang thu và hành động kết thúc rõ ràng.
+- Nếu người dùng dừng sớm / chưa thu đủ N đoạn, lưu thành bản thu chưa hoàn tất khi dữ liệu hợp lệ. Không báo “đã lồng tiếng xong toàn video”.
 - Mất micro, video đứng, chuyển nền hoặc mất khả năng đồng bộ: kết thúc an toàn với lý do cụ thể. Không tiếp tục âm thầm rồi tạo bản thu lệch.
 - Mất mạng: tiếp tục chỉ khi bộ đệm cục bộ còn an toàn; hiển thị chưa đồng bộ. Đầy bộ đệm phải dừng có kiểm soát.
 - Bản thu đã nhận trên server, bản còn trên thiết bị và bản đã xử lý xong là ba trạng thái khác nhau.
@@ -267,12 +279,13 @@ Các con số sau là mục tiêu ban đầu cần KAI-002/KAI-004 xác nhận, 
 1. Chốt hợp đồng và kiểm chứng rủi ro: KAI-001–004.
 2. Nền tảng dữ liệu/media: KAI-005–012; hoàn thành vertical slice upload → playback sớm.
 3. Chuẩn bị nội dung: KAI-013–016; provider tự động không chặn đường nhập tay.
-4. Phòng thu, bản thu và xuất video: KAI-017–022.
+4. Phòng thu liên tục + xuất (đã có): KAI-017–022.
+4b. **Studio theo đoạn + overlay (ADR-019):** KAI-036–047 — ưu tiên trước khi Gate A ACCEPTED.
 5. Nhánh chấm điểm: KAI-023–029 dựa vào kết quả nghiên cứu, bắt đầu benchmark sớm để tránh dồn cuối.
-6. Tiến độ, vận hành, kiểm thử và bàn giao: KAI-030–034.
+6. Tiến độ, vận hành, kiểm thử và bàn giao: KAI-030–034 (CHECKLIST cập nhật mode segment).
 7. Chỉ sau B mới lập chi tiết vai nhân vật: KAI-035.
 
-Đường găng mốc A: quyết định capture → lưu trữ/job → upload/proxy → recorder/journal → finalize/review → export → restore/security/device QA. Đường găng mốc B: rubric và dữ liệu → ground truth → alignment/quality → pronunciation/prosody → hiệu chỉnh → đánh giá giữ lại.
+Đường găng mốc A (cập nhật): … → continuous stack → **segment studio speakable** → device QA cả hai mode (segment bắt buộc) → Gate A ACCEPTED. Đường găng mốc B: rubric và dữ liệu → ground truth → alignment/quality → pronunciation/prosody → hiệu chỉnh → đánh giá giữ lại.
 
 Ước lượng lịch chỉ nên chốt sau spike capture và thử engine. Tách công sức phát triển, kiểm thử thiết bị, thời gian biên soạn/duyệt tiếng Nhật và thời gian chờ quyền truy cập dịch vụ; không gộp chúng thành một lời hứa “làm xong trong vài ngày”.
 
